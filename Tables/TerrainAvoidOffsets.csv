@@ -1,0 +1,3 @@
+.word 0,Offset
+TerrainAvoidGround,aTerrainAvoid.GroundTerrainAvoidEntry - aTerrainAvoidOffsets
+TerrainAvoidFlying,aTerrainAvoid.FlyingTerrainAvoidEntry - aTerrainAvoidOffsets

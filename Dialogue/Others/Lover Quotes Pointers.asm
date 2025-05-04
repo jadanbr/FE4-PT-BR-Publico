@@ -1,0 +1,144 @@
+;	Gen 1 units - Entering
+
+* = $CEEE8
+.logical $CEEE8
+
+.long dialogueLoverSigurd_Entering
+.long dialogueLoverNaoise_Entering
+.long dialogueLoverAlec_Entering
+.long dialogueLoverArden_Entering
+.long dialogueLoverYoungFinn_Entering
+.long dialogueLoverQuan_Entering
+.long dialogueLoverMidir_Entering
+.long dialogueLoverLewyn_Entering
+.long dialogueLoverChulainn_Entering
+.long dialogueLoverAzelle_Entering
+.long dialogueLoverJamke_Entering
+.long dialogueLoverClaud_Entering
+.long dialogueLoverBeowolf_Entering
+.long dialogueLoverLex_Entering
+.long dialogueLoverDew_Entering
+.long dialogueLoverDeirdre_Entering
+.long dialogueLoverEthlyn_Entering
+.long dialogueLoverLachesis_Entering
+.long dialogueLoverAyra_Entering
+.long dialogueLoverErinys_Entering
+.long dialogueLoverTailtiu_Entering
+.long dialogueLoverSilvia_Entering
+.long dialogueLoverEdain_Entering
+.long dialogueLoverBrigid_Entering
+
+;	Gen 2 units - Entering
+
+.long dialogueLoverSeliph_Entering
+.long dialogueLoverShannan_Entering
+.long dialogueLoverDalvin_Entering
+.long dialogueLoverAsaello_Entering
+.long dialogueLoverLeif_Entering
+.long dialogueLoverIuchar_Entering
+.long dialogueLoverCharlot_Entering
+.long dialogueLoverHawk_Entering
+.long dialogueLoverTristan_Entering
+.long dialogueLoverAdultFinn_Entering
+.long dialogueLoverDeimne_Entering
+.long dialogueLoverHannibal_Entering
+.long dialogueLoverAres_Entering
+.long dialogueLoverAmid_Entering
+.long dialogueLoverOldOifey_Entering
+.long dialogueLoverDaisy_Entering
+.long dialogueLoverCreidne_Entering
+.long dialogueLoverMuirne_Entering
+.long dialogueLoverJulia_Entering
+.long dialogueLoverAltena_Entering
+.long dialogueLoverHermina_Entering
+.long dialogueLoverLinda_Entering
+.long dialogueLoverLaylea_Entering
+.long dialogueLoverJeanne_Entering
+.long dialogueLoverIucharba_Entering
+.long dialogueLoverScathach_Entering
+.long dialogueLoverFebail_Entering
+.long dialogueLoverCoirpre_Entering
+.long dialogueLoverCed_Entering
+.long dialogueLoverDiarmuid_Entering
+.long dialogueLoverLester_Entering
+.long dialogueLoverArthur_Entering
+.long dialogueLoverPatty_Entering
+.long dialogueLoverLarcei_Entering
+.long dialogueLoverLana_Entering
+.long dialogueLoverFee_Entering
+.long dialogueLoverTine_Entering
+.long dialogueLoverLene_Entering
+.long dialogueLoverNanna_Entering
+
+;	Gen 1 units - Welcoming
+
+.long dialogueLoverSigurd_Welcoming1
+.long dialogueLoverSigurd_Welcoming2
+.long dialogueLoverNaoise_Welcoming
+.long dialogueLoverAlec_Welcoming
+.long dialogueLoverArden_Welcoming
+.long dialogueLoverYoungFinn_Welcoming
+.long dialogueLoverQuan_Welcoming
+.long dialogueLoverMidir_Welcoming
+.long dialogueLoverLewyn_Welcoming
+.long dialogueLoverChulainn_Welcoming
+.long dialogueLoverAzelle_Welcoming
+.long dialogueLoverJamke_Welcoming
+.long dialogueLoverClaud_Welcoming
+.long dialogueLoverBeowolf_Welcoming
+.long dialogueLoverLex_Welcoming
+.long dialogueLoverDew_Welcoming
+.long dialogueLoverDeirdre_Welcoming
+.long dialogueLoverEthlyn_Welcoming
+.long dialogueLoverLachesis_Welcoming
+.long dialogueLoverAyra_Welcoming
+.long dialogueLoverErinys_Welcoming
+.long dialogueLoverTailtiu_Welcoming
+.long dialogueLoverSilvia_Welcoming
+.long dialogueLoverEdain_Welcoming
+.long dialogueLoverBrigid_Welcoming
+
+;	Gen 2 units - Welcoming
+
+.long dialogueLoverSeliph_Welcoming
+.long dialogueLoverShannan_Welcoming
+.long dialogueLoverDalvin_Welcoming
+.long dialogueLoverAsaello_Welcoming
+.long dialogueLoverLeif_Welcoming
+.long dialogueLoverIuchar_Welcoming
+.long dialogueLoverCharlot_Welcoming
+.long dialogueLoverHawk_Welcoming
+.long dialogueLoverTristan_Welcoming
+.long dialogueLoverAdultFinn_Welcoming
+.long dialogueLoverDeimne_Welcoming
+.long dialogueLoverHannibal_Welcoming
+.long dialogueLoverAres_Welcoming
+.long dialogueLoverAmid_Welcoming
+.long dialogueLoverOldOifey_Welcoming
+.long dialogueLoverDaisy_Welcoming
+.long dialogueLoverCreidne_Welcoming
+.long dialogueLoverMuirne_Welcoming
+.long dialogueLoverJulia_Welcoming
+.long dialogueLoverAltena_Welcoming
+.long dialogueLoverHermina_Welcoming
+.long dialogueLoverLinda_Welcoming
+.long dialogueLoverLaylea_Welcoming
+.long dialogueLoverJeanne_Welcoming
+.long dialogueLoverIucharba_Welcoming
+.long dialogueLoverScathach_Welcoming
+.long dialogueLoverFebail_Welcoming
+.long dialogueLoverCoirpre_Welcoming
+.long dialogueLoverCed_Welcoming
+.long dialogueLoverDiarmuid_Welcoming
+.long dialogueLoverLester_Welcoming
+.long dialogueLoverArthur_Welcoming
+.long dialogueLoverPatty_Welcoming
+.long dialogueLoverLarcei_Welcoming
+.long dialogueLoverLana_Welcoming
+.long dialogueLoverFee_Welcoming
+.long dialogueLoverTine_Welcoming
+.long dialogueLoverLene_Welcoming
+.long dialogueLoverNanna_Welcoming
+
+.here
+

@@ -1,0 +1,14 @@
+.structAncestryDataEntry 0,BoostedWeaponRank,HolyWeapon,HPGrowth,StrGrowth,MagGrowth,SklGrowth,SpdGrowth,DefGrowth,ResGrowth,LuckGrowth,StrBoost,MagBoost,SklBoost,SpdBoost,DefBoost,ResBoost
+BaldrAncestry,WeaponTypeSword,Tyrfing,20,10,0,10,0,0,0,10,0,0,10,10,0,20
+NagaAncestry,WeaponTypeLight,Naga,10,0,20,0,0,0,20,0,0,0,20,20,20,20
+DainnAncestry,WeaponTypeLance,Gungnir,20,0,0,0,30,0,0,0,10,0,0,10,10,0
+NjorunAncestry,WeaponTypeLance,GaeBolg,20,10,0,0,10,10,0,0,10,0,10,0,10,0
+OdAncestry,WeaponTypeSword,Balmung,20,0,0,30,0,0,0,0,0,0,10,20,0,0
+UllrAncestry,WeaponTypeBow,Yewfelle,20,0,0,0,0,0,0,30,10,0,0,10,0,0
+NalAncestry,WeaponTypeAxe,Helswath,20,0,0,0,0,30,0,0,0,0,0,0,20,10
+FjalarAncestry,WeaponTypeFire,Valflame,20,0,30,0,0,0,0,0,0,10,0,0,10,10
+ThrudAncestry,WeaponTypeThunder,Mjolnir,20,0,0,30,0,0,0,0,0,0,20,10,0,0
+ForsetiAncestry,WeaponTypeWind,Forseti,20,0,0,0,30,0,0,0,0,0,10,20,0,0
+BragiAncestry,WeaponTypeStaff,ValkyrieStaff,10,0,10,0,0,0,20,10,0,0,0,0,0,0
+HothrAncestry,WeaponTypeSword,Mystletainn,20,30,0,0,0,0,0,0,0,0,20,0,0,10
+LoptousAncestry,WeaponTypeDark,Loptous,10,0,20,0,0,0,20,0,0,0,0,0,0,5

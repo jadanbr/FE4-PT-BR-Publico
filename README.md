@@ -43,12 +43,12 @@ Folder overview
 
 `Dialogue` holds all the dialogue from Lil' Nordion. Dialogue text editing is accessible to most anyone, and you can find an informal tutorial in the documentation folders which helps with the work flow and the quirks of the system.
 
+`Documentation` holds some documentation and ressources that might help with specific editing tasks. It is incomplete and very much a work-in-progress.
+
 `Fixes` holds code for the various bugfixes that do not fit into any other folder. At the moment, it's just the fix for the Jealousy glitch.
 
 `Graphics` holds a small portion of the game's graphics, including the intro reel, attract mode, genealogy wheel, world map, map movement sprites, and most of the textual interface.
 Anything that requires translation is located there, including the dialogue font.
-
-`Doc` holds some documentation that might help with specific editing tasks. It is incomplete and very much a work-in-progress.
 
 `LIB` is a library, required to build the tables, then the various ASM code and Events when those get included.
 

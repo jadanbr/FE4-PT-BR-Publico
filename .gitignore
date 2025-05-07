@@ -8,10 +8,8 @@ TO DO LNBF.txt
 labels.txt
 log.txt
 
-MenuText/textformatter/output/*.2bpp
-text_menus/textformatter/output/*.asm
-text_menus/textformatter/output/*.bin
-text_menus/textformatter/output/*.png
+Documentation/Graphics/WIP
+Documentation/World Map/World Map editing.odt
 
 tools/64tass/syntax/
 tools/64tass/*.exe

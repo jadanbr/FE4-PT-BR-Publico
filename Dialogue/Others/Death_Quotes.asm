@@ -2152,7 +2152,7 @@ dialogueDeathReptor_BeforeVelthomerTurns
 	.word portrait_Reptor2
 
 	.byte StartText
-.text	"Guhhh... A"
+.text	"Guhhh..."
 	.byte NewLine
 .text	"N-No way..."
 	.word PauseText

@@ -12,7 +12,7 @@ dialogueIntro1
 	.word portrait_Edain
 	
 	.byte LeftSlot
-	.byte StartText 
+	.byte StartText
 .text	"Milady, the castle is completely surrounded!"
 	.byte NewLine
 .text	"We've failed you..."

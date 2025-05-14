@@ -14,7 +14,7 @@ chronology_tilemap
 ; Second line is the pointer
 ; Third line gets incremented by $008003 for a new line, or $010003 for a line skip
 
-;	The Kingdom of Gramm is born
+;	The Kingdom of Grann is born
 .word $0220
 .long $460000
 .byte $00

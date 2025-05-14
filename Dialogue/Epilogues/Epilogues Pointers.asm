@@ -9,8 +9,10 @@
 .logical $32D07F
 .long dialogueEpiloguesIsaach_End_OneCharacter
 .long dialogueEpiloguesIsaach_End_MultipleCharacters
+
 .long dialogueEpiloguesNewThracia_End_LeifOrAltenaAlive_OneCharacter
 .long dialogueEpiloguesNewThracia_End_LeifOrAltenaAlive_MultipleCharacters
+
 .long dialogueEpiloguesAgustria_End_OneCharacter
 .long dialogueEpiloguesAgustria_End_MultipleCharacters
 
@@ -27,204 +29,299 @@
 * = $32d0c1
 .logical $32d0c1
 
-;	Belhalla
+; Belhalla
 
+;	Seliph
 .long dialogueEpiloguesBelhalla_Seliph_JuliaDead_Single
 .long dialogueEpiloguesBelhalla_Seliph_JuliaDead_Married
 .long dialogueEpiloguesBelhalla_Seliph_JuliaAlive_Single
 .long dialogueEpiloguesBelhalla_Seliph_JuliaAlive_Married
 
-;	Isaach
 
+; Isaach
+
+;	Shannan
 .long dialogueEpiloguesIsaach_Shannan_Single
 .long dialogueEpiloguesIsaach_Shannan_Married
+
+;	Scathach
 .long dialogueEpiloguesIsaach_Scathach_InheritsThrone_Single
 .long dialogueEpiloguesIsaach_Scathach_InheritsThrone_Married
 .long dialogueEpiloguesIsaach_Scathach_NoThrone_Single
 .long dialogueEpiloguesIsaach_Scathach_NoThrone_Married
+
+;	Dalvin
 .long dialogueEpiloguesIsaach_Dalvin_ShannanDead_Single
 .long dialogueEpiloguesIsaach_Dalvin_ShannanDead_Married
 .long dialogueEpiloguesIsaach_Dalvin_ShannanAlive_Single
 .long dialogueEpiloguesIsaach_Dalvin_ShannanAlive_Married
+
+;	Larcei
 .long dialogueEpiloguesIsaach_Larcei_InheritsThrone			;
 .long dialogueEpiloguesIsaach_Larcei_InheritsThrone			; Repeat
 .long dialogueEpiloguesIsaach_LarceiCreidne_NoThrone_LoverDead			;
 .long dialogueEpiloguesIsaach_Larcei_NoThrone_ScathachDead_Single
 .long dialogueEpiloguesIsaach_LarceiCreidne_ScathachAlive_Single				;
+
+;	Creidne
 .long dialogueEpiloguesIsaach_LarceiCreidne_NoThrone_LoverDead_Repeat	; Different pointer, actual repeat
 .long dialogueEpiloguesIsaach_Creidne_DalvinDead_Single
 .long dialogueEpiloguesIsaach_LarceiCreidne_ScathachAlive_Single_Repeat			; Different pointer, actual repeat
+
+;	Deimne
 .long dialogueEpiloguesIsaach_Deimne_MuirneDead_Single
 .long dialogueEpiloguesIsaach_Deimne_MuirneDead_Married
 .long dialogueEpiloguesIsaach_Deimne_MuirneAlive_Single
 .long dialogueEpiloguesIsaach_Deimne_MuirneAlive_Married
+
+;	Muirne
 .long dialogueEpiloguesIsaach_Muirne_DeimneAlive_LoverDead
 .long dialogueEpiloguesIsaach_Muirne_DeimneDead_Single
 .long dialogueEpiloguesIsaach_Muirne_DeimneAlive_Single
 
-;	New Thracia
 
+; New Thracia
+
+;	Leif
 .long dialogueEpiloguesNewThracia_Leif_AltenaDead_Single
 .long dialogueEpiloguesNewThracia_Leif_AltenaDead_Married
 .long dialogueEpiloguesNewThracia_Leif_AltenaAlive_Single
 .long dialogueEpiloguesNewThracia_Leif_AltenaAlive_Married
+
+;	Altena
 .long dialogueEpiloguesNewThracia_Altena_LeifDead_ArionDead
 .long dialogueEpiloguesNewThracia_Altena_LeifDead_ArionAlive
 .long dialogueEpiloguesNewThracia_Altena_LeifAlive_ArionDead
 .long dialogueEpiloguesNewThracia_Altena_LeifAlive_ArionAlive
+
+;	Finn
 .long dialogueEpiloguesNewThracia_Finn_LeifDead		;
 .long dialogueEpiloguesNewThracia_Finn_LeifDead		; Repeat
 .long dialogueEpiloguesNewThracia_Finn_LeifAlive		;
 .long dialogueEpiloguesNewThracia_Finn_LeifAlive		; Repeat
+
+;	Hannibal
 .long dialogueEpiloguesNewThracia_Hannibal_CharlotDead
 .long dialogueEpiloguesNewThracia_Hannibal_CoirpreCharlotAlive			;
 .long dialogueEpiloguesNewThracia_Hannibal_CoirpreDead
 .long dialogueEpiloguesNewThracia_Hannibal_CoirpreCharlotAlive_Repeat	; Different pointer, actual repeat
+
+;	Coirpre
 .long dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalDead_Single		;
 .long dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalDead_Married			;
 .long dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_Single				;
 .long dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_Married					;
+
+;	Charlot
 .long dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalDead_Single		; Repeat
 .long dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalDead_Married			; Repeat
 .long dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_Single				; Repeat
 .long dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_Married					; Repeat
+
+;	Asaello
 .long dialogueEpiloguesNewThracia_Asaello_DaisyDead_Single
 .long dialogueEpiloguesNewThracia_Asaello_DaisyDead_Married
 .long dialogueEpiloguesNewThracia_Asaello_DaisyAlive_Single
 .long dialogueEpiloguesNewThracia_Asaello_DaisyAlive_Married
+
+;	Daisy
 .long dialogueEpiloguesNewThracia_Daisy_LoverDead
 .long dialogueEpiloguesNewThracia_Daisy_AsaelloDead_Single
 .long dialogueEpiloguesNewThracia_Daisy_AsaelloAlive_Single
 
-;	Agustria
 
+; Agustria
+
+;	Ares
 .long dialogueEpiloguesAgustria_Ares_Single
 .long dialogueEpiloguesAgustria_Ares_Married
-.long dialogueEpiloguesAgustria_Lene_NonAresLoverDead	;
-.long dialogueEpiloguesAgustria_Lene_AresLoverDead	;
-.long dialogueEpiloguesAgustria_Lene_Single		;
-.long dialogueEpiloguesAgustria_Lene_NonAresLoverDead	; Repeat
-.long dialogueEpiloguesAgustria_Lene_AresLoverDead	; Repeat
-.long dialogueEpiloguesAgustria_Lene_Single		; Repeat
+
+;	Lene
+.long dialogueEpiloguesAgustria_LeneLaylea_NonAresLoverDead	;
+.long dialogueEpiloguesAgustria_LeneLaylea_AresLoverDead	;
+.long dialogueEpiloguesAgustria_LeneLaylea_Single		;
+
+;	Laylea
+.long dialogueEpiloguesAgustria_LeneLaylea_NonAresLoverDead	; Repeat
+.long dialogueEpiloguesAgustria_LeneLaylea_AresLoverDead	; Repeat
+.long dialogueEpiloguesAgustria_LeneLaylea_Single		; Repeat
+
+;	Diarmuid
 .long dialogueEpiloguesAgustria_Diarmuid_AresDead_Single
 .long dialogueEpiloguesAgustria_Diarmuid_AresDead_Married
 .long dialogueEpiloguesAgustria_Diarmuid_AresAlive_Single
 .long dialogueEpiloguesAgustria_Diarmuid_AresAlive_Married
+
+;	Tristan
 .long dialogueEpiloguesAgustria_Tristan_AresDead_Single
 .long dialogueEpiloguesAgustria_Tristan_AresDead_Married
 .long dialogueEpiloguesAgustria_Tristan_AresAlive_Single
 .long dialogueEpiloguesAgustria_Tristan_AresAlive_Married
+
+;	Nanna
 .long dialogueEpiloguesAgustria_Nanna_InheritsThrone		;
 .long dialogueEpiloguesAgustria_Nanna_InheritsThrone		; Repeat
 .long dialogueEpiloguesAgustria_Nanna_LoverDead
 .long dialogueEpiloguesAgustria_Nanna_DiarmuidDead_Single
 .long dialogueEpiloguesAgustria_Nanna_DiarmuidAlive_Single
+
+;	Jeanne
 .long dialogueEpiloguesAgustria_Jeanne_LoverDead
 .long dialogueEpiloguesAgustria_Jeanne_TristanDead_Single
 .long dialogueEpiloguesAgustria_Jeanne_TristanAlive
 
-;	Verdane
 
+; Verdane
+
+;	Jamke's son
 .long dialogueEpiloguesVerdane_JamkesSon_Single			;
 .long dialogueEpiloguesVerdane_JamkesSon_Married
 .long dialogueEpiloguesVerdane_JamkesSon_Single_Repeat	; Different pointer, actual repeat
 .long dialogueEpiloguesVerdane_JamkesSon_Single_Repeat	; Different pointer, actual repeat
+
+;	Jamke's daughter
 .long dialogueEpiloguesVerdane_JamkesDaughter_Single
 .long dialogueEpiloguesVerdane_JamkesDaughter_LoverDead
 
-;	Yngvi
 
+; Yngvi
+
+;	Febail
 .long dialogueEpiloguesYngvi_Febail_NoOtherThrone_Single
 .long dialogueEpiloguesYngvi_Febail_NoOtherThrone_Married
+
+;	Patty
 .long dialogueEpiloguesYngvi_Patty_InheritsThrone			;
 .long dialogueEpiloguesYngvi_Patty_InheritsThrone			; Repeat
 .long dialogueEpiloguesYngvi_Patty_FebailAlive_Single
 .long dialogueEpiloguesYngvi_Patty_FebailAlive_LoverDead
+
+;	Lester
 .long dialogueEpiloguesYngvi_Lester_InheritsThrone_Single
 .long dialogueEpiloguesYngvi_Lester_InheritsThrone_Married
 .long dialogueEpiloguesYngvi_Lester_NoThrone_Single
 .long dialogueEpiloguesYngvi_Lester_NoThrone_Married
+
+;	Lana
 .long dialogueEpiloguesYngvi_Lana_InheritsThrone		;
 .long dialogueEpiloguesYngvi_Lana_InheritsThrone		; Repeat
 .long dialogueEpiloguesYngvi_Lana_LoverDead
 .long dialogueEpiloguesYngvi_Lana_LesterDead_Single
 .long dialogueEpiloguesYngvi_Lana_LesterAlive_Single
 
-;	Friege
 
+; Friege
+
+;	Arthur
 .long dialogueEpiloguesFriege_ArthurAmid_Single		;
 .long dialogueEpiloguesFriege_ArthurAmid_Married		;
+
+;	Amid
 .long dialogueEpiloguesFriege_ArthurAmid_Single		; Repeat
 .long dialogueEpiloguesFriege_ArthurAmid_Married		; Repeat
+
+;	Tine
 .long dialogueEpiloguesFriege_TineLinda_InheritsThrone		;
 .long dialogueEpiloguesFriege_TineLinda_InheritsThrone		; Repeat
 .long dialogueEpiloguesFriege_TineLinda_ArthurAmidAlive_Single		;
 .long dialogueEpiloguesFriege_TineLinda_ArthurAmidAlive_LoverDead		;
+
+;	Linda
 .long dialogueEpiloguesFriege_TineLinda_InheritsThrone		; Repeat
 .long dialogueEpiloguesFriege_TineLinda_InheritsThrone		; Repeat
 .long dialogueEpiloguesFriege_TineLinda_ArthurAmidAlive_Single		; Repeat
 .long dialogueEpiloguesFriege_TineLinda_ArthurAmidAlive_LoverDead		; Repeat
 
-;	Dozel
 
+; Dozel
+
+;	Lex's son
 .long dialogueEpiloguesDozel_LexsSon_InheritsThrone_Single
 .long dialogueEpiloguesDozel_LexsSon_InheritsThrone_Married
+
+;	Lex's daughter
 .long dialogueEpiloguesDozel_LexsDaughter_InheritsThrone	;
 .long dialogueEpiloguesDozel_LexsDaughter_InheritsThrone	; Repeat
 .long dialogueEpiloguesDozel_LexsDaughter_NoThrone_Single
 .long dialogueEpiloguesDozel_LexsDaughter_NoThrone_LoverDead
+
+;	Iuchar
 .long dialogueEpiloguesDozel_Iuchar_Single	;
 .long dialogueEpiloguesDozel_Iuchar_Married		;
 .long dialogueEpiloguesDozel_Iuchar_Single	; Repeat
 .long dialogueEpiloguesDozel_Iuchar_Married		; Repeat
+
+;	Iucharba
 .long dialogueEpiloguesDozel_Iucharba_Single		;
 .long dialogueEpiloguesDozel_Iucharba_Married			;
 .long dialogueEpiloguesDozel_Iucharba_Single		; Repeat
 .long dialogueEpiloguesDozel_Iucharba_Married			; Repeat
 
-;	Edda
 
+; Edda
+
+;	Claud's son
 .long dialogueEpiloguesEdda_ClaudsSon_Single
 .long dialogueEpiloguesEdda_ClaudsSon_Married
+
+;	Claud's daughter
 .long dialogueEpiloguesEdda_ClaudsDaughter_InheritsThrone	;
 .long dialogueEpiloguesEdda_ClaudsDaughter_InheritsThrone	; Repeat
 .long dialogueEpiloguesEdda_ClaudsDaughter_NoThrone_Single
 .long dialogueEpiloguesEdda_ClaudsDaughter_NoThrone_LoverDead
 
-;	Velthomer
 
+; Velthomer
+
+;	Azelle's son
 .long dialogueEpiloguesVelthomer_AzellesSon_Single
 .long dialogueEpiloguesVelthomer_AzellesSon_Married
+
+;	Azelle's daughter
 .long dialogueEpiloguesVelthomer_AzellesDaughter_InheritsThrone	;
 .long dialogueEpiloguesVelthomer_AzellesDaughter_InheritsThrone	; Repeat
 .long dialogueEpiloguesVelthomer_AzellesDaughter_NoThrone_Single
 .long dialogueEpiloguesVelthomer_AzellesDaughter_NoThrone_LoverDead
 
-;	Chalphy
 
+; Chalphy
+
+;	Oifey
 .long dialogueEpiloguesChalphy_Oifey_Single
 .long dialogueEpiloguesChalphy_Oifey_Married
 
-;	Silesse
 
+; Silesse
+
+;	Ced
 .long dialogueEpiloguesSilesse_CedHawk_NoThrone_Single	;
 .long dialogueEpiloguesSilesse_CedHawk_NoThrone_Married	;
+
+;	Hawk
 .long dialogueEpiloguesSilesse_CedHawk_NoThrone_Single	; Repeat
 .long dialogueEpiloguesSilesse_CedHawk_NoThrone_Married	; Repeat
+
+;	Fee
 .long dialogueEpiloguesSilesse_FeeHermina_NoThrone_LoverDead		;
 .long dialogueEpiloguesSilesse_FeeHermina_NoThrone_Single			;
 .long dialogueEpiloguesSilesse_FeeHermina_NoThrone_Single			; Repeat
+
+;	Hermina
 .long dialogueEpiloguesSilesse_FeeHermina_NoThrone_LoverDead		; Repeat
 .long dialogueEpiloguesSilesse_FeeHermina_NoThrone_Single			; Repeat
 .long dialogueEpiloguesSilesse_FeeHermina_NoThrone_Single			; Repeat
-.long dialogueEpiloguesSilesse_LewynsSon_Single
-.long dialogueEpiloguesSilesse_LewynsSon_Married
-.long dialogueEpiloguesSilesse_LewynsSon_Single_NotSure
-.long dialogueEpiloguesSilesse_LewynsSon_Married_NotSure
-.long dialogueEpiloguesSilesse_LewynsDaughter_InheritsThrone			;
-.long dialogueEpiloguesSilesse_LewynsDaughter_InheritsThrone			; Repeat
-.long dialogueEpiloguesSilesse_LewynsDaughter_NoThrone_Single				;
-.long dialogueEpiloguesSilesse_LewynsDaughter_NoThrone_Single				; Repeat
+
+;	Lewyn's son
+.long dialogueEpiloguesSilesse_LewynsSon_SisterDead_Single
+.long dialogueEpiloguesSilesse_LewynsSon_SisterDead_Married
+.long dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Single
+.long dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Married
+
+;	Lewyn's daughter
+.long dialogueEpiloguesSilesse_LewynsDaughter_BrotherDead			;
+.long dialogueEpiloguesSilesse_LewynsDaughter_BrotherDead			; Repeat
+.long dialogueEpiloguesSilesse_LewynsDaughter_BrotherAlive				;
+.long dialogueEpiloguesSilesse_LewynsDaughter_BrotherAlive				; Repeat
 
 .here
 

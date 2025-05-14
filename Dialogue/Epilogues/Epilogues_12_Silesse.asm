@@ -457,7 +457,7 @@ dialogueEpiloguesSilesse_FeeHermina_NoThrone_LoverDead
 
 ;	Lewyn's son
 
-dialogueEpiloguesSilesse_LewynsSon_Single
+dialogueEpiloguesSilesse_LewynsSon_SisterDead_Single
 
 	.word TextSpeed
 	.byte 3
@@ -591,7 +591,7 @@ dialogueEpiloguesSilesse_LewynsSon_Single
 	.byte EndText
 
 
-dialogueEpiloguesSilesse_LewynsSon_Married
+dialogueEpiloguesSilesse_LewynsSon_SisterDead_Married
 
 	.word TextSpeed
 	.byte 3
@@ -738,7 +738,7 @@ dialogueEpiloguesSilesse_LewynsSon_Married
 	.byte EndText
 
 
-dialogueEpiloguesSilesse_LewynsSon_Single_NotSure
+dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Single
 
 	.word TextSpeed
 	.byte 3
@@ -882,7 +882,7 @@ dialogueEpiloguesSilesse_LewynsSon_Single_NotSure
 	.byte EndText
 
 
-dialogueEpiloguesSilesse_LewynsSon_Married_NotSure
+dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Married
 
 	.word TextSpeed
 	.byte 3
@@ -1117,7 +1117,7 @@ dialogueEpiloguesSilesse_LewynsSon_LoverQuipNoble
 
 ;	Lewyn's daughter
 
-dialogueEpiloguesSilesse_LewynsDaughter_NoThrone_Single
+dialogueEpiloguesSilesse_LewynsDaughter_BrotherAlive
 
 	.word TextSpeed
 	.byte 3
@@ -1176,7 +1176,7 @@ dialogueEpiloguesSilesse_LewynsDaughter_NoThrone_Single
 	.byte EndText
 
 
-dialogueEpiloguesSilesse_LewynsDaughter_InheritsThrone
+dialogueEpiloguesSilesse_LewynsDaughter_BrotherDead
 
 	.word TextSpeed
 	.byte 3

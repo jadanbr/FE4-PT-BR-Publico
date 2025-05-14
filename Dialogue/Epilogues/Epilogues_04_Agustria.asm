@@ -306,7 +306,7 @@ dialogueEpilogues_Ares_LoverQuipLarcei
 
 ;	Lene
 
-dialogueEpiloguesAgustria_Lene_Single
+dialogueEpiloguesAgustria_LeneLaylea_Single
 
 	.word TextSpeed
 	.byte 3
@@ -379,7 +379,7 @@ dialogueEpiloguesAgustria_Lene_Single
 	.byte EndText
 
 
-dialogueEpiloguesAgustria_Lene_NonAresLoverDead
+dialogueEpiloguesAgustria_LeneLaylea_NonAresLoverDead
 
 	.word TextSpeed
 	.byte 3
@@ -444,7 +444,7 @@ dialogueEpiloguesAgustria_Lene_NonAresLoverDead
 	.byte EndText
 
 
-dialogueEpiloguesAgustria_Lene_AresLoverDead
+dialogueEpiloguesAgustria_LeneLaylea_AresLoverDead
 
 	.word TextSpeed
 	.byte 3
@@ -517,6 +517,17 @@ dialogueEpiloguesAgustria_Lene_AresLoverDead
 	.byte $60
 
 	.byte EndText
+
+
+; Laylea
+
+; dialogueEpiloguesAgustria_LeneLaylea_NonAresLoverDead	; Repeat
+
+
+; dialogueEpiloguesAgustria_LeneLaylea_AresLoverDead	; Repeat
+
+
+; dialogueEpiloguesAgustria_LeneLaylea_Single		; Repeat
 
 
 ;	Diarmuid

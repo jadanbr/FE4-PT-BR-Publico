@@ -11,7 +11,8 @@ dialogueCh10WM1
 	.byte $30
 
 	.byte StartText
-.text	"With Thracia's downfall,"
+.text	"With Thracia under the Liberation Army’s control,"
+	.byte NewLine
 	.word PauseText
 	.byte $0A
 
@@ -23,9 +24,12 @@ dialogueCh10WM1
 	.word PauseText
 	.byte $1E
 
-.text	" Seliph sets his sights"
+.text	"Seliph wastes no time in embarking on a march"
+	.byte WaitForA
 	.byte NewLine
-.text	"on his final destination: Grannvale."
+.text	"straight towards the canvas of his main goal:"
+	.byte NewLine
+.text	"Grannvale."
 
 	.word PauseText
 	.byte $3C
@@ -49,25 +53,35 @@ dialogueCh10WM2
 	.byte Miletos
 	
 	.byte StartText
-.text	"His route to the Empire takes him through the"
+.text	"On the road to the Empire, he crosses into"
 	.byte NewLine
-.text	"Miletos Region, a collective of free cities"
-	.byte WaitForA
-	.byte NewLine
-.text	"which was once a vibrant and wealthy hub of"
-	.byte NewLine
-.text	"commerce for all of Jugdral."
+.text	"a territory at its south, the Miletos Region."
 	.byte WaitForA
 	.byte ScrollText
-
+.text	"This collective of cities was once a free"
+	.byte NewLine
+.text	"economic superpower,"
+	.byte WaitForA
+.text	" home to vast riches,"
+	.byte NewLine
+.text	"trade, business and aspiring merchants,"
+	.byte WaitForA
+	.byte NewLine
+.text	"but what Seliph’s companions find"
+	.byte NewLine
+	
 	.word ClearHighlight
-.text	"Now, though, only a dying land choked by the"
+	
+.text	"is but a withered husk of its former self,"
+	.byte WaitForA
 	.byte NewLine
-.text	"Empire and Loptr Church lies before Seliph."
+.text	"suffocating under the Loptr Church’s"
+	.byte NewLine
+.text	"oppressive rule."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"At Kronos Castle, the seemingly mad rule of"
+.text	"Castle Kronos is under the command of the"
 	.byte NewLine
 
 	.word LoadPortraitWM1
@@ -78,14 +92,34 @@ dialogueCh10WM2
 	.byte $A0
 	.byte $60
 
-.text	"Queen Hilda has condemned countless citizens"
+.text	"self-proclaimed Queen Hilda,"
+	.byte WaitForA
+.text	" whose seemingly"
+	.byte NewLine
+.text	"inhuman displays of cruelty"
 	.byte WaitForA
 	.byte NewLine
-.text	"to savage, merciless deaths."
+.text	"condemn countless citizens"
+	.byte NewLine
+.text	"to gruesome deaths by the day."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And in the Rhódos region,"
+.text	"The Loptr Church’s own Archbishop Manfroy"
+
+	.word LoadPortraitWM1
+	.byte 4
+	.word portrait_Manfroy2
+	.word LoadPortraitWM2
+	.byte 4
+	.byte $60
+	.byte $30
+	
+	.byte NewLine
+.text	"dwells at Castle Miletos,"
+	.byte WaitForA
+	.byte NewLine
+.text	"from where he appoints"
 
 	.word LoadPortraitWM1
 	.byte 6
@@ -97,40 +131,35 @@ dialogueCh10WM2
 
 .text	" Bishop Morrigan,"
 	.byte NewLine
-.text	"under the command of"
-
-	.word LoadPortraitWM1
-	.byte 4
-	.word portrait_Manfroy2
-	.word LoadPortraitWM2
-	.byte 4
-	.byte $60
-	.byte $30
-
-.text	" Archbishop Manfroy,"
+.text	"stationed at Castle Rhódos,"
 	.byte WaitForA
 	.byte NewLine
-.text	"conducts child hunt after child hunt."
+.text	"to orchestrate the ever-relentless child hunts"
+	.byte NewLine
+.text	"throughout the region."
 	.byte WaitForA
 	.byte ScrollText
 
 .text	"Wealth. Liberty. Hope. Even life itself..."
 	.byte NewLine
-.text	"All crumbled through the people's fingers."
+.text	"All turned to dust in the people’s grasp."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"As the evil cult plies its sacrificial rituals and pile"
+.text	"This twisted cult continues to make sacrifices"
 	.byte NewLine
-.text	"the bodies of their victims ever higher,"
+.text	"out of the civilians one by one, with bodies piling"
 	.byte WaitForA
 	.byte NewLine
-.text	"Seliph knows he cannot leave Miletos be."
+.text	"ever higher at their ritual altar; Seliph refuses"
+	.byte NewLine
+.text	"to leave the region in such a sorrowful state."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Greeted by raucous cheers from the people,"
+.text	"Following a fierce battle which sees"
 	.byte NewLine
+.text	"the liberation of the free city of Plutarch,"
 
 	.word LoadMapSymbol
 	.byte $B6
@@ -140,6 +169,10 @@ dialogueCh10WM2
 
 	.word PauseText
 	.byte $02
+	
+	.byte WaitForA
+	.byte NewLine
+	
 	.word LoadPortraitWM1
 	.byte 8
 	.word portrait_Seliph
@@ -148,21 +181,23 @@ dialogueCh10WM2
 	.byte $A0
 	.byte $18
 
-.text	"the liberation army routed the Empire's men"
+.text	"the soldiers of the Liberation Army are hailed"
+	.byte NewLine
+.text	"by the masses with exuberant cheers"
 	.byte WaitForA
 	.byte NewLine
-.text	"in a fierce battle, freeing the city of Plutarch."
+.text	"amidst the Empire’s retreat."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The hope of Miletos had slowly been rotting away"
+.text	"Endless days spent gazing toward eclipsed skies"
 	.byte NewLine
-.text	"in the Empire's hands, but at long last,"
+.text	"came and went, but now,"
 	.byte WaitForA
 	.byte NewLine
-.text	"the arrival of Seliph and his liberation army"
+.text	"with the Liberation Army’s arrival, the people of"
 	.byte NewLine
-.text	"breathes new life into the nation's future."
+.text	"Miletos’ long lost hope… has at last returned…"
 	.byte WaitForA
 
 	.word PauseText

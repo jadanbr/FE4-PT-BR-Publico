@@ -3,7 +3,8 @@
 dialogueCh3WM1
 
 	.byte StartText
-.text	"King Chagall has fled Agusti's fall and moved"
+.text	"Upon losing Agusti, King Chagall relocates"
+	.byte NewLine	
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -12,15 +13,21 @@ dialogueCh3WM1
 	.byte 2
 	.byte $78
 	.byte $0C
-
+	
+.text	"to the northern Castle Madino,"
+	.byte WaitForA
 	.byte NewLine
-.text	"his royal court to Madino Castle in the north."
+.text	"taking his royal court along with him."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Honoring his promise to Eldigan, Sigurd allows"
+.text	"Sigurd honors the first part of his promise"
 	.byte NewLine
-.text	"Chagall his freedom and does not interfere."
+.text	"to Eldigan"
+	.byte WaitForA
+.text	" and orders that none shall pursue"
+	.byte NewLine
+.text	"the monarch in his retreat."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -30,23 +37,32 @@ dialogueCh3WM1
 dialogueCh3WM2
 
 	.byte StartText
-.text	"Sigurd adopts Agusti as his headquarters,"
+.text	"In honoring the second, Sigurd allows"
 	.byte NewLine
-.text	"and while his troops there recuperate,"
+.text	"his soldiers to stand at ease in Agusti"
 	.byte WaitForA
 	.byte NewLine
-.text	"he persists in negotiating Agustria's return"
-	.byte NewLine
-.text	"to governance by its own king."
+.text	"while he braves the front of politics."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Despite his determination to restore Chagall's rule,"
+.text	"Days of negotiations come and go, all for"
 	.byte NewLine
-.text	"his orders from Belhalla never change:"
+.text	"the sake of returning the capital to its king."
 	.byte WaitForA
+	.byte ScrollText
+.text	"In spite of his efforts, Belhalla’s officials show"
 	.byte NewLine
-.text	"to remain in Agusti and to govern its citizens."
+.text	"little interest in changing the present situation."
+	.byte WaitForA
+	.byte ScrollText
+.text	"And so, every missive brings a familiar decree"
+	.byte NewLine
+.text	"dressed in different words:"
+	.byte WaitForA
+.text	" ”Remain in Agusti"
+	.byte NewLine
+.text	"and govern the coalition’s citizens.”"
 	.byte WaitForA
 	.byte ScrollText
 
@@ -56,26 +72,31 @@ dialogueCh3WM2
 dialogueCh3WM3
 
 	.byte StartText
-.text	"Scarcely six months have passed, and yet"
-	.byte NewLine
-.text	"Grannvale's ruling administrators have already"
-	.byte WaitForA
-	.byte NewLine
-.text	"grown arrogant and have taken to abusing their"
-	.byte NewLine
-.text	"power over Agustria for their own gain."
+.text	"Half a year has come and gone…"
 	.byte WaitForA
 	.byte ScrollText
-
-.text	"Day by day, the Agustrian people grow ever"
+.text	"During this time, Grannvale’s authorities"
 	.byte NewLine
-.text	"wearier of Grannvale's actions."
+.text	"become arrogant,"
+	.byte WaitForA
+.text	" strutting through the land"
+	.byte NewLine
+.text	"as if Agustria were their private estate."
 	.byte WaitForA
 	.byte ScrollText
-
-.text	"Before long, as he feared, Sigurd finds himself"
+.text	"It does not take long for Grannvale’s actions"
 	.byte NewLine
-.text	"yet again caught in a new conflict."
+.text	"to be ill-received by native Agustrians."
+	.byte WaitForA
+	.byte ScrollText
+.text	"Day by day, this discontent festers"
+	.byte NewLine
+.text	"like the rotting seat of their nation’s throne."
+	.byte WaitForA
+	.byte ScrollText
+.text	"In the end, Sigurd’s fears are realized."
+	.byte NewLine
+.text	"A new battle soon begins."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -85,7 +106,7 @@ dialogueCh3WM3
 dialogueCh3WM4
 
 	.byte StartText
-.text	"Reports abound of Chagall raising his army"
+.text	"In Madino, Chagall raises an army to march"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -103,9 +124,9 @@ dialogueCh3WM4
 	.byte MadinoToAgusti
 
 	.byte NewLine
-.text	"anew at Madino Castle,"
+.text	"on the capital,"
 	.byte WaitForA
-.text	" vying to reclaim"
+.text	" intent on challenging Sigurd"
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 4
@@ -116,7 +137,7 @@ dialogueCh3WM4
 	.byte $60
 	.word PauseText
 	.byte $04
-.text	"his lost capital from Sigurd."
+.text	"for control of the coalition."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -124,6 +145,10 @@ dialogueCh3WM4
 
 
 dialogueCh3WM5
+
+;	Why yes, that's how you move a portrait.
+;	You to teleport it multiple times, one small step at a time.
+;	Ha ha
 
 	.word MovePortraitWM
 	.byte 4
@@ -193,7 +218,9 @@ dialogueCh3WM5
 	.byte $04
 
 	.byte StartText
-.text	"Further north beyond Madino, the reviled"
+.text	"Further north of Madino,"
+	.byte NewLine
+.text	"the infamous Orgahil Pirates make plans"
 	.word LoadPortraitWM1
 	.byte 6
 	.word portrait_Dobar		;Super Saiyan Blue DiMaggio
@@ -201,29 +228,37 @@ dialogueCh3WM5
 	.byte 6
 	.byte $6C
 	.byte $08
-	.byte NewLine
-.text	"pirates of Orgahil prepare themselves"
 	.byte WaitForA
 	.byte NewLine
-.text	"to sweep in and profit from the land's chaos."
+.text	"to take advantage of the ensuing war,"
+	.byte NewLine
+.text	"preparing to sweep in amidst the mayhem."
 	.byte WaitForA
 	.word ClearPortraitWM
 	.byte 6
 	.byte ScrollText
 
-.text	"Belhalla's orders demand that Sigurd must"
+.text	"Belhalla addresses the situation"
 	.byte NewLine
-.text	"maintain control of Agusti above all else."
+.text	"by commanding Sigurd"
+	.byte WaitForA
+.text	" to sooner accept death"
+	.byte NewLine
+.text	"than surrender Agusti."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sigurd's heart lies heavy in the face of the"
+.text	"And so, he readies for the front lines"
 	.byte NewLine
-.text	"impending crisis."
+.text	"with a heavy heart."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Southwest of Madino,"
+.text	"Stationed at Fort Sylvale,"
+	.byte NewLine
+.text	"a stronghold southwest of Madino,"
+	.byte WaitForA
+	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
 	.word portrait_Eldigan1
@@ -231,32 +266,33 @@ dialogueCh3WM5
 	.byte 2
 	.byte $40
 	.byte $30
-.text	" Eldigan's forces"
+.text	"Eldigan’s forces are reluctant to enter the fray"
 	.byte NewLine
-.text	"hold the defenses of Fort Sylvale."
+.text	"and remain in waiting."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The looming battle for Agustria..."
+.text	"This grueling ordeal may well prove to be what"
 	.byte NewLine
-.text	"A trial between friendship and loyalties."
+.text	"turns the blade of a friend into that of a foe."
 	.byte WaitForA
 	.byte ScrollText
-
-.text	"Before Sigurd looms a final battle"
-	.byte NewLine
-.text	"in Agustria's north:"
+.text	"The hour is nigh…"
 	.byte WaitForA
+	.byte ScrollText
+.text	"Deadlocked in the northernmost point"
 	.byte NewLine
-.text	"a showdown fated to shape the course"
+.text	"of Agustria,"
+	.byte WaitForA
+.text	" Sigurd stares down a battlefield"
 	.byte NewLine
-.text	"of Jugdral's history."
+.text	"sure to change the very course of history…"
 	.byte WaitForA
 
 	.word ClearPortraitWM
 	.byte 2
 	.word ClearPortraitWM
-	.byte 2
+	.byte 4
 	.byte ScrollText
 
 	.byte EndText

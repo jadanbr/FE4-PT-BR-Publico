@@ -3,13 +3,12 @@
 dialogueCh1WM1
 
 	.byte StartText
-.text	"Sigurd's capture of Evans Castle comes too late."
+.text	"With the battle coming to its close,"
+	.byte NewLine
+.text	"Sigurd makes haste in searching Castle Evans."
 	.byte WaitForA
 	.byte ScrollText
-
-.text	"Edain is not there, instead already well within"
-	.byte NewLine
-.text	"Verdane's borders."
+.text	"Edain is nowhere to be found."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -19,9 +18,9 @@ dialogueCh1WM1
 dialogueCh1WM2
 
 	.byte StartText
-.text	"Verdane's territory is blanketed"
+.text	"The young noblewoman had already been taken"
 	.byte NewLine
-.text	"in a thick sweep of forest."
+.text	"well within the depths of Verdane."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -32,15 +31,16 @@ dialogueCh1WM3
 
 	.byte StartText
 	.word HighlightCountry		
-	.byte 0					;I believe this works. Rather than $00 or Verdane
+	.byte Verdane
 
-.text	"The nation is widely dubbed a"
+.text	"Concealed within dense forests, the kingdom"
 	.byte NewLine
-.text	'"barbarian kingdom" by Grannvale’s people,'
-	.byte WaitForA
-	
+.text	"has consistently raided Grannvale’s borders,"
+	.byte WaitForA	
 	.byte NewLine
-.text	"owing to their constant raids on Grannvalian soil."
+.text	"earning Verdane’s people the reputation"
+	.byte NewLine
+.text	"of mere barbarians."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -52,7 +52,7 @@ dialogueCh1WM3
 dialogueCh1WM4
 
 	.byte StartText
-.text	"However, the reign of "
+.text	"However, the crowning of their current king, Batu,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -63,28 +63,30 @@ dialogueCh1WM4
 	.byte 2
 	.byte $20
 	.byte $02
-
-.text	"King Batu has seen"		
+	
+	.byte WaitForA	
 	.byte NewLine
-.text	"an end to Verdane's infamous border raids."
+.text	"ushered in an era which brought"
+	.byte NewLine
+.text	"such aggressions to an end."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"A pacifist, King Batu has long worked to build"
+.text	"True to his calm disposition, King Batu has seen"
 	.byte NewLine
-.text	"a lasting peace with Grannvale,"
+.text	"to placating the fiery ambitions of his sons"
 	.byte WaitForA
 	.byte NewLine
-
-.text	"while also keeping his aggressive sons"
-	.byte NewLine
-.text	"appeased."
+.text	"to preserve this peace held with Grannvale."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Ultimately, however, it was Batu himself"
+.text	"And so, it subverts all expectations"
 	.byte NewLine
-.text	"who violated the peace he held so dear."
+.text	"when that peace falls to the wayside"
+	.byte WaitForA
+	.byte NewLine
+.text	"due to none other than Batu himself."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -94,12 +96,14 @@ dialogueCh1WM4
 dialogueCh1WM5
 
 	.byte StartText
-.text	"Batu's three sons have unexpectedly launched"
+.text	"The same order is given by the king"
 	.byte NewLine
-.text	"an assault on Grannvale."
+.text	"to all three of his sons: “Invade Grannvale.”"
 	.byte WaitForA
 	.byte ScrollText
-
+.text	"At the vanguard is the king’s middle son,"
+	.byte NewLine
+	
 	.word PauseText
 	.byte $04
 	.word LoadPortraitWM1
@@ -110,9 +114,10 @@ dialogueCh1WM5
 	.byte $B8
 	.byte $3A
 
-.text	"Cimbaeth, the second son, lord of Genoa..."
+.text	"Cimbaeth of Genoa,"
 	.byte WaitForA
-	.byte NewLine
+	.byte NewLine	
+.text	"supported by"
 
 	.word PauseText
 	.byte $04
@@ -124,7 +129,10 @@ dialogueCh1WM5
 	.byte $40
 	.byte $60
 
-.text	"Munnir, the eldest, lord of Marpha..."
+.text	" Munnir of Marpha, the eldest,"
+	.byte WaitForA
+	.byte NewLine
+.text	"and lastly, the youngest of the three brothers,"
 	.byte NewLine
 
 	.word PauseText
@@ -137,13 +145,12 @@ dialogueCh1WM5
 	.byte $70
 	.byte $40
 
-.text	"And Jamke, the youngest of the three."
+.text	"Jamke."
 	.byte WaitForA
 	.byte ScrollText
-
-.text	"Lurking deep within Verdane territory,"
+.text	"Prowling the kingdom’s groves,"
 	.byte NewLine
-.text	"the three now await the arrival of Sigurd."
+.text	"the barbarians await Sigurd as if he were prey."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -163,25 +170,31 @@ dialogueCh1WM6
 	.word ClearPortraitWM
 	.byte 10
 
-.text	"Edain's fate..."
+.text	"Where in the world can Edain be…?"
+	.byte WaitForA
+	.byte ScrollText
+.text	"For what reason could King Batu"
 	.byte NewLine
-.text	"Batu's sudden belligerence..."
+.text	"wish for this conflict…?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sprawling before Sigurd lie the"
+.text	"The vast treescape of Verdane,"
 	.byte NewLine
-.text	"great forests of Verdane -"
+.text	"shrouded in darkness even by day,"
 	.byte WaitForA
 	.byte NewLine
-
-.text	"and within them, the answers he seeks."
+.text	"sprawls out as far as the eye can see."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He prepares to take his first steps into"
+.text	"Sigurd prepares to take his first step"
 	.byte NewLine
-.text	"the spirit forest of folklore..."
+.text	"into these very forests,"
+	.byte WaitForA
+.text	" fabled as a realm"
+	.byte NewLine
+.text	"that spirits call home…"
 	.byte WaitForA
 	.byte ScrollText
 

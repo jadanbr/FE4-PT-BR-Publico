@@ -15,21 +15,26 @@ dialogueCh4WM1
 	.byte $24
 	.byte $06
 
-.text	"Sigurd is now a traitor in the eyes of his"
+.text	"Sigurd is denounced as an enemy"
 	.byte NewLine
-.text	"beloved Grannvale."
+.text	"by his beloved fatherland,"
+	.byte WaitForA
+	.byte NewLine
+.text	"charged with the highest form of treason."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"In desperation,"
+.text	"Despairing and with his options dwindling,"
+	.byte NewLine
+	.byte WaitForA
 	.word LoadMapSymbol
 	.byte $44
 	.byte $4C
 	.byte High
 	.byte OrgahilToSeiren
-.text	" his army flees to find refuge"
+.text	"he finds refuge in the northern"
 	.byte NewLine
-.text	"in the northern kingdom of Silesse."
+.text	"independent Kingdom of Silesse."
 	.byte WaitForA
 
 	.word ClearPortraitWM
@@ -46,46 +51,51 @@ dialogueCh4WM1
 dialogueCh4WM2
 
 	.byte StartText
-.text	"Silesse was founded by the Wind Crusader, Ced."
+.text	"Founded by Ced, the Wind Crusader,"
 
 	.word HighlightCountry
 	.byte Silesse
+
+	.byte NewLine
+.text	"Silesse has long been under the watchful eye"
+	.byte WaitForA
+	.byte NewLine
+.text	"of its order of steadfast Pegasus Knights"
+	.byte NewLine
+.text	"and equally spirited Wind Mages."
 	.byte WaitForA
 	.byte ScrollText
-
-.text	"It lies under the watchful guard of the"
+.text	"Even over a century removed from its founding,"
 	.byte NewLine
-.text	"valiant pegasus knights and wind mages,"
+.text	"the kingdom has managed"
 	.byte WaitForA
 	.byte NewLine
-.text	"and so for over a century since its foundation,"
-	.byte WaitForA
+.text	"to evade foreign aggression"
 	.byte NewLine
-.text	"Silesse has maintained itself as a neutral nation"
-	.byte NewLine
-.text	"and resisted all invaders."
+.text	"and maintain a perfect record of neutrality."
 	.byte WaitForA
 	.byte ScrollText
 	.word ClearHighlight
 
-.text	"However, ever since the death of its king"
+.text	"However, following the death of the King a few"
 	.byte NewLine
-.text	"several years ago,"
+.text	"years ago,"
 	.byte WaitForA
 
-	.byte NewLine
 	.word LoadMapSymbol
 	.byte $9D
 	.byte $63
 	.byte High
 	.byte SilesseCastles
 
-.text	"the royal family has been plagued with strife"
+.text	" the matter of succession has been"
 	.byte NewLine
-.text	"over its inheritance,"
+.text	"a source of discord amongst the royal family."
 	.byte WaitForA
+	.byte ScrollText
+.text	"And so, even such a peaceful land"
 	.byte NewLine
-.text	"and shades of war creep over the peaceful land."
+.text	"is suddenly visited by omens of war."
 
 	.word ClearMapSymbol
 	.byte High
@@ -97,8 +107,10 @@ dialogueCh4WM2
 	.byte $94
 	.byte High
 	.byte SilesseTown
-.text	"The late king and his wife, Queen Lahna,"
+	
+.text	"The late king’s union with Queen Lahna saw"
 	.byte NewLine
+.text	"the birth of only one heir,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -108,12 +120,15 @@ dialogueCh4WM2
 	.byte $28
 	.byte $60
 
-.text	"had a single son, Prince Lewyn."
+.text	" a prince named Lewyn."
 
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
 	.byte ScrollText
+	
+.text	"Erupting with an ambition able to fill the seas,"
+	.byte NewLine
 	
 	.word LoadPortraitWM1
 	.byte 4
@@ -123,26 +138,31 @@ dialogueCh4WM2
 	.byte $C0
 	.byte $50
 
-.text	"The king's greedy younger brother, Duke Decair,"
+.text	"the king’s younger brother, Prince Decair,"
+	.byte WaitForA
 	.byte NewLine
-.text	"objects to Lewyn being heir to the throne"
+.text	"adamantly protested Lewyn’s right"
+	.byte NewLine
+.text	"to the throne,"
 	.byte WaitForA
 
-	.byte NewLine
 	.word LoadMapSymbol
 	.byte $A4
 	.byte $74
 	.byte High
 	.byte Zaxon1
 
-.text	"and has confined himself to Zaxon Castle"
+.text	" before hiding away"
 	.byte NewLine
-.text	"in protest."
+.text	"in Castle Zaxon to plot is next move."
 
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
 	.byte ScrollText
+	
+.text	"As if their goals were aligned,"
+	.byte NewLine
 	
 	.word LoadMapSymbol
 	.byte $AC
@@ -161,37 +181,41 @@ dialogueCh4WM2
 	.byte $88
 	.byte $08
 
-.text	"As if acting in concert,"
-	.byte NewLine
-.text	"the king's youngest brother, Duke Myos,"
+.text	"the king’s youngest brother, Prince Myos,"
 	.byte WaitForA
 	.byte NewLine
-.text	"has set to work raising an army for himself"
+.text	"took the initiative as well and began"
 	.byte NewLine
-.text	"at Tófa Castle."
+.text	"assembling an army at Castle Tófa.."
 
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Out of disgust at his uncles, Prince Lewyn"
+.text	"It was under these circumstances"
 	.byte NewLine
-.text	"left Silesse to travel the world years ago."
+	.byte WaitForA
+.text	"that Prince Lewyn reluctantly took his leave"
+	.byte NewLine
+.text	"of Silesse in favor of traveling the world."
 
 	.word ClearPortraitWM
 	.byte 2
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Is there no end to the dukes' avarice?"
+.text	"Years later, the princes will soon show"
 	.byte NewLine
-.text	"Their lust for power will condemn Silesse,"
+.text	"their avarice truly knows no bounds."
+	.byte WaitForA
+	.byte ScrollText
+.text	"The beautiful and vast lands of Silesse"
 	.byte WaitForA
 	.byte NewLine
-.text	"a beautiful and majestic land,"
+.text	"are now on the precipice of incineration"
 	.byte NewLine
-.text	"to the searing ravages of a brutal war."
+.text	"by war’s inferno…"
 	.word PauseText
 	.byte $20
 

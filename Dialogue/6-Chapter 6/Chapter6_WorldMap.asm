@@ -59,9 +59,12 @@ dialogueCh6WM1
 	.byte $0A
 	
 	.byte StartText
-.text	"The final battle for control of Grannvale"
+.text	"The Battle of Belhalla had sent nearly"
 	.byte NewLine
-.text	"sent its most powerful figures to the grave."
+.text	"all of Grannvale’s most influential leaders"
+	.byte WaitForA
+	.byte NewLine
+.text	"to an early grave."
 	.byte WaitForA
 	
 	.word PauseText
@@ -70,7 +73,7 @@ dialogueCh6WM1
 	.word ClearPortraitWM
 	.byte 4
 	
-	.byte ScrollText		;pretty sure this command procs before Reptor is cleared, needs playtesting.
+	.byte ScrollText
 
 	.word PauseText
 	.byte $20
@@ -80,7 +83,7 @@ dialogueCh6WM1
 
 	.word PauseText
 	.byte $0A
-.text	"Just as he had planned,"
+.text	"All according to his plans,"
 	.word PauseText
 	.byte $10
 
@@ -90,9 +93,12 @@ dialogueCh6WM1
 	.word ClearMapSymbol
 	.byte Low
 
-.text	" this left Arvis"
+.text	" this left Lord Arvis"
 	.byte NewLine
-.text	"as the sole ruling power of the kingdom."
+.text	"as the sole ruling power of the kingdom,"
+	.byte WaitForA
+	.byte NewLine
+.text	"seizing the throne and its future with both hands."
 	.byte WaitForA
 
 	.word PauseText
@@ -126,13 +132,13 @@ dialogueCh6WM2
 	.byte $38
 
 	.byte StartText
-.text	"Opposition from Silesse and Leonster"
+.text	"Shortly after, with larger goals of unifying"
 	.byte NewLine
 	
 	.word ClearMapSymbol
 	.byte Low
 	
-.text	"was swiftly crushed,"
+.text	"the continent under one banner,"
 
 	.word PauseText
 	.byte $0A
@@ -141,18 +147,20 @@ dialogueCh6WM2
 	
 	.byte WaitForA
 	.byte NewLine
-.text	"and so Arvis unified all Jugdral"
+.text	"he orchestrates invasions of the opposing"
 	.byte NewLine
-.text	"under Grannvale's rule."
+.text	"Kingdoms of Silesse and Leonster."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"With overwhelming support from his subjects,"
+.text	"Upon the downfall of both nations, Arvis,"
+	.byte NewLine
+.text	"met with overwhelming support from the people,"
 	.byte WaitForA
 	.byte NewLine
-.text	"Arvis thus became the first Emperor"
+.text	"becomes the first emperor"
 	.byte NewLine
-.text	"of the Grannvale Empire."
+.text	"of the new Grannvale Empire."
 	.byte WaitForA
 	
 	.word PauseText
@@ -169,9 +177,12 @@ dialogueCh6WM2
 dialogueCh6WM3
 
 	.byte StartText
-.text	"Seventeen years have passed since"
+.text	"The flow of time continues evermore,"
+	.byte WaitForA
 	.byte NewLine
-.text	"the Battle of Belhalla..."
+.text	"and now, seventeen years have passed"
+	.byte NewLine
+.text	"since the Battle of Belhalla..."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -192,30 +203,28 @@ dialogueCh6WM3
 	.byte $64
 	.byte $38
 	
-.text	"The adoring public who once welcomed"
+.text	"Ardent crowds which used to hail his name"
 	.byte NewLine
-.text	"the rise of Emperor Arvis"
+.text	"have now turned weary"
 	.byte WaitForA
 	
 	.word ClearMapSymbol
 	.byte Low
 	
+.text	" and suffer"
 	.byte NewLine
-.text	"now struggle under his oppressive,"
-	.byte NewLine
-.text	"dictatorial rule."
+.text	"under Emperor Arvis’ oppressive rule."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"And across Jugdral, in the other realms"
+.text	"Likewise, in the other realms under its control,"
 	.byte NewLine
-.text	"now dominated by Grannvale,"
+.text	"Grannvale has imposed itself"
 	.byte WaitForA
-	.byte ScrollText
-	
-.text	"their people have been reduced to living as"
 	.byte NewLine
-.text	"little more than slaves to the Empire's whims."
+.text	"onto the lives of the common people,"
+	.byte NewLine
+.text	"now forced to live as little more than slaves."
 	.byte WaitForA
 	
 	.word PauseText
@@ -236,9 +245,12 @@ dialogueCh6WM4
 	.byte Isaach
 	
 	.byte StartText
-.text	"In the former Kingdom of Isaach, Grannvale's"
+.text	"One such place is the former Kingdom of Isaach."
+	.byte WaitForA
+	.byte ScrollText
+.text	"Here, Grannvale’s tyranny pushes"
 	.byte NewLine
-.text	"harsh rule tortures the Isaachian people."
+.text	"the civilians to their breaking point."
 	.byte WaitForA
 	.word ClearHighlight
 	.byte ScrollText
@@ -269,26 +281,27 @@ dialogueCh6WM5
 	.byte $60
 
 	.byte StartText
-.text	"King Danann, the appointed king of Isaach,"
+.text	"Danann of Grannvale’s House Dozel"
 	.byte NewLine
-.text	"is a brutal and unforgiving tyrant,"
+.text	"serves as Isaach’s king,"
 	.byte WaitForA
 	.word ClearMapSymbol
 	.byte Low
-	.byte ScrollText
 	
-.text	"just like his late father, Duke Lombard."
+.text	" a despotic man"
+	.byte NewLine
+.text	"like his father, Lord Lombard, before him."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"While Danann himself lives an indulgent life"
+.text	"While Isaachians find themselves bound"
 	.byte NewLine
-.text	"at the Ribaut palace,"
+.text	"in servitude, Danann lives a life of pleasure,"
 	.byte WaitForA
 	.byte NewLine
-.text	"the people remain little more than slaves"
+.text	"drowning himself in all the finer luxuries"
 	.byte NewLine
-.text	"to the Empire."
+.text	"of Ribaut Palace."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -308,8 +321,9 @@ dialogueCh6WM5
 	.byte 4	
 	.byte $90
 	.byte $48
-.text	"His second son, Iuchar, rules Isaach Castle,"
+.text	"Danann’s second son, Iuchar,"
 	.byte NewLine
+.text	"occupies Castle Isaach,"
 	.word PauseText
 	.byte $14
 	
@@ -318,7 +332,8 @@ dialogueCh6WM5
 
 	.word PauseText
 	.byte $02
-.text	"while his youngest,"
+.text	" and his youngest,"
+	.byte NewLine
 	.word PauseText
 	.byte $02
 
@@ -338,7 +353,7 @@ dialogueCh6WM5
 	.byte 6	
 	.byte $5B
 	.byte $16
-.text	" Iucharba, rules Sofala."
+.text	"Iucharba, occupies Sofala."
 	.byte WaitForA
 	
 	.word PauseText
@@ -355,9 +370,9 @@ dialogueCh6WM5
 	.byte Low
 	.byte Ganesha
 	
-.text	"And the remote Ganesha region is governed by"
+.text	"Moreover, the remote lands of Ganesha"
 	.byte NewLine
-.text	"Danann's trusted confidant,"
+.text	"lie under the watch of General Harold,"
 
 	.word LoadPortraitWM1
 	.byte 8
@@ -366,7 +381,10 @@ dialogueCh6WM5
 	.byte 8	
 	.byte $BC
 	.byte $0C
-.text	" General Harold."
+	
+	.byte WaitForA
+	.byte NewLine
+.text	"the king’s most trusted confidant."
 	.byte WaitForA
 
 	.word PauseText
@@ -377,7 +395,9 @@ dialogueCh6WM5
 	
 	.byte ScrollText
 	
-.text	"Under their rule, Isaach knows no freedom..."
+.text	"The relentless struggle of the common man"
+	.byte NewLine
+.text	"wears on day by day."
 	.byte WaitForA
 	
 	.word PauseText
@@ -399,7 +419,9 @@ dialogueCh6WM5
 dialogueCh6WM6
 
 	.byte StartText
-.text	"However, one last hope remains for Isaach."
+.text	"However, in spite of it all,"
+	.byte NewLine
+.text	"hope yet lives in the heart of Isaach’s people."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -412,17 +434,13 @@ dialogueCh6WM6
 	.word PauseText
 	.byte $0A
 	
-.text	"Tirnanog, an isolated village"
+.text	"In the northern hidden village of Tirnanog,"
 	.byte NewLine
-.text	"in Isaach's far north..."
-	.byte WaitForA
 	
 	.word ClearMapSymbol
 	.byte Low
 	
-	.byte ScrollText
-	
-.text	"There,"
+.text	"Prince Shannan’s"
 	.word LoadPortraitWM1
 	.byte 2
 	.word portrait_Shannan
@@ -430,12 +448,12 @@ dialogueCh6WM6
 	.byte 2	
 	.byte $30
 	.byte $08
-.text	" Prince Shannan works to raise a"
+.text	" liberation army assembles,"
+	.byte WaitForA	
 	.byte NewLine
-.text	"liberation army,"
-	.byte WaitForA
+.text	"growing in both strength and numbers"
 	.byte NewLine
-.text	"whose strength grows with each passing day."
+.text	"with each passing day."
 	.byte WaitForA
 	
 	.word PauseText
@@ -445,14 +463,14 @@ dialogueCh6WM6
 	.byte 2
 	.byte ScrollText
 	
-.text	"Among these proud, young warriors"
+.text	"And among these young warriors is one whom"
 	.byte NewLine
-.text	'is a young man, dubbed the "Scion of Light"'
+.text	"the people of Isaach call the Scion of Light,"
 	.byte WaitForA
 	.byte NewLine
-.text	"by the people of Isaach and revered as the"
+.text	"a boy exalted as the one true"
 	.byte NewLine
-.text	"rightful prince of the Grannvale Empire."
+.text	"crown prince of Grannvale."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -472,9 +490,13 @@ dialogueCh6WM6
 	.byte 2	
 	.byte $5C
 	.byte $1C
-.text	"He is the brave young leader of the"
+.text	"Positioned to be the young leader"
 	.byte NewLine
-.text	"liberation army. His name is Seliph."
+.text	"of the liberation army, his name…"
+	.byte WaitForA
+.text	" is Seliph."
+	.word PauseText
+	.byte $10
 	.byte WaitForA
 
 	.word PauseText

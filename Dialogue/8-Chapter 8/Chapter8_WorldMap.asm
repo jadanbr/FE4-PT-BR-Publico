@@ -3,19 +3,19 @@
 dialogueCh8WM1
 
 	.byte StartText
-.text	"The two faces of the Thracian Peninsula are"
+.text	"The Thracian Peninsula bears two faces"
 	.byte NewLine
-.text	"as distinct as night and day."
+.text	"that are polar opposites in nearly every regard."
 	.byte WaitForA
 	
 	.word HighlightCountry
-	.word NorthThracia
+	.byte NorthThracia
 
 	.byte ScrollText
 
-.text	"The peninsula's north, once ruled by several small"
+.text	"The north is a land divided into several smaller"
 	.byte NewLine
-.text	"kingdoms, is graced with rich pastures,"
+.text	"kingdoms flourishing from abundant pastures."
 	.word ClearHighlight
 	.byte WaitForA
 	.byte ScrollText
@@ -26,20 +26,29 @@ dialogueCh8WM1
 dialogueCh8WM2
 
 	.byte StartText
+	
 	.word HighlightCountry
-	.word SouthThracia
-.text	"while the south, the Kingdom of Thracia, is a"
+	.byte SouthThracia
+.text	"The south, home to its infamous"
 	.byte NewLine
-.text	"harsh wasteland dominated by vast mountains."
+.text	"wyvern knights,"
+	.byte WaitForA
+.text	" is a land of"
+	.byte NewLine
+.text	"rugged mountain ranges and infertile soil."
+	.byte WaitForA
+	.byte ScrollText
+.text	"It has but a single monarch,"
+	.byte NewLine
+.text	"and is thus known as the Kingdom of Thracia."
 	.byte WaitForA
 	.byte ScrollText
 
 	.word ClearHighlight
-.text	"In ages past, seeking to claim the life-giving"
+.text	"The Kingdom has come to be recognized for"
 	.byte NewLine
-.text	"northern land as their own,"
+.text	"its brazen tenacity,"
 	.byte WaitForA
-	.byte NewLine
 
 	.word LoadMapSymbol
 	.byte $94
@@ -47,9 +56,9 @@ dialogueCh8WM2
 	.byte High
 	.byte ThraciaToUp
 
-.text	"Thracia's infamous wyvern knights have led"
+.text	" attempting countless times"
 	.byte NewLine
-.text	"countless brash attempts to conquer the north,"
+.text	"to invade the north and seize its rich lands."
 	.byte WaitForA
 	.word ClearMapSymbol
 	.byte High
@@ -66,20 +75,26 @@ dialogueCh8WM3
 	.byte Low
 	.byte Leonster2
 	.byte StartText
-.text	"only to be repelled at every turn by the might of"
+.text	"However, Leonster’s royal family was always"
 	.byte NewLine
-.text	"House Leonster."
+.text	"there to thwart each and every invasion."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Thracia looked to have won at last following their"
+.text	"Following the annihilation of Leonster’s military"
 	.byte NewLine
 	.word ClearMapSymbol
 	.byte Low
-.text	"slaughter of Leonster's army in the Aed Desert,"
+.text	"in the Aed Desert,"
 	.byte WaitForA
+.text	" it seemed as if"
 	.byte NewLine
-.text	"only to be defeated in turn by "
+.text	"Thracia’s ambitions would at last be realized."
+	.byte WaitForA
+	.byte ScrollText
+.text	"And yet, despite victory being ever close in their"
+	.byte NewLine
+.text	"sight, it was instead House Friege’s Lord Bloom,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -89,44 +104,51 @@ dialogueCh8WM3
 	.byte $48
 	.byte $30
 	
-.text	"Bloom of Friege,"
+	.byte WaitForA
 	.byte NewLine
-.text	"who claimed the land as his own."
+.text	"with a great military force in tow,"
+	.byte NewLine
+.text	"who conquered the region as his own."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And so, the so-called Kingdom of North Thracia"
+.text	"From then on, the singular"
 	.byte NewLine
-.text	"was born as yet another servant of the Empire."
+.text	"Kingdom of North Thracia was born"
+	.byte WaitForA
+	.byte NewLine
+.text	"under the dominion of the Empire."
 	.word ClearPortraitWM
 	.byte 2
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Over a decade has passed since then."
+.text	"Since then, over a decade has come and gone."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Not even Thracia's King Travant, an ambitious"
+.text	"In the face of the Empire’s expansive military"
 	.byte NewLine
-.text	"man with a thirst for power and glory,"
+.text	"might,"
+	.byte WaitForA
+.text	" not even Thracia’s ambitious King Travant"
+	.byte NewLine
+.text	"dares to interfere with their operations,"
 	.byte WaitForA
 	.byte NewLine
-.text	"dares to challenge the will of the Empire,"
+.text	"allowing a strange form of peace"
 	.byte NewLine
-.text	"and so a strange peace looms over the region."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"Or so it did, until the arrival of Seliph and his"
-	.byte NewLine
-.text	"liberation army."
+.text	"to persist in the region."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Bloom's defeat at his own capital has abruptly"
+.text	"Or so it did, until the Liberation Army’s capture"
 	.byte NewLine
-.text	"tipped the balance of the Thracian stalemate."
+.text	"of the northern capital, Ulster,"
+	.byte WaitForA
+.text	" sends a shift"
+	.byte NewLine
+.text	"that tips the balance of this delicate harmony."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -140,7 +162,7 @@ dialogueCh8WM3
 
 	.word PauseText
 	.byte $04
-.text	"Both the "
+.text	"With both"
 
 	.word LoadMapSymbol
 	.byte $6C
@@ -148,7 +170,7 @@ dialogueCh8WM3
 	.byte Low
 	.byte Ulster2
 
-.text	"Ulster and "
+.text	" Ulster and "
 
 	.word LoadMapSymbol
 	.byte $84
@@ -156,9 +178,9 @@ dialogueCh8WM3
 	.byte High
 	.byte Leonster2
 	
-.text	"Leonster territories now"
+.text	"Leonster under"
 	.byte NewLine
-.text	"lie under the liberation army's control,"
+.text	"the control of Seliph’s Liberation Army,"
 	.word PauseText
 	.byte $04
 	
@@ -171,7 +193,6 @@ dialogueCh8WM3
 	.byte NewLine
 	.word PauseText
 	.byte $02
-.text	"forcing "
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -181,7 +202,7 @@ dialogueCh8WM3
 	.byte $C0
 	.byte $18
 	
-.text	"Bloom to retreat to"
+.text	"Bloom is left with no choice but to flee"
 
 	.word LoadMapSymbol
 	.byte $BC
@@ -189,25 +210,20 @@ dialogueCh8WM3
 	.byte Low
 	.byte Connacht
 	
-.text	"Connacht and"
 	.byte NewLine
-.text	"muster the strength to take Ulster back."
+.text	"towards Castle Connacht"
+	.byte WaitForA
+.text	" where he desperately"
+	.byte NewLine
+.text	"assembles his troops for another offensive."
 
 	.word ClearMapSymbol
 	.byte Low
 
 	.byte WaitForA
 	.byte ScrollText
-
-	.word LoadMapSymbol
-	.byte $AC
-	.byte $44
-	.byte Low
-	.byte Munster
-	.word PauseText
-	.byte $02
-.text	"The southern Munster Castle, governed by"
-	.byte NewLine
+	
+.text	"Meanwhile,"
 	
 	.word LoadPortraitWM1
 	.byte 6
@@ -217,14 +233,29 @@ dialogueCh8WM3
 	.byte $80
 	.byte $28
 	
-.text	'the "goddess of lightning", Princess Ishtar,'
+.text	" Princess Ishtar, known as the"
+	.byte NewLine
+.text	"Goddess of Thunder,"
+	.byte WaitForA
+.text	" is currently stationed at"
+	.byte NewLine
+	
+	.word LoadMapSymbol
+	.byte $AC
+	.byte $44
+	.byte Low
+	.byte Munster
+	.word PauseText
+	.byte $02	
+	
+.text	"Castle Munster where she fortifies its defenses"
 
 	.word ClearMapSymbol
 	.byte Low
 	
 	.byte WaitForA
 	.byte NewLine
-.text	"braces itself for the threat of Thracian invaders."
+.text	"against a potential Thracian invasion."	
 	.byte WaitForA
 	.byte ScrollText
 
@@ -235,9 +266,10 @@ dialogueCh8WM3
 	.byte Meath
 	.word PauseText
 	.byte $02
-.text	"Meanwhile, across the border in Thracia itself,"
+.text	"Across the border, in the Thracian territory"
 	.byte NewLine
-.text	"both "
+.text	"of Meath,"	
+	.byte WaitForA
 
 	.word LoadPortraitWM1
 	.byte 8
@@ -247,29 +279,31 @@ dialogueCh8WM3
 	.byte $B8
 	.byte $60
 	
-.text	"King Travant and his border watchman,"
+.text	" King Travant and his commander"
 
 	.word ClearMapSymbol
 	.byte Low
 
+	.byte NewLine
+.text	"of the Thracian front, General Maykov,"
 	.byte WaitForA
 	.byte NewLine
-.text	"General Maykov of Meath Castle, remain"
-	.byte NewLine
-.text	"eerily silent."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"The people are united in their fondest wish:"
-	.byte WaitForA
-	.byte NewLine
-.text	"for the entirety of the Thracian Peninsula to"
-	.byte NewLine
-.text	"return to the rule of House Leonster."
+.text	"watch on while keeping an eerie silence."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And so dawns yet another battle..."
+.text	"The wishes of the people unite into one:"
+	.byte WaitForA
+	.byte NewLine
+.text	"that the northern region is once again returned"
+	.byte NewLine
+.text	"to the rule of Leonster’s royal family."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"And so, the curtain rises"
+	.byte NewLine
+.text	"for the Thracian conflict's next act…"
 	.byte WaitForA
 	
 	.word ClearPortraitWM

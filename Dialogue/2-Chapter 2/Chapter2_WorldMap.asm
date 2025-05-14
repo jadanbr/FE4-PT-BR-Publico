@@ -3,8 +3,12 @@
 dialogueCh2WM1
 
 	.byte StartText
-.text	"Verdane has fallen to Grannvale."
+.text	"After gaining complete control"
 	.byte NewLine
+.text	"of the Kingdom of Verdane,"
+	.byte WaitForA	
+	.byte NewLine
+	
 	.word LoadPortraitWM1
 	.byte 2
 	.word portrait_Sigurd
@@ -12,18 +16,23 @@ dialogueCh2WM1
 	.byte 2
 	.byte $A0	
 	.byte $20	
-.text	"On orders from Belhalla,"
-	.byte WaitForA
-
-	.byte NewLine
-.text	"Sigurd governs the region from Evans Castle,"
-	.byte NewLine
-.text	"with his newly-wed wife Deirdre ever at his side."
+.text	"Sigurd receives orders from Belhalla Palace."
 	.byte WaitForA
 	.byte ScrollText
-
+.text	"He is to remain stationed at Castle Evans,"
+	.byte NewLine
+.text	"and in so doing, govern the land from its border."
+	.byte WaitForA
+	.byte ScrollText
+.text	"At Sigurd's side through all of this is Deirdre,"
+	.byte NewLine
+.text	"whose hand he has taken in marriage."
+	.byte WaitForA
+	
 	.word ClearPortraitWM
 	.byte 2
+	
+	.byte ScrollText
 
 	.byte EndText
 
@@ -31,19 +40,22 @@ dialogueCh2WM1
 dialogueCh2WM2
 
 	.byte StartText
-.text	"However, Grannvale's actions in Verdane"
+.text	"Meanwhile, to the north,"
+	.byte WaitForA
+	.byte NewLine
+.text	"Grannvale’s subjugation of Verdane"
 	.byte NewLine
 
 	.word HighlightCountry
 	.byte 1
 
-.text	"are ill received by neighboring Agustria."
+.text	"is the catalyst of great chaos within Agustria."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The lords of Agustria lead a storm"
+.text	"The coalition’s rulers are quick"
 	.byte NewLine
-.text	"of heated rhetoric denouncing Grannvale."
+.text	"to voice a flurry of anti-Grannvale rhetoric."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -53,17 +65,18 @@ dialogueCh2WM2
 dialogueCh2WM3
 
 	.byte StartText
-.text	"To make matters worse, the renowned"
+.text	"These attitudes are emboldened with the sudden"
 	.byte NewLine
-.text	"pacifistic Agustrian ruler, King Imka,"
+.text	"assassination of Agustria’s renowned King Imka"
 	.byte WaitForA
 	.byte NewLine
-.text	"has been slain by an unknown hand."
+.text	"by an unknown hand, sending any lingering desire"
+	.byte NewLine
+.text	"for peace to the grave with him."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Imka's successor to the Agustrian crown"
-	.byte NewLine
+.text	"This leaves Imka’s firstborn son, Prince Chagall,"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -73,13 +86,14 @@ dialogueCh2WM3
 	.byte $A8	
 	.byte $24
 
-.text	"is his firstborn son, Prince Chagall."
+	.byte NewLine
+.text	"to succeed his father as the realm’s new king."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Even as the Agustrian crisis unfolds,"
+.text	"As of yet, Grannvale’s elite"
 	.byte NewLine
-.text	"the bulk of Grannvale's army remains in Isaach."
+.text	"are still far out to the east, in Isaach."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -89,9 +103,9 @@ dialogueCh2WM3
 dialogueCh2WM4
 
 	.byte StartText
-.text	"And so, Chagall has given the lords his first"
+.text	"Capitalizing on the opportunity, Chagall calls upon"
 	.byte NewLine
-.text	"command as their new king: invade Verdane."
+.text	"each of Agustria's lords to battle,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -138,11 +152,19 @@ dialogueCh2WM4
 	.byte $04
 
 	.byte WaitForA
+	.byte NewLine
+.text	"ordering an immediate invasion of Verdane."
+	.byte WaitForA
 	.byte ScrollText
 
-.text	"As the sole defender of Grannvale's front,"
+.text	"On guard at Castle Evans as the defenders"
 	.byte NewLine
-.text	"Sigurd once again finds himself in battle..."
+.text	"of Grannvale’s western front,"
+	.byte WaitForA
+	.byte NewLine
+.text	"Sigurd and his allies are once again ensnared"
+	.byte NewLine
+.text	"within the flames of battle..."
 	.byte WaitForA
 
 	.word ClearPortraitWM

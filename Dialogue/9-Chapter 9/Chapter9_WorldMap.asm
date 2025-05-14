@@ -10,14 +10,14 @@ dialogueCh9WM1
 	.byte $B0
 	.byte $40
 	.byte StartText
-.text	"With the liberation of the peninsula's north,"
+.text	"The northern stretch of the peninsula"
 	.byte NewLine
-.text	"Seliph's army occupies Meath Castle"
+.text	"is liberated."
 	.byte WaitForA
+	.byte ScrollText
+.text	"Seliph and his companions occupy Castle Meath"
 	.byte NewLine
-.text	"as their headquarters, uncertain of how to next"
-	.byte NewLine
-.text	"act."
+.text	"while hesitation fogs their path forward."
 	.byte WaitForA
 	
 	.word ClearPortraitWM
@@ -25,9 +25,13 @@ dialogueCh9WM1
 
 	.byte ScrollText
 
-.text	"Beyond Meath and the engulfing maw of its peaks"
+.text	"Just ahead of the vast and jagged summits"
 	.byte NewLine
-.text	"lies the wyvern knights' kingdom, Thracia."
+.text	"of Meath,"
+	.byte WaitForA
+.text	" they are faced with Thracia,"
+	.byte NewLine
+.text	"the kingdom of wyvern knights itself."
 
 	.word HighlightCountry
 	.byte SouthThracia
@@ -35,7 +39,7 @@ dialogueCh9WM1
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This rural nation is ruled by "
+.text	"Thracia’s"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -45,19 +49,25 @@ dialogueCh9WM1
 	.byte $B0
 	.byte $40
 	
-.text	"King Travant, who"
+.text	" King Travant is long bound"
 	.byte NewLine
-.text	"remains bound in coalition to Emperor Arvis."
+.text	"in accord with Emperor Arvis."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Thracia is the only state anywhere in Jugdral"
+.text	"Thus, under his administration, this rural land"
 	.byte NewLine
-.text	"regarded as an ally by the Grannvale Empire."
+.text	"remains as the sole power on the continent"
 	.byte WaitForA
+	.byte NewLine
+.text	"which the Grannvale Empire can call an ally."
+	.byte WaitForA
+	
 	.word ClearHighlight
+	
 	.word ClearPortraitWM
-	.byte 2
+	.byte 4
+	
 	.word PauseText
 	.byte $1E
 	.byte ScrollText
@@ -68,32 +78,20 @@ dialogueCh9WM1
 dialogueCh9WM2
 
 	.byte StartText
-.text	"Within Thracia, Travant's minions await Seliph:"
+.text	"Staying true to such a sentiment, Travant makes"
 	.byte NewLine
-.text	"his children, "
-
-	.word LoadPortraitWM1
-	.byte 4
-	.word portrait_Altena
-	.word LoadPortraitWM2
-	.byte 4
-	.byte $A0
-	.byte $58
-	
-.text	"Altena and "
-
-	.word LoadPortraitWM1
-	.byte 2
-	.word portrait_Arion3
-	.word LoadPortraitWM2
-	.byte 2
-	.byte $B0
-	.byte $10
-	
-.text	"Arion, at the capital;"
+.text	"arrangements for a full scale confrontation"
 	.byte WaitForA
 	.byte NewLine
-.text	"the legendary "
+.text	"with Seliph and the Liberation Army."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"At Castle Cappadocia,"
+	.byte NewLine	
+.text	"a man regarded as the Shield of Thracia,"
+	.byte WaitForA
+	.byte NewLine
 
 	.word LoadPortraitWM1
 	.byte 6
@@ -102,13 +100,12 @@ dialogueCh9WM2
 	.byte 6
 	.byte $60
 	.byte $34
-	
-.text	"General Hannibal, dubbed"
-	.byte NewLine
-.text	"“Thracia's Shield”, at Cappadocia Castle;"
+.text	"the renowned General Hannibal;"
 	.byte WaitForA
 	.byte NewLine
-.text	"the king's trusted advisor, "
+.text	"at Castle Lutetia, the king’s"
+	.byte NewLine
+.text	"most trusted confidant,"
 
 	.word LoadPortraitWM1
 	.byte 8
@@ -118,13 +115,12 @@ dialogueCh9WM2
 	.byte $10
 	.byte $08
 	
-.text	"General Distler,"
-	.byte NewLine
-.text	"at Lutetia Castle;"
+.text	" General Distler;"
 	.byte WaitForA
 	.byte NewLine
-.text	"and a Loptrian agent from the Empire,"
+.text	"at Castle Galatia, a missionary of the Loptr"
 	.byte NewLine
+.text	"Church dispatched by the Empire,"
 	
 	.word LoadPortraitWM1
 	.byte 10
@@ -134,36 +130,68 @@ dialogueCh9WM2
 	.byte $18
 	.byte $60
 	
-.text	"Bishop Judas, at Galatia Castle."
+.text	" Bishop Judas;"
+	.byte WaitForA
+	.byte NewLine
+.text	"and at the capital of Thracia, both of the king’s"
+	.byte NewLine
+.text	"children,"
+
+	.word LoadPortraitWM1
+	.byte 2
+	.word portrait_Arion3
+	.word LoadPortraitWM2
+	.byte 2
+	.byte $B0
+	.byte $10
+	
+.text	" Prince Arion"
+
+	.word LoadPortraitWM1
+	.byte 4
+	.word portrait_Altena
+	.word LoadPortraitWM2
+	.byte 4
+	.byte $A0
+	.byte $58
+	
+.text	" and Princess Altena."
+	.byte WaitForA
+	.byte NewLine
+.text	"Each of these adversaries stand ready to fight."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Travant has fortified his kingdom for one final,"
+.text	"All the while, Thracia’s people look upon Seliph"
 	.byte NewLine
-.text	"full-scale showdown with the liberators."
+.text	"and his companions"
+	.byte WaitForA
+.text	" with apprehension befit"
+	.byte NewLine
+.text	"for an imperialist and take up arms"
+	.byte WaitForA
+	.byte NewLine
+.text	"in defense of what little they have."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Thracia's people hardly offer Seliph an eager"
+.text	"Is there truly any justice to be found"
 	.byte NewLine
-.text	"welcome."
+.text	"in such a battle?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Fearing Seliph as a conqueror, they flock in"
-	.byte NewLine
-.text	"droves to take up arms themselves."
+.text	"For whose sake does this war wage on?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"How could any justice lie in this conflict?"
+.text	"These questions plague the minds of Seliph and"
 	.byte NewLine
-.text	"For whose sake is this war being fought?"
+.text	"his allies,"
 	.byte WaitForA
+.text	" for the first time met with a fight that"
 	.byte NewLine
-.text	"For the first time, these questions now shake"
-	.byte NewLine
-.text	"both Seliph and his army's resolve to the core..."
+.text	"seeks to test the steel of their very resolve…"
 	.byte WaitForA
 	
 	.word ClearPortraitWM

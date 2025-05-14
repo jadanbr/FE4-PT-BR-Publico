@@ -3,25 +3,27 @@
 dialogueCh7WM1
 
 	.byte StartText
-.text	"Word of the first victory of Prince Seliph"
+.text	"Prince Seliph spearheads the liberation army’s"
 	.byte NewLine
-.text	"and his liberation army quickly spreads far"
+.text	"first victory;"
+	.byte WaitForA
+.text	" word of it sparks courage in"
+	.byte NewLine
+.text	"the people suffering beneath the empire’s heel,"
 	.byte WaitForA
 	.byte NewLine
-.text	"and wide, inspiring courage anew in"
-	.byte NewLine
-.text	"the Empire's victims."
+.text	"leading to several uprisings across Jugdral."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Still more uprisings erupt across Jugdral,"
+.text	"Nevertheless, with none to unite them,"
 	.byte NewLine
-.text	"but once again, precious few are"
+.text	"nearly all are swiftly stamped out,"
 	.byte WaitForA
 	.byte NewLine
-.text	"properly organized and are easily crushed,"
+.text	"allowing countless more lives"
 	.byte NewLine
-.text	"and the death toll climbs ever higher..."
+.text	"to be claimed by the imperial army."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -31,9 +33,11 @@ dialogueCh7WM1
 	.byte Low
 	.byte Leonster1
 
-.text	"Leonster, a kingdom in the Thracian Peninsula..."
+.text	"Located on the Thracian Peninsula"
+	.byte NewLine
+.text	"is the Kingdom of Leonster,"
 	.byte WaitForA
-	.byte ScrollText
+	.byte NewLine
 	
 	.word LoadPortraitWM1
 	.byte 2
@@ -43,9 +47,8 @@ dialogueCh7WM1
 	.byte $8C
 	.byte $14
 
-.text	"Prince Leif, the son of Quan, had raised an army"
+.text	"in which the son of Quan, Prince Leif, raised an"
 	.byte NewLine
-.text	"with the aid of"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -55,15 +58,17 @@ dialogueCh7WM1
 	.byte $58
 	.byte $50
 
-.text	" the knight Finn,"
+.text	"army alongside Finn to stand against the Empire."
+	.byte WaitForA
+	.byte ScrollText
+.text	"However, the vast number of King Bloom’s"
+	.byte NewLine
+.text	"forces prove to be too much, thus,"
 	.byte WaitForA
 	.byte NewLine
-.text	"but they have suffered a devastating loss"
+.text	"following a crushing defeat, Leif finds himself"
 	.byte NewLine
-.text	"before King Bloom's vast hordes and are"
-	.byte WaitForA
-	.byte NewLine
-.text	"stranded in hostile ground."
+.text	"trapped within enemy lines on his lonesome."
 	.byte WaitForA
 
 	.word ClearMapSymbol
@@ -80,8 +85,12 @@ dialogueCh7WM1
 	.byte Low
 	.byte AedShrine
 
-.text	"Before Seliph lies the Aed Desert, ruled by the"
+.text	"The road from Isaach to Leonster"
 	.byte NewLine
+.text	"crosses into the Aed Desert,"
+	.byte WaitForA
+	.byte NewLine
+.text	"a territory dominated by"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -91,7 +100,9 @@ dialogueCh7WM1
 	.byte $64
 	.byte $07
 
-.text	"Loptrian Kutuzov from the Aed Shrine;"
+.text	" Kutuzov of the"
+	.byte NewLine
+.text	"Loptr Church, who resides at the Temple of Aed."
 	.word ClearMapSymbol
 	.byte Low
 	.byte WaitForA
@@ -103,10 +114,12 @@ dialogueCh7WM1
 	.byte Low
 	.byte Dahna
 
-.text	"the oasis city of Dahna,"
+.text	"On the desert’s outer edge"
+	.byte NewLine
+.text	"is the municipal oasis of Dahna,"
 	.byte WaitForA
 	.byte NewLine
-.text	"governed by the "
+.text	"under the watch of a former merchant, Bramsel,"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -115,9 +128,9 @@ dialogueCh7WM1
 	.byte 4
 	.byte $3E
 	.byte $44
-
-.text	"ex-merchant Bramsel and"
+	
 	.byte NewLine
+.text	"as well as a mercenary captain,"
 
 	.word LoadPortraitWM1
 	.byte 6
@@ -127,7 +140,7 @@ dialogueCh7WM1
 	.byte $0A
 	.byte $5B
 
-.text	"the captain of his sellsword army, Javarro;"
+.text	" Javarro."
 	.word ClearMapSymbol
 	.byte Low
 	.byte WaitForA
@@ -156,7 +169,9 @@ dialogueCh7WM2
 	.byte $02
 
 	.byte StartText
-.text	"and Fort Mergen, guarded by "
+.text	"And at Fort Mergen,"
+	.byte WaitForA
+	.byte NewLine
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -166,9 +181,9 @@ dialogueCh7WM2
 	.byte $18
 	.byte $3B
 
-.text	"Prince Ishtore"
+.text	"Prince Ishtore himself stands guard alongside"
 	.byte NewLine
-.text	"and the renowned "
+.text	"the highly skilled commandress,"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -178,11 +193,22 @@ dialogueCh7WM2
 	.byte $4B
 	.byte $60
 
-.text	"General Raisa."
+.text	" Raisa."
 	.word ClearMapSymbol
 	.byte Low
 	.byte WaitForA
 	.byte ScrollText
+
+.text	"Beyond its defenses lies the royal capital"
+	.byte NewLine
+	
+	.word LoadMapSymbol
+	.byte $7C
+	.byte $64
+	.byte Low
+	.byte Ulster1
+	
+.text	"of Ulster where King Bloom, "
 	
 	.word LoadPortraitWM1
 	.byte 6
@@ -191,25 +217,16 @@ dialogueCh7WM2
 	.byte 6
 	.byte $75
 	.byte $20
-
-.text	"King Bloom himself, the son of the late Duke"
-	.byte NewLine
-.text	"Reptor, awaits at "
-
-	.word LoadMapSymbol
-	.byte $7C
-	.byte $64
-	.byte Low
-	.byte Ulster1
-
-.text	"the capital city of Ulster"
 	.byte WaitForA
+	.byte NewLine
+
+.text	"the son of House Friege’s late Duke Reptor,"
 	.byte NewLine
 	.word RunASM
 	.long $91AFA4
 	.word RunASM
 	.long $8DFEB2
-.text	" with his niece,"
+.text	"as well as his niece,"
 
 	.word LoadPortraitWM2
 	.byte 8
@@ -222,7 +239,7 @@ dialogueCh7WM2
 	.byte Low
 
 	.word PrintStoredNameA
-.text	"."
+.text	", await."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -249,7 +266,7 @@ dialogueCh7WM3
 	.byte Ribaut2
 
 	.byte StartText
-.text	"In Ribaut, "
+.text	"And thus, Seliph"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -259,27 +276,27 @@ dialogueCh7WM3
 	.byte $64
 	.byte $30
 
-.text	"Seliph and the warriors of his"
+.text	" prepares to set out from Ribaut"
 	.byte NewLine
-.text	"liberation army now prepare themselves"
+.text	"with the warriors of Isaach’s Liberation Army,"
 
 	.word ClearMapSymbol
 	.byte Low
 	
 	.byte WaitForA
 	.byte NewLine
-.text	"to embark on a journey and come to the aid"
+.text	"charting a course for Leonster,"
 	.byte NewLine
-.text	"of their allies in far-away Leonster."
+.text	"hoping to lend some aid to their distant allies."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Each warrior sets aside their worries as,"
-	.byte NewLine
-.text	"under Seliph's leadership,"
+.text	"Determination lies in each of their hearts;"
 	.byte WaitForA
 	.byte NewLine
-.text	"they prepare for the new battle on their horizon."
+.text	"a new battle unfolds for Seliph and"
+	.byte NewLine
+.text	"his companions as they march into the sands…"
 	.byte WaitForA
 	.byte ScrollText
 	

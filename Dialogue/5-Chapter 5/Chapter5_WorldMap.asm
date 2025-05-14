@@ -3,9 +3,12 @@
 dialogueCh5WM
 
 	.byte StartText
-.text	"The Silessian civil war is over,"
+.text	"As the curtain falls on Silesse’s civil war,"
+	.byte WaitForA
 	.byte NewLine
-.text	"and the Grannvale army awaits Sigurd."
+.text	"another rises as Grannvale’s army"
+	.byte NewLine
+.text	"awaits Sigurd on the other side."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -15,9 +18,7 @@ dialogueCh5WM
 	.byte High
 	.byte Zaxon2
 	
-.text	"Zaxon Castle has barely fallen,"
-	.byte NewLine
-.text	"yet before"
+.text	"Upon Castle Zaxon’s capture,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -27,11 +28,13 @@ dialogueCh5WM
 	.byte $28
 	.byte $04
 
-.text	" Sigurd can so much as rest,"
+.text	" Sigurd and his allies"
+	.byte NewLine
+.text	"are scarcely afforded even a moment’s rest."
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
-	.byte NewLine
+	.byte ScrollText
 	
 	.word LoadMapSymbol
 	.byte $74
@@ -39,13 +42,18 @@ dialogueCh5WM
 	.byte High
 	.byte ZaxonToLubeck
 	
-.text	"the hordes of Grannvale stand before him"
+.text	"Across thawing plains, their eyes are met"
 	.byte NewLine
-.text	"at the captured Lübeck Castle."
+.text	"with Castle Lübeck"
+	.byte WaitForA
+.text	" overrun by swarms"
+	.byte NewLine
+.text	"of Grannvale soldiers."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"The Grannvale commander,"
+.text	"At the army’s command is Lord Lombard"
+	.byte NewLine
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -55,18 +63,25 @@ dialogueCh5WM
 	.byte $BC
 	.byte $08
 
-.text	" Duke Lombard,"
+.text	"of House Dozel,"
+	.byte WaitForA
+.text	" a longtime adversary"
 	.byte NewLine
-.text	"is a longtime enemy of Sigurd's father."
+.text	"of Sigurd’s missing father."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"For Sigurd, to challenge Lombard"
+.text	"It was Lombard who had framed Lord Byron"
 	.byte NewLine
-.text	"is an opportunity to avenge his father, Byron,"
+.text	"for his own crimes against the kingdom."
+	.byte WaitForA
+	.byte ScrollText
+.text	"So for Sigurd, a confrontation with him"
+	.byte NewLine
+.text	"serves as an opportunity to find answers,"
 	.byte WaitForA
 	.byte NewLine
-.text	"framed by Lombard for his crimes."
+.text	"if not closure."
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
@@ -78,12 +93,13 @@ dialogueCh5WM
 	.byte High
 	.byte Fionnuala
 	
-.text	"Beyond Lübeck, in the desert town, Fionnuala,"
+.text	"Further south, one of Lord Arvis’"
 	.byte NewLine
-.text	"Lord Arvis' elite warriors stand guard"
+.text	"most seasoned warriors"
 	.byte WaitForA
 	.byte NewLine
-.text	"under the command of the war-mage"
+.text	"garrisons the desert town of Fionnuala:"
+	.byte NewLine
 
 	.word LoadPortraitWM1
 	.byte 6
@@ -96,7 +112,7 @@ dialogueCh5WM
 	.word ClearMapSymbol
 	.byte High
 	
-.text	" Vaja."
+.text	"Vaja the Spellblade."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -106,13 +122,9 @@ dialogueCh5WM
 	.byte High
 	.byte Velthomer2
 	
-.text	"Velthomer Castle, on Grannvale border"
+.text	"And beyond the Aed Desert, in Velthomer,"
 	.byte NewLine
-.text	"with the Aed Desert,"
-	.byte WaitForA
-.text	" is defended by"
-	.byte NewLine
-.text	"Lord Arvis' trusted aide,"
+.text	"General Aida,"
 
 	.word LoadPortraitWM1
 	.byte 8
@@ -125,7 +137,10 @@ dialogueCh5WM
 	.word ClearMapSymbol
 	.byte High
 	
-.text	" General Aida."
+	.byte WaitForA
+.text	" often regarded as the young lord’s"
+	.byte NewLine
+.text	"right-arm, stands guard as the castle’s defense."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -135,12 +150,19 @@ dialogueCh5WM
 	.byte High
 	.byte Belhalla2
 	
-.text	"And in Belhalla, the royal capital of Grannvale,"
+.text	"Finally, there is Grannvale’s capital, Belhalla…"
+	.byte WaitForA
+	.byte ScrollText
+.text	"In the palace, King Asmundr’s days"
 	.byte NewLine
-.text	"Lord Arvis serves to aid the bedridden"
+.text	"are numbered, now permanently bedridden"
 	.byte WaitForA
 	.byte NewLine
-.text	"King Ásmundr, while"
+.text	"as Lord Arvis remains close by"
+	.byte NewLine
+.text	"to provide relief through his condition."
+	.byte WaitForA
+	.byte ScrollText
 
 	.word LoadPortraitWM1
 	.byte 10
@@ -153,33 +175,48 @@ dialogueCh5WM
 	.word ClearMapSymbol
 	.byte High
 	
-.text	" Chancellor Reptor of Friege"
+.text	"Meanwhile, Chancellor Reptor of House Friege"
 	.byte NewLine
-.text	"maintains peace and order in the city."
+.text	"takes to the masses"
+	.byte WaitForA
+.text	" and works diligently"
+	.byte NewLine
+.text	"to maintain peace and order within the city."
 	.byte WaitForA
 	.byte ScrollText
+	
+.text	"The journey to Belhalla will be a long one;"	; Moved this up a bit for dramatic timing
+	.byte WaitForA
 	
 	.word LoadMapSymbol
 	.byte $73
 	.byte $2C
 	.byte Low
 	.byte ZaxonToBelhalla
-	
-.text	"A long road to Belhalla awaits Sigurd..."
 	.byte NewLine
-.text	"A clash with Grannvale en route is inevitable."
+.text	"a clash between Sigurd and the droves"
+	.byte NewLine
+.text	"sent to subdue him is inevitable."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sigurd refuses to endanger the people of Silesse"
+.text	"“Silesse has treated us with naught"
 	.byte NewLine
-.text	"any further in this conflict."
+.text	"but kindness,"
+	.byte WaitForA
+.text	" I refuse to drag its people"
+	.byte NewLine
+.text	"into this fight any further!”"
+	.byte WaitForA
+	.byte ScrollText	
+.text	"Sigurd spurs on his allies,"
+	.byte NewLine
+.text	"all determined to fight to the end."
 	.byte WaitForA
 	.byte ScrollText
-	
-.text	"He is determined to fight to the end."
+.text	"The year is 760, Grann Calendar,"
 	.byte NewLine
-.text	"The year is Grann 760, early spring."
+.text	"as winter turns to spring…"
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -197,9 +234,12 @@ dialogueCh5WM
 	.word ClearPortraitWM
 	.byte 10
 	
-.text	"The fields of Silesse peacefully rest"
+.text	"From winding mountains to open plains,"
+	.byte WaitForA
 	.byte NewLine
-.text	"beneath a deep blanket of snow..."
+.text	"Silesse is left peacefully"
+	.byte NewLine
+.text	"beneath a deep blanket of snow…"
 	.byte WaitForA
 	.byte ScrollText
 	

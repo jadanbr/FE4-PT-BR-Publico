@@ -7,4 +7,4 @@
     .word $056F	; UnitPointer
 	
     .byte $B0	; Branch to...
-	.byte $04 	; relative distance to the next step
+    .byte $04 	; relative distance to the next step

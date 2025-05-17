@@ -8,7 +8,9 @@ While this may not be an "FE4 Builder", and the game's disassembly is still far 
 Setup
 -----------------
 
-- A recent version of [**python 3**](https://www.python.org/) must be installed and in your path.
+- Install a recent version of [**python 3**](https://www.python.org/).
+
+- Open your Python installer and Modify your installation. Select "Add Python to environment variables".
   
 - Go through the `tools` folders and install said tools wherever you see an `.url` file.
   64tass and SuperFamiconv are required downloads, and the others are all strongly recommended.

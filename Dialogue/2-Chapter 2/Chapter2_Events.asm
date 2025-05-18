@@ -1840,7 +1840,9 @@ dialogueCh2SeizeAgusti1_KnightsAlive
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Lachesis
-
+	
+	.byte LeftSlot
+	.byte StartText
 .text	"Milady, we three shall return to Nordion."
 	.byte NewLine
 .text	"Before we leave, however,"

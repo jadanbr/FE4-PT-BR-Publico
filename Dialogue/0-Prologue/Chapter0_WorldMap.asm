@@ -73,7 +73,7 @@ dialoguePrologueWM1
 	.byte $98
 	.byte $1C
 	
-.text	" King Asmundr serves"
+.text	" King Ásmundr serves"
 	.byte NewLine
 .text	"at the head of the kingdom's governance;"
 	.byte WaitForA
@@ -255,7 +255,7 @@ dialoguePrologueWM1
 
 .text	" Lord Arvis, has instead seen to the"
 	.byte NewLine
-.text	"care of King Asmundr, "
+.text	"care of King Ásmundr, "
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA

@@ -153,7 +153,7 @@ dialogueCh5WM
 .text	"Finally, there is Grannvale’s capital, Belhalla…"
 	.byte WaitForA
 	.byte ScrollText
-.text	"In the palace, King Asmundr’s days"
+.text	"In the palace, King Ásmundr’s days"
 	.byte NewLine
 .text	"are numbered, now permanently bedridden"
 	.byte WaitForA

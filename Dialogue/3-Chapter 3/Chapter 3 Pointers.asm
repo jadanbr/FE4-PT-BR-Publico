@@ -451,7 +451,14 @@
 * = $1D8C2C
 .logical $1D8C2C
 
-.long dialogueCh3KillPapilio
+.long dialogueCh3KillPapilio_Or_SeizeSylvale		;	Kill Papilio
+
+.here
+
+* = $1D8C7F
+.logical $1D8C7F
+
+.long dialogueCh3KillPapilio_Or_SeizeSylvale		;	Seize Sylvale with Papilio still alive
 
 .here
 

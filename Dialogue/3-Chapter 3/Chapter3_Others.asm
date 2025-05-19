@@ -173,7 +173,7 @@ dialogueCh3KillEldigan3
 	.byte EndText
 
 
-dialogueCh3KillPapilio
+dialogueCh3KillPapilio_Or_SeizeSylvale
 
 	.byte RightSlot
 	.word OpenBox

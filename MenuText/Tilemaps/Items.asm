@@ -961,9 +961,9 @@ items_tilemap
 .fill $08, 0
 
 ; Broken Staff
-.byte 07
+.byte 08
 .long $57DA00
-.byte 07
+.byte 08
 .long $57DB00
 .fill $08, 0
 

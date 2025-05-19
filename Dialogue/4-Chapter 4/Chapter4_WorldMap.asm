@@ -154,7 +154,7 @@ dialogueCh4WM2
 
 .text	" before hiding away"
 	.byte NewLine
-.text	"in Castle Zaxon to plot is next move."
+.text	"in Castle Zaxon to plot his next move."
 
 	.word ClearMapSymbol
 	.byte High

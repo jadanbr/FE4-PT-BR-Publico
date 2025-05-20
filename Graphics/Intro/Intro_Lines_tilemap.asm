@@ -264,7 +264,7 @@
 
 ; LINE 13
 .byte $00
-.long $418DC0
+.long intro_line13
 .long $7E8B88
 .byte $00, $78, $00, $08
 

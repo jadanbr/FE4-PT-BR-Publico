@@ -200,88 +200,31 @@ chapter_titles_tilemap		.binary "GeneralInterface/Chapter_Titles_tilemap.tilemap
 .binary "GeneralInterface/Rankings.tilemap.fe4"
 .here
 
-
-
 ; Intro lines
 
 * = $415780
 .logical $415780
-intro_line1		.binary "Intro/Intro_Line1.4bpp.fe4"
-.here
-
-* = $415B70
-.logical $415B70
-intro_line2		.binary "Intro/Intro_Line2.4bpp.fe4"
-.here
-
-* = $416020
-.logical $416020
-intro_line3		.binary "Intro/Intro_Line3.4bpp.fe4"
-.here
-
-* = $4164F0
-.logical $4164F0
-intro_line4		.binary "Intro/Intro_Line4.4bpp.fe4"
-.here
-
-* = $416A50
-.logical $416A50
-intro_line5		.binary "Intro/Intro_Line5.4bpp.fe4"
-.here
-
-* = $416F90
-.logical $416F90
-intro_line6		.binary "Intro/Intro_Line6.4bpp.fe4"
-.here
-
-* = $4174B0
-.logical $4174B0
-intro_line7		.binary "Intro/Intro_Line7.4bpp.fe4"
-.here
-
-* = $4179D0
-.logical $4179D0
-intro_line8		.binary "Intro/Intro_Line8.4bpp.fe4"
-.here
-
-* = $420010			;420010
-.logical $420010	;417FA0
-intro_line9		.binary "Intro/Intro_Line9.4bpp.fe4"
-.here
-
-* = $4184A0			;420500
-.logical $4184A0	;
+intro_line1			.binary "Intro/Intro_Line1.4bpp.fe4"
+intro_line2			.binary "Intro/Intro_Line2.4bpp.fe4"
+intro_line3			.binary "Intro/Intro_Line3.4bpp.fe4"
+intro_line4			.binary "Intro/Intro_Line4.4bpp.fe4"
+intro_line5			.binary "Intro/Intro_Line5.4bpp.fe4"
+intro_line6			.binary "Intro/Intro_Line6.4bpp.fe4"
+intro_line7			.binary "Intro/Intro_Line7.4bpp.fe4"
+intro_line8			.binary "Intro/Intro_Line8.4bpp.fe4"
+intro_line9			.binary "Intro/Intro_Line9.4bpp.fe4"
 intro_line10		.binary "Intro/Intro_Line10.4bpp.fe4"
-.here
-
-* = $418930			;420990
-.logical $418930	;
 intro_line11		.binary "Intro/Intro_Line11.4bpp.fe4"
-.here
-
-* = $418AB0			;420B10
-.logical $418AB0	;
 intro_line12		.binary "Intro/Intro_Line12.4bpp.fe4"
-.here
-
-* = $419000			;420E20
-.logical $419000	;418DC0
 intro_line13		.binary "Intro/Intro_Line13.4bpp.fe4"
 .here
-
-* = $17F3F9
-.logical $418DB0
-.long intro_line13
-.here
-
-.include "Intro/Intro_Lines_tilemap.asm"
 
 * = $415710
 .logical $415710
 intro_tilemap		.binary "Intro/Intro_tilemap.tilemap.fe4"
-
 .here
 
+.include "Intro/Intro_Lines_tilemap.asm"
 
 
 ; World Map

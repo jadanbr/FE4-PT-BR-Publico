@@ -1742,7 +1742,7 @@ names_tilemap
 .fill $0C, 0
 
 ; Canut
-.byte 5
+.byte 4
 .long $535400
 .fill $0C, 0
 

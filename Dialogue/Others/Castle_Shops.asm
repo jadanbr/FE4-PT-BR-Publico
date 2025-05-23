@@ -514,7 +514,7 @@ depository_after_retrieve
 depository_retrieve_empty
 	.byte ClearText
 	.byte StartText
-.text	"You can't carry any more items!"
+.text	"Sorry! Your storage box is empty!"
 	.byte NewLine
 	.byte WaitForA
 	.byte ClearText

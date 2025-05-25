@@ -3,6 +3,10 @@
 *.csv.asm
 *.sym
 
+Release_build.bat
+Release_buildfile.asm
+checksum.py
+
 TO DO LNBF.txt
 labels.txt
 log.txt

@@ -752,7 +752,7 @@ locations_affiliation_tilemap
 .fill $08, 0
 
 ; Galatia
-.byte 5
+.byte 4
 .long $589A00
 .byte 8
 .long $589B00

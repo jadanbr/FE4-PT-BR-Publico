@@ -77,7 +77,7 @@
 .byte	128		; Thoron
 .byte	89		; Mjölnir
 .byte	11		; Bolting
-.byte	134		; Wind
+.byte	135		; Wind
 .byte	53		; Elwind
 .byte	130		; Tornado
 .byte	58		; Forseti
@@ -99,7 +99,7 @@
 .byte	94		; Physic Staff
 .byte	59		; Fortify Staff
 .byte	103		; Return Staff
-.byte	135		; Wind Staff
+.byte	134		; Warp Staff
 .byte	100		; Rescue Staff
 .byte	35		; Charm Staff
 .byte	101		; Restore Staff

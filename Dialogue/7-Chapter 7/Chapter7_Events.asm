@@ -875,7 +875,7 @@ dialogueCh7SeizeAed4
 .text	"I care so much for that."
 	.word PauseText
 	.byte $08
-.text	"Bring her to me!"
+.text	" Bring her to me!"
 	
 	.byte RightSlot		;Lene
 	.word PauseText

@@ -269,7 +269,7 @@ dialogueCh9VillageSouthwest_Jeanne_Hermina
 	.byte NewLine
 .text	"You're nothing like the real Prince Shannan!"
 	.byte WaitForA
-	.byte ScrollText
+	.word ScrollBoth
 	
 	.byte LeftSlot		;Shannam
 .text	"Oh, geez..."

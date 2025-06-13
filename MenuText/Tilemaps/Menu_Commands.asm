@@ -204,7 +204,7 @@ command_options_adress
 .word $0101
 .word $4081, $0E01, $0F01, $2001, $2101, $2201, $0000
 
-; Load
+; Load (unused)
 command_load_adress
 .long $85DC7A
 .word $0101
@@ -225,75 +225,79 @@ command_end_adress
 .here
 
 
-* = $05DD96
-.logical $05DD96
+* = $05DD94
+.logical $05DD94
 
 ; Repoints, in case you need to change the sizes above
 
+; Start-of-turn menu layout.
+
+.word $0606 ;??
+
 .word $0101
-.word <>command_units_adress
-.byte $85
+.long command_units_adress
 
 .word $0301
-.word <>command_items_adress
-.byte $85
+.long command_items_adress
 
 .word $0501
-.word <>command_status_adress
-.byte $85
+.long command_status_adress
 
 .word $0701
-.word <>command_skills_adress
-.byte $85
+.long command_skills_adress
 
 .word $0901
-.word <>command_options_adress
-.byte $85
+.long command_options_adress
 
 .word $0B01
-.word <>command_save_adress
-.byte $85
+.long command_save_adress
 
 .word $0D01
-.word <>command_end_adress
-.byte $85
+.long command_end_adress
 
-.word $0000, $0606 ;??
+.word $0000
+
+; Mid-turn menu layout.
+
+.word $0606 ;??
 
 .word $0101
-.word <>command_units_adress
-.byte $85
+.long command_units_adress
 
 .word $0301
-.word <>command_items_adress
-.byte $85
+.long command_items_adress
 
 .word $0501
-.word <>command_status_adress
-.byte $85
+.long command_status_adress
 
 .word $0701
-.word <>command_skills_adress
-.byte $85
+.long command_skills_adress
 
 .word $0901
-.word <>command_options_adress
-.byte $85
+.long command_options_adress
 
 .word $0B01
-.word <>command_end_adress
-.byte $85
+.long command_end_adress
 
 .here
 
 * = $05A670
 .logical $05A670
 
-animations_submenu_tilemap
-.word $6001, $6101, $6201, $6301, $6401, $6501, $0000, $0000	; Animations
-.word $6E01, $6F01, $0000										; On
-.word $8E01, $8F01, $0000                                       ; Off
-.word $6701, $6801, $6901, $6A01, $6B01, $6C01, $0000           ; Set for all
+animations_submenu_animations_tilemap	.word $6001, $6101, $6201, $6301, $6401, $6501, $0000, $0000	; Animations
+animations_submenu_on_tilemap			.word $6E01, $6F01, $0000										; On
+animations_submenu_off_tilemap			.word $8E01, $8F01, $0000                                       ; Off
+animations_submenu_setforall_tilemap	.word $6701, $6801, $6901, $6A01, $6B01, $6C01, $0000           ; Set for all
+
+.here
+
+* = $05A626
+.logical $05A626
+;							    Tilemap v----v	   Spaces before v
+.byte	$A9, $00, $85, $85, $25, $A9, $70, $A6, $85, $24, $A2, $01, $01, $22, $00, $44, $51
+.byte	$A9, $00, $85, $85, $25, $A9, $80, $A6, $85, $24, $A2, $02, $03, $22, $21, $89, $87
+.byte	$A9, $00, $85, $85, $25, $A9, $86, $A6, $85, $24, $A2, $02, $05, $22, $21, $89, $87
+.byte	$A9, $00, $85, $85, $25, $A9, $8C, $A6, $85, $24, $A2, $02, $07, $22, $21, $89, $87
 
 .here
 
@@ -311,5 +315,35 @@ animations_subsubmenu_tilemap
 
 phase_word_tilemap
 .word $2B01, $2C01, $2D01, $2E01, $0000, $0000	; Phase
+
+.here
+
+;	The options below are for languages where "X Phase" is in the "Phase of X" order.
+
+;	Phase offset — Remove about 8 to push it to the left, depending on your language's word.
+
+* = $511F01
+.logical $511F01
+
+.byte 18
+
+.here
+
+;	Army name offset — Set it to 18 to push it to the right.
+
+* = $5AD0B
+.logical $5AD0B
+
+.byte 07
+
+.here
+
+; Use right-aligned army name — Set both bytes to $EA to use the left-aligned army name.
+
+* = $511118
+.logical $511118
+
+.byte $F0
+.byte $03
 
 .here

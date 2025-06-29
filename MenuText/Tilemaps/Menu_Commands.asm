@@ -232,28 +232,35 @@ command_end_adress
 
 ; Start-of-turn menu layout.
 
-.word $0606 ;??
+.word $0707 ;??
 
 .word $0101
-.long command_units_adress
+.word <>command_units_adress
+.byte $85
 
 .word $0301
-.long command_items_adress
+.word <>command_items_adress
+.byte $85
 
 .word $0501
-.long command_status_adress
+.word <>command_status_adress
+.byte $85
 
 .word $0701
-.long command_skills_adress
+.word <>command_skills_adress
+.byte $85
 
 .word $0901
-.long command_options_adress
+.word <>command_options_adress
+.byte $85
 
 .word $0B01
-.long command_save_adress
+.word <>command_save_adress
+.byte $85
 
 .word $0D01
-.long command_end_adress
+.word <>command_end_adress
+.byte $85
 
 .word $0000
 
@@ -262,22 +269,28 @@ command_end_adress
 .word $0606 ;??
 
 .word $0101
-.long command_units_adress
+.word <>command_units_adress
+.byte $85
 
 .word $0301
-.long command_items_adress
+.word <>command_items_adress
+.byte $85
 
 .word $0501
-.long command_status_adress
+.word <>command_status_adress
+.byte $85
 
 .word $0701
-.long command_skills_adress
+.word <>command_skills_adress
+.byte $85
 
 .word $0901
-.long command_options_adress
+.word <>command_options_adress
+.byte $85
 
 .word $0B01
-.long command_end_adress
+.word <>command_end_adress
+.byte $85
 
 .here
 

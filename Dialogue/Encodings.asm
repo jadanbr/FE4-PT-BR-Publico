@@ -80,7 +80,7 @@
 .edef "’", $48			; Curved apostrophe	
 .edef "-", $49
 .edef '"', $4A
-.edef "·", $4B
+.edef "—", $4B			; Em-dash
 .edef ":", $4C
 .edef ";", $4D
 .edef "(", $4E

@@ -12,6 +12,7 @@
 .include "Names_Question.asm"
 .include "Options.asm"
 .include "Profile.asm"
+.include "Skills.asm"
 .include "Skills_Menu.asm"
 .include "Status_Menu.asm"
 .include "Status_Menu_Names.asm"

@@ -3,6 +3,7 @@
 .include "Classes.asm"
 .include "Forecast.asm"
 .include "Items.asm"
+.include "Item_Desc.asm"
 .include "Items_Menu.asm"
 .include "Locations.asm"
 .include "Menu_Commands.asm"

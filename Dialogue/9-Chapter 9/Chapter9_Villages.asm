@@ -7,23 +7,23 @@ dialogueCh9VillageNorthwest_BeforeMousaAppears
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"I heard tell that the Empire's gonna send"
+.text	"Ouvi dizer que tem reforços do Império"
 	.byte NewLine
-.text	"reinforcements to come after ya."
+.text	"a caminho daqui."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sounds like Sir Mousa's leading the charge."
+.text	"E me parece que o comandante deles é Mousa."
 	.byte NewLine
-.text	"Legend has it his father fell at the hands of a"
+.text	"Reza a lenda que o pai dele morreu nas mãos"
 	.byte NewLine
-.text	"Silessian knight who's now among ya."
+.text	"de um silessiano que está em seu exército agora."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You'd best take care."
+.text	"Melhor vocês terem cuidado."
 	.byte NewLine
-.text	"Odds are he's lustin' for a bit of revenge."
+.text	"Eu acho que ele quer vingança."
 	.byte WaitForA
 
 	.byte EndText
@@ -36,11 +36,9 @@ dialogueCh9VillageNorthwest_AfterMousaAppears
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"Oh, hey! You've gone and sorted out them"
+.text	"Caramba! Você já deu cabo daqueles"
 	.byte NewLine
-.text	"Imperial reinforcements already?"
-	.byte NewLine
-.text	"Wow... I'm pretty dang impressed!"
+.text	"imperiais? Uau... eu estou impressionado!"
 	.byte WaitForA
 
 	.byte EndText
@@ -53,23 +51,28 @@ dialogueCh9VillageNortheast
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"Thracia has many generals in its service,"
+.text	"Trácia tem muitos generais no seu exército,"
 	.byte NewLine
-.text	"but Lord Hannibal is the most revered of 'em all."
+.text	"mas Lorde Aníbal é com certeza o melhor deles."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The man has devoted nigh on his entire life to"
+.text	"Ele passou a vida toda lutando para"
 	.byte NewLine
-.text	"the battlefield, so he never found a wife."
+.text	"defender nosso país, por isso ele"
+	.byte NewLine
+.text	"não tem esposa."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Mind, twelve years ago or so, he did take in an"
+.text	"Mas, há mais ou menos doze anos atrás, ele"
 	.byte NewLine
-.text	"orphan. He treats the boy as if he's his own"
+.text	"adotou um órfão. Ele trata o menino como"
 	.byte NewLine
-.text	"flesh and blood. What a wonderful guy!"
+.text	"se fosse de verdade o filho dele."
+	.byte WaitForA
+	.byte NewLine
+.text	"Esse sim, é um homem que merece respeito!"
 	.byte WaitForA
 
 	.byte EndText
@@ -82,33 +85,33 @@ dialogueCh9VillageWest
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"They say a priest from a dark cult has got his"
+.text	"Eles dizem que um bispo da maligna"
 	.byte NewLine
-.text	"foul hands on Galatia."
+.text	"Igreja de Loptr governa Galácia."
 	.byte NewLine
-.text	"Could it be true?"
+.text	"Será que é verdade?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Make no mistake."
+.text	"Eu sei que o Rei Travant faria de tudo"
 	.byte NewLine
-.text	"I know well the life King Travant is trying to"
-	.byte NewLine
-.text	"crawl free of..."
+.text	"para tirar a Trácia da miséria..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But to allow a fell agent of the Loptr Church"
+.text	"Mas permitir um agente da Igreja de Loptr"
 	.byte NewLine
-.text	"free run of his country..."
+.text	"acesso livre à seu país..."
 	.byte NewLine
-.text	"How could he make such a foolish choice?"
+.text	"Como ele poderia ter sido tão tolo?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Accept this here barrier ring..."
+.text	"Pegue este anel, ele vai te proteger da"
 	.byte NewLine
-.text	"And with it, please, save our beloved nation!"
+.text	"magia negra que aquele bispo usa."
+	.byte NewLine
+.text	"Por favor, salve nosso país!"
 	.byte WaitForA
 
 	.byte EndText
@@ -121,19 +124,19 @@ dialogueCh9VillageEast
 	.word LoadPortrait
 	.word portrait_Civilian_OldWoman
 	.byte StartText
-.text	"King Travant's as heartless as men come, he is."
+.text	"O Rei Travant pode ser um cara sem coração."
 	.byte NewLine
-.text	"But oddly enough, his two kids, Arion and Altena,"
+.text	"Mas, estranhamente, dizem que seus filhos,"
 	.byte NewLine
-.text	"are the kindest souls you'll ever meet."
+.text	"Arion e Altena, são ótimas pessoas."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Like peas in a pod, those two are!"
+.text	"Nem sempre as crianças puxam seus pais."
 	.byte NewLine
-.text	"Always have been."
+.text	"Eu só espero que nada tire essa bondade"
 	.byte NewLine
-.text	"Oh, I pray nothing ever changes that..."
+.text	"do coração deles..."
 	.byte WaitForA
 
 	.byte EndText
@@ -146,17 +149,20 @@ dialogueCh9VillageSouthwest
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"General Distler of Lutetia's nothing more than"
+.text	"General Distler de Lutécia não passa"
 	.byte NewLine
-.text	"a slimy toady to the king!"
+.text	"de um puxa-saco do rei!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Useless as he is, he still acts all like he's some"
+.text	"Ao invés de comandar seus soldados em"
 	.byte NewLine
-.text	"almighty tyrant..."
+.text	"batalhas, ele os comanda para nos extorquir..."
 	.byte NewLine
-.text	"What a foul little man."
+.text	"Ele se acha o bom, mas não passa de um"
+	.byte WaitForA
+	.byte NewLine
+.text	"tirano. Ainda por cima, é um inútil!"
 	.byte WaitForA
 
 	.byte EndText
@@ -175,36 +181,36 @@ dialogueCh9VillageSouthwest_Jeanne_Hermina
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Wow, what a beauty..."
+.text	"Uau, que gatinha..."
 	
 	.byte RightSlot		;Jeanne/Hermina
 	.word PauseText
 	.byte $10
-.text	"...Excuse me?"
+.text	"...Com licença?"
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Shannam
 	.byte StartText
-.text	"Oh, how rude of me!"
+.text	"Ah, desculpa, fui deveras rude!"
 	.byte NewLine
-.text	"Y'see, I'm the prince of the great state of"
+.text	"Sabe, eu sou o príncipe do grande"
 	.byte NewLine
-.text	"Isaach. Call me Shannan."
+.text	"Reino de Isaach. Me chame de Shannan."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And you're just too pretty, miss!"
+.text	"E você é uma linda moça!"
 	.byte NewLine
-.text	"I had to meet you, y'know?"
+.text	"Não podia ficar sem te dar uma conversa, sabe?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If I may be so bold, how'd you like to go get"
+.text	"Se me permite esse agrado, gostaria de vir"
 	.byte NewLine
-.text	"a nice, hot meal with me?"
+.text	"compartilhar um bom jantar comigo?"
 	.byte NewLine
-.text	"I know the most charming little tavern..."
+.text	"Eu conheço um lugar muito bom aqui perto..."
 	
 	.byte RightSlot		;Jeanne/Hermina
 	.word PauseText
@@ -214,81 +220,86 @@ dialogueCh9VillageSouthwest_Jeanne_Hermina
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Shannam
-.text	"Something wrong, miss? Oh, I see!"
+.text	"Algo de errado, senhorita? Ah, já entendi!"
 	.byte NewLine
-.text	"You're all nervous 'cause you stand before me,"
+.text	"Você está nervosa por estar aqui, frente"
 	.byte NewLine
-.text	"the great Prince Shannan, aren't you?"
+.text	"ao grande Príncipe Shannan, não é mesmo?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Don't worry about it! How I look doesn't matter,"
+.text	"Não se preocupe! Essas diferenças não importam."
 	.byte NewLine
-.text	"'cause to me, stayin' close with the peasants"
+.text	"para mim, ficar junto aos comuns é a coisa"
 	.byte NewLine
-.text	"is the most important thing there is."
+.text	"mais importante que tem."
 	
 	.byte RightSlot		;Jeanne/Hermina
 	.word PauseText
 	.byte $10
-.text	"Huh... So you're..."
+.text	"Huh... Então você está me dizendo que..."
 	.byte NewLine
-.text	"Alright, then. Show me Balmung!"
+.text	"Tá bom então. Mostre-me a Balmung!"
 	.byte NewLine
-.text	"I've always wanted to see it for myself!"
+.text	"Eu sempre quis ver como ela é!"
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Shannam
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
 .text	"B-Balmung?"
 	.byte NewLine
-.text	"Oh, yeah! The Balmung..."
+.text	"Ah, é! A Balmung..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Oh, er... Here you go!"
+.text	"Aqui está!"
 	.byte NewLine
-.text	"Look!"
+.text	"Observe!"
 	.byte NewLine
-.text	"It's the Balmung, the great dracoshield!"
+.text	"Balmung, o grande escudo!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"How about that, huh?"
+.text	"Gostou? Agora, voltando à assuntos"
 	.byte NewLine
-.text	"Now, where were we? Dinner, right?"
+.text	"mais importantes... que tal um jantar?"
 	
 	.byte RightSlot		;Jeanne/Hermina
 	.word PauseText
 	.byte $10
-.text	"Oh, you imbecile!"
+.text	"Você é um imbecil mesmo!"
 	.byte NewLine
-.text	"Everybody knows that Balmung isn't a shield!"
+.text	"Todo mundo sabe que Balmung é uma espada!"
 	.byte NewLine
-.text	"You're nothing like the real Prince Shannan!"
+.text	"Além disso, você age de forma completamente"
 	.byte WaitForA
-	.word ScrollBoth
+	.byte NewLine
+.text	"diferente do príncipe de verdade!"
+	.byte WaitForA
+	.byte ScrollText
 	
 	.byte LeftSlot		;Shannam
-.text	"Oh, geez..."
+.text	"Ah, diacho..."
 	.byte NewLine
-.text	"You're part of that liberation army, aren't you?"
+.text	"Você faz parte daquele exército, é?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Look, I'm real sorry! It's just..."
+.text	"Por favor, me desculpa! É que..."
 	.byte NewLine
-.text	"Women've been fawnin' over me left and"
+.text	"As mulheres tem dado em cima de mim desde"
 	.byte NewLine
-.text	"right ever since I took to callin' myself Shannan."
+.text	"que eu resolvi me chamar de Shannan."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Here, take the bloody shield."
+.text	"Aqui, pegue esse diabo de escudo."
 	.byte NewLine
-.text	"Let's pretend this never happened, alright?"
+.text	"Vamos fingir que isso nunca"
+	.byte NewLine
+.text	"aconteceu, pode ser? Tchau!"
 	.word PauseText
 	.byte $1E
 	.byte ScrollText
@@ -297,11 +308,11 @@ dialogueCh9VillageSouthwest_Jeanne_Hermina
 	.word ClearPortrait
 	
 	.byte RightSlot		;Jeanne/Hermina
-.text	"Honestly... What a pig!"
+.text	"Sinceramente... que cara otário!"
 	.byte NewLine
-.text	"Oh, well."
+.text	"Bem. Pelo menos ele me deu esse escudo."
 	.byte NewLine
-.text	"I guess this shield'll help me toughen up a bit."
+.text	"Vai servir bem em mim."
 	.byte WaitForA
 
 	.byte EndText
@@ -314,17 +325,19 @@ dialogueCh9VillageSoutheast
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"It wasn't all that long ago that the region here"
+.text	"Há não muito tempo atrás, essa cidade"
 	.byte NewLine
-.text	"was under House Leonster's rule."
+.text	"estava sob o governo de Leonster."
 	.byte NewLine
-.text	"Oh, what a peaceful time that was..."
+.text	"Ah, tempo bom foi aquele..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"As soon as the last war was over, though,"
+.text	"Mas, tão logo a última guerra acabou,"
 	.byte NewLine
-.text	"the Thracians pounced on us like a starving cat..."
+.text	"os trácios nos agarraram"
+	.byte NewLine
+.text	"igual um animal faminto..."
 	.byte WaitForA
 
 	.byte EndText

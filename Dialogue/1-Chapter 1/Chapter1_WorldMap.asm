@@ -3,12 +3,12 @@
 dialogueCh1WM1
 
 	.byte StartText
-.text	"With the battle coming to its close,"
+.text	"Com o fim da batalha,"
 	.byte NewLine
-.text	"Sigurd makes haste in searching Castle Evans."
+.text	"Sigurd faz uma busca no castelo de Evans."
 	.byte WaitForA
 	.byte ScrollText
-.text	"Edain is nowhere to be found."
+.text	"Mas não encontra Edain em lugar algum."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -18,9 +18,9 @@ dialogueCh1WM1
 dialogueCh1WM2
 
 	.byte StartText
-.text	"The young noblewoman had already been taken"
+.text	"A jovem nobre já está bem para"
 	.byte NewLine
-.text	"well within the depths of Verdane."
+.text	"dentro de Verdane."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -33,14 +33,17 @@ dialogueCh1WM3
 	.word HighlightCountry		
 	.byte Verdane
 
-.text	"Concealed within dense forests, the kingdom"
+.text	"Escondidos pelas florestas, o reino"
 	.byte NewLine
-.text	"has consistently raided Grannvale’s borders,"
+.text	"periodicamente realizava"
+	.byte WaitForA
+	.byte NewLine
+.text	"incursões em Grannvale,"
 	.byte WaitForA	
 	.byte NewLine
-.text	"earning Verdane’s people the reputation"
+.text	"dando a Verdane a reputação de"
 	.byte NewLine
-.text	"of mere barbarians."
+.text	"um mero reino bárbaro."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -52,7 +55,7 @@ dialogueCh1WM3
 dialogueCh1WM4
 
 	.byte StartText
-.text	"However, the crowning of their current king, Batu,"
+.text	"Porém, no reinado do Rei Batu,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -66,27 +69,22 @@ dialogueCh1WM4
 	
 	.byte WaitForA	
 	.byte NewLine
-.text	"ushered in an era which brought"
-	.byte NewLine
-.text	"such aggressions to an end."
+.text	"Essas incursões pararam."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"True to his calm disposition, King Batu has seen"
+.text	"Rei Batu trabalhou duro para aplacar"
 	.byte NewLine
-.text	"to placating the fiery ambitions of his sons"
+.text	"as ambições de seus filhos, para assim"
 	.byte WaitForA
 	.byte NewLine
-.text	"to preserve this peace held with Grannvale."
+.text	"preservar a paz com Grannvale."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And so, it subverts all expectations"
+.text	"Por isso, surpreende a todos quando"
 	.byte NewLine
-.text	"when that peace falls to the wayside"
-	.byte WaitForA
-	.byte NewLine
-.text	"due to none other than Batu himself."
+.text	"essa paz é quebrada por ordem dele próprio."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -96,12 +94,12 @@ dialogueCh1WM4
 dialogueCh1WM5
 
 	.byte StartText
-.text	"The same order is given by the king"
+.text	"Aos seus três filhos, o Rei deu a mesma ordem:"
 	.byte NewLine
-.text	"to all three of his sons: “Invade Grannvale.”"
+.text	"“Invadir Grannvale.”"
 	.byte WaitForA
 	.byte ScrollText
-.text	"At the vanguard is the king’s middle son,"
+.text	"Na vanguarda está seu filho do meio,"
 	.byte NewLine
 	
 	.word PauseText
@@ -114,10 +112,10 @@ dialogueCh1WM5
 	.byte $B8
 	.byte $3A
 
-.text	"Cimbaeth of Genoa,"
+.text	"Cimbaeth de Genoa,"
 	.byte WaitForA
 	.byte NewLine	
-.text	"supported by"
+.text	"apoiado por"
 
 	.word PauseText
 	.byte $04
@@ -129,10 +127,10 @@ dialogueCh1WM5
 	.byte $40
 	.byte $60
 
-.text	" Munnir of Marpha, the eldest,"
+.text	" Munnir de Marpha, o mais velho,"
 	.byte WaitForA
 	.byte NewLine
-.text	"and lastly, the youngest of the three brothers,"
+.text	"e por fim, o mais jovem dos três,"
 	.byte NewLine
 
 	.word PauseText
@@ -148,9 +146,12 @@ dialogueCh1WM5
 .text	"Jamke."
 	.byte WaitForA
 	.byte ScrollText
-.text	"Prowling the kingdom’s groves,"
+.text	"Na cobertura de seus bosques, o exército"
 	.byte NewLine
-.text	"the barbarians await Sigurd as if he were prey."
+.text	"de Verdane espera as forças de Sigurd,"
+	.byte WaitForA
+	.byte NewLine
+.text	"assim como um caçador espera sua caça."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -170,31 +171,31 @@ dialogueCh1WM6
 	.word ClearPortraitWM
 	.byte 10
 
-.text	"Where in the world can Edain be…?"
+.text	"Onde que Edain poderia estar…?"
 	.byte WaitForA
 	.byte ScrollText
-.text	"For what reason could King Batu"
+.text	"Por que razão que o Rei Batu"
 	.byte NewLine
-.text	"wish for this conflict…?"
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"The vast treescape of Verdane,"
-	.byte NewLine
-.text	"shrouded in darkness even by day,"
-	.byte WaitForA
-	.byte NewLine
-.text	"sprawls out as far as the eye can see."
+.text	"iniciou esse conflito…?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sigurd prepares to take his first step"
+.text	"As vastas florestas de Verdane,"
 	.byte NewLine
-.text	"into these very forests,"
+.text	"cobertas por escuridão até no dia,"
 	.byte WaitForA
-.text	" fabled as a realm"
 	.byte NewLine
-.text	"that spirits call home…"
+.text	"se espalham tão longe quanto os olhos veem."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"Sigurd se prepara para entrar"
+	.byte NewLine
+.text	"nessas florestas,"
+	.byte WaitForA
+.text	" que reza a lenda,"
+	.byte NewLine
+.text	"os espirítos chamam de lar…"
 	.byte WaitForA
 	.byte ScrollText
 

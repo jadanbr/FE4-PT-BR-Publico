@@ -15,40 +15,40 @@ dialogueEpiloguesChalphy_Oifey_Single
 	.word LoadPortrait
 	.word portrait_Old_Oifey
 	.byte StartText
-.text	"Well, sire..."
+.text	"Bem, senhor..."
 	.byte NewLine
-.text	"I'm leaving for Chalphy now."
+.text	"Eu irei para Chalphy agora."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"What?"
+.text	"O quê?"
 	.byte NewLine
-.text	"Why, Oifey?"
+.text	"Por que, Oifey?"
 	.byte NewLine
-.text	"Why?!"
+.text	"Por que?!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I thought you would never leave my side!"
+.text	"Eu pensei que você ia ficar comigo!"
 	.byte NewLine
-.text	"I... I still need you."
+.text	"Eu... eu preciso de você."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, sire..."
+.text	"Não, senhor..."
 	.byte NewLine
-.text	"You will do a magnificent job ruling on your own."
+.text	"Você já está pronto pra ser um grande rei."
 	.byte NewLine
-.text	"I know it."
+.text	"Tenho certeza disso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"And whilst you do, it'll be my duty"
+.text	"E enquanto você estiver no trono,"
 	.byte NewLine
-.text	"to protect House Chalphy in your stead."
+.text	"eu serei o protetor de Chalphy."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -56,28 +56,28 @@ dialogueEpiloguesChalphy_Oifey_Single
 	.byte LeftSlot
 .text	"Chalphy..."
 	.byte NewLine
-.text	"I understand, Oifey."
+.text	"Eu entendo, Oifey."
 	.byte NewLine
-.text	"You are right, of course."
+.text	"Você tem razão."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I won't be able to inherit its throne, which leaves"
+.text	"Eu não posso assumir o trono de Chalphy, e"
 	.byte NewLine
-.text	"you as the last heir of Baldr who can claim it."
+.text	"você é o último herdeiro de Baldr restante."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I suppose there isn't much choice..."
+.text	"Então, eu não tenho escolha..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Everything will be alright, sire."
+.text	"Vai ficar tudo bem, senhor. Eu vou"
 	.byte NewLine
-.text	"I'll always be watching over you,"
+.text	"sempre cuidar de você, mesmo estando"
 	.byte NewLine
-.text	"even from Chalphy."
+.text	"longe."
 	.word PauseText
 	.byte $60
 
@@ -85,48 +85,43 @@ dialogueEpiloguesChalphy_Oifey_Single
 	.word ScrollBoth
 .text	"Oifey..."
 	.byte NewLine
-.text	"To me, you've always been like the father"
-	.byte NewLine
-.text	"I never had."
+.text	"Pra mim, você é o pai que eu nunca tive."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You taught me all I know..."
+.text	"Você me ensinou tudo o que eu precisava..."
 	.byte NewLine
-.text	"How to strategize, how to live as a knight does..."
+.text	"Como comandar, como ser um bom cavaleiro..."
 	.byte NewLine
-.text	"And how to be kind."
+.text	"E como ser uma boa pessoa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You've done so much,"
+.text	"Você fez tudo por mim, e por você,"
 	.byte NewLine
-.text	"and I could never thank you even nearly enough..."
-
+.text	"eu não fiz nada..."
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Sire..."
+.text	"Senhor..."
 	.byte NewLine
-.text	"I, too, owe your father dearly for all he once"
+.text	"Eu também tenho uma divída enorme com"
 	.byte NewLine
-.text	"did for me."
+.text	"o seu pai."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"When my parents died, Lord Sigurd took me"
+.text	"Quando meus pais morreram, Lorde Sigurd me"
 	.byte NewLine
-.text	"into his home. He loved me just as if I were"
+.text	"acolheu. Ele me amou e me tratou como"
 	.byte NewLine
-.text	"his own brother."
+.text	"um irmão."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And yet... I couldn't even be by his side in his"
+.text	"E no seu fim... eu não estava do lado dele..."
 	.byte NewLine
-.text	"final moments..."
-	.byte NewLine
-.text	"...I was such a coward."
+.text	"...Eu fui um covarde."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -134,28 +129,26 @@ dialogueEpiloguesChalphy_Oifey_Single
 	.byte LeftSlot
 .text	"Oifey..."
 	.byte NewLine
-.text	"Please don't cry..."
+.text	"Por favor, não chore..."
 	.byte NewLine
-.text	"This is my fault, not yours..."
+.text	"Não foi culpa sua..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Sniff... My apologies, sire."
+.text	"Snif... Me perdoe, senhor."
 	.byte NewLine
-.text	"You shouldn't have seen that."
+.text	"Eu não devia ter agido assim."
 	.byte NewLine
-.text	"Now then... Please, sire..."
+.text	"Agora... com sua licença, senhor..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I know, Oifey..."
+.text	"Oifey..."
 	.byte NewLine
-.text	"I know."
-	.byte NewLine
-.text	"You take care as well..."
+.text	"Por favor, se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -177,40 +170,40 @@ dialogueEpiloguesChalphy_Oifey_Married
 	.word LoadPortrait
 	.word portrait_Old_Oifey
 	.byte StartText
-.text	"Well, sire..."
+.text	"Bem, senhor..."
 	.byte NewLine
-.text	"I'm leaving for Chalphy now."
+.text	"Eu irei para Chalphy agora."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"What?"
+.text	"O quê?"
 	.byte NewLine
-.text	"Why, Oifey?"
+.text	"Por que, Oifey?"
 	.byte NewLine
-.text	"Why?!"
+.text	"Por que?!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I thought you would never leave my side!"
+.text	"Eu pensei que você ia ficar comigo!"
 	.byte NewLine
-.text	"I... I still need you."
+.text	"Eu... eu preciso de você."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, sire..."
+.text	"Não, senhor..."
 	.byte NewLine
-.text	"You will do a magnificent job ruling on your own."
+.text	"Você já está pronto pra ser um grande rei."
 	.byte NewLine
-.text	"I know it."
+.text	"Tenho certeza disso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"And whilst you do, it'll be my duty"
+.text	"E enquanto você estiver no trono,"
 	.byte NewLine
-.text	"to protect House Chalphy in your stead."
+.text	"eu tenho serei o protetor de Chalphy."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -218,30 +211,28 @@ dialogueEpiloguesChalphy_Oifey_Married
 	.byte LeftSlot
 .text	"Chalphy..."
 	.byte NewLine
-.text	"I understand, Oifey."
+.text	"Eu entendo, Oifey."
 	.byte NewLine
-.text	"You are right, of course."
+.text	"Você tem razão."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I won't be able to inherit its throne, which leaves"
+.text	"Eu não posso assumir o trono de Chalphy, e"
 	.byte NewLine
-.text	"you as the last bearer of the blood of Baldr"
-	.byte NewLine
-.text	"who can claim it."
+.text	"você é o último herdeiro de Baldr restante."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I suppose there isn't much choice..."
+.text	"Então, eu não tenho escolha..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Everything will be alright, sire."
+.text	"Vai ficar tudo bem, senhor. Eu vou"
 	.byte NewLine
-.text	"I'll always be watching over you,"
+.text	"sempre cuidar de você, mesmo estando"
 	.byte NewLine
-.text	"even from Chalphy."
+.text	"longe."
 	.word PauseText
 	.byte $60
 
@@ -249,48 +240,43 @@ dialogueEpiloguesChalphy_Oifey_Married
 	.word ScrollBoth
 .text	"Oifey..."
 	.byte NewLine
-.text	"To me, you've always been like the father"
-	.byte NewLine
-.text	"I never had."
+.text	"Pra mim, você é o pai que eu nunca tive."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You taught me all I know..."
+.text	"Você me ensinou tudo o que eu precisava..."
 	.byte NewLine
-.text	"How to strategize, how to live as a knight does..."
+.text	"Como comandar, como ser um bom cavaleiro..."
 	.byte NewLine
-.text	"And how to be kind."
+.text	"E como ser uma boa pessoa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You've done so much,"
+.text	"Você fez tudo por mim, e por você,"
 	.byte NewLine
-.text	"and I could never thank you even nearly enough..."
-
+.text	"eu não fiz nada..."
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Sire..."
+.text	"Senhor..."
 	.byte NewLine
-.text	"I, too, owe your father dearly for all he once"
+.text	"Eu também tenho uma divída enorme com"
 	.byte NewLine
-.text	"did for me."
+.text	"o seu pai."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"When my parents died, Lord Sigurd took me"
+.text	"Quando meus pais morreram, Lorde Sigurd me"
 	.byte NewLine
-.text	"into his home. He loved me just as if I were"
+.text	"acolheu. Ele me amou e me tratou como"
 	.byte NewLine
-.text	"his own brother."
+.text	"um irmão."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And yet... I couldn't even be by his side in his"
+.text	"E no seu fim... eu não estava do lado dele..."
 	.byte NewLine
-.text	"final moments..."
-	.byte NewLine
-.text	"...I was such a coward."
+.text	"...Eu fui um covarde."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -298,28 +284,26 @@ dialogueEpiloguesChalphy_Oifey_Married
 	.byte LeftSlot
 .text	"Oifey..."
 	.byte NewLine
-.text	"Please don't cry..."
+.text	"Por favor, não chore..."
 	.byte NewLine
-.text	"This is my fault, not yours..."
+.text	"Não foi culpa sua..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Sniff... My apologies, sire."
+.text	"Snif... Me perdoe, senhor."
 	.byte NewLine
-.text	"You shouldn't have seen that."
+.text	"Eu não devia ter agido assim."
 	.byte NewLine
-.text	"Now then... Please, sire..."
+.text	"Agora... com sua licença, senhor..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I know, Oifey..."
+.text	"Oifey..."
 	.byte NewLine
-.text	"I know."
-	.byte NewLine
-.text	"You take care as well..."
+.text	"Por favor, se cuide..."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -338,43 +322,41 @@ dialogueEpiloguesChalphy_Oifey_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Don't worry about a thing, sir."
+.text	"Não se preocupe, senhor."
 	.byte NewLine
-.text	"Leave Oifey to me!"
+.text	"Eu vou cuidar muito bem do Oifey!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, right..."
+.text	"Ah, sim..."
 	.byte NewLine
-.text	"You're bound for Chalphy as well, "
+.text	"Você vai para Chalphy com ele, "
 	.word PrintStoredNameA
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yep. Oifey's gone and run himself ragged."
+.text	"Vou. Dá pra ver que ele tá cansado."
 	.byte NewLine
-.text	"He needs rest, and lots of it. It's up to me"
+.text	"Ele precisa de umas férias. E é eu que"
 	.byte NewLine
-.text	"to make sure he gets a bit of quiet time."
+.text	"tenho que dar essa possibilidade pra ele."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I couldn't agree more."
+.text	"Você tem toda a razão. Tenho certeza"
 	.byte NewLine
-.text	"I trust you'll take good care of Oifey, "
-	.word PrintStoredNameA
-.text	"."
+.text	"que ele está em boas mãos!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"Sim, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -391,43 +373,41 @@ dialogueEpiloguesChalphy_Oifey_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You can rest easy, Lord Seliph."
+.text	"Pode ficar tranquilo, Lorde Seliph."
 	.byte NewLine
-.text	"Leave Oifey to me!"
+.text	"Eu irei cuidar do Oifey!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, right..."
+.text	"Ah, sim..."
 	.byte NewLine
-.text	"You're bound for Chalphy as well, "
+.text	"Você vai para Chalphy com ele, "
 	.word PrintStoredNameA
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am. Oifey is awfully fatigued, and is in dire need"
+.text	"Eu vou. Oifey está muito cansado, ele precisa"
 	.byte NewLine
-.text	"of rest. I want to ensure he'll have a bit of"
+.text	"descansar. Eu quero garantir que ele possa"
 	.byte NewLine
-.text	"peace and quiet."
+.text	"descansar sem problemas."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I couldn't agree more."
+.text	"Você tem toda a razão. Tenho certeza"
 	.byte NewLine
-.text	"I trust you'll take good care of Oifey, "
-	.word PrintStoredNameA
-.text	"."
+.text	"que ele está em boas mãos!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"Sim, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 

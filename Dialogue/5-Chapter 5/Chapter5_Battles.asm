@@ -7,11 +7,11 @@ dialogueCh5BattleSlade_Byron
 	.word LoadPortrait
 	.word portrait_Slade2
 	.byte StartText
-.text	"My apologies, Lord Byron,"
+.text	"Me perdoe, Lorde Byron,"
 	.byte NewLine
-.text	"but orders are orders."
+.text	"mas ordens são ordens."
 	.byte NewLine
-.text	"This is where you meet your end!"
+.text	"É aqui que encontra seu fim!"
 	.byte WaitForA
 
 	.byte EndText
@@ -24,9 +24,9 @@ dialogueCh5BattleEthlyn
 	.word LoadPortrait
 	.word portrait_Ethlyn
 	.byte StartText
-.text	"Hold tight, Altena!"
+.text	"Segure firme, Altena!"
 	.byte NewLine
-.text	"I'll protect you no matter what!"
+.text	"Eu vou te proteger não importa o que vier!"
 	.byte WaitForA
 
 	.byte EndText
@@ -38,19 +38,19 @@ dialogueCh5BattleSlade
 	.word LoadPortrait
 	.word portrait_Slade2
 	.byte StartText
-.text	"What's this?"
+.text	"O que é isso?"
 	.byte NewLine
-.text	"You rebels have already"
+.text	"Vocês rebeldes já chegaram"
 	.byte NewLine
-.text	"come this far?"
+.text	"tão longe assim?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"How could you have"
+.text	"Como quebraram nossa"
 	.byte NewLine
-.text	"breached our front lines"
+.text	"nossa linha de frente"
 	.byte NewLine
-.text	"so quickly?"
+.text	"tão rapidamente?"
 	.byte WaitForA
 
 	.byte EndText
@@ -65,7 +65,7 @@ dialogueCh5BattleByron
 	.byte StartText
 .text	"Gah..."
 	.byte NewLine
-.text	"Is this as far as I'll go?"
+.text	"Será que só vou chegar até aqui?"
 	.byte WaitForA
 
 	.byte EndText
@@ -78,11 +78,11 @@ dialogueCh5BattleAndrey
 	.word LoadPortrait
 	.word portrait_Andrey2
 	.byte StartText
-.text	"Heh heh... Welcome, fools."
+.text	"Heh heh... bem vindos, tolos."
 	.byte NewLine
-.text	"Allow me to give you"
+.text	"Permita-me lhes dar uma"
 	.byte NewLine
-.text	"a fool's death!"
+.text	"morte de tolos!"
 	.byte WaitForA
 
 	.byte EndText
@@ -97,23 +97,25 @@ dialogueCh5BattleLombard
 	.byte StartText
 .text	"Bwahahaha!"
 	.byte NewLine
-.text	"It matters not how many of you"
+.text	"Não importa quantos de vocês"
 	.byte NewLine
-.text	"worms confront me."
+.text	"vermes me confrontem."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"So long as I wield the great axe,"
+.text	"Enquanto eu tiver em mãos"
 	.byte NewLine
-.text	"Helswath, the same fate awaits"
+.text	"o machado Helswath, o mesmo"
 	.byte NewLine
-.text	"every last one of you!"
+.text	"destino aguarda"
+	.byte NewLine
+.text	"cada um de vocês!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Stay clear, if you still value"
+.text	"Fiquem longe, se valorizam"
 	.byte NewLine
-.text	"your lives!"
+.text	"suas vidas!"
 	.byte WaitForA
 
 	.byte EndText
@@ -126,11 +128,11 @@ dialogueCh5BattleVaja
 	.word LoadPortrait
 	.word portrait_Vaja1
 	.byte StartText
-.text	"Take this!"
+.text	"Tome essa!"
 	.byte NewLine
-.text	"Feel the fiery wrath"
+.text	"Sinta a fúria flamejante"
 	.byte NewLine
-.text	"of the heavens!"
+.text	"dos céus!"
 	.byte WaitForA
 
 	.byte EndText
@@ -143,9 +145,9 @@ dialogueCh5BattleTravant
 	.word LoadPortrait
 	.word portrait_Young_Travant1
 	.byte StartText
-.text	"Behold, fool!"
+.text	"Observe, tolo!"
 	.byte NewLine
-.text	"This is the legendary spear,"
+.text	"Essa é a lendária lança,"
 	.byte NewLine
 .text	"Gungnir."
 	.byte WaitForA
@@ -153,13 +155,13 @@ dialogueCh5BattleTravant
 
 .text	"Hm hm hm..."
 	.byte NewLine
-.text	"You look overjoyed to see it!"
+.text	"Parece muito feliz em vê-la!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Now, kneel before it..."
+.text	"Agora, ajoelhe-se perante ela..."
 	.byte NewLine
-.text	"And never rise again!"
+.text	"E não torne a se levantar de novo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -172,11 +174,11 @@ dialogueCh5BattleMagon
 	.word LoadPortrait
 	.word portrait_Magon1
 	.byte StartText
-.text	"Don't take this personally."
+.text	"Não leve pro lado pessoal."
 	.byte NewLine
-.text	"We've all got to make"
+.text	"Todos nós temos que ganhar"
 	.byte NewLine
-.text	"a living somehow..."
+.text	"a vida de algum jeito..."
 	.byte WaitForA
 
 	.byte EndText
@@ -189,11 +191,11 @@ dialogueCh5BattleQuan_EthlynAlive
 	.word LoadPortrait
 	.word portrait_Quan
 	.byte StartText
-.text	"Away, Thracian beasts!"
+.text	"Pra trás, bestas da Trácia!"
 	.byte NewLine
-.text	"So long as I hold Gáe Bolg,"
+.text	"Enquanto eu tiver Gáe Bolg,"
 	.byte NewLine
-.text	"only one of us will live this day!"
+.text	"Só um de nós verá o fim desse dia!"
 	.byte WaitForA
 
 	.byte EndText
@@ -206,9 +208,9 @@ dialogueCh5BattleQuan_EthlynDead
 	.word LoadPortrait
 	.word portrait_Quan
 	.byte StartText
-.text	"Blast!"
+.text	"Droga!"
 	.byte NewLine
-.text	"Can I go no further...?"
+.text	"Acabou para mim...?"
 	.byte WaitForA
 
 	.byte EndText
@@ -223,15 +225,15 @@ dialogueCh5BattleReptor_BeforeVelthomerTurns
 	.byte StartText
 .text	"Hm hm hm..."
 	.byte NewLine
-.text	"It's time you had a lesson"
+.text	"É hora de você aprender o que"
 	.byte NewLine
-.text	"in obedience."
+.text	"é obediência."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Your teacher will be the"
+.text	"E seu professor será a suprema"
 	.byte NewLine
-.text	"supreme thunder magic,"
+.text	"magia de trovão,"
 	.byte NewLine
 .text	"Mjölnir!"
 	.byte WaitForA
@@ -246,11 +248,11 @@ dialogueCh5BattleReptor_AfterVelthomerTurns
 	.word LoadPortrait
 	.word portrait_Reptor2
 	.byte StartText
-.text	"Die!"
+.text	"Morram!"
 	.byte NewLine
-.text	"If I'm to burn,"
+.text	"Se eu vou queimar, então"
 	.byte NewLine
-.text	"you will ALL burn with me!"
+.text	"que todos queimem comigo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -270,20 +272,20 @@ dialogueCh5BattleLombard_Lex1
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"L-Lex... Vile traitor!"
+.text	"L-Lex... vil traidor!"
 	.byte NewLine
-.text	"You would turn your axe on your"
+.text	"Vai levantar teu machado contra"
 	.byte NewLine
-.text	"own father? Shame on you!"
+.text	"o próprio pai? Desonra para ti!"
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"That's right... Shame on me."
+.text	"Está certo... desonra para mim."
 	.byte NewLine
-.text	"Just like you've always said..."
+.text	"Como você sempre disse..."
 	.byte NewLine
-.text	"This is fate, Father. Forgive me..."
+.text	"Esse é o destino, pai. Me perdoe..."
 	.byte WaitForA
 
 	.byte EndText
@@ -303,20 +305,20 @@ dialogueCh5BattleLombard_Lex2
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"L-Lex... Vile traitor!"
+.text	"L-Lex... vil traidor!"
 	.byte NewLine
-.text	"You would turn your axe on your own father?"
+.text	"Vai levantar teu machado contra"
 	.byte NewLine
-.text	"Shame on you!"
+.text	"o próprio pai? Desonra para ti!"
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"That's right... Shame on me."
+.text	"Está certo... desonra para mim."
 	.byte NewLine
-.text	"Just like you've always said..."
+.text	"Como você sempre disse..."
 	.byte NewLine
-.text	"This is fate, Father. Forgive me..."
+.text	"Esse é o destino, pai. Me perdoe..."
 	.byte WaitForA
 
 	.byte EndText
@@ -338,42 +340,44 @@ dialogueCh5BattleReptor_Tailtiu
 	.byte StartText
 .text	"T-Tailtiu..."
 	.byte NewLine
-.text	"I can hardly believe it..."
+.text	"Mal posso acreditar..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"No matter how traitorous you became..."
+.text	"Não importa o quão traidora se tornasse..."
 	.byte NewLine
-.text	"Not once did I expect to face you like this."
+.text	"Nunca esperei te ver levantar a mão"
+	.byte NewLine
+.text	"contra mim desse jeito."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Father..."
+.text	"Pai..."
 	.byte NewLine
-.text	"I'm sorry..."
+.text	"Me perdoe..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot
-.text	"Curse that Claud! How dare he fill my"
+.text	"Maldito seja aquele Claud! Encheu a"
 	.byte NewLine
-.text	"daughter's head with his lies..."
+.text	"cabeça da minha filha com mentiras..."
 	.byte NewLine
-.text	"No, it's too late. I have no choice..."
+.text	"Não, tarde demais, não tenho escolha..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I must protect the honor of House Friege."
+.text	"Eu devo proteger a honra de nossa casa."
 	.byte NewLine
-.text	"Tailtiu, for your treachery, you must die."
+.text	"Tailtiu, por sua traição, terá que morrer."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
 .text	"Oh!"
 	.byte NewLine
-.text	"Father..."
+.text	"Pai..."
 	.byte WaitForA
 
 	.byte EndText
@@ -386,11 +390,11 @@ dialogueCh5BattleMagon_Sigurd
 	.word LoadPortrait
 	.word portrait_Magon1
 	.byte StartText
-.text	"So, you're the infamous"
+.text	"Ah, então você é o infame"
 	.byte NewLine
-.text	"Sigurd, are you? Heh... Not as"
+.text	"Sigurd, é? Heh... não parece grande"
 	.byte NewLine
-.text	"impressive as the stories say..."
+.text	"coisa para mim..."
 	.byte WaitForA
 
 	.byte EndText
@@ -412,24 +416,24 @@ dialogueCh5BattleLombard_Sigurd
 	.byte StartText
 .text	"Bwahaha..."
 	.byte NewLine
-.text	"Would you look at that."
+.text	"Veja só."
 	.byte NewLine
-.text	"The little brat's made it, as well!"
+.text	"O pirralho chegou, também!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"How perfect!"
+.text	"Perfeito!"
 	.byte NewLine
-.text	"I'll reunite you with your dearly departed father."
+.text	"Vou te reunir com seu pai morto."
 	.byte NewLine
-.text	"He ought to be lonely by now!"
+.text	"Ele deve estar solitário agora!"
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
 .text	"Lombard... LOMBARD!!"
 	.byte NewLine
-.text	"You will pay for what you did to my father!"
+.text	"Vai pagar pelo que fez com meu pai!"
 	.byte WaitForA
 
 	.byte EndText
@@ -451,71 +455,79 @@ dialogueCh5BattleReptor_Sigurd
 	.byte StartText
 .text	"Sigurd!"
 	.byte NewLine
-.text	"So you've come to spread your evil ways"
+.text	"Então veio até aqui espalhar sua"
 	.byte NewLine
-.text	"in our holy fatherland, traitor scum!"
+.text	"traição em nossa sagrada pátria!"
 	
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"You're the only traitor here, Reptor!"
+.text	"Você é o único traidor aqui, Reptor!"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"For your fiendish crimes against both"
+.text	"Pelos seus terríveis crimes contra"
 	.byte NewLine
-.text	"my father and the late Prince Kurth,"
+.text	"meu pai e contra nosso príncipe," 
 	.byte NewLine
-.text	"I've come to exact justice upon you!"
+.text	"Eu vim derramar a justiça sobre você!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Reptor
-.text	"Pah! Don't make me laugh, you naïve twit!"
+.text	"Pah! Não me faça rir, seu moleque ingênuo!"
 	.byte NewLine
-.text	"Consider this a lesson in politics and power!"
+.text	"Considere isso uma lição em política e poder!"
 	.byte NewLine
-.text	"Your father had no power, and hence he is dead!"
+.text	"Seu pai não tinha poder,"
+	.byte WaitForA
+	.byte NewLine
+.text	"e agora ele está morto!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Even a common knight such as yourself"
+.text	"Até um cavaleiro comum como você pode"
 	.byte NewLine
-.text	"can surely appreciate this fundamental truth!"
+.text	"apreciar essa verdade fundamental!"
 	
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"A knight appreciates honor and justice."
+.text	"Um cavaleiro aprecia honra e justiça."
 	.byte NewLine
-.text	"I see neither of those in your actions!"
+.text	"Eu não vejo nada disso em você!"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"For too long you've soiled Grannvale's honor."
+.text	"Por muito tempo vi"
 	.byte NewLine
-.text	"I've come to set the fatherland to rights!"
+.text	"você sujar a honra de Grannvale."
+	.byte NewLine
+.text	"Eu vim colocar nossa"
+	.byte WaitForA
+	.byte NewLine
+.text	"pátria no caminho certo!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Reptor
-.text	"Such a pity your hard work is all for naught!"
+.text	"Que pena que todo seu esforço foi por nada!"
 	.byte NewLine
-.text	"Byron died a sad, pitiful traitor, and you"
+.text	"Byron morreu como um traidor, e vai ser do"
 	.byte NewLine
-.text	"will meet his very same fate at my hands!"
+.text	"mesmo jeito para você!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"In the face of the supreme power of thunder,"
+.text	"Em face do supremo poder do trovão,"
 	.byte NewLine
-.text	"Mjölnir, you are but a candle to be snuffed!"
+.text	"Mjölnir, você é só uma vela para apagar!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sigurd, your dying thoughts will lament"
+.text	"Sigurd, suas últimas palavras irão"
 	.byte NewLine
-.text	"your complete and utter lack of power!"
+.text	"lamentar sua fraqueza absoluta!"
 	.byte NewLine
 .text	"Ahahaha..."
 	.byte WaitForA
@@ -539,16 +551,18 @@ dialogueCh5BattleReptor_Aida
 	.byte StartText
 .text	"Aida..."
 	.byte NewLine
-.text	"How dare you!"
+.text	"Como ousa!"
 	.byte NewLine
-.text	"You treacherous wretch..."
+.text	"Sua vadia desprezível..."
 	
 	.byte RightSlot		;Aida
 	.word PauseText
 	.byte $10
-.text	"Hah! You're as sore a loser as I expected, Reptor."
+.text	"Hah!"
 	.byte NewLine
-.text	"You'd do well to surrender now."
+.text	"É tão mal perdedor quanto eu esperei, Reptor."
+	.byte NewLine
+.text	"Seria melhor se render agora."
 	.byte WaitForA
 
 	.byte EndText
@@ -568,26 +582,26 @@ dialogueCh5BattleAndrey_Edain
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Oho, look what we have here!"
+.text	"Oho, olha o que temos aqui!"
 	.byte NewLine
-.text	"My dear sister, the traitor, turning up in"
+.text	"Minha querida irmã, a traidora,"
 	.byte NewLine
-.text	"a place like this."
+.text	"aparecendo nesse lugar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Your sins have soiled the honor of my"
+.text	"Seus pecados sujaram a honra da"
 	.byte NewLine
-.text	"House Yngvi, and now, you must make your"
+.text	"Casa de Yngvi, e agora, deve pagar esses"
 	.byte NewLine
-.text	"amends with your very life."
+.text	"pecados com sua própria vida."
 	
 	.byte RightSlot		;Edain
 	.word PauseText
 	.byte $10
 .text	"Andrey..."
 	.byte NewLine
-.text	"What a pitiful man you've become..."
+.text	"Que homem ridículo se tornou..."
 	.byte WaitForA
 
 	.byte EndText
@@ -607,26 +621,37 @@ dialogueCh5BattleAndrey_Brigid
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"What? Could it be... Brigid?! So, not only"
+.text	"O queê? Poderia ser... Brigid?! então não"
 	.byte NewLine
-.text	"do I hear that you sunk as low as piracy,"
+.text	"só você desceu ao nível de uma mera pirata,"
 	.byte NewLine
-.text	"but now you are party to treasonous deeds..."
+.text	"agora você participa em traição?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"No matter what it takes, you - the shame of"
+.text	"Você é a vergonha de minha família,"
 	.byte NewLine
-.text	"my house - must be put to a timely death."
+.text	"e por isso, terá que ser morta imediatamente."
 	
 	.byte RightSlot		;Brigid
 	.word PauseText
 	.byte $10
-.text	"Enough! You murdered your own father!"
+.text	"Ridículo! VOCÊ matou o próprio pai, Andrey!"
 	.byte NewLine
-.text	"You, Andrey, are the disgrace to Yngvi's honor,"
+.text	"Você, Andrey, é uma desgraça,"
 	.byte NewLine
-.text	"and to the good name of the Crusader Ullr!"
+.text	"na minha vida, na vida de minha família,"
+	.byte WaitForA
+	.byte NewLine
+.text	"e para o nome de Ullr!"
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Sinta agora o que é a fúria daquela que"
+	.byte NewLine
+.text	"possui Yewfelle, isto é, a MINHA fúria!"
+	.byte NewLine
+.text	"Seu homem desprezível!"
 	.byte WaitForA
 
 	.byte EndText

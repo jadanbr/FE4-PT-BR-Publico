@@ -9,9 +9,9 @@ items_tilemap
 ; Second long is the right-aligned graphics address.
 
 ; Iron Sword
-.byte 06
+.byte 08
 .long $572000
-.byte 06
+.byte 08
 .long $572100
 .fill $08, 0
 
@@ -30,9 +30,9 @@ items_tilemap
 .fill $08, 0
 
 ; Iron Blade
-.byte 06
+.byte 08
 .long $572600
-.byte 06
+.byte 08
 .long $572700
 .fill $08, 0
 
@@ -44,9 +44,9 @@ items_tilemap
 .fill $08, 0
 
 ; Silver Blade
-.byte 07
+.byte 08
 .long $572A00
-.byte 07
+.byte 08
 .long $572B00
 .fill $08, 0
 
@@ -58,9 +58,9 @@ items_tilemap
 .fill $08, 0
 
 ; Thief Sword
-.byte 07
+.byte 08
 .long $572E00
-.byte 07
+.byte 08
 .long $572F00
 .fill $08, 0
 
@@ -72,44 +72,44 @@ items_tilemap
 .fill $08, 0
 
 ; Berserk Edge
-.byte 08
+.byte 06
 .long $573200
-.byte 08
+.byte 06
 .long $573300
 .fill $08, 0
 
 ; Brave Sword
-.byte 08
+.byte 07
 .long $573400
-.byte 08
+.byte 07
 .long $573500
 .fill $08, 0
 
 ; Silence Edge
-.byte 07
+.byte 08
 .long $573600
-.byte 07
+.byte 08
 .long $573700
 .fill $08, 0
 
 ; Sleep Edge
-.byte 06
+.byte 07
 .long $573800
-.byte 06
+.byte 07
 .long $573900
 .fill $08, 0
 
 ; Slim Sword
-.byte 07
+.byte 08
 .long $573A00
-.byte 07
+.byte 08
 .long $573B00
 .fill $08, 0
 
 ; Safeguard
-.byte 06
+.byte 08
 .long $573C00
-.byte 06
+.byte 08
 .long $573D00
 .fill $08, 0
 
@@ -128,16 +128,16 @@ items_tilemap
 .fill $08, 0
 
 ; Levin Sword
-.byte 07
+.byte 08
 .long $574200
-.byte 07
+.byte 08
 .long $574300
 .fill $08, 0
 
 ; Wind Sword
-.byte 07
+.byte 08
 .long $574400
-.byte 07
+.byte 08
 .long $574500
 .fill $08, 0
 
@@ -170,16 +170,16 @@ items_tilemap
 .fill $08, 0
 
 ; Ironbane Sword
-.byte 08
+.byte 06
 .long $574E00
-.byte 08
+.byte 06
 .long $574F00
 .fill $08, 0
 
 ; Wing Clipper
-.byte 07
+.byte 06
 .long $575000
-.byte 07
+.byte 06
 .long $575100
 .fill $08, 0
 
@@ -205,9 +205,9 @@ items_tilemap
 .fill $08, 0
 
 ; Iron Lance
-.byte 06
+.byte 08
 .long $575400
-.byte 06
+.byte 08
 .long $575500
 .fill $08, 0
 
@@ -219,23 +219,23 @@ items_tilemap
 .fill $08, 0
 
 ; Silver Lance
-.byte 07
+.byte 08
 .long $575800
-.byte 07
+.byte 08
 .long $575900
 .fill $08, 0
 
 ; Javelin
-.byte 04
+.byte 05
 .long $575A00
-.byte 04
+.byte 05
 .long $575B00
 .fill $08, 0
 
 ; Ridersbane
-.byte 07
+.byte 08
 .long $575C00
-.byte 07
+.byte 08
 .long $575D00
 .fill $08, 0
 
@@ -247,9 +247,9 @@ items_tilemap
 .fill $08, 0
 
 ; Slim Lance
-.byte 07
+.byte 08
 .long $576000
-.byte 07
+.byte 08
 .long $576100
 .fill $08, 0
 
@@ -289,30 +289,30 @@ items_tilemap
 .fill $08, 0
 
 ; Iron Axe
-.byte 05
+.byte 08
 .long $576800
-.byte 05
+.byte 08
 .long $576900
 .fill $08, 0
 
 ; Steel Axe
-.byte 06
+.byte 07
 .long $576A00
-.byte 06
+.byte 07
 .long $576B00
 .fill $08, 0
 
 ; Silver Axe
-.byte 06
+.byte 08
 .long $576C00
-.byte 06
+.byte 08
 .long $576D00
 .fill $08, 0
 
 ; Brave Axe
-.byte 06
+.byte 08
 .long $576E00
-.byte 06
+.byte 08
 .long $576F00
 .fill $08, 0
 
@@ -324,9 +324,9 @@ items_tilemap
 .fill $08, 0
 
 ; Hand Axe
-.byte 06
+.byte 07
 .long $577200
-.byte 06
+.byte 07
 .long $577300
 .fill $08, 0
 
@@ -352,37 +352,37 @@ items_tilemap
 .fill $08, 0
 
 ; Iron Bow
-.byte 05
+.byte 08
 .long $577600
-.byte 05
+.byte 08
 .long $577700
 .fill $08, 0
 
 ; Steel Bow
-.byte 06
+.byte 07
 .long $577800
-.byte 06
+.byte 07
 .long $577900
 .fill $08, 0
 
 ; Silver Bow
-.byte 06
+.byte 08
 .long $577A00
-.byte 06
+.byte 08
 .long $577B00
 .fill $08, 0
 
 ; Brave Bow
-.byte 06
+.byte 07
 .long $577C00
-.byte 06
+.byte 07
 .long $577D00
 .fill $08, 0
 
 ; Killer Bow
-.byte 06
+.byte 08
 .long $577E00
-.byte 06
+.byte 08
 .long $577F00
 .fill $08, 0
 
@@ -415,30 +415,30 @@ items_tilemap
 .fill $08, 0
 
 ; Ballista
-.byte 05
+.byte 04
 .long $578400
-.byte 05
+.byte 04
 .long $578500
 .fill $08, 0
 
 ; Iron Ballista
-.byte 07
+.byte 06
 .long $578600
-.byte 07
+.byte 06
 .long $578700
 .fill $08, 0
 
 ; Killer Ballista
-.byte 08
+.byte 06
 .long $578800
-.byte 08
+.byte 06
 .long $578900
 .fill $08, 0
 
 ; Great Ballista
-.byte 08
+.byte 07
 .long $578A00
-.byte 08
+.byte 07
 .long $578B00
 .fill $08, 0
 
@@ -450,16 +450,16 @@ items_tilemap
 .fill $08, 0
 
 ; Elfire
-.byte 03
+.byte 05
 .long $578E00
-.byte 03
+.byte 05
 .long $578F00
 .fill $08, 0
 
 ; Bolganone
-.byte 06
+.byte 04
 .long $579000
-.byte 06
+.byte 04
 .long $579100
 .fill $08, 0
 
@@ -471,9 +471,9 @@ items_tilemap
 .fill $08, 0
 
 ; Meteor
-.byte 04
+.byte 05
 .long $579400
-.byte 04
+.byte 05
 .long $579500
 .fill $08, 0
 
@@ -506,23 +506,23 @@ items_tilemap
 .fill $08, 0
 
 ; Bolting
-.byte 04
+.byte 07
 .long $579E00
-.byte 04
+.byte 07
 .long $579F00
 .fill $08, 0
 
 ; Wind
-.byte 03
+.byte 04
 .long $57A000
-.byte 03
+.byte 04
 .long $57A100
 .fill $08, 0
 
 ; Elwind
-.byte 04
+.byte 05
 .long $57A200
-.byte 04
+.byte 05
 .long $57A300
 .fill $08, 0
 
@@ -548,9 +548,9 @@ items_tilemap
 .fill $08, 0
 
 ; Lightning
-.byte 05
+.byte 02
 .long $57AA00
-.byte 05
+.byte 02
 .long $57AB00
 .fill $08, 0
 
@@ -625,58 +625,58 @@ items_tilemap
 .fill $08, 0
 
 ; Heal Staff
-.byte 06
+.byte 03
 .long $57BC00
-.byte 06
+.byte 03
 .long $57BD00
 .fill $08, 0
 
 ; Mend Staff
-.byte 07
+.byte 05
 .long $57BE00
-.byte 07
+.byte 05
 .long $57BF00
 .fill $08, 0
 
 ; Recover Staff
-.byte 08
+.byte 06
 .long $57C000
-.byte 08
+.byte 06
 .long $57C100
 .fill $08, 0
 
 ; Physic Staff
-.byte 07
+.byte 08
 .long $57C200
-.byte 07
+.byte 08
 .long $57C300
 .fill $08, 0
 
 ; Fortify Staff
-.byte 07
+.byte 06
 .long $57C400
-.byte 07
+.byte 06
 .long $57C500
 .fill $08, 0
 
 ; Return Staff
-.byte 07
+.byte 05
 .long $57C600
-.byte 07
+.byte 05
 .long $57C700
 .fill $08, 0
 
 ; Warp Staff
-.byte 07
+.byte 06
 .long $57C800
-.byte 07
+.byte 06
 .long $57C900
 .fill $08, 0
 
 ; Rescue Staff
-.byte 08
+.byte 05
 .long $57CA00
-.byte 08
+.byte 05
 .long $57CB00
 .fill $08, 0
 
@@ -695,30 +695,30 @@ items_tilemap
 .fill $08, 0
 
 ; Valkyrie Staff
-.byte 08
+.byte 05
 .long $57D000
-.byte 08
+.byte 05
 .long $57D100
 .fill $08, 0
 
 ; Silence Staff
-.byte 08
+.byte 05
 .long $57D200
-.byte 08
+.byte 05
 .long $57D300
 .fill $08, 0
 
 ; Sleep Staff
-.byte 07
+.byte 06
 .long $57D400
-.byte 07
+.byte 06
 .long $57D500
 .fill $08, 0
 
 ; Berserk Staff
-.byte 08
+.byte 07
 .long $57D600
-.byte 08
+.byte 07
 .long $57D700
 .fill $08, 0
 
@@ -730,37 +730,37 @@ items_tilemap
 .fill $08, 0
 
 ; Broken Staff
-.byte 08
+.byte 07
 .long $57DA00
-.byte 08
+.byte 07
 .long $57DB00
 .fill $08, 0
 
 ; Broken Staff
-.byte 08
+.byte 07
 .long $57DA00
-.byte 08
+.byte 07
 .long $57DB00
 .fill $08, 0
 
 ; Broken Staff
-.byte 08
+.byte 07
 .long $57DA00
-.byte 08
+.byte 07
 .long $57DB00
 .fill $08, 0
 
 ; Heal Bracelet
-.byte 08
+.byte 06
 .long $57DC00
-.byte 08
+.byte 06
 .long $57DD00
 .fill $08, 0
 
 ; Paragon Ring
-.byte 08
+.byte 06
 .long $57DE00
-.byte 08
+.byte 06
 .long $57DF00
 .fill $08, 0
 
@@ -772,9 +772,9 @@ items_tilemap
 .fill $08, 0
 
 ; Miracle Bracelet
-.byte 08
+.byte 07
 .long $57E200
-.byte 08
+.byte 07
 .long $57E300
 .fill $08, 0
 
@@ -793,9 +793,9 @@ items_tilemap
 .fill $08, 0
 
 ; Bargain Bracelet
-.byte 08
+.byte 07
 .long $57E800
-.byte 08
+.byte 07
 .long $57E900
 .fill $08, 0
 
@@ -807,37 +807,37 @@ items_tilemap
 .fill $08, 0
 
 ; Return Ring
-.byte 07
+.byte 08
 .long $57EC00
-.byte 07
+.byte 08
 .long $57ED00
 .fill $08, 0
 
 ; Speed Ring
-.byte 06
+.byte 08
 .long $57EE00
-.byte 06
+.byte 08
 .long $57EF00
 .fill $08, 0
 
 ; Magic Ring
-.byte 06
+.byte 05
 .long $57F000
-.byte 06
+.byte 05
 .long $57F100
 .fill $08, 0
 
 ; Power Ring
-.byte 07
+.byte 05
 .long $57F200
-.byte 07
+.byte 05
 .long $57F300
 .fill $08, 0
 
 ; Shield Ring
-.byte 06
+.byte 07
 .long $57F400
-.byte 06
+.byte 07
 .long $57F500
 .fill $08, 0
 
@@ -849,16 +849,16 @@ items_tilemap
 .fill $08, 0
 
 ; Leg Ring
-.byte 05
+.byte 07
 .long $57F800
-.byte 05
+.byte 07
 .long $57F900
 .fill $08, 0
 
 ; Skill Ring
-.byte 05
+.byte 07
 .long $57FA00
-.byte 05
+.byte 07
 .long $57FB00
 .fill $08, 0
 
@@ -961,16 +961,16 @@ items_tilemap
 .fill $08, 0
 
 ; Broken Staff
-.byte 08
+.byte 07
 .long $57DA00
-.byte 08
+.byte 07
 .long $57DB00
 .fill $08, 0
 
 ; Circlet
-.byte 04
+.byte 05
 .long $57FC00
-.byte 04
+.byte 05
 .long $57FD00
 .fill $08, 0
 

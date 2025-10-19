@@ -8,11 +8,11 @@ dialogueBattleDiMaggio
 	.word portrait_DiMaggio1
 
 	.byte StartText 
-.text	"C'mon, you Grannvale cowards!"
+.text	"Venham, covardes!"
 	.byte NewLine
-.text	"Come at me!"
+.text	"Venham pra cima!"
 	.byte NewLine
-.text	"I'll crush the lot of you!"
+.text	"Eu vou acabar com vocês!"
 	.byte WaitForA
 	.byte EndText
 
@@ -25,9 +25,9 @@ dialogueBattleGerald
 	.word portrait_Gerald
 
 	.byte StartText 
-.text	"Go to hell,"
+.text	"Vão pro inferno,"
 	.byte NewLine
-.text	"you Grannvale dogs!"
+.text	"cães de Grannvale!"
 	.byte WaitForA
 	.byte EndText
 
@@ -46,19 +46,19 @@ dialogueBattleGerald_Midir
 
 	.byte LeftSlot		;Gerald
 	.byte StartText 
-.text	"Oi, wait a sec!"
+.text	"Ei, pera aí!"
 	.byte NewLine
-.text	"No bows, you coward!"
+.text	"Sem arcos, seu covarde!"
 	.byte NewLine
-.text	"That ain't a fair fight!"
+.text	"Isso aí é trapaça!"
 
 	.byte RightSlot		;Midir
 	.word PauseText
 	.byte $10
-.text	"Oh, shut up!"
+.text	"Cala a boca!"
 	.byte NewLine
-.text	"Let Lady Edain go!"
+.text	"Liberte minha senhora!"
 	.byte NewLine
-.text	"NOW!"
+.text	"AGORA!"
 	.byte WaitForA
 	.byte EndText

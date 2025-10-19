@@ -15,33 +15,33 @@ dialogueCh2BeatChulainn
 	.byte StartText
 .text	"Hah... Heh..."
 	.byte NewLine
-.text	"Nobody here's ever bested me before."
+.text	"Ninguém aqui tinha me derrotado antes."
 	.byte NewLine
-.text	"Who in the world are you, anyway?"
+.text	"Quem é você afinal?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The way you fought..."
+.text	"O jeito que você lutava..."
 	.byte NewLine
-.text	"You were brimming with spirit! Hm... I'd wager"
+.text	"Lutava com vontade! Hm... eu aposto"
 	.byte NewLine
-.text	"there's something you're here to fight for, right?"
+.text	"que você deve lutar por algo importante!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"All I've done is chase the money for all"
+.text	"Tudo que eu fiz todos esses anos foi ir atrás"
 	.byte NewLine
-.text	"these years... But I look at you, and suddenly,"
+.text	"de dinheiro... mas eu olho pra você, e então,"
 	.byte NewLine
-.text	"it all feels so meaningless."
+.text	"parece que tudo perde o sentido."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Hey, I don't suppose you're recruiting?"
+.text	"Ei, precisa de mais alguém do seu lado?"
 	.byte NewLine
-.text	"Maybe using my blade for something real"
+.text	"Talvez lutar por um objetivo maior na"
 	.byte NewLine
-.text	"and grander than me is just what I need."
+.text	"vida é do que eu preciso."
 	.byte WaitForA
 
 	.byte EndText
@@ -54,11 +54,14 @@ dialogueCh2ApproachInfini
 	.word LoadPortrait
 	.word portrait_Voltz
 	.byte StartText
-.text	"Right, it's show time!"
+.text	"Certo, chegou a hora!"
 	.byte NewLine
-.text	"Boys, you know the drill. Surrender ain't an option."
+.text	"Garotos, vocês sabem como são as coisas."
 	.byte NewLine
-.text	"Let's show 'em how real men fight!"
+.text	"Se render não é uma opção."
+	.byte WaitForA
+	.byte NewLine
+.text	"Mostrem a eles como homens de verdade lutam!"
 	.byte WaitForA
 
 	.byte EndText
@@ -71,49 +74,55 @@ dialogueCh2FollowUpRing
 	.word LoadPortrait
 	.word portrait_Arden
 	.byte StartText
-.text	"...Sigh. I don't get it."
+.text	"...Ufff. Eu não entendo."
 	.byte NewLine
-.text	"No matter how hard I train or how strong I get,"
+.text	"Não importa o quanto eu"
 	.byte NewLine
-.text	"I'm still the butt of every joke 'round here."
+.text	"treine ou o quão forte fique,"
+	.byte WaitForA
+	.byte NewLine
+.text	"não deixo de ser motivo de piada."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Maybe if I were more like Alec,"
+.text	"Talvez se eu fosse igual o Alec,"
 	.byte NewLine
-.text	"with how he can attack twice..."
+.text	"ele consegue atacar DUAS vezes..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"That'd be all I need to get a bit of respect,"
+.text	"Se eu conseguisse atacar duas vezes,"
 	.byte NewLine
-.text	"methinks... and maybe a cute lass"
+.text	"eu também seria respeitado... e quem sabe eu"
 	.byte NewLine
-.text	"while I'm at it... Hee hee."
+.text	"não consiga uma namoradinha... Hee hee."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But I'm still just me..."
+.text	"Mas né, isso não vai acontecer..."
 	.byte NewLine
-.text	"Back to the ol' grind, I suppose... Hang on?"
+.text	"De volta à rotina de sempre..."
 	.byte NewLine
-.text	"What's this little ring thing?"
+.text	"Hm? O que é isso?"
+	.byte NewLine
+	.byte WaitForA
+.text	"Um anel na areia?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Ooh, maybe it's one of those magical ones"
+.text	"Ooh, talvez seja um desses anéis"
 	.byte NewLine
-.text	"I keep hearing about."
+.text	"mágicos que eu tanto ouço falarem."
 	.byte NewLine
-.text	"That'd be grand, wouldn't it? Let's try her on..."
+.text	"Será que é? Vou colocar no dedo..."
 	.byte WaitForA
 	.byte ScrollText
 
 .text	"Hm... Hwooooarh!"
 	.byte NewLine
-.text	"W-what's this power I'm feeling?!"
+.text	"O que é esse poder que eu estou sentindo?!"
 	.byte NewLine
-.text	"Is this what Alec feels like all the time?"
+.text	"É isso que o Alec sente o tempo todo?"
 	.byte WaitForA
 
 	.byte EndText

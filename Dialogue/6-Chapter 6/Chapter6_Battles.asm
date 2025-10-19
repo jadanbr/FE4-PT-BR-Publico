@@ -10,11 +10,11 @@ dialogueCh6BattleHarold
 	.word portrait_Harold2
 	
 	.byte StartText
-.text	"Guh... No, calm down."
+.text	"Guh... não, não, fique calmo."
 	.byte NewLine
-.text	"They're nothing more"
+.text	"Eles são só alguns rebeldes"
 	.byte NewLine
-.text	"than petty rebels!"
+.text	"insignificantes!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -27,17 +27,15 @@ dialogueCh6BattleIucharba
 	.word LoadPortrait
 	.word portrait_Iucharba
 	.byte StartText
-.text	"You'll never take my"
+.text	"Nunca irão tomar meu"
 	.byte NewLine
-.text	"castle from me,"
-	.byte NewLine
-.text	"rebels!"
+.text	"castelo, rebeldes!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I'll beat the daylight"
+.text	"Vou encher vocês de"
 	.byte NewLine
-.text	"right outta you!"
+.text	"porrada!"
 	.byte WaitForA
 
 	.byte EndText
@@ -54,10 +52,10 @@ dialogueCh6BattleIucharba_LarceiCreidne
 	.word name_LarceiCreidne
 .text	"?"
 	.byte NewLine
-.text	"W-what're you doing?!"
+.text	"O que você está fazendo?!"
 	.byte WaitForA
 	.byte ScrollText
-.text	"I can't fight you! I won't!"
+.text	"Não posso lutar com você! Não vou!"
 	.byte WaitForA
 
 	.byte EndText
@@ -70,19 +68,17 @@ dialogueCh6BattleIuchar
 	.word LoadPortrait
 	.word portrait_Iuchar
 	.byte StartText
-.text	"Ohoho... What courage,"
+.text	"Ohoho... que coragem,"
 	.byte NewLine
-.text	"to dare to challenge"
-	.byte NewLine
-.text	"Iuchar the Invincible!"
+.text	"desafiar Iuchar o invencível!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"What honor,"
+.text	"É uma honra para vocês,"
 	.byte NewLine
-.text	"to be granted death"
+.text	"morrer na lâmina do"
 	.byte NewLine
-.text	"on my blade!"
+.text	"meu machado!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -95,12 +91,12 @@ dialogueCh6BattleIuchar_LarceiCreidne
 	.word LoadPortrait
 	.word portrait_Iuchar
 	.byte StartText
-.text	"S-stay your hand, "
+.text	"N-não faça isso, "
 	.word PrintBranchingName
 	.word name_LarceiCreidne
 .text	"!"
 	.byte NewLine
-.text	"Never could I turn my blade on you!"
+.text	"Eu nunca poderia atacar-te!"
 	.byte WaitForA
 
 	.byte EndText
@@ -120,25 +116,28 @@ dialogueCh6BattleIuchar_Iucharba_viceversa
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Sigh... Ah, Iucharba..."
+.text	"Ah... ah, Iucharba..."
 	.byte NewLine
-.text	"To think my very own flesh and blood"
+.text	"Pensar que meu próprio"
 	.byte NewLine
-.text	"could be so dense..."
+.text	"irmão poderia ser tão estúpido..."
 	
 	.byte RightSlot		;Iucharba
 	.word PauseText
 	.byte $10
-.text	"Dense? Hah! Look who's talking!"
+.text	"Estúpido? Hah! Olha quem fala!"
 	.byte NewLine
-.text	"...Oh well. This was a long time coming, huh?"
+.text	"...Bem. Isso já estava pra acontecer"
 	.byte NewLine
-.text	"Let's settle this once and for all!"
+.text	"faz tempo, não concorda?"
+	.byte WaitForA
+	.byte NewLine
+.text	"Acabemos com isso de uma vez por todas!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Iuchar
-.text	"As you will, my brother!"
+.text	"Como quiser, meu irmão!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -151,11 +150,11 @@ dialogueCh6BattleSchmidt
 	.word LoadPortrait
 	.word portrait_Schmidt2
 	.byte StartText
-.text	"Hold, rebel scum!"
+.text	"Pare, escória rebelde!"
 	.byte NewLine
-.text	"King Danann has decreed"
+.text	"O Rei Danann decretou que"
 	.byte NewLine
-.text	"that you shall go no further!"
+.text	"devem morrer!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -168,15 +167,15 @@ dialogueCh6BattleDanann
 	.word LoadPortrait
 	.word portrait_Danann2
 	.byte StartText
-.text	"Pitiful rebel fools..."
+.text	"Seus rebeldes tolos..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Don't you dare"
+.text	"Não ousem subestimar a"
 	.byte NewLine
-.text	"underestimate the glory of"
+.text	"glória do Império de"
 	.byte NewLine
-.text	"the Grannvale Empire!"
+.text	"Grannvale!"
 	.byte WaitForA
 
 	.byte EndText
@@ -196,25 +195,25 @@ dialogueCh6BattleDanann_Iuchar
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Iuchar... Curse you!"
+.text	"Iuchar... maldito seja!"
 	.byte NewLine
-.text	"You've let yourself be deceived"
+.text	"Você se deixou enganar por"
 	.byte NewLine
-.text	"by that she-witch!"
+.text	"aquela bruxa, não é?!"
 	
 	.byte RightSlot		;Iuchar
 	.word PauseText
 	.byte $10
-.text	"Ah, if it were that simple..."
+.text	"Ah, se fosse simples assim..."
 	.byte NewLine
-.text	"I live my life now in love's name!"
+.text	"Agora eu vivo em nome do amor!"
 	.byte NewLine
-.text	"Forgive me, Father..."
+.text	"Perdoe-me, pai..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Danann
-.text	"Y-you useless little..."
+.text	"Seu desgraçado inútil..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -234,29 +233,29 @@ dialogueCh6BattleDanann_Iucharba
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Iucharba! What do you think you're doing?"
+.text	"Iucharba! O que pensa que está fazendo?"
 	.byte NewLine
-.text	"You would betray your very own"
+.text	"Você realmente vai trair sua"
 	.byte NewLine
-.text	"flesh and blood?!"
+.text	"própria família?!"
 	
 	.byte RightSlot		;Iucharba
 	.word PauseText
 	.byte $10
-.text	"Yeah, sorry 'bout that, Dad."
+.text	"É, desculpa aí, pai."
 	.byte NewLine
-.text	"I just don't care about helping you"
+.text	"Eu só cansei de te ajudar a"
 	.byte NewLine
-.text	"do this land wrong anymore."
+.text	"arrasar essa terra."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"Don't take it personally."
+.text	"Não leva pro lado pessoal."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Danann
-.text	"Blast..."
+.text	"Droga..."
 	.byte NewLine
 .text	"Iucharba!!"
 	.byte WaitForA
@@ -278,20 +277,20 @@ dialogueCh6BattleDanann_Seliph
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"I-it's you!"
+.text	"É-é você!"
 	.byte NewLine
-.text	"The spawn of Sigurd!"
+.text	"A cria de Sigurd!"
 	.byte NewLine
-.text	"Blast... My father will be avenged!"
+.text	"Maldito seja... meu pai será vingado!"
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"King Danann... You've tortured this land,"
+.text	"Rei Danann... você torturou esse país,"
 	.byte NewLine
-.text	"and brought misery and death, for too long."
+.text	"e trouxe miséria e morte por tempo demais."
 	.byte NewLine
-.text	"Today, you shall face justice!"
+.text	"Hoje, isso vai acabar!"
 	.byte WaitForA
 
 	.byte EndText

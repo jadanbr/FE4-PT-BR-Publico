@@ -16,43 +16,47 @@ dialogueEpiloguesFriege_ArthurAmid_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Headed for Friege, are you, "
+.text	"Então você vai pra Friege, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir. Reptor and Bloom's crimes are beyond"
+.text	"Sim, senhor. Os crimes de Reptor e Bloom"
 	.byte NewLine
-.text	"forgiveness, but Friege's citizens can't be blamed"
+.text	"são imperdoáveis, mas os cidadãos de Friege"
 	.byte NewLine
-.text	"for their liege's actions."
+.text	"não têm culpa disso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I've got a duty to fill my mother's shoes and"
+.text	"Eu tenho o dever de ajeitar as coisas"
 	.byte NewLine
-.text	"guide the people where she no longer can."
+.text	"no lugar da minha mãe."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"If anyone can do it, "
+.text	"Se tem alguém capaz de fazer isso, "
 	.word PrintStoredNameB
-.text	", it'll be you."
+.text	","
+	.byte NewLine
+.text	"é você."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'm glad you see peace is never born of hatred."
+.text	"Eu também fico feliz que você vê"
 	.byte NewLine
-.text	"I pray we'll always be friends."
+.text	"que o ódio nunca traz paz. Que sejamos bons"
+	.byte NewLine
+.text	"amigos até o fim de nossas vidas!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir!"
+.text	"Sim, senhor!"
 	.word PauseText
 	.byte $60
 
@@ -75,43 +79,47 @@ dialogueEpiloguesFriege_ArthurAmid_Married
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Headed for Friege, are you, "
+.text	"Então você vai pra Friege, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir. Reptor and Bloom's crimes are beyond"
+.text	"Sim, senhor. Os crimes de Reptor e Bloom"
 	.byte NewLine
-.text	"forgiveness, but Friege's citizens can't be blamed"
+.text	"são imperdoáveis, mas os cidadãos de Friege"
 	.byte NewLine
-.text	"for their liege's actions."
+.text	"não tem culpa."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I've got a duty to fill my mother's shoes and"
+.text	"Eu tenho o dever de ajeitar as coisas"
 	.byte NewLine
-.text	"guide the people where she no longer can."
+.text	"no lugar da minha mãe."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"If anyone can do it, "
+.text	"Se tem alguém capaz de fazer isso, "
 	.word PrintStoredNameB
-.text	", it'll be you."
+.text	","
+	.byte NewLine
+.text	"é você."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'm glad you see peace is never born of hatred."
+.text	"Eu também fico feliz que você vê"
 	.byte NewLine
-.text	"I pray we'll always be friends."
+.text	"que o ódio nunca traz paz. Que sejamos bons"
+	.byte NewLine
+.text	"amigos até o fim de nossas vidas!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir!"
+.text	"Sim, senhor!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -129,22 +137,22 @@ dialogueEpiloguesFriege_ArthurAmid_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"C'mon, "
+.text	"Vamos, "
 	.word PrintStoredNameB
-.text	", let's go already!"
+.text	", vamos logo!"
 	.byte NewLine
-.text	"I've never been this bored in my life."
+.text	"Eu estou muito entediada."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Heh."
 	.byte NewLine
-.text	"Thought you'd say that, "
+.text	"Imaginei que você diria isso, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"Okay, let's get going."
+.text	"Certo, vamos indo então."
 	.word PauseText
 	.byte $60
 
@@ -158,9 +166,9 @@ dialogueEpiloguesFriege_ArthurAmid_LoverQuipPeppy
 	.byte LeftSlot
 	.word PauseText
 	.byte $20
-.text	"Bye-bye, Lord Seliph!"
+.text	"Tchau-tchau, Lorde Seliph!"
 	.byte NewLine
-.text	"We'll see you later..."
+.text	"Te vemos depois..."
 	.word PauseText
 	.byte $60
 
@@ -176,20 +184,20 @@ dialogueEpiloguesFriege_ArthurAmid_LoverQuipLarceiLana
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I think you've chatted long enough, "
+.text	"Vocês já conversaram o suficiente, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Lord Seliph has work to do as well, you know!"
+.text	"Lorde Seliph tem coisas pra fazer também!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, you're right, "
+.text	"É, você está certa, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"Shall we head off, then?"
+.text	"Vamos indo, então?"
 	.word PauseText
 	.byte $60
 
@@ -203,9 +211,9 @@ dialogueEpiloguesFriege_ArthurAmid_LoverQuipLarceiLana
 	.byte LeftSlot
 	.word PauseText
 	.byte $20
-.text	"Well, by your leave, Lord Seliph."
+.text	"Com sua licença, Lorde Seliph."
 	.byte NewLine
-.text	"Take care of yourself..."
+.text	"Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -221,20 +229,22 @@ dialogueEpiloguesFriege_ArthurAmid_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I think you've chatted long enough, "
+.text	"Vocês já conversaram o suficiente, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Lord Seliph has work to do as well, you know!"
+.text	"Lorde Seliph vai ter muito o que"
+	.byte NewLine
+.text	"resolver agora que é rei."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, you're right, "
+.text	"É, você está certa "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"Shall we head off, then?"
+.text	"Vamos indo, então?"
 	.word PauseText
 	.byte $60
 
@@ -248,9 +258,9 @@ dialogueEpiloguesFriege_ArthurAmid_LoverQuipNoble
 	.byte LeftSlot
 	.word PauseText
 	.byte $20
-.text	"We'll be leaving now, Lord Seliph."
+.text	"Vamos embora, Lorde Seliph."
 	.byte NewLine
-.text	"Take care of yourself..."
+.text	"Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -292,7 +302,7 @@ dialogueEpiloguesFriege_TineLinda_ArthurAmidAlive_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And you'll be accompanying "
+.text	"E você irá com "
 	.word PrintStoredNameC
 .text	", "
 	.word PrintStoredNameB
@@ -301,22 +311,22 @@ dialogueEpiloguesFriege_TineLinda_ArthurAmidAlive_Single
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am."
+.text	"Irei. Eu quero estar com meu irmão para"
 	.byte NewLine
-.text	"All I want is to be of help to my brother."
+.text	"ajudá-lo."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You two are awfully close, aren't you?"
+.text	"Vocês realmente são muito próximos."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Mm, we are."
+.text	"Mm, nós somos. Eu não poderia pensar em"
 	.byte NewLine
-.text	"I couldn't possibly ask for a better brother..."
+.text	"ninguém melhor pra ser meu irmão..."
 	.word PauseText
 	.byte $60
 
@@ -338,28 +348,28 @@ dialogueEpiloguesFriege_TineLinda_ArthurAmidAlive_LoverDead
 	.word LoadStoredPortraitC
 
 	.byte LeftSlot
-.text	"And you'll be accompanying "
+.text	"E você irá com "
 	.word PrintStoredNameC
 .text	", "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Has "
+.text	"Você já esqueceu do "
 	.word PrintStoredNameA
-.text	" slipped your mind so soon?"
+.text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, and I know I'll never forget him..."
+.text	"Não, e eu nunca vou me esquecer dele..."
 	.byte NewLine
-.text	"But I can't give in to sorrow now."
+.text	"Mas eu não posso ficar triste pra sempre."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I've finally met my brother after all these years,"
+.text	"Eu finalmente encontrei meu irmão, e"
 	.byte NewLine
-.text	"and we'll give it our best together."
+.text	"eu quero dar meu melhor para ajudá-lo."
 	.word PauseText
 	.byte $60
 
@@ -382,30 +392,28 @@ dialogueEpiloguesFriege_TineLinda_InheritsThrone
 	.byte StartText
 
 	.byte LeftSlot
-.text	"You're Friege's heir, are you not, "
+.text	"Você é quem vai governar Friege, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"I'm so sorry. I know returning to Friege"
+.text	"Sinto muito. Sei que voltar pra lá"
 	.byte NewLine
-.text	"couldn't possibly be easy for you..."
+.text	"não vai ser nada fácil pra você..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, it won't... But for Mother's sake,"
+.text	"Não, não vai... mas pelo bem da minha mãe,"
 	.byte NewLine
-.text	"I mustn't run away. I hope I'll have your help"
+.text	"Eu não posso correr. Eu espero que você me"
 	.byte NewLine
-.text	"in this as well, Lord Seliph."
+.text	"ajude a tocar as coisas por lá, Lorde Seliph."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"But of course."
-	.byte NewLine
-.text	"We'll be with you every step of the way."
+.text	"Claro. Você só precisa pedir."
 	.word PauseText
 	.byte $60
 

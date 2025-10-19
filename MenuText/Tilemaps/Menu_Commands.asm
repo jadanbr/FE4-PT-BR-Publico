@@ -15,133 +15,133 @@ menu_commands1_tilemap
 ; Attack
 .long $85DE57
 .word $0101, $4081
-.word $8302, $8402, $8502, $8602, $0000, $0000, $0000, $0000
+.word $4001, $4101, $4201, $4301, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Besiege
 .long $85DE7C
 .word $0101, $4081
-.word $4901, $4A01, $4B01, $4C01, $4D01, $0000, $0000, $0000
+.word $4A01, $4B01, $4C01, $4D01, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Dance
 .long $85DEAB
 .word $0101, $4081
-.word $6602, $6702, $6802, $6902, $0000, $0000, $0000, $0000
+.word $4602, $4702, $4802, $0D02, $0E02, $0000, $0000, $0000
 .fill $09, 0
 
 ; Staff
 .long $85DED6
 .word $0101, $4081
-.word $6A02, $6B02, $6C02, $6D02, $0000, $0000, $0000, $0000
+.word $6C02, $6D02, $6E02, $6F02, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Items
 .long $85DEFB
 .word $0101, $4081
-.word $0301, $0401, $0501, $0601, $0000, $0000, $0000, $0000
+.word $0501, $0601, $0701, $0000, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Talk
 .long $85DFC2
 .word $0101, $4081
-.word $4202, $4302, $4402, $0000, $0000, $0000, $0000, $0000
+.word $6902, $6A02, $6B02, $0000, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Give gold
 .long $85E030
 .word $0101, $4081
-.word $4A02, $4B02, $4C02, $4D02, $4E02, $0000, $0000, $0000
+.word $A402, $A502, $A602, $A702, $A802, $0000, $0000, $0000
 .fill $09, 0
 
 ; Give gold
 .long $85E050
 .word $0101, $4081
-.word $4A02, $4B02, $4C02, $4D02, $4E02, $0000, $0000, $0000
+.word $A402, $A502, $A602, $A702, $A802, $0000, $0000, $0000
 .fill $09, 0
 
 ; Rescue
 .long $85E012
 .word $0101, $4081
-.word $6002, $6102, $6202, $6302, $0000, $0000, $0000, $0000
+.word $2A02, $2B02, $2C02, $2D02, $0D02, $0E02, $0000, $0000
 .fill $09, 0
 
 ; Seize
 .long $85DF6F
 .word $0101, $4081
-.word $4602, $4702, $4802, $0000, $0000, $0000, $0000, $0000
+.word $C002, $C102, $C202, $C302, $0D02, $0E02, $0000, $0000
 .fill $09, 0
 
 ; Enter
 .long $85DF20
 .word $0101, $4081
-.word $A002, $A102, $A202, $0000, $0000, $0000, $0000, $0000
+.word $6602, $6702, $6802, $6302, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Visit
 .long $85DF3F
 .word $0101, $4081
-.word $8001, $8101, $8201, $0000, $0000, $0000, $0000, $0000
+.word $6A01, $6B01, $6C01, $6D01, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Visit
 .long $85DF61
 .word $0101, $4081
-.word $8001, $8101, $8201, $0000, $0000, $0000, $0000, $0000
+.word $6A01, $6B01, $6C01, $6D01, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Guard
 .long $85DF7D
 .word $0101, $4081
-.word $A302, $A402, $A502, $A602, $0000, $0000, $0000, $0000
+.word $A002, $A102, $A902, $AA02, $AB02, $0000, $0000, $0000
 .fill $09, 0
 
 ; Depart
 .long $85DF8A
 .word $0101, $4081
-.word $8301, $8401, $8501, $8601, $0000, $0000, $0000, $0000
+.word $8001, $8101, $8201, $0000, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Return
 .long $85DF98
 .word $0101, $4081
-.word $6002, $0D02, $0E02, $AB02, $0000, $0000, $0000, $0000
+.word $6002, $6102, $6202, $6302, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Wait
 .long $85DE43
 .word $0101, $4081
-.word $4601, $4701, $4801, $0000, $0000, $0000, $0000, $0000
+.word $4701, $4801, $4901, $4C01, $4D01, $0000, $0000, $0000
 .fill $09, 0
 
 ; Return
 .long $85E004
 .word $0101, $4081
-.word $6002, $0D02, $0E02, $AB02, $0000, $0000, $0000, $0000
+.word $6002, $6102, $6202, $6302, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 ; Mount
 .long $85DFB4
 .word $0101, $4081
-.word $A702, $A802, $A902, $AA02, $0000, $0000, $0000, $0000
+.word $4202, $4302, $4402, $0D02, $0E02, $0000, $0000, $0000
 .fill $09, 0
 
 ; Dismount
 .long $85DFA6
 .word $0101, $4081
-.word $2A02, $2B02, $2C02, $2D02, $4002, $2F02, $0000, $0000
+.word $4A02, $4B02, $4C02, $4D02, $4E02, $0D02, $0E02, $0000
 .fill $09, 0
 
 ; Equip
 .long $85DFDE
 .word $0101, $4081
-.word $4301, $4401, $4501, $0000, $0000, $0000, $0000, $0000
+.word $4401, $4501, $4601, $4C01, $4D01, $0000, $0000, $0000
 .fill $09, 0
 
 ; Options
 .long $85DFFD
 .word $0101, $4081
-.word $0E01, $0F01, $2001, $2101, $2201, $0000, $0000, $0000
+.word $2001, $2101, $2201, $2301, $0000, $0000, $0000, $0000
 .fill $09, 0
 
 .here
@@ -151,11 +151,11 @@ menu_commands1_tilemap
 
 ; Save your progress?
 autosave_prompt_tilemap
-.word $C001, $C101, $C201, $C301, $C401, $C501, $C601, $C701, $C801, $C901, $CA01, $CB01
+.word $4081, $C001, $C101, $C201, $C301, $C401, $C501, $C601, $C701, $C801, $C901, $0000
 .fill $08, 0
 
 ; Save  Cancel
-.word $C001, $C101, $C201, $0000, $0000, $0000, $0000, $0000, $CC01, $CD01, $CE01, $CF01
+.word $CA01, $CB01, $CC01, $0000, $0000, $0000, $0000, $0000, $CD01, $CE01, $CF01, $0000
 .fill $08, 0
 
 .here
@@ -178,61 +178,57 @@ menu_commands2_tilemap
 command_units_adress
 .long $85DBDD
 .word $0101
-.word $4081, $0001, $0101, $0201, $0000
+.word $4081, $0001, $0101, $0201, $0301, $0401, $0000
 
 ; Items
 command_items_adress
 .long $85DBED
 .word $0101
-.word $4081, $0301, $0401, $0501, $0601, $0000
+.word $4081, $0501, $0601, $0701, $0000
 
 ; Status 
 command_status_adress
 .long $85DBF6
 .word $0101
-.word $4081, $0701, $0801, $0901, $0A01, $0000
+.word $4081, $0801, $0901, $0A01, $0B01, $0000
 
 ; Skills
 command_skills_adress
 .long $85DC0E
 .word $0101
-.word $4081, $0B01, $0C01, $0D01, $0000
+.word $4081, $0C01, $0D01, $0E01, $0201, $0301, $0401, $0000
 
 ; Options
 command_options_adress
 .long $85DCCA
 .word $0101
-.word $4081, $0E01, $0F01, $2001, $2101, $2201, $0000
+.word $4081, $2001, $2101, $2201, $2301, $0000
 
-; Load (unused)
+; Load
 command_load_adress
 .long $85DC7A
 .word $0101
-.word $4081, $2301, $2401, $2501, $0000
+.word $4081, $0000
 
 ; Save
 command_save_adress
 .long $85DCAB
 .word $0101
-.word $4081, $2601, $2701, $2801, $0000
+.word $4081, $2401, $2501, $2601, $2701, $0000
 
 ; End
 command_end_adress
 .long $85DC26
 .word $0101
-.word $4081, $2901, $2A01, $0000
+.word $4081, $2801, $2901, $0000
 
 .here
 
 
-* = $05DD94
-.logical $05DD94
+* = $05DD96
+.logical $05DD96
 
 ; Repoints, in case you need to change the sizes above
-
-; Start-of-turn menu layout.
-
-.word $0707 ;??
 
 .word $0101
 .word <>command_units_adress
@@ -262,11 +258,7 @@ command_end_adress
 .word <>command_end_adress
 .byte $85
 
-.word $0000
-
-; Mid-turn menu layout.
-
-.word $0606 ;??
+.word $0000, $0606 ;??
 
 .word $0101
 .word <>command_units_adress
@@ -297,20 +289,43 @@ command_end_adress
 * = $05A670
 .logical $05A670
 
-animations_submenu_animations_tilemap	.word $6001, $6101, $6201, $6301, $6401, $6501, $0000, $0000	; Animations
-animations_submenu_on_tilemap			.word $6E01, $6F01, $0000										; On
-animations_submenu_off_tilemap			.word $8E01, $8F01, $0000                                       ; Off
-animations_submenu_setforall_tilemap	.word $6701, $6801, $6901, $6A01, $6B01, $6C01, $0000           ; Set for all
+animations_submenu_tilemap
+animations_submenu_animations_tilemap	.word $6001, $6101, $6201, $6301, $2201, $2301, $0000	; Animations
+animations_submenu_on_tilemap			.word $8B01, $8C01, $0000								; On
+animations_submenu_off_tilemap			.word $8D01, $8E01, $8F01, $0000                        ; Off
+animations_submenu_setforall_tilemap	.word $6401, $6501, $6601, $6701, $6801, $6901, $0000   ; Set for all
 
 .here
 
-* = $05A626
-.logical $05A626
-;							    Tilemap v----v	   Spaces before v
-.byte	$A9, $00, $85, $85, $25, $A9, $70, $A6, $85, $24, $A2, $01, $01, $22, $00, $44, $51
-.byte	$A9, $00, $85, $85, $25, $A9, $80, $A6, $85, $24, $A2, $02, $03, $22, $21, $89, $87
-.byte	$A9, $00, $85, $85, $25, $A9, $86, $A6, $85, $24, $A2, $02, $05, $22, $21, $89, $87
-.byte	$A9, $00, $85, $85, $25, $A9, $8C, $A6, $85, $24, $A2, $02, $07, $22, $21, $89, $87
+
+* = $05A62C
+.logical $05A62C
+
+.word <>animations_submenu_animations_tilemap
+
+.here
+
+
+* = $05A63D
+.logical $05A63D
+
+.word <>animations_submenu_on_tilemap
+
+.here
+
+
+* = $05A64E
+.logical $05A64E
+
+.word <>animations_submenu_off_tilemap
+
+.here
+
+
+* = $05A65F
+.logical $05A65F
+
+.word <>animations_submenu_setforall_tilemap
 
 .here
 
@@ -318,8 +333,8 @@ animations_submenu_setforall_tilemap	.word $6701, $6801, $6901, $6A01, $6B01, $6
 .logical $05A7CE
 
 animations_subsubmenu_tilemap
-.word $6E01, $6F01, $0000, $0000     ; On
-.word $8E01, $8F01, $0000, $0000     ; Off
+.word $8B01, $8C01, $0000, $0000     ; On
+.word $8D01, $8E01, $8F01, $0000     ; Off
 
 .here
 
@@ -327,36 +342,34 @@ animations_subsubmenu_tilemap
 .logical $05AD47
 
 phase_word_tilemap
-.word $2B01, $2C01, $2D01, $2E01, $0000, $0000	; Phase
+.word $2A01, $2B01, $2C01, $2D01, $2E01, $0000, $0000
 
 .here
 
-;	The options below are for languages where "X Phase" is in the "Phase of X" order.
-
-;	Phase offset — Remove about 8 to push it to the left, depending on your language's word.
+;	Move Phase to the left
 
 * = $511F01
 .logical $511F01
+
+.byte 10
+
+.here
+
+;	Move army name to the right
+
+* = $5AD0B
+.logical $5AD0B
 
 .byte 18
 
 .here
 
-;	Army name offset — Set it to 18 to push it to the right.
-
-* = $5AD0B
-.logical $5AD0B
-
-.byte 07
-
-.here
-
-; Use right-aligned army name — Set both bytes to $EA to use the left-aligned army name.
+; Use left-aligned army name
 
 * = $511118
 .logical $511118
 
-.byte $F0
-.byte $03
+.byte $EA
+.byte $EA
 
 .here

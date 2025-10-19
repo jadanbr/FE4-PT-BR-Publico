@@ -318,7 +318,7 @@
 .logical $505E30
 
 .byte StartText
-.text "Hannibal"
+.text "Aníbal"
 .byte EndText
 
 .here
@@ -381,7 +381,7 @@
 .logical $505EA0
 
 .byte StartText
-.text "Julia"
+.text "Júlia"
 .byte EndText
 
 .here

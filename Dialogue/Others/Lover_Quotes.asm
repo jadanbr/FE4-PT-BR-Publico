@@ -6,7 +6,7 @@ dialogueLoverSigurd_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm back, Deirdre!"
+.text	"Estou de volta, Deirdre!"
 	.byte NewLine
 	
 	.byte EndText
@@ -16,11 +16,11 @@ dialogueLoverNaoise_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"You were awaiting me, were you?"
+.text	"Você estava aqui me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -30,11 +30,11 @@ dialogueLoverAlec_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey, "
+.text	"Ei, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"You were waiting up for me?"
+.text	"Você tava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -44,11 +44,11 @@ dialogueLoverArden_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Phew... I'm beat."
+.text	"Ufa... cansei."
 	.byte NewLine
-.text	"Oh!"
+.text	"Ah!"
 	.byte NewLine
-.text	"You're already here, "
+.text	"Já chegou, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
@@ -62,7 +62,7 @@ dialogueLoverYoungFinn_Entering
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Were you waiting for me?"
+.text	"Estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -72,9 +72,9 @@ dialogueLoverQuan_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm back, Ethlyn."
+.text	"Voltei, Ethlyn. Acho que posso tirar"
 	.byte NewLine
-.text	"I suppose now I can relax for a while, eh?"
+.text	"um descanso, não é?"
 	.byte NewLine
 	
 	.byte EndText
@@ -84,11 +84,11 @@ dialogueLoverMidir_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"You're already here, are you..."
+.text	"Você já está aqui, é..."
 	.byte NewLine
 	
 	.byte EndText
@@ -98,9 +98,9 @@ dialogueLoverLewyn_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, hey!"
+.text	"Ah, oi!"
 	.byte NewLine
-.text	"You were waiting up for me here, "
+.text	"Te deixei esperando, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
@@ -112,7 +112,7 @@ dialogueLoverChulainn_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Waiting up here for me, were you, "
+.text	"Estava aqui me esperando, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
@@ -125,9 +125,9 @@ dialogueLoverAzelle_Entering
 	.byte LeftSlot
 	.byte StartText
 	.word PrintStoredNameB
-.text	"... I'm back."
+.text	"... eu voltei."
 	.byte NewLine
-.text	"Were you waiting for me?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -140,7 +140,7 @@ dialogueLoverJamke_Entering
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"You waited for me?"
+.text	"Você esperou por mim?"
 	.byte NewLine
 	
 	.byte EndText
@@ -150,9 +150,9 @@ dialogueLoverClaud_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh?"
+.text	"Ah?"
 	.byte NewLine
-.text	"Were you awaiting my return, "
+.text	"Estava me esperando, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
@@ -167,7 +167,7 @@ dialogueLoverBeowolf_Entering
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Waitin' for me to come home, huh?"
+.text	"Tava esperando eu chegar em casa, é?"
 	.byte NewLine
 	
 	.byte EndText
@@ -177,11 +177,11 @@ dialogueLoverLex_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"Waiting for my return, right?"
+.text	"Estava me esperando, certo?"
 	.byte NewLine
 	
 	.byte EndText
@@ -191,18 +191,18 @@ dialogueLoverDew_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm baaack!"
+.text	"Voltei!"
 	.byte NewLine
-.text	"'Bout time, too."
+.text	"Bem na hora, eu diria."
 	.byte NewLine
-.text	"I'm starving!"
+.text	"Tô morrendo de fome!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Huh? Hang on..."
+.text	"Hã? Pera aí..."
 	.byte NewLine
 	.word PrintStoredNameB
-.text	", you were waiting here just for me?!"
+.text	", cê tava aqui me esperando?!"
 	.byte NewLine
 	
 	.byte EndText
@@ -212,7 +212,7 @@ dialogueLoverDeirdre_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm home, milord."
+.text	"Cheguei em casa, querido."
 	.byte NewLine
 	
 	.byte EndText
@@ -222,9 +222,9 @@ dialogueLoverEthlyn_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Dear, I'm home."
+.text	"Querido, cheguei."
 	.byte NewLine
-.text	"And it looks like you still are, too!"
+.text	"Que bom te ver!"
 	.byte NewLine
 	
 	.byte EndText
@@ -234,11 +234,11 @@ dialogueLoverLachesis_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"Awaiting my return, were you?"
+.text	"Esperando eu voltar, creio?"
 	.byte NewLine
 	
 	.byte EndText
@@ -251,7 +251,7 @@ dialogueLoverAyra_Entering
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Waiting for me, were you?"
+.text	"Estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -261,11 +261,11 @@ dialogueLoverErinys_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"?!"
 	.byte NewLine
-.text	"You were awaiting me?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -275,12 +275,12 @@ dialogueLoverTailtiu_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm baaaaaack! Huh?"
+.text	"Volteeeiii! Hã?"
 	.byte NewLine
 	.word PrintStoredNameB
-.text	", what's going on? Oh, I know!"
+.text	", que que tá rolando? Ah, já sei!"
 	.byte NewLine
-.text	"You were waiting here just for little ol' me!"
+.text	"Você ficou aqui me esperando!"
 	.byte NewLine
 	
 	.byte EndText
@@ -290,13 +290,13 @@ dialogueLoverSilvia_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"You were waiting here just for me?"
+.text	"Você ficou aqui só me esperando?"
 	.byte NewLine
-.text	"Wooooow! I'm blushing so much!"
+.text	"Uaaaaau! Você é um amor mesmo!"
 	.byte NewLine
 	
 	.byte EndText
@@ -310,7 +310,7 @@ dialogueLoverEdain_Entering
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"You awaited my return home, did you?"
+.text	"Estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -323,7 +323,7 @@ dialogueLoverBrigid_Entering
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Just sittin' here waitin' for me, huh?"
+.text	"Ficou aí só me esperando, é?"
 	.byte NewLine
 	
 	.byte EndText
@@ -334,9 +334,9 @@ dialogueLoverSeliph_Entering
 	.byte LeftSlot
 	.byte StartText
 	.word PrintStoredNameB
-.text	", I've returned."
+.text	", eu voltei."
 	.byte NewLine
-.text	"I'm honored that you awaited me."
+.text	"Fico feliz que tenha me esperado."
 	.byte NewLine
 	
 	.byte EndText
@@ -346,7 +346,7 @@ dialogueLoverShannan_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Waiting for me, were you, "
+.text	"Estava me esperando, é, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
@@ -358,12 +358,12 @@ dialogueLoverDalvin_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Were you waiting for me or something?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -377,7 +377,7 @@ dialogueLoverAsaello_Entering
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Were you waiting for me...?"
+.text	"Você estava me esperando...?"
 	.byte NewLine
 	
 	.byte EndText
@@ -390,9 +390,9 @@ dialogueLoverLeif_Entering
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"What's happened?!"
+.text	"O que aconteceu?!"
 	.byte NewLine
-.text	"...Oh, were you just awaiting my return?"
+.text	"...Ah, você estava só me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -402,13 +402,13 @@ dialogueLoverIuchar_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hail, "
+.text	"Salve, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"You eagerly awaited your noble husband's return,"
+.text	"Você esperou pacientemente o retorno"
 	.byte NewLine
-.text	"did you?"
+.text	"de seu nobre marido, certo?"
 	.byte NewLine
 	
 	.byte EndText
@@ -418,11 +418,11 @@ dialogueLoverCharlot_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm home, "
+.text	"Cheguei, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"Were you just waiting for me?"
+.text	"Você ficou me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -432,11 +432,11 @@ dialogueLoverHawk_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Were you awaiting me?"
+.text	"Estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -446,13 +446,13 @@ dialogueLoverTristan_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey, "
+.text	"Ei, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"What's going on?"
+.text	"O que está acontecendo?"
 	.byte NewLine
-.text	"Were you just waiting for me?"
+.text	"Você só ficou me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -462,7 +462,7 @@ dialogueLoverAdultFinn_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Were you waiting for me, "
+.text	"Estavas me esperando, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
@@ -474,13 +474,13 @@ dialogueLoverDeimne_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"Oh, heh, "
+.text	"Ah, oi, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"Waiting for me, were you?"
+.text	"Tava esperando por mim?"
 	.byte NewLine
 	
 	.byte EndText
@@ -491,7 +491,7 @@ dialogueLoverHannibal_Entering
 	.byte LeftSlot
 	.byte StartText
 	.word PrintStoredNameB
-.text	", were you awaiting my return?"
+.text	", estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -504,7 +504,7 @@ dialogueLoverAres_Entering
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"You awaited my return?"
+.text	"Você esperou eu voltar?"
 	.byte NewLine
 	
 	.byte EndText
@@ -516,7 +516,7 @@ dialogueLoverAmid_Entering
 	.byte StartText
 .text	"Hm?"
 	.byte NewLine
-.text	"You were waiting for me, "
+.text	"Estava me esperando, "
 	.byte NewLine
 	.word PrintStoredNameB
 .text	"?"
@@ -531,7 +531,7 @@ dialogueLoverOldOifey_Entering
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Were you waiting for me?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -541,12 +541,12 @@ dialogueLoverDaisy_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Im baaaaaaaack! ...Huh?"
+.text	"Volteeeeiii! ...Hã?"
 	.byte NewLine
 	.word PrintStoredNameB
-.text	"? Were you waiting here just for me?"
+.text	"? Você ficou aqui me esperando?"
 	.byte NewLine
-.text	"Eeeeeeeeeeeee! That's so great!"
+.text	"Eeeeeeeeeeeee! Isso é ótimo!"
 	.byte NewLine
 	
 	.byte EndText
@@ -556,13 +556,13 @@ dialogueLoverCreidne_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Huh? "
+.text	"Hã? "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"What do you think you're still doing here?"
+.text	"Porquê você ainda tá aí?"
 	.byte NewLine
-.text	"Were you just waiting for me?"
+.text	"Ficou só me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -572,11 +572,11 @@ dialogueLoverMuirne_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm back, "
+.text	"Eu voltei, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Have you been waiting for me all this time?"
+.text	"Ficou me esperando esse tempo todo?"
 	.byte NewLine
 	
 	.byte EndText
@@ -589,9 +589,9 @@ dialogueLoverJulia_Entering
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Were..."
+.text	"Você..."
 	.byte NewLine
-.text	"...Were you waiting to greet me?"
+.text	"...Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -604,7 +604,7 @@ dialogueLoverAltena_Entering
 	.word PrintStoredNameB
 .text	"?!"
 	.byte NewLine
-.text	"Were you awaiting me?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -614,13 +614,13 @@ dialogueLoverHermina_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm hooome! Huh?"
+.text	"Ufa, cheguei em casa! Hm?"
 	.byte NewLine
-.text	"What's going on, "
+.text	"O que aconteceu, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Were you just waiting there to say hi?"
+.text	"Você ficou aí me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -630,11 +630,11 @@ dialogueLoverLinda_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm back, "
+.text	"Estou de volta, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Have you been waiting for me all this time?"
+.text	"Você ficou me esperando esse tempo todo?"
 	.byte NewLine
 	
 	.byte EndText
@@ -644,14 +644,14 @@ dialogueLoverLaylea_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"Just waiting here for me, were you?"
+.text	"Você ficou me esperando?"
 	.byte NewLine
 	.byte NewLine
-.text	"Wow, thanks!"
+.text	"Muito obrigado!"
 	
 	.byte EndText
 
@@ -664,7 +664,7 @@ dialogueLoverJeanne_Entering
 	.word PrintStoredNameB
 .text	"?!"
 	.byte NewLine
-.text	"Were you waiting for me?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -674,13 +674,13 @@ dialogueLoverIucharba_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey, "
+.text	"Ei, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"You did all this just to welcome me home?"
+.text	"Você fez isso tudo só pra"
 	.byte NewLine
-.text	"Thanks!"
+.text	"me receber em casa? Obrigado!"
 	.byte NewLine
 	
 	.byte EndText
@@ -690,12 +690,12 @@ dialogueLoverScathach_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Huh?"
+.text	"Hm?"
 	.byte NewLine
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Were you waiting for me or something?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -709,7 +709,7 @@ dialogueLoverFebail_Entering
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Were you waiting for me...?"
+.text	"Estava me esperando...?"
 	.byte NewLine
 	
 	.byte EndText
@@ -719,11 +719,11 @@ dialogueLoverCoirpre_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm home, "
+.text	"Cheguei, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"Were you just waiting for me?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -733,11 +733,11 @@ dialogueLoverCed_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Were you awaiting me?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -747,13 +747,13 @@ dialogueLoverDiarmuid_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey, "
+.text	"Ei, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"What's going on?"
+.text	"Aconteceu alguma coisa?"
 	.byte NewLine
-.text	"Were you just waiting for me?"
+.text	"Ah, você só estava aqui me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -763,13 +763,13 @@ dialogueLoverLester_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"Oh, hey, "
+.text	"Ah, oi, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"Waiting for me, were you?"
+.text	"Ficou me esperando, é?"
 	.byte NewLine
 	
 	.byte EndText
@@ -781,7 +781,7 @@ dialogueLoverArthur_Entering
 	.byte StartText
 .text	"Hm?"
 	.byte NewLine
-.text	"You were waiting for me, "
+.text	"Estava me esperando, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
@@ -793,12 +793,12 @@ dialogueLoverPatty_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm baaack! ...Huh?"
+.text	"Cheguei! ...Hm?"
 	.byte NewLine
 	.word PrintStoredNameB
-.text	"? Were you waiting here just for me?"
+.text	"? Você ficou aqui me esperando?"
 	.byte NewLine
-.text	"Eeeeeeee! That's so great!"
+.text	"Eeeeeeee! Isso é ótimo!"
 	.byte NewLine
 	
 	.byte EndText
@@ -808,13 +808,13 @@ dialogueLoverLarcei_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Huh? "
+.text	"Hm? "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"What do you think you're still doing here?"
+.text	"Porque você ainda está aqui?"
 	.byte NewLine
-.text	"Were you just waiting for me?"
+.text	"Estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -824,11 +824,11 @@ dialogueLoverLana_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm back, "
+.text	"Eu voltei, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Have you been waiting for me all this time?"
+.text	"Você ficou esse tempo todo me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -838,13 +838,13 @@ dialogueLoverFee_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm hoooooome! Huh?"
+.text	"Chegueeei! Hm?"
 	.byte NewLine
-.text	"What's going on, "
+.text	"O que tá rolando, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Were you just waiting there to say hi?"
+.text	"Você tava esperando pra me dar um oi?"
 	.byte NewLine
 	
 	.byte EndText
@@ -854,11 +854,11 @@ dialogueLoverTine_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm home, "
+.text	"cheguei, "
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"...Were you awaiting me all this time?"
+.text	"...Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -868,13 +868,13 @@ dialogueLoverLene_Entering
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"Just waiting here for me, were you?"
+.text	"Você ficou aqui me esperando?"
 	.byte NewLine
-.text	"Wow, thanks!"
+.text	"Obrigado!"
 	.byte NewLine
 	
 	.byte EndText
@@ -888,7 +888,7 @@ dialogueLoverNanna_Entering
 	.word PrintStoredNameB
 .text	"?!"
 	.byte NewLine
-.text	"Were you waiting for me?"
+.text	"Você estava me esperando?"
 	.byte NewLine
 	
 	.byte EndText
@@ -898,9 +898,9 @@ dialogueLoverSigurd_Welcoming1
 
 	.byte RightSlot
 	.byte StartText
-.text	"Welcome back, Deirdre."
+.text	"Bem vinda de volta, Deirdre."
 	.byte NewLine
-.text	"I'm relieved to see you're okay."
+.text	"Fico aliviado em ver que está bem."
 	.byte WaitForA
 	
 	.byte EndText
@@ -910,9 +910,9 @@ dialogueLoverSigurd_Welcoming2
 
 	.byte RightSlot
 	.byte StartText
-.text	"Welcome back, Deirdre."
+.text	"Bem vinda de volta, Deirdre."
 	.byte NewLine
-.text	"I'm relieved to see you're okay."
+.text	"Fico aliviado em ver que está bem."
 	.byte WaitForA
 	
 	.byte EndText
@@ -922,11 +922,11 @@ dialogueLoverNaoise_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Welcome back, "
+.text	"Bem vinda de volta, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"It's a relief to see you're alright."
+.text	"É um alívio ver que você está bem."
 	.byte WaitForA
 	
 	.byte EndText
@@ -936,9 +936,9 @@ dialogueLoverAlec_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeeeah. I guess I was getting a bit concerned"
+.text	"É. Acho que eu fiquei um pouco"
 	.byte NewLine
-.text	"for you, "
+.text	"preocupado com você lá fora, "
 	.word PrintStoredNameA
 .text	"!"
 	.byte WaitForA
@@ -953,7 +953,7 @@ dialogueLoverArden_Welcoming
 	.word PrintStoredNameA
 .text	"!"
 	.byte NewLine
-.text	"Yeah, thought I'd wait around for you."
+.text	"É, eu resolvi te esperar aqui."
 	.byte WaitForA
 	
 	.byte EndText
@@ -965,11 +965,11 @@ dialogueLoverYoungFinn_Welcoming
 	.byte StartText
 .text	"Mm..."
 	.byte NewLine
-.text	"Sorry, "
+.text	"Me perdoe, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I found myself worried for your safety..."
+.text	"Eu estava preocupado contigo..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -981,7 +981,7 @@ dialogueLoverQuan_Welcoming
 	.byte StartText
 .text	"Ah, Ethlyn."
 	.byte NewLine
-.text	"Actually, I was waiting for you..."
+.text	"Na verdade, eu estava esperando por você..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -991,13 +991,13 @@ dialogueLoverMidir_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Of course, "
+.text	"Claro, "
 	.word PrintStoredNameA
 .text	"!"
 	.byte NewLine
-.text	"As long as you're out there doing gods know"
+.text	"Enquanto você ficar aí fora fazendo"
 	.byte NewLine
-.text	"what, I'm going to be worried for your safety."
+.text	"sabe se lá o que, eu vou ficar preocupado."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1007,9 +1007,9 @@ dialogueLoverLewyn_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Something like that..."
+.text	"Algo do tipo..."
 	.byte NewLine
-.text	"Glad you're looking after yourself out there,"
+.text	"É bom que você sabe se cuidar lá fora,"
 	.byte NewLine
 	.word PrintStoredNameA
 .text	"."
@@ -1022,9 +1022,9 @@ dialogueLoverChulainn_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"Glad you're safe..."
+.text	"Eu fico feliz em te ver bem..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1034,11 +1034,11 @@ dialogueLoverAzelle_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yes, "
+.text	"Sim, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I found myself worried for your safety..."
+.text	"Eu estava preocupado com sua segurança..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1048,9 +1048,9 @@ dialogueLoverJamke_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"Got a bit worried for your sake..."
+.text	"Eu estava um pouco preocupado com você..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1060,13 +1060,16 @@ dialogueLoverClaud_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Indeed I was, "
+.text	"De fato eu estava, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I was worried for your safety, but it seems"
+.text	"Eu estava preocupado contigo, mas felizmente,"
 	.byte NewLine
-.text	"the gods have smiled upon you this day..."
+.text	"parece que a vontade dos deuses"
+	.byte WaitForA
+	.byte NewLine
+.text	"era que tu voltasses..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1076,9 +1079,9 @@ dialogueLoverBeowolf_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Mmyep."
+.text	"Isso."
 	.byte NewLine
-.text	"Well, somethin' like that..."
+.text	"É por aí..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1088,11 +1091,11 @@ dialogueLoverLex_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"W-well, yeah..."
+.text	"B-bem, é..."
 	.byte NewLine
-.text	"You certainly took your time out there,"
+.text	"Mas você demorou lá fora,"
 	.byte NewLine
-.text	"huh, "
+.text	"não é, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte WaitForA
@@ -1106,9 +1109,9 @@ dialogueLoverDew_Welcoming
 	.byte StartText
 .text	"Tee hee..."
 	.byte NewLine
-.text	"Yeeeah..."
+.text	"É..."
 	.byte NewLine
-.text	"Kinda embarassing, huh..."
+.text	"É um pouco vergonhoso, não é..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1118,7 +1121,7 @@ dialogueLoverDeirdre_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Welcome home, milord."
+.text	"Bem vindo de volta, querido."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1130,7 +1133,7 @@ dialogueLoverEthlyn_Welcoming
 	.byte StartText
 .text	"Heh heh!"
 	.byte NewLine
-.text	"Welcome back, dear."
+.text	"Bem vindo de volta, querido."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1142,9 +1145,9 @@ dialogueLoverLachesis_Welcoming
 	.byte StartText
 .text	"Mm..."
 	.byte NewLine
-.text	"I was beginning to get a bit worried,"
+.text	"Eu estava começando a ficar preocupada,"
 	.byte NewLine
-.text	"even about you..."
+.text	"mesmo sendo você lá fora..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1154,13 +1157,13 @@ dialogueLoverAyra_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"You were out there a while, "
+.text	"Você ficou um bom tempo lá fora, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I was starting to get a bit concerned..."
+.text	"Eu estava começando a ficar preocupada..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1170,9 +1173,9 @@ dialogueLoverErinys_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"I was..."
+.text	"Eu estava..."
 	.byte NewLine
-.text	"I was starting to worry so for your sake."
+.text	"Estava começando a ficar preocupada contigo."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1182,11 +1185,11 @@ dialogueLoverTailtiu_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah!"
+.text	"É!"
 	.byte NewLine
-.text	"I kinda really wanted to see you..."
+.text	"Eu queria muito te ver de novo..."
 	.byte NewLine
-.text	"Er, I mean, I was getting a bit lonely..."
+.text	"Eu estava começando a me sentir sozinha..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1196,9 +1199,9 @@ dialogueLoverSilvia_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah, of course!"
+.text	"É, mas é claro!"
 	.byte NewLine
-.text	"Welcome back, sweeetie!"
+.text	"Bem vindo de volta, meu amor!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1208,11 +1211,11 @@ dialogueLoverEdain_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Indeed."
+.text	"Isso mesmo. Eu orei por sua"
 	.byte NewLine
-.text	"I prayed for your safety in battle,"
+.text	"segurança nessa batalha, e parece que os"
 	.byte NewLine
-.text	"and it seems the gods granted it!"
+.text	"deuses me concederam essa graça!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1222,9 +1225,9 @@ dialogueLoverBrigid_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Y-yeah..."
+.text	"É-é..."
 	.byte NewLine
-.text	"Welcome back, love."
+.text	"Bem vindo de volta, amor."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1236,11 +1239,11 @@ dialogueLoverSeliph_Welcoming
 	.byte StartText
 .text	"Mm."
 	.byte NewLine
-.text	"That I was, "
+.text	"Eu estava mesmo, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I was beginning to worry so for you..."
+.text	"Eu já estava bem preocupado contigo..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1250,9 +1253,9 @@ dialogueLoverShannan_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah."
+.text	"É."
 	.byte NewLine
-.text	"Glad to see you've been careful."
+.text	"É bom ver que você tomou cuidado lá fora."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1262,11 +1265,11 @@ dialogueLoverDalvin_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"I guess I was!"
+.text	"Bem, eu estava mesmo!"
 	.byte NewLine
-.text	"You're not hurt, are you?"
+.text	"Você não se machucou, certo? Eu estava"
 	.byte NewLine
-.text	"I was getting pretty worried right there."
+.text	"ficando bem preocupado já."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1276,7 +1279,7 @@ dialogueLoverAsaello_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Y-yeah, something like that..."
+.text	"É-é, algo desse tipo..."
 	.byte WaitForA
 
 	.byte EndText
@@ -1286,9 +1289,9 @@ dialogueLoverLeif_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Mm, I suppose I was awaiting you."
+.text	"Mm, de fato, eu estava te esperando."
 	.byte NewLine
-.text	"It's a relief to see you safe..."
+.text	"É um alívio te ver bem..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1298,9 +1301,9 @@ dialogueLoverIuchar_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"But of course, my love!"
+.text	"Mas é claro, meu amor!"
 	.byte NewLine
-.text	"After all, you are my sun and moon!"
+.text	"Afinal, tu és meu sol e minha lua!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1310,13 +1313,13 @@ dialogueLoverCharlot_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yep!"
+.text	"Sim!"
 	.byte NewLine
-.text	"Welcome home, "
+.text	"Bem vinda de volta, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I'm so glad to see you're safe..."
+.text	"Eu fico feliz em te ver bem de novo..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1326,9 +1329,11 @@ dialogueLoverHawk_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"I just don't want to lose you..."
+.text	"Eu só fico preocupado"
+	.byte NewLine
+.text	"em te perder lá fora..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1338,11 +1343,11 @@ dialogueLoverTristan_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah."
+.text	"É."
 	.byte NewLine
-.text	"I was starting to worry"
+.text	"Eu estava começando a me preocupar"
 	.byte NewLine
-.text	"about how long you were gone..."
+.text	"com a sua ausência..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1354,9 +1359,9 @@ dialogueLoverAdultFinn_Welcoming
 	.byte StartText
 .text	"Mm."
 	.byte NewLine
-.text	"I was gravely worried..."
+.text	"Eu estava bem preocupado..."
 	.byte NewLine
-.text	"You mustn't stray from my side."
+.text	"Por favor, não saia de perto de mim."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1366,9 +1371,9 @@ dialogueLoverDeimne_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah."
+.text	"É."
 	.byte NewLine
-.text	"It's great to see you're okay."
+.text	"É bom ver que você está bem."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1378,11 +1383,11 @@ dialogueLoverHannibal_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Indeed..."
+.text	"Isso mesmo..."
 	.byte NewLine
-.text	"You ought to take care of yourself."
+.text	"Você tem que se cuidar, filho."
 	.byte NewLine
-.text	"I couldn't bear to lose you..."
+.text	"Eu não aguentaria te perder..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1394,9 +1399,9 @@ dialogueLoverAres_Welcoming
 	.byte StartText
 .text	"Mm."
 	.byte NewLine
-.text	"I'm glad to see you've taken care of yourself."
+.text	"Bom ver que você está bem, pois eu"
 	.byte NewLine
-.text	"I could not bear to lose you..."
+.text	"não me perdoaria se eu te perdesse lá fora..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1406,9 +1411,9 @@ dialogueLoverAmid_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Well, yeah..."
+.text	"É, sim..."
 	.byte NewLine
-.text	"I mean, you mean a lot to me."
+.text	"Sabe, eu me preocupo com você."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1418,11 +1423,12 @@ dialogueLoverOldOifey_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"I was."
+.text	"Eu estava."
 	.byte NewLine
-.text	"Are you at all injured?"
+.text	"Tu se machucaste? Por favor, tome cuidado,"
 	.byte NewLine
-.text	"You must look after yourself in battle..."
+	.word PrintStoredNameA
+.text	"..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1432,9 +1438,9 @@ dialogueLoverDaisy_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yep, I most certainly was!"
+.text	"Sim, eu estava!"
 	.byte NewLine
-.text	"Welcome home, deeearie!"
+.text	"Bem vindo de volta, querido!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1444,9 +1450,9 @@ dialogueLoverCreidne_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"I guess I was a bit worried there..."
+.text	"Eu tava um pouco preocupada..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1456,9 +1462,9 @@ dialogueLoverMuirne_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"I was."
+.text	"Eu estava."
 	.byte NewLine
-.text	"Welcome home, "
+.text	"Bem vindo de volta, "
 	.word PrintStoredNameA
 .text	"..."
 	.byte WaitForA
@@ -1470,9 +1476,9 @@ dialogueLoverJulia_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"...I was feeling a little lonely..."
+.text	"...Eu estava me sentindo solitária..."
 	.byte NewLine
-.text	"So I thought I would wait for you..."
+.text	"Então eu resolvi te esperar..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1482,7 +1488,7 @@ dialogueLoverAltena_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Well, I was starting to fear the worst..."
+.text	"Bem, eu estava começando a temer o pior..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1492,11 +1498,11 @@ dialogueLoverHermina_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yep!"
+.text	"Sim!"
 	.byte NewLine
-.text	"Sorry, I guess I was getting a bit lonely..."
+.text	"Desculpa, eu tava me sentindo solitária..."
 	.byte NewLine
-.text	"Welcome back, "
+.text	"Bem vindo de volta, "
 	.word PrintStoredNameA
 .text	"!"
 	.byte WaitForA
@@ -1508,11 +1514,11 @@ dialogueLoverLinda_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yes..."
+.text	"Sim..."
 	.byte NewLine
-.text	"I thought I'd wait for your return..."
+.text	"Eu resolvi te esperar..."
 	.byte NewLine
-.text	"I was starting to worry..."
+.text	"Eu estava começando a ficar preocupada..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1522,9 +1528,9 @@ dialogueLoverLaylea_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Hee hee hee, of course I was!"
+.text	"Hee hee hee, claro que eu estava!"
 	.byte NewLine
-.text	"Welcome home, love..."
+.text	"Bem vindo de volta, amor..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1534,11 +1540,11 @@ dialogueLoverJeanne_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Welcome back, "
+.text	"Bem vindo de volta, "
 	.word PrintStoredNameA
 .text	"!"
 	.byte NewLine
-.text	"I've been praying for your safety!"
+.text	"Eu estava orando pelo seu retorno seguro!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1548,9 +1554,9 @@ dialogueLoverIucharba_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Y-yeah, something like that..."
+.text	"É-é, algo do tipo..."
 	.byte NewLine
-.text	"Good to see you're okay, "
+.text	"Bom ver que você está bem, "
 	.word PrintStoredNameA
 .text	"."
 	.byte WaitForA
@@ -1562,11 +1568,11 @@ dialogueLoverScathach_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"I guess I was!"
+.text	"Bem, eu estava mesmo!"
 	.byte NewLine
-.text	"You're not hurt, are you?"
+.text	"Você não se machucou, certo? Eu estava"
 	.byte NewLine
-.text	"I was getting pretty worried right there."
+.text	"ficando bem preocupado já."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1576,7 +1582,7 @@ dialogueLoverFebail_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Y-yeah, something like that..."
+.text	"É-é, algo desse tipo..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1586,13 +1592,13 @@ dialogueLoverCoirpre_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yep!"
+.text	"Sim!"
 	.byte NewLine
-.text	"Welcome home, "
+.text	"Bem vinda de volta, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I'm so glad to see you're safe..."
+.text	"Eu fico feliz em te ver bem de novo..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1602,9 +1608,11 @@ dialogueLoverCed_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"I just don't want to lose you..."
+.text	"Eu só fico preocupado"
+	.byte NewLine
+.text	"em te perder lá fora..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1614,11 +1622,11 @@ dialogueLoverDiarmuid_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah."
+.text	"É."
 	.byte NewLine
-.text	"I was starting to worry"
+.text	"Eu estava começando a me preocupar"
 	.byte NewLine
-.text	"about how long you were gone..."
+.text	"com a sua ausência..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1628,9 +1636,9 @@ dialogueLoverLester_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah."
+.text	"É."
 	.byte NewLine
-.text	"It's great to see you're okay."
+.text	"É bom ver que você está bem."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1640,9 +1648,9 @@ dialogueLoverArthur_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Well, yeah..."
+.text	"É, sim..."
 	.byte NewLine
-.text	"I mean, you mean a lot to me."
+.text	"Sabe, eu me preocupo com você."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1652,9 +1660,9 @@ dialogueLoverPatty_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yep, I most certainly was!"
+.text	"Sim, eu estava!"
 	.byte NewLine
-.text	"Welcome home, deeeearie!"
+.text	"Bem vindo de volta, querido!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1664,9 +1672,9 @@ dialogueLoverLarcei_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"I guess I was a bit worried there..."
+.text	"Eu tava um pouco preocupada..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1676,9 +1684,9 @@ dialogueLoverLana_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"I was."
+.text	"Eu estava."
 	.byte NewLine
-.text	"Welcome home, "
+.text	"Bem vindo de volta, "
 	.word PrintStoredNameA
 .text	"..."
 	.byte WaitForA
@@ -1690,11 +1698,11 @@ dialogueLoverFee_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yep!"
+.text	"Sim!"
 	.byte NewLine
-.text	"Sorry, I guess I was getting a bit lonely..."
+.text	"Desculpa, eu tava me sentindo solitária..."
 	.byte NewLine
-.text	"Welcome back, "
+.text	"Bem vindo de volta, "
 	.word PrintStoredNameA
 .text	"!"
 	.byte WaitForA
@@ -1706,11 +1714,11 @@ dialogueLoverTine_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Yes..."
+.text	"Sim..."
 	.byte NewLine
-.text	"I thought I'd wait for your return..."
+.text	"Eu resolvi te esperar..."
 	.byte NewLine
-.text	"I was starting to worry..."
+.text	"Eu estava começando a ficar preocupada..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1720,9 +1728,9 @@ dialogueLoverLene_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Hee hee, of course I was!"
+.text	"Hee hee hee, claro que eu estava!"
 	.byte NewLine
-.text	"Welcome home, love..."
+.text	"Bem vindo de volta, amor..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1732,11 +1740,11 @@ dialogueLoverNanna_Welcoming
 
 	.byte RightSlot
 	.byte StartText
-.text	"Welcome back, "
+.text	"Bem vindo de volta, "
 	.word PrintStoredNameA
 .text	"!"
 	.byte NewLine
-.text	"I've been praying for your safety!"
+.text	"Eu estava orando pelo seu retorno seguro!"
 	.byte WaitForA
 	
 	.byte EndText

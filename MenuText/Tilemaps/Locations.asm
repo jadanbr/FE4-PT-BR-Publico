@@ -388,39 +388,39 @@ locations1_tilemap
 .long $58F900
 .word $0000, $0000
 
-; Cappadocia
-.byte 7
+; Cápadocia
+.byte 6
 .long $589400
 .byte 8
 .long $58CA00
-.byte 7
+.byte 6
 .long $58FA00
 .word $0000, $0000
 
-; Lutetia
-.byte 4
+; Lutécia
+.byte 5
 .long $589600
 .byte 8
 .long $58CB00
-.byte 4
+.byte 5
 .long $58FB00
 .word $0000, $0000
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $589800
 .byte 8
 .long $58CC00
-.byte 5
+.byte 4
 .long $58FC00
 .word $0000, $0000
 
-; Galatia
-.byte 4
+; Galácia
+.byte 5
 .long $589A00
 .byte 8
 .long $58CD00
-.byte 4
+.byte 5
 .long $58FD00
 .word $0000, $0000
 
@@ -730,29 +730,29 @@ locations_affiliation_tilemap
 .long $589300
 .fill $08, 0
 
-; Cappadocia
-.byte 7
+; Cápadocia
+.byte 6
 .long $589400
 .byte 8
 .long $589500
 .fill $08, 0
 
-; Lutetia
-.byte 4
+; Lutécia
+.byte 5
 .long $589600
 .byte 8
 .long $589700
 .fill $08, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $589800
 .byte 8
 .long $589900
 .fill $08, 0
 
-; Galatia
-.byte 4
+; Galácia
+.byte 5
 .long $589A00
 .byte 8
 .long $589B00

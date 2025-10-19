@@ -7,23 +7,23 @@ dialogueCh8VillageNorthernmost
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"Ohh, thank you so much!"
+.text	"Ahh, muito obrigado!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I've heard all the stories about your army,"
+.text	"Eu ouvi muitas histórias de vocês, e eu tenho"
 	.byte NewLine
-.text	"and I've been praying that you'd come someday."
+.text	"orado, esperando que chegassem um dia."
 	.byte NewLine
-.text	"Lord Seliph is our beacon of hope!"
+.text	"Lorde Seliph é a nosssa esperança!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Here, take this power ring."
+.text	"Aqui, pegue esse anel de poder."
 	.byte NewLine
-.text	"It's not much, but it's all we have to show"
+.text	"Não é muito, mas é o que temos para"
 	.byte NewLine
-.text	"our gratitude."
+.text	"mostrar nossa gratidão."
 	.byte WaitForA
 
 	.byte EndText
@@ -36,17 +36,17 @@ dialogueCh8VillageNorthwestOfConnacht
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"Long ago, Thracia and the states of the"
+.text	"A muito tempo atrás, Trácia e os estados"
 	.byte NewLine
-.text	"Munster Region were a single nation."
+.text	"da Província de Munster eram uma única nação."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"'Course, you'd never know that from how they've"
+.text	"Claro, ouvindo isso, você provavelmente está se"
 	.byte NewLine
-.text	"hated each other so for as long as anyone can"
+.text	"perguntando porque eles se odeiam tanto agora!"
 	.byte NewLine
-.text	"recall! I wish they could just try to make peace..."
+.text	"Eu queria que a paz reinasse de novo entre nós."
 	.byte WaitForA
 
 	.byte EndText
@@ -66,11 +66,11 @@ dialogueCh8VillageNorthwestOfConnacht_Asaello
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Gaah! I-I don't believe it..."
+.text	"Gaah! E-eu não acredito..."
 	.byte NewLine
-.text	"The Connacht Hitman's back for more blood!"
+.text	"O Matador de Connacht voltou!"
 	.byte NewLine
-.text	"Run, everyone! Run for it!"
+.text	"Dispersar!"
 	.byte WaitForA
 	.byte ScrollText
 
@@ -95,38 +95,38 @@ dialogueCh8VillageNorthwestOfConnacht_Asaello
 	.byte $10
 .text	"Er..."
 	.byte NewLine
-.text	"Shouldn't you be running, too?"
+.text	"E você não deveria correr também?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Girl
-.text	"But you look so sad, mister..."
+.text	"Mas você parece tão triste, senhor..."
 	
 	.byte RightSlot		;Asaello
 	.word PauseText
 	.byte $10
-.text	"...I do?"
+.text	"...Pareço?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Girl
-.text	"Take these!"
+.text	"Pegue essas frutinhas!"
 	.byte NewLine
-.text	"We picked up all these fruits in the woods."
+.text	"Achamos elas na floresta."
 	.byte NewLine
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Eat 'em!"
+.text	"Coma!"
 	.byte NewLine
-.text	"They'll make you grow up big and strong!"
+.text	"Elas vão te deixar forte!"
 	.byte NewLine
-.text	"I hope you feel better soon!"
+.text	"Espero que fique mais feliz logo!"
 	
 	.byte RightSlot		;Asaello
 	.word PauseText
 	.byte $10
-.text	"Thanks, kid..."
+.text	"Obrigado, menina..."
 	.byte WaitForA
 
 	.byte EndText
@@ -139,30 +139,31 @@ dialogueCh8VillageWesternmost
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"I've heard tell that over in Munster,"
+.text	"Eu ouvi que lá em Munster, o povo tá planejando"
 	.byte NewLine
-.text	"people're planning a revolt against the Imperial"
-	.byte NewLine
-.text	"rule."
+.text	"uma revolta contra os Imperiais."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Apparently the ringleader there's some Silessian"
+.text	"Aparentemente o líder deles é um"
 	.byte NewLine
-.text	"mage called "
+.text	"mago chamado "
 	.word PrintBranchingName
 	.word name_CedHawk
-.text	"... The people there are"
+.text	"..." 
 	.byte NewLine
-.text	"so sure that he's the man for the job."
+.text	"O povo lá tem certeza que ele é"
+	.byte WaitForA
+	.byte NewLine
+.text	"o homem certo pro trabalho."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Of course, the real problem for Munster is that"
+.text	"Claro, o problema pra Munster é que a Trácia"
 	.byte NewLine
-.text	"Thracia's got their grubby eyes on the city..."
+.text	"tá de olho na cidade..."
 	.byte NewLine
-.text	"I hope they'll be alright."
+.text	"Espero que eles fiquem bem."
 	.byte WaitForA
 
 	.byte EndText
@@ -175,33 +176,34 @@ dialogueCh8VillageNorthwestOfMunster
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"For as long as anyone can recall,"
+.text	"Acho que desde que a gente pode lembrar,"
 	.byte NewLine
-.text	"Thracia's wanted to claim this region"
-	.byte NewLine
-.text	"as their own."
+.text	"a Trácia queria tomar essa região."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And for just as long, House Leonster always"
+.text	"E por tanto tempo quanto isso, a casa de Leonster"
 	.byte NewLine
-.text	"stood in their way, wielding their holy lance"
+.text	"os impediu, usando sua divina lança Gáe Bolg"
 	.byte NewLine
-.text	"Gáe Bolg to defend our lands."
+.text	"para nos proteger."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"At least, until Gáe Bolg was lost a decade ago"
+.text	"Pelo menos até Gáe Bolg se perder no"
 	.byte NewLine
-.text	"in the Aed Desert..."
+.text	"Deserto de Aed..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The Thracians ambushed and murdered Prince"
+.text	"Os Trácios emboscaram e mataram nosso Príncipe"
 	.byte NewLine
-.text	"Quan, his wife Ethlyn, and their daughter Altena"
+.text	"Quan, sua esposa Ethlyn, e sua filha Altena"
 	.byte NewLine
-.text	"as they crossed Aed, and the lance vanished..."
+.text	"enquanto eles passavam pelo deserto,"
+	.byte WaitForA
+	.byte NewLine
+.text	"e lá a lança sumiu..."
 	.byte WaitForA
 
 	.byte EndText
@@ -216,29 +218,34 @@ dialogueCh8VillageSouthernmost
 	.byte StartText
 .text	"Hoo hoo!"
 	.byte NewLine
-.text	"What brings you all the way out here?"
+.text	"O que te leva nesse lugar tão afastado?"
 	.byte NewLine
-.text	"You must be quite the curious one!"
+.text	"Você deve ser alguém bem curioso!"
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"De qualquer forma, quero te agradever por se"
+	.byte NewLine
+.text	"dar ao trabalho de vir em nossa humilde morada."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Either way, I want to thank you for coming"
+.text	"Esse negócio aqui é um Anel dos Ladrões. É uma"
 	.byte NewLine
-.text	"all this way for such a small and remote town."
+.text	"coisinha estranha: coloque-a nos dedos e suas"
+	.byte NewLine
+.text	"mãos ficarão tão rápidas,"
+	.byte WaitForA
+	.byte NewLine
+.text	"que roubar será a coisa mais fácil do mundo!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This here trinket's a thief bracelet. She's an odd"
+.text	"Pelo menos, acho que é assim que funciona."
 	.byte NewLine
-.text	"little thing: slip her on and you'll soon find"
+.text	"Ah, se cuide, querido, use o dinheiro que"
 	.byte NewLine
-.text	"yourself stealing like you've done it all your life."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"Hoo hoo hoo!"
-	.byte NewLine
-.text	"Take care of yourself, dearie."
+.text	"vai conseguir pra ganhar essa guerra!"
 	.byte WaitForA
 
 	.byte EndText
@@ -251,23 +258,23 @@ dialogueCh8VillageEasternmost
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"It was the legendary wyvern knight Dáinn who"
+.text	"Foi o lendário cavaleiro de dragão Dáinn que"
 	.byte NewLine
-.text	"founded Thracia all those years ago..."
+.text	"fundou Trácia muitas décadas atrás..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"With his heavenly lance, Gungnir, in hand,"
+.text	"Com sua lança celestial, Gungnir, na mão, ele"
 	.byte NewLine
-.text	"he dared to challenge the king of demons himself!"
+.text	"ousou desafiar o próprio rei dos demônios!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Rumor has it that Njörun of the Crusaders,"
+.text	"Dizem que Njörun, cruzada da Gáe Bolg, e"
 	.byte NewLine
-.text	"ancestor of the lords of House Leonster,"
+.text	"ancestral da família real de Leonster, era"
 	.byte NewLine
-.text	"was in fact a sister to Lord Dáinn..."
+.text	"na verdade irmã de Lorde Dáinn..."
 	.byte WaitForA
 
 	.byte EndText

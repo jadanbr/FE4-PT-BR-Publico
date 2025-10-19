@@ -18,11 +18,11 @@ dialogueAttract_ShannanAyra
 	.word PauseText
 	.byte $0F
 	.byte StartText
-.text	"Ayra! Ayra, I'll be alright!"
+.text	"Tia Ayra! Eu vou ficar bem!"
 	.byte NewLine
-.text	"Don't give in to these guys!"
+.text	"Não confia nesses caras! Não deixa"
 	.byte NewLine
-.text	"Don't let 'em boss you around!"
+.text	"eles mandarem em você!"
 	.word PauseText
 	.byte $10
 	
@@ -53,17 +53,17 @@ dialogueAttract_EldiganLachesisDialogue
 	.word PauseText
 	.byte $0F
 	.byte StartText
-.text	"Lachesis, I'm leaving for Agusti."
+.text	"Lachesis, eu vou para Agusti. Não posso"
 	.byte NewLine
-.text	"I can't rest until I've convinced King Chagall"
+.text	"descansar até convencer meu Rei Chagall"
 	.byte NewLine
-.text	"to end his foolish warmongering."
+.text	"a desistir dessa guerra estúpida."
 
 	.word PauseText
 	.byte $10
 	
 	.byte RightSlot
-.text	"Please don't do it, brother!"
+.text	"Por favor, não vá, irmão!"
 
 	.word PauseText
 	.byte $32
@@ -80,9 +80,9 @@ dialogueAttract_Arvis
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"The end is in sight."
+.text	"O fim está próximo."
 	.byte NewLine
-.text	"All units, close in!"
+.text	"Todas as tropas, atacar!"
 
 	.word PauseText
 	.byte $80
@@ -103,9 +103,9 @@ dialogueAttract_NaoiseAlec1
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Ready?"
+.text	"Pronto?"
 	.byte NewLine
-.text	"Draw, Alec!"
+.text	"En garde, Alec!"
 	
 	.byte EndText
 
@@ -122,9 +122,9 @@ dialogueAttract_NaoiseAlec2
 	.byte StartText
 .text	"Heh."
 	.byte NewLine
-.text	"You're pretty good,"
+.text	"Nada mal, Naoise, mas"
 	.byte NewLine
-.text	"but it's still not enough!"
+.text	"isso não vai me bater!"
 	
 	.byte EndText
 
@@ -140,9 +140,9 @@ dialogueAttract_ArdenAyra1
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Come at me, Ayra!"
+.text	"Vem, Ayra!"
 	.byte NewLine
-.text	"See how mighty I am!"
+.text	"Vem ver o quão brabo eu sou!"
 	
 	.byte EndText
 	
@@ -174,9 +174,9 @@ dialogueAttract_SandimaDeirdre
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"What?"
+.text	"O quê?!"
 	.byte NewLine
-.text	"You've sealed my magic?!"
+.text	"Você selou minha magia?!"
 	
 	.byte EndText
 
@@ -193,9 +193,9 @@ dialogueAttract_EdainAzelle
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Please, Azelle."
+.text	"Por favor, Azelle."
 	.byte NewLine
-.text	"You need to be careful..."
+.text	"Tenha cuidado..."
 	
 	.byte EndText
 
@@ -212,9 +212,9 @@ dialogueAttract_EldiganSigurd
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Eldigan, stop!"
+.text	"Eldigan, pare!"
 	.byte NewLine
-.text	"We've no reason to fight!"
+.text	"Não temos porquê lutar!"
 	
 	.byte EndText
 
@@ -231,11 +231,11 @@ dialogueAttract_EldiganLachesisBattle
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Eldie, you lackwit! If you insist on"
+.text	"Eldi, seu idiota! Se você insiste"
 	.byte NewLine
-.text	"fighting, then come on! Let's see"
+.text	"em lutar, então vem! Vamos ver o"
 	.byte NewLine
-.text	"you sword's idea of love!"
+.text	"que sua espada acha que é amor!"
 	
 	.byte EndText
 
@@ -252,11 +252,11 @@ dialogueAttract_SilviaErinys1
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"What is it?!"
+.text	"O que que é?!"
 	.byte NewLine
-.text	"Something's going on with you!"
+.text	"Tem algo rolando com você"
 	.byte NewLine
-.text	"and Lewyn, isn't it..."
+.text	"e com o Lewyn! Me fala agora!"
 	
 	.byte EndText
 
@@ -271,11 +271,11 @@ dialogueAttract_SilviaErinys2
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"I..."
+.text	"Eu..."
 	.byte NewLine
-.text	"No, I..."
+.text	"Não, eu..."
 	.byte NewLine
-.text	"There isn't..."
+.text	"Não tem nada..."
 	
 	.byte EndText
 
@@ -292,11 +292,11 @@ dialogueAttract_SilviaLewyn1
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Lewyn, you pig!"
+.text	"Lewyn, seu porco!"
 	.byte NewLine
-.text	"Why?"
+.text	"Porquê?"
 	.byte NewLine
-.text	"Why her?"
+.text	"Porquê ela?"
 	
 	.byte EndText
 
@@ -311,11 +311,11 @@ dialogueAttract_SilviaLewyn2
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"W-whoa! Calm down, Silvia!"
+.text	"C-caramba! Calma, Silvia!"
 	.byte NewLine
-.text	"You're gonna hurt somebody"
+.text	"Você vai machucar alguém"
 	.byte NewLine
-.text	"with that thing!"
+.text	"com isso aí!"
 	
 	.byte EndText
 
@@ -334,7 +334,7 @@ dialogueAttract_QuanTravant
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"I... I've failed you all..."
+.text	"Eu... eu fracassei..."
 	
 	.byte EndText
 
@@ -351,11 +351,11 @@ dialogueAttract_LeifTravant
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"I hope you're watching, Father..."
+.text	"Espero que esteja vendo, pai..."
 	.byte NewLine
-.text	"I did it..."
+.text	"Eu consegui..."
 	.byte NewLine
-.text	"I've avenged you at last..."
+.text	"Eu te vinguei..."
 	
 	.byte EndText
 
@@ -372,11 +372,11 @@ dialogueAttract_ScathachLarcei1
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"I won't lose this one, Larcei!"
+.text	"Dessa vez, eu não vou perder, Larcei!"
 	.byte NewLine
-.text	"I'll show you what my training"
+.text	"Vou te mostrar como estou depois"
 	.byte NewLine
-.text	"has done for me!"
+.text	"do treino!"
 	
 	.byte EndText
 
@@ -391,11 +391,11 @@ dialogueAttract_ScathachLarcei2
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Hah! Poor Scáthach."
+.text	"Hah! Pobre Scáthach."
 	.byte NewLine
-.text	"It looks like you've just gone"
+.text	"Pra mim, parece que você só"
 	.byte NewLine
-.text	"and worn out your arms!"
+.text	"cansou os braços mesmo!"
 	
 	.byte EndText
 
@@ -412,9 +412,9 @@ dialogueAttract_LarceiShannan1
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"C'mon, Shannan!"
+.text	"Vem, Shannan!"
 	.byte NewLine
-.text	"I'll get you this time!"
+.text	"Dessa vez, eu vou te pegar!"
 	
 	.byte EndText
 
@@ -429,11 +429,11 @@ dialogueAttract_LarceiShannan2
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Heh... Your sword arm's improving"
+.text	"Heh... você está melhorando,"
 	.byte NewLine
-.text	"for sure, but you've still got a"
+.text	"mas tem muito caminho pra andar"
 	.byte NewLine
-.text	"long way to go."
+.text	"ainda."
 	
 	.byte EndText
 
@@ -450,9 +450,9 @@ dialogueAttract_CedTine
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"You mustn't push yourself"
+.text	"Não se esforce demais,"
 	.byte NewLine
-.text	"too hard, Tine!"
+.text	"Tine!"
 	
 	.byte EndText
 
@@ -469,11 +469,11 @@ dialogueAttract_LanaIuchar1
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Hold on a moment, Sir Iuchar."
+.text	"Espere um momento, Senhor Iuchar."
 	.byte NewLine
-.text	"...Listen, I know you try to act"
+.text	"...Olha, eu sei que você se diz ser"
 	.byte NewLine
-.text	"unbreakable and all, but...."
+.text	'"inquebrável", mas....'
 	
 	.byte EndText
 
@@ -505,7 +505,7 @@ dialogueAttract_ArvisSigurd
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Farewell, Sigurd..."
+.text	"Adeus, Sigurd..."
 	
 	.byte EndText
 
@@ -522,11 +522,11 @@ dialogueAttract_DeirdreArvis
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Oh, milord..."
+.text	"Ah, milorde..."
 	.byte NewLine
-.text	"Are you sure that man"
+.text	"Tem certeza que ele era"
 	.byte NewLine
-.text	"was our enemy?"
+.text	"nosso inimigo?"
 	
 	.byte EndText
 
@@ -543,9 +543,9 @@ dialogueAttract_DeirdreJulia
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Julia..."
+.text	"Júlia..."
 	.byte NewLine
-.text	"Please, you must live on..."
+.text	"Por favor... viva..."
 	
 	.byte EndText
 
@@ -564,9 +564,9 @@ dialogueAttract_JuliusDeirdre
 	.byte StartText
 .text	"Hmhmhm..."
 	.byte NewLine
-.text	"Sorry, Mother, but you've long"
+.text	"Desculpa, mamãe, mas está na"
 	.byte NewLine
-.text	"outstayed your welcome..."
+.text	"hora de dar tchau..."
 	
 	.byte EndText
 
@@ -583,11 +583,11 @@ dialogueAttract_JuliaJulius
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Seliph... My lord brother..."
+.text	"Seliph... Meu irmão..."
 	.byte NewLine
-.text	"No matter what happens,"
+.text	"Não importa o que acontecer,"
 	.byte NewLine
-.text	"I swear I'll protect you!"
+.text	"eu juro que vou te proteger!"
 	
 	.byte EndText
 
@@ -604,9 +604,9 @@ dialogueAttract_SilviaClaud1
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Hey, Mister Claud!"
+.text	"Ei, Senhor Claud!"
 	.byte NewLine
-.text	"This one's for you!"
+.text	"Essa é pra você!"
 	
 	.byte EndText
 
@@ -622,9 +622,9 @@ dialogueAttract_SilviaClaud2
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"How 'bout that?"
+.text	"Que tal?"
 	.byte NewLine
-.text	"Feelin' any stronger?"
+.text	"Gostou?"
 	
 	.byte EndText
 
@@ -641,9 +641,9 @@ dialogueAttract_LeneAres
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"I hope you're watching, Ares!"
+.text	"Espero que esteja vendo, Ares!"
 	.byte NewLine
-.text	"This last dance's for you..."
+.text	"Essa dança é pra você..."
 	
 	.byte EndText
 
@@ -660,9 +660,9 @@ dialogueAttract_EthlynQuan
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Please, dear..."
+.text	"Por favor, querido..."
 	.byte NewLine
-.text	"Do be careful..."
+.text	"Tenha cuidado..."
 	
 	.byte EndText
 
@@ -679,9 +679,9 @@ dialogueAttract_ArionAltena
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"There's nothing left to be said..."
+.text	"Não tem mais nada a ser dito..."
 	.byte NewLine
-.text	"Prepare yourself, Altena!"
+.text	"En garde, Altena!"
 	
 	.byte EndText
 
@@ -698,7 +698,7 @@ dialogueAttract_FebailThracia
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"I hope Patty's doing okay..."
+.text	"Eu espero que a Patty esteja bem..."
 	
 	.byte EndText
 
@@ -717,7 +717,7 @@ dialogueAttract_PattyRuffian
 	.byte StartText
 .text	"Ahaha!"
 	.byte NewLine
-.text	"Got your coin purse!"
+.text	"Peguei sua carteira!"
 	
 	.byte EndText
 
@@ -734,8 +734,10 @@ dialogueAttract_LewynManfroy
 	.word TextSpeed
 	.byte 1
 	.byte StartText
-.text	"Damn..."
+.text	"Droga..."
 	.byte NewLine
-.text	"I... not now..."
+.text	"Não... não agora..."
+	.byte NewLine
+.text	"Eu tava tão perto..."
 	
 	.byte EndText

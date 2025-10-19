@@ -13,11 +13,11 @@ dialogueCh2BattleEliot
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Don't interfere with this,"
+.text	"Não interfiram com isso,"
 	.byte NewLine
-.text	"unless you want me to"
+.text	"a não ser que queiram que eu"
 	.byte NewLine
-.text	"wipe the floor with you too!"
+.text	"acabe com vocês também!"
 	.byte WaitForA
 
 	.byte EndText
@@ -39,16 +39,16 @@ dialogueCh2BattleEliot_Lachesis
 	.byte StartText
 .text	"Lachesis!"
 	.byte NewLine
-.text	"I grow weary of this little song and dance!"
+.text	"Eu estou cansado dessa dança contigo!"
 	.byte NewLine
-.text	"Become my wife, and I'll yet spare you."
+.text	"Case comigo, e eu te pouparei."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Enough, you vile worm!"
+.text	"Basta, seu verme vil!"
 	.byte NewLine
-.text	"I'd sooner die than be your wife!"
+.text	"Eu prefiro morrer do que ser sua esposa!"
 	.byte WaitForA
 
 	.byte EndText
@@ -61,11 +61,11 @@ dialogueCh2BattlePhilip
 	.word LoadPortrait
 	.word portrait_Philip1
 	.byte StartText
-.text	"Warriors of Grannvale..."
+.text	"Guerreiros de Grannvale..."
 	.byte NewLine
-.text	"So long as I draw breath,"
+.text	"Enquanto eu respirar,"
 	.byte NewLine
-.text	"you shall never reach Hochrhein!"
+.text	"Vocês nunca chegarão a Hochrhein!"
 	.byte WaitForA
 
 	.byte EndText
@@ -78,17 +78,17 @@ dialogueCh2BattleBordeaux
 	.word LoadPortrait
 	.word portrait_Bordeaux1
 	.byte StartText
-.text	"Grannvale's here already!"
+.text	"Os grannvalianos já chegaram?!"
 	.byte NewLine
-.text	"Blast... Why couldn't my men"
+.text	"Droga... porque meus homens não"
 	.byte NewLine
-.text	"have been useful for once?"
+.text	"podem ser úteis uma vez na vida?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Fine, I'll take this"
+.text	"Quer saber, eu lido com"
 	.byte NewLine
-.text	"into my own hands!"
+.text	"vocês eu mesmo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -101,9 +101,9 @@ dialogueCh2BattleBeowolf
 	.word LoadPortrait
 	.word portrait_Beowolf
 	.byte StartText
-.text	"Don't take this personally, yeah?"
+.text	"Não é nada pessoal, tá?"
 	.byte NewLine
-.text	"We've all gotta make a living..."
+.text	"Cada um ganha a vida de sua forma..."
 	.byte WaitForA
 
 	.byte EndText
@@ -116,11 +116,11 @@ dialogueCh2BattleVoltz
 	.word LoadPortrait
 	.word portrait_Voltz
 	.byte StartText
-.text	"You seem like decent folk,"
+.text	"Vocês parecem gente boa,"
 	.byte NewLine
-.text	"but a job's a job."
+.text	"mas um trabalho é um trabalho."
 	.byte NewLine
-.text	"Too bad."
+.text	"Que pena."
 	.byte WaitForA
 
 	.byte EndText
@@ -142,14 +142,16 @@ dialogueCh2BattleVoltz_Beowolf
 	.byte StartText
 .text	"Heh... Beowolf."
 	.byte NewLine
-.text	"You ain't even close to a match fer me yet."
+.text	"Você não tá nem perto de"
+	.byte NewLine
+.text	"ter uma chance de me ganhar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Oh, definitely..."
+.text	"É, definitivamente..."
 	.byte NewLine
-.text	"But this is what they're payin' me for."
+.text	"Mas é pra isso que tão me pagando."
 	.byte NewLine
 
 	.byte WaitForA
@@ -164,24 +166,26 @@ dialogueCh2BattleMacbeth
 	.word LoadPortrait
 	.word portrait_Macbeth1
 	.byte StartText
-.text	"I-it can't be!"
+.text	"N-não pode ser!"
 	.byte NewLine
-.text	"Grannvale's here already?"
+.text	"O exército de Grannvale já chegou?"
 	.byte NewLine
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Damn it all!"
+.text	"Malditos sejam!"
 	.byte NewLine
-.text	"What are those useless"
+.text	"O que esses mercenários inúteis"
 	.byte NewLine
-.text	"mercenaries doing out there?!"
+.text	"estavam fazendo lá fora?!"
 	.byte WaitForA
 	.byte ScrollText
 
 .text	"Ugh..."
 	.byte NewLine
-.text	"Fine, I'll fight them myself!"
+.text	"Vou ter que lidar"
+	.byte NewLine
+.text	"com vocês eu mesmo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -201,18 +205,18 @@ dialogueCh2BattleMacbeth_Lewyn
 
 	.byte LeftSlot
 	.byte StartText
-.text	"H-huh?"
+.text	"H-hã?"
 	.byte NewLine
-.text	"Who are you?"
+.text	"Quem é você?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"You're that Macbeth slime, aren't you?"
+.text	"Você é aquele desgraçado Macbeth, não é?"
 	.byte NewLine
-.text	"You've no business being a lord."
+.text	"Já deu o seu tempo como lorde."
 	.byte NewLine
-.text	"Here, allow me to help you... retire."
+.text	"Aqui, deixa eu te ajudar a... se aposentar."
 	.byte WaitForA
 
 	.byte EndText
@@ -225,9 +229,9 @@ dialogueCh2BattleErinys
 	.word LoadPortrait
 	.word portrait_Erinys
 	.byte StartText
-.text	"Listen carefully, Grannvale knight!"
+.text	"Ouça atentamente, cavaleiro de Grannvale!"
 	.byte NewLine
-.text	"Release Prince Lewyn immediately!"
+.text	"Solte Príncipe Lewyn imediatamente!"
 	.byte WaitForA
 
 	.byte EndText
@@ -240,9 +244,9 @@ dialogueCh2BattleErinys_Lewyn
 	.word LoadPortrait
 	.word portrait_Erinys
 	.byte StartText
-.text	"Prince Lewyn?!"
+.text	"Príncipe Lewyn?!"
 	.byte NewLine
-.text	"This can't be happening..."
+.text	"Isso não pode estar acontecendo..."
 	.byte WaitForA
 
 	.byte EndText
@@ -255,11 +259,11 @@ dialogueCh2BattleClement
 	.word LoadPortrait
 	.word portrait_Clement1
 	.byte StartText
-.text	"You accursed invaders have"
+.text	"Seus malditos invasores já"
 	.byte NewLine
-.text	"come this far? I suppose I have"
+.text	"chegaram até aqui? Suponho que"
 	.byte NewLine
-.text	"no choice... Do your worst!"
+.text	"não tenho escolha... façam seu pior!"
 	.byte WaitForA
 
 	.byte EndText
@@ -272,11 +276,14 @@ dialogueCh2BattleZayin
 	.word LoadPortrait
 	.word portrait_Zayin1
 	.byte StartText
-.text	"Grannvale's dogs stand no chance"
+.text	"Os cachorros de Grannvale não tem"
 	.byte NewLine
-.text	"in the face of my warrior's pride!"
+.text	"chance frente à meu orgulho de"
 	.byte NewLine
-.text	"I'll put an end to your rampage!"
+.text	"guerreiro!"
+	.byte WaitForA
+	.byte NewLine
+.text	"Eu vou acabar com sua invasão agora!"
 	.byte WaitForA
 
 	.byte EndText
@@ -289,11 +296,11 @@ dialogueCh2BattleChagall
 	.word LoadPortrait
 	.word portrait_Chagall2
 	.byte StartText
-.text	"Tch... Don't even think about"
+.text	"Tch... nem pense em me"
 	.byte NewLine
-.text	"underestimating me. You don't"
+.text	"subestimar. Vocês não tem chance"
 	.byte NewLine
-.text	"stand a chance of besting me!"
+.text	"alguma de me derrotar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -313,20 +320,20 @@ dialogueCh2BattleChagall_Lachesis
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Eldigan's little sister?"
+.text	"A irmã mais nova de Eldigan?"
 	.byte NewLine
-.text	"What do you think you're doing,"
+.text	"O que acha que está fazendo,"
 	.byte NewLine
-.text	"defying your king like this?!"
+.text	"desafiando seu rei desse jeito?!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"I'd sooner bow to a festering pig"
+.text	"Eu antes me curvaria a um porco doente"
 	.byte NewLine
-.text	"than call you my king!"
+.text	"que chamar você de meu rei!"
 	.byte NewLine
-.text	"Return my brother! Now!"
+.text	"Devolva meu irmão! Agora!"
 	.byte WaitForA
 
 	.byte EndText
@@ -346,20 +353,20 @@ dialogueCh2BattleChagall_Erinys
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Heh heh... So, it's you again."
+.text	"Heh heh... você voltou."
 	.byte NewLine
-.text	"You've finally realized, have you?"
+.text	"Finalmente percebeu, não é?"
 	.byte NewLine
-.text	"Ignorant wench."
+.text	"Mulher idiota."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"How dare you, Chagall!"
+.text	"Como ousa, Chagall!"
 	.byte NewLine
-.text	"You'll pay dearly for deceiving me!"
+.text	"Vai pagar caro por me enganar!"
 	.byte NewLine
-.text	"Prepare yourself!!"
+.text	"Prepare-se!!"
 	.byte WaitForA
 
 	.byte EndText

@@ -9,7 +9,9 @@ dialogueCh8BattleMuhammad
 	.byte StartText
 .text	"Keh..."
 	.byte NewLine
-.text	"You rebel scum..."
+.text	"Escória rebelde..."
+	.byte NewLine
+.text	"Todos vocês morrerão!"
 	.byte WaitForA
 
 	.byte EndText
@@ -22,11 +24,14 @@ dialogueCh8BattleOvo
 	.word LoadPortrait
 	.word portrait_Ovo2
 	.byte StartText
-.text	"I'm impressed you've come"
+.text	"Me impressiona ver que "
 	.byte NewLine
-.text	"so far..."
+.text	"chegaram tão longe..."
 	.byte NewLine
-.text	"But this is the end for you!"
+.text	"Mas ficarão chocados em"
+	.byte WaitForA
+	.byte NewLine
+.text	"saber que esse será seu fim!"
 	.byte WaitForA
 
 	.byte EndText
@@ -39,7 +44,9 @@ dialogueCh8BattleBanba
 	.word LoadPortrait
 	.word portrait_Banba3
 	.byte StartText
-.text	"Taste raging flames, brigand!"
+.text	"Dessa vez, será bem diferente!"
+	.byte NewLine
+.text	"Sinta o poder das chamas, bandido!"
 	.byte WaitForA
 
 	.byte EndText
@@ -54,9 +61,9 @@ dialogueCh8BattleBanba_TriangleAttack
 	.byte StartText
 .text	"Fódla! Ériu!"
 	.byte NewLine
-.text	"This time, we're ready!"
+.text	"Dessa vez, nós estamos prontas!"
 	.byte NewLine
-.text	"...Triangle Attack!!"
+.text	"...Ataque Triângulo!!"
 	.byte WaitForA
 
 	.byte EndText
@@ -69,7 +76,9 @@ dialogueCh8BattleFodla
 	.word LoadPortrait
 	.word portrait_Fodla3
 	.byte StartText
-.text	"Taste the howling gale, traitor!"
+.text	"Não falharemos dessa vez!"
+	.byte NewLine
+.text	"Sinta o vento uivante, traidor!"
 	.byte WaitForA
 
 	.byte EndText
@@ -84,9 +93,9 @@ dialogueCh8BattleFodla_TriangleAttack
 	.byte StartText
 .text	"Banba! Ériu!"
 	.byte NewLine
-.text	"This time, without fail!"
+.text	"Dessa vez, sem erro!"
 	.byte NewLine
-.text	"...Triangle Attack!!"
+.text	"...Ataque Triângulo!!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -99,7 +108,9 @@ dialogueCh8BattleEriu
 	.word LoadPortrait
 	.word portrait_Eriu3
 	.byte StartText
-.text	"Taste the wrath of thunder, rebel!"
+.text	"Você vai sofrer na nossa mão agora!"
+	.byte NewLine
+.text	"Sinta a fúria do trovão, rebelde!"
 	.byte WaitForA
 
 	.byte EndText
@@ -114,9 +125,9 @@ dialogueCh8BattleEriu_TriangleAttack
 	.byte StartText
 .text	"Banba! Fódla!"
 	.byte NewLine
-.text	"Ready? This time, no mistakes!"
+.text	"Prontas? Dessa vez, não podemos errar!"
 	.byte NewLine
-.text	"...Triangle Attack!!"
+.text	"...Ataque Triângulo!!"
 	.byte WaitForA
 
 	.byte EndText
@@ -129,11 +140,16 @@ dialogueCh8BattleBloom
 	.word LoadPortrait
 	.word portrait_Bloom3
 	.byte StartText
-.text	"What in the blazes is happening"
+.text	"O que diabos está"
 	.byte NewLine
-.text	"out there?! You rebel scum..."
+.text	"acontecendo lá fora?!"
 	.byte NewLine
-.text	"You'll have no mercy from me!"
+.text	"Sua escória rebelde..."
+	.byte WaitForA
+	.byte NewLine
+.text	"Eu não terei piedade"
+	.byte NewLine
+.text	"alguma com vocês!"
 	.byte WaitForA
 
 	.byte EndText
@@ -153,25 +169,25 @@ dialogueCh8BattleBloom_Seliph
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Y-you!"
+.text	"V-você!"
 	.byte NewLine
-.text	"You're Sigurd's whelp..."
+.text	"Você é o pirralho do Sigurd..."
 	.byte NewLine
-.text	"You won't leave here alive!"
+.text	"Não vai sair daqui vivo!"
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"I believe that's my line, King Bloom."
+.text	"Eu que o diga, Rei Bloom."
 	.byte NewLine
-.text	"You've nowhere to run this time!"
+.text	"Dessa vez, você não tem para onde correr!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Bloom
-.text	"Curses..."
+.text	"Maldição..."
 	.byte NewLine
-.text	"I'll drag you down to the grave with me, whelp!"
+.text	"Eu te levo junto se for preciso!"
 	.byte WaitForA
 
 	.byte EndText
@@ -195,16 +211,16 @@ dialogueCh8BattleBloom_TineLinda
 	.word name_TineLinda
 .text	"..."
 	.byte NewLine
-.text	"How dare you, you spoiled, ungrateful brat!"
+.text	"Como ousa, sua fedelha ingrata!"
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"Spoiled? If it weren't for you, my mother"
+.text	"Ingrata? Se não fosse por você, minha mãe"
 	.byte NewLine
-.text	"wouldn't have been driven to her death..."
+.text	"não teria sido torturada até a morte..."
 	.byte NewLine
-.text	"Don't you dare claim to have forgotten!"
+.text	"Não finja que não sabe disso!"
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -233,25 +249,25 @@ dialogueCh8BattleBloom_FebailAsaello
 	.word name_FebailAsaello
 .text	"!"
 	.byte NewLine
-.text	"What in the blazes do you think you're doing?!"
+.text	"O que diabos acha que está fazendo?!"
 	.byte NewLine
-.text	"You traitorous slime!"
+.text	"Homenzinho traiçoeiro!"
 	
 	.byte RightSlot		;Febail
 	.word PauseText
 	.byte $10
-.text	"Yeah, sorry about that, but I realized that"
+.text	"É, desculpa aí, mas eu percebi que eu"
 	.byte NewLine
-.text	"I'd much rather die than help you."
+.text	"prefiro morrer do que te ajudar."
 	.byte NewLine
-.text	"Too bad it's you who'll die instead."
+.text	"Que pena que quem vai morrer é você."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Bloom
 .text	"Gah..."
 	.byte NewLine
-.text	"I'm surrounded by buffoons..."
+.text	"Estou cercado de idiotas..."
 	.byte WaitForA
 
 	.byte EndText
@@ -264,9 +280,9 @@ dialogueCh8BattleFebailAsaello
 	.word LoadPortrait
 	.word portrait_Febail
 	.byte StartText
-.text	"I'm so sorry..."
+.text	"Me perdoe..."
 	.byte NewLine
-.text	"But we sorely need the gold..."
+.text	"Mas eu preciso do dinheiro..."
 	.byte WaitForA
 
 	.byte EndText
@@ -279,14 +295,14 @@ dialogueCh8BattleFebailAsaello_PattyDaisy
 	.word LoadPortrait
 	.word portrait_Febail
 	.byte StartText
-.text	"Wait... "
+.text	"Espera... "
 	.word PrintBranchingName
 	.word name_PattyDaisy
 .text	"?!"
 	.byte NewLine
-.text	"No, this..."
+.text	"Não, isso..."
 	.byte NewLine
-.text	"It's not what it looks like!"
+.text	"Isso não é o que parece!"
 	.byte WaitForA
 
 	.byte EndText
@@ -299,9 +315,9 @@ dialogueCh8BattleIshtar
 	.word LoadPortrait
 	.word portrait_Ishtar4
 	.byte StartText
-.text	"I wish I didn't have to do this..."
+.text	"Eu queria não ter que fazer isso..."
 	.byte NewLine
-.text	"But you shall go no further!"
+.text	"Mas não lhes deixarei passar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -321,26 +337,26 @@ dialogueCh8BattleIshtar_TineLinda
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Wait... "
+.text	"Espera... "
 	.word PrintBranchingName
 	.word name_TineLinda
 .text	"?"
 	.byte NewLine
-.text	"What do you think you're doing?!"
+.text	"O que acha que está fazendo?!"
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
 .text	"Ishtar..."
 	.byte NewLine
-.text	"I... I'm so sorry..."
+.text	"Me... me desculpe..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Ishtar
-.text	"You've turned traitor, then?"
+.text	"Você virou a casaca, pelo que vejo?"
 	.byte NewLine
-.text	"I'm disappointed in you, "
+.text	"Você me desaponta, "
 	.word PrintBranchingName
 	.word name_TineLinda
 .text	"!"
@@ -358,9 +374,9 @@ dialogueCh8BattleGortach
 	.byte StartText
 .text	"Heh heh..."
 	.byte NewLine
-.text	"What a pity it is for you,"
+.text	"Que pena pra você, saber que"
 	.byte NewLine
-.text	"that this is where you die!"
+.text	"é aqui que irá morrer!"
 	.byte WaitForA
 
 	.byte EndText
@@ -373,11 +389,11 @@ dialogueCh8BattleMaykov
 	.word LoadPortrait
 	.word portrait_Maykov2
 	.byte StartText
-.text	"This land is the rightful land"
+.text	"Essa terra é de direito do"
 	.byte NewLine
-.text	"of the Kingdom of Thracia!"
+.text	"glorioso Reino da Trácia!"
 	.byte NewLine
-.text	"You will never take it from us!"
+.text	"Nunca tomará ela de nós!"
 	.byte WaitForA
 
 	.byte EndText

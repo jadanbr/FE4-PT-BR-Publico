@@ -14,84 +14,90 @@ dialogueChFinalIntro1
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Father died, you say..."
+.text	"Meu pai morreu, é..."
 	
 	.byte RightSlot		;Manfroy
 	.word PauseText
 	.byte $10
-.text	"The Emperor had long served his purpose,"
+.text	"O Imperador já tinha servido seu propósito"
 	.byte NewLine
-.text	"Your Majesty. He was little more than an"
+.text	"para nossos planos, Vossa Majestade."
 	.byte NewLine
-.text	"obstacle to your ambitions. He had to die."
+.text	"Ele era apenas um obstáculo à vossas"
+	.byte WaitForA
+	.byte NewLine
+.text	"ambições. Era necessário."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Julius
-.text	"Pfeh. I almost feel sorry for him."
+.text	"Pfeh. Quase sinto pena dele."
 	.byte NewLine
-.text	"All his life he was your tool, Manfroy,"
+.text	"A vida toda ele foi um boneco seu, só pra no"
 	.byte NewLine
-.text	"only to be thrown away so casually..."
+.text	"final ser jogado no lixo sem cerimônia..."
 	
 	.byte RightSlot		;Manfroy
 	.word PauseText
 	.byte $10
-.text	"All in your empire's name, Your Majesty."
+.text	"Tudo em nome de seu império, Vossa Majestade."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Arvis was a lost cause."
+.text	"Arvis era uma causa perdida."
 	.byte NewLine
-.text	"To think he, a man of Loptous's blood,"
+.text	"Só pense que ele, um homem de sangue loptiriano,"
 	.byte NewLine
-.text	"dared to challenge the revival of the empire!"
+.text	"queria impedir o retorno do seu império!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The righteous heart of the crusader Fjalar"
+.text	"O sangue da cruzada Fjalar era forte nele."
 	.byte NewLine
-.text	"burned too fiercely within him. It was only"
+.text	"Era questão de tempo até ele se virar contra"
 	.byte NewLine
-.text	"a matter of time until he turned on you."
+.text	"você."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Julius
-.text	"I know, I know... Now, then."
+.text	"Eu sei, eu sei... mudemos de assunto, então."
 	.byte NewLine
-.text	"I hear those rebels have stumbled as far as"
+.text	"Eu ouvi que esses rebeldes conseguiram chegar"
 	.byte NewLine
-.text	"Chalphy. Are our defenses really that pathetic?"
+.text	"em Chalphy."
+	.byte WaitForA
+	.byte NewLine
+.text	"Esse exército é tão patético assim?"
 	
 	.byte RightSlot		;Manfroy
 	.word PauseText
 	.byte $10
-.text	"Rest assured. I've already tasked"
+.text	"Não se preocupe. Eu já ordenei que o"
 	.byte NewLine
-.text	"Edda's Bishop Rodin and Brian of Dozel"
+.text	"Bispo Rodin de Edda e o Duque Brian de"
 	.byte NewLine
-.text	"with purging Chalphy of those vermin."
+.text	"Dozel ataquem esses vermes em Chalphy."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"You've no need to worry, Your Majesty."
+.text	"Não precisa se preocupar, Vossa Majestade."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Julius
-.text	"Don't I, now..."
+.text	"Bem, se você diz..."
 	.byte NewLine
-.text	"Where's Julia?"
+.text	"Onde está Júlia?"
 	
 	.byte RightSlot		;Manfroy
 	.word PauseText
 	.byte $10
-.text	"She awaits her end in the dungeon..."
+.text	"Ela espera sua execução na masmorra..."
 	.byte NewLine
-.text	"You there!"
+.text	"Você aí!"
 	.byte NewLine
-.text	"Bring us Princess Julia!"
+.text	"Traga a Princesa!"
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -109,103 +115,103 @@ dialogueChFinalIntro1
 	.byte ScrollText
 
 	.byte LeftSlot		;Julius
-.text	"Ah, Julia."
+.text	"Ah, Júlia."
 	.byte NewLine
-.text	"It's been a while, hasn't it?"
+.text	"Quanto tempo, não é?"
 	.byte NewLine
-.text	"Tell me, do you know who I am?"
+.text	"Diga, ainda se lembra de mim?"
 	
 	.byte RightSlot		;Julia
 	.word PauseText
 	.byte $10
 .text	"Julius..."
 	.byte NewLine
-.text	"My brother, Julius..."
+.text	"Meu irmão, Julius..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Julius
-.text	"Oho! So you do still remember!"
+.text	"Ah! Você ainda lembra!"
 	.byte NewLine
-.text	"I can hardly believe seven long years have"
+.text	"Esses sete anos que você sumiu"
 	.byte NewLine
-.text	"passed since you slipped away."
+.text	"passaram bem rápido."
 	
 	.byte RightSlot		;Julia
 	.word PauseText
 	.byte $10
-.text	"I..."
+.text	"Eu..."
 	.byte NewLine
-.text	"That night is seared into my memory,"
+.text	"Aquela noite está marcada na minha memória,"
 	.byte NewLine
-.text	"clear as if it were only yesterday..."
+.text	"eu lembro como se tivesse sido ontem..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Julius
-.text	"Fehehe... Good."
+.text	"Fehehe... ótimo."
 	.byte NewLine
-.text	"I trust you remember your mother's final"
+.text	"Imagino que você também lembra"
 	.byte NewLine
-.text	"kindness as well?"
+.text	"do que sua mãe fez pra te salvar."
 	
 	.byte RightSlot		;Julia
 	.word PauseText
 	.byte $10
-.text	"Who..."
+.text	"Quem..."
 	.byte NewLine
-.text	"No, what are you?"
+.text	"Não, o que é você?"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"That night... The night Manfroy came with that"
+.text	"Aquela noite... aquela que Manfroy veio com"
 	.byte NewLine
-.text	"eerie black tome..."
+.text	"aquele maldito livro preto..."
 	.byte NewLine
-.text	"Nothing was ever the same again."
+.text	"Depois disso, tudo mudou."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"My real brother, the kind and caring boy I once"
+.text	"Meu verdadeiro irmão, o bom garoto que eu"
 	.byte NewLine
-.text	"knew and loved so, died that night."
+.text	"conhecia e amava, morreu naquele dia."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"In his place stood a demon of terrifying power..."
+.text	"E no lugar dele entrou esse... esse demônio..."
 	.byte NewLine
-.text	"My brother in name only."
+.text	"Você não é mais meu irmão!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You... You monster..."
+.text	"Seu... seu monstro..."
 	.byte NewLine
-.text	"You've taken my mother and my brother from me!"
+.text	"Você tirou minha mãe e meu irmão de mim!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Who are you?"
+.text	"Quem é você?"
 	.byte NewLine
-.text	"WHAT are you?"
+.text	"O QUE é você?"
 	.byte NewLine
-.text	"Why... Why must you torment us all so?!"
+.text	"Porque você vem nos atormentar?!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Julius
-.text	"I am the heir of Loptous's kin,"
+.text	"Eu sou o herdeiro do sangue de Loptous,"
 	.byte NewLine
-.text	"and the inheritor of his limitless power."
+.text	"e também do seu poder infinito."
 	.byte NewLine
-.text	"This world belongs rightfully to me."
+.text	"Esse mundo é meu por direito."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And you, Julia? You are the heiress to the"
+.text	"E você, Júlia? Você é a herdeira"
 	.byte NewLine
-.text	"power of Naga, my eternal foe."
+.text	"do poder de Naga, meu maior inimigo."
 	.byte NewLine
-.text	"I cannot allow you to live any longer!"
+.text	"Eu vou te matar aqui mesmo!"
 	
 	.byte RightSlot
 	.word PauseText
@@ -217,28 +223,31 @@ dialogueChFinalIntro1
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Manfroy2
-.text	"Hold a moment, Your Majesty."
+.text	"Espere um momento, Vossa Majestade."
 	.byte NewLine
-.text	"I believe I have a use for this girl's power."
+.text	"Eu creio que essa garota pode me ser útil."
 	.byte NewLine
-.text	"If I may, spare her and leave her to me."
+.text	"Se puder, poupe-a, e me dê ela."
+	.byte WaitForA
+	.byte NewLine
+.text	"Não precisamos ter pressa em matá-la." ;Acrescentado
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Julius
-.text	"Using Naga's power to serve me?"
+.text	"Usar o poder de Naga para me servir?"
 	.byte NewLine
-.text	"Interesting... Very interesting."
+.text	"Interessante... muito interessante."
 	.byte NewLine
-.text	"Very well! I must return to Belhalla."
+.text	"Muito bem! Eu retornarei para Belhalla."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Julia is yours, Manfroy. But be warned."
+.text	"A Júlia é sua, Manfroy. Mas fique avisado."
 	.byte NewLine
-.text	"Be extremely careful! Even a single mistake"
+.text	"Não corra nenhum risco! Qualquer erro"
 	.byte NewLine
-.text	"with her could cost me dearly."
+.text	"com ela pode me custar caro."
 	.byte WaitForA
 
 	.byte EndText
@@ -251,17 +260,17 @@ dialogueChFinalIntro2
 	.word LoadPortrait
 	.word portrait_Rodin2
 	.byte StartText
-.text	"His Majesty has issued his command."
+.text	"Vossa Majestade nos deu as ordens."
 	.byte NewLine
-.text	"Priest and sellsword units!"
+.text	"Mercenários! Clérigos!"
 	.byte NewLine
-.text	"Defend Edda itself with your very lives!"
+.text	"Defendam Edda até seu último suspiro!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Cavalry unit, move in on Chalphy!"
+.text	"Cavalaria, ao ataque, de imediato!"
 	.byte NewLine
-.text	"Reclaim our land from the rebels!"
+.text	"Expurguem os rebeldes de nossa terra!"
 	.byte WaitForA
 
 	.byte EndText
@@ -281,160 +290,163 @@ dialogueChFinalIntro3
 
 	.byte LeftSlot
 	.byte StartText
-.text	"This is it, Seliph."
+.text	"Chegou a hora, Seliph."
 	.byte NewLine
-.text	"The final holy war begins now."
+.text	"Esse será o fim de nossa cruzada."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"A holy war?"
+.text	"Uma cruzada?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Yeah, that's what this is."
+.text	"Sim, isso mesmo."
 	.byte NewLine
-.text	"Julius is descended from Loptrian royalty,"
+.text	"Julius é descendente da família real Loptiriana,"
 	.byte NewLine
-.text	"and he's been working to revive the dark empire."
+.text	"e ele está tentando reviver o seu Império."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"No matter what it takes, we must stop him."
+.text	"Temos que impedir que o Império que"
+	.byte NewLine
+.text	"os primeiros Doze Cruzados derrubaram"
+	.byte NewLine
+.text	"retorne."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"It feels as if you know everything, Lewyn."
+.text	"Você sabe de tudo, Lewyn... mas eu não."
 	.byte NewLine
-.text	"I'm beginning to feel left out..."
-	.byte NewLine
+.text	"Dá pra me explicar do que você tá falando?"
 	.byte WaitForA
 	.word ScrollBoth
-
-.text	"Please, what in the world are you talking about?"
-	.byte WaitForA
-	.byte ScrollText
-
+	
 	.byte LeftSlot		;Lewyn
-.text	"Yeah, sorry about that, Seliph."
+.text	"Ah, desculpa, Seliph."
 	.byte NewLine
-.text	"I know there's a lot I've not been telling you."
+.text	"Tem muitas coisas que ainda não te contei."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I've spent over a decade on a journey to"
+.text	"Eu passei mais de dez anos viajando pra"
 	.byte NewLine
-.text	"figure out the truth behind all this, and I'm finally"
+.text	"tentar entender a verdade por trás de todos"
 	.byte NewLine
-.text	"onto a hidden bigger picture here."
+.text	"esses ocorridos."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"...The bigger picture?"
+.text	"...A verdade por trás?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"It seems the old Loptrian Empire's founder,"
+.text	"Pelo que eu vi, o fundador do Império Loptiriano,"
 	.byte NewLine
-.text	"the Bishop Gair, dedicated his youth to a"
+.text	"Bispo Gair, passou a juventude dele"
 	.byte NewLine
-.text	"world-exploring voyage across the seas."
+.text	"viajando pelo mundo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He desired nothing less than to drink the blood"
+.text	"Ele procurava tomar do sangue de um"
 	.byte NewLine
-.text	"of a legendary beast."
+.text	'"monstro lendário".'
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Even a single drop, he believed,"
+.text	"Na cabeça dele, só uma gota desse sangue,"
 	.byte NewLine
-.text	"would bestow upon any human limitless power."
+.text	"e ele teria em mãos um poder verdadeiramente"
+	.byte NewLine
+.text	"sobrehumano."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Do... do you mean the dragonkin of old?"
+.text	"Você está falando do povo dragão?"
 	.byte NewLine
-.text	"It couldn't be..."
+.text	"Mas... pensava que isso não passava"
 	.byte NewLine
-.text	"Is that not a myth?"
+.text	"de uma lenda."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"You'd think so, but..."
+.text	"Bem, pode não parecer verdade, mas..."
 	.byte NewLine
-.text	"When Gair returned to Jugdral, he bore"
+.text	"Quando Gair voltou à Jugdral, ele voltou"
 	.byte NewLine
-.text	"bizarre powers nobody else understood."
+.text	"com poderes estranhos, que ninguém entendia."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"With these powers, he set to work swaying"
+.text	"Com esse poder em mãos, ele começou a convocar"
 	.byte NewLine
-.text	"youths across the land to aid his ambitions."
+.text	"pessoas para montar um exército."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Before anyone else realized, he'd raised a"
+.text	"Quando perceberam o perigo, ele já tinha uma"
 	.byte NewLine
-.text	"fell legion unflinchingly loyal to his cause."
+.text	"enorme legião, totalmente dedicada à lhe servir."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Where, then, does Loptous enter the tale?"
+.text	"Então, onde entra Loptous nessa história?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Odds are Loptous was a dragon himself."
+.text	"Imagino que Loptous era um dos dragões."
 	.byte NewLine
-.text	"Every last one of Gair's heirs has borne"
+.text	"Portanto, os descendentes de Gair todos"
 	.byte NewLine
-.text	"the blood of the dragonkin."
+.text	"tem, em parte, sangue dragão."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The dark powers Loptous's kin command are"
+.text	"Os poderes que o seu clã tem são"
 	.byte NewLine
-.text	"nothing more than the dragonkin's powers."
+.text	"os poderes do dragão Loptous."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"And what of the Crusaders?"
+.text	"E quanto aos doze Cruzados?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"I'm sure you know how the legend goes."
+.text	"Imagino que você conhece a lenda. Os deuses"
 	.byte NewLine
-.text	"The gods descended upon twelve warriors of the"
+.text	"desceram do céu e deram seus poderes à doze"
 	.byte NewLine
-.text	"old liberators at the fortress of Dahna."
+.text	"jovens soldados na fortaleza de Dahna."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But..."
+.text	"Mas..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"But?"
+.text	"Mas?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Sorry, Seliph, but this'll have to wait."
+.text	"Desculpa, Seliph, o resto fica pra depois."
 	.byte NewLine
-.text	"The enemy's just about on our doorstep."
+.text	"Primeiro, temos que lidar com essa onda de"
+	.byte NewLine
+.text	"inimigos vindo para cá."
 	.byte WaitForA
 
 	.byte EndText
@@ -454,36 +466,39 @@ dialogueChFinalSeizeEdda1_ClaudWithChild
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Edda, huh..."
+.text	"Chegamos em Edda..."
 	.byte NewLine
-.text	"Father Claud would be so happy to know his"
+.text	"Se Padre Claude estivesse aqui, certamente"
 	.byte NewLine
-.text	"homeland is finally free..."
+.text	"ficaria muito feliz..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
 .text	"Mm..."
 	.byte NewLine
-.text	"Father Claud gave his life for my father's cause."
+.text	"Padre Claude deu a vida pela causa do meu pai."
 	.byte NewLine
-.text	"But his children..."
+.text	"Mas os filhos dele..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
 	.byte StartText
-.text	"Oh, of course."
+.text	"Ah, sim."
 	.byte NewLine
 	.word RunASM
 	.long $91B0C3
-.text	"They're going to be great rulers for Edda."
+.text	"Tenho certeza que o posto de Duque de Edda"
+	.byte WaitForA
+	.byte NewLine
+.text	"estará em boas mãos então."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And after all they've been through,"
+.text	"E sabendo o que o povo de Edda passou, sei que"
 	.byte NewLine
-.text	"I know that'll bring a smile to the people's faces."
+.text	"isso vai os deixar feliz também."
 	.byte WaitForA
 
 	.byte EndText
@@ -492,7 +507,7 @@ dialogueChFinalSeizeEdda1_ClaudWithChild
 dialogueChFinalSeizeEdda1_ClaudWithChild_AndTextBit
 
     .word PrintStoredNameA
-.text    " and "
+.text    " e "
     .word PrintStoredNameB
 .text    "."
     .byte $00      ; I don't know why these are here.
@@ -527,33 +542,33 @@ dialogueChFinalSeizeEdda1_ClaudChildless
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Edda, huh..."
+.text	"Chegamos em Edda..."
 	.byte NewLine
-.text	"Father Claud would be so happy to know his"
+.text	"Se Padre Claude estivesse aqui, certamente"
 	.byte NewLine
-.text	"homeland is finally free..."
+.text	"ficaria muito feliz..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
 .text	"Mm..."
 	.byte NewLine
-.text	"Father Claud gave his life for my father's cause."
+.text	"Padre Claude deu a vida pela causa do meu pai."
 	.byte NewLine
-.text	"But his children..."
+.text	"Mas ele não tem herdeiros..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"I hate to say it, but it looks like the Edda family's"
+.text	"É... infelizmente, a linhagem de Edda parece"
 	.byte NewLine
-.text	"died out completely."
+.text	"ter acabado."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Seliph, the people here are counting on you"
+.text	"Seliph, daqui em diante, você vai ter que"
 	.byte NewLine
-.text	"to look after them from now on."
+.text	"cuidar de Edda."
 	.byte WaitForA
 
 	.byte EndText
@@ -573,24 +588,24 @@ dialogueChFinalSeizeEdda2
 
 	.byte LeftSlot
 	.byte StartText
-.text	"It's time, Fisher."
+.text	"Chegou a hora, Fisher."
 	.byte NewLine
-.text	"Your unit will move in on Edda at once!"
+.text	"Sua unidade vai retomar Edda!"
 	.byte NewLine
-.text	"I'll lead the assault on Chalphy personally."
+.text	"Eu atacarei Chalphy pessoalmente."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Against the full force of Dozel's legendary"
+.text	"Contra a nossa Grauritter, os rebeldes não"
 	.byte NewLine
-.text	"axe knights, the Grauritter, the rebels stand"
+.text	"tem chance! eles vão cair como frutas"
 	.byte NewLine
-.text	"no chance! They'll drop like leaves!"
+.text	"maduras!"
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"At once, milord!"
+.text	"Entendido, milorde!"
 	.byte WaitForA
 
 	.byte EndText
@@ -610,227 +625,242 @@ dialogueChFinalSeizeDozel1
 
 	.byte LeftSlot
 	.byte StartText
-.text	"What a bloody disgrace..."
+.text	"É uma piada mesmo..."
 	.byte NewLine
-.text	"How could a pack of idiots like House Dozel"
+.text	"Como pode esses canalhas de Dozel"
 	.byte NewLine
-.text	"be of Crusader heritage?"
+.text	"serem de família cruzada?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If it weren't for Lombard, the world wouldn't"
+.text	"O mundo está desse jeito muito por culpa"
 	.byte NewLine
-.text	"be in such a mess..."
+.text	"de Lombard..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Lewyn, I cannot wait much longer."
+.text	"Lewyn, por favor, me fale de uma vez."
 	.byte NewLine
-.text	"Just where did the Crusaders' power come from?"
+.text	"De onde que vem o poder dos cruzados?"
 	.byte NewLine
-.text	"What in the world are these gods?"
+.text	"Quem são, de fato, este deuses?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"I can't say for sure... But whatever they were,"
+.text	"Eu não tenho certeza... mas sei que, quem quer"
 	.byte NewLine
-.text	"they realized that our land's misery was caused"
+.text	"que sejam, eles viram que os problemas de"
 	.byte NewLine
-.text	"by the power of the dragonkin."
+.text	"Jugdral foram causados por dragões."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And so they came to Jugdral from some other"
+.text	"Então, eles vieram de um outro"
 	.byte NewLine
-.text	"world to save the human race."
+.text	"mundo para salvar os humanos."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"It was they who suddenly appeared at Dahna,"
+.text	"Eles apareceram em Dahna, quando o nosso"
 	.byte NewLine
-.text	"just as its doom seemed certain."
+.text	"fim parecia próximo."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"That would be the legendary descent of Naga"
+.text	"Esse seria o lendário descenso de Naga e dos"
 	.byte NewLine
-.text	"and the eleven gods found in scripture, yes?"
+.text	"outros onze deuses aos quais"
+  .byte NewLine
+.text "as escrituras se referem?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Yeah. They say the gods took human shapes."
+.text	"Isso mesmo. Diz também que os deuses tomaram"
 	.byte NewLine
-.text	"Naga, the light god, appeared as a little girl,"
+.text	"formas humanas. Por exemplo, Naga tomou a"
 	.byte NewLine
-.text	"while the fire god Salamand was an old man."
+.text	"forma de uma garotinha, enquanto Salamand"
+  .byte WaitForA
+  .byte NewLine
+.text "tomou a forma de um homem velho."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"With twelve chosen warriors, the gods bound"
+.text	"Os deuses escolheram doze guerreiros,"
 	.byte NewLine
-.text	"themselves in a blood covenant."
+.text	"e cada um formou um pacto de sangue"
+  .byte NewLine
+.text "com o seu escolhido." 
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"A blood covenant?"
+.text	"Um pacto de sangue?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Basically, the gods drew their own blood"
+.text	"Basicamente, cada um deles tirou um"
 	.byte NewLine
-.text	"with a scratch to the fingertip and presented it"
+.text	"pouco de sangue e o apresentou à"
 	.byte NewLine
-.text	"to the warriors."
+.text	"seu escolhido."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"...I beg your pardon?!"
+.text	"...Como é?!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Long story short, they were dragons."
+.text	"Resumindo, eles eram dragões."
 	.byte NewLine
-.text	"The gods we know only from scripture?"
+.text	"Os deuses que conhecemos dos escritos?"
 	.byte NewLine
-.text	"They were all of the dragonkin, just like Loptous."
+.text	"Eram todos dragões, assim como Loptous."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"With a single taste of the blood of dragons,"
+.text	"Com apenas um pouco do sangue deles, esses"
 	.byte NewLine
-.text	"these once humble warriors of the liberation"
+.text	"humildes guereiros do exército de libertação"
 	.byte NewLine
-.text	"army were reborn as the Twelve Crusaders."
+.text	"renasceram como os famosos Doze Cruzados."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Each dragon presented to their crusader"
+.text	"Cada dragão também entregou à seu escolhido"
 	.byte NewLine
-.text	"a weapon steeped in their own power."
+.text	"uma arma de tremendo poder."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And then, with some final parting words"
+.text	"E assim, com algumas últimas palavras de"
 	.byte NewLine
-.text	"of wisdom to the Crusaders, the dragonkin"
+.text	"sabedoria para os cruzados, o povo dragão"
 	.byte NewLine
-.text	"departed Jugdral."
+.text	"se despediu de Jugdral."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"I see..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"So our power is, in truth, that of dragons..."
+.text	"Então o nosso poder veio dos dragões..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Now, Loptous himself is actually from a"
+.text	"Além disso, Loptous vem de um dos clãs"
 	.byte NewLine
-.text	"dragon clan whose fell power is amongst"
-	.byte NewLine
-.text	"the mightiest of all the dragonkin."
+.text	"mais fortes dentre os dragões."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The great dragon Naga, strongest of them all,"
+.text	"Por essa razão, Naga, o mais poderoso dentre"
 	.byte NewLine
-.text	"bestowed their own blood upon the leader"
+.text	"os dragões, deu seu sangue ao líder dos"
 	.byte NewLine
-.text	"of the liberation army, the priest Heim."
+.text	"libertadores, o padre Heim."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Naga knew only their power could possibly hope"
+.text	"Naga sabia que seu poder seria necessário"
 	.byte NewLine
-.text	"to stand against that of Loptous."
+.text	"para enfrentar Loptous."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"So nobody else among the dragonkin would be"
+.text	"Então nenhum outro, mesmo entre os dragões,"
 	.byte NewLine
-.text	"able to prevail against Loptous?"
+.text	"seria capaz de vencê-lo?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"It certainly wouldn't be easy, I think."
+.text	"Certamente não seria nada fácil."
 	.byte NewLine
-.text	"Even if you had every last dragon fighting"
+.text	"Mesmo juntando todos os dragões para"
 	.byte NewLine
-.text	"together, they'd still need Naga's power."
+.text	"enfrentá-lo, ainda precisariam"
+  .byte WaitForA
+  .byte NewLine
+.text "do poder de Naga." 
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This, of course, means that if we're to win today,"
+.text	"Isso significa que, se for para ganhar,"
 	.byte NewLine
-.text	"we'll need the surviving heir to Saint Heim."
+.text	"precisaremos do herdeiro de Heim,"
+  .byte NewLine
+.text "vivo, obviamente." 
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"In other words, one of Deirdre's three children."
+.text	"Em outras palavras, precisamos de um dos filhos"
+  .byte NewLine
+.text "de Deirdre." 
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Of those three, you didn't inherit the full breadth"
+.text	"Dos três, você não herdou o sangue"
 	.byte NewLine
-.text	"of Naga's blood, and it's pretty obvious that"
+.text	"de Naga em sua totalidade,"
 	.byte NewLine
-.text	"Julius didn't."
+.text	"e podemos ver que Julius também não."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Actually, I only recently learned who it is."
+.text	"Faz pouco tempo que eu descobri quem é."
 	.byte NewLine
-.text	"The inheritor of Naga's power is"
+.text	"A herdeira do sangue de Naga é a irmã"
 	.byte NewLine
-.text	"Julius' twin sister... Princess Julia."
+.text	"gêmea de Julius... Princesa Júlia."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"E-excuse me?!"
+.text	"O quê?!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Yeah, that was more or less my reaction too"
+.text	"É, quando eu descobri, tive uma reação"
 	.byte NewLine
-.text	"at first. Julia is Julius' twin sister..."
+.text	"parecida com a sua. Ela é irmã gêmea do"
 	.byte NewLine
-.text	"which also makes her your sister, Seliph."
+.text	"Julius, portanto,"
+  .byte WaitForA
+  .byte NewLine
+.text "ela também é sua meia irmã, Seliph."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"So all this time..."
+.text	"Então esse tempo todo..."
 	.byte NewLine
-.text	"Julia was my sister..."
+.text	"Ela era minha irmã e eu não sabia..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"I guess now we know why Manfroy took her"
+.text	"Sabemos porque Manfroy levou ela embora"
 	.byte NewLine
-.text	"to begin with. Needless to say, Seliph,"
+.text	"então. Acho que nem preciso dizer, Seliph,"
 	.byte NewLine
-.text	"we've got to rescue her, no matter what."
+.text	"mas temos que resgatá-la o quanto antes."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"We absolutely need Julia's powers if we want"
+.text	"Nós precisamos dela se quisermos ter alguma"
 	.byte NewLine
-.text	"any hope of stopping Julius!"
+.text	"chance de parar Julius!"
 	.byte WaitForA
 
 	.byte EndText
@@ -843,45 +873,45 @@ dialogueChFinalSeizeDozel2
 	.word LoadPortrait
 	.word portrait_Hilda4
 	.byte StartText
-.text	"Dozel's fallen to the rebels?"
+.text	"Dozel caiu para os rebeldes?"
 	.byte NewLine
-.text	"What the hell were my men doing out there?!"
+.text	"E os meus soldados ficaram só olhando?!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Feh, why'd I ever expect any better?"
+.text	"Bah, e porque eu estava esperando mais?"
 	.byte NewLine
-.text	"Worthless cowards, the lot of them!"
+.text	"Covardes! Todos eles!"
 	.byte NewLine
-.text	"It's time I took this into my own hands."
+.text	"Já passou da hora de eu pôr a mão na massa."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"All I need is to lure these flies into my web."
+.text	"Eu só preciso atraí-los para minha armadilha."
 	.byte NewLine
-.text	"Then I can crush them, once and for all!"
+.text	"Depois, é só matar todos de uma vez!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Send Scipio of Yngvi a messenger!"
+.text	"Mande um mensageiro para Cipião de Yngvi!"
 	.byte NewLine
-.text	"Pass on to him this plan."
+.text	"Passe o plano para ele."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The Gelbritter will coax the rebels our way,"
+.text	"A Gelbritter vai segurar a frente, e então"
 	.byte NewLine
-.text	"leaving them wide open to a deluge of the"
+.text	"a Beigeritter virá por trás e encherá os"
 	.byte NewLine
-.text	"Beigeritter's arrows from behind!"
+.text	"rebeldes de flechas!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They'll have nowhere to run or hide."
+.text	"Eles não vão ter nem pra onde correr,"
 	.byte NewLine
-.text	"Kill them all!"
+.text	"nem onde se esconder! Vamos matar todos eles!"
 	.byte NewLine
-.text	"No survivors this time!"
+.text	"Eu não vou deixar sobreviventes dessa vez!"
 	.byte WaitForA
 
 	.byte EndText
@@ -901,26 +931,26 @@ dialogueChFinalSeizeFriege1
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Friege is ours, Lewyn."
+.text	"Recuperamos Friege, Lewyn. Mal posso"
 	.byte NewLine
-.text	"We've finally made it this far."
+.text	"acreditar que chegamos aqui."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But... I can't help but wonder..."
+.text	"Mas... será que as crianças em Belhalla"
 	.byte NewLine
-.text	"Are the children at Belhalla still unharmed?"
+.text	"ainda estão bem?"
 	.byte NewLine
-.text	"I pray they are..."
+.text	"Eu espero que estejam..."
 	
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"Funny you should say that!"
+.text	"Que bom que perguntou!"
 	.byte NewLine
-.text	"We've got a visitor who's got a bit of news"
+.text	"Chegou alguem que deve saber"
 	.byte NewLine
-.text	"on that front, Seliph."
+.text	"a resposta."
 	.byte WaitForA
 	.word ScrollBoth
 	
@@ -934,107 +964,110 @@ dialogueChFinalSeizeFriege1
 	.word portrait_Felipe
 
 	.byte LeftSlot		;Seliph
-.text	"And who are you?"
+.text	"E quem é você?"
 	
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"My name is Felipe, sire."
+.text	"Meu nome é Felipe, senhor."
 	.byte NewLine
-.text	"I was once an aide to the late Emperor Arvis."
+.text	"Eu era um servo do falecido"
+  .byte NewLine
+.text "Imperador Arvis." 
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"On secret orders from His Majesty,"
+.text	"Sob ordens secretas de Vossa Majestade,"
 	.byte NewLine
-.text	"the abducted children were moved here"
+.text	"as crianças sequestradas foram levadas aqui"
 	.byte NewLine
-.text	"to Friege for safe-keeping."
+.text	"para Friege, para segurança delas."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Seliph
-.text	"What?"
+.text	"O quê?"
 	.byte NewLine
-.text	"Is this true?"
+.text	"É verdade isso?"
 	.byte NewLine
-.text	"You've saved all of the children?!"
+.text	"Você salvou todas as crianças?!"
 	
 	.byte RightSlot		;Felipe
 	.word PauseText
 	.byte $10
-.text	"Rest easy, sire."
+.text	"Não precisa se preocupar, senhor."
 	.byte NewLine
-.text	"They're all hiding in the city's abbey,"
+.text	"Elas estão escondidas no mosteiro da cidade,"
 	.byte NewLine
-.text	"and they're all in good health."
+.text	"e lhe asseguro que estão todas bem."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Seliph
-.text	"And all under Hilda's nose, at that!"
+.text	"E bem na cara da Hilda!"
 	.byte NewLine
-.text	"That you've kept every last child safe in"
+.text	"Conseguir esconder as crianças bem na"
 	.byte NewLine
-.text	"Hilda's own city... Color me impressed."
+.text	"cidade dela... estou impressionado."
 	
 	.byte RightSlot		;Felipe
 	.word PauseText
 	.byte $10
-.text	"Actually, sire... Princess Ishtar deserves your"
+.text	"Na verdade, senhor... agradeça a Princesa Ishtar."
 	.byte NewLine
-.text	"thanks. Without her generous aid given in secret,"
+.text	"Sem a ajuda que ela nos deu em segredo, não"
 	.byte NewLine
-.text	"we could never have done this."
+.text	"teríamos salvo nenhuma delas."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"No Imperial soldiers dared come even close to"
+.text	"Nenhum soldado ousou se aproximar do mosteiro,"
 	.byte NewLine
-.text	"the abbey, on pain of the princess' wrath."
+.text	"com medo da fúria da Princesa."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Seliph
-.text	"Princess Ishtar?!"
+.text	"Princesa Ishtar?!"
 	.byte NewLine
-.text	"But why..."
+.text	"Mas porquê..."
 	.byte NewLine
-.text	"Why would she-"
+.text	"Porquê ela faria-"
 	
 	.byte RightSlot		;Felipe
 	.word PauseText
 	.byte $10
-.text	"Few people in this land are as kind and caring as"
+.text	"Tem poucas pessoas nessa terra tão"
 	.byte NewLine
-.text	"Princess Ishtar."
+.text	"boas quanto a Princesa."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"All along, the princess has toiled behind the"
+.text	"Há tempos a Princesa tem nos"
 	.byte NewLine
-.text	"scenes to aid our cause."
+.text	"ajudado clandestinamente."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"It was Princess Ishtar herself who ensured that"
+.text	"Ela mesma presenciou a fuga dessas crianças"
 	.byte NewLine
-.text	"every last child escaped from the bowels of"
-	.byte NewLine
-.text	"Belhalla."
+.text	"das prisões de Belhalla."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Seliph
-.text	"I see... At any rate, thank the gods for their"
+.text	"Entendi... de qualquer forma, agradeço os"
 	.byte NewLine
-.text	"safety. I'm certain everyone will be glad to know"
+.text	"deuses por elas estarem em segurança."
+  .byte NewLine
+.text "Todos ficarão aliviados em saber que" 
+	.byte WaitForA
 	.byte NewLine
-.text	"the children are in good hands."
+.text	"as crianças estão em boas mãos."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You have my deepest thanks, Lord Felipe."
+.text	"Muito obrigado mesmo, Lorde Felipe."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -1047,61 +1080,61 @@ dialogueChFinalSeizeFriege1
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
-.text	"Well, Seliph, that's one job done."
+.text	"Bem, um objetivo já foi."
 	.byte NewLine
-.text	"Good to see we're finally getting some results"
+.text	"É bom ver as coisas finalmente"
 	.byte NewLine
-.text	"out of this mess."
+.text	"começarem a melhorar."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Seliph
 .text	"Mm."
 	.byte NewLine
-.text	"And yet, Julia still eludes us..."
+.text	"Mas, ainda nem temos sinal da Júlia..."
 	.byte NewLine
-.text	"Where could she possibly be?"
+.text	"Onde será que ela está?"
 	
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"The only options left now are"
+.text	"Ela só pode estar em"
 	.byte NewLine
-.text	"Belhalla and Velthomer."
+.text	"Belhalla ou Velthomer."
 	.byte NewLine
-.text	"It's got to be one of those two."
+.text	"Só restou esses dois lugares."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Seliph
-.text	"And Belhalla is where Julius awaits..."
+.text	"E Belhalla é onde está Julius..."
 	
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"Yeah, we'll have to find Julia first"
+.text	"É, teremos que resgatar Júlia antes"
 	.byte NewLine
-.text	"if we want to go anywhere near Belhalla."
+.text	"de irmos para Belhalla."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Without Julia's power on our side,"
+.text	"Sem o poder dela, não temos nenhuma chance"
 	.byte NewLine
-.text	"we won't have a hope in hell against Julius."
+.text	"de derrotar Julius."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Seliph
-.text	"But no matter what's happened,"
+.text	"Mas Lewyn, Julius é o irmão dela."
 	.byte NewLine
-.text	"Julius is still her brother."
-	.byte NewLine
-.text	"Will she even want to fight him..."
+.text	"Será que ela vai ter coragem de matá-lo?"
 	
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"...You'll have to convince her."
+.text	"...Convença ela."
+  .byte NewLine
+.text "Ela têm que fazer isso." 
 	.byte WaitForA
 
 	.byte EndText
@@ -1121,85 +1154,85 @@ dialogueChFinalSeizeFriege2
 
 	.byte LeftSlot
 	.byte StartText
-.text	"If I may, Lord Julius, I'd like to lead the"
+.text	"Se possível, Lorde Julius, eu quero liderar"
 	.byte NewLine
-.text	"Weissritter to bolster the capital's defense."
+.text	"a Weissritter na defesa da capital."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This will require that I leave your side,"
+.text	"Para isso, infelizmente terei que deixá-lo,"
 	.byte NewLine
-.text	"even for a while."
+.text	"mas por pouco tempo."
 	.byte NewLine
-.text	"I beg your forgiveness."
+.text	"Me perdoe, senhor."
 	
 	.byte RightSlot		;Julius
 	.word PauseText
 	.byte $10
 .text	"Feh."
 	.byte NewLine
-.text	"Why the rush to get out there so suddenly, Ishtar?"
+.text	"Pra quê a pressa, Ishtar?"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"All the soldiers they could ever throw at us could"
+.text	"Nenhum desses mortais lá fora"
 	.byte NewLine
-.text	"never so much as scratch me."
+.text	"tem como me machucar."
 	.byte NewLine
-.text	"Why even bother with those maggots?"
+.text	"Por que se preocupar com eles?"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Ishtar
-.text	"Yes, I know..."
+.text	"Eu, sei, milorde..."
 	.byte NewLine
-.text	"But for me, there is no greater pride than"
+.text	"Mas pra mim, isso é uma questão"
 	.byte NewLine
-.text	"being one of Friege's great mages."
+.text	"de orgulho próprio."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"My parents and brother lie dead, and I cannot"
+.text	"Minha família está morta... e eu não posso"
 	.byte NewLine
-.text	"stand to leave their murderers to run amok..."
+.text	"deixar esses assassinos à solta..."
 	.byte NewLine
-.text	"Please... All I ask is a chance for vengeance."
+.text	"Por favor, eu quero apenas me vingar."
 	
 	.byte RightSlot		;Julius
 	.word PauseText
 	.byte $10
-.text	"It sounds as if what you really want is to join"
+.text	"Ah, para mim, parece que você quer morrer"
 	.byte NewLine
-.text	"your family in death on a rebel's blade!"
+.text	"como o resto dos seus parentes!"
 	.byte NewLine
-.text	"Are you so desperate to escape me, Ishtar?"
+.text	"Quer tanto assim fugir de mim, Ishtar?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Ishtar
-.text	"No... Nothing like that, Lord Julius."
+.text	"Não... nada disso, Lorde Julius."
 	.byte NewLine
-.text	"I love you."
+.text	"Eu te amo."
 	.byte NewLine
-.text	"Nothing will ever change that."
+.text	"Nada irá mudar isso."
 	
 	.byte RightSlot		;Julius
 	.word PauseText
 	.byte $10
-.text	"Hmhmhmhmhm... I know."
+.text	"Hmhmhmhmhm... eu sei."
 	.byte NewLine
-.text	"Very well! Fight if you must."
+.text	"Tá bom, pode ir."
 	.byte NewLine
-.text	"I won't stop you."
+.text	"Eu não vou te impedir."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Ishtar
-.text	"Thank you... Now, I beg your pardon."
+.text	"Obrigado... Agora, com sua licença."
 	.byte NewLine
 .text	"Meng! Breg! Meabel!"
 	.byte NewLine
-.text	"We sortie at once!"
+.text	"Venham comigo!"
 	
 	.byte RightSlot
 	.word PauseText
@@ -1211,7 +1244,7 @@ dialogueChFinalSeizeFriege2
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Meng2
-.text	"Yes, milady."
+.text	"Sim, senhora."
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -1227,17 +1260,17 @@ dialogueChFinalSeizeFriege2
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Julius3
-.text	"Now, then. I think it's time we put an end to this"
+.text	"Agora não vou mais brincar com esses mortais."
 	.byte NewLine
-.text	"sorry show. Deadlords, move out!"
+.text	"Ressurgidos, levantem-se!"
 	.byte NewLine
-.text	"And someone order Arion's unit to attack!"
+.text	"E alguém diga a Arion para atacar de uma vez!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The time for games is over."
+.text	"É hora destes rebeldes verem o"
 	.byte NewLine
-.text	"Every last rebel dies, here and now!"
+.text	"que é sofrer de verdade!"
 	.byte WaitForA
 
 	.byte EndText
@@ -1257,18 +1290,18 @@ dialogueChFinalSeizeFriege3
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Heh heh... The rebels have come to play at last,"
+.text	"Heh heh... me disseram que os rebeldes chegaram"
 	.byte NewLine
-.text	"I hear. Julia, why don't you join them?"
+.text	"para a festa. Júlia, que tal ir recebê-los?"
 	.byte NewLine
-.text	"Purge all those who dare oppose the Empire!"
+.text	"Expurgue os opositores do Império!"
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"YES..."
+.text	"SIM..."
 	.byte NewLine
-.text	"MY LORD... YOUR EXCELLENCY..."
+.text	"MEU LORDE... VOSSA EMINÊNCIA..."
 	.byte WaitForA
 
 	.byte EndText
@@ -1281,23 +1314,25 @@ dialogueChFinalSeizeFriege4
 	.word LoadPortrait
 	.word portrait_Arion3
 	.byte StartText
-.text	"We have no home to return to, men..."
+.text	"Não temos para onde ir, homens..."
 	.byte NewLine
-.text	"But we must keep going nonetheless."
+.text	"Mas ainda temos que seguir em frente."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Chalphy's fall to our blades shall be the first step"
+.text	"Tirar Chalphy das mãos destes rebeldes"
 	.byte NewLine
-.text	"to winning back our fatherland."
+.text	"é o primeiro passo para recuperarmos"
+  .byte NewLine
+.text "nossa pátria." 
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Now, move in!"
+.text	"Ao ataque!"
 	.byte NewLine
-.text	"Show these liberators one final defiance from"
+.text	"Vamos dar a esses rebeldes a honra"
 	.byte NewLine
-.text	"the wyvern knights of Thracia!"
+.text	"de nossa última dança!"
 	.byte WaitForA
 
 	.byte EndText
@@ -1317,20 +1352,20 @@ dialogueChFinalSeizeVelthomer
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Are we quite certain the Book of Naga is in fact"
+.text	"Tem certeza de que o tomo de Naga"
 	.byte NewLine
-.text	"hidden in Velthomer, Lewyn?"
+.text	"está em Velthomer, Lewyn?"
 	
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"Yep. All the evidence we have points to Arvis"
+.text	"Tenho. Tudo indica que Arvis tirou o livro"
 	.byte NewLine
-.text	"taking it from Belhalla and keeping it hidden here."
+.text	"de Belhalla e o escondeu aqui."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"That's right, isn't it, Felipe?"
+.text	"É isso, certo, Felipe?"
 	.byte WaitForA
 	.byte ScrollText
 
@@ -1342,38 +1377,38 @@ dialogueChFinalSeizeVelthomer
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Felipe
-.text	"Indeed, sir."
+.text	"Isso mesmo, senhor."
 	.byte NewLine
-.text	"It should still lie in the treasury."
+.text	"Suponho que ainda esteja no cofre."
 	.byte NewLine
-.text	"That said, it is likely sealed in a locked case."
+.text	"Mas, provavelmente está numa caixa trancada."
 	
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"Huh."
+.text	"Entendi."
 	.byte NewLine
-.text	"Any idea where its key is?"
+.text	"E sabe onde a chave está?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Felipe
-.text	"My liege concealed the key within his most"
+.text	"Meu lorde escondeu ele dentro do seu"
 	.byte NewLine
-.text	"treasured memento..."
+.text	"maior tesouro... o diadema que sua esposa,"
 	.byte NewLine
-.text	"The circlet once worn by Empress Deirdre."
+.text	"a falecida Deirdre, usava."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If we can find that circlet, sir,"
+.text	"Se encontrar aquele diadema,"
 	.byte NewLine
-.text	"then the Book of Naga is yours."
+.text	"o Tomo de Naga estará em suas mãos."
 	
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"Deirdre's circlet, huh..."
+.text	"O diadema da Deirdre, é..."
 	.byte WaitForA
 
 	.byte EndText

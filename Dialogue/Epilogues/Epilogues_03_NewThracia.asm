@@ -15,73 +15,79 @@ dialogueEpiloguesNewThracia_Leif_AltenaAlive_Single
 	.word LoadPortrait
 	.word portrait_Leif
 	.byte StartText
-.text	"I couldn't possibly thank you enough for all that"
+.text	"Nem sei o que fazer pra te agradecer,"
 	.byte NewLine
-.text	"you've done, Lord Seliph."
+.text	"Lorde Seliph. Daqui a pouco eu irei"
 	.byte NewLine
-.text	"I'll be departing for Leonster shortly."
+.text	"voltar para Leonster."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"The Thracian Peninsula has suffered from war"
+.text	"A Península da Trácia sofreu muito com essa"
 	.byte NewLine
-.text	"for long enough, and it's high time that we rebuilt."
+.text	"guerra, e vou ter que trabalhar muito"
+  .byte NewLine
+.text 	"para reconstruir o território." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I know my sister, Altena,"
+.text	"Eu sei que minha irmã, Altena, quer muito"
 	.byte NewLine
-.text	"wishes dearly for a restored Thracia as well."
+.text	"reparar a terra dela também."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Indeed."
+.text	"Certamente."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"This war has lain waste to Thracia,"
+.text	"Essa guerra causou destruição na Trácia,"
 	.byte NewLine
-.text	"and I can only imagine the burden laid upon you,"
-	.byte NewLine
-.text	"the king-to-be of a united peninsula."
+.text	"e eu sei que você vai"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I pray you give it your best, no matter what"
+.text	"ter muito trabalho pela frente,"
 	.byte NewLine
-.text	"happens."
+.text	"como futuro rei da península unida."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu espero que você consiga sucesso"
+	.byte NewLine
+.text	"na sua reconstrução."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I will."
+.text	"Não desapontarei."
 	.byte NewLine
-.text	"You take care as well, Lord Seliph."
+.text	"Se cuide, Lorde Seliph."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Our fathers, Sigurd and Quan, were long ago"
+.text	"Nossos pais, Sigurd e Quan, eram"
 	.byte NewLine
-.text	"bound by the closest of friendships,"
+.text	"melhores amigos, e eles compartilharam a"
 	.byte NewLine
-.text	"sharing their deaths as they did their lives."
+.text	"morte assim como compartilharam a vida."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Prince Leif, I'd love nothing more than for us"
+.text	"Príncipe Leif, eu quero que nós sigamos"
 	.byte NewLine
-.text	"to follow their example and remain lifelong friends."
+.text	"o mesmo caminho deles, amigos até a morte!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"As do I, Lord Seliph!"
+.text	"Eu também, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -103,73 +109,79 @@ dialogueEpiloguesNewThracia_Leif_AltenaAlive_Married
 	.word LoadPortrait
 	.word portrait_Leif
 	.byte StartText
-.text	"I couldn't possibly thank you enough"
+.text	"Nem sei o que fazer pra te agradecer,"
 	.byte NewLine
-.text	"for everything, Lord Seliph."
+.text	"Lorde Seliph. Daqui a pouco eu irei"
 	.byte NewLine
-.text	"I'll be departing for Leonster shortly."
+.text	"voltar para Leonster."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"The Thracian Peninsula has suffered from war"
+.text	"A Península da Trácia sofreu muito com essa"
 	.byte NewLine
-.text	"long enough, and it's high time we rebuilt."
+.text	"guerra, e vou ter que trabalhar muito"
+  .byte NewLine
+.text "para reparar nosso território." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I know my sister, Altena,"
+.text	"Eu sei que minha irmã, Altena, quer muito"
 	.byte NewLine
-.text	"wishes dearly for a restored Thracia as well."
+.text	"restaurar a terra dela."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Indeed."
+.text	"Certamente."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"This war has lain waste to Thracia,"
+.text	"Essa guerra causou destruição na Trácia,"
 	.byte NewLine
-.text	"and I can only imagine the burden laid upon you,"
-	.byte NewLine
-.text	"the king-to-be of a united peninsula."
+.text	"e eu sei que você vai"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I pray you give it your best,"
+.text	"ter muito trabalho pela frente,"
 	.byte NewLine
-.text	"no matter what happens."
+.text	"como futuro rei da península unida."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu espero que você consiga sucesso"
+	.byte NewLine
+.text	"na sua reconstrução."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I will."
+.text	"Não desapontarei."
 	.byte NewLine
-.text	"You take care as well, Lord Seliph."
+.text	"Se cuide, Lorde Seliph."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Long ago, our fathers Sigurd and Quan"
+.text	"Nossos pais, Sigurd e Quan, eram"
 	.byte NewLine
-.text	"were bound by the closest of friendships,"
+.text	"melhores amigos, e eles compartilharam a"
 	.byte NewLine
-.text	"sharing their deaths as they did their lives."
+.text	"morte assim como compartilharam a vida."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Prince Leif, I'd love nothing more than for us"
+.text	"Príncipe Leif, eu quero que nós sigamos"
 	.byte NewLine
-.text	"to follow their example and remain lifelong friends."
+.text	"o mesmo caminho deles, amigos até a morte!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"As do I, Lord Seliph!"
+.text	"Eu também, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -193,73 +205,79 @@ dialogueEpiloguesNewThracia_Leif_AltenaDead_Single
 	.word LoadPortrait
 	.word portrait_Leif
 	.byte StartText
-.text	"I couldn't possibly thank you enough"
+.text	"Nem sei o que fazer pra te agradecer,"
 	.byte NewLine
-.text	"for everything, Lord Seliph."
+.text	"Lorde Seliph. Daqui a pouco eu irei"
 	.byte NewLine
-.text	"I'll be departing for Leonster shortly."
+.text	"voltar para Leonster."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"The Thracian Peninsula has suffered from war"
+.text	"A Península da Trácia sofreu muito com essa"
 	.byte NewLine
-.text	"long enough, and it's high time we rebuilt."
+.text	"guerra, e vou ter que trabalhar muito"
+  .byte NewLine
+.text "para reconstruir o território." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"At the very least, I owe my late sister, Altena,"
+.text	"No mínimo, tenho que fazer isso"
 	.byte NewLine
-.text	"that much..."
+.text	"pela minha irmã..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Indeed."
+.text	"Certamente."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"This war has lain waste to Thracia,"
+.text	"Essa guerra causou destruição na Trácia,"
 	.byte NewLine
-.text	"and I can only imagine the burden laid upon you,"
-	.byte NewLine
-.text	"the king-to-be of a united peninsula."
+.text	"e eu sei que você vai"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I pray you give it your best,"
+.text	"ter muito trabalho pela frente,"
 	.byte NewLine
-.text	"no matter what happens."
+.text	"como futuro rei da península unida."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu espero que você consiga sucesso"
+	.byte NewLine
+.text	"na sua reconstrução."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I will."
+.text	"Não desapontarei."
 	.byte NewLine
-.text	"You take care as well, Lord Seliph."
+.text	"Se cuide, Lorde Seliph."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Long ago, our fathers Sigurd and Quan"
+.text	"Nossos pais, Sigurd e Quan, eram"
 	.byte NewLine
-.text	"were bound by the closest of friendships,"
+.text	"melhores amigos, e eles compartilharam a"
 	.byte NewLine
-.text	"sharing their deaths as they did their lives."
+.text	"morte assim como compartilharam a vida."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Prince Leif, I'd love nothing more than for us"
+.text	"Príncipe Leif, eu quero que nós sigamos"
 	.byte NewLine
-.text	"to follow their example and remain lifelong friends."
+.text	"o mesmo caminho deles, amigos até a morte!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"As do I, Lord Seliph!"
+.text	"Eu também, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -281,73 +299,79 @@ dialogueEpiloguesNewThracia_Leif_AltenaDead_Married
 	.word LoadPortrait
 	.word portrait_Leif
 	.byte StartText
-.text	"I couldn't possibly thank you enough"
+.text	"Nem sei o que fazer pra te agradecer,"
 	.byte NewLine
-.text	"for everything, Lord Seliph."
+.text	"Lorde Seliph. Daqui a pouco eu irei"
 	.byte NewLine
-.text	"I'll be departing for Leonster shortly."
+.text	"voltar para Leonster."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"The Thracian Peninsula has suffered from war"
+.text	"A Península da Trácia sofreu muito com essa"
 	.byte NewLine
-.text	"long enough, and it's high time we rebuilt."
+.text	"guerra, e vou ter que trabalhar muito"
+  .byte NewLine
+.text "para reconstruir o território." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"At the very least, I owe my late sister, Altena,"
+.text	"No mínimo, tenho que fazer isso"
 	.byte NewLine
-.text	"that much..."
+.text	"pela minha irmã..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Indeed."
+.text	"Certamente."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"This war has lain waste to Thracia,"
+.text	"Essa guerra causou destruição na Trácia,"
 	.byte NewLine
-.text	"and I can only imagine the burden laid upon you,"
-	.byte NewLine
-.text	"the king-to-be of a united peninsula."
+.text	"e eu sei que você vai"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I pray you give it your best,"
+.text	"ter muito trabalho pela frente,"
 	.byte NewLine
-.text	"no matter what happens."
+.text	"como futuro rei da península unida."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu espero que você consiga sucesso"
+	.byte NewLine
+.text	"na sua reconstrução."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I will."
+.text	"Não desapontarei."
 	.byte NewLine
-.text	"You take care as well, Lord Seliph."
+.text	"Se cuide, Lorde Seliph."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Long ago, our fathers Sigurd and Quan"
+.text	"Nossos pais, Sigurd e Quan, eram"
 	.byte NewLine
-.text	"were bound by the closest of friendships,"
+.text	"melhores amigos, e eles compartilharam a"
 	.byte NewLine
-.text	"sharing their deaths as they did their lives."
+.text	"morte assim como compartilharam a vida."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Prince Leif, I'd love nothing more than for us"
+.text	"Príncipe Leif, eu quero que nós sigamos"
 	.byte NewLine
-.text	"to follow their example and remain lifelong friends."
+.text	"o mesmo caminho deles, amigos até a morte!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"As do I, Lord Seliph!"
+.text	"Eu também, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -368,12 +392,12 @@ dialogueEpiloguesNewThracia_Leif_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You're about to leave, aren't you, Leif?"
+.text	"Está para ir embora, Leif?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Do you wish to accompany me, "
+.text	"Quer me fazer companhia, "
 	.word PrintStoredNameA
 .text	"?"
 	.word PauseText
@@ -381,24 +405,24 @@ dialogueEpiloguesNewThracia_Leif_LoverQuipNoble
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Huh?"
+.text	"Hm?"
 	.byte NewLine
-.text	"Would that really be alright with you?"
+.text	"Você vai deixar eu ir contigo?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"But of course!"
+.text	"Mas é claro!"
 	.byte NewLine
-.text	"All I want is to have you and your might"
+.text	"Eu quero ter você e sua força"
 	.byte NewLine
-.text	"by my side."
+.text	"ao meu lado."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Th-thank you!"
+.text	"Muito obrigado!"
 	.word PauseText
 	.byte $60
 
@@ -417,12 +441,12 @@ dialogueEpiloguesNewThracia_Leif_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"So you're off, Leif?"
+.text	"Tá indo embora, Leif?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Do you wish to accompany me, "
+.text	"Quer me fazer companhia, "
 	.word PrintStoredNameA
 .text	"?"
 	.word PauseText
@@ -430,26 +454,26 @@ dialogueEpiloguesNewThracia_Leif_LoverQuipPeppy
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Huh?"
+.text	"Hm?"
 	.byte NewLine
-.text	"You'd be fine with me coming!?"
+.text	"Você me deixa ir com você!?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"But of course!"
+.text	"Mas é claro!"
 	.byte NewLine
-.text	"All I want is to have you and your might"
+.text	"Eu adoraria ter você e sua força"
 	.byte NewLine
-.text	"by my side."
+.text	"à meu lado."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Hwaaah!"
+.text	"Wahhhh!"
 	.byte NewLine
-.text	"Thank you, Leif!"
+.text	"Obrigado, Leif!"
 	.word PauseText
 	.byte $60
 
@@ -468,14 +492,14 @@ dialogueEpiloguesNewThracia_Leif_AltenaAlive_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Leif..."
+.text	"Leif... você tá indo"
 	.byte NewLine
-.text	"You're off soon, aren't you?"
+.text	"embora daqui a pouco, não é?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Do you want to accompany me, "
+.text	"Você quer vir comigo, "
 	.word PrintStoredNameA
 .text	"?"
 	.word PauseText
@@ -483,24 +507,24 @@ dialogueEpiloguesNewThracia_Leif_AltenaAlive_LoverQuipLarcei
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Huh?"
+.text	"Hm?"
 	.byte NewLine
-.text	"You really want me to come?"
+.text	"Quer mesmo que eu vá com você?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"But of course!"
+.text	"Mas é claro!"
 	.byte NewLine
-.text	"All I want is to have you and your might"
+.text	"Eu adoraria ter você e sua força"
 	.byte NewLine
-.text	"by my side."
+.text	"à meu lado."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Th-thank you..."
+.text	"O-obrigado..."
 	.word PauseText
 	.byte $60
 
@@ -519,14 +543,14 @@ dialogueEpiloguesNewThracia_Leif_AltenaDead_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Leif..."
+.text	"Leif... você tá indo"
 	.byte NewLine
-.text	"You're off soon, aren't you?"
+.text	"embora daqui a pouco, não é?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Do you want to accompany me, "
+.text	"Você quer vir comigo, "
 	.word PrintStoredNameA
 .text	"?"
 	.word PauseText
@@ -534,24 +558,24 @@ dialogueEpiloguesNewThracia_Leif_AltenaDead_LoverQuipLarcei
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Huh?"
+.text	"Hm?"
 	.byte NewLine
-.text	"You really want me to come?"
+.text	"Quer mesmo que eu vá com você?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"But of course."
+.text	"Mas é claro."
 	.byte NewLine
-.text	"I think my sister would have wanted"
+.text	"Acho que minha irmã iria querer ver"
 	.byte NewLine
-.text	"to have you and your might by my side."
+.text	"você à meu lado, para me ajudar."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Th-thank you..."
+.text	"O-obrigado..."
 	.word PauseText
 	.byte $60
 
@@ -577,41 +601,41 @@ dialogueEpiloguesNewThracia_Altena_LeifAlive_ArionAlive
 
 	.byte LeftSlot
 	.byte StartText
-.text	"So you're destined for Thracia as well,"
+.text	"Imagino que também está de saída"
 	.byte NewLine
-.text	"Princess Altena..."
+.text	"para a Trácia, Princesa Altena."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am, sir."
+.text	"Estou, senhor."
 	.byte NewLine
-.text	"I've got to help the new king in his quest"
+.text	"Tenho que ajudar o novo rei à criar uma"
 	.byte NewLine
-.text	"to give rise to a united Thracia."
+.text	"nova Trácia unida."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"At the very least, I ought to atone for the legacy"
+.text	"No mínimo, tenho de pagar pelos erros dos"
 	.byte NewLine
-.text	"of my adoptive family... Travant and Arion."
+.text	"meus familiares adotivos... Travant e Arion."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"How wonderful it would be, if Arion were to work"
+.text	"Seria ótimo se Arion quisesse trabalhar"
 	.byte NewLine
-.text	"together with you..."
+.text	"junto com vocês..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I... I don't believe that could happen for the"
+.text	"...Nesse momento, senhor, dificilmente ele"
 	.byte NewLine
-.text	"time being, sir."
+.text	"fará algo do tipo. Mas quem sabe um dia,"
 	.byte NewLine
-.text	"But perhaps someday, he'll feel the time is right..."
+.text	"ele resolva que chegou a hora..."
 	.word PauseText
 	.byte $60
 
@@ -635,43 +659,41 @@ dialogueEpiloguesNewThracia_Altena_LeifAlive_ArionDead
 
 	.byte LeftSlot
 	.byte StartText
-.text	"So you're destined for Thracia as well,"
+.text	"Imagino que também está de saída"
 	.byte NewLine
-.text	"Princess Altena..."
+.text	"para a Trácia, Princesa Altena..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am, sir."
+.text	"Estou, senhor."
 	.byte NewLine
-.text	"I've got to help the new king in his quest"
+.text	"Tenho que ajudar o novo rei à criar uma"
 	.byte NewLine
-.text	"to give rise to a united Thracia."
+.text	"nova Trácia unida."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"At the very least, I ought to atone for the legacy"
+.text	"No mínimo, tenho de pagar pelos erros dos"
 	.byte NewLine
-.text	"of my adoptive family... Travant and Arion."
+.text	"meus familiares adotivos... Travant e Arion."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Please accept my condolences for Arion."
+.text	"Eu sinto muitíssimo pelo Arion."
 	.byte NewLine
-.text	"You truly did love him..."
-	.byte NewLine
-.text	"I can tell."
+.text	"Você o amava de verdade..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Enough! I..."
+.text	"Basta! Eu..."
 	.byte NewLine
-.text	"Enough about him."
+.text	"Basta de falar dele."
 	.byte NewLine
-.text	"That's... that's all in the past now..."
+.text	"Isso... isso já é passado agora..."
 	.word PauseText
 	.byte $60
 
@@ -693,61 +715,65 @@ dialogueEpiloguesNewThracia_Altena_LeifDead_ArionAlive
 	.word LoadPortrait
 	.word portrait_Altena
 	.byte StartText
-.text	"You have my gratitude, Lord Seliph."
+.text	"Você tem minha gratidão, Lorde Seliph."
 	.byte NewLine
-.text	"I'm going to Leonster."
+.text	"Agora, eu irei para Leonster."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I can't abandon the Thracia region now,"
+.text	"Eu não posso deixar a Trácia desamparada,"
 	.byte NewLine
-.text	"not while the war's scars still pain it."
+.text	"os estragos da guerra ainda doem"
+  .byte NewLine
+.text "no seu povo." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"In Leif's name, it's up to me to restore Leonster."
+.text	"Em nome do meu irmão, eu irei restaurar"
+  .byte NewLine
+.text "o reinado de Leonster." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course..."
+.text	"Ah, certamente..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"With the loss of Prince Leif, you are the last hope"
+.text	"Sem o Príncipe Leif, só resta você para"
 	.byte NewLine
-.text	"to secure the fate of a united Thracia."
+.text	"tomar conta do futuro da Trácia."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"The task before you is monumental,"
+.text	"Você tem uma tarefa monumental à sua frente,"
 	.byte NewLine
-.text	"but I pray you'll give it your best."
+.text	"mas eu espero que você consiga cumpri-la."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, sir."
+.text	"Obrigado, senhor."
 	.byte NewLine
-.text	"You take care as well."
+.text	"Por favor, se cuide."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"How wonderful it would be, if Arion were to work"
+.text	"Seria ótimo se Arion quisesse trabalhar"
 	.byte NewLine
-.text	"together with you..."
+.text	"junto com você..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I... I don't believe that could happen for the"
+.text	"...Nesse momento, senhor, dificilmente ele"
 	.byte NewLine
-.text	"time being, sir."
+.text	"fará algo do tipo. Mas quem sabe um dia,"
 	.byte NewLine
-.text	"But perhaps someday, he'll feel the time is right..."
+.text	"ele resolva que chegou a hora..."
 	.word PauseText
 	.byte $60
 
@@ -769,59 +795,63 @@ dialogueEpiloguesNewThracia_Altena_LeifDead_ArionDead
 	.word LoadPortrait
 	.word portrait_Altena
 	.byte StartText
-.text	"You have my gratitude, Lord Seliph."
+.text	"Você tem minha gratidão, Lorde Seliph."
 	.byte NewLine
-.text	"I'm going to Leonster."
+.text	"Agora, eu irei para Leonster."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I can't abandon the Thracia region now,"
+.text	"Eu não posso deixar a Trácia desamparada,"
 	.byte NewLine
-.text	"not while the war's scars still pain it."
+.text	"os estragos da guerra ainda doem"
+  .byte NewLine
+.text "no seu povo." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"In Leif's name, it's up to me to restore Leonster."
+.text	"Em nome do meu irmão, eu irei restaurar"
+  .byte NewLine
+.text "o reinado de Leonster." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course..."
+.text	"Ah, certamente..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"With the loss of Prince Leif, you are the last hope"
+.text	"Sem o Príncipe Leif, só resta você para"
 	.byte NewLine
-.text	"to secure the fate of a united Thracia."
+.text	"tomar conta do futuro da Trácia."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"The task before you is monumental,"
+.text	"Você tem uma tarefa monumental à sua frente,"
 	.byte NewLine
-.text	"but I pray you'll give it your best."
+.text	"mas eu espero que você consiga cumpri-la."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, sir."
+.text	"Obrigado, senhor."
 	.byte NewLine
-.text	"You take care as well."
+.text	"Por favor, se cuide."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Listen, Altena."
+.text	"...Altena."
 	.byte NewLine
-.text	"About Arion-"
+.text	"Sinto muito pelo Ario-"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, that's..."
+.text	"Não, não diga nada..."
 	.byte NewLine
-.text	"That's... That's all in the past now..."
+.text	"Isso... isso já é passado..."
 	.word PauseText
 	.byte $60
 
@@ -846,51 +876,55 @@ dialogueEpiloguesNewThracia_Finn_LeifAlive
 	.word LoadPortrait
 	.word portrait_Adult_Finn
 	.byte StartText
-.text	"I shall be bound for home as well, milord."
+.text	"Eu me colocarei a caminho de"
+  .byte NewLine
+.text "casa também, milorde."
 	.byte NewLine
-.text	"I wish you the best of health."
+.text	"Eu te desejo uma vida longa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Sir Finn, you've come to my family's aid"
+.text	"Senhor Finn, por 20 anos, você foi parte"
 	.byte NewLine
-.text	"time and again, and for twenty years played a"
+.text	"crucial tanto na minha causa, quanto na"
 	.byte NewLine
-.text	"crucial part in both my cause and Father's."
+.text	"do meu pai."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I couldn't possibly thank you enough..."
+.text	"Tem algo que eu possa fazer para"
+  .byte NewLine
+.text "te agradecer?" 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, I am a servant of House Leonster."
+.text	"Não, senhor, eu sou um servo de Leonster."
 	.byte NewLine
-.text	"As a knight, I have but followed where my lieges"
+.text	"Sou um cavaleiro, e apenas segui as ordens"
 	.byte NewLine
-.text	"have led. No more, no less."
+.text	"dos meus senhores. Nada mais, nada menos."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
 
 	.byte LeftSlot
-.text	"Thracia is in your hands, Sir Finn."
+.text	"A Trácia está nas suas mãos, Senhor Finn."
 	.byte NewLine
-.text	"I hope you'll assist Prince Leif in granting Thracia"
+.text	"Eu peço que você ajude Leif à perpetuar a"
 	.byte NewLine
-.text	"its hard-won peace."
+.text	"paz na Trácia unida."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir. A peaceful Thracia was my Lord Quan's"
+.text	"Sim, senhor. A paz na Trácia era o sonho do"
 	.byte NewLine
-.text	"lifelong dream as well, and I'll do all I can"
+.text	"meu Lorde Quan, e eu farei tudo que posso"
 	.byte NewLine
-.text	"to bring that dream to life."
+.text	"para realizar esse sonho."
 	.word PauseText
 	.byte $60
 
@@ -912,67 +946,73 @@ dialogueEpiloguesNewThracia_Finn_LeifDead
 	.word LoadPortrait
 	.word portrait_Adult_Finn
 	.byte StartText
-.text	"I am bound for home as well, milord."
+.text	"Eu me colocarei a caminho de"
+  .byte NewLine
+.text "casa também, milorde." 
 	.byte NewLine
-.text	"I wish you the best of health."
+.text	"Eu te desejo uma vida longa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Sir Finn, you've come to my family's aid"
+.text	"Senhor Finn, por 20 anos, você foi parte"
 	.byte NewLine
-.text	"time and again, and for twenty years played a"
+.text	"crucial tanto na minha causa, quanto na"
 	.byte NewLine
-.text	"crucial part in both my cause and Father's."
+.text	"do meu pai."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I couldn't possibly thank you enough..."
+.text	"Tem algo que eu possa fazer para"
+  .byte NewLine
+.text "te agradecer?" 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am a knight, sir."
+.text	"Eu sou um cavaleiro, senhor."
 	.byte NewLine
-.text	"I did only my duty and followed where my lieges"
+.text	"Eu apenas fui aonde meus senhores"
 	.byte NewLine
-.text	"led me."
+.text	"me levaram."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Yet I failed, sir..."
+.text	"E eu falhei no meu serviço..."
 	.byte NewLine
-.text	"I couldn't protect Prince Leif when he needed"
+.text	"Não fui capaz de proteger o Príncipe"
 	.byte NewLine
-.text	"me the most."
+.text	"enquanto era preciso."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I've brought naught but shame and disgrace"
+.text	"Eu trouxe desgraça à meu nome"
 	.byte NewLine
-.text	"upon my rank..."
+.text	"e minha ordem..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You mustn't blame only yourself."
+.text	"... A culpa não é só sua."
 	.byte NewLine
-.text	"Leif would still be with us, if not for me..."
+.text	"Leif ainda estaria vivo, se não fosse"
+  .byte NewLine
+.text "a minha própria inépcia..." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Thracia is in your hands, Sir Finn."
+.text	"A Trácia está em suas mãos, senhor Finn."
 	.byte NewLine
-.text	"Do all you can to aid its people."
+.text	"Viva para proteger seu povo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir. If it means I can repent for the deaths of"
+.text	"Sim, senhor. Se eu sigo vivo, então eu"
 	.byte NewLine
-.text	"Lords Quan and Leif, I'll do all I can."
+.text	"seguirei servindo."
 	.word PauseText
 	.byte $60
 
@@ -996,36 +1036,36 @@ dialogueEpiloguesNewThracia_Hannibal_CoirpreCharlotAlive
 	.word LoadPortrait
 	.word portrait_Hannibal
 	.byte StartText
-.text	"Many thanks, King Seliph!"
+.text	"Muito obrigado, Rei Seliph!"
 	.byte NewLine
-.text	"I shall excuse myself now."
+.text	"Eu agora me despeço de ti."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Are you headed for Thracia as well,"
+.text	"Vai voltar para a Trácia também,"
 	.byte NewLine
-.text	"General Hannibal?"
+.text	"General Aníbal?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Indeed."
+.text	"Exatamente."
 	.byte NewLine
-.text	"Thracia yet hangs in the balance, and"
+.text	"A Trácia precisa de segurança, e"
 	.byte NewLine
-.text	"the people await my return."
+.text	"seu povo me espera."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Who better to lead the reconstruction"
+.text	"Tem alguém melhor para reconstruir"
 	.byte NewLine
-.text	"of Thracia than a mighty war hero?"
+.text	"a Trácia do que seu grande herói da guerra?"
 	.byte NewLine
-.text	"Do your best for the youths of Thracia."
+.text	"Faça o seu melhor pelos jovens da Trácia."
 	.word PauseText
 	.byte $60
 
@@ -1047,36 +1087,36 @@ dialogueEpiloguesNewThracia_Hannibal_CoirpreCharlotAlive_Repeat
 	.word LoadPortrait
 	.word portrait_Hannibal
 	.byte StartText
-.text	"Many thanks, King Seliph!"
+.text	"Muito obrigado, Rei Seliph!"
 	.byte NewLine
-.text	"I shall excuse myself now."
+.text	"Eu agora me despeço de ti."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Are you headed for Thracia as well,"
+.text	"Vai voltar para a Trácia também,"
 	.byte NewLine
-.text	"General Hannibal?"
+.text	"General Aníbal?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Indeed."
+.text	"Exatamente."
 	.byte NewLine
-.text	"Thracia yet hangs in the balance,"
+.text	"A Trácia precisa de segurança, e"
 	.byte NewLine
-.text	"and the people await my return."
+.text	"seu povo me espera."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Who better to lead the reconstruction"
+.text	"Tem alguém melhor para reconstruir"
 	.byte NewLine
-.text	"of Thracia than a mighty war hero?"
+.text	"a Trácia do que seu grande herói da guerra?"
 	.byte NewLine
-.text	"Do your best for the youths of Thracia."
+.text	"Faça o seu melhor pelos jovens da Trácia."
 	.word PauseText
 	.byte $60
 
@@ -1098,36 +1138,36 @@ dialogueEpiloguesNewThracia_Hannibal_CoirpreDead
 	.word LoadPortrait
 	.word portrait_Hannibal
 	.byte StartText
-.text	"Many thanks, King Seliph!"
+.text	"Muito obrigado, Rei Seliph!"
 	.byte NewLine
-.text	"I shall excuse myself now."
+.text	"Eu agora me despeço de ti."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Are you headed for Thracia as well,"
+.text	"Vai voltar para a Trácia também,"
 	.byte NewLine
-.text	"General Hannibal?"
+.text	"General Aníbal?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"The thought of returning to a Thracia with"
+.text	"Ter que voltar para meu país sem o"
 	.byte NewLine
-.text	"no Coirpre pains me, yet I couldn't bear to"
+.text	"meu filho é doloroso, mas eu tenho um"
 	.byte NewLine
-.text	"abandon Thracia's people now."
+.text	"dever para com meu povo."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I should have known you'd feel so..."
+.text	"Imaginei que esse seria o caso..."
 	.byte NewLine
-.text	"Thank you so much for all you've done,"
+.text	"Muito obrigado pelo seu serviço,"
 	.byte NewLine
-.text	"General Hannibal. Take care of yourself..."
+.text	"General Aníbal. Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -1149,36 +1189,36 @@ dialogueEpiloguesNewThracia_Hannibal_CharlotDead
 	.word LoadPortrait
 	.word portrait_Hannibal
 	.byte StartText
-.text	"Many thanks, King Seliph!"
+.text	"Muito obrigado, Rei Seliph!"
 	.byte NewLine
-.text	"I shall excuse myself now."
+.text	"Eu agora me despeço de ti."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Are you headed for Thracia as well,"
+.text	"Vai voltar para a Trácia também,"
 	.byte NewLine
-.text	"General Hannibal?"
+.text	"General Aníbal?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"The thought of returning to a Thracia with"
+.text	"Ter que voltar para meu país sem o"
 	.byte NewLine
-.text	"no Charlot pains me, yet I couldn't bear to"
+.text	"meu filho é doloroso, mas eu tenho um"
 	.byte NewLine
-.text	"abandon Thracia's people now."
+.text	"dever para com meu povo."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I should have known you'd feel so..."
+.text	"Imaginei que esse seria o caso..."
 	.byte NewLine
-.text	"Thank you so much for all you've done,"
+.text	"Muito obrigado pelo seu serviço,"
 	.byte NewLine
-.text	"General Hannibal. Take care of yourself..."
+.text	"General Aníbal. Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -1207,35 +1247,35 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_Single
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I presume you'll be departing with the general?"
+.text	"Imagino que você vai embora com o general?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am, sir."
+.text	"Eu vou, senhor. Vou ajudar"
 	.byte NewLine
-.text	"I'm going to work with Papa to rebuild Thracia."
+.text	"papai a reconstruir a Trácia."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I see... You know, "
+.text	"Entendi... sabe, "
 	.word PrintStoredNameB
 .text	","
 	.byte NewLine
-.text	"I've seldom seen anyone as happy as you are now."
+.text	"Eu nunca vi ninguém tão alegre quanto você."
 	.byte NewLine
-.text	"I confess I'm a bit envious!"
+.text	"Confesso estar com um pouco de inveja!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I'm so proud of Papa, sir."
+.text	"Eu me orgulho muito do meu papai, senhor."
 	.byte NewLine
-.text	"I may just be adopted, but I'm still the son"
+.text	"Eu posso ser adotado, mas ainda sou filho do"
 	.byte NewLine
-.text	"of the great General Hannibal!"
+.text	"grande General Aníbal!"
 	.word PauseText
 	.byte $60
 
@@ -1262,35 +1302,35 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_Married
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I presume you'll be departing with the general?"
+.text	"Imagino que você vai embora com o general?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am, sir."
+.text	"Eu vou, senhor. Vou ajudar"
 	.byte NewLine
-.text	"I'm going to work with Papa to rebuild Thracia."
+.text	"papai a reconstruir a Trácia."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I see... You know, "
+.text	"Entendi... sabe, "
 	.word PrintStoredNameB
 .text	","
 	.byte NewLine
-.text	"I've seldom seen anyone as happy as you are now."
+.text	"Eu nunca vi ninguém tão alegre quanto você."
 	.byte NewLine
-.text	"I confess I'm a bit envious!"
+.text	"Confesso estar com um pouco de inveja!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I'm so proud of Papa, sir."
+.text	"Eu me orgulho muito do meu papai, senhor."
 	.byte NewLine
-.text	"I may just be adopted, but I'm still the son"
+.text	"Eu posso ser adotado, mas eu sou filho do"
 	.byte NewLine
-.text	"of the great General Hannibal!"
+.text	"grande General Aníbal!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -1309,22 +1349,22 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Aww, how adorable, "
+.text	"Aww, que fofo, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"Good thing you've now got me"
+.text	"Que bom que agora eu tô aqui pra"
 	.byte NewLine
-.text	"to be like a big sister for you!"
+.text	"ser sua irmã mais velha!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh, "
+.text	"O quê, "
 	.word PrintStoredNameA
-.text	"Ktu?"
+.text	"?"
 	.byte NewLine
-.text	"...What exactly are you talking about?"
+.text	"...Do que você está falando?"
 	.word PauseText
 	.byte $60
 
@@ -1332,9 +1372,9 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_LoverQuipPeppy
 	.word ScrollBoth
 .text	"Hee hee!"
 	.byte NewLine
-.text	"You really are still just a kid!"
+.text	"Você é só uma criança."
 	.byte NewLine
-.text	"Relax, it'll all make total sense one day."
+.text	"Relaxa, um dia você vai entender."
 	.word PauseText
 	.byte $60
 
@@ -1350,30 +1390,30 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You're adorable, "
+.text	"Você é muito fofo, "
 	.word PrintStoredNameB
-.text	", y'know that?"
+.text	", sabia?"
 	.byte NewLine
-.text	"I guess from now on, you'll need me"
+.text	"Acho que daqui em diante, eu vou poder"
 	.byte NewLine
-.text	"to look after you like a big sister should."
+.text	"cuidar de você, como uma irmã maior faria."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh, "
+.text	"O quê, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"...What exactly are you talking about?"
+.text	"...Do que você está falando?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Eh, I guess you're still just a kid."
+.text	"Calma, você é só uma criança."
 	.byte NewLine
-.text	"Don't worry, you'll get it someday."
+.text	"Um dia você ai entender."
 	.word PauseText
 	.byte $60
 
@@ -1389,32 +1429,32 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_LoverQuipLana	; Lana, N
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You really are the cutest, "
+.text	"Você é um fofucho, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"And from now on, you'll have me around"
+.text	"E agora, eu vou poder ser uma"
 	.byte NewLine
-.text	"to be like your sister!"
+.text	"irmãzona pra você!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh, "
+.text	"Hm, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"...What exactly are you talking about?"
+.text	"...Como assim?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You really are still a child."
+.text	"Ah, você é só uma criança."
 	.byte NewLine
-.text	"Don't worry."
+.text	"Não se preocupe."
 	.byte NewLine
-.text	"Someday you'll understand everything."
+.text	"Um dia você vai entender."
 	.word PauseText
 	.byte $60
 
@@ -1430,32 +1470,34 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_LoverQuipNanna
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You really are the cutest, "
+.text	"Você realmente é um fofo, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"And from now on, you'll have me around"
+.text	"E daqui em diante, eu vou ser sua"
 	.byte NewLine
-.text	"to be your older sister!"
+.text	"irmã mais velha!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh, "
+.text	"Sério, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"...What exactly are you talking about?"
+.text	"Será que meu papai quer uma filha"
+  .byte NewLine
+.text "também?" 
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You really are still a child."
+.text	"Ah."
 	.byte NewLine
-.text	"Don't worry."
+.text	"Não se preocupe..."
 	.byte NewLine
-.text	"One day, you will understand."
+.text	"Um dia, você vai entender."
 	.word PauseText
 	.byte $60
 
@@ -1471,32 +1513,30 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalAlive_LoverQuipTine
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You really are the cutest, "
+.text	"Você é muito fofo, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"And from now on,"
+.text	"E eu fico muito feliz em poder"
 	.byte NewLine
-.text	"I'll get to be your older sister!"
+.text	'ser sua irmã mais velha agora!'
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh, "
+.text	"Quê, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"...What exactly are you talking about?"
+.text	"...O que você quer dizer?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You really are still a child."
+.text	"Ah, você é criança ainda."
 	.byte NewLine
-.text	"Don't worry."
-	.byte NewLine
-.text	"One day, you'll understand."
+.text	"Um dia você vai entender."
 	.word PauseText
 	.byte $60
 
@@ -1519,57 +1559,61 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalDead_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You're departing as well, "
+.text	"Está indo também, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"If I may ask, why?"
+.text	"Porquê?"
 	.byte NewLine
-.text	"I mean, now that General Hannibal has, er..."
+.text	"Digo... agora que General morreu, é..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, I know..."
+.text	"É, eu sei..."
 	.byte NewLine
-.text	"But Thracia was Papa's country."
+.text	"Mas a Trácia era o país do papai."
 	.byte NewLine
-.text	"He loved it so much..."
+.text	"Ele amava ela muito..."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"That's why I'm going back."
+.text	"É por isso que eu vou voltar."
 	.byte NewLine
-.text	"I've got to pick up where Papa left off!"
+.text	"Tenho que continuar daonde ele parou!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I see..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"I'm so, so sorry, "
+.text	"Por favor, "
 	.word PrintStoredNameB
-.text	"."
+.text	", me perdoe."
 	.byte NewLine
-.text	"Hannibal's death was my fault..."
+.text	"Aníbal morreu por minha culpa..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, don't worry, sir."
+.text	"Não, não diga isso, senhor."
 	.byte NewLine
-.text	"Remember, I'm not just some helpless child"
+.text	"Lembre, eu não sou mais só um"
 	.byte NewLine
-.text	"anymore."
+.text	"garoto indefeso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I miss Father so much... But I can't blame anyone"
+.text	"Eu sinto muita falta do meu pai..."
 	.byte NewLine
-.text	"for what happened to him."
-	.byte NewLine
-.text	"I'm the one who should be sorry..."
+.text	"Mas eu não posso culpar"
+  .byte NewLine
+.text "os outros pela morte dele." 
+	.word PauseText
+	.byte $60
+	.word ScrollBoth
+.text	"É eu que tenho que pedir desculpa..."
 	.word PauseText
 	.byte $60
 
@@ -1592,57 +1636,61 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalDead_Married
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You're departing as well, "
+.text	"Está indo também, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"If I may ask, why?"
+.text	"Porquê?"
 	.byte NewLine
-.text	"I mean, now that General Hannibal has, er..."
+.text	"Digo... agora que General morreu, é..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, I know..."
+.text	"É, eu sei..."
 	.byte NewLine
-.text	"But Thracia was Papa's country."
+.text	"Mas a Trácia era o país do papai."
 	.byte NewLine
-.text	"He loved it so much..."
+.text	"Ele amava ela muito..."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"That's why I'm going back."
+.text	"É por isso que eu vou voltar."
 	.byte NewLine
-.text	"I've got to pick up where Papa left off!"
+.text	"Tenho que continuar daonde ele parou!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I see..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"I'm so, so sorry, "
+.text	"Por favor, "
 	.word PrintStoredNameB
-.text	"."
+.text	", me perdoe."
 	.byte NewLine
-.text	"Hannibal's death was my fault..."
+.text	"Aníbal morreu por minha culpa..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, don't worry, sir."
+.text	"Não, não diga isso, senhor."
 	.byte NewLine
-.text	"Remember, I'm not just some helpless child"
+.text	"Lembre, eu não sou mais só um"
 	.byte NewLine
-.text	"anymore."
+.text	"garoto indefeso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I miss Papa so much... But I can't blame anyone"
+.text	"Eu sinto muita falta do meu pai..."
 	.byte NewLine
-.text	"for what happened to him."
-	.byte NewLine
-.text	"I'm the one who should be sorry..."
+.text	"Mas eu não posso culpar"
+  .byte NewLine
+.text "os outros pela morte dele." 
+	.word PauseText
+	.byte $60
+	.word ScrollBoth
+.text	"É eu que tenho que pedir desculpa..."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -1661,38 +1709,37 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalDead_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Cheer up, "
+.text	"Levante a cabeça, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"After all, you're a man now, aren't you?"
+.text	"Afinal, você é um homem agora, não é?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Everything will be okay."
+.text	"Vai ficar tudo bem."
 	.byte NewLine
-.text	"I'll make sure of it."
-	.byte NewLine
-.text	"I'll always look out for you."
+.text	"Eu vou sempre cuidar de você."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh, "
+.text	"Sério, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"...What exactly are you talking about?"
+.text	"Obrigado..."
 	.word PauseText
 	.byte $60
+	.word ScrollBoth
+	.byte LeftSlot
+	.word CloseBox
+	.word ClearPortrait
 
 	.byte LeftSlot
-	.word ScrollBoth
-.text	"You really are still a child."
+.text	"Ah, acho que ele não entendeu."
 	.byte NewLine
-.text	"Don't worry."
-	.byte NewLine
-.text	"Someday you'll understand everything."
+.text	"Ainda não chegou a hora dele."
 	.word PauseText
 	.byte $60
 
@@ -1709,36 +1756,36 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalDead_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"C'mon, "
+.text	"Vamos, "
 	.word PrintStoredNameB
-.text	", cheer up!"
+.text	", anime-se!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"No need to worry."
+.text	"Não precisa chorar."
 	.byte NewLine
-.text	"I'll always be right by your side from now on."
+.text	"Eu vou estar sempre do seu lado agora."
 	.byte NewLine
-.text	"I'll be like an older sister to you!"
+.text	"Vou ser tipo uma irmã mais velha!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh, "
+.text	"Hm, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"...What exactly are you talking about?"
+.text	"... Como assim?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Hee hee! You really are still just a kid!"
+.text	"Hee hee! Você ainda é criança!"
 	.byte NewLine
-.text	"It's kinda adorable, actually."
+.text	"Você é um fofo também."
 	.byte NewLine
-.text	"Relax, it'll all make sense one day!"
+.text	"Relaxa, um dia você vai entender!"
 	.word PauseText
 	.byte $60
 
@@ -1755,36 +1802,39 @@ dialogueEpiloguesNewThracia_CoirpreCharlot_HannibalDead_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"C'mon, "
+.text	"Vamos, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Cheer up!"
+.text	"Levanta a cabeça!"
 	.byte NewLine
-.text	"You're a man now, right?"
+.text	"Você é um homem agora, não é?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"It'll all work out."
+.text	"Vai dar tudo certo."
 	.byte NewLine
-.text	"I've got your back from now on."
+.text	"Eu vou cuidar de você agora."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh, "
+.text	"Sério, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"...What exactly are you talking about?"
+.text	"Obrigado..."
 	.word PauseText
 	.byte $60
-
-	.byte LeftSlot
 	.word ScrollBoth
-.text	"Eh, I guess you're still just a kid."
+	.byte LeftSlot
+	.word CloseBox
+	.word ClearPortrait
+	
+	.byte LeftSlot
+.text	"Eh, acho que ele não entendeu."
 	.byte NewLine
-.text	"Don't worry, you'll get it someday."
+.text	"Melhor assim."
 	.word PauseText
 	.byte $60
 
@@ -1846,45 +1896,45 @@ dialogueEpiloguesNewThracia_Asaello_DaisyAlive_Single
 	.word LoadPortrait
 	.word portrait_Asaello
 	.byte StartText
-.text	"I'm going home as well, Seliph."
+.text	"Eu tô indo pra casa, Seliph."
 	.byte NewLine
-.text	"I owe you real big."
+.text	"Mas, eu tô te devendo uma."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You're a Connacht native, yes?"
+.text	"Você é de Connacht, não é?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah. My folks were hunters workin' in Connacht."
+.text	"Isso. Meus pais eram caçadores na região."
 	.byte NewLine
-.text	"They were pretty poor, then they got caught up"
+.text	"Éramos bem pobres, e aí a guerra começou"
 	.byte NewLine
-.text	"in the war and got killed."
+.text	"e eles foram mortos..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Is that so..."
+.text	"Eu sinto muito..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Guess that's why I hate kings and nobles."
+.text	"E é por isso que eu odeio os nobres."
 	.byte NewLine
-.text	"Well, most of em. I mean, you're actually alright,"
+.text	"A maioria deles, você é aceitável,"
 	.byte NewLine
-.text	"Seliph. Good luck out there, okay?"
+.text	"Seliph. Continue assim."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Thank you, Asaello."
+.text	"Obrigado, Asaello."
 	.word PauseText
 	.byte $60
 
@@ -1906,45 +1956,45 @@ dialogueEpiloguesNewThracia_Asaello_DaisyAlive_Married
 	.word LoadPortrait
 	.word portrait_Asaello
 	.byte StartText
-.text	"I'm going home as well, Seliph."
+.text	"Eu tô indo pra casa, Seliph."
 	.byte NewLine
-.text	"I owe you real big."
+.text	"Mas, eu tô te devendo uma."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You're a Connacht native, yes?"
+.text	"Você é de Connacht, não é?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah. My folks were hunters workin' in Connacht."
+.text	"Isso. Meus pais eram caçadores na região."
 	.byte NewLine
-.text	"They were pretty poor, then they got caught up"
+.text	"Éramos bem pobres, e aí a guerra começou"
 	.byte NewLine
-.text	"in the war and got killed."
+.text	"e eles morreram..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Is that so..."
+.text	"Eu sinto muito..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Guess that's why I hate kings and nobles."
+.text	"E é por isso que eu odeio os nobres."
 	.byte NewLine
-.text	"Well, most of em. I mean, you're actually alright,"
+.text	"A maioria deles, você é aceitável,"
 	.byte NewLine
-.text	"Seliph. Good luck out there, okay?"
+.text	"Seliph. Continue assim."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Thank you, Asaello."
+.text	"Obrigado, Asaello."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -1961,45 +2011,42 @@ dialogueEpiloguesNewThracia_Asaello_DaisyAlive_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You're sad, aren't you, "
+.text	"Vejo que você está triste, "
 	.word PrintStoredNameB
-.text	"?"
+.text	"."
 	.byte NewLine
-.text	"Sad that you need to part with Lord Seliph..."
+.text	"Triste por ter que se despedir"
 	.byte NewLine
+.text "do Lorde Seliph..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"W-what?"
+.text	"Q-quê?"
 	.byte NewLine
-.text	"No, not even close!"
+.text	"Não, nada disso!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"And being with me wouldn't help?"
+.text	"E se eu ficar com você?"
 	.byte NewLine
-.text	"You'd still be lonely?"
+.text	"Vai se sentir melhor?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, that's not it at all!"
+.text	"Sim... ter você comigo é muito"
 	.byte NewLine
-.text	"You being here means so much to me."
-	.byte NewLine
-.text	"You could never not be a help!"
+.text	"importante pra mim."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
 	.byte StartText
-.text	"Heh..."
-	.byte NewLine
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
@@ -2017,35 +2064,35 @@ dialogueEpiloguesNewThracia_Asaello_DaisyAlive_LoverQuipLana
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You're sad, aren't you, "
+.text	"Você está triste, não é, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Sad that you need to part with Lord Seliph..."
+.text	"Triste em dar tchau pro Lorde Seliph..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"W-What?"
+.text	"Q-quê?"
 	.byte NewLine
-.text	"No, not even close!"
+.text	"Não, nada disso!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"And being with me wouldn't help?"
+.text	"Então, como que eu vou te ajudar?"
 	.byte NewLine
-.text	"Even then, you'd still be lonely?"
+.text	"Como vou curar sua solidão?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, that's not it at all!"
+.text	"Não, não é isso!"
 	.byte NewLine
-.text	"You being here means so much to me."
+.text	"Você significa tudo pra mim."
 	.byte NewLine
-.text	"You could never not be a help!"
+.text	"Você vai me ajudar."
 	.word PauseText
 	.byte $60
 
@@ -2061,15 +2108,15 @@ dialogueEpiloguesNewThracia_Asaello_DaisyAlive_LoverQuipPeppy
 	.word LoadStoredPortraitB
 	.byte StartText
 	.word PrintStoredNameB
-.text	", I know it's going to be hard for you"
+.text	", eu sei que não vai ser fácil pra"
 	.byte NewLine
-.text	"to leave Seliph."
+.text	"você dar tchau pro Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"But don't worry!"
+.text	"Mas não se preocupe! Eu tô"
 	.byte NewLine
-.text	"I'll always be here for you!"
+.text	"aqui pra te consolar!"
 
 	.byte RightSlot
 	.word PauseText
@@ -2077,24 +2124,24 @@ dialogueEpiloguesNewThracia_Asaello_DaisyAlive_LoverQuipPeppy
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"Thanks, I guess."
+.text	"Obrigado."
 	.byte NewLine
-.text	"Having you around is better than nobody."
+.text	"Você é melhor que nada."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Tee hee!"
+.text	"Tee hee! Quando você tá assim,"
 	.byte NewLine
-.text	"You're so cute when you're shy!"
+.text	"tímido, você fica muito fofo!"
 	.byte NewLine
-.text	"That's why I like you."
+.text	"É por isso que eu gosto de você."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Oh, come on, you don't have to put that in words."
+.text	"Pera aí, isso aí você não precisa falar!"
 	.byte NewLine
 	.word PauseText
 	.byte $60
@@ -2113,55 +2160,55 @@ dialogueEpiloguesNewThracia_Asaello_DaisyAlive_LoverQuipLarcei
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Leaving Seliph now's gotta be pretty painful, huh?"
+.text	"Se despedir do Seliph vai doer, não é?"
 	.byte NewLine
-.text	"I know you'll tough it out."
+.text	"Mas eu sei que você vai ficar bem."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I know that, "
+.text	"Eu vou ficar bem, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I'm not weak."
+.text	"Eu não sou um fracote."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"What's with the attitude?"
+.text	"E porquê o estresse?"
 	.byte NewLine
-.text	"I'm just worried about you!"
+.text	"Eu só estou preocupada com você!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Don't worry about me."
+.text	"Não se preocupe comigo."
 	.byte NewLine
-.text	"I told you, I'm not weak."
+.text	"Já te falei, não sou fraco."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"You couldn't possibly understand how I feel!"
+.text	"Você nunca me entenderia!"
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Fine, then. I'm leaving you."
+.text	"Tá bom então. Fique sozinho então."
 	.byte NewLine
-.text	"You can go home by yourself!"
+.text	"Vai pra casa sozinho!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Hold on, I didn't mean it..."
+.text	"Espera, volta aqui..."
 	.byte NewLine
-.text	"I'm sorry!"
+.text	"Me desculpa!"
 	.byte NewLine
-.text	"Just don't leave me!"
+.text	"Não me deixe!"
 	.word PauseText
 	.byte $60
 
@@ -2175,40 +2222,46 @@ dialogueEpiloguesNewThracia_Asaello_DaisyAlive_LoverQuipLarcei
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"Come on."
+.text	"Sem essa."
 	.byte NewLine
-.text	"I need you."
+.text	"Eu preciso de você."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Okay, but I need you to promise one thing:"
+.text	"Tudo bem, mas você vai me prometer uma coisa:"
 	.byte NewLine
-.text	"don't talk back to me ever again."
+.text	"nunca mais responda pra mim de novo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"F-Fine..."
+.text	"T-tudo bem..."
 	.byte NewLine
-.text	"I promise..."
+.text	"Eu prometo..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Then all is forgiven."
+.text	"Então está perdoado."
 	.byte NewLine
-.text	"Let's go."
+.text	"Vamos."
+  .word PauseText
+  .byte $60
+  .word ClearPortrait
+  .word CloseBox
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Sigh..."
+.text	"Ufff..."
 	.byte NewLine
-.text	"Can't live with her, can't live without her..."
+.text	"Impossível viver com ela,"
+  .byte NewLine
+.text "impossível viver sem ela..." 
 	.word PauseText
 	.byte $60
 
@@ -2230,45 +2283,47 @@ dialogueEpiloguesNewThracia_Asaello_DaisyDead_Single
 	.word LoadPortrait
 	.word portrait_Asaello
 	.byte StartText
-.text	"I'm going home as well, Seliph."
+.text	"Eu tô indo pra casa, Seliph."
 	.byte NewLine
-.text	"I owe you real big."
+.text	"Mas, eu tô te devendo uma."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You're a Connacht native, yes?"
+.text	"Você é de Connacht, não é?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah. My folks were hunters workin' in Connacht."
+.text	"Isso. Meus pais eram caçadores na região."
 	.byte NewLine
-.text	"They were pretty poor, then they got caught up"
+.text	"Éramos bem pobres, e aí a guerra começou"
 	.byte NewLine
-.text	"in the war and got killed."
+.text	"e eles foram mortos..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Asaello, I... I'm so sorry about Daisy..."
+.text	"Asaello, por favor... me perdoe..."
+  .byte NewLine
+.text "Eu não pude proteger sua irmã..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Hey, it wasn't your fault."
+.text	"Não foi culpa sua..."
 	.byte NewLine
-.text	"I'm the one who stuffed up here."
+.text	"Fui eu que não cumpri com meu dever."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I... I'll take Daisy home with me."
+.text	"Eu... vou levar a Daisy pra casa."
 	.byte NewLine
-.text	"She deserves to rest with her parents."
+.text	"Ela merece descansar com os pais dela."
 	.byte NewLine
-.text	"Then... Then I can mourn her."
+.text	"Só depois eu terei tempo pro luto."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -2296,45 +2351,47 @@ dialogueEpiloguesNewThracia_Asaello_DaisyDead_Married
 	.word LoadPortrait
 	.word portrait_Asaello
 	.byte StartText
-.text	"I'm going home as well, Seliph."
+.text	"Eu tô indo pra casa, Seliph."
 	.byte NewLine
-.text	"I owe you real big."
+.text	"Mas, eu tô te devendo uma."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You're a Connacht native, yes?"
+.text	"Você é de Connacht, não é?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah. My folks were hunters workin' in Connacht."
+.text	"Isso. Meus pais eram caçadores na região."
 	.byte NewLine
-.text	"They were pretty poor, then they got caught up"
+.text	"Éramos bem pobres, e aí a guerra começou"
 	.byte NewLine
-.text	"in the war and got killed."
+.text	"e eles foram mortos..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Asaello, I... I'm so sorry about Daisy..."
+.text	"Asaello, por favor... me perdoe..."
+  .byte NewLine
+.text "Eu não pude proteger sua irmã..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Hey, it wasn't your fault."
+.text	"Não foi culpa sua..."
 	.byte NewLine
-.text	"I'm the one who stuffed up here."
+.text	"Fui eu que não cumpri com meu dever."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I... I'll take Daisy home with me."
+.text	"Eu... vou levar a Daisy pra casa."
 	.byte NewLine
-.text	"She deserves to rest with her parents."
+.text	"Ela merece descansar com os pais dela."
 	.byte NewLine
-.text	"Then... Then I can mourn her."
+.text	"Só depois eu terei tempo pro luto."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -2357,40 +2414,39 @@ dialogueEpiloguesNewThracia_Asaello_DaisyDead_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Come on, "
+.text	"Por favor, "
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Cheer up..."
-	.byte NewLine
-.text	"Please..."
+.text	"Anime-se..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, you're right..."
+.text	"... Você tem razão."
 	.byte NewLine
-.text	"I can't wallow in all this forever."
+.text	"Não posso ficar chorando pra sempre."
 	.byte NewLine
-.text	"Nothing I can do bout it now."
+.text	"Mas... eu vou precisar de um tempo."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I suppose there's nothing I can do"
+.text	"Suponho que não tem nada que eu possa"
 	.byte NewLine
-.text	"to fill the hole in your heart..."
+.text	"fazer para te ajudar..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You're kidding, right?"
+.text	"Você tá brincando, não é?"
 	.byte NewLine
-.text	"You're so important to me, "
+.text	"Você é tudo pra mim, "
 	.word PrintStoredNameA
-.text	"!"
+.text	"! Eu vou precisar"
 	.byte NewLine
+.text	"de você pra superar isso."
 	.word PauseText
 	.byte $60
 
@@ -2405,13 +2461,13 @@ dialogueEpiloguesNewThracia_Asaello_DaisyDead_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Quit with the tough guy act, "
+.text	"Para de fazer essa pose de durão, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Let it out."
+.text	"Pode botar tudo pra fora."
 	.byte NewLine
-.text	"I'm here for you."
+.text	"Eu tô aqui pra te ajudar."
 
 	.byte RightSlot
 	.word PauseText
@@ -2419,26 +2475,28 @@ dialogueEpiloguesNewThracia_Asaello_DaisyDead_LoverQuipPeppy
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"Thanks, I guess."
+.text	"Obrigado, eu acho."
 	.byte NewLine
-.text	"Having you around is better than nobody."
+.text	"É melhor ter você do que não ter ninguém."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Tee hee, that's more like the "
+.text	"Hee hee, esse é o "
 	.word PrintStoredNameB
-.text	" I know."
+.text	" que eu conheço."
 	.byte NewLine
-.text	"Daisy wouldn't want you moping around."
+.text	"Daisy não iria gostar de te ver."
+  .byte NewLine
+.text "chorando assim." 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You're right."
+.text	"Você tem razão."
 	.byte NewLine
-.text	"Thanks, "
+.text	"Obrigado, "
 	.word PrintStoredNameA
 .text	"."
 	.word PauseText
@@ -2455,41 +2513,44 @@ dialogueEpiloguesNewThracia_Asaello_DaisyDead_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"C'mon, "
+.text	"Vamos, "
 	.word PrintStoredNameB
-.text	", cheer up."
+.text	", levante a cabeça."
 	.byte NewLine
-.text	"Looking so sad just isn't you at all."
+.text	"Essa cara triste não combina com você."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, I guess you're right."
+.text	"É, você tá certa. Eu vou ter tempo"
 	.byte NewLine
-.text	"Plenty of time to bawl my eyes out later."
+.text	"pra chorar depois."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"If you need to weep, then weep away, I guess."
+.text	"Se você quiser chorar, chore, então."
 	.byte NewLine
+.text	"Acho que a"
 	.word PrintStoredNameC
-.text	"'d probably be touched by you crying for her."
+.text	" ficaria tocada vendo o seu choro."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"But you can't be morose forever."
+.text	"Mas você não pode ficar assim pra sempre."
 	.byte NewLine
-.text	"It's just not manly!"
+.text	"Não combina com um homem!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 	.word PrintStoredNameA
-.text	"... You're so strong."
+.text	"... você é uma pessoa forte."
 	.byte NewLine
-.text	"Guess that's why I fell for ya."
+.text	"Acho que é por isso que eu"
+  .byte NewLine
+.text "caí nas suas mãos." 
 	.word PauseText
 	.byte $60
 
@@ -2515,47 +2576,47 @@ dialogueEpiloguesNewThracia_Daisy_AsaelloAlive_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And you as well, Daisy?"
+.text	"Você vai também, Daisy?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yep. No offense, but I can't say I want to"
+.text	"Vou. Sem querer ofender, mas eu não quero"
 	.byte NewLine
-.text	"sit around here twiddling my thumbs."
+.text	"ficar por aqui desocupada."
 	.byte NewLine
-.text	"Besides, my brother'll need my help!"
+.text	"Além disso, tenho que ajudar meu irmão!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
 	.byte StartText
-.text	"Remember, there's plenty to keep you busy"
+.text	"Lembre-se, tem muito a se fazer em Connacht"
 	.byte NewLine
-.text	"in Connacht which doesn't involve stealing."
+.text	"que não envolve roubo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Oh!"
 	.byte NewLine
-.text	"How could you SAY that, sir?!"
+.text	"Como pode dizer isso, senhor?!"
 	.byte NewLine
-.text	"I gave the thief thing up ages ago!"
+.text	"Eu já larguei o crime a muito tempo!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Heh, my apologies."
+.text	"Heh, me desculpe."
 	.byte NewLine
-.text	"Well, Daisy, take care."
+.text	"Bem, Daisy, se cuide."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You too, sir..."
+.text	"Você também, senhor..."
 	.word PauseText
 	.byte $60
 
@@ -2579,47 +2640,65 @@ dialogueEpiloguesNewThracia_Daisy_AsaelloDead_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And you as well, Daisy?"
+.text	"Vai embora também, Daisy?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yep. No offense, but I can't say I want to"
+.text	"Sim. Me perdoe, mas eu não posso ficar"
 	.byte NewLine
-.text	"sit around here, twiddling my thumbs,"
+.text	"atoa por aqui. Ainda mais agora que"
 	.byte NewLine
-.text	"especially now that Asaello's gone..."
+.text	"meu irmão se foi..."
 	.word PauseText
 	.byte $60
 
-	.byte LeftSlot
+	.byte LeftSlot  ;Mudei a frase porque é extremamente estranho ela ser igual nos dois casos, além disso deixar o Seliph bem com cara de fdp. Em todo caso, pra quem estiver analisando esses files, a conversa daqui para baixo era igual à da string anterior.
 	.word ScrollBoth
 	.byte StartText
-.text	"Remember, there's plenty to keep you busy"
+.text	"Daisy, se você quiser, eu posso te ajudar."
 	.byte NewLine
-.text	"in Connacht which doesn't involve stealing."
+.text	"Vai ser muito difícil cuidar do orfanato"
+  .byte NewLine
+.text "sozinha."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Oh!"
+.text	"Seliph... não se preocupe,"
 	.byte NewLine
-.text	"How could you SAY that, sir?!"
+.text	"eu vou dar meu jeito... eu espero"
 	.byte NewLine
-.text	"I gave the thief thing up ages ago!"
+.text	"não ter que voltar a roubar pelo menos."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Heh, my apologies."
+.text	"Eu espero o mesmo, Daisy."
 	.byte NewLine
-.text	"Well, Daisy, take care."
+.text	"Se não foi para acabar com esses problemas,"
+  .byte NewLine
+.text "não sei para que serviu essa guerra..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You too, sir..."
+.text	"Seliph... o que você fez foi bom"
+  .byte NewLine
+.text "pra todo mundo, eu tenho certeza que meu"
+  .byte NewLine
+.text "irmão morreu por uma boa causa." 
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Até a próxima, Seliph."
+  .word PauseText
+  .byte $60
+  
+	.byte LeftSlot
+	.word ScrollBoth
+.text	"Até, Daisy..."
 	.word PauseText
 	.byte $60
 
@@ -2645,62 +2724,69 @@ dialogueEpiloguesNewThracia_Daisy_LoverDead
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Are... Are those tears?"
+.text	"Você... está chorando?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Sniff..."
 	.byte NewLine
-.text	"Yeah, they are..."
+.text	"Sim, estou..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You truly did love "
+.text	"Você amava o "
 	.word PrintStoredNameA
-.text	", didn't you..."
+.text	" de verdade, não é..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I did! I really did..."
+.text	"Eu amava ele..."
 	.byte NewLine
-.text	"So, so much..."
+.text	"Eu amava ele muito, demais..."
 	.byte NewLine
-.text	"What do I do now, Lord Seliph?"
+.text	"O que eu faço agora, Lorde Seliph?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I cannot say for sure, "
+.text	"Eu não tenho muito o que dizer, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"But I do know this: You need to live on."
+.text	"Somente uma coisa: Tem que seguir em frente."
 	.byte NewLine
-.text	"Be strong."
+.text	"Seja forte."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"No matter the tragedies which befall you,"
+.text	"Não importa o que acontecer, você"
 	.byte NewLine
-.text	"you mustn't give in completely."
+.text	"não pode desistir."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Y-yeah... I'll try..."
+.text	"É-é... eu vou tentar..."
 	.byte NewLine
-.text	"But can I ask for something first?"
+.text	"Mas eu posso te pedir uma coisa primeiro?"
 	.word PauseText
 	.byte $60
+
+	.byte LeftSlot
 	.word ScrollBoth
-.text	"Can you just... hold me for a while?"
+.text	"Pode, Daisy."
+
+	.byte RightSlot
+	.word PauseText
+	.byte $20
+.text	"Pode me... segurar um tempinho?"
 	.byte NewLine
-.text	"Is that okay?"
+.text	"Tem como?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -2729,11 +2815,11 @@ dialogueEpiloguesNewThracia_End_LeifOrAltenaAlive_OneCharacter
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Your job certainly won't be easy."
+.text	"Seu trabalho não será fácil. Você"
 	.byte NewLine
-.text	"You need to unite two peoples divided by hatred"
+.text	"terá que unir no amor dois povos separados"
 	.byte NewLine
-.text	"to build a new, peaceful land."
+.text	"pelo ódio, para assim trazer a paz."
 	.word PauseText
 	.byte $60
 
@@ -2753,17 +2839,17 @@ dialogueEpiloguesNewThracia_End_LeifOrAltenaAlive_MultipleCharacters
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"The job awaiting you, the heroes of Thracia,"
+.text	"O trabalho que os espera, heróis da Trácia,"
 	.byte NewLine
-.text	"certainly won't be easy."
+.text	"não será nada fácil."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"It's up to you to unite two peoples long divided"
+.text	"Nas sua mãos está a missão de unir dois povos"
 	.byte NewLine
-.text	"by bitter hatred, and build for all of them a new,"
+.text	"separados por um terrível ódio, e assim,"
 	.byte NewLine
-.text	"peaceful land."
+.text	"construir uma terra pacífica para ambos."
 	.word PauseText
 	.byte $60
 

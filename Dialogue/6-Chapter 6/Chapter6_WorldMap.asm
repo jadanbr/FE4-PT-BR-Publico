@@ -59,12 +59,12 @@ dialogueCh6WM1
 	.byte $0A
 	
 	.byte StartText
-.text	"The Battle of Belhalla had sent nearly"
+.text	"A Batalha de Belhalla mandou quase todas"
 	.byte NewLine
-.text	"all of Grannvale’s most influential leaders"
+.text	"as figuras mais influentes de Grannvale"
 	.byte WaitForA
 	.byte NewLine
-.text	"to an early grave."
+.text	"para uma morte precoce."
 	.byte WaitForA
 	
 	.word PauseText
@@ -83,7 +83,7 @@ dialogueCh6WM1
 
 	.word PauseText
 	.byte $0A
-.text	"All according to his plans,"
+.text	"Tudo conforme seus planos,"
 	.word PauseText
 	.byte $10
 
@@ -93,12 +93,12 @@ dialogueCh6WM1
 	.word ClearMapSymbol
 	.byte Low
 
-.text	" this left Lord Arvis"
+.text	" isso deixou Arvis"
 	.byte NewLine
-.text	"as the sole ruling power of the kingdom,"
+.text	"como a única liderança dentro do reino,"
 	.byte WaitForA
 	.byte NewLine
-.text	"seizing the throne and its future with both hands."
+.text	"e ele então toma o trono para si."
 	.byte WaitForA
 
 	.word PauseText
@@ -132,13 +132,13 @@ dialogueCh6WM2
 	.byte $38
 
 	.byte StartText
-.text	"Shortly after, with larger goals of unifying"
+.text	"Logo depois, com o objetivo de"
 	.byte NewLine
 	
 	.word ClearMapSymbol
 	.byte Low
 	
-.text	"the continent under one banner,"
+.text	"unir todo o continente sob seu domínio,"
 
 	.word PauseText
 	.byte $0A
@@ -147,20 +147,20 @@ dialogueCh6WM2
 	
 	.byte WaitForA
 	.byte NewLine
-.text	"he orchestrates invasions of the opposing"
+.text	"ele orquestra invasões dos reinos"
 	.byte NewLine
-.text	"Kingdoms of Silesse and Leonster."
+.text	"de Silesse e Leonster."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Upon the downfall of both nations, Arvis,"
+.text	"Após a queda dessas nações, Arvis,"
 	.byte NewLine
-.text	"met with overwhelming support from the people,"
+.text	"com todo o apoio do povo,"
 	.byte WaitForA
 	.byte NewLine
-.text	"becomes the first emperor"
+.text	"se coroa o primeiro imperador do"
 	.byte NewLine
-.text	"of the new Grannvale Empire."
+.text	"novo Império de Grannvale."
 	.byte WaitForA
 	
 	.word PauseText
@@ -177,12 +177,12 @@ dialogueCh6WM2
 dialogueCh6WM3
 
 	.byte StartText
-.text	"The flow of time continues evermore,"
+.text	"O tempo passa como sempre,"
 	.byte WaitForA
 	.byte NewLine
-.text	"and now, seventeen years have passed"
+.text	"e agora, já se foram dezessete anos"
 	.byte NewLine
-.text	"since the Battle of Belhalla..."
+.text	"desde a Batalha de Belhalla..."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -203,28 +203,28 @@ dialogueCh6WM3
 	.byte $64
 	.byte $38
 	
-.text	"Ardent crowds which used to hail his name"
+.text	"As multidões que saudavam seu nome"
 	.byte NewLine
-.text	"have now turned weary"
+.text	"agora choram"
 	.byte WaitForA
 	
 	.word ClearMapSymbol
 	.byte Low
 	
-.text	" and suffer"
+.text	" e sofrem"
 	.byte NewLine
-.text	"under Emperor Arvis’ oppressive rule."
+.text	"sob seu domínio opressor."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Likewise, in the other realms under its control,"
+.text	"E também nos territórios que anexou,"
 	.byte NewLine
-.text	"Grannvale has imposed itself"
+.text	"Grannvale impõe seu terrível jugo"
 	.byte WaitForA
 	.byte NewLine
-.text	"onto the lives of the common people,"
+.text	"nas vidas das pessoas comuns, que agora"
 	.byte NewLine
-.text	"now forced to live as little more than slaves."
+.text	"são pouco mais que escravas."
 	.byte WaitForA
 	
 	.word PauseText
@@ -245,12 +245,14 @@ dialogueCh6WM4
 	.byte Isaach
 	
 	.byte StartText
-.text	"One such place is the former Kingdom of Isaach."
+.text	"Um desses lugares é o antigo"
+  .byte NewLine
+.text "Reino de Isaach." 
 	.byte WaitForA
 	.byte ScrollText
-.text	"Here, Grannvale’s tyranny pushes"
+.text	"Aqui, a tirania de Grannvale levou"
 	.byte NewLine
-.text	"the civilians to their breaking point."
+.text	"o povo à seu limite."
 	.byte WaitForA
 	.word ClearHighlight
 	.byte ScrollText
@@ -281,27 +283,26 @@ dialogueCh6WM5
 	.byte $60
 
 	.byte StartText
-.text	"Danann of Grannvale’s House Dozel"
+.text	"Danann da casa de Dozel, apontado"
 	.byte NewLine
-.text	"serves as Isaach’s king,"
+.text	"Rei de Isaach pelo Império,"
 	.byte WaitForA
 	.word ClearMapSymbol
 	.byte Low
 	
-.text	" a despotic man"
 	.byte NewLine
-.text	"like his father, Lord Lombard, before him."
+.text	"é tão tirano quanto"
+	.byte NewLine
+.text	"seu pai, Lorde Lombard, fora antes dele."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"While Isaachians find themselves bound"
+.text	"Enquanto os isaachianos estão presos"
 	.byte NewLine
-.text	"in servitude, Danann lives a life of pleasure,"
+.text	"em servidão, Danann vive uma vida de prazer,"
 	.byte WaitForA
 	.byte NewLine
-.text	"drowning himself in all the finer luxuries"
-	.byte NewLine
-.text	"of Ribaut Palace."
+.text	"envolto nos melhores luxos do Palácio de Ribaut."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -321,9 +322,9 @@ dialogueCh6WM5
 	.byte 4	
 	.byte $90
 	.byte $48
-.text	"Danann’s second son, Iuchar,"
+.text	"O segundo filho de Dannan, Iuchar,"
 	.byte NewLine
-.text	"occupies Castle Isaach,"
+.text	"ocupa o castelo de Isaach,"
 	.word PauseText
 	.byte $14
 	
@@ -332,7 +333,8 @@ dialogueCh6WM5
 
 	.word PauseText
 	.byte $02
-.text	" and his youngest,"
+	.byte NewLine
+.text	"e seu filho mais novo,"
 	.byte NewLine
 	.word PauseText
 	.byte $02
@@ -353,7 +355,7 @@ dialogueCh6WM5
 	.byte 6	
 	.byte $5B
 	.byte $16
-.text	"Iucharba, occupies Sofala."
+.text	"Iucharba, ocupa Sofala."
 	.byte WaitForA
 	
 	.word PauseText
@@ -370,9 +372,9 @@ dialogueCh6WM5
 	.byte Low
 	.byte Ganesha
 	
-.text	"Moreover, the remote lands of Ganesha"
+.text	"Além disso, a área remota de Ganesha"
 	.byte NewLine
-.text	"lie under the watch of General Harold,"
+.text	"está sobre o governo do General Haroldo,"
 
 	.word LoadPortraitWM1
 	.byte 8
@@ -384,7 +386,7 @@ dialogueCh6WM5
 	
 	.byte WaitForA
 	.byte NewLine
-.text	"the king’s most trusted confidant."
+.text	"o homem de confiança do rei."
 	.byte WaitForA
 
 	.word PauseText
@@ -395,9 +397,9 @@ dialogueCh6WM5
 	
 	.byte ScrollText
 	
-.text	"The relentless struggle of the common man"
+.text	"O sofrimento do homem comum piora"
 	.byte NewLine
-.text	"wears on day by day."
+.text	"a cada dia."
 	.byte WaitForA
 	
 	.word PauseText
@@ -419,9 +421,9 @@ dialogueCh6WM5
 dialogueCh6WM6
 
 	.byte StartText
-.text	"However, in spite of it all,"
+.text	"Porém, apesar disso tudo, a esperança"
 	.byte NewLine
-.text	"hope yet lives in the heart of Isaach’s people."
+.text	"ainda vive no coração dos isaachianos."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -434,13 +436,12 @@ dialogueCh6WM6
 	.word PauseText
 	.byte $0A
 	
-.text	"In the northern hidden village of Tirnanog,"
-	.byte NewLine
+.text	"Na distante vila de Tirnanog, "
 	
 	.word ClearMapSymbol
 	.byte Low
 	
-.text	"Prince Shannan’s"
+.text	"Príncipe Shannan"
 	.word LoadPortraitWM1
 	.byte 2
 	.word portrait_Shannan
@@ -448,12 +449,13 @@ dialogueCh6WM6
 	.byte 2	
 	.byte $30
 	.byte $08
-.text	" liberation army assembles,"
+	.byte NewLine
+.text	"reúne um exército de resistência,"
 	.byte WaitForA	
 	.byte NewLine
-.text	"growing in both strength and numbers"
+.text	"que a cada dia que passa ganha"
 	.byte NewLine
-.text	"with each passing day."
+.text	"mais voluntários."
 	.byte WaitForA
 	
 	.word PauseText
@@ -463,14 +465,14 @@ dialogueCh6WM6
 	.byte 2
 	.byte ScrollText
 	
-.text	"And among these young warriors is one whom"
+.text	"E entre esses jovens guerreiros tem aquele"
 	.byte NewLine
-.text	"the people of Isaach call the Scion of Light,"
+.text	'que o povo de Isaach chama de "Filho da Luz,"'
 	.byte WaitForA
 	.byte NewLine
-.text	"a boy exalted as the one true"
+.text	"um menino exaltado como o verdadeiro"
 	.byte NewLine
-.text	"crown prince of Grannvale."
+.text	"príncipe real de Grannvale."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -482,7 +484,12 @@ dialogueCh6WM6
 	
 	.word PauseText
 	.byte $0A
-
+	
+.text	"Ele está na posição de líder do"
+	.byte NewLine
+.text	"de libertação, seu nome…"
+	.byte WaitForA
+	
 	.word LoadPortraitWM1
 	.byte 2
 	.word portrait_Seliph
@@ -490,11 +497,8 @@ dialogueCh6WM6
 	.byte 2	
 	.byte $5C
 	.byte $1C
-.text	"Positioned to be the young leader"
-	.byte NewLine
-.text	"of the liberation army, his name…"
-	.byte WaitForA
-.text	" is Seliph."
+
+.text	" é Seliph."
 	.word PauseText
 	.byte $10
 	.byte WaitForA

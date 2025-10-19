@@ -7,21 +7,27 @@ dialogueEpiloguesEnd_TrueEnding
 	.byte NewLine
 	.byte NewLine
 	.byte StartText
-.text	"§8_§4_Kindness... to know the sorrow of men."
+.text	"Bondade..."
+	.byte NewLine
+.text	"para ver que os homens sofrem."
 	.byte NewLine
 	.byte NewLine
 	.byte NewLine
 	.word PauseText
 	.byte $3C
 	.byte StartText
-.text	"§8_§8_Valor... to relieve the sorrow of men."
+.text	"Bravura..."
+	.byte NewLine
+.text	"para aliviar os homens que sofrem."
 	.byte NewLine
 	.byte NewLine
 	.byte NewLine
 	.word PauseText
 	.byte $3C
 	.byte StartText
-.text	"§1_Power... to prevail over the sorrow of men."
+.text	"Poder..."
+	.byte NewLine
+.text	"para prevalecer sobre o sofrimento."
 	.byte NewLine
 	.byte NewLine
 	.byte NewLine
@@ -42,9 +48,9 @@ dialogueEpiloguesEnd_WinsLosses
 	.byte NewLine
 .text	"    "
     .word PrintStoredNumberA
-.text	" wins, "
+.text	" vitórias, "
 	.word PrintStoredNumberB
-.text	" losses"
+.text	" derrotas"
 	.byte NewLine
 	.byte NewLine
 
@@ -58,112 +64,112 @@ dialogueEpiloguesEnd_Chapters
 	.byte StartText
 	
 	.byte NewLine
-.text	"Prologue: Birth of a Holy Knight"
+.text	"Prólogo: Nasce o Cavaleiro Sagrado"
 	.byte NewLine
 	.word RunASM
 	.long $8DB2D0
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 1: Lady of the Forest"
+.text	"Cap. 1: A Dama da Floresta Mística"
 	.byte NewLine
 	.word RunASM
 	.long $8DB2DD
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 2: Disturbance in Agustria"
+.text	"Cap. 2: Crise em Agustria"
 	.byte NewLine
 	.word RunASM
 	.long $8DB2EA
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 3: Eldigan, the Lionheart"
+.text	"Cap. 3: Eldigan, Coração de Leão"
 	.byte NewLine
 	.word RunASM
 	.long $8DB2F7
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 4: Dance in the Skies"
+.text	"Cap. 4: Dança nos Céus"
 	.byte NewLine
 	.word RunASM
 	.long $8DB304
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 5: Doorway to Destiny"
+.text	"Cap. 5: A Porta do Destino"
 	.byte NewLine
 		.word RunASM
 	.long $8DB311
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 6: Inheritors of Light"
+.text	"Cap. 6: Filhos da Luz"
 	.byte NewLine
 	.word RunASM
 	.long $8DB31E
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 7: Beyond the Desert"
+.text	"Cap. 7: Além do Deserto"
 	.byte NewLine	
 	.word RunASM
 	.long $8DB32B
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 8: Wyvern Knights of Thracia"
+.text	"Cap. 8: Os Dragões de Trácia"
 	.byte NewLine	
 	.word RunASM
 	.long $8DB338
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 9: For Whose Sake"
+.text	"Cap. 9: Pelo Bem de Quem?"
 	.byte NewLine	
 	.word RunASM
 	.long $8DB345
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Ch. 10: Light and Dark"
+.text	"Cap. 10: Luz e Trevas"
 	.byte NewLine	
 	.word RunASM
 	.long $8DB352
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
-.text	"Endgame: End of the Holy War"
+.text	"Final: O Fim da Guerra Santa"
 	.byte NewLine	
 	.word RunASM
 	.long $8DB35F
 .text	"     "
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
 	.byte NewLine
@@ -171,7 +177,7 @@ dialogueEpiloguesEnd_Chapters
 	.word RunASM
 	.long $8DB36C
 	.word PrintStoredNumberA
-.text	" turns"
+.text	" turnos"
 
 	.byte NewLine
 	.byte NewLine

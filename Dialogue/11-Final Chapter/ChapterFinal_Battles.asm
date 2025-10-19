@@ -9,11 +9,17 @@ dialogueChFinalBattleRobertus
 	.word LoadPortrait
 	.word portrait_Robertus
 	.byte StartText
-.text	"Yer head's goin' fer a huge"
+.text	"Não sei se cês sabem, mas"
 	.byte NewLine
-.text	"bounty, y'know?"
+.text	"tão pagando bem "
 	.byte NewLine
-.text	"No hard feelings, but die!"
+.text	"pelas tuas cabeça."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Não é nada pessoal não,"
+  .byte NewLine
+.text "mas cês vão ter que morrer!" 
 	.byte WaitForA
 
 	.byte EndText
@@ -26,9 +32,12 @@ dialogueChFinalBattleBoece
 	.word LoadPortrait
 	.word portrait_Boece
 	.byte StartText
-.text	"Must I waste my skills"
+.text	"Sério que eu tenho que enfrentar"
 	.byte NewLine
-.text	"on such feeble foes...?"
+.text	"esses paspalhos...?"
+  .byte WaitForA
+  .byte NewLine
+.text  "Não tem nada melhor pra mim não?"
 	.byte WaitForA
 
 	.byte EndText
@@ -41,11 +50,9 @@ dialogueChFinalBattleRodin
 	.word LoadPortrait
 	.word portrait_Rodin1
 	.byte StartText
-.text	"What the devil is happening..."
+.text	"O que diabos está acontecendo..."
 	.byte NewLine
-.text	"You!"
-	.byte NewLine
-.text	"What have you done?!"
+.text	"Como chegaram tão rápido?!"	
 	.byte WaitForA
 
 	.byte EndText
@@ -58,11 +65,11 @@ dialogueChFinalBattleFisher
 	.word LoadPortrait
 	.word portrait_Fisher1
 	.byte StartText
-.text	"Damn you all!"
+.text	"Malditos sejam!"
 	.byte NewLine
-.text	"Your heads are mine to"
+.text	"Em nome de meu lorde Brian,"
 	.byte NewLine
-.text	"cleave right off!"
+.text	"levarei suas cabeças comigo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -75,11 +82,11 @@ dialogueChFinalBattleBrian
 	.word LoadPortrait
 	.word portrait_Brian1
 	.byte StartText
-.text	"How dare you murder my father..."
+.text	"Chegou a hora da vingança..."
 	.byte NewLine
-.text	"Learn the pain and wrath of"
+.text	"Sintam a fúria acumulada de três"
 	.byte NewLine
-.text	"three generations of House Dozel!"
+.text	"gerações da casa de Dozel!"
 	.byte WaitForA
 
 	.byte EndText
@@ -99,29 +106,31 @@ dialogueChFinalBattleBrian_Iucharba
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Iucharba, you moron!"
+.text	"Iucharba, seu traidor!"
 	.byte NewLine
-.text	"How dare you seek to destroy House Dozel!"
+.text	"Como ousa levantar a mão para destruir"
+  .byte NewLine
+.text "sua própria família?!" 
 	
 	.byte RightSlot		;Iucharba
 	.word PauseText
 	.byte $10
-.text	"Well, hi to you too, Brian."
+.text	"Primeiramente, bom dia, Brian."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Heh... You're worrying over nothing."
+.text	"Segundamente, não se preocupe."
 	.byte NewLine
-.text	"Dozel's not about to be destroyed on my watch."
+.text	"Dozel vai ficar muito bem."
 	.byte NewLine
-.text	"After all, the people are behind me!"
+.text	"Afinal, o povo está comigo!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Brian
-.text	"H-how dare you, you dastard..."
+.text	"Ah, é mesmo?"
 	.byte NewLine
-.text	"You won't get away with this!"
+.text	'Vamos ver se "o povo" vai te ajudar agora!'
 	.byte WaitForA
 
 	.byte EndText
@@ -141,25 +150,31 @@ dialogueChFinalBattleBrian_Iuchar
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Keh."
+.text	"Dando as caras aqui, Iuchar?"
 	.byte NewLine
-.text	"Iuchar, you traitorous scum!"
+.text	"Já matou seu irmão, já matou seu pai,"
 	.byte NewLine
-.text	"How dare you bring such ruin to House Dozel!"
-	
+.text	"agora quer me matar também?"
+  .byte WaitForA
+  .byte NewLine
+.text	"Quer acabar com a família, é?"
+
 	.byte RightSlot		;Iuchar
 	.word PauseText
 	.byte $10
-.text	"Now, now, dearest brother! Why so glum?"
+.text	"Acalme-se, querido irmão! Eu apenas fiz o que"
 	.byte NewLine
-.text	"The task of restoring Dozel's honor falls to me."
+.text	"era necessário para restaurar nossa honra."
 	.byte NewLine
-.text	"Now, do step aside while you still can!"
+.text	"Eu até lhe darei a oportunidade"
+  .byte WaitForA
+  .byte NewLine
+.text	"de se render pacificamente." 
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Brian
-.text	"Y-you dastard..."
+.text	"JAMAIS!"
 	.byte WaitForA
 
 	.byte EndText
@@ -174,9 +189,13 @@ dialogueChFinalBattleUphir
 	.byte StartText
 .text	"Kehehehe..."
 	.byte NewLine
-.text	"Foolish mortals..."
+.text	"Mortais tolos..."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Nada além de presas "
 	.byte NewLine
-.text	"Naught but prey to the darkness!"
+.text	"para as trevas!"
 	.byte WaitForA
 
 	.byte EndText
@@ -189,11 +208,11 @@ dialogueChFinalBattleDagan
 	.word LoadPortrait
 	.word portrait_Dagan2
 	.byte StartText
-.text	"Kehehehe..."
+.text	"Ó grande Loptous..."
 	.byte NewLine
-.text	"Foolish mortals..."
+.text	"Dê-me a força para expurgar"
 	.byte NewLine
-.text	"Naught but prey to the darkness!"
+.text	"estes hereges em seu nome!"
 	.byte WaitForA
 
 	.byte EndText
@@ -206,11 +225,9 @@ dialogueChFinalBattleBalan
 	.word LoadPortrait
 	.word portrait_Balan2
 	.byte StartText
-.text	"Kehehehe..."
+.text	"Tolos insolentes..."
 	.byte NewLine
-.text	"Foolish mortals..."
-	.byte NewLine
-.text	"Naught but prey to the darkness!"
+.text	"Vocês sentirão a ira de meu deus!"
 	.byte WaitForA
 
 	.byte EndText
@@ -225,9 +242,9 @@ dialogueChFinalBattleHilda
 	.byte StartText
 .text	"Hmph..."
 	.byte NewLine
-.text	"I won't fall anywhere near as"
+.text	"Eu não vou ser tão fácil"
 	.byte NewLine
-.text	"easily as those other worms!"
+.text	"quanto esses vermes!"
 	.byte WaitForA
 
 	.byte EndText
@@ -249,32 +266,34 @@ dialogueChFinalBattleHilda_Arthur
 	.byte StartText
 .text	"Ohohohoho!"
 	.byte NewLine
-.text	"You're Tailtiu's other brat, aren't you?"
+.text	"Você é o outro filho da Tailtiu?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Am I to presume you've come to seek my head"
+.text	"Já sei, quer vingar sua mãe."
 	.byte NewLine
-.text	"for your mommy's pathetic demise?"
-	
+.text	"Digamos que você não é o primeiro"
+	.byte NewLine
+.text	"a querer fazer isso."
+
 	.byte RightSlot		;Arthur
 	.word PauseText
 	.byte $10
-.text	"Oh, yeah."
+.text	"Isso mesmo."
 	.byte NewLine
-.text	"I figured that "
+.text	"Dessa vez, eu não quero que a "
 	.word PrintBranchingName
 	.word name_TineLinda
-.text	" shouldn't dirty her hands"
+.text	" "
 	.byte NewLine
-.text	"this time around..."
+.text	"tenha que sujar a mão..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Hilda
-.text	"Oh, did you, now?"
+.text	"Ah, é mesmo?"
 	.byte NewLine
-.text	"In that case, I'll drag you straight to hell with me!"
+.text	"Eu vou te puxar pra baixo comigo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -296,27 +315,27 @@ dialogueChFinalBattleHilda_TineLinda
 	.byte StartText
 .text	"Ohoho!"
 	.byte NewLine
-.text	"So you toddled all the way here, "
+.text	"Então você se arrastou pra cá, "
 	.word PrintBranchingName
 	.word name_TineLinda
 .text	"."
 	.byte NewLine
-.text	"I've been waiting for you."
+.text	"Eu estava te esperando."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I want nothing more than to choke the life"
+.text	"Mal posso esperar pra te esganar"
 	.byte NewLine
-.text	"from you with my bare hands!"
+.text	"até você morrer!"
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"You won't get that chance!"
+.text	"Sem chance!"
 	.byte NewLine
-.text	"I pray you're watching, Mother..."
+.text	"Você está vendo, mãe?"
 	.byte NewLine
-.text	"I'm finally going to kill Hilda!"
+.text	"Eu vou matar a Hilda!"
 	.byte WaitForA
 
 	.byte EndText
@@ -329,17 +348,15 @@ dialogueChFinalBattleScipio
 	.word LoadPortrait
 	.word portrait_Scipio2
 	.byte StartText
-.text	"You murdered my father, Andrey..."
+.text	"Pai..."
 	.byte NewLine
-.text	"And at last, I will have"
-	.byte NewLine
-.text	"vengeance!"
+.text	"Finalmente, eu irei te vingar!"
 	.byte WaitForA
 
 	.byte EndText
 
 
-dialogueChFinalBattleScipio_Lester
+dialogueChFinalBattleScipio_Lester ;Essas d
 
 	.byte LeftSlot
 	.word OpenBox
@@ -353,36 +370,36 @@ dialogueChFinalBattleScipio_Lester
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And what are you supposed to be?"
+.text	"E quem é você?"
 	
 	.byte RightSlot		;Lester
 	.word PauseText
 	.byte $10
-.text	"I'm Lester..."
+.text	"Eu sou Lester..."
 	.byte NewLine
-.text	"The son of Edain."
+.text	"O filho de Edain."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Scipio
-.text	"What? As in my dear aunt Edain?!"
+.text	"Edain? A minha tia?!"
 	.byte NewLine
-.text	"Well, then... The traitor's spawn"
+.text	"Muito bem... essa é uma oportunidade"
 	.byte NewLine
-.text	"shows his disgusting face at last!"
+.text	"de ouro!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I certainly won't object."
+.text	"Finalmente, vou poder punir a traição"
 	.byte NewLine
-.text	"After all, I get to kill you, here and now!"
+.text	"que ela cometeu!"
 	
 	.byte RightSlot		;Lester
 	.word PauseText
 	.byte $10
 .text	"Heh..."
 	.byte NewLine
-.text	"My thoughts exactly."
+.text	"Eu digo o mesmo."
 	.byte WaitForA
 
 	.byte EndText
@@ -402,32 +419,32 @@ dialogueChFinalBattleScipio_Febail
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And what are you supposed to be?"
+.text	"E quem é você?"
 	
 	.byte RightSlot		;Febail
 	.word PauseText
 	.byte $10
-.text	"The name's Febail, son of Brigid."
+.text	"Febail, filho de Brigid."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Scipio
-.text	"What? As in my dear aunt Brigid?!"
+.text	"Você é filho dela?!"
 	.byte NewLine
-.text	"Well, then... The traitor's spawn"
+.text	"Então o filho da pirata veio dar"
 	.byte NewLine
-.text	"shows his disgusting face at last!"
+.text	"as caras aqui!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I certainly won't object."
+.text	"Bem, bom para mim, afinal, agora"
 	.byte NewLine
-.text	"After all, I get to kill you, here and now!"
+.text	"posso fazer aquela traidora pagar!"
 	
 	.byte RightSlot		;Febail
 	.word PauseText
 	.byte $10
-.text	"Heh, took the words right out of my mouth!"
+.text	"Heh, eu digo o mesmo de você!"
 	.byte WaitForA
 
 	.byte EndText
@@ -440,7 +457,7 @@ dialogueChFinalBattleArion
 	.word LoadPortrait
 	.word portrait_Arion3
 	.byte StartText
-.text	"Forgive me..."
+.text	"Me perdoe..."
 	.byte WaitForA
 
 	.byte EndText
@@ -462,9 +479,9 @@ dialogueChFinalBattleArion_Altena
 	.byte StartText
 .text	"Altena..."
 	.byte NewLine
-.text	"I wish we hadn't met here, that you may be"
+.text	"Eu não queria te ver por aqui..."
 	.byte NewLine
-.text	"spared from knowing my shame..."
+.text	"Me perdoe por eu te fazer ver essa vergonha."
 	
 	.byte RightSlot
 	.word PauseText
@@ -482,11 +499,11 @@ dialogueChFinalBattleManfroy
 	.word LoadPortrait
 	.word portrait_Manfroy2
 	.byte StartText
-.text	"You fools! How dare you..."
+.text	"Tolos! Vocês vão ver..."
 	.byte NewLine
-.text	"All my life I've toiled for this"
+.text	"Toda minha vida foi pra isso..."
 	.byte NewLine
-.text	"moment... I'll show you no mercy!"
+.text	"Não irão tirar isso de mim!"
 	.byte WaitForA
 
 	.byte EndText
@@ -508,78 +525,87 @@ dialogueChFinalBattleManfroy_Seliph
 	.byte StartText
 .text	"Kehehe..."
 	.byte NewLine
-.text	"You've come at last!"
+.text	"Finalmente você chegou!"
 	.byte NewLine
-.text	"I've been awaiting you for a long time."
+.text	"Me deixou muito tempo esperando."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
 .text	"Manfroy!"
 	.byte NewLine
-.text	"It was you who cursed Julia, was it not?"
+.text	"Foi você que pôs a maldição na Júlia?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Manfroy
-.text	"So I did. And so long as I live, my puppet she shall"
+.text	"Eu mesmo. E enquanto eu estiver vivo, ela vai"
 	.byte NewLine
-.text	"remain! Hee hee hee! She's every bit as helpless"
+.text	"seguir desse jeito! Hee hee! Funcionou com"
 	.byte NewLine
-.text	"before my magic as her mother was..."
+.text	"a mãe, vai funcionar com a filha!"
+	.byte WaitForA
+	.byte ScrollText
 	
+.text	"Nenhuma delas teve a menor chance"
+	.byte NewLine
+.text	"contra minha magia."
+
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"I should have known. If not for you, Mother... Gah!"
+.text	"Eu deveria ter imaginado! Foi você que levou"
 	.byte NewLine
-.text	"All of this misery... All these agonizing years..."
+.text	"minha mãe embora... Toda essa miséria..."
 	.byte NewLine
-.text	"It was all your doing from the outset!"
+.text	"todos esses anos de sofrimento..."
+	.byte WaitForA
+	.byte NewLine
+.text	"Tudo por sua culpa!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Manfroy
-.text	"Heh... You've realized at long last."
+.text	"Demorou mas você percebeu! Tudo que eu fiz"
 	.byte NewLine
-.text	"Everything I've done has led to this moment:"
+.text	"nas últimas décadas foi para um fim:"
 	.byte NewLine
-.text	"the revival of my lord Loptous."
+.text	"a ressurreição de meu senhor Loptous."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And at long last, it is so! Loptous's advent"
+.text	"E finalmente eu consegui! O retorno de Loptous"
 	.byte NewLine
-.text	"in the form of Prince Julius is complete,"
+.text	"no corpo de Príncipe Julius já aconteceu, e"
 	.byte NewLine
-.text	"and darkness shall soon engulf the world."
+.text	"as trevas logo se imporão sobre o mundo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You cannot prevent it."
+.text	"Você não pode impedir isso."
 	.byte NewLine
-.text	"Nobody can..."
+.text	"Ninguém pode..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Manfroy, you..."
+.text	"Manfroy..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Father's grief... Mother's despair..."
+.text	"A dor do meu pai... o sofrimento da minha mãe..."
 	.byte NewLine
-.text	"If not for you and your foul ambitions,"
+.text	"E tudo o que o povo sofreu..." ;a frase original é mais como "Se não fosse pelas suas ambições malignas..."
 	.byte NewLine
-.text	"none of this would have ever happened..."
+.text	"Foi por sua culpa..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Damn you, Manfroy!"
+.text	"Manfroy!"
 	.byte NewLine
-.text	"I cannot allow you to win... I will not..."
+.text	"Se prepare!"
 	.byte NewLine
-.text	"You'll NEVER know mercy for your crimes!"
+.text	"O inferno te espera!"
 	.byte WaitForA
 
 	.byte EndText
@@ -605,11 +631,9 @@ dialogueChFinalBattleIshtar
 	.word LoadPortrait
 	.word portrait_Ishtar4
 	.byte StartText
-.text	"Still your tongue..."
+.text	"Parem..."
 	.byte NewLine
-.text	"And feel the wrath of the"
-	.byte NewLine
-.text	"goddess of lightning!"
+.text	"e sintam a fúria da deusa do trovão!"
 	.byte WaitForA
 
 	.byte EndText
@@ -636,23 +660,31 @@ dialogueChFinalBattleIshtar_TineLinda
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"Ishtar, please! Stop this!"
+.text	"Ishtar, por favor! Renda-se!"
 	.byte NewLine
-.text	"You've been nothing but kind to me all my life..."
+.text	"Eu sei que você é uma boa pessoa..."
 	.byte NewLine
-.text	"I know you want no part of this battle!"
+.text	"Eu sei porque você foi boa comigo!"
+	.byte WaitForA
+	.byte NewLine
+.text	"Por isso eu também sei que você"
+	.byte NewLine
+.text	"não quer lutar conosco!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Ishtar
-.text	"...I may be in the wrong,"
-	.byte NewLine
-.text	"but I could never turn back now."
-	.byte NewLine
-.text	"Forgive me, "
 	.word PrintBranchingName
 	.word name_TineLinda
-.text	"... Please..."
+.text	"..."
+.text	" eu posso estar do lado errado,"
+	.byte NewLine
+.text	"mas eu não posso virar a casaca."
+	.byte NewLine
+.text	"Perdoe me, "
+	.word PrintBranchingName
+	.word name_TineLinda
+.text	"... por favor..."
 	.byte WaitForA
 
 	.byte EndText
@@ -665,7 +697,7 @@ dialogueChFinalBattleMeabel
 	.word LoadPortrait
 	.word portrait_Meabel2
 	.byte StartText
-.text	"Taste my blade!"
+.text	"Sinta o aço da minha espada!"
 	.byte WaitForA
 
 	.byte EndText
@@ -678,7 +710,7 @@ dialogueChFinalBattleBreg
 	.word LoadPortrait
 	.word portrait_Breg2
 	.byte StartText
-.text	"...Die!"
+.text	"...Morra!"
 	.byte WaitForA
 
 	.byte EndText
@@ -691,7 +723,7 @@ dialogueChFinalBattleMeng
 	.word LoadPortrait
 	.word portrait_Meng2
 	.byte StartText
-.text	"This place will be your grave!"
+.text	"Aqui vai ser sua cova!"
 	.byte WaitForA
 
 	.byte EndText
@@ -706,9 +738,9 @@ dialogueChFinalBattleJulius
 	.byte StartText
 .text	"Hmhmhm..."
 	.byte NewLine
-.text	"Have you gone mad?"
+.text	"Ficou doido, é?"
 	.byte NewLine
-.text	"You cannot even touch me."
+.text	"Você não pode fazer nem um arranhão em mim."
 	.byte WaitForA
 
 	.byte EndText
@@ -721,19 +753,17 @@ dialogueChFinalBattleJulius_Seliph
 	.word LoadPortrait
 	.word portrait_Julius3
 	.byte StartText
-.text	"Feh... We meet at last, Seliph."
+.text	"Feh... até que enfim, Seliph."
 	.byte NewLine
-.text	"The so-called scion of light..."
+.text	'O tal "Filho da Luz..."'
 	.byte NewLine
-.text	"Don't make me laugh!"
+.text	"Faz-me rir, isso sim!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"What challenge could an heir of Baldr"
+.text	"Sua linhagem de Baldr não vai te ajudar comigo."
 	.byte NewLine
-.text	"possibly provide?"
-	.byte NewLine
-.text	"This is where your story ends!"
+.text	"Eu te mato igual um mosquito, vai ver só!"
 	.byte WaitForA
 
 	.byte EndText
@@ -746,11 +776,11 @@ dialogueChFinalBattleJulius_Julia
 	.word LoadPortrait
 	.word portrait_Julius3
 	.byte StartText
-.text	"J-Julia?!"
+.text	"J-Júlia?!"
 	.byte NewLine
-.text	"Why... What are you... Argh!"
+.text	"Merda... merda... MERDA!"
 	.byte NewLine
-.text	"Manfroy, you've made a grave mistake!"
+.text	"Manfroy, seu erro VAI me custar caro!"	
 	.byte WaitForA
 
 	.byte EndText

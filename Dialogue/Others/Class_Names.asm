@@ -86,104 +86,104 @@
 ;	Class names
 
 _Cavalier_name
-.text "Cavalier"
+.text "Cavaleiro"
 .byte EndText
 
 _LanceKnight_name
-.text "Lance Knight"
+.text "Cav. Lança"
 .byte EndText
 
 _ArcherKnight_name
-.text "Archer Knight"
+.text "Cav. Arco"
 .byte EndText
 
 _AxeKnight_name
-.text "Axe Knight"
+.text "Cav. Machado"
 .byte EndText
 
 _FreeKnight_name
-.text "Free Knight"
+.text "Cav. Espada"
 .byte EndText
 
 _Troubadour_name
-.text "Troubadour"
+.text "Trovador"
 .byte EndText
 
 _KnightLord_name
-.text "Knight Lord"
+.text "Cav. Lorde"
 .byte EndText
 
 _Banneret_name
-.text "Banneret"
+.text "Cav. Duque"
 .byte EndText
 
 _MasterKnight_name
-.text "Master Knight"
+.text "Cav. Mestre"
 .byte EndText
 
 _PaladinM_name
 _PaladinF_name
-.text "Paladin"
+.text "Paladino"
 .byte EndText
 
 _BowKnight_name
-.text "Bow Knight"
+.text "Sagitário"
 .byte EndText
 
 _Ranger_name
-.text "Ranger"
+.text "Patrulheiro"
 .byte EndText
 
 _MageKnight_name
-.text "Mage Knight"
+.text "Cav. Mago"
 .byte EndText
 
 _GreatKnight_name
-.text "Great Knight"
+.text "Catafrata"
 .byte EndText
 
 _PegasusRider_name
-.text "Pegasus Knight"
+.text "Cav. Pégaso"
 .byte EndText
 
 _PegasusKnight_name
-.text "Pegasus Rider"
+.text "Cav. Pégaso"
 .byte EndText
 
 _FalconKnight_name
-.text "Falcon Knight"
+.text "Cav. Falcão"
 .byte EndText
 
 _WyvernRider_name
-.text "Wyvern Rider"
+.text "Sol. Dragão"
 .byte EndText
 
 _WyvernKnight_name
-.text "Wyvern Knight"
+.text "Cav. Dragão"
 .byte EndText
 
 _WyvernLord_name
-.text "Wyvern Lord"
+.text "Lorde Dragão"
 .byte EndText
 
 _BowFighter_name
-.text "Bow Fighter"
+.text "Arqueiro"
 .byte EndText
 
 _SwordFighter_name
-.text "Sword Fighter"
+.text "Espadachim"
 .byte EndText
 
 _Swordmaster_name
-.text "Swordmaster"
+.text "Mes. Espada"
 .byte EndText
 
 _Sniper_name
-.text "Sniper"
+.text "Atirador"
 .byte EndText
 
 _Forester_name
-.text "Forester"
+.text "Herói"
 .byte EndText
 
 _General_name
@@ -191,168 +191,168 @@ _General_name
 .byte EndText
 
 _Emperor_name
-.text "Emperor"
+.text "Imperador"
 .byte EndText
 
 _Baron_name
-.text "Baron"
+.text "Barão"
 .byte EndText
 
 _Soldier_name
-.text "Soldier"
+.text "Soldado"
 .byte EndText
 
 _SpearSoldier_name
-.text "Spear Soldier"
+.text "Lanceiro"
 .byte EndText
 
 _AxeSoldier_name
-.text "Axe Soldier"
+.text "Sol. Machado"
 .byte EndText
 
 _Archer_name
-.text "Archer"
+.text "Arqueiro"
 .byte EndText
 
 _SwordSoldier_name
-.text "Sword Soldier"
+.text "Sol. Espada"
 .byte EndText
 
 _LanceArmor_name
-.text "Lance Armor"
+.text "Guar. Lança"
 .byte EndText
 
 _AxeArmor_name
-.text "Axe Armor"
+.text "Gua. Machado"
 .byte EndText
 
 _BowArmor_name
-.text "Bow Armor"
+.text "Guar. Arco"
 .byte EndText
 
 _SwordArmor_name
-.text "Sword Armor"
+.text "Guar. Espada"
 .byte EndText
 
 _Barbarian_name
-.text "Barbarian"
+.text "Bárbaro"
 .byte EndText
 
 _AxeFighter_name
-.text "Axe Fighter"
+.text "Lutador"
 .byte EndText
 
 _Brigand_name
-.text "Brigand"
+.text "Bandido"
 .byte EndText
 
 _Warrior_name
-.text "Warrior"
+.text "Guerreiro"
 .byte EndText
 
 _Hunter_name
-.text "Hunter"
+.text "Caçador"
 .byte EndText
 
 _Pirate_name
-.text "Pirate"
+.text "Pirata"
 .byte EndText
 
 _Lordling_name
-.text "Lordling"
+.text "Jovem Lorde"
 .byte EndText
 
 _MageFighterM_name
 _MageFighterF_name
-.text "Mage Fighter"
+.text "Mago/a de Combate"
 .byte EndText
 
 _Prince_name
-.text "Prince"
+.text "Príncipe"
 .byte EndText
 
 _Princess_name
-.text "Princess"
+.text "Princesa"
 .byte EndText
 
 _Queen_name
-.text "Queen"
+.text "Rainha"
 .byte EndText
 
 _Dancer_name
-.text "Dancer"
+.text "Dançarina"
 .byte EndText
 
 _Priest_name
-.text "Priest"
+.text "Acólito"
 .byte EndText
 
 _Mage_name
-.text "Mage"
+.text "Mago"
 .byte EndText
 
 _FireMage_name
-.text "Fire Mage"
+.text "Mago de Fogo"
 .byte EndText
 
 _ThunderMage_name
-.text "Thunder Mage"
+.text "Mago de Trovão"
 .byte EndText
 
 _WindMage_name
-.text "Wind Mage"
+.text "Mago de Vento"
 .byte EndText
 
 _HighPriest_name
-.text "High Priest"
+.text "Presbítero"
 .byte EndText
 
 _Bishop_name
-.text "Bishop"
+.text "Bispo"
 .byte EndText
 
 _Sage_name
-.text "Sage"
+.text "Sábio"
 .byte EndText
 
 _Bard_name
-.text "Bard"
+.text "Bardo"
 .byte EndText
 
 _Shaman_name
-.text "Shaman"
+.text "Sacerdotisa"
 .byte EndText
 
 _DarkMage_name
-.text "Dark Mage"
+.text "Mago Negro"
 .byte EndText
 
 _DarkBishop_name
-.text "Dark Bishop"
+.text "Bispo Negro"
 .byte EndText
 
 _Thief_name
-.text "Thief"
+.text "Ladrão"
 .byte EndText
 
 _ThiefFighter_name
-.text "Thief Fighter"
+.text "Bandoleiro"
 .byte EndText
 
 _Civilian_name
 _CivilianChild_name
-.text "Civilian"
+.text "Civil"
 .byte EndText
 
 _Ballistician_name
 _IronBallistician_name
 _KillerBallistician_name
 _GreatBallistician_name
-.text "Ballistician"
+.text "Balisteiro"
 .byte EndText
 
 _DarkPrince_name
-.text "Dark Prince"
+.text "Príncipe Negro"
 .byte EndText
 
 .here

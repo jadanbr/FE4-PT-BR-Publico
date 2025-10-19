@@ -6,18 +6,18 @@ dialoguePrologueWM1
 	.byte Grannvale
 	
 	.byte StartText	
-.text	"The mighty Kingdom of Grannvale,"
+.text	"O grande reino de Grannvale,"
 	.byte NewLine
-.text	"lying at the heart of the continent of Jugdral,"
+.text	"no coração do continente de Jugdral,"
 	.word PauseText
 	.byte $28
 	.byte WaitForA
 	
 	
 	.byte NewLine
-.text	"was founded over a century ago"
+.text	"foi fundado a mais de um século"
 	.byte NewLine
-.text	"by Saint Heim of the Twelve Crusaders."
+.text	"por São Heim dos 12 Cruzados."
 	.word ClearHighlight
 	.word PauseText
 	.byte $0A
@@ -30,9 +30,9 @@ dialoguePrologueWM1
 	.byte Low
 	.byte Belhalla1 
 	
-.text	"In the present day, it is Heim's descendants"
+.text	"Nos dias de hoje, os descendentes de"
 	.byte NewLine
-.text	"who make up the kingdom’s royal family,"
+.text	"Heim são os membros da família real,"
 	.byte WaitForA
 	
 	.byte NewLine
@@ -42,20 +42,20 @@ dialoguePrologueWM1
 	.byte High
 	.byte GrannvaleDuchies 
 	
-.text	"supported by six houses"
+.text	"apoiados por seis casas nobres,"
 	.byte NewLine
-.text	"all descending from a Crusader of their own."
+.text	"cada uma descendente de outros cruzados."
 	.byte WaitForA
 	
 	.byte ScrollText
-.text	"Second in power only to the royal family itself,"
+.text	"Somente menos poderosas que a família real,"
 	.byte NewLine
-.text	"each house maintains a sense of autonomy,"
+.text	"cada casa mantém certa autonomia,"
 	.byte WaitForA
 	.byte NewLine
-.text	 "raising individual militaries"
+.text	 "possuindo exércitos próprios"
 	.byte NewLine
-.text	"and occupying vast lands across Grannvale."
+.text	"e grandes territórios dentro de Grannvale."
 	.byte WaitForA	
 	.byte ScrollText
 	
@@ -63,7 +63,7 @@ dialoguePrologueWM1
 	.byte High
 	
 	.byte ScrollText
-.text	"As of now," 
+.text	"Nesse momento," 
 	
 	.word LoadPortraitWM1
 	.byte 2
@@ -73,18 +73,18 @@ dialoguePrologueWM1
 	.byte $98
 	.byte $1C
 	
-.text	" King Ásmundr serves"
+.text	" Rei Ásmundr"
 	.byte NewLine
-.text	"at the head of the kingdom's governance;"
+.text	"é o chefe de governo do reino;"
 	.byte WaitForA
 	
 	.word ClearPortraitWM
 	.byte 2
 	
 	.byte NewLine
-.text	"however, due to his advancing age,"
+.text	"porém, devido a sua idade avançada,"
 	.byte NewLine
-.text	"much of his duties were relinquished to his son,"
+.text	"ele passou muitos de seus deveres a seu filho,"
 	.byte WaitForA
 	.byte NewLine
 
@@ -96,16 +96,16 @@ dialoguePrologueWM1
 	.byte $98
 	.byte $1C
 	
-.text	"a man of great wisdom, Prince Kurth."
+.text	"um homem muito respeitado, Princípe Kurth."
 	.byte WaitForA
 	
 	.word ClearMapSymbol
 	.byte Low
 	
 	.byte ScrollText
-.text	"In his rule, the prince is supported"
+.text	"Ao seu lado, o príncipe"
 	.byte NewLine
-.text	"by two advisors whom he trusts deeply:"
+.text	"tem dois conselheiros de confiança:"
 	.byte WaitForA
 	
 	.byte ScrollText
@@ -124,7 +124,7 @@ dialoguePrologueWM1
 	.byte $64
 	.byte $48
 	
-.text	" of House Chalphy,"
+.text	" da Casa de Chalphy,"
 	.byte WaitForA
 	
 	.byte NewLine
@@ -136,7 +136,7 @@ dialoguePrologueWM1
 	.byte Low
 	.byte Yngvi
 	
-.text	"and Ling" 
+.text	"e Ling" 
 	.Word LoadPortraitWM1
 	.byte 8
 	.word portrait_Ling
@@ -145,7 +145,7 @@ dialoguePrologueWM1
 	.byte $30
 	.byte $60
 	
-.text	" of House Yngvi."
+.text	" da Casa de Yngvi."
 	.word ClearMapSymbol
 	.byte Low
 	.byte WaitForA
@@ -164,10 +164,10 @@ dialoguePrologueWM1
 	.byte High
 	.byte Friege
 	
-.text	"In light of these developments,"
+.text	"Devido a essa situação,"
 	.byte WaitForA
 	.byte NewLine
-.text	 "Grannvale's chancellor,"
+.text	 "o Chanceler de Grannvale,"
 	
 	.word LoadPortraitWM1
 	.byte 2
@@ -177,16 +177,16 @@ dialoguePrologueWM1
 	.byte $40
 	.byte $20
 
-.text	" Lord Reptor"
+.text	" Lorde Reptor"
 	.byte NewLine
-.text	"of House Friege,"
+.text	"da Casa de Friege,"
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
 
-.text	" fears that the influence"
+.text	" teme que a influência que sua"
 	.byte NewLine
-.text	"bestowed by his position will wane."
+.text	"posição carrega vai se esvair."
 	.byte WaitForA
 	
 	.byte ScrollText
@@ -196,9 +196,9 @@ dialoguePrologueWM1
 	.byte High
 	.byte Dozel
 
-.text	"Prompted by such thoughts,"
+.text	"Com isso em mente,"
 	.byte NewLine
-.text	"he has enticed Lord Lombard"
+.text	"ele convidou Lorde Lombard"
 	
 	.word LoadPortraitWM1
 	.byte 4
@@ -207,23 +207,23 @@ dialoguePrologueWM1
 	.byte 4
 	.byte $84
 	.byte $38
-.text	" of House Dozel,"
+.text	" da Casa de Dozel,"
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
 	
 	.byte NewLine
-.text	"widely infamous for his avarice,"
+.text	"infame por sua avareza,"
 	.byte NewLine
-.text	"into a partnership."
+.text	"à uma parceria."
 	.byte WaitForA
 	.byte ScrollText
-.text	"Together, the two have formed a faction"
+.text	"Juntos, os dois formaram uma facção"
 	.byte WaitForA
 	.byte NewLine
-.text	"that opposes Prince Kurth's influence"
+.text	"que se opõe à influência de Kurth"
 	.byte NewLine
-.text	"on the current state of affairs."
+.text	"no reino."
 	.byte WaitForA
 	
 	.word ClearPortraitWM
@@ -238,12 +238,12 @@ dialoguePrologueWM1
 	.byte High
 	.byte Velthomer1
 
-.text	"By contrast, House Velthomer"
+.text	"Em contraste a isso, a Casa de Velthomer"
 	.byte NewLine
-.text	"has withdrawn from the circus of politics."
+.text	"se abstém da política."
 	.byte WaitForA
 	.byte ScrollText
-.text	"Its duke,"
+.text	"Seu duque,"
 	
 	.word LoadPortraitWM1
 	.byte 2
@@ -253,16 +253,20 @@ dialoguePrologueWM1
 	.byte $B8
 	.byte $04
 
-.text	" Lord Arvis, has instead seen to the"
+.text	" Lorde Arvis, foi encarregado"
 	.byte NewLine
-.text	"care of King Ásmundr, "
+.text	"de cuidar do Rei Ásmundr, "
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
+	.byte ScrollText
 
-.text	"appointed commander of"
+.text	"e foi apontado comandante da"
 	.byte NewLine
-.text	"Belhalla's royal guard in spite of his young age."
+.text	"guarda real de Belhalla,"
+	.byte WaitForA
+	.byte NewLine
+.text	"apesar de sua jovem idade."
 	.byte WaitForA
 	
 	.byte ScrollText
@@ -272,7 +276,7 @@ dialoguePrologueWM1
 	.byte High
 	.byte Edda
 
-.text	"Only" 
+.text	"Somente" 
 	
 	.word LoadPortraitWM1
 	.byte 4
@@ -282,12 +286,12 @@ dialoguePrologueWM1
 	.byte $90
 	.byte $50
 
-.text	" Father Claud of House Edda seems to worry"
+.text	" Padre Claude de Edda parece ver"
 	.byte WaitForA
 	.byte NewLine
-.text	"over the disaster such a status quo"
+.text	"que tal status quo pode causar um"
 	.byte NewLine
-.text	"spells for Grannvale's future."
+.text	"desastre para Grannvale."
 	
 	.word ClearMapSymbol
 	.byte High
@@ -299,12 +303,12 @@ dialoguePrologueWM1
 	.byte 4
 	.byte ScrollText
 	
-.text	"Then suddenly, as tensions continue to boil,"
+.text	"Então de repente, junto as tensões internas,"
 	.byte WaitForA
 	.byte NewLine
-.text	"news of a crisis from Grannvale's east"
+.text	"notícias de uma crise vindo do leste"
 	.byte NewLine
-.text	"shatter the kingdom's feigned stability."
+.text	"acabam com a superficial estabilidade do reino."
 	
 	.byte WaitForA
 	.byte ScrollText
@@ -323,14 +327,15 @@ dialoguePrologueWM2
 	
 	.byte StartText 
 	
-.text	"Dahna, an allied city of Grannvale's"
+.text	"Dahna, uma cidade no deserto de Aed"
 	.byte NewLine
-.text	"located in the Aed Desert,"
+.text	"aliada a Grannvale,"
 	.byte WaitForA
+	.byte ScrollText
 	
-.text	 " is brutally attacked"
+.text	 "é brutalmente atacada por guerreiros"
 	.byte NewLine
-.text	"by natives of the Kingdom of Isaach."
+.text	"do Reino de Isaach."
 	
 	.word PauseText
 	.byte $0A
@@ -339,9 +344,13 @@ dialoguePrologueWM2
 	.byte $0A
 	.byte ScrollText
 	
-.text	"Countless civilians are killed; witnesses of"
+.text	"Incontáveis inocentes mortos; testemunhas"
 	.byte NewLine
-.text	"the event dub it nothing short of a massacre."
+.text	"relatam que o que aconteceu não foi"
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"nada menos que um massacre."
 
 	.word PauseText
 	.byte $0A
@@ -358,27 +367,27 @@ dialoguePrologueWM3
 	
 	.byte StartText 
 	
-.text	"It does not take long for an uproar to arise"
+.text	"Não demora para que um tumulto se"
 	.byte NewLine
-.text	"across Grannvale,"
+.text	"espalhe por Grannvale,"
 	.byte WaitForA
-.text	" the kingdom’s people"
+.text	" o povo exigindo apenas"
 	.byte NewLine
-.text	"all demanding one thing:"
+.text	"uma coisa:"
 	.byte WaitForA
-.text	" to punish the savages"
+.text	" que os selvagens sejam"
 	.byte NewLine
-.text	"for what they have wrought."
+.text	"punidos pelo que fizeram."
 	.byte WaitForA	
 	.byte ScrollText
-.text	"Thus, answering their cries,"
+.text	"Assim, respondendo a seus súditos,"
 	.byte NewLine
-.text	"the kingdom soon declares war on Isaach."
+.text	"o reino logo declara guerra a Isaach."
 	.byte WaitForA	
 	.byte ScrollText
-.text	"In place of his father, at the front of"
+.text	"No lugar de seu pai, quem lidera os"
 	.byte NewLine
-.text	"Grannvale's charge is"
+.text	"exércitos de Grannvale é"
 	
 	.word LoadPortraitWM1
 	.byte 2
@@ -388,16 +397,20 @@ dialoguePrologueWM3
 	.byte $98
 	.byte $1C
 	
-.text	" Prince Kurth himself,"
+.text	" o Princípe Kurth,"
 	.byte WaitForA
 	.byte NewLine
-.text	"leading a united front of all six houses with the"
+.text	"liderando uma frente unida das seis casas,"
 	.byte NewLine
-.text	"kingdom's most elite forces under his command."
+.text	"com os melhores soldados"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"As always, Lord Byron"
+.text	"do reino em seu comando."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Como sempre, Lorde Byron"
 	
 	.word LoadPortraitWM1
 	.byte 4
@@ -407,13 +420,13 @@ dialoguePrologueWM3
 	.byte $64
 	.byte$48
 	
-.text	" can be found"
+.text	" se encontra"
 	.byte NewLine
-.text	 "at the prince's side,"
+.text	 "ao lado do príncipe,"
 	.byte WaitForA
-.text	 " hailed as the shining example"
+.text	 " louvado por todos"
 	.byte NewLine
-.text	"of a true hero in his own right."
+.text	"como um exemplo de herói."
 	.byte WaitForA
 	
 	.byte ScrollText
@@ -422,14 +435,14 @@ dialoguePrologueWM3
 	.word ClearPortraitWM
 	.byte 4
 	
-.text	"And so, once the army's march is underway,"
+.text	"E então, quando começa a marcha do exército,"
 	.byte NewLine
-.text	"precious few soldiers are left behind in Grannvale."	
+.text	"poucos soldados são deixados em Grannvale."	
 	.byte WaitForA
 	.byte ScrollText
-.text	"However, the kingdom's history"
+.text	"Porém, o reino confia em suas"
 	.byte NewLine
-.text	"of alliances at its borders-"	
+.text	"alianças-"	
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -438,9 +451,9 @@ dialoguePrologueWM3
 dialoguePrologueWM4
 
 	.byte StartText 
-.text	"Agustria, a coalition of smaller kingdoms"
+.text	"Com Agustria, uma coalizão de"
 	.byte NewLine
-.text	"to the west,"
+.text	"pequenos reinos ao oeste,"
 	
 	.word PauseText
 	.byte $1E
@@ -467,7 +480,9 @@ dialoguePrologueWM5
 	.byte $1E
 	
 	.byte StartText 
-.text	"and further south, the Kingdom of Verdane-"
+.text	"e mais ao sul, com"
+		.byte NewLine
+.text	"o Reino de Verdane-"
 	
 	.word PauseText
 	.byte $0A
@@ -480,9 +495,9 @@ dialoguePrologueWM5
 	.byte $0A
 	
 	.byte NewLine
-.text	"stifle any doubts the people have"
+.text	"e não teme nenhum ataque"
 	.byte NewLine
-.text	"regarding their safety."
+.text	"nessas regiões."
 	.word PauseText
 	.byte $0A
 	.byte WaitForA
@@ -492,9 +507,9 @@ dialoguePrologueWM5
 dialoguePrologueWM6
 
 	.byte StartText 
-.text	"Far too soon, that faith is proven"
+.text	"Porém, essa confiança se prova"
 	.byte NewLine
-.text	"to be horribly misplaced."
+.text	"terrivelmente errônea."
 	.byte WaitForA
 	
 	.byte ScrollText
@@ -504,9 +519,12 @@ dialoguePrologueWM6
 	.byte Low
 	.byte EvansToYngvi
 	
-.text	"A massive army erupts from the Kingdom"
+.text	"Um enorme exército sai do Reino"
 	.byte NewLine
-.text	"of Verdane, led by its very own Prince Munnir." 
+.text	"de Verdane, liderado pelo" 
+	.byte WaitForA
+	.byte ScrollText
+.text	"Príncipe Munnir."
 	
 	.word LoadPortraitWM1
 	.byte 6
@@ -518,18 +536,18 @@ dialoguePrologueWM6
 
 	.byte WaitForA	
 	.byte ScrollText
-.text	"Completely blindsiding the border's defenses,"
+.text	"Destruindo as defesas da fronteira,"
 	.byte NewLine
-.text	"Verdane pierces through the countryside"
+.text	"Verdane se embrenha na região de Yngvi"
 	.byte WaitForA
 	.byte NewLine
-.text	"and soon lays siege to Castle Yngvi."
+.text	"e logo faz cerco ao seu castelo."
 	.byte WaitForA
 	
 	.byte ScrollText
-.text	"In the wake of it all, Yngvi’s defense lies solely"
+.text	"Nesse momento, a defesa de Yngvi está nas"
 	.byte NewLine
-.text	"in the hands of the absent Lord Ling’s daughter,"
+.text	"mãos da filha de Lorde Ling,"
 	.byte WaitForA
 	
 	.word LoadPortraitWM1
@@ -540,15 +558,14 @@ dialoguePrologueWM6
 	.byte $88
 	.byte $18
 	
-	.byte NewLine
-.text	"Lady Edain."
+.text	" Madame Edain."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.word ClearPortraitWM
 	.byte 2
 	
-.text	"Sigurd, a friend of hers since childhood,"
+.text	"Sigurd, um amigo dela desde sua infância,"
 	
 	.word LoadPortraitWM1		; Pushing this one to after one sentence so Edain has time to fade without Sigurd overshadowing her.
 	.byte 4
@@ -559,31 +576,31 @@ dialoguePrologueWM6
 	.byte $06
 	
 	.byte NewLine
-.text	"is on guard at Castle Chalphy,"
+.text	"está em guarda no castelo de Chalphy,"
 	.byte WaitForA
 	.byte NewLine
-.text	"having been entrusted with Grannvale's defense"
+.text	"pois seu pai, Lorde Byron, lhe confiou"
 	.byte NewLine
-.text	"by his father, Lord Byron."
+.text	"a defesa de Grannvale."
 	.byte WaitForA
 	
 	.byte ScrollText
-.text	"Once the young nobleman hears word of it,"
+.text	"Quando o jovem nobre ouve as notícias,"
 	.byte NewLine
-.text	"he turns to his few knights and proclaims:"
+.text	"ele proclama à seus poucos cavaleiros:"
 	.byte WaitForA
 	.byte NewLine
-.text	"“No matter the cost,"
+.text	"“Custe o que custar, eu não deixarei"
 	.byte NewLine
-.text	"I’ll see that no barbarian lays a hand on her!”"
+.text	"nenhum bárbaro por a mão nela!”"
 	.byte WaitForA	
 	.byte ScrollText
-.text	"And thus, with great determination,"
+.text	"E então, com grande determinação,"
 	.byte NewLine
-.text	"he rushes into the fields of battle."
+.text	"ele se atira ao campo de batalha."
 	.byte WaitForA	
 	.byte ScrollText
-.text	"The year is 757, Grann Calendar…"
+.text	"O ano é 757 do calendário de Grann…"
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -593,9 +610,9 @@ dialoguePrologueWM6
 	.byte High
 	.byte ChalphyToYngvi
 	
-.text	"Such is the way the doorway to destiny"
+.text	"E assim as portas do destino"
 	.byte NewLine
-.text	"is thrust open."
+.text	"são abertas."
 	.byte WaitForA
 	
 	.word ClearPortraitWM
@@ -608,13 +625,12 @@ dialoguePrologueWM6
 	.byte High
 	
 	.byte ScrollText
-.text	"In that moment, that this mere disturbance"
+.text	"Naquele momento, ninguém poderia imaginar"
 	.byte NewLine
-.text	"would be the prelude"
+.text	"que esse pequeno conflito desencadearia"
 	.byte WaitForA
-.text	" of a much greater calamity"
-	.byte NewLine
-.text	"to come, no one could have possibly known…"
+	.byte ScrollText
+.text	"uma calamidade muito maior..."
 	.byte WaitForA
 	.byte ScrollText
 	

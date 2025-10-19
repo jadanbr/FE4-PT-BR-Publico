@@ -16,33 +16,39 @@ dialogueEpiloguesEdda_ClaudsSon_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I take it you're headed for Edda, "
+.text	"Imagino que você vai pra Edda, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am, sir."
+.text	"Eu vou, senhor."
 	.byte NewLine
-.text	"In the name of my father, Claud,"
+.text	"Em nome do meu pai, Claud,"
 	.byte NewLine
-.text	"I'll breathe new life back into Edda."
+.text	"Eu vou revitalizar o ducado."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Saint Bragi's faith is strong indeed."
+.text	"A fé dos seguidores de"
 	.byte NewLine
-.text	"I know your exalted prayers will bring peace"
+.text	"São Bragi é muito forte."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu tenho certeza que"
 	.byte NewLine
-.text	"to Grannvale and the world."
+.text	"suas orações vão trazer paz para"
+	.byte NewLine
+.text	"Grannvale e para todo o mundo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir!"
+.text	"Sim, senhor!"
 	.word PauseText
 	.byte $60
 
@@ -65,33 +71,39 @@ dialogueEpiloguesEdda_ClaudsSon_Married
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I take it you're headed for Edda, "
+.text	"Imagino que você vai pra Edda, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am, sir."
+.text	"Eu vou, senhor."
 	.byte NewLine
-.text	"In the name of my father, Claud,"
+.text	"Em nome do meu pai, Claud,"
 	.byte NewLine
-.text	"I'll breathe new life back into Edda."
+.text	"Eu vou revitalizar o ducado."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Saint Bragi's faith is strong indeed."
+.text	"A fé dos seguidores de"
 	.byte NewLine
-.text	"I know your exalted prayers will bring peace"
+.text	"São Bragi é muito forte."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu tenho certeza que"
 	.byte NewLine
-.text	"to Grannvale and the world."
+.text	"suas orações vão trazer paz para"
+	.byte NewLine
+.text	"Grannvale e para todo o mundo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir!"
+.text	"Sim, senhor!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -109,11 +121,11 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"And you can leave the orphans to me!"
+.text	"Você pode deixar os órfãos comigo! Afinal,"
 	.byte NewLine
-.text	"They need a mother in their life, after all."
+.text	"eles precisam de uma mãe para cuidar deles."
 	.byte NewLine
-.text	"I'll make sure they grow up safe and sound."
+.text	"Eu vou cuidar muito bem deles."
 
 	.byte RightSlot
 	.word PauseText
@@ -121,19 +133,25 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipPeppy
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"Are you sure?"
+.text	"Tem certeza?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"No need to worry, "
+.text	"Não precisa se preocupar,"
+	.byte NewLine
 	.word PrintStoredNameB
 .text	"!"
+	.word PauseText
+	.byte $60
+	.byte ScrollText
 	.byte NewLine
-.text	"The kids need my help and I won't let them down."
+.text	"As crianças precisam de mim e eu"
 	.byte NewLine
-.text	"I'll never quit on them."
+.text	"não vou deixá-las na mão."
+	.byte NewLine
+.text	"Eu não vou abandoná-las."
 	.word PauseText
 	.byte $60
 
@@ -149,11 +167,11 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"And you can leave the children to me!"
+.text	"Você pode deixar as crianças comigo!"
 	.byte NewLine
-.text	"I'll be the mother they never had,"
+.text	"Eu vou ser a mãe que elas jamais tiveram,"
 	.byte NewLine
-.text	"and I'll make sure they all grow up safely."
+.text	"e eu vou cuidar bem delas."
 
 	.byte RightSlot
 	.word PauseText
@@ -165,11 +183,11 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipLarcei
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Heh, relax! I promise, I'm gonna do this right."
+.text	"Heh, relaxa! Vai ficar tudo bem."
 	.byte NewLine
-.text	"I'll take care of all the orphans just as well"
+.text	"Eu vou tratar os órfãos como se todos fossem"
 	.byte NewLine
-.text	"as if they were my own kids!"
+.text	"meus próprios filhos!"
 	.word PauseText
 	.byte $60
 
@@ -185,13 +203,13 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I'll take care of the orphans, "
+.text	"Eu irei cuidar dos órfãos, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'll do what their mothers no longer can and"
+.text	"Eu vou dar a eles a infância que suas"
 	.byte NewLine
-.text	"ensure they all have a good childhood."
+.text	"mães não poderão mais lhes dar."
 
 	.byte RightSlot
 	.word PauseText
@@ -203,11 +221,11 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipNoble
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Don't worry about a thing..."
+.text	"Não se preocupe... eu vou amar e vou"
 	.byte NewLine
-.text	"I'll love and take care of these childen,"
+.text	"cuidar dessas crianças, tanto quanto se"
 	.byte NewLine
-.text	"just as much as if they were my own."
+.text	"elas fossem minhas próprias."
 	.word PauseText
 	.byte $60
 
@@ -223,11 +241,11 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipTine
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I'll take care of the orphans."
+.text	"Eu irei cuidar dos órfãos, "
 	.byte NewLine
-.text	"I'll do what their mothers no longer can and"
+.text	"Eu vou dar a eles a infância que suas"
 	.byte NewLine
-.text	"ensure they all have a good childhood."
+.text	"mães não poderão mais lhes dar."
 
 	.byte RightSlot
 	.word PauseText
@@ -239,13 +257,13 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipTine
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You have nothing to worry about, "
+.text	"Não precisa se preocupar, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'll love and take care of these childen"
+.text	"Eu vou amar e cuidar dessas crianças tanto"
 	.byte NewLine
-.text	"just as much as if they were my own."
+.text	"quanto se fossem meus próprios filhos."
 	.word PauseText
 	.byte $60
 
@@ -261,13 +279,13 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipNanna
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I'll take care of the orphans, "
+.text	"Eu irei cuidar dos órfãos, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'll do what their mothers no longer can and"
+.text	"Eu vou dar a eles a infância que suas"
 	.byte NewLine
-.text	"ensure they all have a good childhood."
+.text	"mães não poderão mais lhes dar."
 
 	.byte RightSlot
 	.word PauseText
@@ -279,11 +297,11 @@ dialogueEpiloguesEdda_ClaudsSon_LoverQuipNanna
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You have nothing to worry about!"
+.text	"Não precisa se preocupar! Eu vou amar e"
 	.byte NewLine
-.text	"I'll love and take care of these childen"
+.text	"cuidar dessas crianças, tanto quanto se"
 	.byte NewLine
-.text	"just as much as if they were my own."
+.text	"elas fossem minhas próprias."
 	.word PauseText
 	.byte $60
 
@@ -308,35 +326,37 @@ dialogueEpiloguesEdda_ClaudsDaughter_NoThrone_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You're headed for Edda as well, "
+.text	"Você também vai pra Edda, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am."
+.text	"Vou. Eu tenho que"
 	.byte NewLine
-.text	"I ought to visit the Edda convent,"
+.text	"visitar o convento de Edda, para dar minhas"
 	.byte NewLine
-.text	"to properly farewell the war's fallen..."
+.text	"orações pelos mortos dessa guerra..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I see... I thought you might, "
+.text	"Entendi... por favor, vá, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Be sure to pass my gratitude on to"
+.text	"Ore por eles em meu lugar,"
+	.word PrintStoredNameB
+.text	"."
 	.byte NewLine
-.text	"the spirits of the dead... Thank you."
+.text	"É o mínimo que podemos fazer para agradecer."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You take care as well, Lord Seliph..."
+.text	"Adeus, Lord Seliph. Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -359,41 +379,43 @@ dialogueEpiloguesEdda_ClaudsDaughter_NoThrone_LoverDead
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You're headed for Edda as well, "
+.text	"Você também vai para Edda, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am."
+.text	"Eu vou. Eu quero visitar o convento"
 	.byte NewLine
-.text	"I ought to visit the Edda convent,"
+.text	"da cidade, para orar por aqueles que"
 	.byte NewLine
-.text	"to properly farewell the war's fallen..."
+.text	"morreram nessa guerra..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And "
+.text	"E também pelo meu querido "
 	.word PrintStoredNameA
-.text	" as well..."
+.text	"..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I see... I thought you might, "
+.text	"Entendi... por favor, vá, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Be sure to pass my gratitude on to"
+.text	"Ore por eles em meu lugar,"
+	.word PrintStoredNameB
+.text	"."
 	.byte NewLine
-.text	"the spirits of the dead... Thank you."
+.text	"É o mínimo que podemos fazer para agradecer."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You take care as well, Lord Seliph..."
+.text	"Adeus, Lord Seliph. Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -416,33 +438,39 @@ dialogueEpiloguesEdda_ClaudsDaughter_InheritsThrone
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I take it you're headed for Edda, "
+.text	"Imagino que você vai pra Edda, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am, sir."
+.text	"Eu vou, senhor."
 	.byte NewLine
-.text	"In the name of my father, Claud,"
+.text	"Em nome do meu pai, Claud,"
 	.byte NewLine
-.text	"I'll breathe new life back into Edda."
+.text	"Eu vou revitalizar o ducado."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Saint Bragi's faith is strong indeed."
+.text	"A fé dos seguidores de"
 	.byte NewLine
-.text	"I know your exalted prayers will bring peace"
+.text	"São Bragi é muito forte."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu tenho certeza que"
 	.byte NewLine
-.text	"to Grannvale and the world."
+.text	"suas orações vão trazer paz para"
+	.byte NewLine
+.text	"Grannvale e para todo o mundo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir!"
+.text	"Sim, senhor!"
 	.word PauseText
 	.byte $60
 

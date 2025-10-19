@@ -11,9 +11,9 @@ dialogueCh4BattleKabeiri
 	.byte StartText
 .text	"Hmhmhm..."
 	.byte NewLine
-.text	"I'm surprised you've made it"
+.text	"Estou surpreso que chegaram"
 	.byte NewLine
-.text	"this far."
+.text	"tão longe."
 	.byte WaitForA
 
 	.byte EndText
@@ -26,15 +26,13 @@ dialogueCh4BattleDithorba
 	.word LoadPortrait
 	.word portrait_Dithorba2
 	.byte StartText
-.text	"Behold: you now face Díthorba,"
+.text	"Observem: sua oponente é Díthorba,"
 	.byte NewLine
-.text	"one of the Four Falcon Knights"
-	.byte NewLine
-.text	"of Silesse!"
+.text	"uma das Quatro Falcões de Silesse!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"This is where your journey ends!"
+.text	"É aqui que sua jornada acaba!"
 	.byte WaitForA
 
 	.byte EndText
@@ -56,37 +54,37 @@ dialogueCh4BattleDithorba_Erinys
 	.byte StartText
 .text	"Ohohoho!"
 	.byte NewLine
-.text	"Erinys, is it?"
+.text	"Erinys, não é?"
 	.byte NewLine
-.text	"Fancy seeing you here!"
+.text	"Bom ver você aqui!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Your head will make for a fine gift"
+.text	"Sua cabeça vai ficar perfeita no"
 	.byte NewLine
-.text	"for Lord Myos' mantlepiece!"
+.text	"manto de Lorde Myos!"
 
 	.byte RightSlot		;Erinys
 	.word PauseText
 	.byte $10
-.text	"I'll never let you win here,"
+.text	"Eu nunca lhe deixarei vencer,"
 	.byte NewLine
-.text	"Díthorba! I've come a long way"
+.text	"Díthorba! Eu sou muito diferente"
 	.byte NewLine
-.text	"from the Erinys you once knew!"
+.text	"da Erinys que um dia você conheceu!"
 	.byte WaitForA
 
 	.byte LeftSlot		;Díthorba
 	.word ScrollBoth
-.text	"Pfeh. Don't make me laugh!"
+.text	"Pfeh. Não me faça rir!"
 	.byte NewLine
-.text	"Once a weakling, always a"
+.text	"Uma vez fracote, sempre"
 	.byte NewLine
-.text	"weakling!"
+.text	"fracote!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Some things will never change!"
+.text	"Algumas coisas nunca irão mudar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -99,11 +97,11 @@ dialogueCh4BattleMyos
 	.word LoadPortrait
 	.word portrait_Myos2
 	.byte StartText
-.text	"Come on, traitors!"
+.text	"Venham, traidores!"
 	.byte NewLine
-.text	"Grannvale's bounty on your heads"
+.text	"As recompensas de Grannvale"
 	.byte NewLine
-.text	"is mine for the plucking!"
+.text	"serão todas minhas!"
 	.byte WaitForA
 
 	.byte EndText
@@ -123,20 +121,26 @@ dialogueCh4BattleMyos_Lewyn
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Keh... Look who's come crawling"
+.text	"Heh... olha quem voltou rastejando."
 	.byte NewLine
-.text	"back. My dear sister-in-law's idiot"
+.text	"O filho idiota da minha cunhada"
 	.byte NewLine
-.text	"son has returned at last."
+.text	"finalmente voltou! Viva o Príncipe Lewyn!"
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Hahaha... Infelizmente, seu tempo acabou,"
+	.byte NewLine
+.text	"pois agora EU é que serei o Rei de Silesse!"
 
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"Hello, Uncle."
+.text	"Olá, meu Tio."
 	.byte NewLine
-.text	"Time for you to die."
+.text	"Acho que é seu tempo que acabou agora."
 	.byte NewLine
-.text	"After all, Silesse needs its future."
+.text	"Afinal, Silesse merece um bom futuro."
 	.byte WaitForA
 
 	.byte EndText
@@ -149,11 +153,11 @@ dialogueCh4BattleAnnand
 	.word LoadPortrait
 	.word portrait_Annand1
 	.byte StartText
-.text	"I'm sorry."
+.text	"Me perdoe."
 	.byte NewLine
-.text	"I know you're not to blame,"
+.text	"Eu sei que não é culpa sua,"
 	.byte NewLine
-.text	"but this must be done..."
+.text	"mas isso é o que devo fazer..."
 	.byte WaitForA
 
 	.byte EndText
@@ -168,7 +172,7 @@ dialogueCh4BattlePamela
 	.byte StartText
 .text	"Heh..."
 	.byte NewLine
-.text	"Begone, weakling!"
+.text	"Adeus, fracote!"
 	.byte WaitForA
 
 	.byte EndText
@@ -190,9 +194,9 @@ dialogueCh4BattlePamela_Erinys
 	.byte StartText
 .text	"Oh."
 	.byte NewLine
-.text	"It's just you, Erinys."
+.text	"É você, Erinys."
 	.byte NewLine
-.text	"You came back, did you?"
+.text	"Voltou, enfim?"
 
 	.byte RightSlot		;Erinys
 	.word PauseText
@@ -203,26 +207,24 @@ dialogueCh4BattlePamela_Erinys
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"What you did to Annand is"
+.text	"Eu nunca te perdoarei pelo"
 	.byte NewLine
-.text	"unforgiveable!"
+.text	"que fez com minha irmã!"
 	.byte WaitForA
 
 	.byte LeftSlot		;Pamela
 	.word ScrollBoth
 .text	"Hmph."
 	.byte NewLine
-.text	"That's rich, coming from a"
+.text	"Engraçado, vindo de uma cavaleira"
 	.byte NewLine
-.text	"fledgling knight like you!"
+.text	"novata como você!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Prepare yourself."
+.text	"Prepare-se para ver sua"
 	.byte NewLine
-.text	"You're about to join your dear,"
-	.byte NewLine
-.text	"departed sister!"
+.text	"irmã de novo, no outro mundo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -244,33 +246,33 @@ dialogueCh4BattlePamela_Lewyn
 	.byte StartText
 .text	"Oh."
 	.byte NewLine
-.text	"Prince Lewyn."
+.text	"Príncipe Lewyn."
 	.byte NewLine
-.text	"It's been a while, hasn't it?"
+.text	"Faz tempo, não é?"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I've some news for you."
+.text	"Tenho más notícias para você."
 	.byte NewLine
-.text	"I've now surpassed Annand."
+.text	"Eu suprimi Annand."
 	.byte NewLine
-.text	"Permanently. Ha ha ha..."
+.text	"Permanentemente. Ha ha ha..."
 
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
 .text	"Gah!"
 	.byte NewLine
-.text	"Pamela!"
+.text	"PAMELA!"
 	.byte NewLine
-.text	"How dare you!"
+.text	"Como ousa fazer isso!"
 	.byte WaitForA
 
 	.byte LeftSlot		;Pamela
 	.word ScrollBoth
-.text	"I could say the same of you."
+.text	"Eu poderia dizer o mesmo."
 	.byte NewLine
-.text	"After all, all of this is your fault!"
+.text	"Afinal, isso é culpa sua!"
 	.byte WaitForA
 
 	.byte EndText
@@ -285,9 +287,9 @@ dialogueCh4BattleAndrey
 	.byte StartText
 .text	"Geh heh heh..."
 	.byte NewLine
-.text	"Just look at them drop!"
+.text	"Só olhe elas caindo!"
 	.byte NewLine
-.text	"Effortless! Utterly effortless..."
+.text	"É fácil demais!"
 	.byte WaitForA
 
 	.byte EndText
@@ -302,7 +304,7 @@ dialogueCh4BattleDonovan
 	.byte StartText
 .text	"Hahaha!"
 	.byte NewLine
-.text	"Time for ya to die!"
+.text	"Hora de você morrer!"
 	.byte WaitForA
 
 	.byte EndText
@@ -317,9 +319,9 @@ dialogueCh4BattleLamia
 	.byte StartText
 .text	"Hah!"
 	.byte NewLine
-.text	"What a clumsy mistake,"
+.text	"Que erro crasso,"
 	.byte NewLine
-.text	"trying to fight me!"
+.text	"tentar lutar comigo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -332,17 +334,17 @@ dialogueCh4BattleDecair
 	.word LoadPortrait
 	.word portrait_Decair2
 	.byte StartText
-.text	"The throne of Silesse is mine,"
+.text	"O trono de Silesse é meu,"
 	.byte NewLine
-.text	"and mine alone!"
+.text	"só meu!"
 	.byte NewLine
-.text	"It is my birthright!"
+.text	"É minha herança!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Stand aside,"
+.text	"Saiam da frente,"
 	.byte NewLine
-.text	"loathsome gnats!"
+.text	"seus insetos insignifcantes!"
 	.byte WaitForA
 
 	.byte EndText
@@ -362,27 +364,27 @@ dialogueCh4BattleDecair_Lewyn
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Keh..."
+.text	"Hunf..."
 	.byte NewLine
 .text	"Lewyn..."
 	.byte NewLine
-.text	"Damn you!"
+.text	"Maldito seja!"
 
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"How dare you, Decair! How"
+.text	"Como ousa, Decair! Como"
 	.byte NewLine
-.text	"dare you murder Annand! Death"
+.text	"ousa matar Annand! A morte é pouco"
 	.byte NewLine
-.text	"is too good for the likes of you!"
+.text	"para alguém como você!"
 	.byte WaitForA
 
 	.byte LeftSlot		;Decair
 	.word ScrollBoth
-.text	"What nerve!"
+.text	"Que ousadia!"
 	.byte NewLine
-.text	"You die here and now, Lewyn!"
+.text	"Você morre aqui e agora, Lewyn!"
 	.byte WaitForA
 
 	.byte EndText

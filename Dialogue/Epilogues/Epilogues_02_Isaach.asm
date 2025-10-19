@@ -15,87 +15,89 @@ dialogueEpiloguesIsaach_Shannan_Single
 	.word LoadPortrait
 	.word portrait_Shannan
 	.byte StartText
-.text	"Well, that's it."
+.text	"Bem, acabou por aqui."
 	.byte NewLine
-.text	"I'm going home, Seliph."
+.text	"Eu vou pra casa, Seliph."
 	.byte NewLine
-.text	"I've left the Isaachian people to wait long enough."
+.text	"Já deixei meu povo esperando tempo demais."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I doubt I could ever thank you enough for all"
+.text	"Shannan, nem sei por onde começar a"
 	.byte NewLine
-.text	"you've done for me, Shannan."
+.text	"te agradecer."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"All my life, you've been here to protect me"
+.text	"Minha vida toda você estava lá para"
 	.byte NewLine
-.text	"at every turn. I owe you so dearly."
+.text	"me proteger."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Your father, Lord Sigurd, was always there"
+.text	"Seu pai fez o mesmo por mim quando eu era"
 	.byte NewLine
-.text	"for me as well when I was a child,"
-	.byte NewLine
-.text	"as was the Lady Deirdre."
+.text	"criança, Seliph, e sua mãe também estava lá"
+  .byte NewLine
+.text "me protegendo." 
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"But when we lost Lady Deirdre, I couldn't"
+.text	"Quando nós perdemos ela, eu me culpei"
 	.byte NewLine
-.text	"do a thing to stop it... I failed Lord Sigurd."
+.text	"demais... eu já falhei com seu pai."
 	.byte NewLine
-.text	"Even now, I'll never forget that day..."
+.text	"Então, Seliph, não precisa se preocupar..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You don't owe me a thing, Seliph."
+.text	"Você não me deve nada. Na verdade,"
 	.byte NewLine
-.text	"Not when I've caused you so much pain..."
+.text	"é eu quem te devo..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"No, Shannan."
+.text	"Não, Shannan. Se não fosse"
 	.byte NewLine
-.text	"If it weren't for you and the people of Isaach,"
+.text	"por você e por todos os Isaachianos,"
 	.byte NewLine
-.text	"I wouldn't be here today."
+.text	"eu não estaria aqui hoje."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"To me, Isaach will always be home."
+.text	"Isaach sempre vai ser um lar pra mim."
 	.byte NewLine
-.text	"Nothing will ever change that."
+.text	"Isso nunca vai mudar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I'm sure everyone back in Isaach would be"
+.text	"Pode ter certeza que eu levarei essa mensagem"
 	.byte NewLine
-.text	"heartened to hear such kind words."
+.text	"de volta para Isaach, Seliph. Tenho certeza"
+  .byte NewLine
+.text "que todos ficarão felizes em ouvir isso." 
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I've always thought of you as a brother, Shannan."
+.text	"Eu sempre te vi como irmão, Shannan."
 	.byte NewLine
-.text	"I pray we never forget that bond."
+.text	"Eu espero que isso nunca mude."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"My blade will always be yours, King Seliph."
+.text	"Eu sempre vou ficar do seu lado, Rei Seliph."
 	.byte NewLine
-.text	"I'll never forget that so long as I live."
+.text	"E vou continuar até minha morte."
 	.word PauseText
 	.byte $60
 
@@ -117,91 +119,89 @@ dialogueEpiloguesIsaach_Shannan_Married
 	.word LoadPortrait
 	.word portrait_Shannan
 	.byte StartText
-.text	"Well, that's it."
+.text	"Bem, acabou por aqui."
 	.byte NewLine
-.text	"I'm going home, Seliph."
+.text	"Eu vou pra casa, Seliph."
 	.byte NewLine
-.text	"I've left the Isaachian people to wait long enough."
+.text	"Já deixei meu povo esperando tempo demais."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I doubt I could ever thank you enough"
+.text	"Shannan, nem sei por onde começar a"
 	.byte NewLine
-.text	"for all you've done for me, Shannan."
+.text	"te agradecer."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"All my life, you've been here to protect me"
+.text	"Minha vida toda você estava lá para"
 	.byte NewLine
-.text	"at every turn. I owe you so dearly."
-
-	.byte RightSlot
+.text	"me proteger."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Your father, Lord Sigurd, was always there"
+.text	"Seu pai fez o mesmo por mim quando eu era"
 	.byte NewLine
-.text	"for me as well when I was a child,"
-	.byte NewLine
-.text	"as was the Lady Deirdre."
+.text	"criança, Seliph, e sua mãe também estava lá"
+  .byte NewLine
+.text "me protegendo." 
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"But when we lost Lady Deirdre, I couldn't"
+.text	"Quando nós perdemos ela, eu me culpei"
 	.byte NewLine
-.text	"do a thing to stop it... I failed Lord Sigurd."
+.text	"demais... eu já falhei com seu pai."
 	.byte NewLine
-.text	"Even now, I'll never forget that day..."
+.text	"Então, Seliph, não precisa se preocupar..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You don't owe me a thing, Seliph."
+.text	"Você não me deve nada. Na verdade,"
 	.byte NewLine
-.text	"Not when I've caused you so much pain..."
+.text	"é eu que te devo..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"No, Shannan."
+.text	"Não, Shannan. Se não fosse"
 	.byte NewLine
-.text	"If it weren't for you and the people of Isaach,"
+.text	"por você e por todos os Isaachianos,"
 	.byte NewLine
-.text	"I wouldn't be here today."
+.text	"eu não estaria aqui hoje."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"To me, Isaach will always be home."
+.text	"Isaach sempre vai ser um lar pra mim."
 	.byte NewLine
-.text	"Nothing will ever change that."
+.text	"Isso nunca vai mudar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I'm sure everyone back in Isaach would be"
+.text	"Pode ter certeza que eu levarei essa mensagem"
 	.byte NewLine
-.text	"heartened to hear such kind words."
+.text	"de volta para Isaach, Seliph. Tenho certeza"
+  .byte NewLine
+.text "que todos ficarão felizes em ouvir isso." 
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-	.word RunASM
-	.long $91BC4C
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I've always thought of you as a brother, Shannan."
+.text	"Eu sempre te vi como irmão, Shannan."
 	.byte NewLine
-.text	"I pray we never forget that bond."
+.text	"Eu espero que isso nunca mude."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"My blade will always be yours, King Seliph."
+.text	"Eu sempre vou ficar do seu lado, Rei Seliph."
 	.byte NewLine
-.text	"I'll never forget that so long as I live."
+.text	"E vou continuar até minha morte."
 	.word PauseText
 	.byte $60
 
@@ -216,11 +216,11 @@ dialogueEpiloguesIsaach_Shannan_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Come on, Shannan. Lord Seliph is the king"
+.text	"Vamos, Shannan. Lorde Seliph está prestes a"
 	.byte NewLine
-.text	"of Grannvale-to-be, yet here you are, talking"
+.text	"ser Rei de Grannvale, e você está ai, falando"
 	.byte NewLine
-.text	"to him as if he's but your younger brother."
+.text	"com ele como se fosse seu irmão mais novo."
 
 	.byte RightSlot
 	.word PauseText
@@ -228,40 +228,40 @@ dialogueEpiloguesIsaach_Shannan_LoverQuipNoble
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"Yeah, I suppose you're right."
+.text	"É, você está certa. Tenho que me"
 	.byte NewLine
-.text	"I ought to put on proper airs!"
+.text	"portar do jeito certo!"
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"“King Seliph”..."
+.text	"“Rei Seliph”..."
 	.byte NewLine
-.text	"No, that's not quite right!"
+.text	"Não, acho que não serve..."
 	.byte NewLine
-.text	"Perhaps “Your Imperial Majesty, the King,” then?"
+.text	"Que tal “Vossa Majestade Imperial,” então?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I'm sorry... I shouldn't have said that."
+.text	"Desculpe... eu deveria ter ficado quieta."
 	.byte NewLine
-.text	"Bidding farewell to Lord Seliph must already be"
+.text	"Se despedir de Lorde Seliph já é dificil"
 	.byte NewLine
-.text	"hard enough without my commentary!"
+.text	"sem eu aqui te criticando!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"My apologies, to both of you."
+.text	"Desculpas, para ambos."
 	.byte NewLine
-.text	"I shouldn't have said something so crass..."
+.text	"Eu fui grossa..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Heh, it's fine."
+.text	"Heh, não esquenta."
 	.byte NewLine
-.text	"You did speak honestly, after all."
+.text	"Você foi sincera, afinal."
 	.word PauseText
 	.byte $60
 
@@ -289,11 +289,11 @@ dialogueEpiloguesIsaach_Shannan_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"C'mon, Shannan! This is Grannvale's new king"
+.text	"Shannan! Você está falando com o"
 	.byte NewLine
-.text	"you're talking to here."
+.text	"novo Rei de Grannvale. Acho que"
 	.byte NewLine
-.text	"I'm not sure you should be this brotherly to him."
+.text	"não deveria falar desse jeito com ele."
 
 	.byte RightSlot
 	.word PauseText
@@ -301,40 +301,40 @@ dialogueEpiloguesIsaach_Shannan_LoverQuipPeppy
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"Yeah, I suppose you're right."
+.text	"É, você está certa. Tenho que me"
 	.byte NewLine
-.text	"I ought to put on proper airs!"
+.text	"portar do jeito certo!"
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"“King Seliph”..."
+.text	"“Rei Seliph”..."
 	.byte NewLine
-.text	"No, that's not quite right!"
+.text	"Não, acho que não serve..."
 	.byte NewLine
-.text	"Perhaps “Your Imperial Majesty, the King,” then?"
+.text	"Que tal “Vossa Majestade Imperial,” então?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Oh! I didn't mean to anger you, Shannan."
+.text	"Ah! Eu não queria te contrariar, Shannan."
 	.byte NewLine
-.text	"You're right... Parting ways like this has to be"
+.text	"Me desculpa... dar um adeus pro Seliph"
 	.byte NewLine
-.text	"so painful for you already."
+.text	"deve doer pra você."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'm really sorry."
+.text	"Me desculpa mesmo."
 	.byte NewLine
-.text	"That was just horrid of me."
+.text	"Eu fui bem estúpida mesmo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Heh, it's fine."
+.text	"Heh, não esquenta."
 	.byte NewLine
-.text	"You did speak honestly, after all."
+.text	"Você foi sincera, tá tudo bem."
 	.word PauseText
 	.byte $60
 
@@ -372,34 +372,38 @@ dialogueEpiloguesIsaach_Scathach_NoThrone_Single
 	.word LoadPortrait
 	.word portrait_Scathach
 	.byte StartText
-.text	"Lord Seliph, I'm headed home with the king."
+.text	"Lorde Seliph, eu vou voltar com o Rei."
 	.byte NewLine
-.text	"I've got a country to help King Shannan rebuild."
-	.byte NewLine
-.text	"That's all I really want."
+.text	"Tenho que ajudar meu Rei Shannan"
+  .byte NewLine
+.text "a reconsruir Isaach."
+  .word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"É o que eu quero fazer agora."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course, Scáthach."
+.text	"Ah, certamente, Scáthach."
 	.byte NewLine
-.text	"I know King Shannan will depend on your support."
+.text	"Por favor, dê todo o seu apoio à ele."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And I know your late mother, Lady Ayra,"
+.text	"Eu sei que sua mãe, Madame Ayra, iria"
 	.byte NewLine
-.text	"would love nothing more than for you to"
+.text	"adorar te ver pondo a vida a serviço do"
 	.byte NewLine
-.text	"devote your life to the Isaachian people."
+.text	"povo isaachiano."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir."
+.text	"Sim, senhor."
 	.byte NewLine
-.text	"My life is theirs!"
+.text	"Minha vida é deles!"
 	.word PauseText
 	.byte $60
 
@@ -421,34 +425,38 @@ dialogueEpiloguesIsaach_Scathach_NoThrone_Married
 	.word LoadPortrait
 	.word portrait_Scathach
 	.byte StartText
-.text	"Lord Seliph, I'm headed home with the king."
+.text	"Lorde Seliph, eu vou voltar com o Rei."
 	.byte NewLine
-.text	"I've got a country to help King Shannan rebuild."
-	.byte NewLine
-.text	"That's all I really want."
+.text	"Tenho que ajudar meu Rei Shannan"
+  .byte NewLine
+.text "a reconsruir Isaach."
+  .word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"É o que eu quero fazer agora."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course, Scáthach."
+.text	"Ah, certamente, Scáthach."
 	.byte NewLine
-.text	"I know King Shannan will depend on your support."
+.text	"Por favor, dê todo o seu apoio à ele."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And I know your late mother, Lady Ayra,"
+.text	"Eu sei que sua mãe, Madame Ayra, iria"
 	.byte NewLine
-.text	"would love nothing more than for you to"
+.text	"adorar te ver pondo a vida a serviço do"
 	.byte NewLine
-.text	"devote your life to the Isaachian people."
+.text	"povo isaachiano."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir."
+.text	"Sim, senhor."
 	.byte NewLine
-.text	"My life is theirs!"
+.text	"Minha vida é deles!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -466,22 +474,20 @@ dialogueEpilogues_ScathachDalvin_ShannanAlive_LoverQuipLana
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I've never seen you so happy, "
+.text	"Eu nunca te vi tão feliz antes, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"But then again, knowing we're finally"
+.text	"Mas sabendo que eu finalmente vou pra casa,"
 	.byte NewLine
-.text	"about to go home, I feel the same way!"
+.text	"eu fico tão feliz quanto você!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Oh, you too?"
+.text	"Ah, é mesmo? As vezes eu esqueço que você"
 	.byte NewLine
-.text	"I almost forgot."
-	.byte NewLine
-.text	"We both grew up in Isaach, didn't we?"
+.text	"cresceu junto comigo em Isaach."
 	.word PauseText
 	.byte $60
 
@@ -492,22 +498,22 @@ dialogueEpilogues_ScathachDalvin_ShannanAlive_LoverQuipLana
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"We're going back together, right?"
+.text	"Vamos voltar juntos, certo?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Yes..."
+.text	"Sim..."
 	.byte NewLine
-.text	"I've always hoped we would."
+.text	"Eu estava esperando esse dia a muito tempo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Whew!"
+.text	"Ufa!"
 	.byte NewLine
-.text	"I'm relieved to hear you say it."
+.text	"É bom te ouvir dizendo isso."
 	.word PauseText
 	.byte $60
 
@@ -522,64 +528,64 @@ dialogueEpilogues_ScathachDalvin_ShannanAlive_LoverQuipOther
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I've never seen you this happy, "
+.text	"Eu nunca te vi tão feliz antes, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"It must be nice to finally be going home!"
+.text	"Deve ser ótimo voltar pra casa!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"It's only natural, "
+.text	"É natural, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I did spend most of my life there, after all!"
+.text	"Eu morei a vida toda lá!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"So, er..."
+.text	"Então, bem..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah...?"
+.text	"Então...?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Say, "
+.text	"É, "
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Is it okay if I come with you?"
+.text	"Posso ir com você?"
 	.byte NewLine
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"What, you want to come?"
+.text	"Como, você quer vir?"
 	.byte NewLine
-.text	"To Isaach?"
+.text	"Pra Isaach?"
 	.byte NewLine
-.text	"With me?"
+.text	"Comigo?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I do..."
+.text	"Eu quero..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Wow..."
+.text	"Nossa..."
 	.byte NewLine
-.text	"Thanks, "
+.text	"Obrigado, "
 	.word PrintStoredNameA
 .text	"!"
 	.word PauseText
@@ -603,33 +609,34 @@ dialogueEpiloguesIsaach_Scathach_InheritsThrone_Single
 	.word LoadPortrait
 	.word portrait_Scathach
 	.byte StartText
-.text	"I'm heading home now, Lord Seliph."
+.text "Eu vou embora agora, Lorde Seliph."
 	.byte NewLine
-.text	"With King Shannan's death, it's up to me"
+.text	"Com o Rei Shannan morto, cabe a mim"
 	.byte NewLine
-.text	"to protect Isaach in his place."
+.text	"assumir o trono no lugar dele."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course, Scáthach."
+.text	"Ah, certamente, Scáthach."
 	.byte NewLine
-.text	"You're next in line for the Isaachian throne,"
+.text	"Você é o próximo na linha"
 	.byte NewLine
-.text	"are you not?"
+.text	"de sucessão, certo?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I know you'll take good care of the people."
+.text	"Tenho certeza que você vai ser um bom"
 	.byte NewLine
+.text "rei para eles."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir."
+.text	"Sim, senhor."
 	.byte NewLine
-.text	"My life is theirs!"
+.text	"Eu os servirei até a morte!"
 	.word PauseText
 	.byte $60
 
@@ -651,33 +658,34 @@ dialogueEpiloguesIsaach_Scathach_InheritsThrone_Married
 	.word LoadPortrait
 	.word portrait_Scathach
 	.byte StartText
-.text	"I'm heading home now, Lord Seliph."
+.text "Eu vou embora agora, Lorde Seliph."
 	.byte NewLine
-.text	"With King Shannan's death, it's up to me"
+.text	"Com o Rei Shannan morto, cabe a mim"
 	.byte NewLine
-.text	"to protect Isaach in his place."
+.text	"assumir o trono no lugar dele."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course, Scáthach."
+.text	"Ah, certamente, Scáthach."
 	.byte NewLine
-.text	"You're next in line for the Isaachian throne,"
+.text	"Você é o próximo na linha"
 	.byte NewLine
-.text	"are you not?"
+.text	"de sucessão, certo?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I know you'll take good care of the people."
+.text	"Tenho certeza que você vai ser um bom"
 	.byte NewLine
+.text "rei para eles."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir."
+.text	"Sim, senhor."
 	.byte NewLine
-.text	"My life is theirs!"
+.text	"Eu os servirei até a morte!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -695,40 +703,44 @@ dialogueEpilogues_ScathachDalvin_ShannanDead_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Still glum, huh, "
+.text	"Ainda tá triste, "
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Lord Shannan's death is really hurting you..."
+.text	"A morte do Shannan deve doer muito em você..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"There's no way it couldn't."
+.text	"Não tinha como ser diferente."
 	.byte NewLine
-.text	"He was the closest thing "
+.text	"Ele é o mais próximo que eu e "
 	.word PrintBranchingName
 	.byte name_LarceiCreidne
-.text	" and I"
+.text	""
 	.byte NewLine
-.text	"ever had to a father. I'll never forgive myself..."
+.text	"tivemos de um pai."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu nunca vou me perdoar por não ter"
+  .byte NewLine
+.text "conseguido protegê-lo..." 
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Huh..."
+.text	"Hmmm..."
 	.byte NewLine
-.text	"You think I can help you at all"
-	.byte NewLine
-.text	"by staying by your side?"
+.text	"E se eu ficar pra te ajudar?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh?"
+.text	"Quê?"
 	.byte NewLine
-.text	"...You're not serious, "
+.text	"...Vai fazer isso por mim, "
 	.word PrintStoredNameA
 .text	"?"
 	.word PauseText
@@ -736,9 +748,9 @@ dialogueEpilogues_ScathachDalvin_ShannanDead_LoverQuipPeppy
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Yep!"
+.text	"Vou!"
 	.byte NewLine
-.text	"If that's what you want, "
+.text	"Isso se você quiser, "
 	.word PrintStoredNameB
 .text	"..."
 	.word PauseText
@@ -756,42 +768,48 @@ dialogueEpilogues_ScathachDalvin_ShannanDead_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You still look so sad, "
+.text	"Vejo que ainda está triste, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"Lord Shannan's death still weighs heavily on you,"
+.text	"A morte do Lorde Shannan ainda pesa em"
 	.byte NewLine
-.text	"doesn't it?"
+.text	"você, certo?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"There's no way it couldn't."
+.text	"Não tinha como ser diferente."
 	.byte NewLine
-.text	"He was the closest thing "
+.text	"Ele é o mais próximo que eu e "
 	.word PrintBranchingName
-	.word name_LarceiCreidne
-.text	" and I"
+	.byte name_LarceiCreidne
+.text	""
 	.byte NewLine
-.text	"ever had to a father. I'll never forgive myself..."
+.text	"tivemos de um pai."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu nunca vou me perdoar por não ter"
+  .byte NewLine
+.text "conseguido protegê-lo..." 
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Perhaps..."
+.text	"Hmmmm..."
 	.byte NewLine
-.text	"Do you think having me around"
+.text	"Você acha que me ter por perto"
 	.byte NewLine
-.text	"will do you any good?"
+.text	"vai te ajudar?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh?"
+.text	"Quê?"
 	.byte NewLine
-.text	"...You're not serious, "
+.text	"...Vai fazer isso mesmo, "
 	.word PrintStoredNameA
 .text	"?"
 	.word PauseText
@@ -800,9 +818,9 @@ dialogueEpilogues_ScathachDalvin_ShannanDead_LoverQuipNoble
 	.byte LeftSlot
 	.word ScrollBoth
 	.byte StartText
-.text	"If that's what you want, "
+.text	"Se você quiser, "
 	.word PrintStoredNameB
-.text	", then I am..."
+.text	", então sim..."
 
 	.byte RightSlot
 	.word PauseText
@@ -820,40 +838,48 @@ dialogueEpilogues_ScathachDalvin_ShannanDead_LoverQuipTine
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You look awfully sad, "
+.text	"Você está muito triste, "
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"Lord Shannan's death is still troubling you, right?"
+.text	"A morte do Rei Shannan"
+	.byte NewLine
+.text	"ainda dói em você, não é?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"There's no way it couldn't."
+.text	"Não tinha como ser diferente."
 	.byte NewLine
-.text	"He was the closest thing "
+.text	"Ele é o mais próximo que eu e "
 	.word PrintBranchingName
-	.word name_LarceiCreidne
-.text	" and I"
+	.byte name_LarceiCreidne
+.text	""
 	.byte NewLine
-.text	"ever had to a father. I'll never forgive myself..."
+.text	"tivemos de um pai."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu nunca vou me perdoar por não ter"
+  .byte NewLine
+.text "conseguido protegê-lo..." 
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Huh..."
+.text	"Hmmm..."
 	.byte NewLine
-.text	"Do you think having me by your side"
+.text	"Acha que eu vou conseguir"
 	.byte NewLine
-.text	"will do you any good?"
+.text	"te ajudar?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh?"
+.text	"Quê?"
 	.byte NewLine
-.text	"...You're not serious, "
+.text	"...Você está falando sério, "
 	.word PrintStoredNameA
 .text	"?"
 	.word PauseText
@@ -861,9 +887,9 @@ dialogueEpilogues_ScathachDalvin_ShannanDead_LoverQuipTine
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"If you want me there, "
+.text	"Se você quiser, "
 	.word PrintStoredNameB
-.text	", then I am..."
+.text	", então eu estou..."
 
 	.byte RightSlot
 	.word PauseText
@@ -888,10 +914,10 @@ dialogueEpiloguesIsaach_LarceiCreidne_ScathachAlive_Single
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going home with "
+.text	"Eu vou voltar pra casa com "
 	.word PrintBranchingName
 	.word name_ScathachDalvin
-.text	", Lord Seliph."
+.text	", Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -900,9 +926,9 @@ dialogueEpiloguesIsaach_LarceiCreidne_ScathachAlive_Single
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"I know we'll meet again someday."
+.text	"Eu sei que um dia vamos nos ver de novo."
 	.byte NewLine
-.text	"Take care..."
+.text	"Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -923,10 +949,10 @@ dialogueEpiloguesIsaach_LarceiCreidne_ScathachAlive_Single_Repeat
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going home with "
+.text	"Eu vou voltar pra casa com "
 	.word PrintBranchingName
 	.word name_ScathachDalvin
-.text	", Lord Seliph."
+.text	", Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -935,9 +961,9 @@ dialogueEpiloguesIsaach_LarceiCreidne_ScathachAlive_Single_Repeat
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"I know we'll meet again someday."
+.text	"Eu sei que um dia vamos nos ver de novo."
 	.byte NewLine
-.text	"Take care..."
+.text	"Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -959,26 +985,30 @@ dialogueEpiloguesIsaach_Larcei_NoThrone_ScathachDead_Single
 	.word LoadPortrait
 	.word portrait_Larcei
 	.byte StartText
-.text	"I'm going home with the king, Lord Seliph."
+.text	"Eu vou voltar com o Rei, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You still feel lonesome, yes?"
+.text	"Imagino que ainda se sente mal."
 	.byte NewLine
-.text	"After what happened to Scáthach, I mean..."
+.text	"Depois do que aconteceu com o Scathach..."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Espero que consiga dar"
 	.byte NewLine
-.text	"I pray you'll still work your hardest for Isaach."
+.text	"o seu melhor para Isaach."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I know, I know!"
+.text	"Tá bom, Tá bom!"
 	.byte NewLine
-.text	"I'm fine."
+.text	"Eu tô bem."
 	.byte NewLine
-.text	"I... I'm so proud of my brother..."
+.text	"Eu... me orgulho muito do meu irmão..."
 	.word PauseText
 	.byte $60
 
@@ -987,9 +1017,9 @@ dialogueEpiloguesIsaach_Larcei_NoThrone_ScathachDead_Single
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"I know we'll meet again someday."
+.text	"Eu sei que um dia nos veremos de novo."
 	.byte NewLine
-.text	"Take care..."
+.text	"Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -1010,27 +1040,31 @@ dialogueEpiloguesIsaach_LarceiCreidne_NoThrone_LoverDead
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going home, Lord Seliph."
+.text	"Vou voltar pra casa, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.word PrintStoredNameB
-.text	", I... I beg your forgiveness"
+.text	", eu... por favor, me perdoe"
 	.byte NewLine
-.text	"for what happened to "
+.text	"pelo que aconteceu com "
 	.word PrintStoredNameA
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $0F
-.text	"No, sir. It's my fault that he's..."
+.text	"Não, senhor. Não é culpa sua..."
 	.byte NewLine
-.text	"I failed to protect him. I'll never forget the time"
+.text	"Fui eu que não consegui protegê-lo."
 	.byte NewLine
-.text	"we had together, no matter what..."
+.text	"Eu nunca vou esquecer do tempo que"
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"eu tive com ele..."
 	.word PauseText
 	.byte $60
 
@@ -1039,9 +1073,9 @@ dialogueEpiloguesIsaach_LarceiCreidne_NoThrone_LoverDead
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"I know we'll meet again someday."
+.text	"Eu sei que um dia nos veremos de novo."
 	.byte NewLine
-.text	"Take care..."
+.text	"Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -1062,27 +1096,31 @@ dialogueEpiloguesIsaach_LarceiCreidne_NoThrone_LoverDead_Repeat
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going home, Lord Seliph."
+.text	"Vou voltar pra casa, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.word PrintStoredNameB
-.text	", I... I beg your forgiveness"
+.text	", eu... por favor, me perdoe"
 	.byte NewLine
-.text	"for what happened to "
+.text	"pelo que aconteceu com "
 	.word PrintStoredNameA
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $0F
-.text	"No, sir. It's my fault that he's..."
+.text	"Não, senhor. Não é culpa sua..."
 	.byte NewLine
-.text	"I failed to protect him. I'll never forget the time"
+.text	"Fui eu que não consegui protegê-lo."
 	.byte NewLine
-.text	"we had together, no matter what..."
+.text	"Eu nunca vou esquecer do tempo que"
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"eu tive com ele..."
 	.word PauseText
 	.byte $60
 
@@ -1091,9 +1129,9 @@ dialogueEpiloguesIsaach_LarceiCreidne_NoThrone_LoverDead_Repeat
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"I know we'll meet again someday."
+.text	"Eu sei que um dia nos veremos de novo."
 	.byte NewLine
-.text	"Take care..."
+.text	"Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -1115,34 +1153,34 @@ dialogueEpiloguesIsaach_Larcei_InheritsThrone
 	.word LoadPortrait
 	.word portrait_Larcei
 	.byte StartText
-.text	"I'm going home, Lord Seliph."
+.text	"Eu vou voltar para casa, Lorde Seliph."
 	.byte NewLine
-.text	"Now that King Shannan's dead, Isaach needs"
+.text	"Com meu irmão e o Rei Shannan mortos, só"
 	.byte NewLine
-.text	"my protection."
+.text	"restou eu para assumir o trono."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course, Larcei."
+.text	"Ah, entendi, Larcei."
 	.byte NewLine
-.text	"You're all that remains of the"
+.text	"Infelizmente, você foi a única que"
 	.byte NewLine
-.text	"Isaachian royal family, yes?"
+.text	"sobreviveu da família real isaachiana..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You are the only one I can depend upon"
+.text	"Por favor, faça todo o possível para"
 	.byte NewLine
-.text	"for the sake of the Isaachians."
-	.byte NewLine
-.text	"Please do all you can to protect them."
+.text	"servir à seu povo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I'll give my life for them, Lord Seliph!"
+.text	"Eu vou dar minha vida para servi-los,"
+  .byte NewLine
+.text "Lorde Seliph!" 
 	.word PauseText
 	.byte $60
 
@@ -1151,9 +1189,9 @@ dialogueEpiloguesIsaach_Larcei_InheritsThrone
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"I know we'll meet again someday."
+.text	"Eu sei que um dia nos veremos de novo."
 	.byte NewLine
-.text	"Take care..."
+.text	"Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -1177,32 +1215,32 @@ dialogueEpiloguesIsaach_Dalvin_ShannanAlive_Single
 	.word LoadPortrait
 	.word portrait_Dalvin
 	.byte StartText
-.text	"Okay, Lord Seliph, I'm headed home"
+.text	"Lorde Seliph, eu vou voltar para casa"
 	.byte NewLine
-.text	"with King Shannan. I've got a country to help"
+.text	"com meu Rei. Eu quero ajudá-lo a"
 	.byte NewLine
-.text	"them rebuild. That's all I really want."
+.text	"reconstruir nosso país."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course, Dalvin."
+.text	"Ah, certamente, Dalvin."
 	.byte NewLine
-.text	"I know he'll depend on your support."
+.text	"Eu sei que ele vai gostar da sua ajuda."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I pray your combined might will bring peace"
+.text	"Eu espero que, com seu apoio, ele"
 	.byte NewLine
-.text	"to the people of Isaach."
+.text	"consiga trazer paz para Isaach."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir."
+.text	"Sim, senhor."
 	.byte NewLine
-.text	"My life is theirs!"
+.text	"Minha vida é do meu povo!"
 	.word PauseText
 	.byte $60
 
@@ -1224,32 +1262,32 @@ dialogueEpiloguesIsaach_Dalvin_ShannanAlive_Married
 	.word LoadPortrait
 	.word portrait_Dalvin
 	.byte StartText
-.text	"Okay, Lord Seliph, I'm headed home"
+.text	"Lorde Seliph, eu vou voltar para casa"
 	.byte NewLine
-.text	"with King Shannan. I've got a country to help"
+.text	"com meu Rei. Eu quero ajudá-lo a reconstruir"
 	.byte NewLine
-.text	"them rebuild. That's all I really want."
+.text	"nosso país."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course, Dalvin."
+.text	"Ah, certamente, Dalvin."
 	.byte NewLine
-.text	"I know he'll depend on your support."
+.text	"Eu sei que ele vai gostar da sua ajuda."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I pray your combined might will bring peace"
+.text	"Eu espero que, com seu apoio, ele"
 	.byte NewLine
-.text	"to the people of Isaach."
+.text	"consiga trazer paz para Isaach."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir."
+.text	"Sim, senhor."
 	.byte NewLine
-.text	"My life is theirs!"
+.text	"Minha vida é do meu povo!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -1279,40 +1317,44 @@ dialogueEpiloguesIsaach_Dalvin_ShannanDead_Single
 	.word LoadPortrait
 	.word portrait_Dalvin
 	.byte StartText
-.text	"Okay, Lord Seliph, I'm headed home."
+.text	"Lorde Seliph, preciso voltar para casa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Now that King Shannan's dead,"
+.text	"Nosso Rei Shannan morreu, mas Isaach"
 	.byte NewLine
-.text	"Isaach needs someone like me"
+.text	"não pode ficar desgovernada. Eu irei"
 	.byte NewLine
-.text	"to watch over it in his place."
+.text	"assumir o governo da nação."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course, Dalvin."
+.text	"Ah, entendi, Dalvin."
 	.byte NewLine
-.text	"King Shannan's demise brought an end"
+.text	"Infelizmente, com a morte de Shannan,"
 	.byte NewLine
-.text	"to the royal Isaachian bloodline, yes?"
+.text	"a linhagem real de Isaach morreu..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I promise you Grannvale will do all it can"
+.text	"Eu te prometo todo o apoio de"
 	.byte NewLine
-.text	"to aid you, but the welfare and defense"
-	.byte NewLine
-.text	"of Isaach will depend upon you."
+.text	"Grannvale nesse momento."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu tenho certeza que Isaach"
+  .byte NewLine
+.text "ficará em boas mãos." 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir."
+.text	"Sim, senhor."
 	.byte NewLine
-.text	"My life is theirs!"
+.text	"Eu os servirei!"
 	.word PauseText
 	.byte $60
 
@@ -1334,40 +1376,44 @@ dialogueEpiloguesIsaach_Dalvin_ShannanDead_Married
 	.word LoadPortrait
 	.word portrait_Dalvin
 	.byte StartText
-.text	"Okay, Lord Seliph, I'm headed home."
+.text	"Lorde Seliph, preciso voltar para casa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Now that King Shannan's dead,"
+.text	"Nosso Rei Shannan morreu, mas Isaach"
 	.byte NewLine
-.text	"Isaach needs someone like me"
+.text	"não pode ficar desgovernada. Eu irei"
 	.byte NewLine
-.text	"to watch over it in his place."
+.text	"assumir o governo da nação."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course, Dalvin."
+.text	"Ah, entendi, Dalvin."
 	.byte NewLine
-.text	"King Shannan's demise brought an end"
+.text	"Infelizmente, com a morte de Shannan,"
 	.byte NewLine
-.text	"to the royal Isaachian bloodline, yes?"
+.text	"a linhagem real de Isaach morreu..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I promise you Grannvale will do all it can"
+.text	"Eu te prometo todo o apoio de"
 	.byte NewLine
-.text	"to aid you, but the welfare and defense"
-	.byte NewLine
-.text	"of Isaach will depend upon you."
+.text	"Grannvale nesse momento."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Eu tenho certeza que Isaach"
+  .byte NewLine
+.text "ficará em boas mãos." 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir."
+.text	"Sim, senhor."
 	.byte NewLine
-.text	"My life is theirs!"
+.text	"Eu os servirei!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -1405,26 +1451,26 @@ dialogueEpiloguesIsaach_Creidne_DalvinDead_Single
 	.word LoadPortrait
 	.word portrait_Creidne
 	.byte StartText
-.text	"I'm going home with the king, Lord Seliph."
+.text	"Eu vou pra casa com o Rei, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Creidne, I..."
+.text	"Creidne, eu..."
 	.byte NewLine
-.text	"I beg your forgiveness for what happened"
+.text	"Eu peço perdão pelo que aconteceu"
 	.byte NewLine
-.text	"to Dalvin."
+.text	"com o Dalvin..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, sir."
+.text	"Não, senhor, não precisa."
 	.byte NewLine
-.text	"I believe he died a happy man."
+.text	"Eu acredito que ele morreu feliz."
 	.byte NewLine
-.text	"I'm... I'm proud of him, I guess..."
+.text	"Eu... acho..."
 	.word PauseText
 	.byte $60
 
@@ -1433,9 +1479,9 @@ dialogueEpiloguesIsaach_Creidne_DalvinDead_Single
 	.word PrintStoredNameB
 .text	"..."
 	.byte NewLine
-.text	"I know we'll meet again someday."
+.text	"Eu sei que nos veremos de novo."
 	.byte NewLine
-.text	"Take care..."
+.text	"Se cuide..."
 	.word PauseText
 	.byte $60
 
@@ -1462,35 +1508,33 @@ dialogueEpiloguesIsaach_Deimne_MuirneAlive_Single
 	.word LoadPortrait
 	.word portrait_Deimne
 	.byte StartText
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You're bound for Isaach as well, Deimne?"
+.text	"Está indo para Isaach também, Deimne?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am."
-	.byte NewLine
-.text	"Thanks for everything, sir."
+.text	"Estou. Obrigado por tudo, senhor."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Oh, no."
+.text	"Ah, não, não."
 	.byte NewLine
-.text	"It is I who owes you thanks!"
+.text	"É eu que tenho que agradecer!"
 	.byte NewLine
-.text	"Thank you, Deimne."
+.text	"Obrigado por me ajudar, Deimne."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Take care of yourself, sir!"
+.text	"Se cuide, senhor!"
 	.word PauseText
 	.byte $60
 
@@ -1512,35 +1556,33 @@ dialogueEpiloguesIsaach_Deimne_MuirneAlive_Married
 	.word LoadPortrait
 	.word portrait_Deimne
 	.byte StartText
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You're bound for Isaach as well, Deimne?"
+.text	"Está indo para Isaach também, Deimne?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am."
-	.byte NewLine
-.text	"Thanks for everything, sir."
+.text	"Estou. Obrigado por tudo, senhor."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Oh, no."
+.text	"Ah, não, não."
 	.byte NewLine
-.text	"It is I who owes you thanks!"
+.text	"É eu que tenho que agradecer!"
 	.byte NewLine
-.text	"Thank you, Deimne."
+.text	"Obrigado por me ajudar, Deimne."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Take care of yourself, sir!"
+.text	"Se cuide, senhor!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -1559,30 +1601,30 @@ dialogueEpilogues_Deimne_MuirneAlive_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Going back to Isaach, "
+.text	"Vai voltar para Isaach, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, that's the plan..."
+.text	"É, essa é minha intenção..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
 	.byte StartText
-.text	"Huh..."
+.text	"Hmmmm..."
 	.byte NewLine
-.text	"Really?"
+.text	"É mesmo?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"And I really want you to come with me, "
+.text	"E eu quero muito que você venha comigo, "
 	.word PrintStoredNameA
 .text	"."
 	.word PauseText
@@ -1590,16 +1632,16 @@ dialogueEpilogues_Deimne_MuirneAlive_LoverQuipPeppy
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Wait, really?!"
+.text	"Espera, sério?!"
 	.byte NewLine
-.text	"You REALLY want to take me along?"
+.text	"Quer mesmo me levar?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah!"
+.text	"Quero!"
 	.byte NewLine
-.text	"I mean, if you want to come, of course."
+.text	"Se você quiser, né."
 	.word PauseText
 	.byte $60
 
@@ -1615,14 +1657,14 @@ dialogueEpilogues_Deimne_MuirneAlive_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Are you going back to Isaach, "
+.text	"Está voltando para Isaach, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, that's the plan..."
+.text	"É, essa é minha intenção..."
 	.word PauseText
 	.byte $60
 
@@ -1630,14 +1672,14 @@ dialogueEpilogues_Deimne_MuirneAlive_LoverQuipNoble
 	.word ScrollBoth
 .text	"Hm..."
 	.byte NewLine
-.text	"Is that so..."
+.text	"Entendi..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah..."
+.text	"E..."
 	.byte NewLine
-.text	"And I really want you to come with me,"
+.text	"E eu quero muito que você venha também,"
 	.word PrintStoredNameA
 .text	"."
 	.word PauseText
@@ -1647,16 +1689,16 @@ dialogueEpilogues_Deimne_MuirneAlive_LoverQuipNoble
 	.word ScrollBoth
 .text	"Eh?"
 	.byte NewLine
-.text	"Really?!"
+.text	"Sério?!"
 	.byte NewLine
-.text	"You... You really want me with you..."
+.text	"Você... você quer me levar contigo?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah!"
+.text	"Quero!"
 	.byte NewLine
-.text	"I mean, if you want to come, of course."
+.text	"Se você quiser, claro."
 	.word PauseText
 	.byte $60
 
@@ -1672,29 +1714,29 @@ dialogueEpilogues_Deimne_MuirneAlive_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You're going back to Isaach, right,"
+.text	"Você está voltando pra Isaach, certo,"
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, that's the plan..."
+.text	"É, essa é minha intenção..."
 	.byte NewLine
-.text	"Are you?"
+.text	"Você vem?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I, er..."
+.text	"Eu, hã..."
 	.byte NewLine
-.text	"I'm not sure I should..."
+.text	"Não sei se devo..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"...I want to go home with you,"
+.text	"...Eu quero voltar com você,"
 	.word PrintStoredNameA
 .text	"."
 	.word PauseText
@@ -1702,22 +1744,22 @@ dialogueEpilogues_Deimne_MuirneAlive_LoverQuipLarcei
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Er, why?"
+.text	"Er, porquê?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Because I love you, silly!"
+.text	"Porque eu te amo, ora!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Wh- You can't just say this stuff out loud,"
+.text	"Que- Você não pode sair gritando essas"
 	.byte NewLine
-.text	"you moron! Eh, doesn't matter."
+.text	"coisas, seu palerma! Ah, esquece."
 	.byte NewLine
-.text	"We'll go home... together."
+.text	"Nós vamos para casa... juntos."
 	.word PauseText
 	.byte $60
 
@@ -1739,50 +1781,48 @@ dialogueEpiloguesIsaach_Deimne_MuirneDead_Single
 	.word LoadPortrait
 	.word portrait_Deimne
 	.byte StartText
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You're bound for Isaach as well, Deimne?"
+.text	"Está indo para Isaach também, Deimne?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am."
-	.byte NewLine
-.text	"Thanks for everything, sir."
+.text	"Estou. Obrigado por tudo, senhor."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Please accept my apologies for Muirne."
+.text	"Por favor, me perdoe pela morte da sua irmã."
 	.byte NewLine
-.text	"I pray you'll someday forgive me..."
+.text	"Por favor, me perdoe..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I... No, her death's my fault."
+.text	"Eu... não, senhor, foi culpa minha."
 	.byte NewLine
-.text	"You know, sir, Muirne always..."
+.text	"Sabe, senhor, Muirne sempre..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I know... I know."
+.text	"Eu sei... eu sei."
 	.byte NewLine
-.text	"Farewell, Deimne."
+.text	"Adeus, Deimne."
 	.byte NewLine
-.text	"I know we'll meet again someday..."
+.text	"Eu sei que nos veremos de novo..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir!"
+.text	"Sim, senhor!"
 	.word PauseText
 	.byte $60
 
@@ -1804,50 +1844,42 @@ dialogueEpiloguesIsaach_Deimne_MuirneDead_Married
 	.word LoadPortrait
 	.word portrait_Deimne
 	.byte StartText
-.text	"Lord Seliph..."
-	.word PauseText
-	.byte $60
-	.byte ScrollText
-
-	.byte LeftSlot
-.text	"You're bound for Isaach as well, Deimne?"
+.text	"Está indo para Isaach também, Deimne?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am."
-	.byte NewLine
-.text	"Thanks for everything, sir."
+.text	"Estou. Obrigado por tudo, senhor."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Please accept my apologies for Muirne."
+.text	"Por favor, me perdoe pela morte da sua irmã."
 	.byte NewLine
-.text	"I pray you'll someday forgive me..."
+.text	"Por favor, me perdoe..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I... No, her death's my fault."
+.text	"Eu... não, senhor, foi culpa minha."
 	.byte NewLine
-.text	"You know, sir, Muirne always..."
+.text	"Sabe, senhor, Muirne sempre..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I know... I know."
+.text	"Eu sei... eu sei."
 	.byte NewLine
-.text	"Farewell, Deimne."
+.text	"Adeus, Deimne."
 	.byte NewLine
-.text	"I know we'll meet again someday..."
+.text	"Eu sei que nos veremos de novo..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir!"
+.text	"Sim, senhor!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -1865,29 +1897,30 @@ dialogueEpilogues_Deimne_MuirneDead_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Are you going back to Isaach,"
+.text	"Vai voltar para Isaach, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, that's the plan..."
+.text	"É, essa é minha intenção..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Hm..."
+	.byte StartText
+.text	"Hmmmm..."
 	.byte NewLine
-.text	"Is that right..."
+.text	"É mesmo?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"And I really want you to come with me,"
+.text	"E eu quero muito que você venha comigo, "
 	.word PrintStoredNameA
 .text	"."
 	.word PauseText
@@ -1895,26 +1928,24 @@ dialogueEpilogues_Deimne_MuirneDead_LoverQuipPeppy
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Ohh, maybe as a replacement for Muirne?"
+.text	"Pra substituir sua irmã?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"What?!"
+.text	"Quê?!"
 	.byte NewLine
-.text	"No!"
+.text	"Não! Eu quero que você venha"
 	.byte NewLine
-.text	"It's because I love you..."
+.text	"porque eu te amo..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Sorry, sorry."
+.text	"Desculpa, falei besteira..."
 	.byte NewLine
-.text	"Don't worry, I understand."
-	.byte NewLine
-.text	"I'll be going with you to Isaach."
+.text	"Bem, é claro que eu vou com você!"
 	.word PauseText
 	.byte $60
 
@@ -1930,14 +1961,14 @@ dialogueEpilogues_Deimne_MuirneDead_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Are you going back to Isaach,"
+.text	"Você irá voltar para Isaach,"
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, that's the plan..."
+.text	"É, essa é minha intenção..."
 	.word PauseText
 	.byte $60
 
@@ -1945,14 +1976,14 @@ dialogueEpilogues_Deimne_MuirneDead_LoverQuipNoble
 	.word ScrollBoth
 .text	"Hm..."
 	.byte NewLine
-.text	"Is that right..."
+.text	"Entendi..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah..."
+.text	"É..."
 	.byte NewLine
-.text	"And I really want you to come with me,"
+.text	"E eu quero muito que você venha comigo,"
 	.word PrintStoredNameA
 .text	"."
 	.word PauseText
@@ -1960,26 +1991,26 @@ dialogueEpilogues_Deimne_MuirneDead_LoverQuipNoble
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You mean, as a replacement for Muirne?"
+.text	"Você quer que eu substitua sua irmã?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"What?!"
+.text	"Quê?!"
 	.byte NewLine
-.text	"No!"
+.text	"Não! Eu quero que você venha"
 	.byte NewLine
-.text	"I love you..."
+.text	"porque eu te amo..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Sorry..."
+.text	"Me perdoe... falei sem pensar..."
 	.byte NewLine
-.text	"Don't worry, I understand."
+.text	"Não se preocupe, eu fico feliz em ir"
 	.byte NewLine
-.text	"I'll be right by your side in Isaach."
+.text	"com você para Isaach."
 	.word PauseText
 	.byte $60
 
@@ -1995,27 +2026,29 @@ dialogueEpilogues_Deimne_MuirneDead_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You're going back to Isaach, right,"
+.text	"Você vai voltar pra Isaach, certo,"
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, that's the plan..."
+.text	"Sim, essa é minha intenção..."
+  .byte NewLine
+.text "Você vem?" 
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I, er..."
+.text	"Eu, é..."
 	.byte NewLine
-.text	"I'm not sure I should..."
+.text	"Não sei se devo..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"...I want to go home with you,"
+.text	"...Eu quero voltar com você, "
 	.word PrintStoredNameA
 .text	"."
 	.word PauseText
@@ -2024,27 +2057,25 @@ dialogueEpilogues_Deimne_MuirneDead_LoverQuipLarcei
 	.byte LeftSlot
 	.word ScrollBoth
 	.byte StartText
-.text	"What, so I can fill in for"
-	.word PrintStoredNameC
-.text	"?"
+.text	"Porque? Pra eu substituir sua irmã?"
 	.byte NewLine
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No!"
+.text	"Não! Pra eu poder"
 	.byte NewLine
-.text	"So I can spend my life with the woman I love!"
+.text	"viver com a mulher que eu amo!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Wh- You cant just say that stuff out loud,"
+.text	"Que- Não fique gritando essas coisas,"
 	.byte NewLine
-.text	"you fool! ...No, it's alright."
+.text	"seu idiota! ... Não, desculpa."
 	.byte NewLine
-.text	"We'll go home... Together."
+.text	"Vamos para casa... juntos."
 	.word PauseText
 	.byte $60
 
@@ -2068,26 +2099,26 @@ dialogueEpiloguesIsaach_Muirne_DeimneAlive_Single
 	.word LoadPortrait
 	.word portrait_Muirne
 	.byte StartText
-.text	"Thank you so much for all you've done for me,"
+.text	"Muito obrigado por tudo que você fez"
 	.byte NewLine
-.text	"Lord Seliph."
+.text	"por mim, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Muirne... So even you..."
+.text	"Muirne... até você..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Isaach is the only place I could ever call home."
+.text	"Isaach é a minha casa."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I need to work with Deimne and the others"
+.text	"Eu preciso ajudar Deimne e os outros"
 	.byte NewLine
-.text	"to restore Isaach."
+.text	"a reparar os danos que foram causados."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -2115,9 +2146,9 @@ dialogueEpiloguesIsaach_Muirne_DeimneAlive_LoverDead
 	.word LoadPortrait
 	.word portrait_Muirne
 	.byte StartText
-.text	"Thank you so much for all you've done for me,"
+.text	"Muito obrigado por tudo que você fez"
 	.byte NewLine
-.text	"Lord Seliph."
+.text	"por mim, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -2125,29 +2156,29 @@ dialogueEpiloguesIsaach_Muirne_DeimneAlive_LoverDead
 	.byte LeftSlot
 .text	"Muirne..."
 	.byte NewLine
-.text	"I'm so, so sorry."
+.text	"Por favor, me perdoe."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Why...?"
+.text	"Porque...?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I let "
+.text	"Eu deixei "
 	.word PrintStoredNameA
-.text	" die..."
+.text	" morrer..."
 	.byte NewLine
-.text	"I couldn't do a thing to save him. But he still"
+.text	"Eu não consegui proteger ele. Mas eu tenho"
 	.byte NewLine
-.text	"keeps watch over you, even now... I know it."
+.text	"certeza que ele ainda roga por você..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Y-yes, Lord Seliph..."
+.text	"S-sim, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 
@@ -2169,30 +2200,30 @@ dialogueEpiloguesIsaach_Muirne_DeimneDead_Single
 	.word LoadPortrait
 	.word portrait_Muirne
 	.byte StartText
-.text	"Thank you so much for all you've done for me,"
+.text	"Muito obrigado por tudo que você fez"
 	.byte NewLine
-.text	"Lord Seliph."
+.text	"por mim, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Muirne... So even you..."
+.text	"Muirne... até você..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Isaach is the only place I could ever call home."
+.text	"Isaach é a minha casa."
 	.byte NewLine
-.text	"I know it'll be lonesome, but there's nothing"
+.text	"Mas infelizmente..."
 	.byte NewLine
-.text	"I can do now..."
+.text	"Eu terei que voltar sozinha..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I'm so sorry, Muirne..."
+.text	"Eu sinto muito, Muirne..."
 	.word PauseText
 	.byte $60
 
@@ -2214,9 +2245,9 @@ dialogueEpiloguesIsaach_End_OneCharacter
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Well, it's time to say goodbye."
+.text	"Bem, é hora de dar tchau."
 	.byte NewLine
-.text	"Best of luck to you!"
+.text	"Boa sorte pra você!"
 	.word PauseText
 	.byte $60
 
@@ -2236,9 +2267,9 @@ dialogueEpiloguesIsaach_End_MultipleCharacters
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Well, it's time to say goodbye."
+.text	"Bem, é hora de dar tchau."
 	.byte NewLine
-.text	"Best of luck, heroes of Isaach!"
+.text	"Boa sorte, heróis de Isaach!"
 	.word PauseText
 	.byte $60
 

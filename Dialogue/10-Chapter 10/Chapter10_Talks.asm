@@ -14,106 +14,104 @@ dialogueCh10Talk_LesterDeimne_PattyDaisy
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey!"
+.text	"Ei!"
 	.byte NewLine
-.text	"Hey, "
+.text	"Ei, "
 	.word PrintBranchingName
 	.word name_PattyDaisy
 .text	"!"
 	.byte NewLine
-.text	"Looking good as ever, I see."
+.text	"Pelo que parece, você tá bem."
 	
 	.byte RightSlot		;Patty
 	.word PauseText
 	.byte $10
-.text	"Oh."
+.text	"Ah."
 	.byte NewLine
-.text	"It's you, "
+.text	"É você, "
 	.word PrintBranchingName
 	.word name_LesterDeimne
-.text	"."
+.text	". Se não for falar nada"
 	.byte NewLine
-.text	"Look, just go away, okay?"
+.text	"nada importante, pode ir embora, por favor?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lester
-.text	"Oh, come on!"
+.text	"Ah calma aí!"
 	.byte NewLine
-.text	"You're always so harsh and mouthy."
+.text	"Eu não fiz nada, pra que me agredir"
 	.byte NewLine
-.text	"What gives?"
+.text	"desse jeito?"
 	
 	.byte RightSlot		;Patty
 	.word PauseText
 	.byte $10
-.text	"You're one to talk!"
+.text	"Ah, não fez nada né?"
 	.byte NewLine
-.text	"You've never said anything that isn't teasing me"
+.text	"Toda vez que você vem falar comigo, é pra me"
 	.byte NewLine
-.text	"in the most mind-numbing ways imaginable!"
+.text	"provocar de graça!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lester
-.text	"Wait, I haven't?"
+.text	"Pera, eu faço isso mesmo?"
 	
 	.byte RightSlot		;Patty
 	.word PauseText
 	.byte $10
-.text	"Of course you haven't!"
+.text	"Claro que faz!"
 	.byte NewLine
-.text	"How can't you see that?"
+.text	"Não percebe isso não? Você não trata"
 	.byte NewLine
-.text	"You don't treat any other girls like this!"
+.text	"nenhuma outra garota desse jeito!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lester
-.text	"Hang on!"
+.text	"Pera aí!"
 	.byte NewLine
-.text	"What do you mean you're a girl, "
+.text	"Não sabia que você era menina, "
 	.word PrintBranchingName
 	.word name_PattyDaisy
-.text	"?"
+.text	"!"
 	
 	.byte RightSlot		;Patty
 	.word PauseText
 	.byte $10
-.text	"Oh!"
+.text	"Ah!"
 	.byte NewLine
-.text	"You... You twit!"
+.text	"Seu... seu idiota!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lester
-.text	"Hey, I was joking!"
+.text	"Calma, eu tava brincando!"
 	.byte NewLine
-.text	"I'm sorry..."
+.text	"Desculpa aí..."
 	.byte NewLine
-.text	"C'mon, calm down, okay?"
+.text	"Por favor, acalme-se."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Look, I guess I kinda care about you."
+.text	"Olha, eu me importo com você."
 	.byte NewLine
-.text	"That sort of turned into..."
+.text	"Aí por causa disso eu..."
 	.byte NewLine
-.text	"Er, sorry."
+.text	"Ah esquece. Só me desculpa."
 	
 	.byte RightSlot		;Patty
 	.word PauseText
 	.byte $10
-.text	"Care about me?"
-	.byte NewLine
-.text	"What's that supposed to mean?!"
+.text	"Como assim você se importa comigo?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lester
-.text	"It means that I sort of like you, okay!"
+.text	"Quer dizer que eu meio que gosto de você!"
 	.byte NewLine
-.text	"You can't be that thick, can you?"
+.text	"Você nunca percebeu não?"
 	.byte WaitForA
 
 	.byte EndText
@@ -133,145 +131,147 @@ dialogueCh10Talk_Leif_Altena
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Is everything alright, Altena?"
+.text	"Você está bem, Altena?"
 	.byte NewLine
-.text	"You look rather weary."
+.text	"Parece que está cansada."
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Oh, Leif..."
+.text	"Ah, Leif..."
 	.byte NewLine
-.text	"No, it's nothing."
+.text	"Não, não tem nada errado."
 	.byte NewLine
-.text	"Don't worry about it."
+.text	"Não se preocupe."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Leif
-.text	"Well, if you say so..."
+.text	"Se você diz..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Listen, Altena."
+.text	"Escute, irmã. "
+	.byte WaitForA
+.text	"Não tenha medo de me pedir ajuda."
 	.byte NewLine
-.text	"Don't be afraid to ask for my help."
+.text	"Se você precisar de alguma coisa,"
 	.byte NewLine
-.text	"If you ever need anything, I'll glady do all I can."
+.text	"é só pedir pra mim, e eu faço o que puder."
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Thanks, Leif."
+.text	"Obrigado, Leif."
 	.byte NewLine
-.text	"Er, actually..."
+.text	"Na verdade..."
 	.byte NewLine
-.text	"I was thinking of Arion."
+.text	"Eu estava pensando no Arion."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Leif
-.text	"I thought as much..."
+.text	"Eu imaginei que poderia ser isso..."
 	.byte NewLine
-.text	"Is it true that someone came to spirit him away"
+.text	"É verdade que alguém o teleportou para longe"
 	.byte NewLine
-.text	"after we brought him down?"
+.text	"depois que nós o derrotamos?"
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"It is, and from what I hear, that someone was"
+.text	"Sim, e pelo que parece, quem fez isso"
 	.byte NewLine
-.text	"Prince Julius..."
+.text	"foi o Príncipe Julius..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Leif
-.text	"The Empire's crown prince himself?!"
+.text	"O príncipe imperial?!"
 	.byte NewLine
-.text	"But why..."
+.text	"Porque..."
 	.byte NewLine
-.text	"Why in the world would he do that?"
+.text	"Porque ele faria isso?"
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Perhaps he's trying to win himself a new ally"
+.text	"Talvez ele salvou Arion para"
 	.byte NewLine
-.text	"by appealing to Arion."
+.text	"ganhar um novo aliado."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Leif
-.text	"That makes sense..."
+.text	"Faz sentido..."
 	.byte NewLine
-.text	"And I suppose it means we'll be crossing blades"
+.text	"Então provavelmente teremos"
 	.byte NewLine
-.text	"with Thracia's wyvern knights again."
+.text	"que enfrentá-lo de novo."
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
 .text	"Mm."
 	.byte NewLine
-.text	"I'm afraid so."
+.text	"Infelizmente."
 	.byte NewLine
-.text	"So long as this war continues..."
+.text	"Se seguirmos em frente, é inevitável..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Leif
-.text	"To be honest, Altena,"
+.text	"Na verdade, Altena,"
 	.byte NewLine
-.text	"I believe this is actually good news."
+.text	"acho que isso é bom."
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"How so?"
+.text	"Porquê?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Leif
-.text	"Think about it."
+.text	"Pensa só."
 	.byte NewLine
-.text	"So long as Arion is still alive,"
+.text	"Se Arion está vivo, então"
 	.byte NewLine
-.text	"there is still hope that we can help him."
+.text	"ainda podemos salvá-lo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Never give up, Altena."
+.text	"Não desista, Altena."
 	.byte NewLine
-.text	"So long as we keep moving forward,"
+.text	"Se a gente continuar em frente de cabeça em pé,"
 	.byte NewLine
-.text	"surely everything will be fine in the end."
+.text	"vai dar tudo certo no final."
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Thank you, Leif..."
+.text	"Obrigado, irmão..."
 	.byte NewLine
-.text	"I think I'm feeling better already."
+.text	"Acho que tô me sentindo melhor."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Leif
-.text	"Oh, thank the gods."
+.text	"Ah, graças aos deuses."
 	.byte NewLine
-.text	"I couldn't bear knowing that my sister was"
+.text	"Eu não consigo ficar bem quando"
 	.byte NewLine
-.text	"in such grief."
+.text	"você está mal, irmã."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I'm here for you, Altena."
+.text	"Eu estou aqui por você."
 	.byte NewLine
-.text	"All I want is to ensure your happiness,"
+.text	"Tudo que eu quero é te fazer feliz, e eu"
 	.byte NewLine
-.text	"and I'll do whatever it takes to help you."
+.text	"farei qualquer coisa para te deixar feliz."
 	.byte WaitForA
 
 	.byte EndText
@@ -291,116 +291,115 @@ dialogueCh10Talk_NannaJeanne_Leif
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Say, Lord Leif... All my life I've been hearing how"
+.text	"Ah, Lorde Leif... Toda minha vida eu ouvi sobre"
 	.byte NewLine
-.text	"Miletos' cities are so fabulously rich."
+.text	"quão ricas eram as cidades nessa região."
 	.byte NewLine
-.text	"But look at it now... Look at all these ruins..."
+.text	"Mas olha esse lugar agora... está arruinado..."
 	
 	.byte RightSlot		;Leif
 	.word PauseText
 	.byte $10
 .text	"Mm..."
 	.byte NewLine
-.text	"No matter how awful the Empire is,"
+.text	"Eu sabia que o Império era mau,"
 	.byte NewLine
-.text	"I never thought them to be quite so brutal."
+.text	"mas eu não tinha noção direito de"
+	.byte WaitForA
+	.byte NewLine
+.text	"quanta destruição eles causam."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"To think, just two decades ago one could buy"
+.text	"20 anos atrás, dava pra comprar quase qualquer"
 	.byte NewLine
-.text	"almost anything one could ever desire from this"
-	.byte NewLine
-.text	"region's many merchants..."
+.text	"coisa nos mercados por aqui..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I suppose that nothing can thrive,"
+.text	"A opressão do Império impede que as"
 	.byte NewLine
-.text	"so long as the Empire remains in power."
+.text	"pessoas prosperem."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Nanna
-.text	"Ever since I was little I've always wanted to"
+.text	"Quando eu era pequena, eu sonhava em visitar"
 	.byte NewLine
-.text	"wander the beautiful cities of Miletos and"
+.text	"as lindas cidades de Miletos e ver as"
 	.byte NewLine
-.text	"sample all the rare goods on sale..."
+.text	"lojas que falavam que tinha..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"It must have been so lovely once..."
+.text	"Devia ser realmente incrível antes..."
 	
 	.byte RightSlot		;Leif
 	.word PauseText
 	.byte $10
 	.word PrintBranchingName
 	.word name_NannaJeanne
-.text	"... The instant this war is over"
+.text	"... Quando essa guerra acabar, e tivermos"
 	.byte NewLine
-.text	"and we've restored peace to the world,"
+.text	"recuperado a paz no mundo, vamos voltar aqui..."
 	.byte NewLine
-.text	"let's come back here... Just the two of us."
+.text	"Só nos dois."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Nanna
-.text	"Why?"
+.text	"Porquê?"
 	
 	.byte RightSlot		;Leif
 	.word PauseText
 	.byte $10
-.text	"I once heard a story about my parents..."
+.text	"Um dia me contaram uma história dos meus pais..."
 	.byte NewLine
-.text	"On a visit to Miletos, my father gifted my"
+.text	"Numa visita à Miletos, meu pai deu uma"
 	.byte NewLine
-.text	"mother with the most stunning pearl tiara."
+.text	"tiara de pérolas de presente pra minha mãe."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Nanna
-.text	"Did he?"
+.text	"É mesmo?"
 	
 	.byte RightSlot		;Leif
 	.word PauseText
 	.byte $10
-.text	"He did indeed, and someday..."
+.text	"Sim, e um dia,"
 	.byte NewLine
-.text	"Someday, I'd love to do the same for you,"
+	.word PrintBranchingName
+	.word name_NannaJeanne
+.text	"..."
 	.byte NewLine
+.text	"Eu queria fazer o mesmo com você."
+	.byte WaitForA
+	.word ScrollBoth
+
+	.byte LeftSlot		;Nanna
+.text	"Ah, Lorde Leif..."
+	
+	.byte RightSlot		;Leif
+	.word PauseText
+	.byte $10
+.text	"Heh, acho que falei cedo demais. Ainda temos"
+	.byte NewLine
+.text	"que lidar com o Império, afinal!"
+	.byte WaitForA
+	.word ScrollBoth
+
+.text	"Estamos quase chegando no fim da guerra, "
 	.word PrintBranchingName
 	.word name_NannaJeanne
 .text	"."
-	.byte WaitForA
-	.word ScrollBoth
-
-	.byte LeftSlot		;Nanna
-.text	"Oh, Lord Leif..."
-	
-	.byte RightSlot		;Leif
-	.word PauseText
-	.byte $10
-.text	"Heh, I suppose I'm getting a bit ahead of myself."
 	.byte NewLine
-.text	"We still have an empire to bring down before we"
-	.byte NewLine
-.text	"do anything else, after all!"
-	.byte WaitForA
-	.word ScrollBoth
-
-.text	"The end of this blasted war is in sight, "
-	.word PrintBranchingName
-	.word name_NannaJeanne
-.text	"."
-	.byte NewLine
-.text	"Now, shall we?"
+.text	"Vamos seguir em frente?"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Nanna
-.text	"Of course, Lord Leif!"
+.text	"Claro, Lorde Leif!"
 	.byte WaitForA
 
 	.byte EndText
@@ -420,69 +419,72 @@ dialogueCh10Talk_Shannan_Seliph
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You've grown so strong of late, Seliph!"
+.text	"Você ficou bem forte, Seliph!"
 	.byte NewLine
-.text	"You really are your parents' son."
+.text	"Igual seus pais mesmo."
 	.byte NewLine
-.text	"There's nothing left for me to teach you."
+.text	"Não tem mais o que eu te ensinar."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Thank you, Shannan..."
+.text	"Obrigado, Shannan..."
 	.byte NewLine
-.text	"For everything."
+.text	"Obrigado por tudo o que você fez por mim."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Any might I have springs from your teachings."
+.text	"Essa força que você diz que eu tenho,"
 	.byte NewLine
-.text	"To me, swordplay is every bit as natural as"
+.text	"eu tenho porquê você me ajudou."
 	.byte NewLine
-.text	"breathing, and I owe it all to you."
+.text	"Lutar com uma espada é igual respirar"
+	.byte WaitForA
+	.byte NewLine
+.text	"pra mim, e eu devo isso à você."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Shannan
 .text	"Heh..."
 	.byte NewLine
-.text	"You think so, do you..."
+.text	"Se você pensa assim..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"You look awfully weary, Shannan..."
+.text	"Você parece cansado, Shannan..."
 	.byte NewLine
-.text	"Is something amiss?"
+.text	"Tem algo errado?"
 	.byte NewLine
-.text	"If only I could lend you my strength..."
+.text	"Posso te ajudar com alguma coisa?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Shannan
-.text	"Hey, come on!"
+.text	"Ei, calma aí!"
 	.byte NewLine
-.text	"You needn't treat me like some old man."
+.text	"Não me trate como um velho."
 	.byte NewLine
-.text	"I'm as young and spry as ever, you know!"
+.text	"Eu ainda estou jovem!"
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Oh!"
+.text	"Ah!"
 	.byte NewLine
-.text	"My apologies, Shannan..."
+.text	"Me desculpe, Shannan..."
 	.byte NewLine
-.text	"That wasn't what I was-"
+.text	"Não era isso que eu queria-"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Shannan
-.text	"Heh, it's fine."
+.text	"Heh, não precisa se desculpar."
 	.byte NewLine
-.text	"...Thanks anyway, Seliph."
+.text	"...Obrigado por se preocupar."
 	.byte NewLine
-.text	"It heartens me to know that you care."
+.text	"Fico feliz em ver que você se importa comigo."
 	.byte WaitForA
 
 	.byte EndText
@@ -502,89 +504,90 @@ dialogueCh10Talk_FebailAsaello_LanaMuirne
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Wait a minute... I've never seen someone so frail"
+.text	"Espera um pouco... você parece um"
 	.byte NewLine
-.text	"hold their own out here like this."
+.text	"pouco fraca pra estar num lugar desses."
 	.byte NewLine
-.text	"Aren't you scared at all?"
+.text	"Você não tá assustada não?"
 	
 	.byte RightSlot		;Lana
 	.word PauseText
 	.byte $10
-.text	"I won't lie to you... I am. I really am."
+.text	"Não vou mentir... eu estou. Estou muito."
 	.byte NewLine
-.text	"But I could never sit back and do nothing"
+.text	"Mas eu não quero ficar sem fazer nada"
 	.byte NewLine
-.text	"knowing all those children are still in peril."
+.text	"sabendo que as crianças estão em perigo."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Febail
-.text	"Huh, so you're fond of kids, then?"
+.text	"Ah, então você gosta de crianças?"
 	
 	.byte RightSlot		;Lana
 	.word PauseText
 	.byte $10
-.text	"Oh, certainly!"
+.text	"Ah, claro!"
 	.byte NewLine
-.text	"I love children."
+.text	"Eu amo crianças."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"And from what I hear, you do as well!"
+.text	"E pelo que eu ouvi, você também!"
 	.byte NewLine
-.text	"You've been looking after orphans, haven't you,"
+.text	"Você tem um orfanato, não é,"
 	.byte NewLine
 	.word PrintBranchingName
 	.word name_FebailAsaello
-.text	"? I think that's just wonderful!"
+.text	"? Isso é muito bom!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Febail
-.text	"Er, don't get too excited there..."
+.text	"É, não se anime muito..."
 	.byte WaitForA
 	.byte ScrollText
 
+.text	"Foi "
 	.word PrintBranchingName
 	.word name_PattyDaisy
-.text	" dragged me into the whole"
+.text	" que me arrastou pra essa coisa de"
 	.byte NewLine
-.text	'"look after orphans" thing.'
+.text	'"cuidar de órfãos."'
 	.byte NewLine
-.text	"Not the biggest fan myself."
+.text	"Eu não gosto muito não."
 	
 	.byte RightSlot		;Lana
 	.word PauseText
 	.byte $10
 .text	"Hee hee hee..."
 	.byte NewLine
-.text	"You sound so sure!"
+.text	"É mesmo?"
 	.byte NewLine
-.text	"I'm not blind, you know."
+.text	"Eu estou vendo isso aí."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"How, then, do you explain all the sobbing"
+.text	"Como você explica as crianças que choraram"
 	.byte NewLine
-.text	"children who begged you to stay as you left to"
+.text	"quando você disse que ia embora com"
 	.byte NewLine
-.text	"join us?"
+.text	"a gente?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Why, they must all see you as some sort of father"
+.text	"Imagino que eles veêm você como"
 	.byte NewLine
-.text	"figure!"
+.text	"um pai!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Febail
-.text	"H-hey, stop it, would you!"
+.text	"E-ei, xiu aí, tá bom?"
 	.byte NewLine
-.text	"I... it's just that..."
+.text	"Não passa disso mesmo..."
 	.byte NewLine
-.text	"Look, I've got some things to go do, okay?"
+.text	"Olha, tenho umas coisas pra fazer, tá bom?"
 	.word PauseText
 	.byte $30
 	.byte ScrollText
@@ -595,7 +598,7 @@ dialogueCh10Talk_FebailAsaello_LanaMuirne
 	.byte RightSlot		;Lana
 .text	"Heh!"
 	.byte NewLine
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintBranchingName
 	.word name_FebailAsaello
 .text	"..."
@@ -618,187 +621,191 @@ dialogueCh10Talk_Oifey_Seliph
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Look, sire!"
+.text	"Olhe, senhor! O território de Chalphy"
 	.byte NewLine
-.text	"The territory of Chalphy awaits us just across"
+.text	"está próximo, só precisamos"
 	.byte NewLine
-.text	"the Miletos Strait."
+.text	"cruzar a ponte do Estreito de Miletos."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Chalphy... My father's fatherland..."
+.text	"Chalphy... a casa do meu pai..."
 	.byte NewLine
-.text	"I can only imagine all the memories"
+.text	"Imagino que você tem muitas boas"
 	.byte NewLine
-.text	"you must have of it, Oifey."
+.text	"memórias de lá, Oifey."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Oifey
-.text	"Mm, of course."
+.text	"Mm, mas é claro."
 	.byte NewLine
-.text	"I don't think there's a single corner of Chalphy"
+.text	"Acho que não tem nenhum lugar lá que"
 	.byte NewLine
-.text	"which I don't recall fondly..."
+.text	"tenha me marcado de forma ruim..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Lord Sigurd and Lady Ethlyn..."
+.text	"Lorde Sigurd, Madame Ethlyn..."
 	.byte NewLine
-.text	"Naoise, Alec, and all of my other peers among"
+.text	"Naoise, Alec, e os meus jovens"
 	.byte NewLine
-.text	"the young knights of Chalphy..."
+.text	"companheiros de ordem..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Every last face there was a friendly one..."
+.text	"Em todo lugar, um rosto amigo..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Hm... I can only imagine, Oifey."
+.text	"Hm... só posso imaginar, Oifey."
 	.byte NewLine
-.text	"I've never so much as set foot in Chalphy, have I?"
+.text	"Eu nunca botei o pé em Chalphy,"
+	.byte NewLine
+.text	"se não me engano."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Oifey
-.text	"Indeed, sire."
+.text	"Correto, senhor."
 	.byte NewLine
-.text	"You were born in Agustria,"
+.text	"Você nasceu em Agustria,"
 	.byte NewLine
-.text	"and raised in Silesse and Isaach."
+.text	"e cresceu em Silesse e Isaach."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Come to think of it, sire, you've never been"
+.text	"Parando pra pensar, você nunca esteve"
 	.byte NewLine
-.text	"anywhere near Grannvale till now."
+.text	"nem perto de Grannvale."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Quite the sorry excuse for a prince of Grannvale"
+.text	"Bem estranho para alguém que se diz"
 	.byte NewLine
-.text	"I make, wouldn't you say?"
+.text	"o herdeiro legítimo do Império, não é?"
 	.byte NewLine
-.text	"It almost feels as if I've tricked the world."
+.text	"Parece até que tô tentando enganar o povo."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Oifey
-.text	"I know, sire, but I pray you understand."
+.text	"Eu sei, senhor, mas escute o que vou dizer."
 	.byte NewLine
-.text	"This is the will of your citizens, all long abused"
+.text	"Essa é a vontade do seu povo, eles perderam tudo"
 	.byte NewLine
-.text	"and stripped of power by the Empire."
+.text	"o que tinham para o Império."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They've endured decades of suffering beyond"
+.text	"Eles aguentaram por anos os flagelos desse"
 	.byte NewLine
-.text	"compare at the Empire's hands, all in the hope of,"
+.text	"Império, na esperança de que,"
 	.byte NewLine
 	.word MusicFadeOut
 	.byte $E1
-.text	"one day, seeing the coming of their savior."
+.text	"um dia, viria o seu salvador."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"This savior..."
+.text	'Esse "salvador"...'
 	.byte NewLine
-.text	"Do they believe it to be me?"
+.text	"Eles acham que sou eu?"
 	.byte WaitForA
 	.word ChangeMusic
 	.byte $87
 	.word ScrollBoth
 
 	.byte LeftSlot		;Oifey
-.text	"They do."
+.text	"Acham."
 	.byte NewLine
-.text	"The common folk have long prayed for the"
+.text	"O povo comum tem à muito esperado pela"
 	.byte NewLine
-.text	"second coming of the hero Sigurd."
+.text	"segunda vinda do herói Sigurd."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The folklore claims he comes once more in the"
+.text	"As histórias do povo dizem que ele retornará"
 	.byte NewLine
-.text	"form of a legendary child whom Sigurd begat"
+.text	"na forma de uma criança lendária, filha dele"
 	.byte NewLine
-.text	"with Empress Deirdre."
+.text	"com a Imperatriz Deirdre."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"A legendary child..."
+.text	'Uma "criança lendária?"'
 	.byte NewLine
-.text	"It's terrifying to know that people have"
+.text	"É assustador pra mim pensar que as pessoas"
 	.byte NewLine
-.text	"taken to seeing me as some sort of god, Oifey."
+.text	"me veêm como um deus, ou próximo disso, Oifey."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Oifey
-.text	"Think of it as a product of the sheer brutality of"
+.text	"Pense nisso como um produto da absoluta"
 	.byte NewLine
-.text	"the Empire's regime, sire."
+.text	"brutalidade do Império, senhor."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Look around you. We stand in a realm where"
+.text	"Olhe em sua volta, vivemos num mundo em que"
 	.byte NewLine
-.text	"children are snatched from their parents in"
+.text	"os pais tem seus filhos roubados aos montes, e"
 	.byte NewLine
-.text	"droves, and all who resist are put to slaughter."
+.text	"aqueles que resistem são massacrados."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"No mere human could ever wreak such madness."
+.text	"Para eles, não pode ser um mero humano"
 	.byte NewLine
-.text	"A great evil lurks behind it all..."
+.text	"causando tanta destruição."
+	.byte NewLine
+.text	"Tem um mal sobrenatural por trás..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Say, Oifey... I've been hearing tales that"
+.text	"Sabe, Oifey... eu tenho ouvido dizerem que"
 	.byte NewLine
-.text	"Emperor Arvis is the dark god itself."
+.text	"o Imperador Arvis é o deus maligno encarnado."
 	.byte NewLine
-.text	"Where do you stand?"
+.text	"O que você acha disso?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Oifey
-.text	"I've heard the same from countless others"
+.text	"Eu ouvi o mesmo de muitos durante nossas"
 	.byte NewLine
-.text	"in our travels, sire, but I doubt it."
+.text	"viagens, senhor, mas eu duvido muito."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Then who could it be?"
+.text	"Então quem que é?"
 	.byte NewLine
-.text	"Manfroy, perhaps?"
+.text	"Manfroy, talvez?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Oifey
-.text	"Sire... Whoever it may be, the dark god's return"
+.text	"Senhor... quem quer que seja, o retorno"
 	.byte NewLine
-.text	"is fast approaching."
+.text	"do deus das trevas está próximo."
 	.byte NewLine
-.text	"We must hurry."
+.text	"Temos que nos apressar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Your people have come to revere you as a"
+.text	"O povo te venera como um cruzado destinado"
 	.byte NewLine
-.text	"crusader destined to save them."
+.text	"à salvá-los. E chegou a hora de você responder"
 	.byte NewLine
-.text	"The time to heed their call is upon us."
+.text	"o chamado deles."
 	.byte WaitForA
 
 	.byte EndText
@@ -818,11 +825,11 @@ dialogueCh10Talk_Seliph_Fee
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Pardon me, Fee."
+.text	"Com licença, Fee."
 	.byte NewLine
-.text	"Lewyn would like a word with you."
+.text	"Lewyn quer falar com você."
 	.byte NewLine
-.text	"If you need me, I'll be waiting over there."
+.text	"Se você precisar de mim, eu estarei logo ali."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -833,11 +840,11 @@ dialogueCh10Talk_Seliph_Fee
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
-.text	"Geez, Fee."
+.text	"Caramba, Fee."
 	.byte NewLine
-.text	"I haven't seen anyone as stubborn as you since"
+.text	"Você é tão teimosa quanto a sua mãe,"
 	.byte NewLine
-.text	"I last saw Erinys!"
+.text	"realmente puxou ela!"
 	
 	.byte RightSlot		;Fee
 	.word PauseText
@@ -847,109 +854,109 @@ dialogueCh10Talk_Seliph_Fee
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"C'mon, there's no need to get angry!"
+.text	"Por favor, deixa disso, filha!"
 	.byte NewLine
-.text	"I'm here to apologize, okay? Ignoring you clearly"
+.text	"Eu tô aqui pra te pedir desculpa, tá bom?"
 	.byte NewLine
-.text	"wasn't the best idea I've ever had."
+.text	"Te ignorar certamente foi um erro da minha parte."
 	
 	.byte RightSlot		;Fee
 	.word PauseText
 	.byte $10
-.text	"What kind of monster are you, Dad?!"
+.text	"Você entende o que você fez, pai?!"
 	.byte NewLine
-.text	"I... I could've sworn I was seeing things when"
+.text	"Eu... eu podia jurar que era uma miragem quando"
 	.byte NewLine
-.text	"you first popped up in Ribaut!"
+.text	"eu te vi em Ribaut!"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I hadn't been that happy in years, and..."
+.text	"Eu não ficava feliz assim há anos..."
 	.byte NewLine
-.text	"And seeing you again had me in tears..."
+.text	"Te ver me fez até chorar..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But then when I tried talking to you,"
+.text	"Mas quando eu tentei falar com você,"
 	.byte NewLine
-.text	"you wouldn't so much as blink at me!"
+.text	"você nem bateu o olho em mim!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Do you have any idea how it feels to be shunned"
+.text	"Você tem alguma ideia do quão ruim é ser"
 	.byte NewLine
-.text	"by your own father, Dad?!"
+.text	"ignorada pelo próprio pai, pai?!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Lewyn
-.text	"So you went about pretending you didn't notice"
+.text	"Então pra se vingar, você ficou"
 	.byte NewLine
-.text	"me either?"
+.text	"me ignorando também?"
 	.byte NewLine
-.text	"Is that it?"
+.text	"É isso mesmo?"
 	
 	.byte RightSlot		;Fee
 	.word PauseText
 	.byte $10
-.text	"I figured, why should I bother if you're not gonna"
+.text	"Eu pensei, se você não liga, porquê EU deveria"
 	.byte NewLine
-.text	"bother? I told myself I'd only talk to you if you"
+.text	"ligar? Resolvi que só ia falar com você se você"
 	.byte NewLine
-.text	"took the initiative here."
+.text	"viesse falar comigo primeiro."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
 .text	"Heh..."
 	.byte NewLine
-.text	"Bratty little thing, aren't you..."
+.text	"Cê é uma pirralhinha mesmo..."
 	
 	.byte RightSlot		;Fee
 	.word PauseText
 	.byte $10
-.text	"EXCUSE ME?!"
+.text	"COMO É?!"
 	.byte NewLine
-.text	"Ohh, that does it!"
+.text	"Ahh, agora deu!"
 	.byte NewLine
-.text	"I'm not listening to another word of this!"
+.text	"Não quero mais falar com você!"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Maybe if she hadn't married such an awful man,"
+.text	"Quem sabe se a mamãe não tivesse"
 	.byte NewLine
-.text	"Mom'd still be with us..."
+.text	"escolhido um homem tão ruim, ela"
+	.byte NewLine
+.text	"ainda estaria viva..."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Lewyn
-.text	"Look, Fee."
+.text	"Olha, Fee."
 	.byte NewLine
-.text	"I get it."
+.text	"Eu te entendo."
 	.byte NewLine
-.text	"I really messed things up with Erinys."
+.text	"Eu errei feio com a Erinys."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But what happened is my business and hers."
+.text	"Mas o que aconteceu entre eu e ela é problema"
 	.byte NewLine
-.text	"Nobody else's."
+.text	"meu e dela, e de mais ninguém."
 	.byte NewLine
-.text	"You and Ced have no right to meddle!"
+.text	"Você e Ced não tem que se meter nisso!"
 	
 	.byte RightSlot		;Fee
 	.word PauseText
 	.byte $10
-.text	"Dad-"
+.text	"Pai-"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"There's a war going on here, Fee, and that's the"
+.text	"Tem uma guerra acontecendo, e você tem que se"
 	.byte NewLine
-.text	"only thing you should be worrying about right now."
-	.byte NewLine
-.text	"Understood?"
+.text	"concentrar nisso, entendeu?"
 	.byte WaitForA
 
 	.byte EndText
@@ -969,11 +976,11 @@ dialogueCh10Talk_Seliph_Lene
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Pardon me, Lene."
+.text	"Com licença, Lene."
 	.byte NewLine
-.text	"Lewyn would like a word with you."
+.text	"Lewyn quer falar com você."
 	.byte NewLine
-.text	"If you need me, I'll be waiting over there."
+.text	"Se você precisar de mim, eu estarei logo ali."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -984,94 +991,94 @@ dialogueCh10Talk_Seliph_Lene
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
-.text	"Take care of yourself out here, Lene."
+.text	"Se cuide lá fora, Lene."
 	.byte NewLine
-.text	"There'd be no greater tragedy for humanity"
+.text	"Seria uma tragédia se machucassem esse"
 	.byte NewLine
-.text	"than seeing your lovely face scarred, huh?"
+.text	"seu lindo rosto, não é?"
 	
 	.byte RightSlot		;Lene
 	.word PauseText
 	.byte $10
-.text	"Say, Lewyn..."
+.text	"Já que você tá aqui, Lewyn..."
 	.byte NewLine
-.text	"I, er, don't suppose you ever knew my mom?"
+.text	"Você sabe alguma coisa sobre a minha mãe?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
 .text	"Hm?"
 	.byte NewLine
-.text	"What makes you say that?"
+.text	"Porquê a pergunta?"
 	
 	.byte RightSlot		;Lene
 	.word PauseText
 	.byte $10
-.text	"I dunno."
+.text	"Eu sei lá."
 	.byte NewLine
-.text	"I guess it seems like you know just about"
+.text	"Pra mim, parece que você sabe"
 	.byte NewLine
-.text	"everything, Lewyn."
+.text	"de tudo, Lewyn."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"You want to know more about her, then?"
+.text	"Você quer saber mais sobre ela, então?"
 	
 	.byte RightSlot		;Lene
 	.word PauseText
 	.byte $10
-.text	"Yep!"
+.text	"Sim!"
 	.byte NewLine
-.text	"And my dad too, if possible."
+.text	"E sobre meu pai também, se possível."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Lene... You're your own wonderful person."
+.text	"Lene... você já é uma ótima pessoa por si mesma."
 	.byte NewLine
-.text	"You shouldn't worry too much about who your"
+.text	"Não deveria se preocupar muito com quem seus"
 	.byte NewLine
-.text	"parents were or what they were like."
+.text	"pais eram ou como eles eram."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But I can tell you one thing."
+.text	"Mas eu posso te falar uma coisa."
 	.byte NewLine
-.text	"Your parents loved you so much, above all else..."
+.text	"Você era o que seus pais mais amavam..."
 	.byte NewLine
-.text	"That will never change."
+.text	"Isso nunca vai mudar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"As tragic as their parting with you was,"
+.text	"Você ter sido separada deles foi trágico,"
 	.byte NewLine
-.text	"they still watch over you..."
+.text	"mas tenha certeza que eles ainda cuidam de você"
 	.byte NewLine
-.text	"Even now."
+.text	"de algum jeito... mesmo que você não veja."
 	
 	.byte RightSlot		;Lene
 	.word PauseText
 	.byte $10
-.text	"Y'know, I think you're right."
+.text	"Sabe, acho que você tá certo."
 	.byte NewLine
-.text	"All my life, even when I was little, I've always"
+.text	"Toda minha vida, até quando eu era pequena, eu"
 	.byte NewLine
-.text	"felt like someone's been watching over me..."
+.text	"sentia que tinha alguém cuidando de mim..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"That has to be Dad... I just know it!"
+.text	"Deve ser meu pai... eu tenho certeza!"
 	.byte NewLine
-.text	"But why... If he's still alive like this,"
+.text	"Mas porquê... se ele ainda tá vivo,"
 	.byte NewLine
-.text	"why won't he come out to see me?!"
+.text	"porquê ele não vem me ver?!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I've been waiting all my life for him..."
+.text	"Eu tenho esperado a vida toda pra ver ele..."
 	.byte NewLine
-.text	"I'm... I'm so lonely without him..."
+.text	"Eu... me sinto solitária sem ele..."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -1096,15 +1103,11 @@ dialogueCh10Talk_Seliph_Tine
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Pardon me, Tine."
+.text	"Com licença, Tine."
 	.byte NewLine
-.text	"Lewyn would like a word with you."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"If you need anything from me,"
+.text	"Lewyn quer falar com você."
 	.byte NewLine
-.text	"I'll be waiting over there."
+.text	"Se você precisar de mim, eu estarei logo ali."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -1115,133 +1118,136 @@ dialogueCh10Talk_Seliph_Tine
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
-.text	"Say, Tine. Hilda was your aunt, right?"
+.text	"Tine. Hilda era sua tia, certo?"
 	.byte NewLine
-.text	"I can only imagine how painful having to fight"
+.text	"Lutar contra ela deve ter sido"
 	.byte NewLine
-.text	"her was..."
+.text	"doloroso..."
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"No, not really."
+.text	"Na verdade, não foi."
 	.byte NewLine
-.text	"Lady Hilda is a horrific woman..."
+.text	"Hilda é uma mulher terrível..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"She didn't treat you well, did she?"
+.text	"Ela te tratou mal, não é?"
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"Mm... Day after day, again and again,"
+.text	"Uhum... todo dia, toda hora, ela batia na"
 	.byte NewLine
-.text	"she kept on beating and abusing us. And she"
+.text	"gente e nos maltratava de várias formas. E ela"
 	.byte NewLine
-.text	"kept on accusing Mother of being a traitor..."
+.text	"também ficava chamando"
+	.byte WaitForA
+	.byte NewLine
+.text	'minha mãe de "traidora"...'
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Your mother..."
+.text	"Sua mãe..."
 	.byte NewLine
-.text	"Tailtiu, right..."
+.text	"Tailtiu, era o nome dela..."
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"Yes... After the Battle of Belhalla, she and my"
+.text	"Sim... depois da batalha de Belhalla, ela e"
 	.byte NewLine
-.text	"brother, Arthur, fled to Silesse."
+.text	"meu irmão, Arthur, fugiram para Silesse."
 	.byte NewLine
-.text	"I was born there soon after."
+.text	"Eu nasci pouco tempo depois."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I never knew my father."
+.text	"Eu nunca vi meu pai."
 	.byte NewLine
-.text	"I think he must've died long ago..."
+.text	"Ele deve ter morrido quando eu era pequena..."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Lewyn
-.text	"I see..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"Then you went to Ulster, right?"
+.text	"E depois disso, você foi para Úlster, certo?"
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"King Bloom and his minions came to Silesse"
+.text	"Uma noite, os capangas do Rei Bloom"
 	.byte NewLine
-.text	"one night..."
+.text	"apareceram na nossa casa..."
 	.byte NewLine
-.text	"They dragged us away to Ulster..."
+.text	"Eles nos sequestraram e nos levaram para lá..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Mother never left there alive..."
+.text	"Minha mãe morreu em Úlster..."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Lewyn
-.text	"I..."
+.text	"É..."
 	.byte NewLine
-.text	"You've had such a hard life..."
+.text	"Sua vida foi difícil mesmo..."
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"Mm..."
+.text	"Uhum..."
 	.byte NewLine
-.text	"Hilda hated Mother so much."
+.text	"Hilda odiava minha mãe ao extremo."
 	.byte NewLine
-.text	"I've never seen anything like it..."
+.text	"Eu nunca vi um ódio igual àquele desde então..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Mother must've coped with so much,"
+.text	"Minha mãe passou muito sofrimento"
 	.byte NewLine
-.text	"all to protect me from Hilda."
+.text	"para me proteger dela."
 	.byte NewLine
-.text	"She was always in tears, right till the end..."
+.text	"Ela só parou de chorar quando ela morreu..."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Lewyn
-.text	"She... She did?"
+.text	"É... é mesmo?"
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"Lord Lewyn?"
+.text	"Lorde Lewyn?"
 	.byte NewLine
-.text	"Is... Is everything okay, sir?"
+.text	"Está... está tudo bem, senhor?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"Yeah."
+.text	"Está."
 	.byte NewLine
-.text	"Why d'you ask?"
+.text	"Porquê a pergunta?"
 	
 	.byte RightSlot		;Tine
 	.word PauseText
 	.byte $10
-.text	"It's your eyes, sir..."
+.text	"Você..."
 	.byte NewLine
-.text	"Are those tears?"
+.text	"Você está chorando?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Lewyn
-.text	"I... No, it's... It's nothing."
+.text	"Ah... não, isso aqui..."
 	.byte NewLine
-.text	"This is just a bit of sweat."
+.text	"Foi só um cisco no meu olho."
 	.byte NewLine
-.text	"I'm fine... I... I'm okay..."
+.text	"Eu tô bem... não se preocupe..."
 	.byte WaitForA
 
 	.byte EndText
@@ -1261,7 +1267,7 @@ dialogueCh10Talk_CoirpreCharlot_Altena
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Are you hurt at all, Your Highness?"
+.text	"Você está machucada, Vossa Alteza?"
 	
 	.byte RightSlot
 	.word PauseText
@@ -1271,25 +1277,30 @@ dialogueCh10Talk_CoirpreCharlot_Altena
 	.word name_CoirpreCharlot
 .text	"."
 	.byte NewLine
-.text	"Thank you, but everything's fine."
+.text	"Obrigado pela preocupação,"
+	.byte NewLine
+.text	"mas está tudo bem."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Don't forget to take care of yourself as well."
+.text	"Lembre-se de cuidar de si mesmo também."
 	.byte NewLine
-.text	"You shouldn't do anything too risky."
+.text	"Não faça nada muito arriscado. Afinal,"
+	.byte NewLine
+.text	"é ruim imaginar como Aníbal ficaria se"
+	.byte WaitForA
+	.byte NewLine
+.text	"algo de ruim acontecesse com você..."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Coirpre
-.text	"Er..."
-	.byte NewLine
-.text	"Say, Your Highness..."
+.text	"Sobre isso... Vossa Alteza..."
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Is something wrong, "
+.text	"Tem algo de errado, "
 	.word PrintBranchingName
 	.word name_CoirpreCharlot
 .text	"?"
@@ -1297,70 +1308,70 @@ dialogueCh10Talk_CoirpreCharlot_Altena
 	.word ScrollBoth
 
 	.byte LeftSlot		;Coirpre
-.text	"Your Highness, I want to cast a Ward spell on you."
+.text	"Vossa Alteza, eu quero conjurar uma"
+	.byte NewLine
+.text	"barreira mágica em você."
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Oh, right."
+.text	"Ah, entendi. Você está preocupado com minha"
 	.byte NewLine
-.text	"You're concerned about my low resistance to"
-	.byte NewLine
-.text	"magic, aren't you?"
+.text	"fraqueza contra magia, não é?"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Are you sure?"
+.text	"Mas tem certeza? Eu ouvi que poucas magias"
 	.byte NewLine
-.text	"I've heard that few spells endanger the caster"
+.text	"trazem mais perigo ao seu conjurador do que"
 	.byte NewLine
-.text	"as much as Ward does."
+.text	"conjurar uma barreira mágica."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Look, "
+.text	"Olha, "
 	.word PrintBranchingName
 	.word name_CoirpreCharlot
 .text	"."
 	.byte NewLine
-.text	"I'm honored, but I don't want you risking yourself"
+.text	"Fico feliz que você se preocupa assim comigo,"
 	.byte NewLine
-.text	"for my sake."
+.text	"mas não quero que se arrisque tanto por mim."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Coirpre
-.text	"But you've always been there to help me,"
+.text	"Mas você sempre está pronta pra me ajudar,"
 	.byte NewLine
-.text	"Your Highness."
+.text	"Vossa Alteza."
 	.byte NewLine
-.text	"You're the closest thing I've ever had to a mama."
+.text	"Você é o mais próximo que eu tenho de uma mãe."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Please, Your Highness!"
+.text	"Por favor, Vossa Alteza!"
 	.byte NewLine
-.text	"All I want is to do anything I can to help you!"
+.text	"Tudo que eu quero é te ajudar do jeito que der!"
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintBranchingName
 	.word name_CoirpreCharlot
-.text	"... Very well."
+.text	"... tudo bem."
 	.byte NewLine
-.text	"I can hardly refuse if it's so important"
+.text	"Vendo você assim, acho que não posso"
 	.byte NewLine
-.text	"to you, now, can I?"
+.text	"recusar, não é?"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"All I ask is that you stop casting the spell"
+.text	"Mas por favor, pare antes de você se"
 	.byte NewLine
-.text	"the instant it puts you at any risk at all."
+.text	"machucar."
 	.byte NewLine
-.text	"Promise me this, "
+.text	"Por favor, "
 	.word PrintBranchingName
 	.word name_CoirpreCharlot
 .text	"."
@@ -1368,36 +1379,36 @@ dialogueCh10Talk_CoirpreCharlot_Altena
 	.byte ScrollText
 
 	.byte LeftSlot		;Coirpre
-.text	"Okay!"
+.text	"Tá bom!"
 	.byte NewLine
-.text	"It's a promise, Your Highness."
+.text	"Prometo que não vou me machucar."
 	.byte NewLine
-.text	"Don't worry, I won't let myself get hurt."
+.text	"Não se preocupe, Vossa Alteza."
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Thank you, "
+.text	"Obrigado, "
 	.word PrintBranchingName
 	.word name_CoirpreCharlot
 .text	"."
 	.byte NewLine
-.text	"Now, shall we?"
+.text	"Então, vamos em frente?"
 	.byte NewLine
-.text	"I'm ready when you are."
+.text	"Estou pronta."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Coirpre
-.text	"Right, I'm ready!"
+.text	"Certo, eu também estou!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"...Hear me, O great Saint Bragi."
+.text	"...Me escute, ó grande São Bragi."
 	.byte NewLine
-.text	"...I implore of you!"
+.text	"...Eu lhe imploro!"
 	.byte NewLine
-.text	"Bestow upon this woman your exalted power..."
+.text	"Abençoe esta mulher com seu poder..."
 	.byte WaitForA
 
 	.byte EndText
@@ -1417,85 +1428,89 @@ dialogueCh10Talk_Seliph_Polemarch
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Are you unharmed, Your Grace?"
+.text	"Está bem, Vossa Eminência?"
 	
 	.byte RightSlot		;Polemarch
 	.word PauseText
 	.byte $10
-.text	"Lord Seliph!"
+.text	"Lorde Seliph!"
 	.byte NewLine
-.text	"Ohh, bless you!"
+.text	"Ah, que os deuses o abençoem!"
 	.byte NewLine
-.text	"We've awaited you for so long."
+.text	"Nós estávamos te esperando."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I've done all I can to survive,"
+.text	"Eu sobrevivi esse tempo todo"
 	.byte NewLine
-.text	"all to ensure you receive your birthright."
+.text	"para poder te entregar sua herança."
 	.byte NewLine
-.text	"Here... Take it, milord."
+.text	"Aqui... Pegue-a, milorde."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Seliph
-.text	"W... what is this?!"
+.text	"O... que é isso?!"
 	
 	.byte RightSlot		;Polemarch
 	.word PauseText
 	.byte $10
-.text	"It is the sacred relic of House Chalphy."
+.text	"É a relíquia sagrada da sua família."
 	.byte NewLine
-.text	"The divine blade... Tyrfing."
+.text	"A espada divina... Tyrfing."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Seliph
-.text	"But..."
+.text	"Mas..."
 	.byte NewLine
-.text	"How could you have it, Your Grace?"
+.text	"Como você conseguiu pegá-la?"
 	
 	.byte RightSlot		;Polemarch
 	.word PauseText
 	.byte $10
-.text	"My apologies, milord, but I cannot say."
+.text	"Me perdoe, milorde, mas não posso dizer."
 	.byte NewLine
-.text	"I swore an oath..."
+.text	"Eu jurei não contar..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Seliph
-.text	"I see... Fair enough, then."
+.text	"Entendi... não insistirei na pergunta, então."
 	.byte NewLine
-.text	"I couldn't possibly thank you enough, Your Grace."
+.text	"De qualquer forma, muito obrigado,"
+	.byte NewLine
+.text	"Vossa Eminência."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"So this is Tyrfing, then..."
+.text	"Então, essa é a Tyrfing..."
 	.byte NewLine
-.text	"I've never felt power quite like this..."
+.text	"Eu nunca senti nenhum poder igual a esse..."
 	
 	.byte RightSlot		;Polemarch
 	.word PauseText
 	.byte $10
-.text	"Milord, I beg of you..."
+.text	"Milorde, eu lhe imploro..."
 	.byte NewLine
-.text	"Please, retake Chalphy at once!"
+.text	"Por favor, retome Chalphy o quanto antes!"
 	.byte WaitForA
-	.word ScrollBoth
+	.word Scrollboth
 
-.text	"Your subjects have endured for so long,"
+.text	"Seus súditos aguentaram esse"
 	.byte NewLine
-.text	"in hope of one day seeing your return..."
+.text	"sofrimento por anos, se segurando apenas nas"
+	.byte NewLine
+.text	"esperanças de seu retorno..."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Seliph
-.text	"Rest easy now, Your Grace."
+.text	"Não precisa se preocupar, Vossa Eminência."
 	.byte NewLine
-.text	"So long as I have Tyrfing in hand,"
+.text	"Enquanto eu tiver Tyrfing,"
 	.byte NewLine
-.text	"we have nothing more to fear!"
+.text	"não temos o que temer!"
 	.byte WaitForA
 
 	.byte EndText

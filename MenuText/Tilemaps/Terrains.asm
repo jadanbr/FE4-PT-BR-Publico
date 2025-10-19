@@ -13,22 +13,22 @@ terrains_tilemap
 .fill $0C, 0
 
 ; Thicket
-.byte 05
+.byte 04
 .long $580200
 .fill $0C, 0
 
 ; Cliff
-.byte 03
+.byte 06
 .long $580400
 .fill $0C, 0
 
 ; Plain
-.byte 03
+.byte 05
 .long $580600
 .fill $0C, 0
 
 ; Forest
-.byte 04
+.byte 05
 .long $580800
 .fill $0C, 0
 
@@ -38,7 +38,7 @@ terrains_tilemap
 .fill $0C, 0
 
 ; River
-.byte 03
+.byte 02
 .long $580C00
 .fill $0C, 0
 
@@ -48,12 +48,12 @@ terrains_tilemap
 .fill $0C, 0
 
 ; Desert
-.byte 04
+.byte 05
 .long $581000
 .fill $0C, 0
 
 ; Castle
-.byte 04
+.byte 05
 .long $581200
 .fill $0C, 0
 
@@ -63,17 +63,17 @@ terrains_tilemap
 .fill $0C, 0
 
 ; House
-.byte 04
+.byte 03
 .long $581600
 .fill $0C, 0
 
 ; Gate
-.byte 03
+.byte 04
 .long $581800
 .fill $0C, 0
 
 ; Rampart
-.byte 05
+.byte 06
 .long $581A00
 .fill $0C, 0
 
@@ -93,17 +93,17 @@ terrains_tilemap
 .fill $0C, 0
 
 ; Gate
-.byte 03
+.byte 04
 .long $582200
 .fill $0C, 0
 
 ; Village
-.byte 04
+.byte 03
 .long $582400
 .fill $0C, 0
 
 ; Ruins
-.byte 03
+.byte 04
 .long $582600
 .fill $0C, 0
 
@@ -113,7 +113,7 @@ terrains_tilemap
 .fill $0C, 0
 
 ; Ruins
-.byte 03
+.byte 04
 .long $582A00
 .fill $0C, 0
 
@@ -128,12 +128,12 @@ terrains_tilemap
 .fill $0C, 0
 
 ; Bragi Tower
-.byte 07
+.byte 08
 .long $583000
 .fill $0C, 0
 
 ; Road
-.byte 03
+.byte 05
 .long $583200
 .fill $0C, 0
 

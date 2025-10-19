@@ -9,11 +9,11 @@ dialogueCh5KillSlade
 	.word LoadPortrait
 	.word portrait_Andrey2
 	.byte StartText
-.text	"I suppose it's our turn... Move out!"
+.text	"Chegou nossa hora... ao ataque!"
 	.byte NewLine
-.text	"Carve the terror of the Beigeritter into"
+.text	"Beigeritter, semeie o terror"
 	.byte NewLine
-.text	"the traitors' hearts!"
+.text	"nos corações dos traidores!"
 	.byte WaitForA
 
 	.byte EndText
@@ -32,53 +32,59 @@ dialogueCh5KillEthlyn_QuanDead
 	.word portrait_Magon1
 	.byte LeftSlot
 	.byte StartText
-.text	"What's this? The woman was fool enough"
+.text	"O que é isso? A mulher foi idiota o"
 	.byte NewLine
-.text	"to have a child with her?"
+.text	"suficiente pra ainda levar uma criança?"
 	.byte NewLine
-.text	"Ah, I see... Quan's daughter. Interesting..."
+.text	"Ah, entendi... é a filha do Quan."
+	.byte WaitForA
+	.byte NewLine
+.text	"Interessante..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Hand her over to me."
+.text	"Entregue-a para mim."
 	.byte NewLine
-.text	"She and Gáe Bolg are coming with me"
+.text	"Ela e Gáe Bolg vão voltar comigo"
 	.byte NewLine
-.text	"back to Thracia."
+.text	"para a Trácia."
 	
 	.byte RightSlot		;Mag
 	.word PauseText
 	.byte $10
-.text	"Can't say I expected this, sir."
+.text	"Não esperava isso, senhor."
 	.byte NewLine
-.text	"If I may, why exactly are you taking her home"
+.text	"Se me permite a pergunta, por que"
 	.byte NewLine
-.text	"with you?"
+.text	"quer levá-la contigo?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Travant
-.text	"Moron! You've no need to know!"
+.text	"Tolo! Não é nada de sua conta!"
 	.byte NewLine
-.text	"Keep that mouth of yours"
+.text	"Deixa essa sua boca fora de coisas"
 	.byte NewLine
-.text	"out of business that isn't yours."
+.text	"que não lhe dizem respeito."
 	
 	.byte RightSlot		;Mag
 	.word PauseText
 	.byte $10
-.text	"Y-yes, sir."
+.text	"S-sim, senhor."
 	.byte NewLine
-.text	"I beg your forgiveness, sir."
+.text	"Me perdoe por favor, senhor."
 	.byte NewLine
-.text	"By your leave, sir, we will pursue Sigurd's rebels."
+.text	"Com sua licença, senhor,"
+	.byte WaitForA
+	.byte NewLine
+.text "vamos atrás dos rebeldes de Sigurd."	
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Travant
-.text	"Good."
+.text	"Bom."
 	.byte NewLine
-.text	"Don't fail me."
+.text	"Não fracasse."
 	.byte WaitForA
 
 	.byte EndText
@@ -91,27 +97,30 @@ dialogueCh5KillEthlyn_QuanAlive1
 	.word LoadPortrait
 	.word portrait_Young_Travant1
 	.byte StartText
-.text	"What's this? The woman was fool enough"
+.text	"O que é isso? A mulher foi idiota o"
 	.byte NewLine
-.text	"to have a child with her?"
+.text	"suficiente pra ainda levar uma criança?"
 	.byte NewLine
-.text	"Ah, I see... Quan's daughter. Interesting..."
+.text	"Ah, entendi... é a filha do Quan."
+	.byte WaitForA
+	.byte NewLine
+.text	"Interessante..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You there! Tell Quan this:"
+.text	"Você aí! Diga isso para Quan:"
 	.byte NewLine
-.text	"If he doesn't surrender Gáe Bolg,"
+.text	"Se ele não entregar Gáe Bolg, a filha"
 	.byte NewLine
-.text	"his daughter will meet an untimely end."
+.text	"dele vai ter um fim trágico."
 	.byte WaitForA
 	.byte ScrollText
 
 .text	"Heh heh heh..."
 	.byte NewLine
-.text	"Your move, Quan."
+.text	"Sua escolha, Quan."
 	.byte NewLine
-.text	"Your move."
+.text	"Sua escolha."
 	.byte WaitForA
 
 	.byte EndText
@@ -124,19 +133,19 @@ dialogueCh5KillEthlyn_QuanAlive2
 	.word LoadPortrait
 	.word portrait_Quan
 	.byte StartText
-.text	"N-no!"
+.text	"N-não!"
 	.byte NewLine
 .text	"Altena... Ethlyn..."
 	.byte NewLine
-.text	"So this is where it ends..."
+.text	"Então é aqui que acaba..."
 	.byte WaitForA
 	.byte ScrollText
 
 .text	"Travant!"
 	.byte NewLine
-.text	"You can have Gáe Bolg,"
+.text	"Pode ter Gáe Bolg,"
 	.byte NewLine
-.text	"but don't you DARE so much as scratch Altena!"
+.text	"Mas não ouse nem ARRANHAR a minha filha!"
 	.byte WaitForA
 
 	.byte EndText
@@ -155,75 +164,78 @@ dialogueCh5KillQuan_EthlynDead
 	.word portrait_Magon1
 	.byte LeftSlot
 	.byte StartText
-.text	"And so ends Quan... Magon!"
+.text	"E assim acaba a história de Quan... Magon!"
 	.byte NewLine
-.text	"You're in charge now. Head north and"
+.text	"Você está no comando agora. Vá para norte, e"
 	.byte NewLine
-.text	"give Sigurd's army a fair share of grief."
+.text	'cause uns "problemas" para Sigurd.'
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Let none of them escape."
+.text	"Não deixe ninguém escapar."
 	.byte NewLine
-.text	"There's a fine bounty on each traitorous head,"
+.text	"Tem uma boa recompensa por cada um,"
 	.byte NewLine
-.text	"after all."
+.text	"afinal."
 	
 	.byte RightSlot		;Mag
 	.word PauseText
 	.byte $10
-.text	"Yes, sir! Er, that said, what are we supposed"
+.text	"Sim, senhor! Bem, dito isso, o que faremos"
 	.byte NewLine
-.text	"to do with this child? She's just crying"
+.text	"com essa criança? Ela só chora sem parar."
 	.byte NewLine
-.text	"and crying. We don't know how to handle this."
+.text	"Nós não sabemos lidar com a situação."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Shall I put her out of her misery, sir?"
+.text	"Devo matá-la, senhor?"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Travant
-.text	"Certainly not. Hand her over to me."
+.text	"Certamente não. Ela vem comigo."
 	.byte NewLine
-.text	"She and Gáe Bolg are coming with me"
+.text	"Ela e a Gáe Bolg vem comigo"
 	.byte NewLine
-.text	"back to Thracia."
+.text	"de volta pra Trácia."
 	
 	.byte RightSlot		;Mag
 	.word PauseText
 	.byte $10
-.text	"Can't say I expected this, sir."
+.text	"Não esperava isso, senhor."
 	.byte NewLine
-.text	"If I may, why exactly are you taking her home"
+.text	"Se me permite a pergunta, por que"
 	.byte NewLine
-.text	"with you?"
+.text	"quer levá-la contigo?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Travant
-.text	"Moron! You've no need to know!"
+.text	"Tolo! Não é nada de sua conta!"
 	.byte NewLine
-.text	"Keep that mouth of yours"
+.text	"Deixa essa sua boca fora de coisas"
 	.byte NewLine
-.text	"out of business that isn't yours."
+.text	"que não lhe dizem respeito."
 	
 	.byte RightSlot		;Mag
 	.word PauseText
 	.byte $10
-.text	"Y-yes, sir."
+.text	"S-sim, senhor."
 	.byte NewLine
-.text	"I beg your forgiveness, sir."
+.text	"Me perdoe por favor, senhor."
 	.byte NewLine
-.text	"By your leave, sir, we will pursue Sigurd's rebels."
+.text	"Com sua licença, senhor,"
+	.byte WaitForA
+	.byte NewLine
+.text "vamos atrás dos rebeldes de Sigurd."	
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Travant
-.text	"Good."
+.text	"Bom."
 	.byte NewLine
-.text	"Don't fail me."
+.text	"Não fracasse."
 	.byte WaitForA
 
 	.byte EndText
@@ -236,11 +248,11 @@ dialogueCh5ApproachVelthomer1
 	.word LoadPortrait
 	.word portrait_Reptor2
 	.byte StartText
-.text	"This is it. The time to strike is upon us!"
+.text	"É agora. É hora de lutarmos!"
 	.byte NewLine
-.text	"With the fire mages of Velthomer at our side,"
+.text	"Com os magos de fogo de Velthomer conosco,"
 	.byte NewLine
-.text	"we shall crush the rebels in one fell swoop!"
+.text	"Acabaremos com os rebeldes em um só ataque!"
 	.byte WaitForA
 
 	.byte EndText
@@ -253,19 +265,19 @@ dialogueCh5ApproachVelthomer2
 	.word LoadPortrait
 	.word portrait_Aida2
 	.byte StartText
-.text	"Execute the plan."
+.text	"Executem o plano."
 	.byte NewLine
-.text	"Concentrate all of your fire on Reptor"
+.text	"Concentre todo seu fogo em"
 	.byte NewLine
-.text	"and his army."
+.text	"Reptor e seu exército."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"There will be no survivors under any"
+.text	"Não deixaremos sobreviventes sobre"
 	.byte NewLine
-.text	"circumstance."
+.text	"nenhuma circunstância."
 	.byte NewLine
-.text	"Am I clear?"
+.text	"Fui clara?"
 	.byte WaitForA
 
 	.byte EndText
@@ -278,11 +290,11 @@ dialogueCh5ApproachVelthomer3
 	.word LoadPortrait
 	.word portrait_Reptor2
 	.byte StartText
-.text	"W-what?"
+.text	"O quê!?"
 	.byte NewLine
-.text	"Velthomer has turned on us?!"
+.text	"Velthomer se virou contra nós?!"
 	.byte NewLine
-.text	"Argh... So this is what Arvis planned all along..."
+.text	"Argh... então era esse seu plano, Arvis..."
 	.byte WaitForA
 
 	.byte EndText
@@ -295,27 +307,27 @@ dialogueCh5ArdenEvent
 	.word LoadPortrait
 	.word portrait_Arden
 	.byte StartText
-.text	"Heh, who knew? Even I've got myself"
+.text	"Heh, quem poderia imaginar? Até eu consegui"
 	.byte NewLine
-.text	"a wife and kids! Certainly can't go dying now,"
+.text	"uma esposa e filhos! Não posso morrer agora,"
 	.byte NewLine
-.text	"not without leaving anything behind for them..."
+.text	"não sem pelo menos dar algo para eles..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Hm? What's this tatty little book doing here?"
+.text	"Hm? Quê que é esse livrinho aqui?"
 	.byte NewLine
-.text	"That's odd... Nothing in this thing but"
+.text	"Estranho... nada aqui faz o menor"
 	.byte NewLine
-.text	"complete gibberish."
+.text	"sentido."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Wh- Ack! ...mnnnurraaaaagh! Whoa!"
+.text	"Wh- Ack! ...mnnnurraaaaagh! Caramba!"
 	.byte NewLine
-.text	"What's this feeling?! Everything's looking,"
+.text	"quê que isso maluco?! Eu sinto, ouço"
 	.byte NewLine
-.text	"feeling and sounding so much clearer now!"
+.text	"e vejo com muito mais clareza agora!"
 	.byte WaitForA
 
 	.byte EndText

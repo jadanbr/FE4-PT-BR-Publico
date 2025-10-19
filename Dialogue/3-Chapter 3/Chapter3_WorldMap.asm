@@ -3,7 +3,7 @@
 dialogueCh3WM1
 
 	.byte StartText
-.text	"Upon losing Agusti, King Chagall relocates"
+.text	"Devido a perda de Agusti, o Rei Chagall"
 	.byte NewLine	
 
 	.word LoadPortraitWM1
@@ -14,20 +14,23 @@ dialogueCh3WM1
 	.byte $78
 	.byte $0C
 	
-.text	"to the northern Castle Madino,"
+.text	"se muda para o castelo de Madino a norte,"
 	.byte WaitForA
 	.byte NewLine
-.text	"taking his royal court along with him."
+.text	"levando com ele a corte real."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sigurd honors the first part of his promise"
+.text	"Sigurd, procurando"
 	.byte NewLine
-.text	"to Eldigan"
+.text	"honrar a primeira promessa que fez"
 	.byte WaitForA
-.text	" and orders that none shall pursue"
+	.byte ScrollText
+.text	"à Eldigan,"
+	.byte WaitForA
+.text	" ordena que deixem"
 	.byte NewLine
-.text	"the monarch in his retreat."
+.text	"o Rei ir."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -37,32 +40,32 @@ dialogueCh3WM1
 dialogueCh3WM2
 
 	.byte StartText
-.text	"In honoring the second, Sigurd allows"
+.text	"Para honrar a segunda, Sigurd pede a"
 	.byte NewLine
-.text	"his soldiers to stand at ease in Agusti"
+.text	"seus soldados que se mantenham em Agusti"
 	.byte WaitForA
 	.byte NewLine
-.text	"while he braves the front of politics."
+.text	"enquanto ele lida com a parte política."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Days of negotiations come and go, all for"
+.text	"As negociações se estendem por muitos dias,"
 	.byte NewLine
-.text	"the sake of returning the capital to its king."
+.text	"com o objetivo de tentar terminar a ocupação."
 	.byte WaitForA
 	.byte ScrollText
-.text	"In spite of his efforts, Belhalla’s officials show"
+.text	"Apesar desses esforços, os políticos em Grannvale"
 	.byte NewLine
-.text	"little interest in changing the present situation."
+.text	"não tem interesse em mudar a situação atual."
 	.byte WaitForA
 	.byte ScrollText
-.text	"And so, every missive brings a familiar decree"
+.text	"Sendo assim, todo decreto de lá"
 	.byte NewLine
-.text	"dressed in different words:"
+.text	"possui as mesmas ordens:"
 	.byte WaitForA
-.text	" ”Remain in Agusti"
+.text	" ”Fique em Agusti"
 	.byte NewLine
-.text	"and govern the coalition’s citizens.”"
+.text	"e governe o povo de Agustria.”"
 	.byte WaitForA
 	.byte ScrollText
 
@@ -72,31 +75,34 @@ dialogueCh3WM2
 dialogueCh3WM3
 
 	.byte StartText
-.text	"Half a year has come and gone…"
+.text	"Meio ano já passou…"
 	.byte WaitForA
 	.byte ScrollText
-.text	"During this time, Grannvale’s authorities"
+.text	"Durante esse período,"
 	.byte NewLine
-.text	"become arrogant,"
-	.byte WaitForA
-.text	" strutting through the land"
-	.byte NewLine
-.text	"as if Agustria were their private estate."
+.text	"as autoridades de Grannvale"
 	.byte WaitForA
 	.byte ScrollText
-.text	"It does not take long for Grannvale’s actions"
+.text	"ficaram arrogantes,"
+	.byte WaitForA
+.text	" governando Agustria"
 	.byte NewLine
-.text	"to be ill-received by native Agustrians."
+.text	"como se esta fosse sua propriedade."
 	.byte WaitForA
 	.byte ScrollText
-.text	"Day by day, this discontent festers"
+.text	"Não leva muito tempo para que essa atitude"
 	.byte NewLine
-.text	"like the rotting seat of their nation’s throne."
+.text	"se torne detestada pelos agustrianos."
 	.byte WaitForA
 	.byte ScrollText
-.text	"In the end, Sigurd’s fears are realized."
+.text	"Dia após dia, esse ressentimento piora,"
 	.byte NewLine
-.text	"A new battle soon begins."
+.text	"aumentando as tensões."
+	.byte WaitForA
+	.byte ScrollText
+.text	"No fim, os medos de Sigurd se tornam realidade."
+	.byte NewLine
+.text	"Uma nova guerra está prestes a começar."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -106,7 +112,7 @@ dialogueCh3WM3
 dialogueCh3WM4
 
 	.byte StartText
-.text	"In Madino, Chagall raises an army to march"
+.text	"Em Madino, Chagall levanta um exército para"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -124,9 +130,10 @@ dialogueCh3WM4
 	.byte MadinoToAgusti
 
 	.byte NewLine
-.text	"on the capital,"
+.text	"atacar a capital,"
 	.byte WaitForA
-.text	" intent on challenging Sigurd"
+	.byte ScrollText
+.text	"com a intenção de retomá-la"
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 4
@@ -137,7 +144,7 @@ dialogueCh3WM4
 	.byte $60
 	.word PauseText
 	.byte $04
-.text	"for control of the coalition."
+.text	"e recuperar o controle da coalizão."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -218,9 +225,9 @@ dialogueCh3WM5
 	.byte $04
 
 	.byte StartText
-.text	"Further north of Madino,"
+.text	"Mais a norte de Madino, os infames"
 	.byte NewLine
-.text	"the infamous Orgahil Pirates make plans"
+.text	"piratas de Orgahil querem se aproveitar"
 	.word LoadPortraitWM1
 	.byte 6
 	.word portrait_Dobar		;Super Saiyan Blue DiMaggio
@@ -230,33 +237,33 @@ dialogueCh3WM5
 	.byte $08
 	.byte WaitForA
 	.byte NewLine
-.text	"to take advantage of the ensuing war,"
+.text	"da guerra iminente, e saquear as"
 	.byte NewLine
-.text	"preparing to sweep in amidst the mayhem."
+.text	"vilas costeiras."
 	.byte WaitForA
 	.word ClearPortraitWM
 	.byte 6
 	.byte ScrollText
 
-.text	"Belhalla addresses the situation"
+.text	"Belhalla lida com a situação exigindo"
 	.byte NewLine
-.text	"by commanding Sigurd"
+.text	"que Sigurd"
 	.byte WaitForA
-.text	" to sooner accept death"
+.text	" proteja Agusti com a"
 	.byte NewLine
-.text	"than surrender Agusti."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"And so, he readies for the front lines"
-	.byte NewLine
-.text	"with a heavy heart."
+.text	"sua própria vida."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Stationed at Fort Sylvale,"
+.text	"Assim, ele vai à luta, mas"
 	.byte NewLine
-.text	"a stronghold southwest of Madino,"
+.text	"com um coração pesado."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"Parados no forte Sylvale,"
+	.byte NewLine
+.text	"a sudoeste de Madino,"
 	.byte WaitForA
 	.byte NewLine
 	.word LoadPortraitWM1
@@ -266,27 +273,26 @@ dialogueCh3WM5
 	.byte 2
 	.byte $40
 	.byte $30
-.text	"Eldigan’s forces are reluctant to enter the fray"
+.text	"Os soldados de Eldigan relutam em se"
 	.byte NewLine
-.text	"and remain in waiting."
+.text	"juntar a batalha."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This grueling ordeal may well prove to be what"
+.text	"Esta situação terrível pode muito bem ser o que"
 	.byte NewLine
-.text	"turns the blade of a friend into that of a foe."
+.text	"colocará um amigo contra o outro."
 	.byte WaitForA
 	.byte ScrollText
-.text	"The hour is nigh…"
+.text	"A hora é agora…"
 	.byte WaitForA
 	.byte ScrollText
-.text	"Deadlocked in the northernmost point"
-	.byte NewLine
-.text	"of Agustria,"
+.text	"Preso nesse impasse,"
 	.byte WaitForA
-.text	" Sigurd stares down a battlefield"
+	.byte ScrollText
+.text	"Sigurd vislumbra uma batalha que certamente"
 	.byte NewLine
-.text	"sure to change the very course of history…"
+.text	"irá mudar o curso da história…"
 	.byte WaitForA
 
 	.word ClearPortraitWM

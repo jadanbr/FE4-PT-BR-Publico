@@ -9,11 +9,11 @@ dialogueCh5VillageWesternmost
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"Heard the news? Grannvale's army"
+.text	"Ouviu as notícias? O exército de Grannvale"
 	.byte NewLine
-.text	"just swept in and seized Lübeck Castle!"
+.text	"apareceu e já pegou o castelo de Lübeck!"
 	.byte NewLine
-.text	"Oh... I fear for Silesse's future..."
+.text	"Oh... eu temo pelo futuro de Silesse..."
 	.byte WaitForA
 
 	.byte EndText
@@ -26,15 +26,15 @@ dialogueCh5VillageSouthwestOfZaxon
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"To think, Silesse remained such a peaceful place"
+.text	"E pensar que, Silesse foi um lugar pacífico"
 	.byte NewLine
-.text	"for generations and generations!"
+.text	"por gerações e gerações!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Argh, how did this world turn into"
+.text	"Argh, olha no que esse mundo"
 	.byte NewLine
-.text	"such a savage place..."
+.text	"se tornou..."
 	.byte WaitForA
 
 	.byte EndText
@@ -47,17 +47,15 @@ dialogueCh5VillageNorthwestOfZaxon
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"It seems that strengths and abilities are"
+.text	"Parece que as forças e habilidades"
 	.byte NewLine
-.text	"passed down from parents to children."
+.text	"passam dos pais pros filhos."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You'll often find that boys'll take up their"
+.text	"Normalmente, os filhos puxam mais os pais,"
 	.byte NewLine
-.text	"father's traits more dominantly, while girls'll"
-	.byte NewLine
-.text	"be more strongly influenced by their mother's."
+.text	"enquanto as garotas costumam puxar suas mães."
 	.byte WaitForA
 
 	.byte EndText
@@ -70,21 +68,21 @@ dialogueCh5VillageNortheastOfZaxon
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"That Lombard's got his thugs going around"
+.text	"Esse Lombard mandou seus homens"
 	.byte NewLine
-.text	"and clearing out every village they can find!"
+.text	"limpar todas as vilas na região!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Good thing we somehow kept a little bit of gold"
+.text	"Que bom que escondemos um dinheirinho"
 	.byte NewLine
-.text	"hidden away from those brutes!"
+.text	"desses brutos!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Go on, take it."
+.text	"Vai, podr pegar."
 	.byte NewLine
-.text	"We know you need it more than us."
+.text	"Sabemos que precisa mais do que nós."
 	.byte WaitForA
 
 	.byte EndText
@@ -97,19 +95,19 @@ dialogueCh5VillageNorthwestOfFionnuala
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"Did ya know? The famous Lord Eldigan"
+.text	"Você sabia? O famoso Lorde Eldigan de"
 	.byte NewLine
-.text	"of Nordion and his wife had themselves"
+.text	"Nordion e sua esposa tiveram um filho"
 	.byte NewLine
-.text	"a little son before he died a while back."
+.text	"antes dele morrer um tempo atrás."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"His name's, er... Ares? Something' like that."
+.text	"O nome dele era, hã... Ares? Algo assim."
 	.byte NewLine
-.text	"I feel pretty bad for the poor boy..."
+.text	"Me sinto mal pelo pobre garoto..."
 	.byte NewLine
-.text	"He's gotta be just three or four years old..."
+.text	"Ele deve ter uns 3 ou 4 anos agora..."
 	.byte WaitForA
 
 	.byte EndText
@@ -122,19 +120,22 @@ dialogueCh5VillageNortheastOfLubeck
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"'S been a while since Grannvale beat Isaach"
+.text	"Faz um tempo que Grannvale terminou a"
 	.byte NewLine
-.text	"in the war, but they're strugglin' to put down"
+.text	"guerra com Isaach, mas eles estão tendo"
 	.byte NewLine
-.text	"resistance out in its farthest corners."
+.text	"dificuldade em eliminar a resistência"
+	.byte WaitForA
+	.byte NewLine
+.text	"em áreas mais distantes."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But the people of Isaach ain't givin' up hope."
+.text	"O povo de Isaach não vai desistir fácil."
 	.byte NewLine
-.text	"Prince Shannan's still out there, an' they know"
+.text	"Príncipe Shannan ainda está vivo, e eles"
 	.byte NewLine
-.text	"someday he'll lead 'em to freedom!"
+.text	"sabem que ele vai os libertar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -147,31 +148,31 @@ dialogueCh5VillageSoutheastOfLubeck
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"It's terrifying just how far Grannvale has fallen"
+.text	"É terrível pensar como que Grannvale"
 	.byte NewLine
-.text	"from the peaceful nation it used to be!"
+.text	"deixou de ser a nação pacífica que era!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"All they ever do these days is set their army"
+.text	"Tudo que eles fazem agora é invadir todo"
 	.byte NewLine
-.text	"on every country they can get their hands on."
+.text	"lugar em que eles puderem meter a mão."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Prince Kurth'd be utterly ashamed to know"
+.text	"O falecido Príncipe Kurth teria vergonha"
 	.byte NewLine
-.text	"what's become of his beloved Grannvale..."
+.text	"do que sua amada Grannvale se tornou..."
 	.byte NewLine
-.text	"You have to do something!"
+.text	"Tem que fazer alguma coisa!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I'm begging you... Go to Grannvale!"
+.text	"Eu lhe imploro... vá pra Grannvale!"
 	.byte NewLine
-.text	"Take the country back from the wicked folk"
+.text	"Pegue-a de volta dos homens que estão"
 	.byte NewLine
-.text	"who are perverting all it holds dear!"
+.text	"a levando por esse caminho sombrio!"
 	.byte WaitForA
 
 	.byte EndText

@@ -7,9 +7,9 @@ dialogueCh1ApproachAyra
 	.word LoadPortrait
 	.word portrait_Ayra
 	.byte StartText
-.text	"So it's finally time..."
+.text	"Então é a hora..."
 	.byte NewLine
-.text	"Woe be to all who cross me!"
+.text	"Ai de quem me desafiar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -24,13 +24,12 @@ dialogueCh1ApproachMarpha
 	.byte StartText
 .text	"Oi, oi, oi!"
 	.byte NewLine
-.text	"What do you lot think you're doing out there!?"
+.text	"Vocês de corpo mole aí!"
 	.byte NewLine
-.text	"The rest of you, get out there and fight! Now!"
+.text	"Saiam daí e vão lá fora, agora!"
 	.byte WaitForA
-	.byte ScrollText
-
-.text	"Don't let them touch the castle!"
+	.byte NewLine
+.text	"Não deixe que eles cheguem no castelo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -43,11 +42,11 @@ dialogueCh1EnemyAyraEntersGenoa
 	.word LoadPortrait
 	.word portrait_Ayra
 	.byte StartText
-.text	"Shannan isn't here?!"
+.text	"Shannan não está aqui?!"
 	.byte NewLine
-.text	"No... The Grannvalians must have him."
+.text	"Não... os grannvalianos o pegaram."
 	.byte NewLine
-.text	"Those fiends... They won't live to regret it!"
+.text	"Esses demônios, eles irão se arrepender!"
 	.byte WaitForA
 
 	.byte EndText
@@ -60,11 +59,11 @@ dialogueCh1EliotFlees
 	.word LoadPortrait
 	.word portrait_Eldigan1
 	.byte StartText
-.text	"Eliot has fled? Very well."
+.text	"Eliot fugiu? Muito bem."
 	.byte NewLine
-.text	"Leave him to lick his wounds."
+.text	"Deixe ele lamber as feridas."
 	.byte NewLine
-.text	"We're done here. Withdraw!"
+.text	"Terminamos aqui. Retirada!"
 	.byte WaitForA
 
 	.byte EndText
@@ -84,111 +83,117 @@ dialogueCh1SigurdStepsOnDeirdre_SandimaAlive
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Wait..."
+.text	"Espere..."
 	.byte NewLine
-.text	"Lord Sigurd..."
+.text	"Lorde Sigurd..."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Hm? Is that... Deirdre! Ah!"
+.text	"Hm? Quem é...? Ah, Deirdre!"
 	.byte NewLine
-.text	"So this must be your spirit forest."
+.text	"Então essa é a tal floresta mística."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Thank the gods!"
+.text	"Graças aos deuses!"
 	.byte NewLine
-.text	"For a moment I thought that I might"
+.text	"Depois que você correu, eu achei que"
 	.byte NewLine
-.text	"never see you again."
+.text	"nunca mais te veria."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Deirdre
-.text	"Milord, listen. The dark priest Sandima"
+.text	"Senhor Sigurd, escute."
 	.byte NewLine
-.text	"guards Castle Verdane with his wicked magic."
+.text	"O sacerdote das trevas Sandima protege"
 	.byte NewLine
-.text	"You must go no further. You would surely be killed."
+.text	"o castelo de Verdane com sua magia maligna."
+	.byte WaitForA
+	.byte NewLine
+.text	"Não siga em frente. Ele vai te matar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Please, you mustn't go..."
+.text	"Por favor, não vá..."
 	
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"But I mustn't place my men in even greater"
+.text	"Não posso por meus homens em perigo."
 	.byte NewLine
-.text	"danger, either."
-	.byte NewLine
-.text	"I have no choice but to go."
+.text	"Não tenho escolha além de ir."
 	.byte WaitForA
 
 	.byte LeftSlot		;Deirdre
 	.word ScrollBoth
-.text	"...I see."
+.text	"...Entendo."
 	.byte NewLine
-.text	"Then I will go with you."
+.text	"Então irei com você."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Excuse me?"
+.text	"Com licença?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Deirdre
 	.word ScrollBoth
-.text	"This is called a Silence staff."
+.text	"Esse é um cajado de silenciar."
 	.byte WaitForA
 	.byte ScrollText
-.text	"So long as my own power is enough"
+.text	"Se eu conseguir superar"
 	.byte NewLine
-.text	"to pierce his magical resistances,"
+.text	"sua resistência mágica, com esse cajado"
 	.byte NewLine							;changed from ScrollText for cleaner looking dialogue. 
-.text	"it will seal his magic away."
+.text	"eu poderei selar a magia de Sandima."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Trust me, milord."
+.text	"Confie em mim, milorde."
 	.byte NewLine
-.text	"I'll ensure his dark spells never"
+.text	"Farei com que suas magias"
 	.byte NewLine
-.text	"harm anyone ever again."
+.text	"nunca mais machuquem ninguém."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"I'd never imagined that you'd have such power..."
+.text	"Eu não imaginava que você"
 	.byte NewLine
-.text	"But why... Why are you helping me?"
+.text	"tinha tamanho poder..."
+	.byte NewLine
+.text	"Mas porque... porque quer me ajudar?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Deirdre
 	.word ScrollBoth
-.text	"...I tried to forget you all I could,"
+.text	"...Eu tentei ao máximo te esquecer,"
 	.byte NewLine
-.text	"but it was all in vain."
+.text	"mas eu não consegui."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"...I no longer know what I should do..."
+.text	"...Eu não sei mais o que fazer..."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"What is it you're afraid of, Deirdre?"
+.text	"Mas porque quer me esquecer, Deirdre?"
 	.byte NewLine
-.text	"I don't understand."
+.text	"Eu não entendo."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"But if you and I feel the same way,"
+.text	"Se você e eu sentimos a"
 	.byte NewLine
-.text	"then surely we've nothing to fear."
+.text	"mesma coisa um pelo outro,"
 	.byte NewLine
-.text	"I... I love you, Deirdre..."
+.text	"então certamente não temos o que temer."
+	.byte WaitForA
+	.byte NewLine
+.text	"Eu... eu te amo, Deirdre..."
 	.byte WaitForA
 
 	.byte EndText
@@ -208,162 +213,162 @@ dialogueCh1SigurdStepsOnDeirdre_SandimaDead
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Wait..."
+.text	"Espere..."
 	.byte NewLine
-.text	"Lord Sigurd..."
+.text	"Lorde Sigurd..."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Hm? Is that... Deirdre! Ah!"
+.text	"Hm? Quem é...? Ah, Deirdre!"
 	.byte NewLine
-.text	"So this must be your spirit forest."
+.text	"Então essa é a tal floresta mística."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Thank the gods!"
+.text	"Graças aos deuses!"
 	.byte NewLine
-.text	"For a moment I thought that I might"
+.text	"Por um momento eu achei que"
 	.byte NewLine
-.text	"never see you again."
+.text	"nunca mais te veria."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Deirdre
-.text	"I heard of Sandima's defeat."
+.text	"Eu ouvi que você matou Sandima."
 	.byte NewLine
-.text	"I was afraid that he'd find me..."
+.text	"Eu temia que ele me encontrasse um dia..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He was a dark priest from a shadowy cult,"
+.text	"Ele era um sacerdote de um culto maligno,"
 	.byte NewLine
-.text	"sent to Verdane to find me."
+.text	"enviado à Verdane para me encontrar."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"A... shadowy cult?"
+.text	"Um... culto maligno?"
 	.byte NewLine
-.text	"What in the world do you mean?"
+.text	"O que quer dizer?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Deirdre
 	.word ScrollBoth
-.text	"I don't know much of it myself."
+.text	"Eu não conheço muito deles."
 	.byte NewLine
-.text	"All I know comes from the last words"
+.text	"Tudo que eu sei vem das últimas"
 	.byte NewLine
-.text	"of the old woman who raised me."
+.text	"palavras da senhora que me criou."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Somewhere in this world, she said,"
+.text	"Ela disse que, em algum lugar do mundo,"
 	.byte NewLine
-.text	"there lies an ancient order dedicated to"
+.text	"tem uma antiga ordem dedicada"
 	.byte NewLine
-.text	"the ancient dark god, Loptous."
+.text	"ao deus das trevas, Loptous."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"So devout are they, it is said that they"
+.text	"São tão devotos, que planejam ressuscitar"
 	.byte NewLine
-.text	"plot to resurrect their once-fallen god."
+.text	"o seu deus caído."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Yes, I've heard those rumors myself."
+.text	"Sim, eu ouvi desses rumores."
 	.byte NewLine
-.text	"But why is this cult after you?"
+.text	"Mas porque esse culto te procura?"
 	.byte WaitForA
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"The dark god slumbers within my very blood..."
+.text	"Eu tenho uma parte do sangue desse deus..."
 	.byte NewLine
-.text	"Through me, they have some way of reviving"
+.text	"Eles podem me usar de alguma forma para"
 	.byte NewLine
-.text	"Loptous."
+.text	"ressuscitar Loptous."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This is why she told me on her deathbed:"
+.text	"É isso que ela me disse quando morria:"
 	.byte NewLine
-.text	"I must never be found, she said."
+.text	"Que eu tinha que me esconder."
 	.byte NewLine
-.text	"I must never mingle with men..."
+.text	"Que eu nunca poderia me relacionar com homens..."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"I see..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"So that's why you kept running away from me."
+.text	"Por isso que corria de mim."
 	.byte WaitForA
 
 	.byte LeftSlot		;Deirdre
 	.word ScrollBoth
-.text	"I was afraid of falling in love."
+.text	"Eu tinha medo de me apaixonar."
 	.byte NewLine
-.text	"I did all I could to forget you, but..."
+.text	"Fiz tudo que pude para te esquecer, mas..."
 	.byte NewLine
-.text	"Love found me still. I couldn't do it..."
+.text	"O amor me encontrou. Eu não consegui..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I couldn't bear to lose you."
+.text	"Eu não queria te perder."
 	.byte NewLine
-.text	"I... no longer know what I should do..."
+.text	"Eu... não sabia mais o que fazer..."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Deirdre... I know you must fear where"
+.text	"Deirdre... Eu sei que você teme aonde"
 	.byte NewLine
-.text	"your destiny might lead. But nothing will come of"
+.text	"o destino pode te levar. Mas você não"
 	.byte NewLine
-.text	"living in fear."
+.text	"pode viver com medo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I will protect you."
+.text	"Eu te protegerei."
 	.byte NewLine
-.text	"Come what may, I will protect you."
+.text	"Venha o que for, eu te protegerei."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Deirdre, if you and I feel the same way,"
+.text	"Deirdre, se você e eu sentimos o mesmo,"
 	.byte NewLine
-.text	"then we've nothing to fear."
+.text	"então não temos o que temer."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"O gods above, should our love be a sin,"
+.text	"Ó deuses no céu, se nosso amor é"
 	.byte NewLine
-.text	"then deliver punishment unto me alone!"
+.text	"um pecado, que somente eu seja punido!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I swear this day:"
+.text	"Eu juro nesse dia:"
 	.byte NewLine
-.text	"Even should my body be rendered and rent,"
+.text	"Mesmo que eu sofra o pior por isso,"
 	.byte NewLine
-.text	"no regrets will ever haunt me."
+.text	"eu não me arrependerei."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"All I ask, O gods..."
+.text	"E só o que eu peço, ó deuses..."
 	.byte NewLine
-.text	"Protect my beloved Deirdre in my stead,"
+.text	"Protejam minha amada Deirdre por mim,"
 	.byte NewLine
-.text	"for all eternity!"
+.text	"por toda eternidade!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Deirdre
 	.byte ScrollText
-.text	"Ahh... Milord..."
+.text	"Ahh... milorde..."
 	.byte WaitForA
 
 	.byte EndText
@@ -384,9 +389,9 @@ dialogueCh1BraveAxe
 	.byte $3C
 
 	.byte StartText
-.text	"Ugh, dammit!"
+.text	"Ugh, droga!"
 	.byte NewLine
-.text	"I dropped my axe!"
+.text	"Deixei meu machado cair!"
 	.byte WaitForA
 	.byte ScrollText
 
@@ -401,38 +406,43 @@ dialogueCh1BraveAxe
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Lahna
-.text	"What you dropped..."
+.text	"O que você largou..."
 	.byte NewLine
-.text	"Was it this golden axe?"
+.text	"Foi esse machado dourado?"
 	.byte NewLine
-.text	"Or perhaps, this silver axe?"
+.text	"Ou talvez, esse machado de prata?"
 
 	.byte RightSlot		;Lex
 	.word PauseText
 	.byte $10
-.text	"Oh, no. My axe isn't anything as fine"
+.text	"Ah, não, não. Meu machado não é"
 	.byte NewLine
-.text	"as those two."
+.text	"bacana assim não."
 	.byte NewLine
-.text	"It's just a plain old iron axe."
+.text	"É só um machado de ferro mesmo."
 	.byte WaitForA
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Such an honest person..."
+.text	"Quanta honestidade..."
 	.byte NewLine
-.text	"As a reward..."
+.text	"Como prêmio..."
 	.byte NewLine
-.text	"I present you with this brave axe..."
+.text	"Eu te presenteio com esse machado heróico..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Farewell, Lord Lex..."
-
+.text	"Adeus, Lorde Lex..."
+	.byte WaitForA
+	.word CloseBox
+	.word ClearPortrait
+	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Er..."
+.text	"Não entendi foi nada..."
+	.byte NewLine
+.text	"Bem, machado legal esse aqui!"
 	.byte WaitForA
 
 	.byte EndText

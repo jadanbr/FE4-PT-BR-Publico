@@ -16,18 +16,18 @@ dialogueEthlynRetreats
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Ethlyn! Are you alright?!"
+.text	"Ethlyn! Você está bem?!"
 	.byte NewLine
-.text	"We must get you home to rest for now."
+.text	"Vamos ter que te levar pra casa."
 	.byte NewLine
-.text	"We can apologize to Sigurd later."
+.text	"Pedimos perdão a Sigurd depois."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
 .text	"Nnh..."
 	.byte NewLine
-.text	"Sorry..."
+.text	"Desculpa..."
 	.byte WaitForA
 
 	.byte EndText
@@ -47,16 +47,16 @@ dialogueQuanRetreats
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Quan! Hold on!"
+.text	"Quan! Calma!"
 	.byte NewLine
-.text	"I hate to abandon Sigurd like this,"
+.text	"Eu não queria ter que abandonar meu irmão,"
 	.byte NewLine
-.text	"but I'm taking you home to rest!"
+.text	"mas eu terei que te levar pra casa!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Forgive me, Ethlyn..."
+.text	"Perdoe-me, Ethlyn..."
 	.byte WaitForA
 
 	.byte EndText
@@ -78,18 +78,18 @@ dialogueDeirdreReturns
 	.byte StartText
 .text	"Deirdre?!"
 	.byte NewLine
-.text	"Oh, thank the gods!"
+.text	"Oh, graças aos deuses!"
 	.byte NewLine
-.text	"You're alright!"
+.text	"Você está bem!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Mm. The enemy captured and imprisoned me,"
+.text	"Mm. O inimigo me capturou, mas eu sabia..."
 	.byte NewLine
-.text	"but I knew... I knew you would come for me,"
+.text	"eu sabia que você viria me resgatar."
 	.byte NewLine
-.text	"no matter what."
+.text	"Eu tinha certeza disso."
 	.byte WaitForA
 
 	.byte EndText
@@ -109,20 +109,20 @@ dialogueJuliaReturns
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Julia?!"
+.text	"Júlia?!"
 	.byte NewLine
-.text	"You're safe!"
+.text	"Você está bem!"
 	.byte NewLine
-.text	"Oh, thank heavens..."
+.text	"Oh, graças aos céus..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Mm... The enemy seized me and imprisoned me"
+.text	"Mm... O inimigo me prendeu,"
 	.byte NewLine
-.text	"here, but I knew... I knew you would rescue me,"
+.text	"mas eu sabia... sabia que você me"
 	.byte NewLine
-.text	"no matter what."
+.text	"resgataria, não importando a dificuldade."
 	.byte WaitForA
 
 	.byte EndText
@@ -140,9 +140,9 @@ dialogueDeathSigurd
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"Everyone..."
+.text	"Todos... por favor..."
 	.byte NewLine
-.text	"Forgive me..."
+.text	"Me perdoem..."
 	.byte WaitForA
 
 	.byte EndText
@@ -156,11 +156,11 @@ dialogueDeathNaoise
 	.word portrait_Naoise
 
 	.byte StartText
-.text	"Lord Sigurd..."
+.text	"Lorde Sigurd..."
 	.byte NewLine
-.text	"My apologies..."
+.text	"Perdoe-me..."
 	.byte NewLine
-.text	"Take care of yourself..."
+.text	"Se cuide..."
 	.byte WaitForA
 
 	.byte EndText
@@ -174,11 +174,11 @@ dialogueDeathAlec
 	.word portrait_Alec
 
 	.byte StartText
-.text	"Gah... Got unlucky..."
+.text	"Gah... tive azar..."
 	.byte NewLine
-.text	"Lord Sigurd..."
+.text	"Lorde Sigurd..."
 	.byte NewLine
-.text	"Good luck out there..."
+.text	"Boa sorte..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -192,11 +192,11 @@ dialogueDeathArden
 	.word portrait_Arden
 
 	.byte StartText
-.text	"Lord Sigurd..."
+.text	"Lorde Sigurd..."
 	.byte NewLine
-.text	"My life was yours."
+.text	"Minha vida foi sua."
 	.byte NewLine
-.text	"I don't regret a thing..."
+.text	"Eu não me arrependo de nada..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -210,15 +210,15 @@ dialogueDeathYoung_Finn
 	.word portrait_Young_Finn
 
 	.byte StartText
-.text	"...My apologies, Lord Sigurd."
+.text	"...Me perdoe, Lorde Sigurd."
 	.byte NewLine
-.text	"With a wound like this,"
+.text	"Com um ferimento desses,"
 	.byte NewLine
-.text	"I can fight no longer."
+.text	"Não posso mais lutar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I shall return to Leonster at once..."
+.text	"Eu voltarei para Leonster..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -235,7 +235,7 @@ dialogueDeathQuan
 	.byte StartText
 .text	"Agh..."
 	.byte NewLine
-.text	"What happened..."
+.text	"Me descuidei..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -249,9 +249,9 @@ dialogueDeathMidir
 	.word portrait_Midir
 
 	.byte StartText
-.text	"Ohh..."
+.text	"Ahh..."
 	.byte NewLine
-.text	"My apologies, Lord Sigurd..."
+.text	"Me perdoe, Lorde Sigurd..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -265,13 +265,16 @@ dialogueDeathLewyn
 	.word portrait_Lewyn
 
 	.byte StartText
-.text	"Nngh... No, I..."
+.text	"Nngh... Não, eu..."
 	.byte NewLine
-.text	"There's still so much I need to do..."
+.text	"Ainda tem muito que eu preciso fazer..."
 	.byte NewLine
-.text	"I can't die here... I won't die here..."
+.text	"Não posso morrer aqui..."
 	.byte WaitForA
-	
+	.byte Newline
+.text	"Não vou morrer aqui..."
+	.byte WaitForA
+
 	.byte EndText
 
 
@@ -285,7 +288,7 @@ dialogueDeathChulainn
 	.byte StartText
 .text	"Heh..."
 	.byte NewLine
-.text	"I really am a dolt, aren't I...?"
+.text	"Eu sou um estúpido, não sou...?"
 	.byte WaitForA
 	
 	.byte EndText
@@ -299,9 +302,9 @@ dialogueDeathAzelle
 	.word portrait_Azelle
 
 	.byte StartText
-.text	"Lord Sigurd..."
+.text	"Lorde Sigurd..."
 	.byte NewLine
-.text	"The rest... is up to you..."
+.text	"O resto... é com você..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -317,7 +320,7 @@ dialogueDeathJamke
 	.byte StartText
 .text	"Gah!"
 	.byte NewLine
-.text	"Is this the end for me... already?"
+.text	"Esse já é o meu fim?"
 	.byte WaitForA
 	
 	.byte EndText
@@ -331,11 +334,11 @@ dialogueDeathClaud
 	.word portrait_Claud
 
 	.byte StartText
-.text	"Gods above... If you must claim"
+.text	"Deuses... se vocês querem"
 	.byte NewLine
-.text	"my life... Please..."
+.text	"minha vida... por favor..."
 	.byte NewLine
-.text	"Safeguard those of my friends..."
+.text	"Proteja as dos meus amigos..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -351,7 +354,7 @@ dialogueDeathBeowolf
 	.byte StartText
 .text	"Tch..."
 	.byte NewLine
-.text	"Guess I'm all outta luck now..."
+.text	"Cabou minha sorte..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -365,11 +368,11 @@ dialogueDeathLex
 	.word portrait_Lex
 
 	.byte StartText
-.text	"I... I'm a fool, aren't I?"
+.text	"Eu... sou um tolo, não sou?"
 	.byte NewLine
-.text	"...Sigurd, please..."
+.text	"...Sigurd, por favor..."
 	.byte NewLine
-.text	"Just let me go in peace..."
+.text	"Me deixe ir em paz..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -383,9 +386,9 @@ dialogueDeathDew
 	.word portrait_Dew
 
 	.byte StartText
-.text	"Ah, geez..."
+.text	"Ah, droga..."
 	.byte NewLine
-.text	"I stuffed this one up, huh...?"
+.text	"Eu errei feio, não é...?"
 	.byte WaitForA
 	
 	.byte EndText
@@ -399,9 +402,9 @@ dialogueDeathDeirdre
 	.word portrait_Deirdre
 
 	.byte StartText
-.text	"No, stop!"
+.text	"Não, parem!"
 	.byte NewLine
-.text	"Where are you taking me?!"
+.text	"Para onde estão me levando?!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -417,9 +420,9 @@ dialogueDeathEthlyn
 	.byte StartText
 .text	"Ahhh..."
 	.byte NewLine
-.text	"Oh, Quan..."
+.text	"Quan..."
 	.byte NewLine
-.text	"Help me... Please..."
+.text	"Me ajude... por favor..."
 	.byte WaitForA
 
 	.byte EndText
@@ -435,7 +438,7 @@ dialogueDeathLachesis
 	.byte StartText
 .text	"Ahh..."
 	.byte NewLine
-.text	"Eldie..."
+.text	"Eldi..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -451,7 +454,7 @@ dialogueDeathAyra
 	.byte StartText
 .text	"Shannan..."
 	.byte NewLine
-.text	"Grow up well..."
+.text	"Viva por nós, por Isaach..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -465,9 +468,9 @@ dialogueDeathErinys
 	.word portrait_Erinys
 
 	.byte StartText
-.text	"Prince Lewyn..."
+.text	"Princípe Lewyn..."
 	.byte NewLine
-.text	"I... I beg your forgiveness..."
+.text	"Eu suplico por seu perdão..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -481,9 +484,9 @@ dialogueDeathTailtiu
 	.word portrait_Tailtiu
 
 	.byte StartText
-.text	"No!"
+.text	"Não!"
 	.byte NewLine
-.text	"I... I can't take much more of this..."
+.text	"Eu... vou morrer...?"
 	.byte WaitForA
 	
 	.byte EndText
@@ -497,9 +500,9 @@ dialogueDeathSilvia
 	.word portrait_Silvia
 	
 	.byte StartText
-.text	"W-why..."
+.text	"P-porque..."
 	.byte NewLine
-.text	"Why am I..."
+.text	"Porque eu..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -513,11 +516,11 @@ dialogueDeathEdain
 	.word portrait_Edain
 
 	.byte StartText
-.text	"O lords above..."
+.text	"Ó deuses no céu..."
 	.byte NewLine
-.text	"Protect my comrades..."
+.text	"Protejam meus amigos..."
 	.byte NewLine
-.text	"in my stead..."
+.text	"em meu lugar..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -531,9 +534,9 @@ dialogueDeathBrigid
 	.word portrait_Brigid
 
 	.byte StartText
-.text	"This..."
+.text	"Então..."
 	.byte NewLine
-.text	"So this is where it all ends, huh...!"
+.text	"É assim que tudo acaba, é...?"
 	.byte WaitForA
 	
 	.byte EndText
@@ -549,7 +552,7 @@ dialogueDeathSeliph
 	.byte StartText
 .text	"Ahhh..."
 	.byte NewLine
-.text	"I failed you, Father..."
+.text	"Eu falhei, pai..."
 	.byte WaitForA
 
 	.byte EndText
@@ -565,7 +568,7 @@ dialogueDeathShannan
 	.byte StartText
 .text	"Geh..."
 	.byte NewLine
-.text	"Forgive me, Seliph...!"
+.text	"Desculpa, Seliph...!"
 	.byte WaitForA
 
 	.byte EndText
@@ -579,7 +582,7 @@ dialogueDeathDalvin
 	.word portrait_Dalvin
 
 	.byte StartText
-.text	"W-what just happened..."
+.text	"O que aconteceu..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -593,9 +596,9 @@ dialogueDeathAsaello
 	.word portrait_Asaello
 
 	.byte StartText
-.text	"Gah..."
+.text	"Ihhh..."
 	.byte NewLine
-.text	"I fouled this one up...!"
+.text	"Me dei mal...!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -609,9 +612,9 @@ dialogueDeathLeif
 	.word portrait_Leif
 
 	.byte StartText
-.text	"Father..."
+.text	"Pai..."
 	.byte NewLine
-.text	"Oh, Mother..."
+.text	"Mãe... me perdoem..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -625,9 +628,9 @@ dialogueDeathIuchar
 	.word portrait_Iuchar
 
 	.byte StartText
-.text	"Ahh... You may rob Iuchar of life..."
+.text	"Ahh... Iuchar pode perder a vida..."
 	.byte NewLine
-.text	"But never shall love..."
+.text	"Mas o amor..."
 	.byte NewLine
 .text	"Nngh..."
 	.byte WaitForA
@@ -643,7 +646,7 @@ dialogueDeathCharlot
 	.word portrait_Charlot
 
 	.byte StartText
-.text	"...P-Papa..."
+.text	"...P-Pai..."
 	.byte WaitForA
 
 	.byte EndText
@@ -657,9 +660,9 @@ dialogueDeathHawk
 	.word portrait_Hawk
 
 	.byte StartText
-.text	"Can my magic... take me no"
+.text	"Minha magia... não consegue mais"
 	.byte NewLine
-.text	"further...? Ahh... What a shame..."
+.text	"me ajudar...? Ahh... droga..."
 	.byte WaitForA
 
 	.byte EndText
@@ -675,7 +678,7 @@ dialogueDeathTristan
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"Good luck, Lord Seliph..."
+.text	"Boa sorte, Lorde Seliph..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -691,11 +694,11 @@ dialogueDeathAdult_Finn
 	.word portrait_Adult_Finn
 
 	.byte StartText
-.text	"Lord Quan..."
+.text	"Lorde Quan..."
 	.byte NewLine
-.text	"Lady Ethlyn..."
+.text	"Madame Ethlyn..."
 	.byte NewLine
-.text	"I beg your forgiveness..."
+.text	"Suplico seu perdão..."
 	.byte WaitForA
 
 	.byte EndText
@@ -709,9 +712,9 @@ dialogueDeathDeimne
 	.word portrait_Deimne
 
 	.byte StartText
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.byte NewLine
-.text	"I leave the rest... to you..."
+.text	"Eu deixo o resto... com você..."
 	.byte WaitForA
 
 	.byte EndText
@@ -725,9 +728,11 @@ dialogueDeathHannibal
 	.word portrait_Hannibal
 
 	.byte StartText
-.text	"So this is my fate..."
+.text	"Então esse é meu fim..."
 	.byte NewLine
-.text	"Ohh, my son..."
+.text	"Ahh, meu filho..."
+	.byte NewLine
+.text	"Que você tenha uma vida longa..."
 	.byte WaitForA
 
 	.byte EndText
@@ -741,9 +746,9 @@ dialogueDeathAres
 	.word portrait_Ares1
 
 	.byte StartText
-.text	"T-this cannot be..."
+.text	"Não pode ser..."
 	.byte NewLine
-.text	"How could I lose..."
+.text	"Como que eu perdi?"
 	.byte WaitForA
 
 	.byte EndText
@@ -759,7 +764,9 @@ dialogueDeathAmid
 	.byte StartText
 .text	"Heh..."
 	.byte NewLine
-.text	"I was a fool, wasn't I...?"
+.text	"Fui um idiota, não fui...?"
+	.byte NewLine
+.text	"Linda, nos vemos depois..."
 	.byte WaitForA
 
 	.byte EndText
@@ -773,11 +780,16 @@ dialogueDeathOld_Oifey
 	.word portrait_Old_Oifey
 
 	.byte StartText
-.text	"Sire... Oh, Lord Sigurd..."
+.text	"Senhor... ó, Lorde Sigurd..."
 	.byte NewLine
-.text	"My deepest apologies..."
+.text	"Minhas mais sinceras"
 	.byte NewLine
-.text	"I've already..."
+.text	"desculpas..."
+	.byte WaitForA
+	.byte ScrollText
+.text	"Eu não consigo mais..."
+	.byte NewLine
+.text	"Protegê-lo..."
 	.byte WaitForA
 
 	.byte EndText
@@ -791,7 +803,7 @@ dialogueDeathDaisy
 	.word portrait_Daisy
 
 	.byte StartText
-.text	"I... I can't take this anymore!"
+.text	"Eu... eu não aguento mais!"
 	.byte WaitForA
 
 	.byte EndText
@@ -807,7 +819,7 @@ dialogueDeathCreidne
 	.byte StartText
 .text	"Gah..."
 	.byte NewLine
-.text	"Is this it...?"
+.text	"Então é isso, acabou pra mim...?"
 	.byte WaitForA
 	
 	.byte EndText
@@ -823,7 +835,7 @@ dialogueDeathMuirne
 	.byte StartText
 .text	"Ahhh..."
 	.byte NewLine
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -837,11 +849,11 @@ dialogueDeathJulia_Capture
 	.word portrait_Julia
 
 	.byte StartText
-.text	"Stop!"
+.text	"Parem!"
 	.byte NewLine
-.text	"Please... Where..."
+.text	"Por favor... parem..."
 	.byte NewLine
-.text	"Where are you taking me?!"
+.text	"Para onde estão me levando?!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -871,7 +883,7 @@ dialogueDeathHermina
 	.byte StartText
 .text	"Aaaahhh..."
 	.byte NewLine
-.text	"Hawkesy..."
+.text	"Hawke..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -885,7 +897,7 @@ dialogueDeathLinda
 	.word portrait_Linda
 
 	.byte StartText
-.text	"Mother..."
+.text	"Mãe..."
 	.byte WaitForA
 
 	.byte EndText
@@ -901,7 +913,7 @@ dialogueDeathLaylea
 	.byte StartText
 .text	"Ares..."
 	.byte NewLine
-.text	"I'm sorry..."
+.text	"Me desculpa..."
 	.byte WaitForA
 
 	.byte EndText
@@ -915,9 +927,11 @@ dialogueDeathJeanne
 	.word portrait_Jeanne
 
 	.byte StartText
-.text	"Prince Leif..."
+.text	"Princípe Leif..."
 	.byte NewLine
-.text	"The rest... is up to you..."
+.text	"O resto... está em suas mãos..."
+	.byte NewLine
+.text	"Tristan... até mais tarde..."
 	.byte WaitForA
 
 	.byte EndText
@@ -931,11 +945,11 @@ dialogueDeathScathach
 	.word portrait_Scathach
 
 	.byte StartText
-.text	"W-what just happened..."
+.text	"O que aconteceu..."
 	.byte NewLine
 .text	"Larcei..."
 	.byte NewLine
-.text	"It's all on you now..."
+.text	"você está por sua conta agora..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -951,7 +965,7 @@ dialogueDeathFebail
 	.byte StartText
 .text	"Patty..."
 	.byte NewLine
-.text	"I'm sorry..."
+.text	"Me desculpa..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -967,7 +981,7 @@ dialogueDeathIucharba
 	.byte StartText
 .text	"Gah..."
 	.byte NewLine
-.text	"What the hell just happened..."
+.text	"O que diabos aconteceu..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -981,11 +995,11 @@ dialogueDeathCoirpre
 	.word portrait_Coirpre
 
 	.byte StartText
-.text	"P-Papa..."
+.text	"P-Pai..."
 	.byte NewLine
-.text	"Thank you..."
+.text	"Obrigado..."
 	.byte NewLine
-.text	"For everything..."
+.text	"Por tudo..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -999,9 +1013,11 @@ dialogueDeathCed
 	.word portrait_Ced
 
 	.byte StartText
-.text	"Can my power... take me no"
+.text	"Meu poder... é incapaz de me"
 	.byte NewLine
-.text	"further...? Ahh... What a pity..."
+.text	"levar adiante...? Droga..."
+	.byte NewLine
+.text	"Desculpa, mãe..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1017,7 +1033,7 @@ dialogueDeathDiarmuid
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"Good luck, Lord Seliph..."
+.text	"Boa sorte, Lorde Seliph..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1031,9 +1047,9 @@ dialogueDeathLester
 	.word portrait_Lester
 
 	.byte StartText
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.byte NewLine
-.text	"I leave the rest... to you..."
+.text	"Eu deixo o resto... com você..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1049,7 +1065,9 @@ dialogueDeathArthur
 	.byte StartText
 .text	"Heh..."
 	.byte NewLine
-.text	"What a fool I was..."
+.text	"Que tolo eu fui..."
+	.byte NewLine
+.text	"Tine, desculpe..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1063,11 +1081,11 @@ dialogueDeathPatty
 	.word portrait_Patty
 
 	.byte StartText
-.text	"No!"
+.text	"Não!"
 	.byte NewLine
 .text	"Febail..."
 	.byte NewLine
-.text	"Help me..."
+.text	"Me ajude..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1083,7 +1101,7 @@ dialogueDeathLarcei
 	.byte StartText
 .text	"Gah..."
 	.byte NewLine
-.text	"Is this it...?"
+.text	"Esse é o fim da linha...?"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1099,7 +1117,7 @@ dialogueDeathLana
 	.byte StartText
 .text	"Ahhh..."
 	.byte NewLine
-.text	"Mother..."
+.text	"Mãe..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1113,7 +1131,7 @@ dialogueDeathFee
 	.word portrait_Fee
 
 	.byte StartText
-.text	"Mother..."
+.text	"Mãe..."
 	.byte WaitForA
 
 	.byte EndText
@@ -1129,7 +1147,9 @@ dialogueDeathTine
 	.byte StartText
 .text	"Oh..."
 	.byte NewLine
-.text	"Mother..."
+.text	"Mãe..."
+	.byte NewLine
+.text	"Irmão..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1145,7 +1165,7 @@ dialogueDeathLene
 	.byte StartText
 .text	"Ares..."
 	.byte NewLine
-.text	"Sorry..."
+.text	"Desculpa..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1159,9 +1179,9 @@ dialogueDeathNanna
 	.word portrait_Nanna
 
 	.byte StartText
-.text	"Prince Leif..."
+.text	"Princípe Leif..."
 	.byte NewLine
-.text	"The rest... is up to you..."
+.text	"Não vá morrer como eu..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1175,9 +1195,9 @@ dialogueDeathAzelle_Lover
 	.word portrait_Azelle
 
 	.byte StartText
-.text	"Lord Sigurd..."
+.text	"Lorde Sigurd..."
 	.byte NewLine
-.text	"The rest... is up to you..."
+.text	"Eu deixo o resto em suas mãos..."
 	.byte NewLine
 .text	"... "
 	.word PrintStoredNameA
@@ -1197,11 +1217,18 @@ dialogueDeathJamke_Lover
 	.byte StartText
 .text	"Gah!"
 	.byte NewLine
-.text	"Is this the end for me... already?"
+.text	"Esse vai ser o meu fim...?"
+	.byte NewLine
+.text	"Não posso morrer aqui..."
+	.byte WaitForA
+	.byte ScrollText
+	
 	.byte NewLine
 .text	"... "
 	.word PrintStoredNameA
 .text	"..."
+	.byte NewLine
+.text	"Eu te amo..."
 	.byte WaitForA
 
 	.byte EndText
@@ -1217,7 +1244,7 @@ dialogueDeathAyra_Lover
 	.byte StartText
 .text	"Shannan..."
 	.byte NewLine
-.text	"Grow up well..."
+.text	"Viva por nós, por Isaach..."
 	.byte WaitForA
 
 	.byte ScrollText
@@ -1225,9 +1252,9 @@ dialogueDeathAyra_Lover
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"We'll meet again..."
+.text	"Nos veremos de novo..."
 	.byte NewLine
-.text	"in the next life..."
+.text	"na próxima vida..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1241,13 +1268,13 @@ dialogueDeathTailtiu_Lover
 	.word portrait_Tailtiu
 
 	.byte StartText
-.text	"No!"
+.text	"Não!"
 	.byte NewLine
-.text	"I... I can't take any more of this..."
+.text	"Eu vou morrer...?"
 	.byte NewLine
 .text	"... "
 	.word PrintStoredNameA
-.text	", you nitwit...!"
+.text	", seu idiota...!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1261,16 +1288,18 @@ dialogueDeathSilvia_Lover
 	.word portrait_Silvia
 
 	.byte StartText
-.text	"W-why..."
+.text	"P-porque..."
 	.byte NewLine
-.text	"Why am I..."
+.text	"Porque eu..."
 	.byte WaitForA
 	.byte ScrollText
 
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"Do something! Please..."
+.text	"Faça alguma coisa!"
+	.byte NewLine
+.text "Por favor..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1284,18 +1313,18 @@ dialogueDeathEdain_Lover
 	.word portrait_Edain
 
 	.byte StartText
-.text	"O lords above..."
+.text	"Ó deuses no céu..."
 	.byte NewLine
-.text	"Protect my comrades..."
+.text	"Protejam meus amigos..."
 	.byte NewLine
-.text	"in my stead..."
+.text	"em meu lugar..."
 	.byte WaitForA
 	.byte ScrollText
 
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"Forgive me... Please..."
+.text	"Me perdoe... por favor..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1312,6 +1341,8 @@ dialogueDeathMuirne_Lover
 .text	"Ahhh... "
 	.word PrintStoredNameA
 .text	"..."
+	.byte NewLine
+.text	"Eu não quero te deixar..."
 	.byte WaitForA
 
 	.byte EndText
@@ -1326,7 +1357,7 @@ dialogueDeathJulia
 	.byte StartText
 .text	"Aaah..."
 	.byte NewLine
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1344,6 +1375,8 @@ dialogueDeathHermina_Lover
 	.byte NewLine
 	.word PrintStoredNameA
 .text	"..."
+	.byte NewLine
+.text	"Me ajude..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1360,7 +1393,7 @@ dialogueDeathLaylea_Lover
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"I... I'm sorry..."
+.text	"Me... me desculpe..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1376,7 +1409,7 @@ dialogueDeathLarcei_Lover
 	.byte StartText
 .text	"Gah..."
 	.byte NewLine
-.text	"Is this it...?"
+.text	"Então esse é o meu fim...?"
 	.byte NewLine
 	.word PrintStoredNameA
 .text	"..."
@@ -1395,10 +1428,16 @@ dialogueDeathLana_Lover
 	.byte StartText
 .text	"Ahhh..."
 	.byte NewLine
-.text	"Mother..."
+.text	"Mãe..."
 	.byte NewLine
 	.word PrintStoredNameA
 .text	"..."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Deuses, por favor,"
+	.byte NewLine
+.text	"protejam-os!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -1414,10 +1453,14 @@ dialogueDeathFee_Lover
 	.byte StartText
 .text	"Aaaahhh..."
 	.byte NewLine
-.text	"Cedsy..."
-	.byte NewLine
+.text	"Ced... cadê você..."
+	.byte WaitForA
+	.byte ScrollText
+	
 	.word PrintStoredNameA
 .text	"..."
+	.byte NewLine
+.text	"Eu não consigo mais..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1433,10 +1476,16 @@ dialogueDeathTine_Lover
 	.byte StartText
 .text	"Oh..."
 	.byte NewLine
-.text	"Mother..."
+.text	"Mãe..."
 	.byte NewLine
+.text	"Irmão..."
+	.byte WaitForA
+	.byte ScrollText
+	
 	.word PrintStoredNameA
 .text	"..."
+	.byte NewLine
+.text	"Me perdoem..."	
 	.byte WaitForA
 	
 	.byte EndText
@@ -1453,7 +1502,7 @@ dialogueDeathLene_Lover
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"I... Sorry..."
+.text	"Me... desculpa..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1467,9 +1516,9 @@ dialogueDeathDiMaggio
 	.word portrait_DiMaggio1
 
 	.byte StartText
-.text	"No..."
+.text	"Droga..."
 	.byte NewLine
-.text	"This ain't right..."
+.text	"Não era pra ser assim..."
 	.word PauseText
 	.byte $C8
 
@@ -1484,15 +1533,15 @@ dialogueDeathGerald
 	.word portrait_Gerald
 
 	.byte StartText
-.text	"Ahahaha... Too bad for you..."
+.text	"Ahahaha... Que pena que..."
 	.byte NewLine
-.text	"Killing me ain't gonna"
+.text	"sua princesa... já está..."
 	.byte NewLine
-.text	"free your dame..."
+.text	"em outro castelo..."
 	.byte WaitForA
 
 	.byte ScrollText
-.text	"Prince Munnir's already..."
+.text	"Princípe Munnir já a..."
 	.byte NewLine
 .text	"Urgh..."
 	.word PauseText
@@ -1509,7 +1558,9 @@ dialogueDeathCimbaeth
 	.word portrait_Cimbaeth1
 
 	.byte StartText
-.text	"No... urgh..."
+.text	"Não... droga..."
+	.byte NewLine
+.text	"Não era pra ser assim..."	
 	.word PauseText
 	.byte $C8
 
@@ -1524,9 +1575,9 @@ dialogueDeathMunnir
 	.word portrait_Munnir1
 
 	.byte StartText
-.text	"N-no..."
+.text	"N-não..."
 	.byte NewLine
-.text	"This can't be..."
+.text	"Não pode ser..."
 	.byte NewLine
 .text	"Guh..."
 	.word PauseText
@@ -1543,9 +1594,9 @@ dialogueDeathSandima
 	.word portrait_Sandima1
 
 	.byte StartText
-.text	"Archbishop Manfroy..."
+.text	"Arcebispo Manfroy..."
 	.byte NewLine
-.text	"F-forgive me..."
+.text	"Perdoe-me..."
 	.word PauseText
 	.byte $C8
 
@@ -1562,7 +1613,7 @@ dialogueDeathAyra_Enemy
 	.byte StartText
 .text	"Shannan..."
 	.byte NewLine
-.text	"I've failed you..."
+.text	"Eu falhei contigo..."
 	.word PauseText
 	.byte $C8
 
@@ -1577,11 +1628,11 @@ dialogueDeathEliot1
 	.word portrait_Eliot1
 	
 	.byte StartText
-.text	"Oof... Men, retreat!"
+.text	"Oof... Homens, recuar!"
 	.byte NewLine
-.text	"Mark my words, Eldigan!"
+.text	"Eldigan! Não cante vitória!"
 	.byte NewLine
-.text	"This isn't over!"
+.text	"Isso ainda não acabou!"
 	.word PauseText
 	.byte $C8
 
@@ -1596,7 +1647,11 @@ dialogueDeathJamke_Enemy
 	.word portrait_Jamke
 
 	.byte StartText
-.text	"No... Father..."
+.text	"Não... Pai..."
+	.byte NewLine
+.text	"O que será de Verdane?"
+	.byte NewLine
+.text	"Maldito seja, Sandima..."	
 	.byte WaitForA
 
 	.byte EndText
@@ -1610,11 +1665,11 @@ dialogueDeathEliot2
 	.word portrait_Eliot1
 
 	.byte StartText
-.text	"Gah! Blast..."
+.text	"Gah! Droga..."
 	.byte NewLine
-.text	"Why must... everything..."
+.text	"Porque tudo... tem que dar certo..."
 	.byte NewLine
-.text	"go Eldigan's..."
+.text	"pro Eldigan..."
 	.word PauseText
 	.byte $C8
 
@@ -1631,9 +1686,9 @@ dialogueDeathPhilip
 	.word portrait_Philip1
 
 	.byte StartText
-.text	"L-Lord Bordeaux..."
+.text	"L-Lorde Bordeaux..."
 	.byte NewLine
-.text	"I beg... your pardon..."
+.text	"Eu peço... seu perdão..."
 	.word PauseText
 	.byte $C8
 
@@ -1650,7 +1705,7 @@ dialogueDeathBordeaux
 	.byte StartText
 .text	"Gah..."
 	.byte NewLine
-.text	"My... castle..."
+.text	"Meu... castelo..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -1664,7 +1719,7 @@ dialogueDeathMacbeth
 	.word portrait_Macbeth1
 
 	.byte StartText
-.text	"Ugh... why me...?"
+.text	"Ugh... por que eu...?"
 	.word PauseText
 	.byte $C8
 
@@ -1679,9 +1734,9 @@ dialogueDeathVoltz
 	.word portrait_Voltz
 
 	.byte StartText
-.text	"Th-this can't be..."
+.text	"N-não pode ser..."
 	.byte NewLine
-.text	"You got me..."
+.text	"Me venceram..."
 	.word PauseText
 	.byte $C8
 
@@ -1698,7 +1753,7 @@ dialogueDeathClement
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"Will I go down... in glory...?"
+.text	"Irei pra história... em glórias...?"
 	.word PauseText
 	.byte $C8
 
@@ -1713,11 +1768,11 @@ dialogueDeathErinys_Enemy
 	.word portrait_Erinys
 
 	.byte StartText
-.text	"Oh... Queen Lahna..."
+.text	"Oh... Rainha Lahna..."
 	.byte NewLine
-.text	"I failed you..."
+.text	"Eu lhe falhei..."
 	.byte NewLine
-.text	"Forgive me..."
+.text	"Me perdoe..."
 	.word PauseText
 	.byte $C8
 
@@ -1732,11 +1787,11 @@ dialogueDeathZayin
 	.word portrait_Zayin1
 
 	.byte StartText
-.text	"No... Is this..."
+.text	"Não... será esse..."
 	.byte NewLine
-.text	"the beginning of the end..."
+.text	"o começo do fim..."
 	.byte NewLine
-.text	"for Agustria...?"
+.text	"para Agustria...?"
 	.word PauseText
 	.byte $C8
 
@@ -1751,7 +1806,7 @@ dialogueDeathBeowolf_Enemy
 	.word portrait_Beowolf
 
 	.byte StartText
-.text	"D-damn... this just ain't my..."
+.text	"D-droga... não era pra ser assim..."
 	.word PauseText
 	.byte $C8
 
@@ -1766,11 +1821,11 @@ dialogueDeathChagall_Ch2
 	.word portrait_Chagall2
 
 	.byte StartText
-.text	"Urgh... No, w-wait!"
+.text	"Urgh... Não, e-espera!"
 	.byte NewLine
-.text	"Spare me!"
+.text	"Misericórdia!"
 	.byte NewLine
-.text	"Please..."
+.text	"Por favor..."
 	.word PauseText
 	.byte $C8
 
@@ -1785,7 +1840,9 @@ dialogueDeathJacobi
 	.word portrait_Jacobi1
 
 	.byte StartText
-.text	"S-such a shame..."
+.text	"D-droga..."
+	.byte NewLine
+.text	"Tava fácil demais..."
 	.word PauseText
 	.byte $C8
 
@@ -1802,9 +1859,9 @@ dialogueDeathEldigan
 	.byte StartText
 .text	"Agustria..."
 	.byte NewLine
-.text	"I've failed you..."
+.text	"Falhei contigo..."
 	.byte NewLine
-.text	"Forgive... me..."
+.text	"Me... me perdoe..."
 	.word PauseText
 	.byte $C8
 
@@ -1819,9 +1876,9 @@ dialogueDeathPapilio
 	.word portrait_Papilio
 
 	.byte StartText
-.text	"Thracia..."
+.text	"Trácia..."
 	.byte NewLine
-.text	"Glory to... urgh..."
+.text	"Glória a... urgh..."
 	.word PauseText
 	.byte $C8
 
@@ -1836,7 +1893,9 @@ dialogueDeathChagall_Ch3
 	.word portrait_Chagall2
 
 	.byte StartText
-.text	"My... My Agustria..."
+.text	"Minha... minha Agustria..."
+	.byte NewLine
+.text	"Maldito sejam... Eldigan... Sigurd..."
 	.word PauseText
 	.byte $C8
 
@@ -1851,11 +1910,11 @@ dialogueDeathPisear
 	.word portrait_Pisear
 
 	.byte StartText
-.text	"D-damn..."
+.text	"D-droga..."
 	.byte NewLine
-.text	"Th-the pirates o' Orgahil..."
+.text	"O-os piratas de Orgahil..."
 	.byte NewLine
-.text	"Never lose... do we?"
+.text	"Nunca perdem... será?"
 	.word PauseText
 	.byte $C8
 
@@ -1870,9 +1929,9 @@ dialogueDeathDobar
 	.word portrait_Dobar
 
 	.byte StartText
-.text	"N-no..."
+.text	"N-não..."
 	.byte NewLine
-.text	"Damn it all..."
+.text	"Acabou pra nós..."
 	.word PauseText
 	.byte $C8
 
@@ -1889,7 +1948,7 @@ dialogueDeathKabeiri
 	.byte StartText
 .text	"Díthorba..."
 	.byte NewLine
-.text	"The rest... is up to you..."
+.text	"O resto... deixamos com você..."
 	.word PauseText
 	.byte $C8
 
@@ -1904,9 +1963,9 @@ dialogueDeathDithorba
 	.word portrait_Dithorba1
 
 	.byte StartText
-.text	"N-no..."
+.text	"N-não..."
 	.byte NewLine
-.text	"What have I..."
+.text	"O que eu..."
 	.word PauseText
 	.byte $C8
 
@@ -1923,7 +1982,9 @@ dialogueDeathMyos
 	.byte StartText
 .text	"Oof!"
 	.byte NewLine
-.text	"This can't... be..."
+.text	"Não pode... ser..."
+	.byte NewLine
+.text	"Silesse era para ser minha..."
 	.word PauseText
 	.byte $C8
 
@@ -1942,7 +2003,7 @@ dialogueDeathAnnand
 	.byte NewLine
 .text	"Erinys..."
 	.byte NewLine
-.text	"Prince... Lewyn..."
+.text	"Princípe... Lewyn..."
 	.word PauseText
 	.byte $C8
 
@@ -1957,7 +2018,7 @@ dialogueDeathPamela
 	.word portrait_Pamela2
 
 	.byte StartText
-.text	"I-impossible..."
+.text	"I-impossível..."
 	.word PauseText
 	.byte $C8
 
@@ -1974,9 +2035,9 @@ dialogueDeathDonovan
 	.byte StartText
 .text	"Gah..."
 	.byte NewLine
-.text	"You're..."
+.text	"Eles..."
 	.byte NewLine
-.text	"You're too strong..."
+.text	"Eles são forte demais..."
 	.word PauseText
 	.byte $C8
 
@@ -1993,9 +2054,9 @@ dialogueDeathDecair
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"My... My dreams..."
+.text	"Meus... meus sonhos..."
 	.byte NewLine
-.text	"They're..."
+.text	"Eles estão..."
 	.word PauseText
 	.byte $C8
 
@@ -2010,9 +2071,9 @@ dialogueDeathLamia
 	.word portrait_Lamia
 
 	.byte StartText
-.text	"N-no..."
+.text	"N-não..."
 	.byte NewLine
-.text	"How..."
+.text	"Como..."
 	.word PauseText
 	.byte $C8
 
@@ -2027,7 +2088,7 @@ dialogueDeathByron
 	.word portrait_Byron2
 
 	.byte StartText
-.text	"Oh, Sigurd... I've failed you..."
+.text	"Ah, Sigurd... falhei contigo..."
 	.word PauseText
 	.byte $C8
 
@@ -2044,7 +2105,7 @@ dialogueDeathSlade
 	.byte StartText
 .text	"Unnh..."
 	.byte NewLine
-.text	"We've been breached, too...?"
+.text	"Fomos derrotados também..."
 	.word PauseText
 	.byte $C8
 
@@ -2059,11 +2120,11 @@ dialogueDeathAndrey
 	.word portrait_Andrey2
 
 	.byte StartText
-.text	"Th-this can't be..."
+.text	"N-não pode ser..."
 	.byte NewLine
-.text	"Scipio..."
+.text	"Cipião..."
 	.byte NewLine
-.text	"Avenge me!"
+.text	"Me vingue!"
 	.word PauseText
 	.byte $C8
 
@@ -2078,11 +2139,11 @@ dialogueDeathLombard
 	.word portrait_Lombard2
 
 	.byte StartText
-.text	"I-impossible..."
+.text	"I-impossível..."
 	.byte NewLine
-.text	"How could I fall like this...?"
+.text	"Como eu poderia cair desse jeito...?"
 	.byte NewLine
-.text	"Danann... Don't fail me..."
+.text	"Danann... não falhe comigo..."
 
 	.word PauseText
 	.byte $C8
@@ -2100,9 +2161,9 @@ dialogueDeathVaja
 	.byte StartText
 .text	"Urgh..."
 	.byte NewLine
-.text	"Oh, Lord Arvis..."
+.text	"Ah, Lorde Arvis..."
 	.byte NewLine
-.text	"Forgive my failure..."
+.text	"Perdoe minha falha..."
 	.word PauseText
 	.byte $C8
 
@@ -2119,7 +2180,7 @@ dialogueDeathMagon
 	.byte StartText
 .text	"Gah..."
 	.byte NewLine
-.text	"Glory be to Thracia!"
+.text	"Glória à Trácia!"
 	.word PauseText
 	.byte $C8
 
@@ -2136,9 +2197,9 @@ dialogueDeathReptor
 	.byte StartText
 .text	"Guhhh... Arvis..."
 	.byte NewLine
-.text	"What in the blazes are you..."
+.text	"O que diabos está..."
 	.byte NewLine
-.text	"scheming?"
+.text	"querendo fazer?"
 	.word PauseText
 	.byte $C8
 
@@ -2154,7 +2215,7 @@ dialogueDeathReptor_BeforeVelthomerTurns
 	.byte StartText
 .text	"Guhhh..."
 	.byte NewLine
-.text	"N-No way..."
+.text	"N-não é possível..."
 	.word PauseText
 	.byte $C8
 
@@ -2173,7 +2234,7 @@ dialogueDeathEthlyn_Ch5
 	.byte NewLine
 .text	"Altena... Quan..."
 	.byte NewLine
-.text	"I'm so sorry..."
+.text	"Me perdoe..."
 	.word PauseText
 	.byte $C8
 
@@ -2188,11 +2249,11 @@ dialogueDeathQuan_Ch5
 	.word portrait_Quan
 
 	.byte StartText
-.text	"Oh, Ethlyn..."
+.text	"Ah, Ethlyn..."
 	.byte NewLine
-.text	"Forgive me..."
+.text	"Me perdoe..."
 	.byte NewLine
-.text	"Finn... I entrust Leif... to you..."
+.text	"Finn... cuide do Leif... pra mim..."
 	.word PauseText
 	.byte $C8
 
@@ -2207,11 +2268,11 @@ dialogueDeathHarold
 	.word portrait_Harold2
 
 	.byte StartText
-.text	"Oof!"
+.text	"Droga!"
 	.byte NewLine
-.text	"How... How could I fall to..."
+.text	"Como... como que eu perdi..."
 	.byte NewLine
-.text	"a few motley soldiers...?"
+.text	"pra uns meros rebeldes...?"
 	.word PauseText
 	.byte $C8
 
@@ -2228,7 +2289,7 @@ dialogueDeathIucharba_Enemy
 	.byte StartText
 .text	"Urgh..."
 	.byte NewLine
-.text	"I'm sorry, "
+.text	"Me desculpe, "
 	.word PrintBranchingName
 	.word name_LarceiCreidne
 .text	"..."
@@ -2246,22 +2307,22 @@ dialogueDeathIuchar_Enemy
 	.word portrait_Iuchar
 
 	.byte StartText
-.text	"Ahh... And so I fall,"
+.text	"Ahh... E assim eu caio,"
 	.byte NewLine
-.text	"even to rebels such as these..."
+.text	"para rebeldes como esses..."
 	.byte WaitForA
 	.byte ScrollText
 
 	.word PrintBranchingName
 	.word name_LarceiCreidne
-.text	"... Oh, "
+.text	"... Ah, "
 	.word PrintBranchingName
 	.word name_LarceiCreidne
 .text	"..."
 	.byte NewLine
-.text	"Our love shall endure,"
+.text	"Nosso amor continuará,"
 	.byte NewLine
-.text	"even beyond the grave..."
+.text	"mesmo após a morte..."
 	.word PauseText
 	.byte $C8
 
@@ -2276,9 +2337,9 @@ dialogueDeathSchmidt
 	.word portrait_Schmidt2
 
 	.byte StartText
-.text	"King Danann... my lord..."
+.text	"Rei Danann... meu lorde..."
 	.byte NewLine
-.text	"Forgive me!"
+.text	"Me perdoe!"
 	.word PauseText
 	.byte $C8
 
@@ -2295,7 +2356,7 @@ dialogueDeathDanann
 	.byte StartText
 .text	"Urgh..."
 	.byte NewLine
-.text	"Lord Arvis... my liege..."
+.text	"Lorde Arvis... meu imperador..."
 	.word PauseText
 	.byte $C8
 
@@ -2310,9 +2371,9 @@ dialogueDeathKutuzov
 	.word portrait_Kutuzov3
 
 	.byte StartText
-.text	"G-glory to..."
+.text	"G-glória a... Loptous..."
 	.byte NewLine
-.text	"The Loptrian... Empire..."
+.text	"Glória... ao Império Loptiriano!"
 	.word PauseText
 	.byte $C8
 
@@ -2345,7 +2406,7 @@ dialogueDeathIshtore
 	.byte StartText
 .text	"Raisa..."
 	.byte NewLine
-.text	"I..."
+.text	"Eu... te amo..."
 	.word PauseText
 	.byte $C8
 
@@ -2360,11 +2421,11 @@ dialogueDeathIshtore_RaisaAlive
 	.word portrait_Ishtore2
 
 	.byte StartText
-.text	"Raisa, I..."
+.text	"Raisa, eu..."
 	.byte NewLine
-.text	"I must leave the rest..."
+.text	"Eu deixo o resto..."
 	.byte NewLine
-.text	"in your hands..."
+.text	"em suas mãos..."
 	.word PauseText
 	.byte $C8
 
@@ -2381,7 +2442,7 @@ dialogueDeathJavarro
 	.byte StartText
 .text	"Ugh..."
 	.byte NewLine
-.text	"Ares, you dastard..."
+.text	"Ares, seu ingrato..."
 	.word PauseText
 	.byte $C8
 
@@ -2396,11 +2457,11 @@ dialogueDeathBramsel
 	.word portrait_Bramsel2
 
 	.byte StartText
-.text	"Nngh... No..."
+.text	"Nngh... Não..."
 	.byte NewLine
-.text	"Dahna is mine..."
+.text	"Dahna é minha..."
 	.byte NewLine
-.text	"All... mine..."
+.text	"Toda... minha..."
 	.word PauseText
 	.byte $C8
 
@@ -2415,9 +2476,9 @@ dialogueDeathBanba_Ch7
 	.word portrait_Banba3
 
 	.byte StartText
-.text	"Nngh..."
+.text	"Malditos rebeldes..."
 	.byte NewLine
-.text	"I must retreat for now..."
+.text	"Eu terei que recuar..."
 	.word PauseText
 	.byte $C8
 
@@ -2432,9 +2493,9 @@ dialogueDeathFodla_Ch7
 	.word portrait_Fodla3
 
 	.byte StartText
-.text	"Nngh..."
+.text	"Droga..."
 	.byte NewLine
-.text	"I must retreat for now..."
+.text	"Na próxima será diferente, rebeldes!"
 	.word PauseText
 	.byte $C8
 
@@ -2449,9 +2510,9 @@ dialogueDeathEriu_Ch7
 	.word portrait_Eriu3
 
 	.byte StartText
-.text	"Nngh..."
+.text	"Malditos rebeldes..."
 	.byte NewLine
-.text	"I must retreat for now..."
+.text	"Terei que me retirar nesse momento."
 	.word PauseText
 	.byte $C8
 
@@ -2466,7 +2527,9 @@ dialogueDeathTine_Enemy		;	Linda gets no death quote as an enemy, apparently.
 	.word portrait_Tine
 
 	.byte StartText
-.text	"Aah..."
+.text	"Aah... mãe..."
+	.byte NewLine
+.text	"será que te verei de novo?"
 	.word PauseText
 	.byte $C8
 
@@ -2481,17 +2544,17 @@ dialogueDeathBloom_Ch7
 	.word portrait_Bloom3
 
 	.byte StartText
-.text	"Nngh... How?"
+.text	"Nngh... como?"
 	.byte NewLine
-.text	"How could I lose..."
+.text	"Como eu perdi..."
 	.byte WaitForA
 
 	.byte ScrollText
-.text	"I've no choice..."
+.text	"Eu não tenho mais escolha..."
 	.byte NewLine
-.text	"For now, I must retreat"
+.text	"Por enquanto, eu terei que"
 	.byte NewLine
-.text	"to Connacht..."
+.text	"me retirar para Connacht..."
 	.word PauseText
 	.byte $C8
 
@@ -2508,7 +2571,7 @@ dialogueDeathIshtar_Ch8
 	.byte StartText
 .text	"Ahh!"
 	.byte NewLine
-.text	"Lord Julius..."
+.text	"Lorde Julius..."
 	.word PauseText
 	.byte $C8
 
@@ -2523,12 +2586,12 @@ dialogueDeathFebail_Enemy	;	Asaello gets no death quote as an enemy, apparently.
 	.word portrait_Febail
 
 	.byte StartText
-.text	"Oh, "
+.text	"Ah, "
 	.word PrintBranchingName
 	.word name_PattyDaisy
 .text	"..."
 	.byte NewLine
-.text	"Forgive your... fool of a brother..."
+.text	"Perdoe seu... irmão idiota..."
 	.word PauseText
 	.byte $C8
 
@@ -2543,11 +2606,11 @@ dialogueDeathMuhammad
 	.word portrait_Muhammad2
 
 	.byte StartText
-.text	"We... We've been defeated"
+.text	"Fomos... fomos derrotados"
 	.byte NewLine
-.text	"so easily...? King Bloom..."
+.text	"tão facilmente...? Rei Bloom..."
 	.byte NewLine
-.text	"I beg your forgiveness..."
+.text	"Eu imploro seu perdão..."
 	.word PauseText
 	.byte $C8
 
@@ -2562,7 +2625,9 @@ dialogueDeathOvo
 	.word portrait_Ovo2
 
 	.byte StartText
-.text	"I-impossible..."
+.text	"I-impossível,"
+	.byte NewLine
+.text	"eu fui quebrado..."
 	.word PauseText
 	.byte $C8
 
@@ -2577,7 +2642,7 @@ dialogueDeathBanba_Ch8
 	.word portrait_Banba3
 
 	.byte StartText
-.text	"Ahh... What a shame..."
+.text	"Ahh... droga..."
 	.byte NewLine
 .text	"Fódla... Ériu..."
 	.word PauseText
@@ -2596,7 +2661,9 @@ dialogueDeathFodla_Ch8
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"Blasted rebels..."
+.text	"Malditos rebeldes..."
+	.byte NewLine
+.text	"Perdoem-me, Banba... Ériu..."
 	.word PauseText
 	.byte $C8
 
@@ -2613,7 +2680,7 @@ dialogueDeathEriu_Ch8
 	.byte StartText
 .text	"Banba... Fódla..."
 	.byte NewLine
-.text	"Is this... the end?"
+.text	"Esse... é o nosso fim?"
 	.word PauseText
 	.byte $C8
 
@@ -2630,7 +2697,9 @@ dialogueDeathBloom_Ch8
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"How... regrettable..."
+.text	"Posso morrer agora..."
+	.byte NewLine
+.text	"Mas minha família me vingará!"
 	.word PauseText
 	.byte $C8
 
@@ -2647,7 +2716,7 @@ dialogueDeathGortach
 	.byte StartText
 .text	"Gaaah!"
 	.byte NewLine
-.text	"May Thracia... rise in glory..."
+.text	"Que a Trácia... chegue a glória..."
 	.word PauseText
 	.byte $C8
 
@@ -2664,7 +2733,7 @@ dialogueDeathMaykov
 	.byte StartText
 .text	"Guhh..."
 	.byte NewLine
-.text	"Glory... to Thracia..."
+.text	"Glória... à Trácia..."
 	.word PauseText
 	.byte $C8
 
@@ -2681,7 +2750,7 @@ dialogueDeathAltena_Enemy
 	.byte StartText
 .text	"Arion..."
 	.byte NewLine
-.text	"Oh, Arion..."
+.text	"Ah, Arion..."
 	.word PauseText
 	.byte $C8
 
@@ -2696,11 +2765,11 @@ dialogueDeathHannibal_Enemy
 	.word portrait_Hannibal
 
 	.byte StartText
-.text	"Ohh, my son..."
+.text	"Ahh, meu filho..."
 	.byte NewLine
-.text	"Please..."
+.text	"Por favor..."
 	.byte NewLine
-.text	"Survive..."
+.text	"Sobreviva..."
 	.word PauseText
 	.byte $C8
 
@@ -2715,9 +2784,9 @@ dialogueDeathCanut
 	.word portrait_Canut2
 
 	.byte StartText
-.text	"General Hannibal..."
+.text	"General Aníbal..."
 	.byte NewLine
-.text	"Forgive me, my liege..."
+.text	"Me perdoe, meu senhor..."
 	.word PauseText
 	.byte $C8
 
@@ -2734,9 +2803,9 @@ dialogueDeathDistler
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"King Travant..."
+.text	"Rei Travant..."
 	.byte NewLine
-.text	"I beg... your forgiveness..."
+.text	"Eu peço... seu perdão..."
 	.word PauseText
 	.byte $C8
 
@@ -2751,7 +2820,7 @@ dialogueDeathMousa
 	.word portrait_Mousa2
 
 	.byte StartText
-.text	"Glory be... to Grannvale!"
+.text	"Vida longa ao Império de Grannvale!"
 	.word PauseText
 	.byte $C8
 
@@ -2766,11 +2835,15 @@ dialogueDeathJudas
 	.word portrait_Judas2
 
 	.byte StartText
-.text	"Heh... Loptous's return is nigh..."
+.text	"Heh... o retorno de Loptous"
 	.byte NewLine
-.text	"And when our Lord comes..."
+.text	"está próximo..."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"E quando nosso senhor retornar..."
 	.byte NewLine
-.text	"You will all..."
+.text	"Vocês todos irão..."
 	.word PauseText
 	.byte $C8
 
@@ -2785,11 +2858,11 @@ dialogueDeathArion_Ch9
 	.word portrait_Arion3
 
 	.byte StartText
-.text	"How... How could this be?!"
+.text	"Como... como pode ser?!"
 	.byte NewLine
-.text	"I've... I've brought shame on"
+.text	"Eu... eu trouxe vergonha a"
 	.byte NewLine
-.text	"myself... Altena..."
+.text	"mim e minha família... Altena..."
 	.word PauseText
 	.byte $C8
 
@@ -2804,11 +2877,11 @@ dialogueDeathTravant
 	.word portrait_Old_Travant2
 
 	.byte StartText
-.text	"Thracia..."
+.text	"Trácia..."
 	.byte NewLine
 .text	"Nngh..."
 	.byte NewLine
-.text	"My beautiful fatherland..."
+.text	"Minha linda pátria..."
 	.word PauseText
 	.byte $C8
 
@@ -2825,9 +2898,9 @@ dialogueDeathRiedel
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"So this is how the gods"
+.text	"Pelo que eu fiz, acho"
 	.byte NewLine
-.text	"will my fate..."
+.text	"que mereço esse fim..."
 	.word PauseText
 	.byte $C8
 
@@ -2842,11 +2915,11 @@ dialogueDeathHilda_Ch10
 	.word portrait_Hilda3
 
 	.byte StartText
-.text	"Gah... This can't be happening!"
+.text	"Gah... Isso não é possível!"
 	.byte NewLine
-.text	"I can't stay here..."
+.text	"Não posso ficar aqui..."
 	.byte NewLine
-.text	"I must retreat..."
+.text	"Terei que me retirar..."
 	.word PauseText
 	.byte $C8
 
@@ -2861,9 +2934,9 @@ dialogueDeathMorrigan
 	.word portrait_Morrigan2
 
 	.byte StartText
-.text	"Your Excellency..."
+.text	"Vossa Eminência..."
 	.byte NewLine
-.text	"I beg your forgiveness..."
+.text	"Eu suplico seu perdão..."
 	.word PauseText
 	.byte $C8
 
@@ -2878,7 +2951,7 @@ dialogueDeathJulius_Ch10
 	.word portrait_Julius3
 
 	.byte StartText
-.text	"I grow weary of this silly game."
+.text	"Me cansei desse joguinho."
 	.word PauseText
 	.byte $C8
 
@@ -2895,7 +2968,7 @@ dialogueDeathIshtar_Ch10
 	.byte StartText
 .text	"Nng!"
 	.byte NewLine
-.text	"Why..."
+.text	"Porque..."
 	.word PauseText
 	.byte $C8
 
@@ -2910,9 +2983,9 @@ dialogueDeathZagam
 	.word portrait_Zagam
 
 	.byte StartText
-.text	"Archbishop Manfroy..."
+.text	"Arcebispo Manfroy..."
 	.byte NewLine
-.text	"Please... forgive me..."
+.text	"Por favor... me perdoe..."
 	.word PauseText
 	.byte $C8
 
@@ -2929,7 +3002,7 @@ dialogueDeathArvis
 	.byte StartText
 .text	"Deirdre..."
 	.byte NewLine
-.text	"...Julia..."
+.text	"...Júlia..."
 	.word PauseText
 	.byte $C8
 
@@ -2946,7 +3019,7 @@ dialogueDeathRobertus
 	.byte StartText
 .text	"Nngh..."
 	.byte NewLine
-.text	"This... This can't be..."
+.text	"Não... não pode ser..."
 	.word PauseText
 	.byte $C8
 
@@ -2961,7 +3034,7 @@ dialogueDeathBoece
 	.word portrait_Boece
 
 	.byte StartText
-.text	"W... What fearsome foes..."
+.text	"Queimei a língua..."
 	.word PauseText
 	.byte $C8
 
@@ -2976,7 +3049,7 @@ dialogueDeathRodin
 	.word portrait_Rodin1
 
 	.byte StartText
-.text	"Is this... my damnation..."
+.text	"Isso... é o que eu mereço?"
 	.word PauseText
 	.byte $C8
 
@@ -2993,9 +3066,9 @@ dialogueDeathUphir
 	.byte StartText
 .text	"Gah!"
 	.byte NewLine
-.text	"Lord Julius..."
+.text	"Lorde Julius..."
 	.byte NewLine
-.text	"I crave your pardon..."
+.text	"Me perdoe..."
 	.word PauseText
 	.byte $C8
 
@@ -3010,7 +3083,7 @@ dialogueDeathFisher
 	.word portrait_Fisher1
 
 	.byte StartText
-.text	"H-how could this be..."
+.text	"C-como... não pode ser..."
 	.word PauseText
 	.byte $C8
 
@@ -3025,17 +3098,17 @@ dialogueDeathBrian
 	.word portrait_Brian1
 
 	.byte StartText
-.text	"Even with Helswath,"
+.text	"Mesmo com a Helswath,"
 	.byte NewLine
-.text	"I... I fell so easily?"
+.text	"Eu morri tão facilmente?"
 	.byte WaitForA
 
 	.byte ScrollText
-.text	"Could it be..."
+.text	"Será..."
 	.byte NewLine
-.text	"Could I have been wrong..."
+.text	"Será que eu estava"
 	.byte NewLine
-.text	"all along...?"
+.text	"do lado errado...?"
 	.word PauseText
 	.byte $C8
 
@@ -3052,9 +3125,9 @@ dialogueDeathDagan
 	.byte StartText
 .text	"Gah!"
 	.byte NewLine
-.text	"Lord Julius..."
+.text	"Lorde Julius... por favor,"
 	.byte NewLine
-.text	"I crave your pardon..."
+.text	"traga a nossa salvação..."
 	.word PauseText
 	.byte $C8
 
@@ -3069,11 +3142,11 @@ dialogueDeathHilda_End
 	.word portrait_Hilda3
 
 	.byte StartText
-.text	"Gaah! This is a travesty..."
+.text	"Gaah! Não pode ser..."
 	.byte NewLine
-.text	"Ishtar... Avenge me..."
+.text	"Ishtar... Filha..."
 	.byte NewLine
-.text	"You must avenge me..."
+.text	"Me vingue..."
 	.word PauseText
 	.byte $C8
 
@@ -3090,7 +3163,9 @@ dialogueDeathScipio
 	.byte StartText
 .text	"Gah..."
 	.byte NewLine
-.text	"Why..."
+.text	"Pai, me perdoe..."
+  .byte NewLine
+.text "Eu não consegui te vingar..." 
 	.word PauseText
 	.byte $C8
 
@@ -3107,9 +3182,9 @@ dialogueDeathBalan
 	.byte StartText
 .text	"Gah!"
 	.byte NewLine
-.text	"Lord Julius..."
+.text	"Eu morro um mártir..."
 	.byte NewLine
-.text	"I crave your pardon..."
+.text	"Glória à Loptous..."
 	.word PauseText
 	.byte $C8
 
@@ -3124,7 +3199,7 @@ dialogueDeathMeng
 	.word portrait_Meng2
 
 	.byte StartText
-.text	"Luck be with you, Lady Ishtar..."
+.text	"Madame Ishtar, boa sorte..."
 	.word PauseText
 	.byte $C8
 
@@ -3139,11 +3214,11 @@ dialogueDeathMeabel
 	.word portrait_Meabel2
 
 	.byte StartText
-.text	"Lady Ishtar..."
+.text	"Madame Ishtar..."
 	.byte NewLine
-.text	"Please..."
+.text	"Por favor..."
 	.byte NewLine
-.text	"Forgive me..."
+.text	"Me perdoe..."
 	.word PauseText
 	.byte $C8
 
@@ -3158,9 +3233,9 @@ dialogueDeathBreg
 	.word portrait_Breg2
 
 	.byte StartText
-.text	"Lady Ishtar..."
+.text	"Madame Ishtar..."
 	.byte NewLine
-.text	"My sisters..."
+.text	"Irmãs..."
 	.word PauseText
 	.byte $C8
 
@@ -3192,9 +3267,9 @@ dialogueDeathIshtar_End
 	.word portrait_Ishtar4
 
 	.byte StartText
-.text	"Lord Julius..."
+.text	"Lorde Julius..."
 	.byte NewLine
-.text	"Are you pleased?"
+.text	"Está feliz agora?"
 	.word PauseText
 	.byte $C8
 
@@ -3209,9 +3284,9 @@ dialogueDeathManfroy
 	.word portrait_Manfroy2
 
 	.byte StartText
-.text	"Lord Julius..."
+.text	"Lorde Julius..."
 	.byte NewLine
-.text	"The Loptrian Empire... is yours..."
+.text	"Perpetue o novo Império..."
 	.word PauseText
 	.byte $C8
 
@@ -3253,9 +3328,9 @@ dialogueDeathJulius_End_Julia
 	.byte StartText
 .text	"GHARRGH... NAGA!"
 	.byte NewLine
-.text	"YET AGAIN... YOU HAVE BROUGHT"
+.text	"DE NOVO... VOCÊ TROUXE"
 	.byte NewLine
-.text	"RUIN... TO ME..."
+.text	"RUÍNA... A MIM..."
 	.word PauseText
 	.byte $C8
 
@@ -3277,23 +3352,25 @@ dialogueDeathJulius_End_Seliph
 	.byte NewLine
 .text	"SELIPH..."
 	.byte NewLine
-.text	"HEAR ME WELL..."
+.text	"OUÇA BEM..."
 	.word PauseText
 	.byte $60
 
 	.byte ScrollText
-.text	"SO LONG AS AVARICE LURKS"
+.text	"ENQUANTO A GANÂNCIA"
 	.byte NewLine
-.text	"STILL IN THE HEARTS OF MEN..."
+.text	"CONTINUAR HABITANDO"
 	.byte NewLine
-.text	"I WILL RETURN..."
+.text	"OS CORAÇÕES DOS HOMENS..."
+	.byte NewLine
+.text	"EU IREI VOLTAR..."
 	.word PauseText
 	.byte $60
 
 	.byte ScrollText
-.text	"COUNT ON IT..."
+.text	"DE NOVO... E DE NOVO..."
 	.byte NewLine
-.text	"THE HEARTS OF..."
+.text	"E DE NOVO..."
 	.byte NewLine
 .text	"GAAAAHHhhhh..."
 	.word PauseText
@@ -3321,7 +3398,7 @@ dialogueDeathJulia_Enemy
 	.word portrait_Julia
 .text	"Ahh..."
 	.byte NewLine
-.text	"Lord... Seliph..."
+.text	"Lorde... Seliph..."
 	.byte WaitForA
 
 	.byte EndText
@@ -3336,9 +3413,9 @@ dialogueDeathSigurd_Followup
 	.word LoadPortrait
 	.word portrait_Young_Oifey
 	.byte StartText
-.text	"Oh, sire..."
+.text	"Droga!"
 	.byte NewLine
-.text	"We've no hope of victory now..."
+.text	"Sem nosso senhor, não teremos como ganhar..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -3353,7 +3430,7 @@ dialogueDeathSeliph_Followup
 	.byte StartText
 .text	"Seliph..."
 	.byte NewLine
-.text	"There's no hope with you gone..."
+.text	"Sem você, não há esperança..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -3366,11 +3443,11 @@ dialogueHomeCastleCaptured_Sigurd
 	.word LoadPortrait
 	.word portrait_Young_Oifey
 	.byte StartText
-.text	"Dire news, sire!"
+.text	"Más notícias, Senhor!"
 	.byte NewLine
-.text	"The enemy has taken control of our base castle."
+.text	"O inimigo tomou controle de nosso castelo base."
 	.byte NewLine
-.text	"I fear this spells the end for our army..."
+.text	"Temo que será o nosso fim..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -3385,9 +3462,9 @@ dialogueHomeCastleCaptured_Seliph
 	.byte StartText
 .text	"Seliph!"
 	.byte NewLine
-.text	"The enemy's got our base castle!"
+.text	"O inimigo chegou no nosso castelo!"
 	.byte NewLine
-.text	"Sorry, but we've got no hope of victory now..."
+.text	"Desculpa, mas agora acabou pra nós..."
 	.byte WaitForA
 	
 	.byte EndText

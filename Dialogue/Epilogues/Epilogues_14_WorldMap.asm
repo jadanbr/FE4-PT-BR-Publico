@@ -5,19 +5,19 @@ dialogueEpiloguesWMNewThracia_Main_LeifOrAltenaAlive
 	.word TextSpeed
 	.byte 2
 	.byte StartText
-.text	"At long last, Thracia has been unified."
+.text	"Enfim, a Trácia foi unificada."
 	.byte NewLine
 	.word HighlightCountry
 	.byte NewThracia
-.text	"A region once swamped with countless small"
+.text	"Uma região antes composta por diversos"
 	.byte NewLine
-.text	"nations constantly warring among themselves,"
+.text	"pequenos reinos em estado de guerra,"
 	.byte NewLine
-.text	"with the restoration of House Leonster and"
+.text	"agora se encontra em paz, após a restauração"
 	.byte NewLine
-.text	"the downfall of the Thracian kingdom,"
+.text	"da casa de Leonster, e a queda do reino"
 	.byte NewLine
-.text	"the Thracian Peninsula finally knows peace."
+.text	"da Trácia."
 	.byte NewLine
 	.word ClearHighlight
 	.word PauseText
@@ -26,11 +26,9 @@ dialogueEpiloguesWMNewThracia_Main_LeifOrAltenaAlive
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"And as the first ruler of this new Thracia,"
+.text	"E para liderar este novo reino,"
 	.byte NewLine
-.text	"the people ardently desired for the throne"
-	.byte NewLine
-.text	"to be taken by "
+.text	"o povo ardentemente queria "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
@@ -56,9 +54,9 @@ dialogueEpiloguesWMNewThracia_Main_LeifOrAltenaAlive
 	.word RunASM
 	.long $8DB8ED
 
-.text	"The Thracian peninsula thus gave rise to"
+.text	"E assim nasceu um novo reino na península"
 	.byte NewLine
-.text	"a new realm: the Kingdom of New Thracia."
+.text	"da Trácia: O Reino da Nova Trácia."
 	.byte NewLine
 	
 	.byte EndText
@@ -71,30 +69,30 @@ dialogueEpiloguesWMNewThracia_Main_LeifAndAltenaDead
 	.byte StartText
 	.word RunASM
 	.long $514B00
-.text	"The Thracia Peninsula has lost both of its"
+.text	"Infelizmente, a península da Trácia perdeu"
 	.byte NewLine
 	.word HighlightCountry
 	.byte NewThracia
-.text	"rightful heirs, Lord Leif and Lady Altena,"
+.text	"ambos os seus herdeiros, Leif e Altena, e com"
 	.byte NewLine
-.text	"and with them died any hope of unification."
+.text	"eles, a esperança da unificação."
 	.byte NewLine
 	.word ClearHighlight
 	.word PauseText
 	.byte $0A
-.text	"Instead, the people turned to Seliph"
+.text	"Por isso, o povo se voltou para Seliph"
 	.byte NewLine
-.text	"for their salvation, wishing to"
+.text	"para se salvar, pedindo uma união com"
 	.byte NewLine
-.text	"join with the Kingdom of Grannvale."
+.text	"o Reino de Grannvale. Sendo Seliph o"
 	.byte NewLine
-.text	"Seliph, as the nephew of Queen Ethlyn"
+.text	"sobrinho da Rainha Ethlyn, e o herói"
 	.byte NewLine
-.text	"and as the peninsula's liberating hero,"
+.text	"libertador de seu território, ele possuía"
 	.byte NewLine
-.text	"had earned the trust of its people."
+.text	"a confiança do povo. Então Seliph deu aos"
 	.byte NewLine
-.text	"Seliph granted the Thracians their wish,"
+.text	"trácios o que eles desejavam,"
 	.byte NewLine
 	
 	.word RunASM
@@ -116,11 +114,11 @@ dialogueEpiloguesWMNewThracia_Main_LeifAndAltenaDead
 	.word RunASM
 	.long $8DBAEB
 
-.text	"and so the Thracian peninsula became"
+.text	"e então a península da Trácia se tornou"
 	.byte NewLine
-.text	"Grannvale's Royal Province of Thracia,"
+.text	"a Província Real da Trácia, e então foi"
 	.byte NewLine
-.text	"and was blessed with an era of peace."
+.text	"abençoada com uma era de paz."
 	.byte NewLine
 	
 	.byte EndText
@@ -129,7 +127,7 @@ dialogueEpiloguesWMNewThracia_Main_LeifAndAltenaDead
 dialogueEpiloguesWMNewThracia_StartRollcall_LeifAndAltenaDead
 
 	.byte StartText
-.text	"entrusting the fate of their land to"
+.text	"entregando o destino de sua terra para"
 
 	.byte EndText
 
@@ -157,9 +155,9 @@ dialogueEpiloguesWMNewThracia_Pause
 dialogueEpiloguesWMNewThracia_Ruler
 
 	.byte StartText
-.text	"And so, "
+.text	"E então, "
 	.word PrintStoredNameA
-.text	" worked together with"
+.text	" trabalhou junto com"
 
 	.byte EndText
 
@@ -174,7 +172,7 @@ dialogueEpiloguesWMNewThracia_Ruler_Wife
 	.byte $68
 	.byte $3C
 	.word PrintStoredNameA
-.text	", Leif's wife,"
+.text	", a esposa dele,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -196,7 +194,7 @@ dialogueEpiloguesWMNewThracia_Finn
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"Finn, the lance knight,"
+.text	"Finn, o cavaleiro,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -216,7 +214,7 @@ dialogueEpiloguesWMNewThracia_Hannibal
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"the great General Hannibal,"
+.text	"o grande General Aníbal,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -237,7 +235,7 @@ dialogueEpiloguesWMNewThracia_CoirpreCharlot
 	.byte $98
 	.byte $1C
 	.word PrintStoredNameA
-.text	", the holy youth,"
+.text	", o jovem religioso,"
 	.word RunASM
 	.long $8DBA53
 	.word PauseText
@@ -262,7 +260,7 @@ dialogueEpiloguesWMNewThracia_CoirpreCharlot_Wife
 	.byte $68
 	.byte $3C
 	.word PrintStoredNameA
-.text	", his wife,"
+.text	", sua esposa,"
 
 	.byte EndText
 
@@ -276,7 +274,7 @@ dialogueEpiloguesWMNewThracia_Asaello
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"Asaello, the Connacht Hitman,"
+.text	"Asaello, o Matador de Connacht,"
 	.word RunASM
 	.long $8DBAA1
 	.word PauseText
@@ -301,7 +299,7 @@ dialogueEpiloguesWMNewThracia_Asaello_Wife
 	.byte $3C
 	.byte NewLine
 	.word PrintStoredNameA
-.text	", his wife,"
+.text	", a esposa dele,"
 
 	.byte EndText
 
@@ -315,7 +313,7 @@ dialogueEpiloguesWMNewThracia_Daisy
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"Daisy, the repentant thief,"
+.text	"Daisy, a ladra penitente,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -330,8 +328,9 @@ dialogueEpiloguesWMNewThracia_EndRollcall_LeifOrAltenaAlive
 
 	.byte StartText
 	.byte NewLine
-.text	"to build a new nation for Thracia’s people."
+.text	"para construir uma nova nação para"
 	.byte NewLine
+.text	"o povo da Trácia."
 
 	.byte EndText
 
@@ -348,9 +347,12 @@ dialogueEpiloguesWMNewThracia_Thracia_AltenaAlive
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"At Leif's behest, the old Thracia's former"
 	.byte NewLine
-.text	"lands were entrusted to his sister, Altena."
+.text	"Seguindo a vontade de Leif, as terras da"
+	.byte NewLine
+.text	"antiga Trácia passaram"
+	.byte NewLine
+.text	"para sua irmã, Altena."
 	.word PauseText
 	.byte $14
 	.word ClearPortraitWM
@@ -358,11 +360,11 @@ dialogueEpiloguesWMNewThracia_Thracia_AltenaAlive
 	.word PauseText
 	.byte $28
 	.byte NewLine
-.text	"Legends tell of Altena's love for and"
+.text	"Reza a lenda que Altena amava de verdade"
 	.byte NewLine
-.text	"dedication to the very soil that raised her,"
+.text	"a terra em que ela cresceu, e"
 	.byte NewLine
-.text	"and this love never died so long as she lived."
+.text	"que esse amor jamais se perdeu."
 	.byte NewLine
 
 	.byte EndText
@@ -375,20 +377,20 @@ dialogueEpiloguesWMIsaach_Main_ShannanOrScathachOrLarceiAlive
 	.word TextSpeed
 	.byte 2
 	.byte StartText
-.text	"The Kingdom of Isaach may have found its"
+.text	"O Reino de Isaach foi o primeiro a ser"
 	.byte NewLine
 	.word HighlightCountry
 	.byte Isaach
-.text	"freedom from Imperial abuse the quickest,"
+.text	"libertado do domínio imperial, mas o povo"
 	.byte NewLine
-.text	"yet its people could not rest easy while"
+.text	"seguiu apreensivo enquanto o seu herdeiro"
 	.byte NewLine
-.text	"its heir was absent fighting in the war."
+.text	"estava ausente."
 	.byte NewLine
 	.word ClearHighlight
-.text	"This changed with the final victory of"
+.text	"Essa apreensão acabou somente após o fim"
 	.byte NewLine
-.text	"the liberation army,"
+.text	"da guerra, quando"
 	.byte NewLine
 	.word PauseText
 	.byte $14
@@ -396,17 +398,20 @@ dialogueEpiloguesWMIsaach_Main_ShannanOrScathachOrLarceiAlive
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"and when "
 	.word PrintStoredNameA
-.text	" returned from battle, the"
+.text	" voltou para assumir"
+	.byte NewLine
+.text	"o trono, sendo recebido pelo"
 	.byte NewLine
 	.word RunASM
 	.long $8DBC6F
-.text	"people greeted their liege with raucous cheers."
+.text	"povo à gritos e aplausos."
 	.byte NewLine
-.text	"And so, with "
+.text	"E assim, com "
 	.word PrintStoredNameA
-.text	" assuming the crown,"
+.text	" no trono,"
+	.byte NewLine
+.text	"com o apoio de"
 	.word RunASM
 	.long $8DBC8C
 	.word RunASM
@@ -420,25 +425,23 @@ dialogueEpiloguesWMIsaach_Main_ShannanOrScathachOrLarceiAlive
 	.word RunASM
 	.long $8DBE5A
 	.byte NewLine
-.text	"and others by his side to restore the land,"
+.text	"e mais outros, procurou"
 	.byte NewLine
-.text	"they also strove for a new age of diplomacy"
+.text	"levar Isaach à uma nova era de diplomacia"
 	.byte NewLine
-.text	"and trade, seeking to build a wealthy nation."
+.text	"e comércio, para trazer riqueza a sua nação."
 	.byte NewLine
-.text	"Isaach was once reviled by others as"
+.text	"Um dia ela foi denegrida, considerada apenas"
 	.byte NewLine
-.text	"little more than a barbarous eastern land,"
+.text	"um reino bárbaro do oriente, mas um dia,"
 	.byte NewLine
-.text	"but under the reign of "
+.text	"a Isaach de "
 	.word PrintStoredNameA
-.text	","
+.text	" "
 	.byte NewLine
-.text	"Isaach will grow like never before"
+.text	"se tornará um reino poderoso,"
 	.byte NewLine
-.text	"and shall one day be reborn as a mighty"
-	.byte NewLine
-.text	"nation, every bit the equal of other realms."
+.text	"em paridade com os outros."
 	.byte NewLine
 
 	.byte EndText
@@ -455,24 +458,26 @@ dialogueEpiloguesWMIsaach_Main_ShannanAndScathachAndLarceiDead
 	.word RunASM
 	.long $8DBC52
 	.word ClearHighlight
-.text	"The loss of the rightful heirs to its throne"
+.text	"A perda de todos os herdeiros do trono"
 	.byte NewLine
-.text	"has plunged Isaach into grief and despair."
+.text	"causou um enorme desespero"
+	.byte NewLine
+.text	"ao povo de Isaach."
 	.byte NewLine
 	.byte NewLine
-.text	"Even then, Seliph still considered Isaach"
+.text	"Seliph ainda considerava Isaach como sua"
 	.byte NewLine
-.text	"to be his true home, and he so found"
+.text	"verdadeira terra natal, então ele se"
 	.byte NewLine
-.text	"its people's sorrow to be unbearable."
+.text	"entristeceu ao ver a dor de seu povo."
 	.byte NewLine
-.text	"The people implored Seliph"
+.text	"Os Isaachianos imploraram para que Seliph"
 	.byte NewLine
-.text	"for something to be done to save"
+.text	"fizesse algo para impedir que Isaach caísse"
 	.byte NewLine
-.text	"Isaach from abandonment and ruin."
+.text	"em abandono e ruína."
 	.byte NewLine
-.text	"Aided by, among others,"
+.text	"Apoiado por, dentre outros,"
 	.word RunASM
 	.long $8DBCB5
 	.word RunASM
@@ -484,21 +489,17 @@ dialogueEpiloguesWMIsaach_Main_ShannanAndScathachAndLarceiDead
 	.word RunASM
 	.long $8DBDDD
 	.byte NewLine
-.text	"Seliph assumed control of Isaach."
+.text	"Seliph assumiu o controle de Isaach."
 	.byte NewLine
-.text	"He set to work forging a good government"
+.text	"Ele procurou trazer um bom governo para"
 	.byte NewLine
-.text	"for this impoverished land, which someday"
+.text	"a terra empobrecida, que um dia vai se"
 	.byte NewLine
-.text	"will amass incredible wealth and become"
+.text	"tornar um dos grandes centros de Jugdral."
 	.byte NewLine
-.text	"one of Jugdral's most central powers."
+.text	"Então, o povo de Isaach decidiu se"
 	.byte NewLine
-.text	"And so, together with Seliph,"
-	.byte NewLine
-.text	"the people of Isaach chose to become"
-	.byte NewLine
-.text	"one with the new Kingdom of Grannvale."
+.text	"juntar à Grannvale do Rei Seliph."
 	.byte NewLine
 
 	.byte EndText
@@ -516,7 +517,7 @@ dialogueEpiloguesWMIsaach_Ruler
 dialogueEpiloguesWMIsaach_Rulers
 
 	.byte StartText
-.text	"Shannan... Scáthach... And Larcei..."
+.text	"Shannan... Scáthach... e Larcei..."
 	.byte NewLine
 
 	.byte EndText
@@ -544,7 +545,7 @@ dialogueEpiloguesWMIsaach_Ruler_Wife
 	.byte $68
 	.byte $3C
 	.word PrintStoredNameA
-.text	", Shannan's wife,"
+.text	", a esposa dele,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -567,7 +568,7 @@ dialogueEpiloguesWMIsaach_Dalvin
 	.byte $98
 	.byte $1C
 	.word PrintStoredNameA
-.text	", the dutiful swordsman,"
+.text	", o espadachim leal,"
 	.word RunASM
 	.long $8DBD08
 	.word PauseText
@@ -592,10 +593,7 @@ dialogueEpiloguesWMIsaach_Dalvin_Wife
 	.byte $68
 	.byte $3C
 	.word PrintStoredNameA
-.text	", "
-	.word PrintBranchingName
-	.word name_ScathachDalvin
-.text	"'s wife"
+.text	", sua esposa,"
 
 	.byte EndText
 
@@ -610,7 +608,7 @@ dialogueEpiloguesWMIsaach_Creidne
 	.byte $98
 	.byte $1C
 	.word PrintStoredNameA
-.text	", the fierce swordswoman,"
+.text	", a espadachim feroz,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -630,7 +628,7 @@ dialogueEpiloguesWMIsaach_Deimne
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"Deimne, the aspiring archer,"
+.text	"Deimne, o jovem arqueiro,"
 	.word RunASM
 	.long $8DBD93
 	.word PauseText
@@ -655,7 +653,7 @@ dialogueEpiloguesWMIsaach_Deimne_Wife
 	.byte $68
 	.byte $3C
 	.word PrintStoredNameA
-.text	", Deimne's wife,"
+.text	", sua esposa,"
 
 	.byte EndText
 
@@ -669,7 +667,7 @@ dialogueEpiloguesWMIsaach_Muirne
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"Muirne, the optimistic cleric,"
+.text	"Muirne, a clériga otimista,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -702,14 +700,16 @@ dialogueEpiloguesWMAgustria_Main1
 	.byte 2
 	
 	.byte StartText	
-.text	"The aftermath of Agustria's civil war"
+.text	"O fim da anterior guerra civil de Agustria"
 	.byte NewLine
 	
 	.word HighlightCountry
 	.byte Agustria
-.text	"left it to be annexed by Grannvale,"
+.text	"resultou em sua anexação por Grannvale,"
 	.byte NewLine
-.text	"and so the land fell to harsh tyranny."
+.text	"e o país sofreu com a"
+	.byte NewLine
+.text	"tirania do Império."
 	.byte NewLine
 	
 	.word ClearHighlight
@@ -730,13 +730,13 @@ dialogueEpiloguesWMAgustria_Main1
 dialogueEpiloguesWMAgustria_Main2_AresOrDiarmuidOrNannaAlive
 
 	.byte StartText
-.text	"After years of abuse, its people dearly"
+.text	"Depois de anos de sofrimento, o povo queria"
 	.byte NewLine
-.text	"wished for the rise of a unified nation,"
+.text	"uma reforma: uma Agustria unida, liderada"
 	.byte NewLine
-.text	"one led by House Nordion,"
+.text	"pelos filhos da Casa de Nordion, descendentes"
 	.byte NewLine
-.text	"heirs of the legendary hero Eldigan."
+.text	"do grande herói Eldigan."
 	.byte NewLine
 	.word PauseText
 	.byte $14
@@ -744,19 +744,19 @@ dialogueEpiloguesWMAgustria_Main2_AresOrDiarmuidOrNannaAlive
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"And so the people eagerly welcomed"
+.text	"Por isso, o povo ficou muito feliz"
 	.byte NewLine
-.text	"the homecoming of "
+.text	"com a chegada de seu herdeiro, "
 	.word PrintStoredNameA
 .text	"."
 	.word RunASM
 	.long $8DBF75
 	.byte NewLine
-.text	"In "
+.text	"Em "
 	.word PrintStoredNameA
-.text	", the people saw the very same"
+.text	", o povo via as mesmas qualidades"
 	.byte NewLine
-.text	"aura Eldigan himself had borne in his youth."
+.text	"que Eldigan possuía em sua juventude."
 	.word RunASM
 	.long $8DBF92
 	.word RunASM
@@ -770,13 +770,13 @@ dialogueEpiloguesWMAgustria_Main2_AresOrDiarmuidOrNannaAlive
 	.word RunASM
 	.long $8DC128
 	.byte NewLine
-.text	"Under the reign of "
+.text	"No reinado de "
 	.word PrintStoredNameA
-.text	", Agustria will"
+.text	", Agustria logo se torna um"
 	.byte NewLine
-.text	"soon become Grannvale's most crucial partner"
+.text	"parceiro crucial de Grannvale, avançando"
 	.byte NewLine
-.text	"and will grow to be greater than ever before."
+.text	"a um novo patamar em sua história."
 	.byte NewLine
 
 	.byte EndText
@@ -785,35 +785,35 @@ dialogueEpiloguesWMAgustria_Main2_AresOrDiarmuidOrNannaAlive
 dialogueEpiloguesWMAgustria_Main2_AresAndDiarmuidAndNannaDead
 
 	.byte StartText
-.text	"As such, the liberators' victory in Belhalla"
+.text	"Por isso, a vitória dos libertadores em"
 	.byte NewLine
-.text	"was met in Agustria with much rejoicing,"
+.text	"Belhalla foi motivo de alegria em Agustria,"
 	.byte NewLine
-.text	"and they dearly wished for nothing more"
+.text	"e o seu povo desejava somente uma coisa:"
 	.byte NewLine
-.text	"than to come under King Seliph's rule."
+.text	"ficar sobre o governo do Rei Seliph."
 	.byte NewLine
-.text	"Even after all these years, the people"
+.text	"Mesmo depois de todos esses anos,"
 	.byte NewLine
-.text	"still remembered well the kind rule"
+.text	"o povo ainda lembra do governo daquele"
 	.byte NewLine
-.text	"of a man who was their conqueror"
+.text	"que era seu conquistador, mas era também"
 	.byte NewLine
-.text	"only in name: Lord Sigurd."
+.text	"um homem justo: Lorde Sigurd."
 	.byte NewLine
-.text	"Agustria's citizens thus believed that"
+.text	"Os cidadãos de Agustria acreditavam que"
 	.byte NewLine
-.text	"to entrust the great Sigurd's son with"
+.text	"confiar o destino de sua terra ao seu filho"
 	.byte NewLine
-.text	"their land's fate would be a wise decision."
+.text	"seria uma decisão sábia. Assim surge"
 	.byte NewLine
-.text	"And so the Royal Province of Agustria, a"
+.text	"a Província Real da Agustria, um território"
 	.byte NewLine
-.text	"territory of the United Kingdom of Grannvale"
+.text	"integrante do Reino de Grannvale, sobre o"
 	.byte NewLine
-.text	"under the rule of King Seliph, shall soon"
+.text	"governo do Rei Seliph, onde logo se iniciará"
 	.byte NewLine
-.text	"welcome an era of great peace."
+.text	"uma era de paz."
 	.byte NewLine
 
 	.byte EndText
@@ -823,7 +823,7 @@ dialogueEpiloguesWMAgustria_Ruler
 
 	.byte NewLine
 	.word PrintStoredNameA
-.text	" was accompanied home by"
+.text	" foi para casa junto com"
 
 	.byte EndText
 
@@ -838,7 +838,7 @@ dialogueEpiloguesWMAgustria_Ruler_Wife
 	.byte $68
 	.byte $3C
 	.word PrintStoredNameA
-.text	", his wife,"
+.text	", sua esposa,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -861,7 +861,7 @@ dialogueEpiloguesWMAgustria_LeneLaylea
 	.byte $98
 	.byte $1C
 	.word PrintStoredNameA
-.text	", the resolute dancer,"
+.text	", a dançarina dedicada,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -882,7 +882,7 @@ dialogueEpiloguesWMAgustria_DiarmuidTristan
 	.byte $98
 	.byte $1C
 	.word PrintStoredNameA
-.text	", the charming knight,"
+.text	", o charmoso cavaleiro,"
 	.word RunASM
 	.long $8DC0C2
 	.word PauseText
@@ -907,10 +907,7 @@ dialogueEpiloguesWMAgustria_DiarmuidTristan_Wife
 	.byte $68
 	.byte $3C
 	.word PrintStoredNameA
-.text	", "
-	.word PrintBranchingName
-	.word name_DiarmuidTristan
-.text	"'s wife,"
+.text	", a esposa dele"
 
 	.byte EndText
 
@@ -925,7 +922,7 @@ dialogueEpiloguesWMAgustria_NannaJeanne
 	.byte $98
 	.byte $1C
 	.word PrintStoredNameA
-.text	", the warrior maiden,"
+.text	", a donzela guerreira,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -940,7 +937,9 @@ dialogueEpiloguesWMAgustria_EndRollcall
 
 	.byte StartText
 	.byte NewLine
-.text	"and worked with them to unite Agustria."
+.text	"juntos, eles trabalharam para"
+	.byte NewLine
+.text	"restaurar Agustria."
 
 	.byte EndText
 
@@ -953,22 +952,22 @@ dialogueEpiloguesWMVerdane_Main1
 	.byte 2
 	
 	.byte StartText
-.text	"Even at its peak, the Empire had"
+.text	"Mesmo em seu ápice, o Império ignorou"
 	.byte NewLine
 	.word HighlightCountry
 	.byte Verdane
-.text	"shunned and ignored Verdane. Uninterested"
+.text	"Verdane. Desinteressado em concretizar"
 	.byte NewLine
-.text	"in seizing the region within its iron fist,"
+.text	"seu domínio sobre a região, ele abandonou"
 	.byte NewLine
-.text	"it completely abandoned the old kingdom."
+.text	"completamente o território do antigo reino."
 	.byte NewLine
 	.word ClearHighlight
-.text	"Instead, Verdane was left to the mercy of"
+.text	"Em seu lugar, diversos clãs lutavam pelo"
 	.byte NewLine
-.text	"constantly warring clans, and brigands ran"
+.text	"comando, e bandidos corriam soltos pela"
 	.byte NewLine
-.text	"rampant. Nobody had any hope of peace."
+.text	"terra. Ninguém estava à salvo."
 	.byte NewLine
 
 	.word RunASM
@@ -976,15 +975,17 @@ dialogueEpiloguesWMVerdane_Main1
 
 	.word RunASM
 	.long $8DC1CF
-.text	"Verdane is a land of natural beauty."
+.text	"Verdane é uma terra belíssima."
 	.byte NewLine
-.text	"Its verdant forests are Sigurd's prayers..."
+.text	"Suas florestas verdejantes"
 	.byte NewLine
-.text	"Its sparkling, crystal-clear water"
+.text	"são as orações de Sigurd..."
 	.byte NewLine
-.text	"is Deirdre's tears... And these are its"
+.text	"A água cristalina de seus lagos são"
 	.byte NewLine
-.text	"people's emblems of hope and faith..."
+.text	"as lágrimas de Deirdre... esses são os"
+	.byte NewLine
+.text	"símbolos da fé e da esperança de seu povo..."
 	.byte NewLine
 	.byte ScrollText
 
@@ -993,7 +994,9 @@ dialogueEpiloguesWMVerdane_Main1
 
 dialogueEpiloguesWMVerdane_Main2_JamkesChildrenAlive
 
-.text	"Into the fray came"
+.text	"Em meio ao caos chegou o herdeiro"
+	.byte NewLine
+.text	"de Jamke, e do trono de Verdane:"
 	.byte NewLine
 	.word PauseText
 	.byte $14
@@ -1002,35 +1005,35 @@ dialogueEpiloguesWMVerdane_Main2_JamkesChildrenAlive
 	.byte $98
 	.byte $1C
 	.word PrintStoredNameA
-.text	", the child and heir of"
-	.byte NewLine
-.text	"the heroic Prince Jamke,"
+.text	","
 	.word RunASM
 	.long $8DC20D
 	.word RunASM
 	.long $8DC228
 	.word RunASM
 	.long $8DC24D
-.text	"whose long-awaited return rallied the people's"
+.text	"cujo retorno à muito aguardado animou o"
 	.byte NewLine
-.text	"spirits. Youths flocked to join this new battle."
+.text	"povo. Muitos e muitos jovens se juntaram"
 	.byte NewLine
-.text	"Within a year, the fight for Verdane's"
+.text	"à seu exército, e dentro de um ano,"
 	.byte NewLine
-.text	"reunification had come to an end, and"
+.text	"a guerra de reunificação de Verdane já"
+	.byte NewLine
+.text	"tinha acabado, e assim"
 	.byte NewLine
 	.word PrintStoredNameA
-.text	" took their rightful throne."
+.text	" assumiu o trono."
 	.byte NewLine
-.text	"With the support of Grannvale and"
+.text	"Com o apoio de Grannvale e de"
 	.byte NewLine
 .text	"Agustria, "
 	.word PrintStoredNameA
-.text	" worked ceaselessly"
+.text	" trabalhou incessantemente para"
 	.byte NewLine
-.text	"to rebuild the peaceful Verdane their"
+.text	"reconstruir a paz que um dia seu"
 	.byte NewLine
-.text	"grandfather, Batu, had once forged."
+.text	"avô, Batu, forjou."
 	.byte NewLine
 
 	.byte EndText
@@ -1041,31 +1044,33 @@ dialogueEpiloguesWMVerdane_Main2_JamkesChildrenDead
 	.word TextSpeed
 	.byte 2
 	.byte StartText
-.text	"With the holy war's end, Seliph led an"
+.text	"Com a guerra chegando à seu fim, Seliph"
 	.byte NewLine
-.text	"expedition to restore peace to Verdane."
+.text	"organiza uma expedição"
 	.byte NewLine
-.text	"The people were overjoyed to, at last,"
+.text	"para pacificar Verdane."
 	.byte NewLine
-.text	"be saved by Seliph, the son of Deirdre."
+.text	"O povo ficou feliz de finalmente ser salvo,"
 	.byte NewLine
-.text	"Deirdre had long since passed into"
+.text	"ainda mais nas mãos do filho de Deirdre."
 	.byte NewLine
-.text	"the legends and folklore of Verdane,"
+.text	"Deirdre havia se tornado uma lenda"
 	.byte NewLine
-.text	"now revered there as a saint,"
+.text	"no folclore de Verdane, e agora,"
 	.byte NewLine
-.text	"and now Verdane's people clamored to"
+.text	"era venerada como Santa Deirdre."
 	.byte NewLine
-.text	"come under the rule of Deirdre's son."
+.text	"O povo então clamou para Seliph para que"
 	.byte NewLine
-.text	"Seliph, too, held a deep love for"
+.text	"ele assumisse o comando do país."
 	.byte NewLine
-.text	"the land of his mother's youth,"
+.text	"Seliph aceitou, pois também amava a"
 	.byte NewLine
-.text	"and so Verdane joined Grannvale's lands,"
+.text	"terra em que sua mãe cresceu, e assim"
 	.byte NewLine
-.text	"becoming the Royal Province of Verdane."
+.text	"Verdane se tornou parte de Grannvale, como"
+	.byte NewLine
+.text	"a Província Real de Verdane."
 	.byte NewLine
 
 	.byte EndText
@@ -1093,7 +1098,7 @@ dialogueEpiloguesWMVerdane_Ruler_Wife
 	.byte 4
 	.byte $68
 	.byte $3C
-.text	"and his wife "
+.text	"Junto com sua esposa, "
 	.word PrintStoredNameA
 .text	","
 	.word PauseText
@@ -1116,7 +1121,7 @@ dialogueEpiloguesWMSilesse_Main_SomeoneAlive
 	.word TextSpeed
 	.byte 2
 	.byte StartText
-.text	"Silesse had long dwelt under the empire's"
+.text	"Silesse estava a muito oprimida pela"
 	.byte NewLine
 	.word HighlightCountry
 	.byte Silesse
@@ -1126,11 +1131,12 @@ dialogueEpiloguesWMSilesse_Main_SomeoneAlive
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"cruel hand, and so "
-	.word PrintStoredNameA
-.text	" devoted"
+.text	"mão cruel do Império, por isso"
 	.byte NewLine
-.text	"their life to rebuilding the ruined land."
+	.word PrintStoredNameA
+.text	" pôs a reconstrução de seu"
+	.byte NewLine
+.text	"país em primeiro lugar."
 	.byte NewLine
 	.word RunASM
 	.long $8DB76C
@@ -1151,13 +1157,13 @@ dialogueEpiloguesWMSilesse_Main_SomeoneAlive
 	.long $8DB853
 	.word RunASM
 	.long $8DB708
-.text	"A breathtaking land... A peaceful people..."
+.text	"Uma terra linda... um povo pacífico..."
 	.byte NewLine
-.text	"Lewyn had devoted his life to protecting"
+.text	"Lewyn dedicou sua vida à proteção do"
 	.byte NewLine
-.text	"the Kingdom of Silesse, and at long last,"
+.text	"Reino de Silesse, e enfim, suas décadas"
 	.byte NewLine
-.text	"his decades of work came to fruition."
+.text	"de trabalho deram frutos."
 	.byte NewLine
 
 	.byte EndText
@@ -1168,42 +1174,46 @@ dialogueEpiloguesWMSilesse_Main_NobodyAlive
 	.word TextSpeed
 	.byte 2
 	.byte StartText
-.text	"Silesse had long dwelt under the empire's"
+.text	"Silesse por muito tempo sofreu sob"
 	.byte NewLine
 	.word HighlightCountry
 	.byte Silesse
-.text	"cruel hand, provoking revolt after revolt,"
+.text	"a cruel mão do Império, e por isso"
 	.byte NewLine
-.text	"and with the victory of the crusaders"
+.text	"houve muitas revoltas, todas falhas."
 	.byte NewLine
-.text	"the entire kingdom was free at long last."
+.text	"Mas, com a vitória dos cruzados em Belhalla,"
 	.byte NewLine
-.text	"But nobody remained to take the throne,"
+.text	"O reino ficou definitivamente livre."
 	.byte NewLine
-.text	"and so the people sought to become"
+.text	"Mas infelizmente, não havia sobrado"
 	.byte NewLine
-.text	"part of Grannvale under Seliph's rule."
+.text	"ninguém para assumir o trono, por isso,"
 	.byte NewLine
-.text	"A breathtaking land... A peaceful people..."
+.text	"povo procurou amparo no Rei Seliph."
 	.byte NewLine
-.text	"Seliph loved Silesse as his father once had,"
+.text	"Uma terra linda... um povo pacífico..."
 	.byte NewLine
-.text	"and devoted himself to restoring the land."
+.text	"Seliph amou Silesse como um dia seu pai"
+	.byte NewLine
+.text	"a amou, e se dedicou"
+	.byte NewLine
+.text	"na reconstrução de seu território."
 	.byte NewLine
 	.word ClearHighlight
 	.word PauseText
 	.byte $0A
-.text	"This, he felt, was the least he"
+.text	"Ele sentia que isso era o minímo que"
 	.byte NewLine
-.text	"could do to honor the last wishes of"
+.text	"ele podia fazer para honrar os desejos do"
 	.byte NewLine
-.text	"Prince Lewyn, the man who shared"
+.text	"Príncipe Lewyn, o homem que sofreu junto"
 	.byte NewLine
-.text	"his father's tragic fate, and for"
+.text	"com seu pai, e por Forseti, um guerreiro"
 	.byte NewLine
-.text	"Forseti, the warrior of a distant land"
+.text	"de uma terra distante, mas que permaneceu"
 	.byte NewLine
-.text	"who nonetheless stayed in this world."
+.text	"nesse mundo."
 	.byte NewLine
 
 	.byte EndText
@@ -1212,7 +1222,7 @@ dialogueEpiloguesWMSilesse_Main_NobodyAlive
 dialogueEpiloguesWMSilesse_StartRollcall
 
 	.byte StartText
-.text	"Assisting them was"
+.text	"A seu lado estavam"
 	.byte NewLine
 
 	.byte EndText
@@ -1241,7 +1251,7 @@ dialogueEpiloguesWMSilesse_Ruler_Wife
 	.byte $3C
 	.byte StartText
 	.word PrintStoredNameA
-.text	", his wife,"
+.text	", sua esposa,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -1263,7 +1273,7 @@ dialogueEpiloguesWMSilesse_Ruler_Sister
 	.byte 2
 	.byte $98
 	.byte $1C
-.text	"Princess "
+.text	"Princesa "
 	.word PrintStoredNameA
 .text	","
 	.word PauseText
@@ -1287,7 +1297,7 @@ dialogueEpiloguesWMSilesse_CedHawk
 	.byte $1C
 	.byte StartText
 	.word PrintStoredNameA
-.text	", the heroic wind mage,"
+.text	", o heróico sábio,"
 	.word RunASM
 	.long $8DB82A
 	.word PauseText
@@ -1313,10 +1323,7 @@ dialogueEpiloguesWMSilesse_CedHawk_Wife
 	.byte $3C
 	.byte StartText
 	.word PrintStoredNameA
-.text	", "
-	.word PrintBranchingName
-	.word name_CedHawk
-.text	"'s wife,"
+.text	", sua esposa,"
 
 	.byte EndText
 
@@ -1331,7 +1338,7 @@ dialogueEpiloguesWMSilesse_FeeHermina
 	.byte $98
 	.byte $1C
 	.word PrintStoredNameA
-.text	", the pegasus knight,"
+.text	", a cavaleira de pégaso,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -1346,7 +1353,7 @@ dialogueEpiloguesWMSilesse_EndRollcall
 
 	.byte StartText
 	.byte NewLine
-.text	"all bearing hope-filled smiles."
+.text	"todos trazendo sorrisos esperançosos."
 	.byte NewLine
 
 	.byte EndText
@@ -1359,7 +1366,7 @@ dialogueEpiloguesWMGrannvale_StartAndEndRollcall
 	.word TextSpeed
 	.byte 2
 	.byte StartText
-.text	"And in Grannvale itself,"
+.text	"E em Grannvale,"
 	.word RunASM
 	.long $8DC403
 	.word RunASM
@@ -1394,7 +1401,7 @@ dialogueEpiloguesWMGrannvale_StartAndEndRollcall
 	.byte High
 	.byte NewLine
 	.byte StartText
-.text	"and others all returned to their lands."
+.text	"e mais outros retornaram à suas terras."
 	.byte NewLine
 
 	.byte EndText
@@ -1415,9 +1422,8 @@ dialogueEpiloguesWMGrannvale_Velthomer_Ruler
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"Velthomer's new lord, "
 	.word PrintStoredNameA
-.text	","
+.text	", liderando Velthomer,"
 	.word RunASM
 	.long $8DC434
 	.word PauseText
@@ -1442,7 +1448,7 @@ dialogueEpiloguesWMGrannvale_Velthomer_Ruler_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"and his wife, "
+.text	"junto de sua esposa, "
 	.word PrintStoredNameA
 .text	","
 
@@ -1459,7 +1465,7 @@ dialogueEpiloguesWMGrannvale_Velthomer_Ruler_Sister
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"and his sister, "
+.text	"e sua irmã, "
 	.word PrintStoredNameA
 .text	","
 	.word PauseText
@@ -1489,9 +1495,7 @@ dialogueEpiloguesWMGrannvale_Friege_Ruler
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"Friege's new lord, "
-	.word PrintStoredNameA
-.text	","
+.text	", liderando Friege,"
 	.word RunASM
 	.long $8DC4F0
 	.word PauseText
@@ -1516,7 +1520,7 @@ dialogueEpiloguesWMGrannvale_Friege_Ruler_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"and his wife, "
+.text	"junto de sua esposa, "
 	.word PrintStoredNameA
 .text	","
 
@@ -1533,7 +1537,7 @@ dialogueEpiloguesWMGrannvale_Friege_Ruler_Sister
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"and his sister, "
+.text	"e sua irmã, "
 	.word PrintStoredNameA
 .text	","
 	.word PauseText
@@ -1563,9 +1567,7 @@ dialogueEpiloguesWMGrannvale_Edda_Ruler
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"Edda's new lord, "
-	.word PrintStoredNameA
-.text	","
+.text	", liderando Edda,"
 	.word RunASM
 	.long $8DC591
 	.word PauseText
@@ -1590,7 +1592,7 @@ dialogueEpiloguesWMGrannvale_Edda_Ruler_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"and his wife, "
+.text	"junto de sua esposa, "
 	.word PrintStoredNameA
 .text	","
 
@@ -1607,7 +1609,7 @@ dialogueEpiloguesWMGrannvale_Edda_Ruler_Sister
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"and his sister, "
+.text	"e sua irmã, "
 	.word PrintStoredNameA
 .text	","
 	.word PauseText
@@ -1637,9 +1639,7 @@ dialogueEpiloguesWMGrannvale_Dozel_Ruler
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"Dozel's new lord, "
-	.word PrintStoredNameA
-.text	","
+.text	", liderando Dozel,"
 	.word RunASM
 	.long $8DC64D
 	.word PauseText
@@ -1664,7 +1664,7 @@ dialogueEpiloguesWMGrannvale_Dozel_Ruler_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"and his wife, "
+.text	"e sua esposa, "
 	.word PrintStoredNameA
 .text	","
 
@@ -1681,7 +1681,7 @@ dialogueEpiloguesWMGrannval_Dozel_Ruler_Sister
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"and his sister, "
+.text	"e sua irmã, "
 	.word PrintStoredNameA
 .text	","
 	.word PauseText
@@ -1704,7 +1704,7 @@ dialogueEpiloguesWMGrannvale_Iuchar
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"and Iuchar,"
+.text	"e Iuchar,"
 	.word RunASM
 	.long $8DC6D4
 	.word PauseText
@@ -1729,7 +1729,7 @@ dialogueEpiloguesWMGrannvale_Iuchar_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"and his wife, "
+.text	"junto de sua esposa, "
 	.word PrintStoredNameA
 .text	","
 
@@ -1746,7 +1746,7 @@ dialogueEpiloguesWMGrannvale_Iucharba
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"and Iucharba,"
+.text	"e Iucharba,"
 	.word RunASM
 	.long $8DC730
 	.word PauseText
@@ -1771,7 +1771,7 @@ dialogueEpiloguesWMGrannvale_Iucharba_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"and his wife, "
+.text	"junto de sua esposa, "
 	.word PrintStoredNameA
 .text	","
 
@@ -1795,9 +1795,7 @@ dialogueEpiloguesWMGrannvale_Yngvi_Ruler
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"Yngvi's new lord, "
-	.word PrintStoredNameA
-.text	","
+.text	", liderando Yngvi,"
 	.word RunASM
 	.long $8DC7C4
 	.word PauseText
@@ -1822,7 +1820,7 @@ dialogueEpiloguesWMGrannvale_Yngvi_Ruler_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"and his wife, "
+.text	"junto de sua esposa, "
 	.word PrintStoredNameA
 .text	","
 
@@ -1839,7 +1837,7 @@ dialogueEpiloguesWMGrannvale_Yngvi_Ruler_Sister
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"and his sister, "
+.text	"e de sua irmã, "
 	.word PrintStoredNameA
 .text	","
 	.word PauseText
@@ -1862,7 +1860,7 @@ dialogueEpiloguesWMGrannvale_Lester
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"and Lester,"
+.text	"Lester,"
 	.word RunASM
 	.long $8DC862
 	.word PauseText
@@ -1887,7 +1885,7 @@ dialogueEpiloguesWMGrannvale_Lester_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"and his wife, "
+.text	"junto de sua esposa, "
 	.word PrintStoredNameA
 .text	","
 
@@ -1904,7 +1902,7 @@ dialogueEpiloguesWMGrannvale_Lana
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"and Lana,"
+.text	"e Lana,"
 	.word PauseText
 	.byte $28
 	.word ClearPortraitWM
@@ -1932,7 +1930,7 @@ dialogueEpiloguesWMGrannvale_Oifey
 	.byte $98
 	.byte $1C
 	.byte StartText
-.text	"Chalphy's new lord, Oifey,"
+.text	"O protetor de Chalphy, Oifey,"
 	.word RunASM
 	.long $8DC8E9
 	.word PauseText
@@ -1957,7 +1955,7 @@ dialogueEpiloguesWMGrannvale_Oifey_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"and his wife, "
+.text	"junto de sua esposa, "
 	.word PrintStoredNameA
 .text	","
 
@@ -1987,7 +1985,7 @@ dialogueEpiloguesWMGrannvale_Main
 	.word PauseText
 	.byte $14
 	
-.text	"In the royal capital Belhalla itself,"
+.text	"E na cidade de Belhalla,"
 	.byte NewLine
 	
 	.word LoadPortraitWM1
@@ -2008,18 +2006,20 @@ dialogueEpiloguesWMGrannvale_Main
 	.word HighlightCountry
 	.byte Grannvale
 	
-.text	"with overwhelming support from the public,"
+.text	"com o apoio incondicional do povo,"
 	.byte NewLine
-.text	"Seliph was officially hailed as their king."
+.text	"Seliph foi coroado Rei de Grannvale."
 	.byte NewLine
 	.word ClearHighlight
-.text	"The newly anointed King Seliph devoted himself"
+.text	"O recém coroado Rei Seliph dedicou sua "
 	.byte NewLine
-.text	"to rebuilding his land and bringing peace to all,"
+.text	"vida à reconstrução de seu país e"
 	.byte NewLine
-.text	"his goal nothing short of a prosperous"
+.text	"à manutenção da paz, com o objetivo final" 
 	.byte NewLine
-.text	"world free of oppression and bigotry."
+.text	"de criar um mundo próspero, livre da"
+	.byte NewLine
+.text	"tirania e do ódio."
 	.byte NewLine
 
 	.word RunASM
@@ -2034,11 +2034,13 @@ dialogueEpiloguesWMGrannvale_Main
 	.word TextSpeed
 	.byte 5
 	
-.text	"In ages to come, the people of Jugdral"
+.text	"Pelos tempos vindouros, o povo de Jugdral"
 	.byte NewLine
-.text	"tell legends of a divine king of ages past."
+.text	"contará lendas de um rei"
 	.byte NewLine
-.text	"None shall ever forget his name: Seliph."
+.text	"passado distante."
+	.byte NewLine
+.text	"Ninguém nunca esquecerá seu nome: Seliph."
 	.byte NewLine
 
 	.word PauseText
@@ -2090,7 +2092,7 @@ dialogueEpiloguesWMGrannvale_Main
 dialogueEpiloguesWMGrannvale_Seliph_WifeOrJulia
 
 	.byte StartText
-.text	"And by his side, one would always find"
+.text	"E à seu lado, sempre estará"
 	.byte NewLine
 
 	.byte EndText
@@ -2105,13 +2107,13 @@ dialogueEpiloguesWMGrannvale_Seliph_Wife
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"his loving, ever-smiling wife,"
+.text	"sua amada, sempre feliz esposa,"
 	.byte NewLine
-.text	"Queen "
+.text	"A Rainha "
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"regarding his toil with the warmest of eyes..."
+.text	"lhe agraciando com um amor caloroso..."
 	.byte NewLine
 	.word PauseText
 	.byte $28
@@ -2137,9 +2139,9 @@ dialogueEpiloguesWMGrannvale_Seliph_Julia
 	.byte $48
 	.byte $2C
 	.byte StartText
-.text	"his sister, Princess Julia,"
+.text	"sua irmã, Princesa Júlia,"
 	.byte NewLine
-.text	"regarding his toil with the warmest of eyes..."
+.text	"sempre apoiando seu trabalho..."
 	.byte NewLine
 	.word PauseText
 	.byte $28
@@ -2160,11 +2162,11 @@ dialogueEpiloguesWMGrannvale_Seliph_WifeAndJulia
 	.byte $68
 	.byte $3C
 	.byte StartText
-.text	"his loving, ever-smiling wife,"
+.text	"sua esposa,"
 	.byte NewLine
-.text	"Queen "
+.text	"Rainha "
 	.word PrintStoredNameA
-.text	"..."
+.text	", sempre ao seu lado..."
 	.byte NewLine
 	
 	.word LoadPortraitWM1
@@ -2177,9 +2179,9 @@ dialogueEpiloguesWMGrannvale_Seliph_WifeAndJulia
 	.byte 6
 	.byte $38
 	.byte $2C
-.text	"his sister, Princess Julia,"
+.text	"e sua irmã, Princesa Júlia, sempre"
 	.byte NewLine
-.text	"regarding his toil with the warmest of eyes..."
+.text	"o apoiando em seu trabalho..."
 	.byte NewLine
 	.word PauseText
 	.byte $28

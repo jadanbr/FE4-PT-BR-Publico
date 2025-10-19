@@ -8,21 +8,21 @@ dialogueCh2Village1
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Beware of Bishop Clement,"
+.text	"Cuidado com Bispo Clement,"
 	.byte NewLine
-.text	"the lord of Makariy Castle."
+.text	"o lorde do castelo de Makariy."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"That dastard wields a magical staff"
+.text	"O covarde usa um cajado mágico"
 	.byte NewLine
-.text	"that they call a Sleep staff."
+.text	"que chamam de adormecer."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If you're not careful, you'll find yourself"
+.text	"Se não tiver cuidado, ele vai te botar"
 	.byte NewLine
-.text	"snoozin' and wide open to bein' attacked."
+.text	"pra dormir e você ficará vulnerável."
 	.byte WaitForA
 
 	.byte EndText
@@ -35,19 +35,22 @@ dialogueCh2Village2
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"Hey, thanks for saving us!"
+.text	"Ei, obrigado por nos salvar!"
 	.byte NewLine
-.text	"I want you to have this,"
+.text	"Como recompensa, vou te dar meu"
 	.byte NewLine
-.text	"one of my favorite things."
+.text	"item mais valioso, esse bracelete."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"It's a pretty little bracelet, huh?"
+.text	"Bem legal, não é?"
 	.byte NewLine
-.text	"Wear it at the shops and the nice man"
+.text	"Se você tiver ele no braço enquanto"
 	.byte NewLine
-.text	"there'll be happy to give ya a discount!"
+.text	"entra numa loja, o dono vai"
+	.byte WaitForA
+	.byte NewLine
+.text	"te dar um bom desconto!"
 	.byte WaitForA
 
 	.byte EndText
@@ -60,25 +63,27 @@ dialogueCh2Village3
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"The late King Imka was truly a great man."
+.text	"O falecido rei Imka era um bom homem."
 	.byte NewLine
-.text	"His sudden passing has been"
+.text	"Sua súbita morte foi uma notícia"
 	.byte NewLine
-.text	"nothin' but devastating for us all."
+.text	"terrível para nós."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He's barely been buried for long"
+.text	"Mal ele foi sepultado e seu filho"
 	.byte NewLine
-.text	"and his son Chagall's already"
+.text	"Chagall já está jogando o país"
 	.byte NewLine
-.text	"runnin' the country into the ground!"
+.text	"na vala!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If Lord Eldigan had a claim to the throne,"
+.text	"Se Lorde Eldigan tivesse direito ao trono,"
 	.byte NewLine
-.text	"somehow, then we wouldn't be in this mess..."
+.text	"ou se ao menos QUISESSE assumí-lo,"
+	.byte NewLine
+.text	"não estaríamos nessa bagunça..."
 	.byte WaitForA
 
 	.byte EndText
@@ -91,19 +96,19 @@ dialogueCh2Village4
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"Lord Eldigan is a sincere and righteous man,"
+.text	"Lorde Eldigan é um homem sincero e correto,"
 	.byte NewLine
-.text	"but alas, his sincerity's never been welcome"
+.text	"mas infelizmente, sua sinceridade nunca foi"
 	.byte NewLine
-.text	"to the ears of King Chagall."
+.text	"boa para os ouvidos de Chagall."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"That's gotta be why he was locked up."
+.text	"Deve ser por isso que ele tá preso."
 	.byte NewLine
-.text	"Please, for the good of all Agustria..."
+.text	"Por favor, pelo bem de toda Agustria..."
 	.byte NewLine
-.text	"Help Lord Eldigan!"
+.text	"Ajude Lorde Eldigan!"
 	.byte WaitForA
 
 	.byte EndText
@@ -116,25 +121,31 @@ dialogueCh2Village5
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"There's still gotta be descendants"
+.text	"Deve ter algum descendente do deus das trevas"
 	.byte NewLine
-.text	"of the dark lord Loptous livin' somewhere, right?"
+.text	"Loptous vivendo por aí, certo?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Folk in the big cities like Agusti an' Makariy"
+.text	"O pessoal das grandes"
 	.byte NewLine
-.text	"certainly seem to think so. Every year they do"
+.text	"cidades como Agusti e Makariy"
 	.byte NewLine
-.text	"these huge hunts for Loptous's spawn."
+.text	"certamente parecem pensar isso."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Todo ano tem essas caçadas por supostos"
+	.byte NewLine
+.text	'"portadores do sangue maligno".'
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They arrest a ton of people, then burn 'em all"
+.text	"Eles prendem um monte de gente, e queimam"
 	.byte NewLine
-.text	"at the stake, even if they're innocent..."
+.text	"na fogueira, sem prova nem julgamento..."
 	.byte NewLine
-.text	"Madness, I tell ya!"
+.text	"Loucura, só pode!"
 	.byte WaitForA
 
 	.byte EndText
@@ -147,15 +158,20 @@ dialogueCh2Village6
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"Infini's Lord Macbeth is the foulest,"
+.text	"Lorde Macbeth de Infini é um homem terrível,"
 	.byte NewLine
-.text	"most gold-obsessed man there is."
+.text	"obcecado por dinheiro."
 	.byte NewLine
-.text	"He does nothin' but torment us for his own profit."
+.text	"Ele não faz nada além de nos"
+	.byte WaitForA
+	.byte NewLine
+.text	"atormentar pra ganhar dinheiro."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I wish I could kill 'em with my bare hands!"
+.text	"Eu queria poder matá-lo"
+	.byte NewLine
+.text	"com minhas próprias mãos!"
 	.byte WaitForA
 
 	.byte EndText
@@ -168,25 +184,25 @@ dialogueCh2Village7
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"The great Lord Eldigan of Nordion"
+.text	"O grande Lorde Eldigan de Nordion"
 	.byte NewLine
-.text	"is a descendant of Hoðr the Brave,"
+.text	"É descendente de Hoðr o valente,"
 	.byte NewLine
-.text	"one of the legendary Twelve Crusaders."
+.text	"um dos lendários Doze Cruzados."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He wields Hoðr's old weapon,"
+.text	"Ele herdou sua lendária espada,"
 	.byte NewLine
-.text	"Mystletainn, the demon blade."
+.text	"Mystletainn, a espada do diabo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They say it's as strong as Isaach's Balmung"
+.text	"Eles dizem que é tão forte quanto"
 	.byte NewLine
-.text	"and Chalphy's Tyrfing..."
+.text	"a Balmung de Isaach e a Tyrfing de Chalphy..."
 	.byte NewLine
-.text	"The three mightiest blades in all of creation."
+.text	"As três espadas mais poderosas no mundo."
 	.byte WaitForA
 
 	.byte EndText
@@ -201,29 +217,29 @@ dialogueCh2Village8
 	.byte StartText
 .text	"Psst!"
 	.byte NewLine
-.text	"Wanna hear somethin' saucy?"
+.text	"Quer ouvir uma fofoquinha?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Y'know how Lord Eldigan has a li'l sister, right?"
+.text	"Ocê sabe que Lorde Eldigan tem uma irmã, certo?"
 	.byte NewLine
-.text	"Well, lookin' at 'em, wouldn't ya say"
+.text	"Bem, olhando pra eles, não diria"
 	.byte NewLine
-.text	"there's more to it than that?"
+.text	"que tem algo a mais?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If ya know what I mean... Ohoho!"
+.text	"Se é que me entende... Ohoho!"
 	.byte NewLine
-.text	"I love me a li'l bit of gossip!"
+.text	"amo uma boa fofoca!"
 	.byte WaitForA
 	.byte ScrollText
 
 .text	"Hmm?"
 	.byte NewLine
-.text	"I've better things to do than run me mouth, y'say?"
+.text	"Tenho coisas melhores pra fazer que fofocar, é?"
 	.byte NewLine
-.text	"Fine, then."
+.text	"Tá bom, então."
 	.byte WaitForA
 
 	.byte EndText
@@ -236,11 +252,11 @@ dialogueCh2Village9
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"War's the most dreadful thing, and 'tis always"
+.text	"A guerra é algo terrível, e são sempre"
 	.byte NewLine
-.text	"the innocent and helpless who suffer most for it."
+.text	"os inocentes e impotentes que pagam o preço."
 	.byte NewLine
-.text	"Please... go home to your families."
+.text	"Por favor... voltem para suas famílias."
 	.byte WaitForA
 
 	.byte EndText
@@ -253,25 +269,27 @@ dialogueCh2Village10
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"We can't thank you enough for helpin' us."
+.text	"Muito obrigado por vir nos salvar."
 	.byte NewLine
-.text	"This here sword's the best we can do."
+.text	"Essa espada aqui é o melhor que podemos te"
+	.byte NewLine
+.text	"dar para agradecer."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"It's an unusual sort, innit?"
+.text	"É de um tipo diferente, não percebe?"
 	.byte NewLine
-.text	"They call it an ironbane sword. In the right hands"
+.text	"Eles chamam de Corta-aço, nas mãos certas"
 	.byte NewLine
-.text	"it'll cleave right through the thickest armor."
+.text	"ela consegue bater até a mais forte armadura."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If your hands aren't the right hands, though?"
+.text	"Mas, e se suas mãos não forem as certas?"
 	.byte NewLine
-.text	"Maybe it can make ya a quick buck"
+.text	"Talvez te faça um dinheiro vendendo"
 	.byte NewLine
-.text	"at a pawn shop in town."
+.text	"numa loja de penhores por aí."
 	.byte WaitForA
 
 	.byte EndText

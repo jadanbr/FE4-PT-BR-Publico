@@ -14,56 +14,56 @@ dialogueEpiloguesVerdane_JamkesSon_Single
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'll be leaving for Verdane, Lord Seliph."
+.text	"Eu irei para Verdane, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Verdane, you say? Ah, of course."
+.text	"Verdane, é? Ah, claro."
 	.byte NewLine
-.text	"Your father was Prince Jamke."
+.text	"Você é filho do Príncipe Jamke."
 	.byte NewLine
-.text	"I understand."
+.text	"Eu entendo então."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"From what I've heard, Verdane has long been"
+.text	"Pelo que eu ouvi, desde que a família real"
 	.byte NewLine
-.text	"naught but ruins dominated by brigand clans,"
+.text	"morreu, Verdane está em ruínas e em um"
 	.byte NewLine
-.text	"ever since the royal family collapsed."
+.text	"estado constante de guerra entre clãs."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"So I've heard, sir. I don't know how much good"
+.text	"Isso mesmo, senhor. Eu não sei se eu vou"
 	.byte NewLine
-.text	"I can do by myself, but I have to try."
+.text	"conseguir resolver, mas eu vou tentar."
 	.byte NewLine
-.text	"Those bandits have run rampant long enough."
+.text	"Esses bandidos já ficaram livres tempo demais."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Indeed!"
+.text	"Exatamente!"
 	.byte NewLine
-.text	"Verdane was my mother's home,"
+.text	"Minha mãe nasceu e cresceu em Verdane, e"
 	.byte NewLine
-.text	"and my parents first met there as well."
+.text	"meus pais se conheceram lá também."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 	.word PrintStoredNameB
-.text	", I entrust this task to you."
+.text	", eu deixo esta missão com você. Faça"
 	.byte NewLine
-.text	"Do all you can to save Verdane's people."
+.text	"o possível para salvar o povo de Verdane."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"Sim, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -84,56 +84,56 @@ dialogueEpiloguesVerdane_JamkesSon_Single_Repeat
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'll be leaving for Verdane, Lord Seliph."
+.text	"Eu irei para Verdane, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Verdane, you say? Ah, of course."
+.text	"Verdane, é? Ah, claro."
 	.byte NewLine
-.text	"Your father was Prince Jamke."
+.text	"Você é filho do Príncipe Jamke."
 	.byte NewLine
-.text	"I understand."
+.text	"Eu entendo então."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"From what I've heard, Verdane has long been"
+.text	"Pelo que eu ouvi, desde que a família real"
 	.byte NewLine
-.text	"naught but ruins dominated by brigand clans,"
+.text	"morreu, Verdane está em ruínas e em um"
 	.byte NewLine
-.text	"ever since the royal family collapsed."
+.text	"estado constante de guerra entre clãs."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"So I've heard, sir. I don't know how much good"
+.text	"Isso mesmo, senhor. Eu não sei se eu vou"
 	.byte NewLine
-.text	"I can do by myself, but I have to try."
+.text	"conseguir resolver, mas eu vou tentar."
 	.byte NewLine
-.text	"Those bandits have run rampant long enough."
+.text	"Esses bandidos já ficaram livres tempo demais."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Indeed!"
+.text	"Exatamente!"
 	.byte NewLine
-.text	"Verdane was my mother's home,"
+.text	"Minha mãe nasceu e cresceu em Verdane, e"
 	.byte NewLine
-.text	"and my parents first met there as well."
+.text	"meus pais se conheceram lá também."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 	.word PrintStoredNameB
-.text	", I entrust this task to you."
+.text	", eu deixo esta missão com você. Faça"
 	.byte NewLine
-.text	"Do all you can to save Verdane's people."
+.text	"o possível para salvar o povo de Verdane."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"Sim, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -154,56 +154,56 @@ dialogueEpiloguesVerdane_JamkesSon_Married
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'll be leaving for Verdane, Lord Seliph."
+.text	"Eu irei para Verdane, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Verdane, you say? Ah, of course."
+.text	"Verdane, é? Ah, claro."
 	.byte NewLine
-.text	"Your father was Prince Jamke."
+.text	"Você é filho do Príncipe Jamke."
 	.byte NewLine
-.text	"I understand."
+.text	"Eu entendo então."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"From what I've heard, Verdane has long been"
+.text	"Pelo que eu ouvi, desde que a família real"
 	.byte NewLine
-.text	"naught but ruins dominated by brigand clans,"
+.text	"morreu, Verdane está em ruínas e em um"
 	.byte NewLine
-.text	"ever since the royal family collapsed."
+.text	"estado constante de guerra entre clãs."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"So I've heard, sir. I don't know how much good"
+.text	"Isso mesmo, senhor. Eu não sei se eu vou"
 	.byte NewLine
-.text	"I can do by myself, but I have to try."
+.text	"conseguir resolver, mas eu vou tentar."
 	.byte NewLine
-.text	"Those bandits have run rampant long enough."
+.text	"Esses bandidos já ficaram livres tempo demais."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Indeed!"
+.text	"Exatamente!"
 	.byte NewLine
-.text	"Verdane was my mother's home,"
+.text	"Minha mãe nasceu e cresceu em Verdane, e"
 	.byte NewLine
-.text	"and my parents first met there as well."
+.text	"meus pais se conheceram lá também."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 	.word PrintStoredNameB
-.text	", I entrust this task to you."
+.text	", eu deixo esta missão com você. Faça"
 	.byte NewLine
-.text	"Do all you can to save Verdane's people."
+.text	"o possível para salvar o povo de Verdane."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"Sim, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -222,45 +222,45 @@ dialogueEpiloguesVerdane_JamkesSon_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I'm ready to go when you are, "
+.text	"Já estou pronta para ir, "
 	.word PrintStoredNameB
 .text	"!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I don't think so, "
+.text	"Eu prefiro que não venha, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"It'll be far too dangerous to take you along."
+.text	"Vai ser perigoso demais te levar."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Don't worry."
+.text	"Não se preocupe."
 	.byte NewLine
-.text	"I'll be back for you, no matter what,"
+.text	"Quando a poeira baixar, eu"
 	.byte NewLine
-.text	"once it's all over."
+.text	"volto para ti."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Oh, no, I don't think so!"
+.text	"Ah, não, você não vai sem mim não!"
 	.byte NewLine
-.text	"I'm going with you, and just try and stop me!"
+.text	"Eu vou sim, e você não vai me impedir!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I'm sorry, "
+.text	"Me perdoe, "
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"You're right."
+.text	"Você está certa."
 	.byte NewLine
-.text	"We'll both save Verdane, together."
+.text	"Vamos salvar Verdane, juntos."
 	.word PauseText
 	.byte $60
 
@@ -276,63 +276,63 @@ dialogueEpiloguesVerdane_JamkesSon_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Wait up, "
+.text	"Espera, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
-.text	"I'm coming, too!"
+.text	"Eu vou com você!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I don't think so, "
+.text	"Eu prefiro que não venha, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"It'll be far too dangerous to take you along."
+.text	"Vai ser perigoso demais te levar."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Don't worry."
+.text	"Não se preocupe."
 	.byte NewLine
-.text	"I'll be back for you, no matter what,"
+.text	"Quando a poeira baixar, eu"
 	.byte NewLine
-.text	"once it's all over."
+.text	"volto para ti."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You're joking, right?"
+.text	"Só pode estar brincando, né?"
 	.byte NewLine
-.text	"I'm "
+.text	"Eu sou "
 	.word PrintStoredNameA
-.text	" of Isaach,"
+.text	" de Isaach,"
 	.byte NewLine
-.text	"and I'm just as much of a warrior as you are!"
+.text	"e sou tão guerreira quanto você!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I don't care how much you want to."
+.text	"Não me importa o quanto quer me deixar fora."
 	.byte NewLine
-.text	"I'm not gonna let you go alone!"
+.text	"Eu não vou te deixar ir sem mim!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Hahaha... Yeah, you're right."
+.text	"Hahaha... é, você está certa."
 	.byte NewLine
-.text	"You'll never have anything to fear"
+.text	"Você não tem o que temer de"
 	.byte NewLine
-.text	"from simple bandits, will you?"
+.text	"meros bandidos, não é?"
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Sorry about that."
+.text	"Me desculpa ter esquecido disso."
 	.byte NewLine
-.text	"We'll go together!"
+.text	"Vamos nós dois então! Com você ao meu lado,"
 	.byte NewLine
-.text	"Having you by my side's all the courage I need!"
+.text	"vamos limpar Verdane rapidinho!"
 	.word PauseText
 	.byte $60
 
@@ -348,57 +348,57 @@ dialogueEpiloguesVerdane_JamkesSon_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"And I'll be right by your side, "
+.text	"E eu estarei à seu lado, "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I don't think so, "
+.text	"Eu prefiro que não venha, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"It'll be far too dangerous to take you along."
+.text	"Vai ser perigoso demais te levar."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Don't worry."
+.text	"Não se preocupe."
 	.byte NewLine
-.text	"I'll be back for you, no matter what,"
+.text	"Quando a poeira baixar, eu"
 	.byte NewLine
-.text	"once it's all over."
+.text	"volto para ti."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"But I can't stand to just sit back and wait"
+.text	"Mas eu não posso só esperar por uma"
 	.byte NewLine
-.text	"for a return which may never come..."
+.text	"volta que talvez nunca venha..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"What happens if you leave me behind"
+.text	"E se você morrer por lá, como vai"
 	.byte NewLine
-.text	"and I never get to see you again...?"
+.text	"ser?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I don't want our love to end the same way"
+.text	"Eu não quero que nosso amor acabe da"
 	.byte NewLine
-.text	"Lord Sigurd and Lady Deirdre's did!"
+.text	"mesma forma que o de Sigurd e Deirdre!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I'm sorry, "
+.text	"Me perdoe, "
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"You're right."
+.text	"Você está certa."
 	.byte NewLine
-.text	"We'll both save Verdane, together."
+.text	"Vamos salvar Verdane, juntos."
 	.word PauseText
 	.byte $60
 
@@ -421,34 +421,34 @@ dialogueEpiloguesVerdane_JamkesDaughter_Single
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'll be going to Verdane with "
+.text	"Eu irei para Verdane junto com "
 	.word PrintStoredNameC
-.text	" as well,"
+.text	","
 	.byte NewLine
-.text	"Lord Seliph."
+.text	"Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You will, "
+.text	"Vai mesmo, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes."
+.text	"Sim."
 	.byte NewLine
-.text	"I want to help him restore"
+.text	"Eu quero ajudá-lo a restaurar"
 	.byte NewLine
-.text	"our father's beloved kingdom."
+.text	"o reino do nosso amado Pai."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"There won't be a single bandit left in Verdane"
+.text	"Quando acabarmos, não vai ter mais"
 	.byte NewLine
-.text	"once we're through!"
+.text	"nenhum bandido no país inteiro!"
 	.word PauseText
 	.byte $60
 
@@ -469,39 +469,39 @@ dialogueEpiloguesVerdane_JamkesDaughter_LoverDead
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'll be going to Verdane with "
+.text	"Eu vou para Verdane com "
 	.word PrintStoredNameC
-.text	" as well,"
+.text	","
 	.byte NewLine
-.text	"Lord Seliph."
+.text	"Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Very well."
+.text	"Muito bem."
 	.byte NewLine
-.text	"Please accept my deepest condolences"
+	.word PrintStoredNameB
+.text	", sinto muito sobre o que aconteceu"
 	.byte NewLine
-.text	"about "
+.text	"com "
 	.word PrintStoredNameA
-.text	"."
+.text	"..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, but it's okay..."
+.text	"Obrigado, mas eu vou ficar bem..."
 	.byte NewLine
-.text	"If I dedicate myself to Verdane,"
+.text	"Se eu me dedicar a Verdane, talvez"
 	.byte NewLine
-.text	"hopefully I'll feel better about him."
+.text	"eu fique melhor."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"For now, I just want to help "
-	.word PrintStoredNameC
+.text	"Por enquanto, eu quero ajudar meu irmão"
 	.byte NewLine
-.text	"restore our father's beloved kingdom."
+.text	"a restaurar o reino do nosso amado pai."
 	.word PauseText
 	.byte $60
 
@@ -523,57 +523,56 @@ dialogueEpiloguesVerdane_JamkesDaughter_InheritsThrone
 	.word LoadStoredPortraitC
 	.byte StartText
 
-.text	"I'll be leaving for Verdane, Lord Seliph."
+.text	"Eu irei para Verdane, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Verdane, you say? Ah, of course."
+.text	"Verdane, é? Ah, claro."
 	.byte NewLine
-.text	"Your father was Prince Jamke."
+.text	"Você é filha do Príncipe Jamke."
 	.byte NewLine
-.text	"I understand."
+.text	"Eu entendo então."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"From what I've heard, Verdane has long been"
+.text	"Pelo que eu ouvi, desde que a família real"
 	.byte NewLine
-.text	"naught but ruins dominated by brigand clans,"
+.text	"morreu, Verdane está em ruínas e em um"
 	.byte NewLine
-.text	"ever since the royal family collapsed."
+.text	"estado constante de guerra entre clãs."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-	.byte ScrollText
-.text	"So I've heard, sir. I don't know how much good"
+.text	"Isso mesmo, senhor. Eu não sei se eu vou"
 	.byte NewLine
-.text	"I can do by myself, but I have to try."
+.text	"conseguir resolver, mas eu vou tentar."
 	.byte NewLine
-.text	"Those bandits have run rampant long enough."
+.text	"Esses bandidos já ficaram livres tempo demais."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Indeed!"
+.text	"Exatamente!"
 	.byte NewLine
-.text	"Verdane was my mother's home,"
+.text	"Minha mãe nasceu e cresceu em Verdane, e"
 	.byte NewLine
-.text	"and my parents first met there as well."
+.text	"meus pais se conheceram lá também."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 	.word PrintStoredNameB
-.text	", I entrust this task to you."
+.text	", eu deixo esta missão com você. Faça"
 	.byte NewLine
-.text	"Do all you can to save Verdane's people."
+.text	"o possível para salvar o povo de Verdane."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"Sim, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 

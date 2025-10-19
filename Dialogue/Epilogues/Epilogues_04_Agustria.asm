@@ -15,62 +15,64 @@ dialogueEpiloguesAgustria_Ares_Single
 	.word LoadPortrait
 	.word portrait_Ares1
 	.byte StartText
-.text	"Seliph..."
+.text	"Seliph... Eu te devo muito"
 	.byte NewLine
-.text	"I dearly owe you for all you've done to assist me."
+.text	"pelo quanto que você me ajudou."
 	.byte NewLine
-.text	"I'll never forget so long as I live."
+.text	"Eu sempre vou me lembrar dessa dívida."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Oh, no, Prince Ares."
+.text	"Ah, não, Príncipe Ares."
 	.byte NewLine
-.text	"The joy chancing upon you brought is thanks"
+.text	"A alegria de te conhecer já"
 	.byte NewLine
-.text	"enough!"
+.text	"é o suficiente!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"It was such an honor to meet the son"
+.text	"É uma enorme honra conhecer o filho de"
 	.byte NewLine
-.text	"of my father's dearest friend."
+.text	"um dos melhores amigos do meu pai."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"As tragic as their lives were, their faith in"
+.text	"Embora eles tenham tido vidas trágicas, eles"
 	.byte NewLine
-.text	"each other was unshakable to the very end."
+.text	"tiveram fé um no outro até o fim."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Our fathers, Prince Ares, were united by a"
+.text	"Nossos pais, Príncipe Ares, eram unidos em"
 	.byte NewLine
-.text	"singular dream their deaths left unfulfilled."
+.text	"um sonho que suas mortes deixaram incompleto."
 	.byte NewLine
-.text	"Let us fulfill their dream where they cannot."
+.text	"Vamos cumprir esse sonho, juntos."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Let the two of us, hand in hand,"
+.text	"Nós dois, unidos, guiaremos Jugdral em"
 	.byte NewLine
-.text	"guide all Jugdral toward bringing the dream to life."
+.text	"direção à esse sonho."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Well spoken, King Seliph!"
+.text	"Sábias palavras, Rei Seliph!"
 	.byte NewLine
-.text	"My father so dearly wished to see his beloved"
+.text	"Meu pai queria muito ver sua querida"
 	.byte NewLine
-.text	"Agustria united in a lasting peace."
+.text	"Agustria unida em uma paz duradoura."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"In the name of his dying wish,"
+.text	"Em nome de seu último desejo, eu vou"
 	.byte NewLine
-.text	"I'll carve for Agustria a new, prosperous future."
+.text	"vou formar um futuro próspero"
+  .byte NewLine
+.text "para a Agustria." 
 	.word PauseText
 	.byte $60
 
@@ -92,62 +94,64 @@ dialogueEpiloguesAgustria_Ares_Married
 	.word LoadPortrait
 	.word portrait_Ares1
 	.byte StartText
-.text	"Seliph..."
+.text	"Seliph... Eu te devo muito"
 	.byte NewLine
-.text	"I dearly owe you for all you've done to assist me."
+.text	"pelo quanto que você me ajudou."
 	.byte NewLine
-.text	"I'll never forget so long as I live."
+.text	"Eu sempre vou me lembrar dessa dívida."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Oh, no, Prince Ares."
+.text	"Ah, não, Príncipe Ares."
 	.byte NewLine
-.text	"The joy chancing upon you brought is thanks"
+.text	"A alegria de te conhecer já"
 	.byte NewLine
-.text	"enough!"
+.text	"é o suficiente!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"It was such an honor to meet the son"
+.text	"É uma enorme honra conhecer o filho de"
 	.byte NewLine
-.text	"of my father's dearest friend."
+.text	"um dos melhores amigos do meu pai."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"As tragic as their lives were, their faith in"
+.text	"Embora eles tenham tido vidas trágicas, eles"
 	.byte NewLine
-.text	"each other was unshakable to the very end."
+.text	"tiveram fé um no outro até o fim."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Our fathers, Prince Ares, were united by a"
+.text	"Nossos pais, Príncipe Ares, eram unidos em"
 	.byte NewLine
-.text	"singular dream their deaths left unfulfilled."
+.text	"um sonho que suas mortes deixaram incompleto."
 	.byte NewLine
-.text	"Let us fulfill their dream where they cannot."
+.text	"Vamos cumprir esse sonho, juntos."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Let the two of us, hand in hand,"
+.text	"Nós dois, unidos, guiaremos Jugdral em"
 	.byte NewLine
-.text	"guide all Jugdral toward bringing the dream to life."
+.text	"direção à esse sonho."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Well spoken, King Seliph!"
+.text	"Sábias palavras, Rei Seliph!"
 	.byte NewLine
-.text	"My father so dearly wished to see his beloved"
+.text	"Meu pai queria muito ver sua querida"
 	.byte NewLine
-.text	"Agustria united in a lasting peace."
+.text	"Agustria unida em uma paz duradoura."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"In the name of his dying wish,"
+.text	"Em nome de seu último desejo, eu vou"
 	.byte NewLine
-.text	"I'll carve for Agustria a new, prosperous future."
+.text	"vou formar um futuro próspero"
+  .byte NewLine
+.text "para a Agustria."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -168,36 +172,36 @@ dialogueEpilogues_Ares_LoverQuipPeppy
 	.byte StartText
 
 	.byte RightSlot
-.text	"But my might alone shall not suffice."
+.text	"Mas somente a minha força não é suficiente."
 	.byte NewLine
-.text	"To this end, my dearest "
+.text	"Por isso, minha querida "
 	.word PrintStoredNameA
-.text	","
+.text	", eu espero ter"
 	.byte NewLine
-.text	"I pray I'll have your strength ever by my side."
+.text	"sua força sempre a meu lado."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Yep, of course!"
+.text	"Claro!"
 	.byte NewLine
-.text	"I'm gonna do everything I can to help"
+.text	"Eu vou dar duro pra ajudar na"
 	.byte NewLine
-.text	"rebuild Agustria as well."
+.text	"reconstrução da Agustria também."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Let's all work together to build an Agustria"
+.text	"Vamos juntos trabalhar pra criar uma"
 	.byte NewLine
-.text	"where anyone can live happily."
+.text	"Agustria em que todos podem viver felizes."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Indeed!"
+.text	"Exatamente! Eu sei que, enquanto você"
 	.byte NewLine
-.text	"So long as you remain, I know I'll never give up."
+.text	"estiver comigo, eu nunca irei desistir."
 	.word PauseText
 	.byte $60
 
@@ -216,38 +220,36 @@ dialogueEpilogues_Ares_LoverQuipNoble
 
 	.byte RightSlot
 	.byte StartText
-.text	"But my might alone shall not suffice."
+.text	"Mas somente a minha força não é suficiente."
 	.byte NewLine
-.text	"To this end, my dearest "
+.text	"Por isso, minha querida "
 	.word PrintStoredNameA
-.text	","
+.text	", eu espero ter"
 	.byte NewLine
-.text	"I pray I'll have your strength ever by my side."
+.text	"sua força sempre a meu lado."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"But of course."
+.text	"Certamente. Eu também irei dedicar minha"
 	.byte NewLine
-.text	"I'll dedicate my life to helping restore Agustria"
-	.byte NewLine
-.text	"as well."
+.text	"vida a restauração da Agustria."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"All these years of war have burnt deep scars"
+.text	"Todos esses anos de guerra deixaram feridas"
 	.byte NewLine
-.text	"in Agustria. All I want is to ensure all Agustrians"
+.text	"profundas no país. Assim como você, tudo que"
 	.byte NewLine
-.text	"can live peaceful lives."
+.text	"eu quero é que os agustrianos sejam felizes."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Indeed!"
+.text	"Exatamente! Eu sei que, enquanto você"
 	.byte NewLine
-.text	"So long as you remain, I know I'll never give up."
+.text	"estiver comigo, eu nunca irei desistir."
 	.word PauseText
 	.byte $60
 
@@ -266,38 +268,36 @@ dialogueEpilogues_Ares_LoverQuipLarcei
 
 	.byte RightSlot
 	.byte StartText
-.text	"But my might alone shall not suffice."
+.text	"Mas somente a minha força não é suficiente."
 	.byte NewLine
-.text	"To this end, my dearest "
+.text	"Por isso, minha querida "
 	.word PrintStoredNameA
-.text	","
+.text	", eu espero ter"
 	.byte NewLine
-.text	"I pray I'll have your strength ever by my side."
+.text	"sua força sempre a meu lado."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Yes, of course."
+.text	"Certamente. Eu também irei dedicar minha"
 	.byte NewLine
-.text	"I'll dedicate my life to helping restore Agustria"
-	.byte NewLine
-.text	"as well."
+.text	"vida a restauração da Agustria."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"All these years of war have burnt deep scars"
+.text	"Todos esses anos de guerra deixaram feridas"
 	.byte NewLine
-.text	"in Agustria. All I want is to ensure all Agustrians"
+.text	"profundas no país. Assim como você, tudo que"
 	.byte NewLine
-.text	"can live peaceful lives."
+.text	"eu quero é que os agustrianos sejam felizes."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Indeed!"
+.text	"Exatamente! Eu sei que, enquanto você"
 	.byte NewLine
-.text	"So long as you remain, I know I'll never give up."
+.text	"estiver comigo, eu nunca irei desistir."
 	.word PauseText
 	.byte $60
 
@@ -322,50 +322,51 @@ dialogueEpiloguesAgustria_LeneLaylea_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And what of you, "
 	.word PrintStoredNameB
-.text	"..."
+.text	", e quanto a ti?"
+  .byte NewLine
+.text "O que irá fazer?" 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I don't exactly have a home to go to,"
+.text	"Eu não tenho uma casa pra onde voltar,"
 	.byte NewLine
-.text	"so I thought I'd give Agustria a try."
+.text	"então eu resolvi ir pra Agustria."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
 	.byte StartText
-.text	"I see... Don't worry too much."
-	.byte NewLine
-.text	"Somebody wonderful, I know, will be graced"
-	.byte NewLine
-.text	"with your charm someday, "
+.text	"Entendi... mas, não se preocupe, "
 	.word PrintStoredNameB
 .text	"."
+	.byte NewLine
+.text	"Tenho certeza que um dia você"
+	.byte NewLine
+.text	"vai encontrar uma boa companhia."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Hee hee..."
 	.byte NewLine
-.text	"Oh, Lord Seliph!"
+.text	"Ah, Lorde Seliph! Eu sei que"
 	.byte NewLine
-.text	"I know you're just trying to perk me up."
+.text	"você só disse isso pra me animar."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"But it's okay!"
+.text	"Mas tá bom! Se precisar, eu passo"
 	.byte NewLine
-.text	"I've always got dancing..."
+.text	"a vida toda dançando..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I've been alone my whole life."
+.text	"Eu fiquei sozinha minha vida inteira."
 	.byte NewLine
-.text	"Staying alone for the rest of it won't be that bad."
+.text	"Eu posso ficar mais um tempo assim."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -395,42 +396,42 @@ dialogueEpiloguesAgustria_LeneLaylea_NonAresLoverDead
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And what of you, "
 	.word PrintStoredNameB
-.text	"..."
+.text	", e quanto a ti?"
+  .byte NewLine
+.text "O que irá fazer?" 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I never had a home to go back to,"
+.text	"Eu não tenho uma casa pra onde voltar,"
 	.byte NewLine
-.text	"and "
+.text	"e "
 	.word PrintStoredNameA
-.text	" is gone..."
+.text	" morreu..."
 	.byte NewLine
-.text	"I think I'll go to Agustria..."
+.text	"Acho que vou para Agustria então..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
 	.byte StartText
-.text	"I see..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"Listen, "
 	.word PrintStoredNameB
-.text	". Don't worry."
+.text	", Não se preocupe."
 	.byte NewLine
-.text	"You'll be fine. I know it."
+.text	"Você vai ficar bem. Eu sei que vai."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah... And I've always got dancing."
+.text	"É... e eu sempre posso voltar a dançar."
 	.byte NewLine
-.text	"I've been alone my whole life."
+.text	"Eu fiquei sozinha minha vida inteira."
 	.byte NewLine
-.text	"Staying alone for the rest of it won't be that bad."
+.text	"Eu consigo continuar sozinha."
 	.word PauseText
 	.byte $60
 
@@ -460,52 +461,53 @@ dialogueEpiloguesAgustria_LeneLaylea_AresLoverDead
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And what of you, "
 	.word PrintStoredNameB
-.text	"..."
+.text	", e quanto a ti?"
+  .byte NewLine
+.text "O que irá fazer?" 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I never had a home to go back to,"
+.text	"Eu não tenho uma casa pra onde voltar,"
 	.byte NewLine
-.text	"so even though I've lost Ares,"
+.text	"então mesmo com o Ares morto, eu acho"
 	.byte NewLine
-.text	"I'm thinking I'll go to Agustria..."
+.text	"que eu vou para Agustria..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
 	.byte StartText
-.text	"I see... Don't worry too much."
-	.byte NewLine
-.text	"Somebody wonderful, I know, will be graced"
-	.byte NewLine
-.text	"with your charm someday, "
+.text	"Entendi... mas, não se desespere, "
 	.word PrintStoredNameB
 .text	"."
+	.byte NewLine
+.text	"Tenho certeza que um dia você"
+	.byte NewLine
+.text	"vai encontrar uma boa companhia."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Hee hee..."
 	.byte NewLine
-.text	"Oh, Lord Seliph!"
+.text	"Ah, Lorde Seliph! Eu sei que"
 	.byte NewLine
-.text	"I know you're just trying to perk me up."
+.text	"você só disse isso pra me animar."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"But it's okay!"
+.text	"Mas tá bom! Se precisar, eu passo"
 	.byte NewLine
-.text	"I've always got dancing..."
+.text	"a vida toda dançando..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I've been alone my whole life."
+.text	"Eu fiquei sozinha minha vida inteira."
 	.byte NewLine
-.text	"Staying alone for the rest of it won't be that bad."
+.text	"Eu posso passar mais um tempinho assim."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -547,14 +549,15 @@ dialogueEpiloguesAgustria_Diarmuid_AresAlive_Single
 	.word LoadPortrait
 	.word portrait_Diarmuid
 	.byte StartText
-.text	"I'm going with Prince Ares to Agustria, Lord Seliph."
+.text	"Eu vou junto com o Príncipe Ares"
 	.byte NewLine
+.text	"para Agustria, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'll lend the prince my strength"
+.text	"Eu vou ajudá-lo a reconstruir"
 	.byte NewLine
-.text	"and help rebuild the country."
+.text	"o país."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -563,24 +566,26 @@ dialogueEpiloguesAgustria_Diarmuid_AresAlive_Single
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Ah, of course."
+.text	"Ah, sim. Sua mãe"
 	.byte NewLine
-.text	"Your mother was a noblewoman of Nordion, yes?"
+.text	"era a princesa de Nordion, não era?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Lord Eldigan's sister, Lachesis, to be exact, sir."
+.text	"Sim, senhor. Minha mãe era a Princesa Lachesis,"
 	.byte NewLine
-.text	"Nobody was closer to him than she was."
+.text	"irmã do Lorde Eldigan. Ela era a pessoa mais"
+  .byte NewLine
+.text "próxima dele." 
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll give my entire life to fulfilling the last wishes"
+.text	"Eu darei a minha vida para realizar os"
 	.byte NewLine
-.text	"of my mother and Eldigan,"
+.text	"últimos desejos dela e do seu irmão, e"
 	.byte NewLine
-.text	"and to creating a united Agustria."
+.text	"para criar uma Agustria unida."
 	.word PauseText
 	.byte $60
 
@@ -602,14 +607,15 @@ dialogueEpiloguesAgustria_Diarmuid_AresAlive_Married
 	.word LoadPortrait
 	.word portrait_Diarmuid
 	.byte StartText
-.text	"I'm going with Prince Ares to Agustria, Lord Seliph."
+.text	"Eu vou junto com o Príncipe Ares"
 	.byte NewLine
+.text	"para Agustria, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'll lend the prince my strength"
+.text	"Eu vou ajudá-lo a reconstruir"
 	.byte NewLine
-.text	"and help rebuild the country."
+.text	"o país."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -618,24 +624,26 @@ dialogueEpiloguesAgustria_Diarmuid_AresAlive_Married
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Ah, of course."
+.text	"Ah, sim. Sua mãe"
 	.byte NewLine
-.text	"Your mother was a noblewoman of Nordion, yes?"
+.text	"era de Nordion, não era?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Lord Eldigan's sister, Lachesis, to be exact, sir."
+.text	"Sim, senhor. Minha mãe era a"
 	.byte NewLine
-.text	"Nobody was closer to him than she was."
+.text	"Princesa Lachesis, irmã do Lorde Eldigan."
+  .byte NewLine
+.text "Ela era a pessoa mais próxima dele." 
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll give my entire life to fulfilling the last wishes"
+.text	"Eu darei a minha vida para realizar os"
 	.byte NewLine
-.text	"of my mother and Eldigan,"
+.text	"últimos desejos dela e do seu irmão, e"
 	.byte NewLine
-.text	"and to creating a united Agustria."
+.text	"para criar uma Agustria unida."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -659,14 +667,14 @@ dialogueEpiloguesAgustria_Diarmuid_AresDead_Single
 	.word LoadPortrait
 	.word portrait_Diarmuid
 	.byte StartText
-.text	"Lord Seliph, I'm going to Agustria."
+.text	"Lorde Seliph, eu vou para Agustria."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'll rebuild the country,"
+.text	"Eu terei reconstruir o país, agora"
 	.byte NewLine
-.text	"now that Prince Ares can't anymore."
+.text	"que o Príncipe morreu."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -675,24 +683,26 @@ dialogueEpiloguesAgustria_Diarmuid_AresDead_Single
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Ah, of course."
+.text	"Ah, sim. Sua mãe"
 	.byte NewLine
-.text	"Your mother was a noblewoman of Nordion, yes?"
+.text	"era de Nordion, não era?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Lord Eldigan's sister, Lachesis, to be exact, sir."
+.text	"Sim, senhor. Minha mãe era a"
 	.byte NewLine
-.text	"Nobody was closer to him than she was."
+.text	"Princesa Lachesis, irmã do Lorde Eldigan."
+  .byte NewLine
+.text "Ela era a pessoa mais próxima dele." 
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll give my entire life to fulfilling the last wishes"
+.text	"Eu darei a minha vida para realizar os"
 	.byte NewLine
-.text	"of my mother and Eldigan,"
+.text	"últimos desejos dela e do seu irmão, e"
 	.byte NewLine
-.text	"and to creating a united Agustria."
+.text	"para criar uma Agustria unida."
 	.word PauseText
 	.byte $60
 
@@ -714,14 +724,14 @@ dialogueEpiloguesAgustria_Diarmuid_AresDead_Married
 	.word LoadPortrait
 	.word portrait_Diarmuid
 	.byte StartText
-.text	"Lord Seliph, I'm going to Agustria."
+.text	"Lorde Seliph, eu vou para Agustria."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'll rebuild the country,"
+.text	"Eu terei que reconstruir o país, agora"
 	.byte NewLine
-.text	"now that Prince Ares can't anymore."
+.text	"que o Príncipe morreu."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -730,24 +740,26 @@ dialogueEpiloguesAgustria_Diarmuid_AresDead_Married
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Ah, of course."
+.text	"Ah, sim. Sua mãe"
 	.byte NewLine
-.text	"Your mother was a noblewoman of Nordion, yes?"
+.text	"era de Nordion, não era?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Lord Eldigan's sister, Lachesis, to be exact, sir."
+.text	"Sim, senhor. Minha mãe era a"
 	.byte NewLine
-.text	"Nobody was closer to him than she was."
+.text	"Princesa Lachesis, irmã do Lorde Eldigan."
+  .byte NewLine
+.text "Ela era a pessoa mais próxima dele." 
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll give my entire life to fulfilling the last wishes"
+.text	"Eu darei a minha vida para realizar os"
 	.byte NewLine
-.text	"of my mother and Eldigan,"
+.text	"últimos desejos dela e do seu irmão, e"
 	.byte NewLine
-.text	"and to creating a united Agustria."
+.text	"para criar uma Agustria unida."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -764,44 +776,44 @@ dialogueEpilogues_Diarmuid_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I'm off with Diarmuid as well, Lord Seliph!"
+.text	"Eu também vou com o Diarmuid, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.word PrintStoredNameA
-.text	"?"
+.text	"? Ah, sim... perdão, seu casamento com"
 	.byte NewLine
-.text	"Ahh... I admit this was news to me,"
+.text	"ele ainda é novidade pra mim, de qualquer"
 	.byte NewLine
-.text	"but congratulations all the same."
+.text	"forma, parabéns para vocês."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Hee hee..."
 	.byte NewLine
-.text	"Bit embarrassing, to hear it like that..."
+.text	"Ainda é um pouco estranho pra mim..."
 	.byte NewLine
-.text	"but I'm so happy!"
+.text	"Mas eu tô muito feliz!"
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
 
 	.byte LeftSlot
-.text	"You and Diarmuid are truly a perfect fit for"
+.text	"Você e o Diarmuid foram feitos um para o"
 	.byte NewLine
-.text	"each other. I pray you two will have a long and"
+.text	"outro. Eu espero que vocês tenham uma vida"
 	.byte NewLine
-.text	"happy life together."
+.text	"longa e feliz."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thanks!"
+.text	"Obrigado!"
 	.byte NewLine
-.text	"You too, Lord Seliph..."
+.text	"Você também, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 
@@ -816,42 +828,44 @@ dialogueEpilogues_Diarmuid_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I'll be going with Diarmuid as well, Lord Seliph."
+.text	"Eu irei embora junto com"
+  .byte NewLine
+.text "Diarmuid, Lorde Seliph." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.word PrintStoredNameA
-.text	"?"
+.text	"? Ah, sim... perdão, seu casamento com"
 	.byte NewLine
-.text	"Ahh... I admit this was news to me,"
+.text	"ele ainda é novidade pra mim, de qualquer"
 	.byte NewLine
-.text	"but congratulations all the same."
+.text	"forma, parabéns para vocês."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, sir..."
+.text	"Obrigado, senhor..."
 	.byte NewLine
-.text	"Heh, it's still a little embarrassing to hear it"
+.text	"Confesso que ainda é estranho para"
 	.byte NewLine
-.text	"from you."
+.text	"mim, estar casada."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
 
 	.byte LeftSlot
-.text	"You and Diarmuid are truly a perfect fit"
+.text	"Você e o Diarmuid foram feitos um para o"
 	.byte NewLine
-.text	"for each other. I pray you two will have a long"
+.text	"outro. Eu espero que vocês tenham uma vida"
 	.byte NewLine
-.text	"and happy life together."
+.text	"longa e feliz."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"And you as well, Lord Seliph..."
+.text	"Desejo o mesmo para ti, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 
@@ -875,39 +889,41 @@ dialogueEpiloguesAgustria_Nanna_DiarmuidAlive_Single
 	.word LoadPortrait
 	.word portrait_Nanna
 	.byte StartText
-.text	"Lord Seliph, I'm going to Agustria with my brother."
+.text	"Lorde Seliph, eu irei para Agustria"
+  .text NewLine
+.text "com meu irmão." 
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
-.text	"I admit this is a surprise, Nanna."
+.text	"Estou surpreso, Nanna. Eu achei que você"
 	.byte NewLine
-.text	"I assumed you would go to Leonster..."
+.text	"iria para Leonster..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 	.byte ScrollText
-.text	"I know..."
+.text	"E você não estaria errado..."
 	.byte NewLine
-.text	"But my work in Leonster's done."
+.text	"Mas meu trabalho em Leonster acabou."
 	.byte NewLine
-.text	"I've got no regrets..."
+.text	"Está na hora de eu ir para casa..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.byte ScrollText
-.text	"I see..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"Take care, Nanna."
+.text	"Se cuide, Nanna."
 	.byte NewLine
-.text	"You deserve nothing but happiness."
+.text	"Que você seja plenamente feliz."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"And you too, Lord Seliph..."
+.text	"Você também, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 
@@ -929,40 +945,42 @@ dialogueEpiloguesAgustria_Nanna_DiarmuidDead_Single
 	.word LoadPortrait
 	.word portrait_Nanna
 	.byte StartText
-.text	"I'm going to Agustria as well, Lord Seliph."
+.text	"Eu irei para Agustria também, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Lonely though it might be,"
+.text	"Vai ser terrível ir sem meu irmão,"
 	.byte NewLine
-.text	"I feel I've no other choice..."
+.text	"Mas eu sinto que eu tenho que ir"
+  .byte NewLine
+.text "de qualquer jeito..." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I see..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"Do take care."
+.text	"Por favor, se cuide."
 	.byte NewLine
-.text	"I pray you'll serve King Ares well."
+.text	"Sirva bem o Rei Ares."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir. My mother, Lachesis,"
+.text	"Sim, senhor. Minha mãe, Lachesis,"
 	.byte NewLine
-.text	"was the sister of Lord Eldigan."
+.text	"era irmã do Lorde Eldigan. E os dois"
 	.byte NewLine
-.text	"None were closer to him than she was."
+.text	"eram extremamente próximos."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll give my entire life to fulfilling the last wishes"
+.text	"Eu vou dar a minha vida para realizar os"
 	.byte NewLine
-.text	"of my mother and Lord Eldigan,"
+.text	"últimos desejos dela e dele, e"
 	.byte NewLine
-.text	"and to creating a united Agustria."
+.text	"para criar uma Agustria unida."
 	.word PauseText
 	.byte $60
 
@@ -983,36 +1001,49 @@ dialogueEpiloguesAgustria_Nanna_LoverDead
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going to Agustria as well, Lord Seliph."
+.text	"Eu vou para Agustria também, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I still miss "
+.text	"Eu ainda sinto muita falta do "
 	.word PrintStoredNameA
-.text	" so much..."
+.text	"..."
 	.byte NewLine
-.text	"I'll never, ever forget him. But I've got to keep"
+.text	"Eu nunca, jamais, irei esquecê-lo. Mas"
 	.byte NewLine
-.text	"going. I can't just grieve forever."
+.text	"eu tenho que seguir em frente."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text "Eu não posso me enlutar para sempre."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I understand."
+.text	"Eu entendo."
 	.byte NewLine
-.text	"There isn't any helping how painful this will be,"
+.text	"Esse momento não será fácil, Nanna,"
+	.word PauseText
+	.byte $60
+	.byte ScrollText
 	.byte NewLine
-.text	"but stay well. Agustria needs you, Nanna."
+.text	"mas eu oro para que você passe bem por ele."
+	.byte NewLine
+.text	"Agustria precisa de você."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, sir..."
+.text	"Obrigado, senhor..."
 	.byte NewLine
-.text	"I've got to help the king."
+.text	"Eu tenho que ajudar o rei. Eu irei ajudar"
 	.byte NewLine
-.text	"I'll devote myself to the common people."
+.text	"o povo a se recuperar desse longo"
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text "sofrimento pelo qual eles passaram."
 	.word PauseText
 	.byte $60
 
@@ -1034,13 +1065,13 @@ dialogueEpiloguesAgustria_Nanna_InheritsThrone
 	.word LoadPortrait
 	.word portrait_Nanna
 	.byte StartText
-.text	"Lord Seliph, I'm going to Agustria."
+.text	"Lorde Seliph, eu vou para Agustria."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Now that Prince Ares is dead,"
+.text	"Visto que meu Príncipe morreu, eu irei"
 	.byte NewLine
-.text	"I'll rebuild the country on his behalf."
+.text	"reconstruir o país em seu lugar."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -1050,24 +1081,26 @@ dialogueEpiloguesAgustria_Nanna_InheritsThrone
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Ah, of course."
+.text	"Ah, sim. Sua mãe era de Nordion,"
 	.byte NewLine
-.text	"Your mother was a noblewoman of Nordion, yes?"
+.text	"se não me falha a memória."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Lord Eldigan's sister, Lachesis, to be exact, sir."
+.text	"Sim, senhor. Para ser mais exata, minha mãe,"
 	.byte NewLine
-.text	"Nobody was closer to him than she was."
+.text	"Lachesis, era irmã do Lorde Eldigan. E os"
+	.byte NewLine
+.text	"dois eram extremamente próximos."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll give my entire life to fulfilling the last wishes"
+.text	"Eu vou dar a minha vida para realizar os"
 	.byte NewLine
-.text	"of my mother and Eldigan,"
+.text	"últimos desejos dela e dele, e"
 	.byte NewLine
-.text	"and to creating a united Agustria."
+.text	"para criar uma Agustria unida."
 	.word PauseText
 	.byte $60
 
@@ -1093,24 +1126,33 @@ dialogueEpiloguesAgustria_Tristan_AresAlive_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"My apologies, Tristan,"
+.text	"Me perdoe, Tristan, mas eu gostaria que"
 	.byte NewLine
-.text	"but I'd like for you to go to Agustria."
+.text	"você fosse para Agustria."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Agustria is still in the midst of an agonizing war,"
+.text	"Agustria ainda está em guerra, e o Príncipe"
 	.byte NewLine
-.text	"and Prince Ares will need your aid to save it."
+.text	"Ares vai precisar de sua ajuda para"
+  .byte NewLine
+.text "pacificar a região." 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, sir, I'm so glad you asked."
+.text	"Sem problemas, senhor. Na verdade, eu"
+  .byte NewLine
+.text "ficaria muito feliz em ir com ele." 
+	.word PauseText
+	.byte $60
+	.byte ScrollText
 	.byte NewLine
-.text	"Agustria's my home, and it's an honor"
+.text	"Eu sou agustriano de nascença, vai ser"
 	.byte NewLine
-.text	"to be allowed to return there by my king!"
+.text	"uma honra voltar para meu país como"
+  .byte NewLine
+.text "um soldado do meu rei!"
 	.word PauseText
 	.byte $60
 
@@ -1134,24 +1176,33 @@ dialogueEpiloguesAgustria_Tristan_AresAlive_Married
 
 	.byte LeftSlot
 	.byte StartText
-.text	"My apologies, Tristan,"
+.text	"Me perdoe, Tristan, mas eu gostaria que"
 	.byte NewLine
-.text	"but I'd like for you to go to Agustria."
+.text	"você fosse para Agustria."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Agustria is still in the midst of an agonizing war,"
+.text	"Agustria ainda está em guerra, e o Príncipe"
 	.byte NewLine
-.text	"and Prince Ares will need your aid to save it."
+.text	"Ares vai precisar de sua ajuda para"
+  .byte NewLine
+.text "pacificar a região." 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, sir, I'm so glad you asked."
+.text	"Sem problemas, senhor. Na verdade, eu"
+  .byte NewLine
+.text "ficaria muito feliz em ir com ele." 
+	.word PauseText
+	.byte $60
+	.byte ScrollText
 	.byte NewLine
-.text	"Agustria's my home, and it's an honor"
+.text	"Eu sou agustriano de nascença, vai ser"
 	.byte NewLine
-.text	"to be allowed to return there by my king!"
+.text	"uma honra voltar para meu país como"
+  .byte NewLine
+.text "um soldado do meu rei!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -1177,26 +1228,26 @@ dialogueEpiloguesAgustria_Tristan_AresDead_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"My apologies, Tristan,"
+.text	"Me perdoe, Tristan, mas eu gostaria que"
 	.byte NewLine
-.text	"but I'd like for you to go to Agustria."
+.text	"você fosse para Agustria."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Agustria's royal family is no more,"
+.text	"A família real de Agustria morreu... mas"
 	.byte NewLine
-.text	"but the country remains embroiled in war."
+.text	"o país ainda se encontra em guerra."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'd like to entrust the country's protection"
+.text	"Tristan, eu quero que você governe Agustria"
 	.byte NewLine
-.text	"to you from now on."
+.text	"daqui em diante."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"As you command, my king!"
+.text	"Como quiser, meu rei!"
 	.word PauseText
 	.byte $60
 
@@ -1220,26 +1271,26 @@ dialogueEpiloguesAgustria_Tristan_AresDead_Married
 
 	.byte LeftSlot
 	.byte StartText
-.text	"My apologies, Tristan,"
+.text	"Me perdoe, Tristan, mas eu gostaria que"
 	.byte NewLine
-.text	"but I'd like for you to go to Agustria."
+.text	"você fosse para Agustria."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Agustria's royal family is no more,"
+.text	"A família real de Agustria morreu... mas"
 	.byte NewLine
-.text	"but the country remains embroiled in war."
+.text	"o país ainda se encontra em guerra."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'd like to entrust the country's protection"
+.text	"Tristan, eu quero que você governe Agustria"
 	.byte NewLine
-.text	"to you from now on."
+.text	"daqui em diante."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"As you command, my king!"
+.text	"Como quiser, meu rei!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -1258,20 +1309,22 @@ dialogueEpilogues_Tristan_LoverQuipPeppy
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And of course, "
+.text	"E claro, "
 	.word PrintStoredNameA
-.text	", you may go with Tristan."
+.text	", você irá com ele."
 	.byte NewLine
-.text	"I'd hate to part the two of you even briefly."
+.text	"Eu não gostaria de separá-los"
+  .byte NewLine
+.text "nem por um segundo." 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh?"
+.text	"Hã? Você sabe que estamos"
 	.byte NewLine
-.text	"You know about us, sir?!"
+.text	"juntos, senhor?!"
 	.byte NewLine
-.text	"Kyaaaah! How embarrassing!"
+.text	"Kyaaaah! Que vergonha!"
 	.word PauseText
 	.byte $60
 
@@ -1279,16 +1332,16 @@ dialogueEpilogues_Tristan_LoverQuipPeppy
 	.word ScrollBoth
 .text	"Heh..."
 	.byte NewLine
-.text	"It isn't exactly hard to see, "
+.text	"Tá na cara, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I wish you two naught but happiness."
+.text	"Eu espero que vocês sejam muito felizes."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thanks so much, Lord Seliph!"
+.text	"Muito obrigado, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -1305,33 +1358,35 @@ dialogueEpilogues_Tristan_LoverQuipNoble
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And of course, "
+.text	"E claro, "
 	.word PrintStoredNameA
-.text	", you may go with Tristan."
+.text	", você irá com ele."
 	.byte NewLine
-.text	"I'd hate to part the two of you even briefly."
+.text	"Eu não gostaria de separá-los"
+  .byte NewLine
+.text "nem por um segundo." 
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Hm?"
+.text	"Hm? Você sabe que"
 	.byte NewLine
-.text	"You already know about us, Lord Seliph?"
+.text	"estamos casados, Lorde Seliph?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"It isn't exactly hard to see, "
+.text	"Não é algo difícil de perceber, "
 	.word PrintStoredNameA
 .text	"."
 	.byte NewLine
-.text	"I wish you two naught but happiness."
+.text	"Eu espero que vocês sejam muito felizes."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you so much, Lord Seliph!"
+.text	"Muito obrigado, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -1355,39 +1410,41 @@ dialogueEpiloguesAgustria_Jeanne_TristanAlive
 	.word LoadPortrait
 	.word portrait_Jeanne
 	.byte StartText
-.text	"Lord Seliph, I'm going to Agustria with my brother."
+.text	"Lorde Seliph, eu irei para Agustria"
+  .text NewLine
+.text "com meu irmão." 
 	.word PauseText
 	.byte $60
+
+	.byte LeftSlot
+.text	"Estou surpreso, Jeanne. Eu achei que você"
+	.byte NewLine
+.text	"iria para Leonster..."
+
+	.byte RightSlot
+	.word PauseText
+	.byte $20
 	.byte ScrollText
-
-	.byte LeftSlot
-.text	"I admit this is a surprise, Jeanne."
+.text	"E você não estaria errado..."
 	.byte NewLine
-.text	"I assumed you would go to Leonster..."
-
-	.byte RightSlot
-	.word PauseText
-	.byte $20
-.text	"I know..."
+.text	"Mas meu trabalho em Leonster acabou."
 	.byte NewLine
-.text	"But my work in Leonster's done."
-	.byte NewLine
-.text	"I've got no regrets..."
+.text	"Está na hora de eu ir para casa..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
-	.word ScrollBoth
-.text	"I see..."
+	.byte ScrollText
+.text	"Entendi..."
 	.byte NewLine
-.text	"Take care, Jeanne."
+.text	"Se cuide, Jeanne."
 	.byte NewLine
-.text	"You deserve nothing but happiness."
+.text	"Que você seja plenamente feliz."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"And you too, Lord Seliph..."
+.text	"Você também, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 
@@ -1409,7 +1466,7 @@ dialogueEpiloguesAgustria_Jeanne_TristanDead_Single
 	.word LoadPortrait
 	.word portrait_Jeanne
 	.byte StartText
-.text	"I'm going to Agustria as well, Lord Seliph."
+.text	"Eu vou para Agustria também, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -1417,41 +1474,51 @@ dialogueEpiloguesAgustria_Jeanne_TristanDead_Single
 	.byte LeftSlot
 .text	"Jeanne?"
 	.byte NewLine
-.text	"Ah, that's right."
+.text	"Ah, sim. Você e seu irmão nasceram"
 	.byte NewLine
-.text	"You and your brother were born in Agustria, yes?"
+.text	"em Agustria, certo?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"We were. Our father was a Nordion knight"
+.text	"Isso mesmo. Nosso pai era um cavaleiro de"
 	.byte NewLine
-.text	"who died in the service of Lady Lachesis."
+.text	"Nordion que morreu servindo"
 	.byte NewLine
-.text	"His name was Aoibh..."
+.text	"a Princesa Lachesis."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"O nome dele era Aoibh..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I see. Your parents died in battle long ago."
+.text	"Entendi. Seus pais morreram há muitos anos."
 	.byte NewLine
-.text	"And now Tristan has joined them..."
+.text	"E agora Tristan está com eles... Eu não"
 	.byte NewLine
-.text	"I couldn't save him. I'm so, so sorry..."
+.text	"consegui protegê-lo. Me perdoe..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, Lord Seliph, but I think I'll be fine."
+.text	"Obrigado pela preocupação, Lorde Seliph,"
+  .byte NewLine
+.text "mas eu vou ficar bem." 
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"After all, I still have hope."
+.text	"Afinal, eu ainda tenho esperança."
 	.byte NewLine
-.text	"Hope for a new world free of war..."
+.text	"A esperança de ver um mundo sem guerra..."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"E eu sei que você vai"
 	.byte NewLine
-.text	"And I know you'll make it a reality."
+.text	"fazer disso uma realidade."
 	.word PauseText
 	.byte $60
 
@@ -1472,39 +1539,42 @@ dialogueEpiloguesAgustria_Jeanne_LoverDead
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going to Agustria as well, Lord Seliph."
-	.byte NewLine
+.text	"Eu vou para Agustria também, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I still miss "
+.text	"Eu ainda sinto muita falta do "
 	.word PrintStoredNameA
-.text	" so much..."
+.text	"..."
 	.byte NewLine
-.text	"I'll never, ever forget him. But I've got to"
+.text	"Eu nunca, jamais, irei esquecê-lo. Mas"
 	.byte NewLine
-.text	"keep going. I can't just grieve forever."
+.text	"eu tenho que seguir em frente."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text "Eu não posso me enlutar para sempre."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I understand."
+.text	"Eu entendo. Esse momento vai ser difícil,"
 	.byte NewLine
-.text	"There isn't any helping how painful this will be,"
+.text	"Jeanne, mas eu oro para que você"
 	.byte NewLine
-.text	"but stay well."
+.text	"consiga superá-lo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I hope you'll find a new life for yourself in Agustria,"
+.text	"Eu espero que você consiga uma boa"
 	.byte NewLine
-.text	"Jeanne."
+.text	"vida em Agustria, Jeanne."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, Lord Seliph."
+.text	"Obrigado, Lorde Seliph."
 	.word PauseText
 	.byte $60
 
@@ -1526,19 +1596,19 @@ dialogueEpiloguesAgustria_End_OneCharacter
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Even as we speak,"
+.text	"Enquanto nós conversamos, Agustria ainda"
 	.byte NewLine
-.text	"Agustria's still embroiled in a civil war."
+.text	"está em guerra."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"A gruelling task awaits you, but I know you can"
+.text	"Uma tarefa difícil está a sua frente,"
 	.byte NewLine
-.text	"handle it if you give it your best."
+.text	"mas eu sei que você é capaz de enfrentá-la."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Agustria's fate is in your hands now."
+.text	"O destino de Agustria está em suas mãos."
 	.word PauseText
 	.byte $60
 
@@ -1558,21 +1628,21 @@ dialogueEpiloguesAgustria_End_MultipleCharacters
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Even as we speak,"
+.text	"Enquanto nós conversamos, Agustria ainda"
 	.byte NewLine
-.text	"Agustria's still embroiled in a civil war."
+.text	"está em guerra."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"A gruelling task awaits you all, but I know you"
+.text	"A sua missão será difícil, mas se"
 	.byte NewLine
-.text	"can handle it if you give it your best together."
+.text	"trabalharem juntos, vocês prevalecerão."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Agustria's fate now lies squarely in all of your"
+.text	"O destino de Agustria está nas mãos"
 	.byte NewLine
-.text	"hands."
+.text	"de todos vocês."
 	.word PauseText
 	.byte $60
 

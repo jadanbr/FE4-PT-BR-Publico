@@ -9,27 +9,32 @@ dialogueCh3VillageEast
 	.byte StartText
 .text	"Oh?"
 	.byte NewLine
-.text	"Here to help, are ya?"
+.text	"Aqui para nós ajudar, é?"
 	.byte NewLine
-.text	"Huzzah! The village is saved!"
+.text	"Viva! A vila está salva!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"We can't thank ya enough,"
+.text	"Nem temos como agradecer,"
 	.byte NewLine
-.text	"but mayhap this magic staff'll help ya out."
+.text	"mas talvez esse cajado mágico sirva."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They call it a Restore staff."
+.text	"É um cajado de Restaurar."
 	.byte NewLine
-.text	"If yer allies've been put t'sleep or silenced,"
+.text	"Se seus aliados forem"
 	.byte NewLine
-.text	"one cast of this staff'll get 'em back on their feet."
+.text	"acometidos por algum efeito mágico,"
+	.byte WaitForA
+	.byte ScrollText
+.text	"tal como um cajado de Adormecer ou Silenciar,"
+	.byte NewLine
+.text	"só usar esse cajado para resolver."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This oughta be a big help for ya."
+.text	"Tenho certeza que vai ser útil para vocês."
 	.byte WaitForA
 
 	.byte EndText
@@ -42,23 +47,23 @@ dialogueCh3VillageSouthEastOfMadino_BeforeSylvale
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"Ah... the Cross Knights."
+.text	"Ah... os Cavaleiros da Cruz."
 	.byte NewLine
-.text	"Lord Eldigan's elite knightly battalion."
+.text	"O batalhão de Elite do Lorde Eldigan."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Their might is legendary, and none in Jugdral"
+.text	"Eles são lendas, e ninguém em Jugdral"
 	.byte NewLine
-.text	"can even compare to them."
+.text	"podem se comparar a eles."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Actually..."
+.text	"Além disso..."
 	.byte NewLine
-.text	"My boyfriend is a Cross Knight!"
+.text	"Meu namorado é um deles!"
 	.byte NewLine
-.text	"Hee hee... amazing, isn't it?"
+.text	"Hee hee... legal, não é?"
 	.byte WaitForA
 
 	.byte EndText
@@ -71,17 +76,17 @@ dialogueCh3VillageSouthEastOfMadino_AfterSylvale
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"Sniff... I can't believe it."
+.text	"Sniff... mal posso acreditar."
 	.byte NewLine
-.text	"My boyfriend died in this blasted war."
+.text	"Meu namorado morreu nessa maldita guerra."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Damn the Grannvale army..."
+.text	"É culpa de Grannvale..."
 	.byte NewLine
-.text	"No, no... Damn King Chagall!"
+.text	"Não, não... É culpa do Rei Chagall!"
 	.byte NewLine
-.text	"This is all his fault!"
+.text	"Nada disso teria acontecido sem ele!"
 	.byte WaitForA
 
 	.byte EndText
@@ -96,21 +101,24 @@ dialogueCh3VillageNorthEastOfMadino
 	.byte StartText
 .text	"Oho!"
 	.byte NewLine
-.text	"Glad to see ya've come."
+.text	"Feliz em te ver aqui."
 	.byte NewLine
-.text	"I got this 'ere sword for ya in 'preciation."
+.text	"Eu tenho essa espada aqui pra você."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They call it the wing clipper."
+.text	"É uma espada Corta-Asa."
 	.byte NewLine
-.text	"It's enchanted to be lethal to sky-riders."
+.text	"Encantada para ser letal"
 	.byte NewLine
-.text	"If it flies, this sword'll bring it down."
+.text	"contra pégasos e dragões."
+	.byte WaitForA
+	.byte NewLine
+.text	"Se for algo que voa, isso aqui vai derrubar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"'Course, if ya can't use it, sell it!"
+.text	"Bem, se não puder usá-la, venda-a!"
 	.byte WaitForA
 
 	.byte EndText
@@ -123,19 +131,19 @@ dialogueCh3VillageNorthWestOfMadino
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"No matter how much I think about it,"
+.text	"Não importa o quanto eu penso nisso,"
 	.byte NewLine
-.text	"I just don't get why the Orgahil pirates"
+.text	"Eu não consigo imaginar porque que os piratas"
 	.byte NewLine
-.text	"have so suddenly turned on us like this."
+.text	"de Orgahil resolveram vir em cima de nós."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"We could've sworn that boss of theirs"
+.text	"Podia jurar que a chefe deles era uma"
 	.byte NewLine
-.text	"was a good lass..."
+.text	"moça legal..."
 	.byte NewLine
-.text	"Brigid or something, was it?"
+.text	"o nome dela é Brigid, acho."
 	.byte WaitForA
 
 	.byte EndText
@@ -148,25 +156,25 @@ dialogueCh3VillageSouthWestOfMadino
 	.word LoadPortrait
 	.word portrait_Civilian_OldWoman
 	.byte StartText
-.text	"Oh, it's so nice to see visitors!"
+.text	"Ah, que bom termos visitantes!"
 	.byte NewLine
-.text	"How 'bout a little somethin' for yer troubles?"
+.text	"Já que veio aqui, que tal experimentar"
 	.byte NewLine
-.text	"Here, take a draught of our secret medicine."
+.text	"coisa nossa? Tome essa poção aqui."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Don't be shy."
+.text	"Não seja tímido."
 	.byte NewLine
-.text	"Drink up!"
+.text	"Beba!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Well, how 'bout that?"
+.text	"E aí, o que achou?"
 	.byte NewLine
-.text	"Feel the might swellin' in yer muscles!"
+.text	"Sinta a força nos seus músculos!"
 	.byte NewLine
-.text	"Oughta make yer work out there so much easier."
+.text	"Deve facilitar a sua vida lá fora."
 	.byte WaitForA
 
 	.byte EndText
@@ -179,25 +187,25 @@ dialogueCh3VillageNorthEastOfSylvale
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"Hey, be careful out there!"
+.text	"Ei, cuidado lá fora!"
 	.byte NewLine
-.text	"Rumor has it that King Chagall's got the infamous"
+.text	"Dizem que Chagall contratou alguns"
 	.byte NewLine
-.text	"Thracian wyvern knights on his payroll."
+.text	"cavaleiros de dragão trácios."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Don't think there's been a war lately"
+.text	"Sempre que tem uma guerra rolando, algum"
 	.byte NewLine
-.text	"where someone or other didn't hire 'em."
+.text	"dos lados vão contratá-los."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They're like a pack of hyenas descendin' on"
+.text	"E eles são como um grupo de hienas atacando"
 	.byte NewLine
-.text	"fresh prey: brutal and indiscriminate."
+.text	"a presa: absolutamente brutais."
 	.byte NewLine
-.text	"Nothin' survives in their wake..."
+.text	"Nada sobrevive a um ataque deles..."
 	.byte WaitForA
 
 	.byte EndText
@@ -209,25 +217,25 @@ dialogueCh3VillageOrgahil
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"Ugh. I can't stand people like you"
+.text	"Ugh. Eu não aguento mais pessoas como"
 	.byte NewLine
-.text	"who've nothin' better to do than"
+.text	"você que só ficam fazendo"
 	.byte NewLine
-.text	"start more wars!"
+.text	"guerra por aí!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Why are you even here?"
+.text	"Porque você está aqui?"
 	.byte NewLine
-.text	"We've absolutely nothin' to do with Agustria"
+.text	"Não temos nada a ver com Agustria"
 	.byte NewLine
-.text	"or Grannvale!"
+.text	"ou Grannvale!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Look. If you've really gotta fight, take it"
+.text	"Olha, se você quiser fazer guerra, vá"
 	.byte NewLine
-.text	"somewhere else, you thoughtless sod."
+.text	"fazer em outro lugar, bem longe daqui."
 	.byte WaitForA
 
 	.byte EndText
@@ -240,11 +248,11 @@ dialogueCh3VillageNorthOfSylvale
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"We're so glad to see you!"
+.text	"Estamos felizes em ver você!"
 	.byte NewLine
-.text	"Here, have a quick sip of our local special brew."
+.text	"Aqui, bebe um pouquinho do que nós fazemos aqui."
 	.byte NewLine
-.text	"For generations, it's made us all hardier!"
+.text	"Por gerações, tem feito nós mais robustos!"
 	.byte WaitForA
 
 	.byte EndText		

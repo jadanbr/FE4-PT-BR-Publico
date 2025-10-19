@@ -7,17 +7,17 @@ dialogueChFinalApproachFriege
 	.word LoadPortrait
 	.word portrait_Scipio2
 	.byte StartText
-.text	"Heh, the rebels marched right into the trap."
+.text	"Heh, os rebeldes estão exatamente onde nós"
 	.byte NewLine
-.text	"All too easy. Men, cut through the forest and"
+.text	"queremos. Homens, tudo o que precisamos"
 	.byte NewLine
-.text	"swarm them from the rear!"
+.text	"fazer é ir pra cima deles!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"With Friege at their front,"
+.text	"Com o exército de Friege do outro lado,"
 	.byte NewLine
-.text	"we'll choke them like a snake on a rat!"
+.text	"vai ser fácil acabar com eles!"
 	.byte WaitForA
 
 	.byte EndText
@@ -30,17 +30,17 @@ dialogueChFinalKillJulius1_ManfroyAlive
 	.word LoadPortrait
 	.word portrait_Manfroy2
 	.byte StartText
-.text	"Ngaaah! Wh-what is happening?!"
+.text	"Ahhhh! O que está acontecendo?!"
 	.byte NewLine
-.text	"The dark power..."
+.text	"O poder dele..."
 	.byte NewLine
-.text	"The power fuelling my life... It's... fading..."
+.text	"O poder que me mantém vivo... está sumindo..."
 	.byte WaitForA
 	.byte ScrollText
 
 .text	"Guaaaaaah..."
 	.byte NewLine
-.text	"M-my lord... Lop... to... us..."
+.text	"M-meu senhor... Loptous..."
 	.byte WaitForA
 
 	.byte EndText
@@ -65,17 +65,17 @@ dialogueChFinalKillJulius2_ManfroyAlive_JuliaAlive
 	.word portrait_Julia
 	.byte ScrollText
 
-.text	"W... What in the world am I..."
+.text	"O que... o que aconteceu?"
 	.byte NewLine
-.text	"Wait... That's right... Manfroy..."
+.text	"Ah... acho que eu lembrei... Manfroy..."
 	.byte NewLine
-.text	"He used black magic to control me..."
+.text	"Ele tentou me controlar com magia negra..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.byte NewLine
-.text	"He must have freed me!"
+.text	"Ele deve ter me libertado!"
 	.byte WaitForA
 
 	.byte EndText
@@ -95,16 +95,16 @@ dialogueChFinalVisitVelthomerWithJulia
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Okay, Julia. This is the treasury."
+.text	"Júlia, essa é a caixa que estamos procurando."
 	.byte NewLine
-.text	"Try fitting the gemstone on your circlet"
+.text	"Tente colocar a gema do seu diadema no espaço"
 	.byte NewLine
-.text	"into that niche there."
+.text	"que tem ali."
 	
 	.byte RightSlot		;Julia
 	.word PauseText
 	.byte $10
-.text	"Here we go..."
+.text	"Certo..."
 	.byte WaitForA
 	.word PauseText
 	.byte $0F
@@ -115,11 +115,11 @@ dialogueChFinalVisitVelthomerWithJulia
 	.byte LeftSlot		;Lewyn
 	.word PauseText
 	.byte $46
-.text	"It worked... It really worked!"
+.text	"Funcionou memso!"
 	.byte NewLine
-.text	"There it is! The Book of Naga!"
+.text	"Aí está! O Tomo de Naga!"
 	.byte NewLine
-.text	"And it's yours for the taking, Julia!"
+.text	"Em suas mãos!"
 	.word MusicFadeOut
 	.byte $E0
 	
@@ -128,17 +128,15 @@ dialogueChFinalVisitVelthomerWithJulia
 	.byte $14
 	.word ChangeMusic
 	.byte $08
-.text	"Wow, I..."
+.text	"Uau, é..."
 	.byte NewLine
-.text	"Oh!"
-	.byte NewLine
-.text	"How strange..."
+.text	"Que sensação estranha..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"It feels so warm..."
+.text	"Eu sinto um calor aconchegante..."
 	.byte NewLine
-.text	"It's almost as if I've known this book all my life..."
+.text	"E também... sinto uma familiaridade..."
 	.byte WaitForA
 
 	.byte EndText

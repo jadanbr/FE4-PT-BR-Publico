@@ -7,25 +7,25 @@ dialogueChFinalVillageWest
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Hear me, brave heirs to the crusaders!"
+.text	"Ouçam, valentes herdeiros dos cruzados!"
 	.byte NewLine
-.text	"In your hands lies the task of proving this war"
+.text	"Em suas mãos, está a missão de fazer"
 	.byte NewLine
-.text	"to be a holy war of its own."
+.text	"desta guerra uma nova cruzada."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If wisdom, courage and power be your allies,"
+.text	"Usem todas as suas capacidades, se quiserem"
 	.byte NewLine
-.text	"summon them now and give all you have,"
-	.byte NewLine
-.text	"should you wish to prevail this day."
+.text	"prevalecer."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Trust in yourselves to bring forth our destiny,"
+.text	"Confiem em si, e cumpram com o seu destino,"
 	.byte NewLine
-.text	"one born where the two trails of light meet!"
+.text	"um destino que nasce com o encontro de"
+	.byte NewLine
+.text	"dois feixes de luz!"
 	.byte WaitForA
 
 	.byte EndText
@@ -38,85 +38,85 @@ dialogueChFinalVillageEast
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Oh, heirs to the courageous!"
+.text	"Ó, filhos dos corajosos!"
 	.byte NewLine
-.text	"Hear my ode to the crusaders of old."
+.text	"Por favor, ouçam minha canção."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"O Black Knight Hoðr, Mystletainn"
+.text	"Ó Cavaleiro Negro Hoðr, Mystletainn"
 	.byte NewLine
-.text	"the demonic in hand, smite the devil"
+.text	"diabólica em punho, castigue o demônio"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"O Sword Saint Od, Balmung"
+.text	"Ó Santo Espadachim Od, sagrada Balmung"
 	.byte NewLine
-.text	"the divine in hand, repel the blight"
+.text	"em mãos, afaste o mal"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"O Holy Knight Baldr, Tyrfing"
+.text	"Ó Sagrado Cavaleiro Baldr, divina Tyrfing"
 	.byte NewLine
-.text	"the sacred in hand, shine a light"
+.text	"na mão, ilumine o caminho"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And at last, O Saint Heim, Book of Naga"
+.text	"E no fim, ó São Heim, Tomo de Naga"
 	.byte NewLine
-.text	"in hand, pray to the heavens above"
+.text	"aberto na mão, ore aos céus"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Prayer begets light,"
+.text	"A oração traz a luz,"
 	.byte NewLine
-.text	"Light begets the white dragon"
+.text	"A luz traz o dragão branco"
 	.byte NewLine
-.text	"Foe of the shadow dragon"
+.text	"Inimigo do dragão maligno"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Black and white"
+.text	"Preto e branco"
 	.byte NewLine
-.text	"Light and dark"
+.text	"Luz e trevas"
 	.byte NewLine
-.text	"An eternal struggle"
+.text	"Um conflito eterno"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Shall our prayers yield victory"
+.text	"Nossas orações trarão a vitória?"
 	.byte NewLine
-.text	"Or shall it be death?"
+.text	"Ou trarão a morte?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And yet have no fear"
+.text	"Mas não há o que temer"
 	.byte NewLine
-.text	"For our battle is a beginning"
+.text	"Pois esse é só o começo"
 	.byte NewLine
-.text	"And defeat is never the end"
+.text	"E a derrota nunca será o fim"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The flame of light we seek"
+.text	"A chama da luz que procuramos"
 	.byte NewLine
-.text	"Is eternal, undying, never lost"
+.text	"É eterna, imortal, e nunca se perderá"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And in all who follow us"
+.text	"E em todos os que nos seguirem"
 	.byte NewLine
-.text	"I shall believe"
+.text	"Eu irei crer"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And in all who bear the light"
+.text	"E em todos que trouxerem a luz"
 	.byte NewLine
-.text	"I shall believe"
+.text	"Eu irei crer"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Not bad, innit?"
+.text	"Gostou?"
 	.byte WaitForA
 
 	.byte EndText

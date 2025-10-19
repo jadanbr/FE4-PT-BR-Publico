@@ -8,7 +8,7 @@
 
 ResumeGame
 .byte StartText
-.text "Resume Game"
+.text "Voltar ao Jogo"
 .byte EndText
 
 .here
@@ -18,7 +18,7 @@ ResumeGame
 
 SaveGame
 .byte StartText
-.text "§6_§6_Save Game§8_§8_§8_"
+.text "§6_§6_Salvar Jogo§8_§8_§8_"
 .byte EndText
 
 .here
@@ -28,7 +28,7 @@ SaveGame
 
 StartChapter
 .byte StartText
-.text "Start Chapter§8_§8_§8_"
+.text "§8_Começar Cap.§8_§8_"
 .byte EndText
 
 .here
@@ -38,7 +38,7 @@ StartChapter
 
 NewGame
 .byte StartText
-.text "New Game§8_§8_§8_§8_§8_"
+.text "§8_§6_Novo Jogo§8_§8_§8_"
 .byte EndText
 
 .here
@@ -48,7 +48,7 @@ NewGame
 
 CopyData
 .byte StartText
-.text "Copy Game"
+.text "Copiar save"
 .byte EndText
 
 .here
@@ -58,7 +58,7 @@ CopyData
 
 EraseData
 .byte StartText
-.text "Erase Data§8_§8_§8_§8_"
+.text "§8_Apagar Save§8_§8_"
 .byte EndText
 
 .here
@@ -78,7 +78,7 @@ Save
 
 Erase
 .byte StartText
-.text "Erase"
+.text "Apagar"
 .byte EndText
 
 .here
@@ -88,7 +88,7 @@ Erase
 
 Quit
 .byte StartText
-.text "Quit§8_"
+.text "Sair§8_"
 .byte EndText
 
 .here
@@ -98,7 +98,7 @@ Quit
 
 NoData
 .byte StartText
-.text "§8_§8_§8_§8_§8_§8_§8_§8_§8_No Data§8_§8_§8_§8_§8_§8_§8_§8_§8_§8_"
+.text "§8_§8_§8_§8_§8_§8_§8_§8_§8_Sem dados§8_§8_§8_§8_§8_§8_§8_§8_§8_§8_"
 .byte EndText
 
 .here

@@ -14,11 +14,11 @@ dialogueCh10KillIshtar
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You've lost, have you?"
+.text	"Ah, Ishtar, conseguiu perder?"
 	.byte NewLine
-.text	"Hmph..."
+.text	"Hunff..."
 	.byte NewLine
-.text	"We leave at once!"
+.text	"Vamos embora!"
 	.byte WaitForA
 
 	.byte EndText
@@ -40,14 +40,14 @@ dialogueCh10JuliusKills
 	.byte StartText
 .text	"Heh..."
 	.byte NewLine
-.text	"Such an easy win, Ishtar."
+.text	"Essa foi fácil, Ishtar."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Masterfully done, Lord Julius!"
+.text	"Muito bem feito, Lorde Julius!"
 	.byte NewLine
-.text	"I expected no less of you."
+.text	"Não esperava menos de você."
 	.byte WaitForA
 
 	.byte EndText
@@ -69,16 +69,16 @@ dialogueCh10IshtarKills
 	.byte StartText
 .text	"Heh!"
 	.byte NewLine
-.text	"That's the end of it, Lord Julius."
+.text	"Acabou o jogo, Lorde Julius."
 	.byte NewLine
-.text	"I've won."
+.text	"Eu ganhei."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
 .text	"Hrm..."
 	.byte NewLine
-.text	"Not bad at all, Ishtar."
+.text	"Nada mal, Ishtar."
 	.byte WaitForA
 
 	.byte EndText
@@ -91,11 +91,11 @@ dialogueCh10RescueBoy1
 	.word LoadPortrait
 	.word portrait_Civilian_SmallBoy
 	.byte StartText
-.text	"Huh? You're with the liberators?!"
+.text	"Hã? Você é dos libertadores?!"
 	.byte NewLine
-.text	"Wow!"
+.text	"Uau!"
 	.byte NewLine
-.text	"You came for us after all!"
+.text	"Você realmente veio nos salvar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -108,9 +108,9 @@ dialogueCh10RescueBoy2
 	.word LoadPortrait
 	.word portrait_Civilian_SmallBoy
 	.byte StartText
-.text	"Whoa, the liberators!"
+.text	"Eba, os libertadores chegaram!"
 	.byte NewLine
-.text	"You're the best!"
+.text	"Vocês são os melhores caras!"
 	.byte WaitForA
 
 	.byte EndText
@@ -123,11 +123,11 @@ dialogueCh10RescueBoy3
 	.word LoadPortrait
 	.word portrait_Civilian_SmallBoy
 	.byte StartText
-.text	"Wait, you're a crusader?"
+.text	"Pera aí, você é um dos cruzados?"
 	.byte NewLine
-.text	"Really?"
+.text	"Sério?"
 	.byte NewLine
-.text	"Huh..."
+.text	"Hã... não era o que eu esperava."
 	.byte WaitForA
 
 	.byte EndText
@@ -140,11 +140,11 @@ dialogueCh10RescueGirl1
 	.word LoadPortrait
 	.word portrait_Civilian_SmallGirl
 	.byte StartText
-.text	"Ohh!"
+.text	"Ahh!"
 	.byte NewLine
-.text	"You're a crusader..."
+.text	"Você é um dos cruzados... Você me assustou..."
 	.byte NewLine
-.text	"I was really scared there..."
+.text	"mas obrigado por me salvar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -157,11 +157,11 @@ dialogueCh10RescueGirl2
 	.word LoadPortrait
 	.word portrait_Civilian_SmallGirl
 	.byte StartText
-.text	"You're the liberation army?"
+.text	"Vocês são os libertadores?"
 	.byte NewLine
-.text	"Wow..."
+.text	"Uau..."
 	.byte NewLine
-.text	"You're all amazing!"
+.text	"Vocês são demais!"
 	.byte WaitForA
 
 	.byte EndText
@@ -174,9 +174,9 @@ dialogueCh10RescueGirl3
 	.word LoadPortrait
 	.word portrait_Civilian_SmallGirl
 	.byte StartText
-.text	"Thank you for rescuing me!"
+.text	"Muito obrigado por me salvar!"
 	.byte NewLine
-.text	"Thank you!"
+.text	"Será que meus pais ainda estão em casa?" ;Mudei porque tem que dar uma variada né
 	.byte WaitForA
 
 	.byte EndText
@@ -194,29 +194,31 @@ dialogueCh10SeliphBeachEpisode
 	.byte StartText
 .text	"Seliph..."
 	.byte NewLine
-.text	"Oh, Seliph..."
+.text	"Ah, meu filho..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"I-is somebody there?"
+.text	"T-tem alguém aí?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Deirdre
 	.byte StartText
-.text	"Oh, Seliph..."
+.text	"Ah, Seliph..."
 	.byte NewLine
-.text	"How you've grown..."
+.text	"Como você cresceu..."
+	.byte NewLine
+.text	"Mamãe sentiu muita falta..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Could it be... M-Mother?!"
+.text	"M-mãe?!"
 	.byte NewLine
-.text	"Mother!"
+.text	"Mamãe!"
 	.byte NewLine
-.text	"Is it truly you?"
+.text	"É você mesmo?"
 	.byte WaitForA
 	.word ChangeMusic
 	.byte $54
@@ -227,54 +229,54 @@ dialogueCh10SeliphBeachEpisode
 	.byte LeftSlot
 	.word LoadPortrait
 	.word portrait_Ghost_Deirdre
-.text	"What a fine young man you've become..."
+.text	"Que grande homem você se tornou, filho..."
 	.byte NewLine
-.text	"Bless Lewyn for all he's done to guide you"
+.text	"Que os deuses abençoem Lewyn pelo bom trabalho"
 	.byte NewLine
-.text	"this far..."
+.text	"dele..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"...Seliph, never forget."
+.text	"...Seliph, nunca esqueça."
 	.byte NewLine
-.text	"Your friends..."
+.text	"Seus amigos..."
 	.byte NewLine
-.text	"Your companions..."
+.text	"Seus companheiros..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You must always cherish them..."
+.text	"Aprecie os seus amigos..."
 	.byte NewLine
-.text	"You owe them so..."
+.text	"Você deve muito àqueles que te ajudaram..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"...Y-yes, Mother. I understand."
+.text	"...S-sim, mãe. Entendi."
 	.byte NewLine
 	.word PauseText
 	.byte $1E
-.text	"Oh! I've defeated Emperor Arvis!"
+.text	"Ah! Eu derrotei o Imperador!"
 	.byte NewLine
 	.word PauseText
 	.byte $14
-.text	"At long last, Father has been avenged!"
+.text	"Finalmente, meu pai está vingado!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Deirdre
-.text	"You did..."
+.text	"Percebo..."
 	.byte NewLine
-.text	"But what of Julius and Julia...?"
+.text	"Mas e quanto à Julius e Júlia...?"
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $19
-.text	"I still don't know..."
+.text	"Eu não sei o que vou fazer..."
 	.byte NewLine
-.text	"Wait! Mother, how could you know of"
+.text	"Espera! Mãe, como você sabe o que"
 	.byte NewLine
-.text	"what happened to them?"
+.text	"aconteceu com eles?"
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -284,7 +286,7 @@ dialogueCh10SeliphBeachEpisode
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $19
-.text	"...Mother?"
+.text	"...Mãe?"
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -309,46 +311,46 @@ dialogueCh10SeliphBeachEpisode
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $1E
-.text	"Who's there?"
+.text	"Quem é agora?"
 	.byte NewLine
-.text	"Wait..."
+.text	"Espera..."
 	.byte NewLine
-.text	"Is... Is it you, Father?!"
+.text	"É você, pai?!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Sigurd
-.text	"Listen, Seliph."
+.text	"Escute, filho."
 	.byte NewLine
-.text	"You must stay humble, no matter what."
+.text	"Nunca perca a humildade."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Remember, your power alone was not what"
+.text	"Lembre-se, não foi você sozinho quem"
 	.byte NewLine
-.text	"put an end to Arvis..."
+.text	"derrotou Arvis..."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $19
-.text	"What?"
+.text	"O quê?"
 	.byte NewLine
-.text	"How do you mean, Father?"
+.text	"O que quer dizer, pai?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Sigurd
-.text	"You must learn the sorrow of the common man,"
+.text	"Tem que entender a dor do homem comum,"
 	.byte NewLine
 .text	"Seliph."
 	.byte NewLine
-.text	"Your truth is not the reality of all."
+.text	"A sua realidade não é a realidade deles."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Unless you know their pain, these long years"
+.text	"Se você não entender a dor deles, toda essa"
 	.byte NewLine
-.text	"of war will have been for naught..."
+.text	"guerra terá sido em vão..."
 	.word PauseText
 	.byte $1E
 	.word ClearPortrait
@@ -356,11 +358,11 @@ dialogueCh10SeliphBeachEpisode
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $19
-.text	"F-Father!"
+.text	"P-pai!"
 	.byte NewLine
-.text	"Come back..."
+.text	"Volta aqui..."
 	.byte NewLine
-.text	"Please!"
+.text	"Por favor!"
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -371,14 +373,18 @@ dialogueCh10SeliphBeachEpisode
 	.word OpenBox
 .text	"Seliph..."
 	.byte NewLine
-.text	"Take care, my son..."
+.text	"Se cuide, meu filho..."
+	.word PauseText
+	.byte $1E
+	.word ClearPortrait
+	.word CloseBox
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $19
-.text	"Oh..."
+.text	"Ah..."
 	.byte NewLine
-.text	"Mother..."
+.text	"Mãe..."
 	.byte WaitForA
 
 	.byte EndText

@@ -9,15 +9,17 @@ dialogueCh9BattleCanut
 	.word LoadPortrait
 	.word portrait_Canut2
 	.byte StartText
-.text	"My lord Hannibal is depending on"
+.text	"As ordens de meu Lorde Aníbal"
 	.byte NewLine
-.text	"me to defend this castle."
+.text	"dizem que eu devo"
+	.byte NewLine
+.text	"defender este castelo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If you wish to claim it,"
+.text	"Se quiser ele, vai ter que me"
 	.byte NewLine
-.text	"you must first claim my life!"
+.text	"matar primeiro!"
 	.byte WaitForA
 
 	.byte EndText
@@ -30,11 +32,11 @@ dialogueCh9BattleHannibal
 	.word LoadPortrait
 	.word portrait_Hannibal
 	.byte StartText
-.text	"Must we fight...?"
+.text	"Temos que lutar...?"
 	.byte NewLine
-.text	"I suppose I have no choice."
+.text	"Bem, eu não tenho escolha."
 	.byte NewLine
-.text	"In Thracia's name, then..."
+.text	"No nome da Trácia..."
 	.byte WaitForA
 
 	.byte EndText
@@ -47,11 +49,16 @@ dialogueCh9BattleDistler
 	.word LoadPortrait
 	.word portrait_Distler2
 	.byte StartText
-.text	"The rebels are already here?!"
+.text	"Os rebeldes já estão aqui?!"
 	.byte NewLine
-.text	"Blast..."
+.text	"Droga..."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Não estamos prontos"
 	.byte NewLine
-.text	"We aren't ready for this!"
+.text	"para enfrentá-los ainda!"
+	
 	.byte WaitForA
 
 	.byte EndText
@@ -64,11 +71,11 @@ dialogueCh9BattleMousa
 	.word LoadPortrait
 	.word portrait_Mousa2
 	.byte StartText
-.text	"Death to all rebel scum!"
+.text	"Morte a escória rebelde!"
 	.byte NewLine
-.text	"Only oblivion awaits those who"
+.text	"Quem se opõe ao Império"
 	.byte NewLine
-.text	"dare to threaten the Empire!"
+.text	"só tem um caminho: a morte!"
 	.byte WaitForA
 
 	.byte EndText
@@ -81,17 +88,17 @@ dialogueCh9BattleJudas
 	.word LoadPortrait
 	.word portrait_Judas2
 	.byte StartText
-.text	"A liberation army, is it..."
+.text	'um "exército libertador", é...'
 	.byte NewLine
-.text	"There is no place for your"
+.text	"Não tem lugar para sua preciosa"
 	.byte NewLine
-.text	"precious light in this realm."
+.text	"luz neste lugar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This world is Lord Loptous's"
+.text	"Esse mundo será afundado na"
 	.byte NewLine
-.text	"to smother in darkness!"
+.text	"escuridão do nosso deus Loptous!"
 	.byte WaitForA
 
 	.byte EndText
@@ -104,9 +111,9 @@ dialogueCh9BattleAltena
 	.word LoadPortrait
 	.word portrait_Altena
 	.byte StartText
-.text	"Stand down before I cut you down."
+.text	"Desistam agora de sua invasão."
 	.byte NewLine
-.text	"You will never win!"
+.text	"Vocês nunca vencerão!"
 	.byte WaitForA
 
 	.byte EndText
@@ -126,23 +133,23 @@ dialogueCh9BattleAltena_Leif
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"You're Leonster's prince, are you?"
+.text	"É você o príncipe de Leonster, é?"
 	.byte NewLine
-.text	"How dare you try to steal our land!"
+.text	"Como ousa vir aqui invadir nossa terra!"
 	
 	.byte RightSlot		;Leif
 	.word PauseText
 	.byte $10
-.text	"Please, stay your hand!"
+.text	"Por favor, tenha calma!"
 	.byte NewLine
-.text	"You... You're my-"
+.text	"Você... você é minha-"
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Altena
-.text	"Silence!"
+.text	"Cale-se!"
 	.byte NewLine
-.text	"Spare me your ravings!"
+.text	"Não quero ouvir suas besteiras!"
 	.byte WaitForA
 
 	.byte EndText
@@ -162,16 +169,16 @@ dialogueCh9BattleAltena_Finn
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"My apologies, but you shall fall here..."
+.text	"Me perdoe, mas é aqui que você morre..."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
 .text	"Oh!"
 	.byte NewLine
-.text	"L-Lady Altena!"
+.text	"M-Madame Altena!"
 	.byte NewLine
-.text	"It is you... It really is you..."
+.text	"É você... É você mesma..."
 	.byte WaitForA
 
 	.byte EndText
@@ -186,15 +193,26 @@ dialogueCh9BattleTravant
 	.byte StartText
 .text	"Heh heh heh..."
 	.byte NewLine
-.text	"Welcome, rebel scum."
+.text	"Espero que tenham gostado"
 	.byte NewLine
-.text	"I am Travant."
+.text	"das boas vindas, rebeldes."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Remember this well: a final gift"
+.text	"Eu sou Travant,"
 	.byte NewLine
-.text	"from the depths of the inferno!"
+.text	"seu anfitrião."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"Mas eu não posso deixá-los"
+	.byte NewLine
+.text	"ir sem antes"
+	.byte NewLine
+.text	"dar-lhes um presentinho:"
+	.byte WaitForA
+	.byte NewLine
+.text	"minha lança na sua cara!"
 	.byte WaitForA
 
 	.byte EndText
@@ -214,47 +232,49 @@ dialogueCh9BattleTravant_Leif
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Heh heh heh... So!"
+.text	"Heh heh heh... Olha quem chegou aqui!"
 	.byte NewLine
-.text	"You're Quan's troublesome little son, are you?"
+.text	"Você é o filhinho chato do Quan, né?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"What a fool Bloom was..."
+.text	"Bloom devia ser um grande incompetente..."
 	.byte NewLine
-.text	"How could he have failed to kill a runt like you?"
+.text	"Como ele ficou tanto tempo tentando te matar,"
+	.byte NewLine
+.text	"e ainda assim não conseguiu?"
 	
 	.byte RightSlot		;Leif
 	.word PauseText
 	.byte $10
-.text	"We meet at last, Travant..."
+.text	"Finalmente nos encontramos, Travant..."
 	.byte NewLine
-.text	"I... I've awaited this day for so long."
+.text	"Eu... esperei esse dia por muito tempo."
 	.byte NewLine
-.text	"This is what kept me alive all this time..."
+.text	"Isso é o que me deu motivo pra viver..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I've lived for this alone: to choke the life from"
+.text	"Foi para isso que eu sobrevivi: para ter"
 	.byte NewLine
-.text	"you with my bare hands!"
+.text	"o prazer de te matar eu mesmo!"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Travant
-.text	"Heh... As foolish as your father..."
+.text	"Heh... tão bobo quanto seu pai..."
 	.byte NewLine
-.text	"And unlike him, you can't even wield Gáe Bolg!"
+.text	"E diferente dele, nem pode usar Gáe Bolg!"
 	.byte NewLine
-.text	"You don't stand a chance!"
+.text	"Você não tem a menor chance!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Now, hold still!"
+.text	"Agora, parado aí!"
 	.byte NewLine
-.text	"It's time you learned the last agonies"
+.text	"Eu vou te mostrar em primeira mão o que"
 	.byte NewLine
-.text	"your father felt at my hands!"
+.text	"seu pai sofreu naquele dia!"
 	.byte WaitForA
 
 	.byte EndText
@@ -274,27 +294,30 @@ dialogueCh9BattleTravant_Finn
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Ah, yes."
+.text	"Ah, que honra tê-lo aqui!"
 	.byte NewLine
-.text	"The famous Finn!"
+.text	"O famoso Finn, leal cavaleiro de Leonster!"
 	.byte NewLine
-.text	"Still clinging to life, are you?"
+.text	"Parabéns por sobreviver ao Império todos"
+	.byte WaitForA
+	.byte NewLine
+.text	"esses anos!"
 	
 	.byte RightSlot		;Finn
 	.word PauseText
 	.byte $10
-.text	"Prepare yourself, King Travant!"
+.text	"Prepare-se, Rei Travant!"
 	.byte NewLine
-.text	"Today, I avenge my fallen lord!"
+.text	"Hoje, eu vingo meu falecido lorde!"
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Travant
-.text	"Hah! How laughable! A common soldier like you"
+.text	"Hah! Essa é boa! Um soldado comum"
 	.byte NewLine
-.text	"could never even scratch me!"
+.text	"como você não consegue nem fazer um arranhão"
 	.byte NewLine
-.text	"I take it you're ready to die, then?"
+.text	"em mim! Então, presumo que só quer morrer mesmo?"
 	.byte WaitForA
 
 	.byte EndText
@@ -307,11 +330,11 @@ dialogueCh9BattleArion
 	.word LoadPortrait
 	.word portrait_Arion3
 	.byte StartText
-.text	"Heh... What fools. You dare"
+.text	"Heh... Tolos. Vocês ousam me"
 	.byte NewLine
-.text	"challenge me, even knowing I wield"
+.text	"enfrentar, sabendo que tenho em minhas"
 	.byte NewLine
-.text	"Gungnir, the heavenly lance?"
+.text	"mãos Gungnir, a lança celestial?"
 	.byte WaitForA
 
 	.byte EndText
@@ -331,29 +354,29 @@ dialogueCh9BattleArion_Seliph
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"So... You're the famous Prince Seliph..."
+.text	"Então... você é o famoso Príncipe Seliph..."
 	.byte NewLine
-.text	"Heh, I trust you'll make for a fine foe."
+.text	"Eu tenho certeza que será um bom oponente."
 	.byte NewLine
-.text	"Shall we begin our duel, then?"
+.text	"Podemos começar nosso duelo?"
 	
 	.byte RightSlot		;Seliph
 	.word PauseText
 	.byte $10
-.text	"Prince Arion, please!"
+.text	"Príncipe Arion, por favor!"
 	.byte NewLine
-.text	"Lay down your arms!"
+.text	"Abaixe suas armas!"
 	.byte NewLine
-.text	"It isn't too late to end this peacefully!"
+.text	"Ainda podemos fazer uma trégua!"
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Arion
-.text	"Enough! I've nothing left to say."
+.text	"Basta! Eu não tenho nada que negociar contigo."
 	.byte NewLine
-.text	"Now, come!"
+.text	"Agora, venha!"
 	.byte NewLine
-.text	"Come acquaint yourself with Gungnir, Seliph!"
+.text	"Veja se consegue me derrotar, Príncipe!"
 	.byte WaitForA
 
 	.byte EndText
@@ -373,29 +396,29 @@ dialogueCh9BattleArion_Altena
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Stop this madness, Arion!"
+.text	"Pare com essa loucura, Arion!"
 	.byte NewLine
-.text	"We've no reason to fight!"
+.text	"Não tem porque você lutar!"
 	
 	.byte RightSlot		;Arion
 	.word PauseText
 	.byte $10
-.text	"Altena... I see you're in good health."
+.text	"Altena... que bom ver que você está bem."
 	.byte NewLine
-.text	"I for one have long sought to test my skills"
+.text	"Por muito tempo esperei ter um"
 	.byte NewLine
-.text	"against you."
+.text	"duelo com você, descendente de Njörun."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Now, come at me!"
+.text	"Agora, prepare-se!"
 	.byte NewLine
-.text	"I won't hold back!"
+.text	"Dessa vez, eu vou atacar de verdade!"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Altena
-.text	"Oh... Arion..."
+.text	"Ah... Arion..."
 	.byte WaitForA
 
 	.byte EndText

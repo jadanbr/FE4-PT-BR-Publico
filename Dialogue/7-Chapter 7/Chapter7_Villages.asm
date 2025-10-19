@@ -7,25 +7,25 @@ dialogueCh7VillageWestOfDahna
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"Dahna is lorded over by Count Bramsel,"
+.text	"Dahna é governada pelo Conde Bramsel,"
 	.byte NewLine
-.text	"who's as revolting as they come!"
+.text	"e ele é um dos piores que eu já vi!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"If he isn't playing the slimy sycophant to some"
+.text	"Se ele não tá puxando o saco de algum de"
 	.byte NewLine
-.text	"visiting Grannvale noble or other, he's prancin'"
+.text	"algum nobre que chegou aí, ele age como se"
 	.byte NewLine
-.text	"around like he's the gods' gift to kings!"
+.text	"ele fosse o maior dentre todos os nobres!"
 	.byte WaitForA
 	.byte ScrollText
 	
 .text	"Ugh..."
 	.byte NewLine
-.text	"The sooner somebody sticks a sword"
+.text	"O quanto antes alguém passar a espada"
 	.byte NewLine
-.text	"through that pig of a man, the better!"
+.text	"naquele homem, melhor!"
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -38,43 +38,48 @@ dialogueCh7VillageWestOfDahna
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
-.text	"It ain't that simple, though."
+.text	"Mas, não vai ser fácil assim."
 	.byte NewLine
-.text	"Standing between you lot and Bramsel is the"
+.text	"Entre vocês e Bramsel, tem a melhor força"
 	.byte NewLine
-.text	"best mercenary force his money can buy."
+.text	"mercenária que o dinheiro pode comprar. Bem,"
+	.byte WaitForA
+	.byte NewLine
+.text	"o dinheiro dele pelo menos."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"One of 'em, Ares, is the strongest of 'em all."
+.text	"Porém um deles, Ares, é dos melhores mesmo."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"He's still just a kid, really, but he's frightfully"
+.text	"Ele ainda é só um garoto, mas ele é muito"
 	.byte NewLine
-.text	"strong, 'cause he's got this magic blade"
+.text	"forte, porque ele tem essa espada mágica que"
 	.byte NewLine
-.text	"called Mystletainn."
+.text	"ele chama de Mystletainn."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"From what I heard, the mercenary captain,"
+.text	"Pelo que eu ouvi, o capitão dos mercenários,"
 	.byte NewLine
-.text	"Javarro, found Ares as a wee little kid and"
+.text	"Javarro, achou ele quando era pequeno e"
 	.byte NewLine
-.text	"took him in. The two're real close, I hear."
+.text	"adotou ele. Parece que os dois são bem próximos."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"You ain't got much of a chance against Ares."
+.text	"De qualquer jeito, vocês não"
+	.byte NewLine
+.text	"tem muita chance contra ele."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Sorry to rain on your parade like that, kid."
+.text	"Desculpe ter que te dizer isso."
 	.byte NewLine
-.text	"Here, take this shield ring as an apology."
+.text	"Aqui, pegue este Anel Protetor."
 	.byte NewLine
-.text	"You oughta be able to get some use out of this."
+.text	"Deve servir para alguma coisa."
 	.byte WaitForA
 
 	.byte EndText
@@ -87,30 +92,30 @@ dialogueCh7VillageCentermost
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"Bloom's got some terrifying warriors on his side."
+.text	"Bloom tem umas guerreiras terríveis à seu lado."
 	.byte NewLine
-.text	"There's Banba, Fódla and Ériu,"
+.text	"Falo de Banba, Fódla e Ériu, um trio de"
 	.byte NewLine
-.text	"a trio of powerful sorceress sisters."
+.text	"irmãs magas."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Then there's "
+.text	"Aí tem "
 	.word PrintBranchingName
 	.word name_TineLinda
-.text	", a young mage..."
+.text	", uma jovem maga..."
 	.byte NewLine
-.text	"Bloom's niece she may be,"
+.text	"Ela pode ser sobrinha do Bloom, mas ainda"
 	.byte NewLine
-.text	"but that girl's still got a kind heart on her."
+.text	"assim, ela é gente boa."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"She's come to our aid and the aid of our"
+.text	"Ela veio nos ajudar e ajudar as vilas"
 	.byte NewLine
-.text	"neighbor villages time and again..."
+.text	"vizinhas várias vezes..."
 	.byte NewLine
-.text	"She's nothing like her family..."
+.text	"Nada parecido com o resto da família..."
 	.byte WaitForA
 
 	.byte EndText
@@ -123,27 +128,30 @@ dialogueCh7VillageCenterWest
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"King Bloom and his queen, Hilda,"
+.text	"Rei Bloom e sua rainha, Hilda,"
 	.byte NewLine
-.text	"have got two children between 'em:"
+.text	"tiveram dois filhos:"
 	.byte NewLine
-.text	"Ishtar and Ishtore."
+.text	"Ishtar e Ishtore."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Ishtar's ruling over Munster right now,"
+.text	"Ishtar está governando Munster agora,"
 	.byte NewLine
-.text	"and Ishtore's posted at Fort Mergen,"
+.text	"E Ishtore está no Forte Mergen,"
 	.byte NewLine
-.text	"both doing Bloom's dirty work."
+.text	"os dois fazendo o trabalho sujo do seu pai."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Unlike their folks, they're fine youths."
+.text	"Diferente dos pais, eles não são tão ruins."
 	.byte NewLine
-.text	"You'll be sure to face 'em sooner or later..."
+.text	"Mas você certamente terá que"
 	.byte NewLine
-.text	"Be on your guard, stranger."
+.text	"lidar com eles em algum momento..."
+	.byte WaitForA
+	.byte NewLine
+.text	"Tenha cuidado, estranho."
 	.byte WaitForA
 
 	.byte EndText
@@ -156,23 +164,29 @@ dialogueCh7VillageMidWest
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"Near the end of the war all those years ago,"
+.text	"Perto do fim daquela guerra vários anos atrás,"
 	.byte NewLine
-.text	"this entire region was conquered by King Bloom,"
+.text	"essa região foi conquistado pelo Rei Bloom,"
 	.byte NewLine
-.text	"the son of Duke Reptor."
+.text	"filho do Duque Reptor."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"His rule's been one tragedy after another..."
+.text	"Seu governo tem sido só "
 	.byte NewLine
-.text	"Just when we thought he couldn't get any worse,"
-	.byte NewLine
-.text	"now he's just letting those child hunts happen!"
+.text	"uma tragédia atrás da outra..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"We can't take this anymore..."
+.text	"E quando a gente pensou que"
+	.byte NewLine
+.text	"não podia ficar pior, ele começa a"
+	.byte NewLine
+.text	"deixar as caçadas de crianças acontecerem!"
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Nós não aguentamos mais isso..."
 	.byte WaitForA
 
 	.byte EndText
@@ -185,11 +199,14 @@ dialogueCh7VillageSouthwestOfLeonster
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"The Empire's brutal rule has broken us so..."
+.text	"O jugo brutal do Império está"
 	.byte NewLine
-.text	"We can't live like this much longer."
+.text	"nos levando ao limite..."
 	.byte NewLine
-.text	"Please, I beg of you... Save us all..."
+.text	"Nós não aguentamos mais."
+	.byte WaitForA
+	.byte NewLine
+.text	"Por favor, te imploro, nos salve..."
 	.byte WaitForA
 
 	.byte EndText
@@ -209,59 +226,65 @@ dialogueCh7VillageSouthwestOfLeonster_Laylea
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You're fighting in the war, right?"
+.text	"Você está lutando na guerra, certo?"
 	.byte NewLine
 	.word PauseText
 	.byte $1E
-.text	"I bet there's someone you care about"
+.text	"Aposto que você está lutando por"
 	.byte NewLine
-.text	"who you're fighting for."
+.text	"alguém que você ama."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"My boyfriend set off to fight in the war, too."
+.text	"Meu namorado foi lutar na guerra também."
 	.byte NewLine
-.text	"I'm not exactly a fighter myself. Not much I can"
+.text	"Eu não sei lutar, então não tenho muita"
 	.byte NewLine
-.text	"do but wait for people like you to finish it..."
+.text	"escolha além de esperar"
+	.byte WaitForA
+	.byte NewLine
+.text	"que outros o façam por mim..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Oh, I know!"
+.text	"Ah, já sei!"
 	.byte NewLine
-.text	"Here, this charmed blade'll boost your resistance."
+.text	"Aqui, essa espada encantada"
 	.byte NewLine
-.text	"Go on. This one's on the house."
+.text	"vai melhorar sua defesa mágica."
+	.byte WaitForA
+	.byte NewLine
+.text	"Não se preocupe, essa é por conta da casa."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Be sure to make some nice deep cuts"
+.text	"Se quiser pagar, só matar alguns Imperiais"
 	.byte NewLine
-.text	"in some Imperials for me, won't you, sweetie?"
+.text	"com ela, pode ser, querida?"
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Thanks, miss!"
+.text	"Obrigado, dona!"
 	.byte NewLine
-.text	"I'll take good care of it."
+.text	"Eu vou tomar conta dela."
 	.byte NewLine
-.text	"Hey, what's your name anyway?"
+.text	"Ah, qual é o seu nome?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot
-.text	"Me?"
+.text	"O meu?"
 	.byte NewLine
-.text	"The name's Anna,"
+.text	"Meu nome é Anna,"
 	.byte NewLine
-.text	"and my boyfriend's called Jake."
+.text	"e meu namorado se chama Jake."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"If you see him,"
+.text	"Se você encontrar ele, diga que a Anna"
 	.byte NewLine
-.text	"be sure to tell him that Anna's worried sick!"
+.text	"está muito preocupada!"
 	
 	.byte RightSlot
 	.word PauseText
@@ -279,23 +302,25 @@ dialogueCh7VillageSoutheastOfLeonster
 	.word LoadPortrait
 	.word portrait_Civilian_OldWoman
 	.byte StartText
-.text	"Ahh... The liberation army..."
+.text	"Ahh... o exército de libertação..."
 	.byte NewLine
-.text	"It's a blessing to know that Prince Leif has"
+.text	"É bom ver que finalmente o Príncipe Leif"
 	.byte NewLine
-.text	"finally taken a stand."
+.text	"resolveu lutar."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Lord Quan... Lady Ethlyn..."
+.text	"Lorde Quan... Madame Ethlyn..."
 	.byte NewLine
-.text	"I pray you're both proud of your son..."
+.text	"Espero que vocês estejam orgulhoso dele..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Please, kind knight, accept this speed ring."
+.text	"Por favor, bom cavaleiro, aceite esse"
 	.byte NewLine
-.text	"I'd like you to wear it proudly to your battles."
+.text	"Anel de Velocidade."
+	.byte NewLine
+.text	"Quero que o use com orgulho em batalha."
 	.byte WaitForA
 
 	.byte EndText

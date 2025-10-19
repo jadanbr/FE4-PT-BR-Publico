@@ -3,20 +3,20 @@
 dialogueChFinalWM1
 
 	.byte StartText
-.text	"Seliph and his companions’ long journey"
+.text	"A longa jornada de Seliph e seus companheiros"
 	.byte NewLine
-.text	"at last nears its final hour."
+.text	"esta chegando perto de seu fim."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The Liberation Army’s movements send a wave"
+.text	"O sucesso que seu Exército de Libertação tem"
 	.byte NewLine
-.text	"of encouragement through Jugdral’s people,"
+.text	"tido encorajou o povo de Jugdral,"
 	.byte WaitForA
 	.byte NewLine
-.text	"leading to several uprisings across the continent"
+.text	"fazendo assim vários levantes contra"
 	.byte NewLine
-.text	"which challenge the Empire’s rule."
+.text	"o Império aparecerem."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -29,9 +29,9 @@ dialogueChFinalWM2
 	.byte Silesse
 	
 	.byte StartText
-.text	"Silesse’ civilians are the first to pry"
+.text	"O levante em Silesse têm êxito, e consegue"
 	.byte NewLine
-.text	"their nation back from the Empire’s clutches."
+.text	"recuperar a independência de sua nação."
 	.byte WaitForA
 	.word ClearHighlight
 	.word PauseText
@@ -47,13 +47,13 @@ dialogueChFinalWM3
 	.byte Agustria
 
 	.byte StartText
-.text	"And not long after that, Agustria’s people"
+.text	"E não muito tempo depois, o povo de Agustria"
 	.byte NewLine
-.text	"act in concert"
+.text	"se junta para formar um"
 	.byte WaitForA
-.text	" and assemble an army"
+.text	" exército de libertação"
 	.byte NewLine
-.text	"of their own to liberate their homeland."
+.text	"para a sua própria nação."
 	.byte WaitForA
 	.word ClearHighlight
 	.word PauseText
@@ -66,7 +66,9 @@ dialogueChFinalWM3
 dialogueChFinalWM4
 
 	.byte StartText
-.text	"However, Grannvale’s mainland yet stands."
+.text	"Porém, Grannvale em si"
+	.byte NewLine
+.text	"ainda está seguramente nas mãos do Império."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -80,9 +82,9 @@ dialogueChFinalWM4
 	.word PauseText
 	.byte $20
 
-.text	"Dozel’s Duke Brian commands his House’s"
+.text	"Duque Brian de Dozel comanda a legião de"
 	.byte NewLine
-.text	"legion of axe knights, the Grauritter;"
+.text	"Catafratas de sua família, a Grauritter;"
 	.byte WaitForA
 	.byte NewLine
 
@@ -94,9 +96,9 @@ dialogueChFinalWM4
 	.byte $10
 	.byte $68
 
-.text	"Yngvi’s Duke Scipio takes charge of the House’s"
+.text	"Duque Cipião de Yngvi comanda seus"
 	.byte NewLine
-.text	"elite bow knights, the Beigeritter;"
+.text	"Sagitários de elite, a Beigeritter;"
 	.byte WaitForA
 	.byte NewLine
 
@@ -108,22 +110,22 @@ dialogueChFinalWM4
 	.byte $08
 	.byte $10
 
-.text	"and Friege’s remaining regnant, Hilda, leads"
+.text	"e a agora Rainha de Friege, Hilda, lidera"
 	.byte NewLine
-.text	"the House’s order of thunder, the Gelbritter."
+.text	"seus infames magos de trovão, a Gelbritter."
 	.byte WaitForA
 	.byte ScrollText
-.text	"All stand ready for an inevitable confrontation"
+.text	"Todos se preparam para um confronto decisivo,"
 	.byte NewLine
-.text	"as the kingdom’s last defense."
+.text	"sendo eles a última defesa do Império."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Finally, there is Grannvale’s capital, Belhalla…"
+.text	"Ainda depois deles, em Belhalla…"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"In the palace,"
+.text	"No palácio,"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -133,9 +135,9 @@ dialogueChFinalWM4
 	.byte $B0
 	.byte $08
 
-.text	" Princess Ishtar remains at the side"
+.text	" Princesa Ishtar continua ao lado"
 	.byte NewLine
-.text	"of the Demon’s Scion,"
+.text	"do Filho do Demônio,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -145,38 +147,42 @@ dialogueChFinalWM4
 	.byte $78
 	.byte $30
 
-.text	" Prince Julius,"
+.text	" Príncipe Julius,"
 	.byte WaitForA
 	.byte NewLine
-.text	"both attended by the enigmatic Twelve Deadlords"
+.text	"ambos protegidos pelos Doze Ressurgidos,"
 	.byte NewLine
-.text	"as an ominous silence shrouds the city."
+.text	"enquanto um silêncio tenebroso"
+	.byte WaitForA
+	.byte NewLine
+.text	"paira sobre a cidade."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Over a year has already come and gone"
+.text	"Mais de um ano se passou desde aquela"
 	.byte NewLine
-.text	"since that first battle in Isaach."
+.text	"primeira batalha em Isaach."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Kin against kin; comrade against comrade."
-	.byte WaitForA
-	.byte ScrollText
-.text	"The Twelve Crusaders now find themselves"
+.text	"Agora, os Doze Cruzados, antes companheiros,"
 	.byte NewLine
-.text	"split between light and dark"
+.text	"estão separados entre as forças do bem"
 	.byte WaitForA
 	.byte NewLine
-.text	"as this heart-rending conflict comes to a close."
+.text	"e as forças do mal, um destino triste, causado"
+	.byte NewLine
+.text	"pela avareza das"
+	.byte NewLine
+.text	"famílias que perderam seu rumo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Finally, it is in sight…"
+.text	"Depois de um ano de conflito…"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The beginning of the end of this holy war…"
+.text	"Chega o início do fim da nova Cruzada…"
 	.byte WaitForA
 
 	.word ClearPortraitWM

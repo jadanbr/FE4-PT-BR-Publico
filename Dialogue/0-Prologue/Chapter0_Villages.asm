@@ -8,25 +8,25 @@ dialogueVillageNearestChalphy
 	.word portrait_Civilian_BigNose2
 
 	.byte StartText 
-.text	"Oh, thank the gods!"
+.text	"Oh, graças aos deuses!"
 	.byte NewLine
-.text	"We're saved!"
+.text	"Estamos salvos!"
 	.byte NewLine
-.text	"We can't thank you enough!"
+.text	"Somos extremamente gratos!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Here - the whole village did their bit"
+.text	"Aqui - a vila inteira se juntou"
 	.byte NewLine
-.text	"to raise some money for you."
+.text	"para te dar esse dinheiro."
 	.byte NewLine
-.text	"It's not much, but we hope it helps out there."
+.text	"Não é muito, mas a gente espera que ajude."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Be sure to lend the other villages a hand, too."
+.text	"Se certifique de ajudar as outras vilas, também."
 	.byte NewLine
-.text	"I bet they'll be happy to help you out right back."
+.text	"Imagino que elas também lhe ajudarão."
 	.byte WaitForA
 	.byte EndText
 
@@ -39,33 +39,39 @@ dialogueVillageNorthOfYngvi
 	.word portrait_Civilian_OldMan
 
 	.byte StartText 
-.text	"Pay attention, kid! Weapons aren't created"
+.text	"Preste atenção garoto! As armas não"
 	.byte NewLine
-.text	"equal. See, swords best axes, axes best"
+.text	"são iguais. Mas, é simples."
 	.byte NewLine
-.text	"lances, and lances best swords."
+.text	"Espadas batem machados, machados"
+	.byte WaitForA
+	.byte NewLine
+.text	"batem as lanças, e lanças batem espadas."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This right here's why you've gotta use your"
+.text	"É tipo um jogo de pedra papel e tesoura,"
 	.byte NewLine
-.text	"head before you blunder into battle."
+.text	"um pouco mais mortal, mas o príncipio é o mesmo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Speaking of battle, if you ever find yourself"
+.text	"Ah, outra dica: se você se machucar,"
 	.byte NewLine
-.text	"hurting out there, a chapel is the best place"
+.text	"uma igreja é o melhor lugar para ir,"
 	.byte NewLine
-.text	"to go."
+.text	"num instante eles vão te deixar inteiro de novo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"It ain't free, mind. Every bit of health you regain"
+.text	"Não é de graça, eles cobram de acordo com"
 	.byte NewLine
-.text	"there'll cost five gold pieces."
+.text	"a gravidade do ferimento, mas, na minha"
 	.byte NewLine
-.text	"But you can't put a price on your health."
+.text	"opinião, é até barato, e se você não tiver"
+	.byte WaitForA
+	.byte NewLine
+.text	"um médico por perto, você vai precisar deles."
 	.byte WaitForA
 	.byte EndText
 
@@ -78,25 +84,27 @@ dialogueVillageNearestYngvi
 	.word portrait_Civilian_OldWoman
 
 	.byte StartText 
-.text	"Oh? You came to save us?"
+.text	"Oh? Você veio nos salvar? Graças aos deuses!"
 	.byte NewLine
-.text	"I was so sure this was the end!"
+.text	"Pensei que ia ser o nosso fim!"
 	.byte NewLine
-.text	"Take this little trinket. It's the least I can do."
+.text	"Pegue este anel. É o mínimo que posso fazer."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They call it a speed ring."
+.text	"Isso aqui é um anel de velocidade."
 	.byte NewLine
-.text	"Slip this beauty on and"
+.text	"Coloque isso no dedo e você vai"
 	.byte NewLine
-.text	"you'll be as nimble as a feather!"
+.text	"ser ágil como uma pena!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Go on, try her out!"
+.text	"Vai, coloque!"
 	.byte NewLine
-.text	"Your enemies'll be too slow to hit you!"
+.text	"Seus inimigos serão lentos" 
+	.byte NewLine
+.text	"demais para te acertar!"
 	.byte WaitForA
 	.byte EndText
 
@@ -109,37 +117,41 @@ dialogueVillageNorthwestYngvi
 	.word portrait_Civilian_OldMan
 
 	.byte StartText 
-.text	"The master archers of House Yngvi"
+.text	"Os mestres arqueiros da casa de Yngvi"
 	.byte NewLine
-.text	"all bear descent from the archery god, Ullr."
+.text	"descendem da deusa arqueira, Ullr."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Our noble duke, Lord Ling, has twin daughters"
+.text	"Nosso nobre duque, Lorde Ling, tem filhas"
 	.byte NewLine
-.text	"as well as a younger son."
+.text	"gêmeas e também um filho mais novo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Alas, the duke lost one of the girls to pirates,"
+.text	"Infelizmente, uma de suas filhas"
 	.byte NewLine
-.text	"years and years ago..."
-	.byte NewLine
-.text	"She was just a little lass..."
+.text	"foi perdida para piratas,"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Lady Edain's still here, but the son"
+.text	"muitos anos atrás..."
 	.byte NewLine
-.text	"Lord Andrey is away with his lord father"
-	.byte NewLine
-.text	"on the Isaach campaign."
+.text	"Ela era só uma criança..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Rumor has it, though, that the two aren't"
+.text	"Madame Edain's ainda está aqui, mas"
 	.byte NewLine
-.text	"getting along well now that the boy's grown..."
+.text	"Lorde Andrey está com seu pai lutando"
+	.byte NewLine
+.text	"em Isaach."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"Dizem porém, que os dois não se dão muito"
+	.byte NewLine
+.text	"bem desde que o menino cresceu..."
 	.byte WaitForA
 	.byte EndText
 
@@ -152,24 +164,30 @@ dialogueVillageNorthernmost
 	.word portrait_Civilian_Woman
 
 	.byte StartText 
-.text	"The lords of this land, House Chalphy,"
+.text	"Os senhores desta terra, a Casa de Chalphy,"
 	.byte NewLine
-.text	"have been revered as most magnificent"
+.text	"foram reverenciados como grandes"
 	.byte NewLine
-.text	"swordsmen for generations."
+.text	"espadachins por gerações."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"It's no wonder, being that they descend"
+.text	"Não me admira, considerando que eles"
 	.byte NewLine
-.text	"from Baldr, the god of light of old."
+.text	"descendem de Baldr, o deus da luz."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Those Verdane thugs are lucky Lord Byron"
+.text	"Esses bandidos de Verdane"
 	.byte NewLine
-.text	"isn't around with his holy sword, Tyrfing."
+.text	"tem sorte que Lorde Byron"
 	.byte NewLine
-.text	"They wouldn't stand a chance!"
+.text	"não está aqui com sua espada sagrada, Tyrfing."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Se ele estivesse por aqui,"
+	.byte NewLine
+.text	"eles não teriam a menor chance!"
 	.byte WaitForA
 	.byte EndText

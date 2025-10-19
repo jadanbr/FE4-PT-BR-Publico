@@ -14,69 +14,69 @@ dialogueEpiloguesVelthomer_AzellesSon_Single
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I beg your forgiveness, Lord "
+.text	"Me perdoe, Lorde "
 	.word PrintStoredNameB
-.text	"."
+.text	", eu sei que as"
 	.byte NewLine
-.text	"The task which now lies before you is the most"
+.text	"coisas serão muito difíceis para"
 	.byte NewLine
-.text	"painful of all."
+.text	"você agora."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, sir. I'm all that's left of House Velthomer,"
+.text	"Não, senhor. Eu sou o que resta da familia"
 	.byte NewLine
-.text	"and it's my duty alone to atone for the"
+.text	"de Velthomer, e é o meu dever pagar pelos"
 	.byte NewLine
-.text	"many crimes of my kin."
+.text	"pecados que nós cometemos."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I know that's what my father, Lord Azelle,"
+.text	"Eu sei que isso agradaria o meu pai,"
 	.byte NewLine
-.text	"would want as well."
+.text	"Lorde Azelle."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.word PrintStoredNameB
-.text	", I can't bring myself to hate Lord Arvis"
+.text	", eu não tenho mais a capacidade"
 	.byte NewLine
-.text	"any longer."
+.text	"de odiar Arvis."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Knowing now he was but a sad victim of fate,"
+.text	"Sabendo agora que ele era mais uma vítima"
 	.byte NewLine
-.text	"I can only offer you my condolences."
+.text	"nisso tudo, eu sinto muito."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you so much, Lord Seliph..."
+.text	"Obrigado, Lorde Seliph..."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"The Fire Emblem, House Velthomer's royal crest,"
+.text	"O Emblema de Fogo, brasão real da minha"
 	.byte NewLine
-.text	"was once revered by people the world over"
+.text	"família, um dia foi um símbolo de justiça"
 	.byte NewLine
-.text	"as a symbol of justice."
+.text	"para esse mundo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'll work tirelessly until the Emblem's honor"
+.text	"Eu vou me esforçar ao máximo para restaurar"
 	.byte NewLine
-.text	"and good name are restored."
+.text	"a reputação que nosso Emblema carregava."
 	.word PauseText
 	.byte $60
 
@@ -97,69 +97,69 @@ dialogueEpiloguesVelthomer_AzellesSon_Married
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I beg your forgiveness, Lord "
+.text	"Me perdoe, Lorde "
 	.word PrintStoredNameB
-.text	"."
+.text	", eu sei que as"
 	.byte NewLine
-.text	"The task which now lies before you is the most"
+.text	"coisas serão muito difíceis para"
 	.byte NewLine
-.text	"painful of all."
+.text	"você agora."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, sir. I'm all that's left of House Velthomer,"
+.text	"Não, senhor. Eu sou o que resta da familia"
 	.byte NewLine
-.text	"and it's my duty alone to atone for the"
+.text	"de Velthomer, e é o meu dever pagar pelos"
 	.byte NewLine
-.text	"many crimes of my kin."
+.text	"pecados que nós cometemos."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I know that's what my father, Lord Azelle,"
+.text	"Eu sei que isso agradaria o meu pai,"
 	.byte NewLine
-.text	"would want as well."
+.text	"Lorde Azelle."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.word PrintStoredNameB
-.text	", I can't bring myself to hate Lord Arvis"
+.text	", eu não tenho mais a capacidade"
 	.byte NewLine
-.text	"any longer."
+.text	"de odiar Arvis."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Knowing now he was but a sad victim of fate,"
+.text	"Sabendo agora que ele era mais uma vítima"
 	.byte NewLine
-.text	"I can only offer you my condolences."
+.text	"nisso tudo, eu sinto muito."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you so much, Lord Seliph..."
+.text	"Obrigado, Lorde Seliph..."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"The Fire Emblem, House Velthomer's royal crest,"
+.text	"O Emblema de Fogo, brasão real da minha"
 	.byte NewLine
-.text	"was once revered by people the world over"
+.text	"família, um dia foi um símbolo de justiça"
 	.byte NewLine
-.text	"as a symbol of justice."
+.text	"para esse mundo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'll work tirelessly until the Emblem's honor"
+.text	"Eu vou me esforçar ao máximo para restaurar"
 	.byte NewLine
-.text	"and good name are restored."
+.text	"a reputação que nosso Emblema carregava."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -178,14 +178,14 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"And I'm going with you, "
+.text	"E eu vou com você, "
 	.word PrintStoredNameB
 .text	"!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You will, "
+.text	"Vem mesmo, "
 	.word PrintStoredNameA
 .text	"...?"
 	.word PauseText
@@ -193,11 +193,11 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipPeppy
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Yep! I can't just let you go alone!"
+.text	"Claro! Não posso te deixar ir sozinho!"
 	.byte NewLine
-.text	"If we stick together,"
+.text	"Se ficarmos juntos, nada nesse mundo"
 	.byte NewLine
-.text	"then all the pain in the world won't keep us down!"
+.text	"vai nos parar!"
 	.word PauseText
 	.byte $60
 
@@ -214,14 +214,14 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipTine
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I'll go to Velthomer as well, "
+.text	"Eu vou para Velthomer também, "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You will, "
+.text	"Você vai mesmo, "
 	.word PrintStoredNameA
 .text	"...?"
 	.word PauseText
@@ -229,11 +229,11 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipTine
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Mm. I won't let you face this alone."
+.text	"Mm. Você não tem que lidar com isso sozinho."
 	.byte NewLine
-.text	"So long as we're together,"
+.text	"Enquanto estivermos juntos, estou certa de"
 	.byte NewLine
-.text	"I know we can survive any hardship!"
+.text	"que nenhuma tribulação nos derrubará!"
 	.word PauseText
 	.byte $60
 
@@ -250,14 +250,14 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipLana
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I'll go to Velthomer as well, "
+.text	"Eu vou contigo para Velthomer, "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You will, "
+.text	"Vai mesmo, "
 	.word PrintStoredNameA
 .text	"...?"
 	.word PauseText
@@ -265,11 +265,11 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipLana
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Mm. I can't just let you go alone, can I?"
+.text	"Mm. Não posso te deixar sozinho, não é?"
 	.byte NewLine
-.text	"So long as we're together,"
+.text	"Tenho certeza que, se ficarmos juntos,"
 	.byte NewLine
-.text	"I know we can endure most anything."
+.text	"podemos passar por qualquer coisa."
 	.word PauseText
 	.byte $60
 
@@ -286,7 +286,7 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"And I'm going with you, "
+.text	"E eu vou com você, "
 	.word PrintStoredNameB
 .text	"!"
 	.byte NewLine
@@ -294,7 +294,7 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipLarcei
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You will, "
+.text	"Vem mesmo, "
 	.word PrintStoredNameA
 .text	"...?"
 	.word PauseText
@@ -302,15 +302,13 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipLarcei
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I can't just let you go alone, can I?"
+.text	"Eu não posso te deixar sozinho, não é?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"The world can throw all the painful stuff at us"
+.text	"Pode vir o que for! Se ficarmos juntos,"
 	.byte NewLine
-.text	"it wants! So long as we're together,"
-	.byte NewLine
-.text	"we'll overcome anything!"
+.text	"a gente vence qualquer coisa!"
 	.word PauseText
 	.byte $60
 
@@ -327,14 +325,14 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipNanna
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I'll go to Velthomer as well, "
+.text	"Eu também vou para Velthomer, "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You will, "
+.text	"Vem mesmo, "
 	.word PrintStoredNameA
 .text	"...?"
 	.word PauseText
@@ -342,11 +340,11 @@ dialogueEpiloguesVelthomer_AzellesSon_LoverQuipNanna
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Yeah. I can't let you face this alone!"
+.text	"Venho. Eu quero te ajudar!"
 	.byte NewLine
-.text	"So long as we're together,"
+.text	"Eu sei que, se ficarmos juntos, a gente"
 	.byte NewLine
-.text	"I know we can survive just about anything!"
+.text	"pode vencer qualquer coisa!"
 	.word PauseText
 	.byte $60
 
@@ -371,41 +369,41 @@ dialogueEpiloguesVelthomer_AzellesDaughter_NoThrone_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You are headed for Velthomer as well, "
+.text	"Você vai para Velthomer também, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Do take care of yourself."
+.text	"Por favor, se cuide."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you."
+.text	"Obrigado."
 	.byte NewLine
-.text	"Say... If I ever get lonely,"
+.text	"Sabe... se um dia eu me sentir solitária,"
 	.byte NewLine
-.text	"would you mind if I came to visit you?"
+.text	"teria problema eu vir te visitar?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You'll be welcome anytime, of course."
+.text	"Não, venha quando quiser."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"But remember, Velthomer's future rests"
+.text	"Mas lembre, você também tem de trabalhar"
 	.byte NewLine
-.text	"in both of your hands. Be sure to give"
+.text	"pelo futuro de Velthomer. Por favor,"
 	.byte NewLine
-.text	"its restoration all of your focus and might."
+.text	"não se esqueça disso."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir!"
+.text	"Sim, senhor!"
 	.byte NewLine
-.text	"Leave it to me."
+.text	"Deixa comigo."
 	.word PauseText
 	.byte $60
 
@@ -428,59 +426,59 @@ dialogueEpiloguesVelthomer_AzellesDaughter_NoThrone_LoverDead
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You are headed for Velthomer as well, "
+.text	"Você vai para Velthomer também, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Do take care of yourself."
+.text	"Por favor, se cuide."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you."
+.text	"Obrigado."
 	.byte NewLine
-.text	"Say... If I ever get lonely,"
+.text	"Sabe... se um dia eu me sentir solitária,"
 	.byte NewLine
-.text	"would you mind if I came to visit you?"
+.text	"teria problema eu vir te visitar?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You'll be welcome anytime, of course."
+.text	"Claro, sem problema."
 	.byte NewLine
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, but..."
+.text	"Obrigado... muito obrigado..."
 	.byte NewLine
-.text	"It's "
+.text	"A morte do meu querido "
 	.word PrintStoredNameA
-.text	"'s death."
+.text	"... ela..."
 	.byte NewLine
-.text	"I... It still haunts me every day."
+.text	"ela me assombra."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I know, and I pray you feel better soon."
+.text	"Eu sei, e eu oro para que você consiga"
+	.byte NewLine
+.text	"superar esse momento terrível."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Velthomer's future rests in both of your hands."
+.text	"Você também tem que se dedicar a Velthomer."
 	.byte NewLine
-.text	"Be sure to give its restoration all of your focus"
-	.byte NewLine
-.text	"and might."
+.text	"Não se esqueça disso."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir!"
+.text	"Sim, senhor!"
 	.byte NewLine
-.text	"Leave it to me."
+.text	"Deixe comigo."
 	.word PauseText
 	.byte $60
 
@@ -501,69 +499,75 @@ dialogueEpiloguesVelthomer_AzellesDaughter_InheritsThrone
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"Lord Seliph..."
+.text	"Lorde Seliph..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I beg your forgiveness, Lady "
+.text	"Lorde Seliph..."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+
+	.byte LeftSlot
+.text	"Me perdoe, Madame "
 	.word PrintStoredNameB
-.text	"."
+.text	", eu sei que as"
 	.byte NewLine
-.text	"The task which now lies before you is the most"
+.text	"coisas serão muito difíceis para"
 	.byte NewLine
-.text	"painful of all."
+.text	"você agora."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, sir. I'm all that's left of House Velthomer,"
+.text	"Não, senhor. Eu sou o que resta da familia"
 	.byte NewLine
-.text	"and it's my duty alone to atone for the"
+.text	"de Velthomer, e é o meu dever pagar pelos"
 	.byte NewLine
-.text	"many crimes of my kin."
+.text	"pecados que nós cometemos."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I know that's what my father, Lord Azelle,"
+.text	"Eu sei que isso agradaria o meu pai,"
 	.byte NewLine
-.text	"would want as well."
+.text	"Lorde Azelle."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.word PrintStoredNameB
-.text	", I can't bring myself to hate Lord Arvis"
+.text	", eu não tenho mais a capacidade"
 	.byte NewLine
-.text	"any longer."
+.text	"de odiar Arvis."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Knowing now he was but a sad victim of fate,"
+.text	"Sabendo agora que ele era mais uma vítima"
 	.byte NewLine
-.text	"I can only offer you my condolences."
+.text	"nisso tudo, eu sinto muito."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you so much, Lord Seliph..."
+.text	"Obrigado, Lorde Seliph..."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"The Fire Emblem, House Velthomer's royal crest,"
+.text	"O Emblema de Fogo, brasão real da minha"
 	.byte NewLine
-.text	"was once revered by people the world over"
+.text	"família, um dia foi um símbolo de justiça"
 	.byte NewLine
-.text	"as a symbol of justice."
+.text	"para esse mundo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'll work tirelessly until the Emblem's honor"
+.text	"Eu vou me esforçar ao máximo para restaurar"
 	.byte NewLine
-.text	"and good name are restored."
+.text	"a reputação que nosso Emblema carregava."
 	.word PauseText
 	.byte $60
 

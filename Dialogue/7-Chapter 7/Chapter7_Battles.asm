@@ -9,17 +9,17 @@ dialogueCh7BattleKutuzov
 	.word LoadPortrait
 	.word portrait_Kutuzov3
 	.byte StartText
-.text	"You rebel worms..."
+.text	"Seus vermes rebeldes..."
 	.byte NewLine
-.text	"How dare you defile the"
+.text	"Como ousam profanar a santidade"
 	.byte NewLine
-.text	"sanctity of the Aed Shrine!"
+.text	"deste sagrado templo!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Come! Embrace the darkness,"
+.text	"Venham, abracem a escuridão,"
 	.byte NewLine
-.text	"as it entombs you forevermore!"
+.text	"que te enterra para todo o sempre!"
 	.byte WaitForA
 
 	.byte EndText
@@ -32,19 +32,17 @@ dialogueCh7BattleRaisa
 	.word LoadPortrait
 	.word portrait_Raisa2
 	.byte StartText
-.text	"So you're the rebel army..."
+.text	"Então vocês são o exército rebelde..."
 	.byte NewLine
-.text	"This is where your"
-	.byte NewLine
-.text	"insurrection ends!"
+.text	"É aqui que sua insurreição acaba!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"So long as I, General Raisa,"
+.text	"Enquanto eu, General Raisa, estiver"
 	.byte NewLine
-.text	"draw breath, you shall"
+.text	"respirando, vocês nunca chegarão"
 	.byte NewLine
-.text	"never reach Fort Mergen!"
+.text	"ao Forte Mergen!"
 	.byte WaitForA
 
 	.byte EndText
@@ -57,11 +55,11 @@ dialogueCh7BattleIshtore
 	.word LoadPortrait
 	.word portrait_Ishtore2
 	.byte StartText
-.text	"So you've come this far?"
+.text	"Então vocês chegaram até aqui?"
 	.byte NewLine
-.text	"Heh... You're made of"
+.text	"Heh... Vocês são mais durões"
 	.byte NewLine
-.text	"sterner stuff than I thought."
+.text	"do que eu pensei."
 	.byte WaitForA
 
 	.byte EndText
@@ -74,15 +72,15 @@ dialogueCh7BattleIshtore_RaisaDead
 	.word LoadPortrait
 	.word portrait_Ishtore2
 	.byte StartText
-.text	"You... You vermin!"
+.text	"Seus... seus vermes!"
 	.byte NewLine
-.text	"How dare you slaughter"
+.text	"Como ousam matar"
 	.byte NewLine
-.text	"Raisa like that!"
+.text	"Raisa desse jeito!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"You'll have no mercy!"
+.text	"Eu não terei piedade!"
 	.byte WaitForA
 
 	.byte EndText
@@ -97,7 +95,7 @@ dialogueCh7BattleJavarro
 	.byte StartText
 .text	"Heh..."
 	.byte NewLine
-.text	"Welcome to your deaths!"
+.text	"Sejam bem-vindos ao seu pós-vida!"
 	.byte WaitForA
 
 	.byte EndText
@@ -119,16 +117,16 @@ dialogueCh7BattleJavarro_Ares
 	.byte StartText
 .text	"Ares!"
 	.byte NewLine
-.text	"I've found you, you ungrateful sod!"
+.text	"Te achei, seu pirralho ingrato!"
 	.byte NewLine
-.text	"You're not gonna get away with this!"
+.text	"Não vai sair vivo dessa!"
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"I regret it's come to this, but so be it."
+.text	"Que pena ter que ser assim, mas que seja."
 	.byte NewLine
-.text	"Farewell, Javarro."
+.text	"Adeus, Javarro."
 	.byte WaitForA
 
 	.byte EndText
@@ -141,19 +139,19 @@ dialogueCh7BattleBramsel
 	.word LoadPortrait
 	.word portrait_Bramsel2
 	.byte StartText
-.text	"What?!"
+.text	"O quê?!"
 	.byte NewLine
-.text	"Javarro bungled it,"
+.text	"Sério que Javarro conseguiu"
 	.byte NewLine
-.text	"did he?"
+.text	"estragar esse plano perfeito?"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Dahna is my city! Mine!"
+.text	"Dahna é minha cidade! Minha!"
 	.byte NewLine
-.text	"Nobody will ever take it"
+.text	"Ninguém nunca vai tirar ela"
 	.byte NewLine
-.text	"from me!"
+.text	"de mim!"
 	.byte WaitForA
 
 	.byte EndText
@@ -174,37 +172,37 @@ dialogueCh7BattleBramsel_Ares
 	.byte LeftSlot
 .text	"...Ares?!"
 	.byte NewLine
-.text	"What are you..."
+.text	"O que está..."
 	.byte NewLine
-.text	"I should've known you were a filthy traitor!"
+.text	"Eu deveria ter imaginado que era um traidor!"
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Enough, Bramsel!"
+.text	"Basta, Bramsel!"
 	.byte NewLine
-.text	"Return "
+.text	"Me devolva "
 	.word PrintBranchingName
 	.word name_LeneLaylea
-.text	" to me!"
+.text	"!"
 	.byte NewLine
-.text	"NOW!"
+.text	"AGORA!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot
-.text	"Oh, you're far too late!"
+.text	"Ah, tarde demais!"
 	.byte NewLine
-.text	"By now, that stubborn strumpet is..."
+.text	"Agora aquela meretriz deve estar..."
 	.byte NewLine
 .text	"Heh heh heh..."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"D-damn you!"
+.text	"SEU DESGRAÇADO!"
 	.byte NewLine
-.text	"You'll regret your words!"
+.text	"Você vai se arrepender!"
 	.byte WaitForA
 
 	.byte EndText
@@ -217,9 +215,9 @@ dialogueCh7BattleBanba
 	.word LoadPortrait
 	.word portrait_Banba3
 	.byte StartText
-.text	"Taste raging flames,"
+.text	"Sinta as chamas,"
 	.byte NewLine
-.text	"brigand!"
+.text	"bandido!"
 	.byte WaitForA
 
 	.byte EndText
@@ -234,9 +232,9 @@ dialogueCh7BattleBanba_TriangleAttack
 	.byte StartText
 .text	"Fódla! Ériu!"
 	.byte NewLine
-.text	"Ready?"
+.text	"Prontas?"
 	.byte NewLine
-.text	"...Triangle Attack!!"
+.text	"...Ataque Triângulo!!"
 	.word PauseText
 	.byte $C8
 
@@ -250,9 +248,9 @@ dialogueCh7BattleFodla
 	.word LoadPortrait
 	.word portrait_Fodla3
 	.byte StartText
-.text	"Taste the howling gale,"
+.text	"Sinta o vento uivante,"
 	.byte NewLine
-.text	"traitor!"
+.text	"traidor!"
 	.byte WaitForA
 
 	.byte EndText
@@ -267,9 +265,9 @@ dialogueCh7BattleFodla_TriangleAttack
 	.byte StartText
 .text	"Banba! Ériu!"
 	.byte NewLine
-.text	"Ready?"
+.text	"Prontas?"
 	.byte NewLine
-.text	"...Triangle Attack!!"
+.text	"...Ataque Triângulo!!"
 	.byte WaitForA
 
 	.byte EndText
@@ -282,9 +280,9 @@ dialogueCh7BattleEriu
 	.word LoadPortrait
 	.word portrait_Eriu3
 	.byte StartText
-.text	"Taste the wrath of"
+.text	"Sinta a fúria do"
 	.byte NewLine
-.text	"thunder, rebel!"
+.text	"trovão, rebelde!"
 	.byte WaitForA
 
 	.byte EndText
@@ -299,9 +297,9 @@ dialogueCh7BattleEriu_TriangleAttack
 	.byte StartText
 .text	"Banba! Fódla!"
 	.byte NewLine
-.text	"Ready?"
+.text	"Prontas?"
 	.byte NewLine
-.text	"...Triangle Attack!!"
+.text	"...Ataque Triângulo!!"
 	.byte WaitForA
 
 	.byte EndText
@@ -314,7 +312,7 @@ dialogueCh7BattleTineLinda
 	.word LoadPortrait
 	.word portrait_Tine
 	.byte StartText
-.text	"I... I'm sorry..."
+.text	"Eu... me perdoe..."
 	.byte WaitForA
 	
 	.byte EndText
@@ -334,16 +332,16 @@ dialogueCh7BattleTineLinda_ArthurAmid
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I... I'm sorry..."
+.text	"Eu... me perdoe..."
 	.byte NewLine
-.text	"I wish we didn't need to fight..."
+.text	"Eu queria que não precisássemos lutar..."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"H-hold on a moment!"
+.text	"E-espere um segundo!"
 	.byte NewLine
-.text	"Are you... could it be...?"
+.text	"Você é... será...?"
 	.byte WaitForA
 
 	.byte EndText
@@ -358,17 +356,17 @@ dialogueCh7BattleBloom
 	.byte StartText
 .text	"Ha!"
 	.byte NewLine
-.text	"So long as I wield"
+.text	"Enquanto eu tiver o Tomo"
 	.byte NewLine
-.text	"the Book of Mjölnir,"
+.text	"de Mjölnir nas mãos,"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"what reason would"
+.text	"que motivo eu tenho"
 	.byte NewLine
-.text	"I ever have to fear"
+.text	"para temer alguém"
 	.byte NewLine
-.text	"the likes of you?"
+.text	"como você?"
 	.byte WaitForA
 
 	.byte EndText
@@ -388,17 +386,17 @@ dialogueCh7BattleBloom_TineLinda
 
 	.byte LeftSlot
 	.byte StartText
-.text	"W-wait... "
+.text	"E-espere... "
 	.word PrintBranchingName
 	.word name_TineLinda
 .text	"?!"
 	.byte NewLine
-.text	"How dare you betray my many kindnesses..."
+.text	"Como ousa trair minha bondade assim..."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"I-I'm sorry, Uncle..."
+.text	"M-me desculpe, Tio..."
 	.byte WaitForA
 
 	.byte EndText
@@ -418,27 +416,27 @@ dialogueCh7BattleBloom_ArthurAmid
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And what are you?"
+.text	"E quem é você?"
 	.byte NewLine
-.text	"Wait... could it be...?"
+.text	"Espera... será que é...?"
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Bloom! I've waited years for this moment!"
+.text	"Bloom! Eu esperei anos por esse dia!"
 	.byte NewLine
-.text	"You took my mother and sister from me,"
+.text	"Você roubou minha mãe e minha irmã de mim,"
 	.byte NewLine
-.text	"and today you'll finally pay!"
+.text	"e hoje você irá pagar por isso!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot
 .text	"Gah..."
 	.byte NewLine
-.text	"Impudent whelp!"
+.text	"Pirralho atrevido!"
 	.byte NewLine
-.text	"Just try me!"
+.text	"Vem pra cima!"
 	.byte WaitForA
 
 	.byte EndText
@@ -458,29 +456,29 @@ dialogueCh7BattleBloom_Leif
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Oho! Quan's son, I presume?"
+.text	"Oho! O filho de Quan, eu presumo?"
 	.byte NewLine
-.text	"You somehow still live on..."
+.text	"De alguma forma, ainda está vivo..."
 	.byte NewLine
-.text	"I'm almost impressed."
+.text	"Estou impressionado."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"King Bloom!"
+.text	"Rei Bloom!"
 	.byte NewLine
-.text	"You've tortured my people for long enough!"
+.text	"Você torturou meu povo por tempo o suficiente!"
 	.byte NewLine
-.text	"Prepare to die at last!"
+.text	"Se prepare para morrer!"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot
 .text	"Hmph!"
 	.byte NewLine
-.text	"A likely retort, but only one of us will die this day,"
+.text	"Uma resposta comum, mas somente um de nós"
 	.byte NewLine
-.text	"and it will never be me!"
+.text	"morrerá hoje, e não vai ser eu!"
 	.byte WaitForA
 
 	.byte EndText

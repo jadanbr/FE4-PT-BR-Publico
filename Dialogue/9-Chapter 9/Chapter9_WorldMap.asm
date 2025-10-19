@@ -10,14 +10,14 @@ dialogueCh9WM1
 	.byte $B0
 	.byte $40
 	.byte StartText
-.text	"The northern stretch of the peninsula"
+.text	"A parte norte da península foi"
 	.byte NewLine
-.text	"is liberated."
+.text	"libertada. Porém, Seliph e seu"
 	.byte WaitForA
 	.byte ScrollText
-.text	"Seliph and his companions occupy Castle Meath"
+.text	"exército hesitam em avançar adiante"
 	.byte NewLine
-.text	"while hesitation fogs their path forward."
+.text	"do castelo de Meath."
 	.byte WaitForA
 	
 	.word ClearPortraitWM
@@ -25,21 +25,15 @@ dialogueCh9WM1
 
 	.byte ScrollText
 
-.text	"Just ahead of the vast and jagged summits"
+.text	"Pois logo a sua frente, está Trácia,"
 	.byte NewLine
-.text	"of Meath,"
-	.byte WaitForA
-.text	" they are faced with Thracia,"
-	.byte NewLine
-.text	"the kingdom of wyvern knights itself."
+.text	"o reino dos cavaleiros de dragão."
 
 	.word HighlightCountry
 	.byte SouthThracia
 	
 	.byte WaitForA
 	.byte ScrollText
-
-.text	"Thracia’s"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -49,18 +43,18 @@ dialogueCh9WM1
 	.byte $B0
 	.byte $40
 	
-.text	" King Travant is long bound"
+.text	"Rei Travant da Trácia tem um"
 	.byte NewLine
-.text	"in accord with Emperor Arvis."
+.text	"acordo de cooperação com Imperador Arvis."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Thus, under his administration, this rural land"
+.text	"Assim, sobre sua administração, a Trácia"
 	.byte NewLine
-.text	"remains as the sole power on the continent"
+.text	"é o único país no continente que o Império"
 	.byte WaitForA
 	.byte NewLine
-.text	"which the Grannvale Empire can call an ally."
+.text	"de Grannvale chama de aliado."
 	.byte WaitForA
 	
 	.word ClearHighlight
@@ -78,18 +72,20 @@ dialogueCh9WM1
 dialogueCh9WM2
 
 	.byte StartText
-.text	"Staying true to such a sentiment, Travant makes"
+.text	"De certa forma, ele honra esse acordo, pois"
 	.byte NewLine
-.text	"arrangements for a full scale confrontation"
+.text	"se prepara para um confronto direto com"
 	.byte WaitForA
 	.byte NewLine
-.text	"with Seliph and the Liberation Army."
+.text	"Seliph e o exército de libertação, com"
+	.byte NewLine
+.text	"todos os seus comandantes em posição."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"At Castle Cappadocia,"
+.text	"Em Capadócia, está o renomado"
 	.byte NewLine	
-.text	"a man regarded as the Shield of Thracia,"
+.text	"Escudo da Trácia,"
 	.byte WaitForA
 	.byte NewLine
 
@@ -100,12 +96,12 @@ dialogueCh9WM2
 	.byte 6
 	.byte $60
 	.byte $34
-.text	"the renowned General Hannibal;"
+.text	"General Aníbal;"
 	.byte WaitForA
 	.byte NewLine
-.text	"at Castle Lutetia, the king’s"
+.text	"Em Lutécia, está o seu servo"
 	.byte NewLine
-.text	"most trusted confidant,"
+.text	"de maior confiança,"
 
 	.word LoadPortraitWM1
 	.byte 8
@@ -118,9 +114,9 @@ dialogueCh9WM2
 .text	" General Distler;"
 	.byte WaitForA
 	.byte NewLine
-.text	"at Castle Galatia, a missionary of the Loptr"
+.text	"Em Galácia, está um Bispo da Igreja de"
 	.byte NewLine
-.text	"Church dispatched by the Empire,"
+.text	"Loptr enviado pelo Império,"
 	
 	.word LoadPortraitWM1
 	.byte 10
@@ -130,12 +126,12 @@ dialogueCh9WM2
 	.byte $18
 	.byte $60
 	
-.text	" Bishop Judas;"
+.text	" Bispo Judas;"
 	.byte WaitForA
 	.byte NewLine
-.text	"and at the capital of Thracia, both of the king’s"
+.text	"e na capital da Trácia, estão ambos"
 	.byte NewLine
-.text	"children,"
+.text	"os seus filhos:"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -145,7 +141,7 @@ dialogueCh9WM2
 	.byte $B0
 	.byte $10
 	
-.text	" Prince Arion"
+.text	" Príncipe Arion"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -155,43 +151,40 @@ dialogueCh9WM2
 	.byte $A0
 	.byte $58
 	
-.text	" and Princess Altena."
+	.byte NewLine
+.text	"e Princesa Altena."
 	.byte WaitForA
 	.byte NewLine
-.text	"Each of these adversaries stand ready to fight."
+.text	"Cada um desses serão adversários de Seliph,"
+	.byte NewLine
+.text	"e estão todos prontos para enfrentá-lo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"All the while, Thracia’s people look upon Seliph"
+.text	"Além disso, Seliph e seus companheiros"
 	.byte NewLine
-.text	"and his companions"
-	.byte WaitForA
-.text	" with apprehension befit"
-	.byte NewLine
-.text	"for an imperialist and take up arms"
+.text	"são vistos como invasores pelo povo,"
 	.byte WaitForA
 	.byte NewLine
-.text	"in defense of what little they have."
+.text	"que está pronto a pegar em armas para"
+	.byte NewLine
+.text	"defender aquilo que eles têm."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Is there truly any justice to be found"
+.text	"Há justiça nessa guerra?"
 	.byte NewLine
-.text	"in such a battle?"
+.text	"Pelo bem de quem eles lutam essa guerra?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"For whose sake does this war wage on?"
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"These questions plague the minds of Seliph and"
+.text	"Essas perguntas ficam na cabeça de Seliph"
 	.byte NewLine
-.text	"his allies,"
+.text	"e seus aliados,"
 	.byte WaitForA
-.text	" for the first time met with a fight that"
+.text	" que pela primeira vez lutam uma"
 	.byte NewLine
-.text	"seeks to test the steel of their very resolve…"
+.text	"batalha que desafia seus propósitos…"
 	.byte WaitForA
 	
 	.word ClearPortraitWM

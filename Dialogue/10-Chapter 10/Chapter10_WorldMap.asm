@@ -11,7 +11,7 @@ dialogueCh10WM1
 	.byte $30
 
 	.byte StartText
-.text	"With Thracia under the Liberation Army’s control,"
+.text	"Após o fim da guerra na Trácia,"
 	.byte NewLine
 	.word PauseText
 	.byte $0A
@@ -24,11 +24,13 @@ dialogueCh10WM1
 	.word PauseText
 	.byte $1E
 
-.text	"Seliph wastes no time in embarking on a march"
+.text	"Seliph não perde tempo; "
 	.byte WaitForA
 	.byte NewLine
-.text	"straight towards the canvas of his main goal:"
+.text	"ele prossegue direto para seu"
 	.byte NewLine
+.text	"objetivo principal: "
+	.byte WaitForA
 .text	"Grannvale."
 
 	.word PauseText
@@ -53,35 +55,42 @@ dialogueCh10WM2
 	.byte Miletos
 	
 	.byte StartText
-.text	"On the road to the Empire, he crosses into"
+.text	"Porém, em seu caminho, ele passa por um"
 	.byte NewLine
-.text	"a territory at its south, the Miletos Region."
+.text	"território ao sul: a Região de Miletos."
 	.byte WaitForA
 	.byte ScrollText
-.text	"This collective of cities was once a free"
+.text	"Esse coletivo de cidades um dia foi"
 	.byte NewLine
-.text	"economic superpower,"
-	.byte WaitForA
-.text	" home to vast riches,"
-	.byte NewLine
-.text	"trade, business and aspiring merchants,"
+.text	"uma região de grande importância econômica,"
 	.byte WaitForA
 	.byte NewLine
-.text	"but what Seliph’s companions find"
+.text	"com mercadorias de todos os lugares, e também"
+	.byte NewLine
+.text	"muito dinheiro circulando."
+	.byte WaitForA
+	.byte NewLine
+.text	"O fluxo de dinheiro e de pessoas das mais"
+	.byte NewLine
+.text	"variadas origens criava"
+	.byte WaitForA
+	.byte NewLine
+.text	"uma atmosfera verdadeiramente vibrante."
+	.byte WaitForA
+	.byte NewLine
+.text	"Mas o que Seliph e sua companhia viram foi"
 	.byte NewLine
 	
 	.word ClearHighlight
 	
-.text	"is but a withered husk of its former self,"
+.text	"apenas os restos dessa era dourada, sufocada"
 	.byte WaitForA
 	.byte NewLine
-.text	"suffocating under the Loptr Church’s"
-	.byte NewLine
-.text	"oppressive rule."
+.text	"pelo domínio opressor da Igreja de Loptr."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Castle Kronos is under the command of the"
+.text	"O castelo de Kronos está sobre o governo"
 	.byte NewLine
 
 	.word LoadPortraitWM1
@@ -92,20 +101,20 @@ dialogueCh10WM2
 	.byte $A0
 	.byte $60
 
-.text	"self-proclaimed Queen Hilda,"
+.text	"da auto-proclamada Rainha Hilda,"
 	.byte WaitForA
-.text	" whose seemingly"
+.text	" cujos acessos"
 	.byte NewLine
-.text	"inhuman displays of cruelty"
+.text	"de crueldade condenam milhares de"
 	.byte WaitForA
 	.byte NewLine
-.text	"condemn countless citizens"
+.text	"pessoas inocentes à mortes brutais,"
 	.byte NewLine
-.text	"to gruesome deaths by the day."
+.text	"dia após dia."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The Loptr Church’s own Archbishop Manfroy"
+.text	"O Arcebispo da Igreja de Loptr, Manfroy,"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -116,10 +125,10 @@ dialogueCh10WM2
 	.byte $30
 	
 	.byte NewLine
-.text	"dwells at Castle Miletos,"
+.text	"no momento está em Miletos, de onde ele"
 	.byte WaitForA
 	.byte NewLine
-.text	"from where he appoints"
+.text	"comanda as cruéis caças de crianças na região,"
 
 	.word LoadPortraitWM1
 	.byte 6
@@ -128,38 +137,41 @@ dialogueCh10WM2
 	.byte 6
 	.byte $20
 	.byte $50
-
-.text	" Bishop Morrigan,"
+	
 	.byte NewLine
-.text	"stationed at Castle Rhódos,"
+.text	"dirigidas localmente pelo Bispo Morrigan,"
 	.byte WaitForA
 	.byte NewLine
-.text	"to orchestrate the ever-relentless child hunts"
-	.byte NewLine
-.text	"throughout the region."
+.text	"por ele apontado como governante de Rhódos."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Wealth. Liberty. Hope. Even life itself..."
+.text	"Riqueza. Liberdade. Esperança. A vontade de viver..."
 	.byte NewLine
-.text	"All turned to dust in the people’s grasp."
+.text	"Tudo virou poeira, escapando das mãos do povo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This twisted cult continues to make sacrifices"
+.text	"O culto maligno continua sacrificando os cidadãos"
 	.byte NewLine
-.text	"out of the civilians one by one, with bodies piling"
+.text	"de Miletos, fazendo vítima após vítima."
 	.byte WaitForA
 	.byte NewLine
-.text	"ever higher at their ritual altar; Seliph refuses"
+.text	"A situação é terrível de tal maneira, que"
 	.byte NewLine
-.text	"to leave the region in such a sorrowful state."
+.text	"dizem que se equipara à Angústia de Miletos."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Vendo isso, Seliph sabe que chegou no"
+	.byte NewLine
+.text	"momento certo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Following a fierce battle which sees"
+.text	"Após uma feroz batalha que resulta na"
 	.byte NewLine
-.text	"the liberation of the free city of Plutarch,"
+.text	"libertação da cidade de Plutarco,"
 
 	.word LoadMapSymbol
 	.byte $B6
@@ -181,23 +193,23 @@ dialogueCh10WM2
 	.byte $A0
 	.byte $18
 
-.text	"the soldiers of the Liberation Army are hailed"
+.text	"os soldados do exército de libertação são"
 	.byte NewLine
-.text	"by the masses with exuberant cheers"
+.text	"recebidos com gritos roucos de felicidade"
 	.byte WaitForA
 	.byte NewLine
-.text	"amidst the Empire’s retreat."
+.text	"em meio à retirada do Império."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Endless days spent gazing toward eclipsed skies"
+.text	"Muitos anos se passaram debaixo de uma"
 	.byte NewLine
-.text	"came and went, but now,"
+.text	"escuridão interminável, mas agora,"
 	.byte WaitForA
 	.byte NewLine
-.text	"with the Liberation Army’s arrival, the people of"
+.text	"com a chegada dos libertadores, o povo de Miletos"
 	.byte NewLine
-.text	"Miletos’ long lost hope… has at last returned…"
+.text	"finalmente recuperou as esperanças…"
 	.byte WaitForA
 
 	.word PauseText

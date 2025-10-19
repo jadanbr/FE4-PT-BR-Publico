@@ -3,12 +3,12 @@
 dialogueCh5WM
 
 	.byte StartText
-.text	"As the curtain falls on Silesse’s civil war,"
+.text	"Mal a guerra civil em Silesse acaba,"
 	.byte WaitForA
 	.byte NewLine
-.text	"another rises as Grannvale’s army"
+.text	"outra se inicia, agora que o exército de"
 	.byte NewLine
-.text	"awaits Sigurd on the other side."
+.text	"Grannvale chega para enfrentar Sigurd."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -18,7 +18,8 @@ dialogueCh5WM
 	.byte High
 	.byte Zaxon2
 	
-.text	"Upon Castle Zaxon’s capture,"
+.text	"Tão logo capturam o castelo em Zaxon,"
+	.byte NewLine
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -28,9 +29,9 @@ dialogueCh5WM
 	.byte $28
 	.byte $04
 
-.text	" Sigurd and his allies"
+.text	"Sigurd e seu exército já tem que"
 	.byte NewLine
-.text	"are scarcely afforded even a moment’s rest."
+.text	"entrar em mais uma batalha."
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
@@ -42,17 +43,17 @@ dialogueCh5WM
 	.byte High
 	.byte ZaxonToLubeck
 	
-.text	"Across thawing plains, their eyes are met"
+.text	"Na outra ponta das planícies, tem"
 	.byte NewLine
-.text	"with Castle Lübeck"
+.text	"o castelo de Lübeck, já cheio com"
 	.byte WaitForA
-.text	" overrun by swarms"
 	.byte NewLine
-.text	"of Grannvale soldiers."
+.text	"soldados de Grannvale."
+
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"At the army’s command is Lord Lombard"
+.text	"No comando desse exército está Duque Lombard"
 	.byte NewLine
 
 	.word LoadPortraitWM1
@@ -63,25 +64,25 @@ dialogueCh5WM
 	.byte $BC
 	.byte $08
 
-.text	"of House Dozel,"
+.text	"de Dozel,"
 	.byte WaitForA
-.text	" a longtime adversary"
+.text	" um terrível inimigo do"
 	.byte NewLine
-.text	"of Sigurd’s missing father."
+.text	"pai de Sigurd, ainda desaparecido."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"It was Lombard who had framed Lord Byron"
+.text	"Foi Lombard que incriminou Byron e Sigurd"
 	.byte NewLine
-.text	"for his own crimes against the kingdom."
+.text	"pelos crimes que ele próprio cometeu."
 	.byte WaitForA
 	.byte ScrollText
-.text	"So for Sigurd, a confrontation with him"
+.text	"Então para Sigurd, esse confronto é a"
 	.byte NewLine
-.text	"serves as an opportunity to find answers,"
+.text	"chance de conseguir respostas, e também"
 	.byte WaitForA
 	.byte NewLine
-.text	"if not closure."
+.text	"de se vingar."
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
@@ -93,12 +94,12 @@ dialogueCh5WM
 	.byte High
 	.byte Fionnuala
 	
-.text	"Further south, one of Lord Arvis’"
+.text	"Mais a sul, no castelo de Fionnuala,"
 	.byte NewLine
-.text	"most seasoned warriors"
+.text	"uma das mais experientes"
 	.byte WaitForA
 	.byte NewLine
-.text	"garrisons the desert town of Fionnuala:"
+.text	"subordinadas de Arvis espera:"
 	.byte NewLine
 
 	.word LoadPortraitWM1
@@ -112,7 +113,7 @@ dialogueCh5WM
 	.word ClearMapSymbol
 	.byte High
 	
-.text	"Vaja the Spellblade."
+.text	"Vaja a Maga Guerreira."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -122,9 +123,9 @@ dialogueCh5WM
 	.byte High
 	.byte Velthomer2
 	
-.text	"And beyond the Aed Desert, in Velthomer,"
+.text	"E além do deserto, em Velthomer,"
 	.byte NewLine
-.text	"General Aida,"
+.text	"a General Aida,"
 
 	.word LoadPortraitWM1
 	.byte 8
@@ -138,9 +139,9 @@ dialogueCh5WM
 	.byte High
 	
 	.byte WaitForA
-.text	" often regarded as the young lord’s"
+.text	" considerada o braço direito"
 	.byte NewLine
-.text	"right-arm, stands guard as the castle’s defense."
+.text	"de Arvis, mantém a defesa do castelo."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -150,17 +151,15 @@ dialogueCh5WM
 	.byte High
 	.byte Belhalla2
 	
-.text	"Finally, there is Grannvale’s capital, Belhalla…"
+.text	"Enfim, tem a Capital de Grannvale, Belhalla…"
 	.byte WaitForA
 	.byte ScrollText
-.text	"In the palace, King Ásmundr’s days"
+.text	"No palácio, está o Rei Ásmundr, agora"
 	.byte NewLine
-.text	"are numbered, now permanently bedridden"
+.text	"permanentemente acamado,"
 	.byte WaitForA
 	.byte NewLine
-.text	"as Lord Arvis remains close by"
-	.byte NewLine
-.text	"to provide relief through his condition."
+.text	"com Arvis cuidando dele."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -175,17 +174,16 @@ dialogueCh5WM
 	.word ClearMapSymbol
 	.byte High
 	
-.text	"Meanwhile, Chancellor Reptor of House Friege"
+.text	"Enquanto isso, chanceler Reptor de Friege"
 	.byte NewLine
-.text	"takes to the masses"
+.text	"Trabalha para manter a paz"
 	.byte WaitForA
-.text	" and works diligently"
 	.byte NewLine
-.text	"to maintain peace and order within the city."
+.text	"e a ordem dentro da cidade."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"The journey to Belhalla will be a long one;"	; Moved this up a bit for dramatic timing
+.text	"A jornada até Belhalla será longa;"	; Moved this up a bit for dramatic timing
 	.byte WaitForA
 	
 	.word LoadMapSymbol
@@ -194,29 +192,29 @@ dialogueCh5WM
 	.byte Low
 	.byte ZaxonToBelhalla
 	.byte NewLine
-.text	"a clash between Sigurd and the droves"
+.text	"e uma grande batalha entre Sigurd e"
 	.byte NewLine
-.text	"sent to subdue him is inevitable."
+.text	"seus inimigos é inevitável."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"“Silesse has treated us with naught"
+.text	"“Esse tempo todo, Silesse só nos"
 	.byte NewLine
-.text	"but kindness,"
+.text	"deu seu melhor,"
 	.byte WaitForA
-.text	" I refuse to drag its people"
+.text	" eu me recuso a trazer"
 	.byte NewLine
-.text	"into this fight any further!”"
+.text	"mais perigo à seus povo!”"
 	.byte WaitForA
 	.byte ScrollText	
-.text	"Sigurd spurs on his allies,"
+.text	"Sigurd motiva seus aliados,"
 	.byte NewLine
-.text	"all determined to fight to the end."
+.text	"todos determinados à lutar até o fim."
 	.byte WaitForA
 	.byte ScrollText
-.text	"The year is 760, Grann Calendar,"
+.text	"O ano é 760, calendário de Grann,"
 	.byte NewLine
-.text	"as winter turns to spring…"
+.text	"começo de primavera…"
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -234,12 +232,12 @@ dialogueCh5WM
 	.word ClearPortraitWM
 	.byte 10
 	
-.text	"From winding mountains to open plains,"
+.text	"Das grandes montanhas às planícies,"
 	.byte WaitForA
 	.byte NewLine
-.text	"Silesse is left peacefully"
+.text	"Silesse está inteiramente coberta"
 	.byte NewLine
-.text	"beneath a deep blanket of snow…"
+.text	"pela neve…"
 	.byte WaitForA
 	.byte ScrollText
 	

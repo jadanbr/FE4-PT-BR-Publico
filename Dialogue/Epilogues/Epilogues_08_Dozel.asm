@@ -14,50 +14,50 @@ dialogueEpiloguesDozel_LexsSon_InheritsThrone_Single
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going to Dozel, Lord Seliph."
+.text	"Eu vou para Dozel agora, Lorde Seliph."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Your father was Lord Lex, correct?"
+.text	"Você é filho do Lorde Lex, certo?"
 	.byte NewLine
-.text	"I'm sure the people of Dozel eagerly await"
+.text	"Eu tenho certeza que o povo te espera"
 	.byte NewLine
-.text	"your return, "
+.text	"ansiosamente, "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"The likes of Lombard and Danann have"
+.text	"Gente do tipo de Lombard e Danann "
 	.byte NewLine
-.text	"tormented the people and stained"
+.text	"atormentaram o povo e acabaram com a"
 	.byte NewLine
-.text	"House Dozel's good name for too long."
+.text	"reputação de Dozel por muito tempo."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Now that my father is gone,"
+.text	"Com o meu pai morto, é eu que terei"
 	.byte NewLine
-.text	"it falls to me to heal the state's wounds."
+.text	"que reparar os danos que eles fizeram."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Mm. I entrust Dozel's welfare to you."
+.text	"Mm. Eu confio a ti o governo de Dozel."
 	.byte NewLine
-.text	"I pray you'll be able to lend me your might"
+.text	"Eu espero ter sua força a meu lado por"
 	.byte NewLine
-.text	"in the years to come."
+.text	"vários anos."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"À seu serviço, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -78,50 +78,50 @@ dialogueEpiloguesDozel_LexsSon_InheritsThrone_Married
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going to Dozel, Lord Seliph."
+.text	"Eu vou para Dozel agora, Lorde Seliph."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Your father was Lord Lex, correct?"
+.text	"Você é filho do Lorde Lex, certo?"
 	.byte NewLine
-.text	"I'm sure the people of Dozel eagerly await"
+.text	"Eu tenho certeza que o povo te espera"
 	.byte NewLine
-.text	"your return, "
+.text	"ansiosamente, "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"The likes of Lombard and Danann have"
+.text	"Gente do tipo de Lombard e Danann "
 	.byte NewLine
-.text	"tormented the people and stained"
+.text	"atormentaram o povo e acabaram com a"
 	.byte NewLine
-.text	"House Dozel's good name for too long."
+.text	"reputação de Dozel por muito tempo."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Now that my father is gone,"
+.text	"Com o meu pai morto, é eu que terei"
 	.byte NewLine
-.text	"it falls to me to heal the state's wounds."
+.text	"que reparar os danos que eles fizeram."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Mm. I entrust Dozel's welfare to you."
+.text	"Mm. Eu confio a ti o governo de Dozel."
 	.byte NewLine
-.text	"I pray you'll be able to lend me your might"
+.text	"Eu espero ter sua força a meu lado por"
 	.byte NewLine
-.text	"in the years to come."
+.text	"vários anos."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"À seu serviço, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -140,9 +140,9 @@ dialogueEpiloguesDozel_LexsSon_LoverQuipPeppy
 	.word LoadStoredPortraitB
 	.byte StartText
 	.word PrintStoredNameB
-.text	", still chatting?"
+.text	", ainda tá aí falando?"
 	.byte NewLine
-.text	"C'mon, we should be hurrying!"
+.text	"Vambora, a gente tem que correr!"
 
 	.byte RightSlot
 	.word PauseText
@@ -150,22 +150,22 @@ dialogueEpiloguesDozel_LexsSon_LoverQuipPeppy
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"What do you mean?"
+.text	"Como assim?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Nothing'd be a sadder sight than having to walk"
+.text	"Não teria nada mais triste do que entrar"
 	.byte NewLine
-.text	"into Dozel while you're still here."
+.text	"em Dozel enquanto você ainda está aqui."
 	.byte NewLine
-.text	"C'mon, you'll thank me later!"
+.text	"Vamos, depois você vai me agradecer!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Heh, I suppose you're right..."
+.text	"Heh, acho que você está certa..."
 	.word PauseText
 	.byte $60
 
@@ -181,11 +181,13 @@ dialogueEpiloguesDozel_LexsSon_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Still busy chatting, "
+.text	"Ainda tá conversando, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"C'mon, we should be going already!"
+.text	"Vamos logo, já deveríamos estar indo"
+	.byte NewLine
+.text	"pra Dozel!"
 
 	.byte RightSlot
 	.word PauseText
@@ -193,22 +195,22 @@ dialogueEpiloguesDozel_LexsSon_LoverQuipLarcei
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"What do you mean?"
+.text	"Porquê a pressa?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Is anything quite as sad as going home alone?"
+.text	"Tem algo mais triste do que chegar em casa"
 	.byte NewLine
-.text	"I guess you should be thanking me for keeping"
+.text	"sozinha? Você deveria me agradecer por ficar"
 	.byte NewLine
-.text	"your arm occupied!"
+.text	"te perturbando!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Heh, I suppose you're right..."
+.text	"Heh, acho que você está certa..."
 	.word PauseText
 	.byte $60
 
@@ -224,11 +226,11 @@ dialogueEpiloguesDozel_LexsSon_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Are you still chatting, "
+.text	"Ainda está conversando, "
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Shouldn't we make haste for Dozel?"
+.text	"Não deveríamos ir para Dozel?"
 
 	.byte RightSlot
 	.word PauseText
@@ -236,24 +238,24 @@ dialogueEpiloguesDozel_LexsSon_LoverQuipNoble
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"What do you mean?"
+.text	"Porque a pressa?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I'll be going with you."
+.text	"Eu quero ir com você. Eu ia ficar muito"
 	.byte NewLine
-.text	"I'd be too worried if I wasn't with you..."
+.text	"preocupada se eu fosse embora sem você..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Ah, right..."
+.text	"Ah, entendo..."
 	.byte NewLine
-.text	"Thank you, "
+.text	"Obrigado, "
 	.word PrintStoredNameA
-.text	"."
+.text	". Logo nós vamos."
 	.word PauseText
 	.byte $60
 
@@ -276,41 +278,41 @@ dialogueEpiloguesDozel_LexsDaughter_NoThrone_Single
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going to Dozel too, Lord Seliph."
+.text	"Eu vou para Dozel também, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You as well, "
+.text	"Você também, "
 	.word PrintStoredNameB
-.text	"? I see..."
+.text	"? Entendi..."
 	.byte NewLine
-.text	"You're welcome to come by Belhalla"
+.text	"Você será bem vinda em Belhalla toda"
 	.byte NewLine
-.text	"once in a while for a visit."
+.text	"vez que quiser visitar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, sir."
+.text	"Obrigado, senhor."
 	.byte NewLine
-.text	"I'll take you up on that offer"
+.text	"Quando a situação normalizar em"
 	.byte NewLine
-.text	"once Dozel is back to normal."
+.text	"Dozel, eu venho."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Take care of yourself, "
+.text	"Se cuide, "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"And you as well, Lord Seliph..."
+.text	"Você também, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 
@@ -331,30 +333,30 @@ dialogueEpiloguesDozel_LexsDaughter_NoThrone_LoverDead
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going to Dozel too, Lord Seliph."
+.text	"Eu vou para Dozel também, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You as well, "
+.text	"Você vai também, "
 	.word PrintStoredNameB
-.text	"? I see..."
+.text	"? Entendo..."
 	.byte NewLine
-.text	"I know how much you're grieving, but please..."
+.text	"Eu sei quanto você está sofrendo..."
 	.byte NewLine
-.text	"Try to keep your head held high."
+.text	"Mas, tente ficar de cabeça erguida."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Mm... For "
+.text	"Mm... eu ficarei, pelo "
 	.word PrintStoredNameA
-.text	"'s sake, as well..."
+.text	"..."
 	.byte NewLine
-.text	"I know he's watching over me, even now."
+.text	"Eu sei que ele roga por mim. Ele vai me"
 	.byte NewLine
-.text	"He'll protect me for the rest of my life."
+.text	"proteger pelo resto da minha vida."
 	.word PauseText
 	.byte $60
 
@@ -362,16 +364,16 @@ dialogueEpiloguesDozel_LexsDaughter_NoThrone_LoverDead
 	.word ScrollBoth
 .text	"Mm."
 	.byte NewLine
-.text	"I thought you might say so."
+.text	"Imaginei que você diria algo assim."
 	.byte NewLine
-.text	"Take care of yourself, "
+.text	"Se cuide, "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"And you as well, Lord Seliph..."
+.text	"Você também, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 
@@ -392,50 +394,50 @@ dialogueEpiloguesDozel_LexsDaughter_InheritsThrone
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"I'm going to Dozel, Lord Seliph."
+.text	"Eu vou para Dozel agora, Lorde Seliph."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Your father was Lord Lex, correct?"
+.text	"Você é filha do Lorde Lex, certo?"
 	.byte NewLine
-.text	"I'm sure the people of Dozel eagerly await"
+.text	"Eu tenho certeza que o povo te espera"
 	.byte NewLine
-.text	"your return, "
+.text	"ansiosamente, "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"The likes of Lombard and Danann have"
+.text	"Gente do tipo de Lombard e Danann "
 	.byte NewLine
-.text	"tormented the people and stained"
+.text	"atormentaram o povo e acabaram com a"
 	.byte NewLine
-.text	"House Dozel's good name for too long."
+.text	"reputação de Dozel por muito tempo."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Now that my father is gone,"
+.text	"Com o meu pai morto, é eu que terei"
 	.byte NewLine
-.text	"it falls to me to heal the state's wounds."
+.text	"que reparar os danos que eles fizeram."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Mm. I entrust Dozel's welfare to you."
+.text	"Mm. Eu confio a ti o governo de Dozel."
 	.byte NewLine
-.text	"I pray you'll be able to lend me your might"
+.text	"Eu espero ter sua força a meu lado por"
 	.byte NewLine
-.text	"in the years to come."
+.text	"vários anos."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"À seu serviço, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -459,66 +461,74 @@ dialogueEpiloguesDozel_Iuchar_Single
 	.word LoadPortrait
 	.word portrait_Iuchar
 	.byte StartText
-.text	"My liege!"
+.text	"Meu senhor!"
 	.byte NewLine
-.text	"I owe you a debt among debts."
+.text	"Eu lhe devo uma divída impagável"
+	.byte NewLine
+.text	"pelo que fez em meu favor."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I leave Dozel's care to you, Lord Iuchar."
+.text	"Eu deixo Dozel em suas mãos, Lorde Iuchar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Home shall hold only pain for me,"
+.text	"Voltar a minha casa será doloroso, mas eu"
 	.byte NewLine
-.text	"yet return I must if I am to absolve my kin's sins."
+.text	"tenho que retornar, se eu quiser pagar"
 	.byte NewLine
-.text	"I know yet not if my people could ever forgive me."
-	.word PauseText
-	.byte $60
-
-	.byte LeftSlot
-	.word ScrollBoth
-.text	"This war could never have been won if not"
-	.byte NewLine
-.text	"for your strength, Iuchar."
+.text	"pelos pecados de minha família."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Your legacy is one of kindness."
+.text	"Ainda não sei se o povo"
 	.byte NewLine
-.text	"People everywhere know this well."
-
-	.byte RightSlot
-	.word PauseText
-	.byte $20
-.text	"Your words honor me, my liege."
-	.byte NewLine
-.text	"I can only pray you shall someday"
-	.byte NewLine
-.text	"forgive House Dozel."
+.text	"será capaz de me perdoar..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"But of course, Iuchar."
+.text	"Essa guerra não teria sido ganha"
 	.byte NewLine
-.text	"I hope both Grannvale and the world"
+.text	"sem o seu apoio, Iuchar."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Seu legado é um legado de bondade."
 	.byte NewLine
-.text	"will greatly prosper from your might."
+.text	"Por toda parte o povo sabe disso."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You shall always have my axe, my liege."
+.text	"Suas palavras me honram, meu senhor."
 	.byte NewLine
-.text	"I swear to you, the Grannvale throne shall have"
+.text	"Eu espero que um dia tu possas perdoar"
 	.byte NewLine
-.text	"the undying loyalty of House Dozel."
+.text	"a Casa de Dozel."
+	.word PauseText
+	.byte $60
+
+	.byte LeftSlot
+	.word ScrollBoth
+.text	"Mas é claro, Iuchar. Eu espero que"
+	.byte NewLine
+.text	"tanto Grannvale quanto todo o mundo possam"
+	.byte NewLine
+.text	"prosperar com você em Dozel."
+
+	.byte RightSlot
+	.word PauseText
+	.byte $20
+.text	"Você sempre terá meu apoio, meu senhor."
+	.byte NewLine
+.text	"Eu juro para ti, o trono de Grannvale terá"
+	.byte NewLine
+.text	"a imortal lealdade da Casa de Dozel."
 	.word PauseText
 	.byte $60
 
@@ -540,66 +550,74 @@ dialogueEpiloguesDozel_Iuchar_Married
 	.word LoadPortrait
 	.word portrait_Iuchar
 	.byte StartText
-.text	"My liege!"
+.text	"Meu senhor!"
 	.byte NewLine
-.text	"I owe you a debt among debts."
+.text	"Eu lhe devo uma divída impagável"
+	.byte NewLine
+.text	"pelo que fez em meu favor."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I leave Dozel's care to you, Lord Iuchar."
+.text	"Eu deixo Dozel em suas mãos, Lorde Iuchar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Home shall hold only pain for me,"
+.text	"Voltar a minha casa será doloroso, mas eu"
 	.byte NewLine
-.text	"yet return I must if I am to absolve my kin's sins."
+.text	"tenho que retornar, se eu quiser pagar"
 	.byte NewLine
-.text	"I know yet not if my people could ever forgive me."
-	.word PauseText
-	.byte $60
-
-	.byte LeftSlot
-	.word ScrollBoth
-.text	"This war could never have been won if not"
-	.byte NewLine
-.text	"for your strength, Iuchar."
+.text	"pelos pecados de minha família."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Your legacy is one of kindness."
+.text	"Ainda não sei se o povo"
 	.byte NewLine
-.text	"People everywhere know this well."
-
-	.byte RightSlot
-	.word PauseText
-	.byte $20
-.text	"Your words honor me, my liege."
-	.byte NewLine
-.text	"I can only pray you shall someday"
-	.byte NewLine
-.text	"forgive House Dozel."
+.text	"será capaz de me perdoar..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"But of course, Iuchar."
+.text	"Essa guerra não teria sido ganha"
 	.byte NewLine
-.text	"I hope both Grannvale and the world"
+.text	"sem o seu apoio, Iuchar."
+	.word PauseText
+	.byte $60
+	.byte ScrollText
+.text	"Seu legado é um legado de bondade."
 	.byte NewLine
-.text	"will greatly prosper from your might."
+.text	"Por toda parte o povo sabe disso."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You shall always have my axe, my liege."
+.text	"Suas palavras me honram, meu senhor."
 	.byte NewLine
-.text	"I swear to you, the Grannvale throne shall have"
+.text	"Eu espero que um dia tu possas perdoar"
 	.byte NewLine
-.text	"the undying loyalty of House Dozel."
+.text	"a Casa de Dozel."
+	.word PauseText
+	.byte $60
+
+	.byte LeftSlot
+	.word ScrollBoth
+.text	"Mas é claro, Iuchar. Eu espero que"
+	.byte NewLine
+.text	"tanto Grannvale quanto todo o mundo possam"
+	.byte NewLine
+.text	"prosperar com você em Dozel."
+
+	.byte RightSlot
+	.word PauseText
+	.byte $20
+.text	"Você sempre terá meu apoio, meu senhor."
+	.byte NewLine
+.text	"Eu juro para ti, o trono de Grannvale terá"
+	.byte NewLine
+.text	"a imortal lealdade da Casa de Dozel."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -617,17 +635,17 @@ dialogueEpiloguesDozel_Iuchar_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"I hate to admit it, Iuchar,"
+.text	"Eu odeio ter que admitir, Iuchar, mas esse"
 	.byte NewLine
-.text	"but that was actually quite the stirring speech!"
+.text	"foi um ótimo discurso! Acho que esse é"
 	.byte NewLine
-.text	"I guess that's what you've always been good at."
+.text	"o seu forte."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 	.word PrintStoredNameA
-.text	", I..."
+.text	", eu..."
 	.word PauseText
 	.byte $60
 
@@ -635,18 +653,17 @@ dialogueEpiloguesDozel_Iuchar_LoverQuipLarcei
 	.word ScrollBoth
 .text	"Heh..."
 	.byte NewLine
-.text	"I know."
+.text	"Eu sei."
 	.byte NewLine
-.text	"I mean, I do love you, too, Iuchar."
+.text	"Eu também te amo, Iuchar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Ahh!"
 	.byte NewLine
-.text	"I've never known such joy, "
 	.word PrintStoredNameA
-.text	"!"
+.text	", tu me faz muito feliz!"
 	.word PauseText
 	.byte $60
 
@@ -662,34 +679,34 @@ dialogueEpiloguesDozel_Iuchar_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"What an inspiring speech, Iuchar!"
+.text	"Que discurso inspirador, Iuchar!"
 	.byte NewLine
 .text	"Hah..."
 	.byte NewLine
-.text	"Some things never change."
+.text	"Algumas coisas nunca mudam."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 	.word PrintStoredNameA
-.text	", I..."
+.text	", eu..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I know, Iuchar."
+.text	"Eu sei, Iuchar."
 	.byte NewLine
-.text	"I feel exactly the same way..."
+.text	"Eu sinto a mesma coisa..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Ahh! Bless you, "
+.text	"Ahh! Que os deuses te abençoem, "
 	.word PrintStoredNameA
 .text	"!"
 	.byte NewLine
-.text	"I've never known such joy!"
+.text	"Tu me fazes muito feliz!"
 	.word PauseText
 	.byte $60
 
@@ -705,17 +722,17 @@ dialogueEpiloguesDozel_Iuchar_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Wow, what a stirring speech, Iuchar."
+.text	"Uau, grande discurso, Iuchar."
 	.byte NewLine
-.text	"Hey, I guess it's no surprise."
+.text	"Bem, não é surpresa pra mim. Você"
 	.byte NewLine
-.text	"You've always been great at those!"
+.text	"sempre foi bom na oratória!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 	.word PrintStoredNameA
-.text	", I..."
+.text	", eu..."
 	.word PauseText
 	.byte $60
 
@@ -723,9 +740,9 @@ dialogueEpiloguesDozel_Iuchar_LoverQuipPeppy
 	.word ScrollBoth
 .text	"Hee hee..."
 	.byte NewLine
-.text	"I know."
+.text	"Eu sei."
 	.byte NewLine
-.text	"I love you, too, Iuchar."
+.text	"Eu também te amo, Iuchar."
 
 	.byte RightSlot
 	.word PauseText
@@ -757,49 +774,51 @@ dialogueEpiloguesDozel_Iucharba_Single
 	.word LoadPortrait
 	.word portrait_Iucharba
 	.byte StartText
-.text	"So long, Seliph."
+.text	"Até mais, Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I leave Dozel's care to you, Lord Iucharba."
+.text	"Eu deixo o governo de Dozel pra"
+	.byte NewLine
+.text	"você, Lorde Iucharba."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Facing my people ain't gonna be easy,"
+.text	"Encarar o meu povo não vai ser fácil,"
 	.byte NewLine
-.text	"but one way or another, I've gotta atone"
+.text	"mas, cedo ou tarde, eu vou precisar arrumar"
 	.byte NewLine
-.text	"for my dad's crimes."
+.text	"a bagunça que meu pai e meu avô fizeram."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Well, I've gotta try at least, don't I?"
+.text	"Tenho que pelo menos tentar, né"
 	.byte NewLine
-.text	"I really owe you one, Seliph."
+.text	"Eu te devo uma, Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You truly are an odd one, Lord Iucharba."
+.text	"Você é um cara estranho, Iucharba. Seu jeito"
 	.byte NewLine
-.text	"Your rough words hide such a gentle spirit."
+.text	"de falar esconde seu espírito gentil."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Heh, I guess."
+.text	"Heh, faz sentido."
 	.byte NewLine
-.text	"Talking like that never felt right, yeah?"
+.text	"Mas, eu gosto assim."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Good luck with everything, Seliph."
+.text	"Boa sorte, Seliph."
 	.byte NewLine
-.text	"I'll see ya around."
+.text	"Te vejo por aí."
 	.word PauseText
 	.byte $60
 
@@ -821,49 +840,51 @@ dialogueEpiloguesDozel_Iucharba_Married
 	.word LoadPortrait
 	.word portrait_Iucharba
 	.byte StartText
-.text	"So long, Seliph."
+.text	"Até mais, Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I leave Dozel's care to you, Lord Iucharba."
+.text	"Eu deixo o governo de Dozel pra"
+	.byte NewLine
+.text	"você, Lorde Iucharba."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Facing my people ain't gonna be easy,"
+.text	"Encarar o meu povo não vai ser fácil,"
 	.byte NewLine
-.text	"but one way or another,"
+.text	"mas, cedo ou tarde, eu vou precisar arrumar"
 	.byte NewLine
-.text	"I've gotta atone for my dad's crimes somehow."
+.text	"a bagunça que meu pai e meu avô fizeram."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Guess I won't know till I try."
+.text	"Tenho que pelo menos tentar, né"
 	.byte NewLine
-.text	"I really owe you one, Seliph."
+.text	"Eu te devo uma, Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You truly are an odd one, Lord Iucharba."
+.text	"Você é um cara estranho, Iucharba. Seu jeito"
 	.byte NewLine
-.text	"Your rough words hide such a gentle spirit."
+.text	"de falar esconde seu espírito gentil."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Heh, I guess."
+.text	"Heh, faz sentido."
 	.byte NewLine
-.text	"Talking like that never felt right, yeah?"
+.text	"Mas, eu gosto assim."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Good luck with everything, Seliph."
+.text	"Boa sorte, Seliph."
 	.byte NewLine
-.text	"I'll see ya around."
+.text	"Te vejo por aí."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -880,38 +901,40 @@ dialogueEpiloguesDozel_Iucharba_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Don't worry, Lord Seliph."
+.text	"Não se preocupe, Lorde Seliph."
 	.byte NewLine
-.text	"Iucharba's always felt awkward about"
+.text	"Iucharba sempre tem um pouco de vergonha"
 	.byte NewLine
-.text	"what really lies beneath his act..."
+.text	"de mostrar esse lado dele."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Hahaha, I thought as much."
+.text	"Hahaha, faz sentido."
 	.byte NewLine
-.text	"Do take care, "
+.text	"Se cuide, "
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"And do take care of Iucharba."
+.text	"E cuide do Iucharba."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir."
+.text	"Sim, senhor."
 	.byte NewLine
-.text	"I suppose I can't really afford to leave him be,"
+.text	"Seria imprudente deixá-lo sozinho,"
 	.byte NewLine
-.text	"can I?"
+.text	"não acha?"
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Rest assured, I'll look after him."
+.text	"De todo modo, não precisa se preocupar."
 	.byte NewLine
-.text	"Take care as well, Lord Seliph!"
+.text	"Eu vou cuidar dele."
+	.byte NewLine
+.text	"Se cuide também, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -926,40 +949,40 @@ dialogueEpiloguesDozel_Iucharba_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"No need to worry, Lord Seliph!"
+.text	"Não esquenta, Lorde Seliph!"
 	.byte NewLine
-.text	"Iucharba's actually just really shy."
+.text	"Iucharba na verdade é um cara tímido."
 	.byte NewLine
-.text	"That's why he's acting so tough."
+.text	"É por isso que ele faz essa pose de durão."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Hahaha, I thought as much."
+.text	"Hahaha, eu imaginei."
 	.byte NewLine
-.text	"Do take care, "
+.text	"Se cuide, "
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"And do take care of Iucharba."
+.text	"E tome conta do Iucharba."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yep!"
+.text	"Ok!"
 	.byte NewLine
-.text	"I really don't think leaving him alone's a good idea,"
+.text	"Eu acho que deixar ele sozinho não é"
 	.byte NewLine
-.text	"anyway!"
+.text	"uma boa ideia mesmo!"
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Don't worry."
+.text	"Bem, não vai precisar se preocupar."
 	.byte NewLine
-.text	"I'll take care of him."
+.text	"Eu vou tomar conta dele. Você se cuide"
 	.byte NewLine
-.text	"You take care of yourself, too, Lord Seliph!"
+.text	"também, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 

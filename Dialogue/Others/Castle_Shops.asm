@@ -6,35 +6,35 @@
 armory_main_welcome
 	.byte ClearText
 	.byte StartText
-.text	"Welcome to my armory."
+.text	"Bem vindo a minha armaria."
 	.byte NewLine
 	.byte EndText
 
 armory_buy
 	.byte ClearText
 	.byte StartText
-.text	"Anything take your fancy?"
+.text	"Algo aqui te interessa?"
 	.byte NewLine
 	.byte EndText
 
 armory_buy_confirm
 	.byte ClearText
 	.byte StartText
-.text	"That one, then?"
+.text	"Esse, então?"
 	.byte NewLine
 	.byte EndText
 
 armory_after_buy
 	.byte ClearText
 	.byte StartText
-.text	"Anything else?"
+.text	"Mais alguma coisa?"
 	.byte NewLine
 	.byte EndText
 
 armory_no_money
 	.byte ClearText
 	.byte StartText
-.text	"Hey, you don't have the gold for that."
+.text	"Ei, você não tem o dinheiro pra isso."
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -42,7 +42,7 @@ armory_no_money
 armory_no_room
 	.byte ClearText
 	.byte StartText
-.text	"You can't carry any more."
+.text	"Você não tem espaço pra levar isso."
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -50,32 +50,32 @@ armory_no_room
 armory_outofstock
 	.byte ClearText
 	.byte StartText
-.text	"My apologies, stranger."
+.text	"Me perdoe, estranho."
 	.byte WaitForA
 	.byte ClearText
-.text	"We're all outta stock"
+.text	"Estamos sem estoque."
 	.byte NewLine
 	.byte EndText
 
 armory_your_items
 	.byte ClearText
 	.byte StartText
-.text	"Taking a moment to check"
+.text	"Tirando um momento pra olhar"
 	.byte NewLine
-.text	"your own belongings, are you?"
+.text	"suas coisas, é?"
 	.byte EndText
 
 armory_main_other
 	.byte ClearText
 	.byte StartText
-.text	"Interested in anything else?"
+.text	"Interessado em mais alguma coisa?"
 	.byte NewLine
 	.byte EndText
 
 armory_leave
 	.byte ClearText
 	.byte StartText
-.text	"Come again."
+.text	"Volte sempre."
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -83,10 +83,10 @@ armory_leave
 armory_your_items_empty
 	.byte ClearText
 	.byte StartText
-.text	"Huh, you seem to have nothing on you."
+.text	"Hã, parece que você não tem nada."
 	.byte WaitForA
 	.byte ClearText
-.text	"Anything else?"
+.text	"Mais alguma coisa?"
 	.byte NewLine
 	.byte EndText
 
@@ -96,92 +96,94 @@ armory_your_items_empty
 pawnbroker_main_welcome
 	.byte ClearText
 	.byte StartText
-.text	"This is the pawnbroker's."
+.text	"Isso é uma loja de penhores."
 	.byte NewLine
-.text	"We buy and sell all manner of things."
+.text	"Compramos e vendemos qualquer coisa."
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_main_welcome_outofstock
 	.byte ClearText
 	.byte StartText
-.text	"This is the pawnbroker's."
+.text	"Isso é uma loja de penhores."
 	.byte NewLine
-.text	"We can buy things you no longer need."
+.text	"Podemos comprar coisas."
+	.byte ClearText
+.text	"que não precisa mais."
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_buy
 	.byte ClearText
 	.byte StartText
-.text	"Anything take your fancy?"
+.text	"Algo te interessa?"
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_buy_confirm
 	.byte ClearText
 	.byte StartText
-.text	"This one, you say?"
+.text	"Quer esse, então?"
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_after_buy
 	.byte ClearText
 	.byte StartText
-.text	"Anything else you want?"
+.text	"Mais alguma coisa?"
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_sell
 	.byte ClearText
 	.byte StartText
-.text	"What'd you like to sell me?"
+.text	"O que gostaria de me vender?"
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_sell_confirm
 	.byte ClearText
 	.byte StartText
-.text	"This one, you say?"
+.text	"Esse, então?"
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_after_sell
 	.byte ClearText
 	.byte StartText
-.text	"Got anything else to sell?"
+.text	"Mais alguma coisa pra vender?"
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_buy_outofstock
 	.byte ClearText
 	.byte StartText
-.text	"Er... Sorry, bub."
+.text	"Er... desculpa, cara."
 	.byte NewLine
-.text	"I'm all outta stock right now."
+.text	"Tô sem nada hoje."
 	.byte WaitForA
 	.byte ClearText
-.text	"Anything else I can do for you?"
+.text	"Posso lhe ajudar de outra forma?"
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_sell_empty
 	.byte ClearText
 	.byte StartText
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"You ain't got a thing to sell!"
+.text	"Você não tem nada pra vender!"
 	.byte NewLine
 	.byte WaitForA
 	.byte ClearText
-.text	"Anything else I can do for you?"
+.text	"Posso lhe ajudar de outra forma?"
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_no_money
 	.byte ClearText
 	.byte StartText
-.text	"You haven't got the funds for that."
+.text	"Você não tem dinheiro pra isso."
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -189,18 +191,18 @@ pawnbroker_no_money
 pawnbroker_no_room
 	.byte ClearText
 	.byte StartText
-.text	"Oi, oi, oi!"
+.text	"Epa, epa, epa!"
 	.byte NewLine
-.text	"Your inventory's full!"
+.text	"Seu inventário tá cheio!"
 	.byte WaitForA
 	.byte EndText
 
 pawnbroker_unsellable
 	.byte ClearText
 	.byte StartText
-.text	"Er... Sorry, mate."
+.text	"Er... desculpa, amigo."
 	.byte NewLine
-.text	"I can't buy that."
+.text	"Não posso comprar isso."
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -208,16 +210,18 @@ pawnbroker_unsellable
 pawnbroker_main_other
 	.byte ClearText
 	.byte StartText
-.text	"Anything else I can do you for?"
+.text	"Mais alguma coisa"
+	.byte NewLine
+.text	"que eu possa fazer por você?"
 	.byte NewLine
 	.byte EndText
 
 pawnbroker_leave
 	.byte ClearText
 	.byte StartText
-.text	"Thanks."
+.text	"Obrigado."
 	.byte NewLine
-.text	"Come again, y'hear?"
+.text	"Volte sempre, ouviu?"
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -228,56 +232,56 @@ pawnbroker_leave
 blacksmith_main_welcome
 	.byte ClearText
 	.byte StartText
-.text	"Ho!"
+.text	"Oi!"
 	.byte NewLine
-.text	"I'll repair your old weapons."
+.text	"Vou consertar suas armas velhas."
 	.byte NewLine
-.text	"What'd you like fixed?"
+.text	"O que você quer que eu conserte?"
 	.byte EndText
 
 blacksmith_dummytext
 	.byte ClearText
 	.byte StartText
-.text	"Dummy - fix?"
+.text	"Dummy - consertar?"
 	.byte NewLine
 	.byte EndText
 
 blacksmith_unused
 	.byte ClearText
 	.byte StartText
-.text	"What'd you like fixed?"
+.text	"O que quer que eu conserte?"
 	.byte NewLine
 	.byte EndText
 
 blacksmith_repair_confirm
 	.byte ClearText
 	.byte StartText
-.text	"You want this one fixed, then?"
+.text	"Quer que eu conserte esse, então?"
 	.byte NewLine
 	.byte EndText
 
 blacksmith_repair_confirm_50kills
 	.byte ClearText
 	.byte StartText
-.text	"Now, this is a fine piece!"
+.text	"Olha, essa aqui é boa!"
 	.byte NewLine
-.text	"I'll take good care with this one."
+.text	"Vou ter cuidado com essa arma."
 	.byte NewLine
 	.byte EndText
 
 blacksmith_after_repair
 	.byte ClearText
 	.byte StartText
-.text	"Need anything else repaired?"
+.text	"Precisa consertar mais alguma coisa?"
 	.byte NewLine
 	.byte EndText
 
 blacksmith_no_money
 	.byte ClearText
 	.byte StartText
-.text	"Hold it."
+.text	"Pera aí."
 	.byte NewLine
-.text	"Where's your gold?"
+.text	"Cadê seu dinheiro?"
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -285,7 +289,7 @@ blacksmith_no_money
 blacksmith_unrepairable
 	.byte ClearText
 	.byte StartText
-.text	"'Fraid I can't fix that."
+.text	"Desculpa, não posso consertar isso."
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -293,14 +297,14 @@ blacksmith_unrepairable
 blacksmith_main_other
 	.byte ClearText
 	.byte StartText
-.text	"Anything else"
+.text	"Mais alguma coisa?"
 	.byte NewLine
 	.byte EndText
 
 blacksmith_leave
 	.byte ClearText
 	.byte StartText
-.text	"Well, see you around."
+.text	"Bem, te vejo depois."
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -308,20 +312,20 @@ blacksmith_leave
 blacksmith_main_welcome_empty
 	.byte ClearText
 	.byte StartText
-.text	"Ho!"
+.text	"Oi!"
 	.byte NewLine
-.text	"I'll repair your old weapons."
+.text	"Eu vou consertar suas armas velhas."
 	.byte NewLine
 	.byte WaitForA
 	.byte ClearText
-.text	"Hold it."
+.text	"Pera aí."
 	.byte NewLine
-.text	"Where're your items?"
+.text	"Cadê suas armas?"
 	.byte WaitForA
 	.byte ClearText
-.text	"Come back when you've got"
+.text	"Volte quando tiver algo que"
 	.byte NewLine
-.text	"somethin' in need of repairs."
+.text	"precise ser consertado."
 	.byte WaitForA
 	.byte EndText
 
@@ -331,117 +335,117 @@ blacksmith_main_welcome_empty
 arena_main_welcome
 	.byte ClearText
 	.byte StartText
-.text	"This 'ere's the arena."
+.text	"Aqui é a arena."
 	.byte NewLine
 	.byte EndText
 
 arena_fight_confirm
 	.byte ClearText
 	.byte StartText
-.text	"This 'ere foe's at rank "
+.text	"Esse inimigo é do nível "
 	.word PrintStoredNumberA
 .text	"."
 	.byte NewLine
-.text	"Best o' luck, stranger."
+.text	"Boa sorte, estranho."
 	.byte NewLine
 	.byte EndText
 
 arena_pickweapon
 	.byte ClearText
 	.byte StartText
-.text	"Pick a weapon to take with ya."
+.text	"Escolha uma arma pra levar."
 	.byte NewLine
 	.byte EndText
 
 arena_fight_no_weapon
 	.byte ClearText
 	.byte StartText
-.text	"Whazzat?"
+.text	"É o que?"
 	.byte NewLine
-.text	"Got no weapons?"
+.text	"Não tem armas?"
 	.byte WaitForA
 	.byte ClearText
-.text	"What good'll that do ya 'ere?"
+.text	"Cai fora!"
 	.byte NewLine
 	.byte EndText
 
 arena_arena_main_cleared
 	.byte ClearText
 	.byte StartText
-.text	"Sorry, mate."
+.text	"Desculpa, parceiro."
 	.byte NewLine
-.text	"Ain't anyone left 'ere for ya to fight..."
+.text	"Você já derrotou todos os oponentes..."
 	.byte WaitForA
 	.byte EndText
 
 arena_loss
 	.byte ClearText
 	.byte StartText
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"Ya went and lost, did ya?"
+.text	"Perdeu, né?"
 	.byte NewLine
-.text	"That wound ain't pretty..."
+.text	"Esse machucado é bem feio..."
 	.byte WaitForA
 	.byte EndText
 
 arena_win
 	.byte ClearText
 	.byte StartText
-.text	"Nice fightin', mate."
+.text	"Parabéns, parceiro."
 	.byte NewLine
-.text	"Ere's yer reward: "
+.text	"Aqui seu prêmio: "
 	.word PrintStoredNumberA
-.text	" gold pieces. "
+.text	" moedas. "
 	.byte NewLine
 	.byte WaitForA
 	.byte ClearText
-.text	"Feel like fightin' another round?"
+.text	"Quer lutar mais uma vez?"
 	.byte NewLine
 	.byte EndText
 
 arena_forfeit
 	.byte ClearText
 	.byte StartText
-.text	"What?"
+.text	"O que?"
 	.byte NewLine
-.text	"Forfeitin', are ya?"
+.text	"Indo embora, né?"
 	.byte NewLine
 	.byte EndText
 
 arena_forfeit_cede
 	.byte ClearText
 	.byte StartText
-.text	"So long, then."
+.text	"Adeus, então."
 	.byte WaitForA
 	.byte EndText
 
 arena_win_clear
 	.byte ClearText
 	.byte StartText
-.text	"Quite the fighter, aren't ya?"
+.text	"Você é bom de briga, não é?"
 	.byte NewLine
-.text	"You've cleared out the whole arena."
+.text	"Você limpou a arena."
 	.byte NewLine
-.text	"'Ere's yer reward: 4000 gold pieces."
+.text	"Aqui seu prêmio: 4000 moedas."
 	.byte WaitForA
 	.byte EndText
 
 arena_leave
 	.byte ClearText
 	.byte StartText
-.text	"So long, then."
+.text	"Adeus, então."
 	.byte NewLine
-.text	"Come again if ya fancy"
+.text	"Volte se quiser mais um pouco"
 	.byte NewLine
-.text	"a bit o' bloodsport."
+.text	"de sangue."
 	.byte WaitForA
 	.byte EndText
 
 arena_main_other
 	.byte ClearText
 	.byte StartText
-.text	"What'll ya do?"
+.text	"O que irá fazer?"
 	.byte NewLine
 	.byte EndText
 
@@ -451,48 +455,48 @@ arena_main_other
 depository_main_welcome
 	.byte ClearText
 	.byte StartText
-.text	"Oh, come on in!"
+.text	"Entre, por favor! Posso guardar"
 	.byte NewLine
-.text	"I'll help you store your spare items."
+.text	"seus itens para você."
 	.byte NewLine
 	.byte EndText
 
 depository_deposit
 	.byte ClearText
 	.byte StartText
-.text	"What would you like to store?"
+.text	"O que você quer guardar?"
 	.byte NewLine
 	.byte EndText
 
 depository_deposit_confirm
 	.byte ClearText
 	.byte StartText
-.text	"This one, then?"
+.text	"Esse, então?"
 	.byte NewLine
 	.byte EndText
 
 depository_after_deposit
 	.byte ClearText
 	.byte StartText
-.text	"Anything else you'd like stored?"
+.text	"Mais alguma coisa que queira guardar?"
 	.byte NewLine
 	.byte EndText
 
 depository_deposit_empty
 	.byte ClearText
 	.byte StartText
-.text	"Sorry! You've no items to deposit."
+.text	"Desculpa! Você não tem nada para depositar."
 	.byte NewLine
 	.byte WaitForA
 	.byte ClearText
-.text	"Anything else I can do for you?"
+.text	"Posso te ajudar de outra forma?"
 	.byte NewLine
 	.byte EndText
 
 depository_no_room
 	.byte ClearText
 	.byte StartText
-.text	"You can't carry any more items!"
+.text	"Você não tem mais espaço!"
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -500,41 +504,41 @@ depository_no_room
 depository_retrieve
 	.byte ClearText
 	.byte StartText
-.text	"Which would you like to withdraw?"
+.text	"O que você quer retirar?"
 	.byte NewLine
 	.byte EndText
 
 depository_after_retrieve
 	.byte ClearText
 	.byte StartText
-.text	"Any other withdrawals?"
+.text	"Mais alguma coisa pra retirar?"
 	.byte NewLine
 	.byte EndText
 
 depository_retrieve_empty
 	.byte ClearText
 	.byte StartText
-.text	"Sorry! Your storage box is empty!"
+.text	"Você não tem nada para retirar!"
 	.byte NewLine
 	.byte WaitForA
 	.byte ClearText
-.text	"Anything else I can do for you?"
+.text	"Posso te ajudar de outra forma?"
 	.byte NewLine
 	.byte EndText
 
 depository_main_other
 	.byte ClearText
 	.byte StartText
-.text	"Anything else I can do for you?"
+.text	"Posso te ajudar de outra forma?"
 	.byte NewLine
 	.byte EndText
 
 depository_leave
 	.byte ClearText
 	.byte StartText
-.text	"Buh-bye!"
+.text	"Tchauzinho!"
 	.byte NewLine
-.text	"Drop by again soon!"
+.text	"Volte sempre!"
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText
@@ -545,19 +549,19 @@ depository_leave
 fortuneteller_main_welcome
 	.byte ClearText
 	.byte StartText
-.text	"Greetings, warrior."
+.text	"Saudações, guerreiro/a."
 	.byte NewLine
-.text	"Would you like your fates to be read?"
+.text	"Quer que eu leia o seu destino?"
 	.byte NewLine
-.text	"What would you like revealed?"
+.text	"O que quer que eu revele?"
 	.byte EndText
 
 fortuneteller_main_other
 	.byte ClearText
 	.byte StartText
-.text	"Any other mysteries you wish"
+.text	"Precisa que eu revele algum"
 	.byte NewLine
-.text	"to see revealed?"
+.text	"outro mistério?"
 	.byte NewLine
 	.byte EndText
 
@@ -566,10 +570,10 @@ fortuneteller_lover_200_300
 	.byte StartText
 .text	"Ohh..."
 	.byte NewLine
-.text	"You've had "
+.text	"Você tem pensado em "
 	.word PrintStoredNameA
 	.byte NewLine
-.text	"dwelling on your mind as of late."
+.text	"recentemente."
 	.byte WaitForA
 	.byte EndText
 
@@ -579,9 +583,9 @@ fortuneteller_lover_300_400
 .text	"Ohh..."
 	.byte NewLine
 	.word PrintStoredNameA
-.text	" has taken"
+.text	" tem te atraído"
 	.byte NewLine
-.text	"your fancy of late."
+.text	"ultimamente."
 	.byte WaitForA
 	.byte EndText
 
@@ -590,9 +594,9 @@ fortuneteller_lover_400_500
 	.byte StartText
 .text	"Ohh..."
 	.byte NewLine
-.text	"You're well and truly"
+.text	"Você está verdadeiramente"
 	.byte NewLine
-.text	"in love with "
+.text	"apaixonado/a por "
 	.word PrintStoredNameA
 .text	"."
 	.byte WaitForA
@@ -603,10 +607,10 @@ fortuneteller_lover_married
 	.byte StartText
 .text	"Ohh..."
 	.byte NewLine
-.text	"You and "
+.text	"Você e "
 	.word PrintStoredNameA
 	.byte NewLine
-.text	"are bound in holy matrimony!"
+.text	"estão unidos pelo sagrado matrimônio!"
 	.byte WaitForA
 	.byte EndText
 
@@ -615,18 +619,18 @@ fortuneteller_lover_less_than_200
 	.byte StartText
 .text	"Ohh..."
 	.byte NewLine
-.text	"You've yet to find one"
+.text	"Ninguém tocou em seu"
 	.byte NewLine
-.text	"to capture your heart."
+.text	"coração ainda."
 	.byte WaitForA
 	.byte EndText
 
 fortuneteller_leave
 	.byte ClearText
 	.byte StartText
-.text	"Thank you."
+.text	"Obrigado."
 	.byte NewLine
-.text	"I know we'll meet again."
+.text	"Sei que nos veremos de novo."
 	.byte WaitForA
 	.byte EndText
 
@@ -635,12 +639,12 @@ fortuneteller_records
 	.byte StartText
 .text	"Ohh..."
 	.byte NewLine
-.text	"As of now, you've accrued"
+.text	"Até agora, você conseguiu"
 	.byte NewLine
 	.word PrintStoredNumberA
-.text	" wins and "
+.text	" vitórias e "
 	.word PrintStoredNumberB
-.text	" losses."
+.text	" derrotas."
 	.byte WaitForA
 	.byte EndText
 
@@ -649,10 +653,10 @@ fortuneteller_parents
 	.byte StartText
 .text	"Ohh..."
 	.byte NewLine
-.text	"Your father was "
+.text	"Seu pai foi "
 	.word PrintStoredNameA
 	.byte NewLine
-.text	"and your mother was "
+.text	"e sua mãe foi "
 	.word PrintStoredNameB
 .text	"."
 	.byte WaitForA
@@ -662,69 +666,69 @@ fortuneteller_parents
 ;	Class change
 
 classchange_oifey_possible
-.text	"Masterfully done!"
+.text	"Muito bem feito!"
 	.byte NewLine
-.text	"You're now able to"
+.text	"Você agora pode mudar de"
 	.byte NewLine
-.text	"change class to "
+.text	"classe para "
 	.word PrintStoredClass
 .text	"."
 	.byte WaitForA
 	.byte ClearText
-.text	"Would you like to do so now?"
+.text	"Gostaria de fazer isso agora?"
 	.byte NewLine
 	.byte EndText
 
 classchange_oifey_under_20
-.text	"Sorry, but you can only change class"
+.text	"Desculpa, mas você só pode mudar"
 	.byte NewLine
-.text	"upon reaching level 20."
+.text	"de classe quando chegar ao nível 20."
 	.byte WaitForA
 	.byte ClearText
-.text	"Come back when you've"
+.text	"volte quando tiver ganhado"
 	.byte NewLine
-.text	"gained more experience."
+.text	"mais experiência."
 	.byte WaitForA
 	.byte EndText
 
 classchange_oifey_promoted
-.text	"You're not able to change your class."
+.text	"Você não pode mudar sua classe."
 	.byte NewLine
-.text	"Please be on your way."
+.text	"Por favor siga seu caminho."
 	.byte WaitForA
 	.byte EndText
 
 
 classchange_lewyn_possible
-.text	"Looks like you've been working hard."
+.text	"Parece que tem trabalhado duro."
 	.byte NewLine
-.text	"You're ready to change class"
+.text	"Está pronto para trocar sua classe"
 	.byte NewLine
-.text	"to "
+.text	"para "
 	.word PrintStoredClass
 .text	"."
 	.byte WaitForA
 	.byte ClearText
-.text	"Do you want to go ahead now?"
+.text	"Quer fazer isso agora?"
 	.byte NewLine
 	.byte EndText
 
 classchange_lewyn_under_20
-.text	"Only people who have reached level 20"
+.text	"Só quem atingiu o nível 20"
 	.byte NewLine
-.text	"can change class."
+.text	"pode mudar de classe."
 	.byte WaitForA
 	.byte ClearText
-.text	"Go get some more experience,"
+.text	"Vá ganhar mais experiência,"
 	.byte NewLine
-.text	"then come back."
+.text	"depois volte."
 	.byte WaitForA
 	.byte EndText
 
 classchange_lewyn_promoted
-.text	"You can't change your class."
+.text	"Você não pode mudar de classe."
 	.byte NewLine
-.text	"Leave."
+.text	"Saia."
 	.byte WaitForA
 	.byte EndText
 	
@@ -734,28 +738,28 @@ classchange_lewyn_promoted
 miscbattle_itembroke
 	.byte StartText
 	.word PrintStoredItem
-.text	" broke."
+.text	" quebrou."
 	.byte NewLine
 	.byte EndText
 
 miscbattle_itemdropped
 	.byte StartText
 	.word PrintStoredItem
-.text	" obtained!"
+.text	" obtido!"
 	.byte NewLine
 	.byte EndText
 
 miscbattle_goldstolenbyplayer
 	.byte StartText
 	.word PrintStoredNumberA
-.text	" Gold obtained!"
+.text	" Moedas obtidas!"
 	.byte NewLine
 	.byte EndText
 
 miscbattle_goldstolenbyenemy
 	.byte StartText
 	.word PrintStoredNumberA
-.text	" Gold stolen!"
+.text	" Moedas roubadas!"
 	.byte NewLine
 	.byte WaitForA
 	.byte EndText

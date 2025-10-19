@@ -14,109 +14,111 @@ dialogueTalkSigurdArvis_AzelleAlive
 
 	.byte LeftSlot
 	.byte StartText 
-.text	"It has been too long, Master Sigurd."
+.text	"Olá, Mestre Sigurd, bom te ver."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Lord Arvis?!"
+.text	"Lorde Arvis?!"
 	.byte NewLine
-.text	"Why are you-"
+.text	"Porque você-"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Arvis
 	.word ScrollBoth
-.text	"His Majesty is concerned with the crisis here,"
+.text	"Vossa Majestade está"
 	.byte NewLine
-.text	"and he bade me to come and observe."
+.text	"preocupado com a crise por aqui, e"
+	.byte NewLine
+.text	"ele me mandou vir aqui observar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He also entrusted me with this - "
+.text	"Ele também me pediu para lhe dar isto-"
 	.byte NewLine
-.text	"a gift for you."
+.text	"um presente dele para você."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"This is... a silver sword!"
+.text	"Isso é... uma espada de prata!"
 	.byte NewLine
-.text	"A gift from His Majesty?"
+.text	"E é um presente de Vossa Majestade?"
 	.byte NewLine
-.text	"Oh, what an honor!"
+.text	"É uma honra para mim ganhar algo assim!"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Lord Arvis, be sure to pass my deepest gratitude"
+.text	"Lorde Arvis, por favor, diga ao rei"
 	.byte NewLine
-.text	"for this onto the king!"
+.text	"que sou muito grato por isso!"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot			;Arvis
-.text	"Very well. Incidentally, Sigurd, rumor has it"
+.text	"Claro. Além disso, Sigurd, dizem os rumores"
 	.byte NewLine
-.text	"that my brother, Azelle, is among your forces."
+.text	"que meu irmão, Azelle, se juntou a suas forças."
 	.byte NewLine
-.text	"I presume this is true?"
+.text	"Presumo que isso é verdade?"
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Mm, sorry about that."
+.text	"É verdade, e me perdoe por isso."
 	.byte NewLine
-.text	"It sounded as if he came behind your back,"
+.text	"Me parece que ele veio escondido,"
 	.byte NewLine
-.text	"but I couldn't turn him away."
+.text	"mas eu não tinha como mandá-lo de volta."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"If at all possible, would you mind"
+.text	"Se for possível, pode permitir que ele"
 	.byte NewLine
-.text	"if he remained with me for a while longer?"
+.text	"fique comigo por mais tempo?"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot			;Arvis
-.text	"I see... So long as you keep him safe, then."
+.text	"Certamente... contanto que o mantenha seguro."
 	.byte NewLine
-.text	"He and I may have different mothers,"
+.text	"Eu e ele podemos ser de mães diferentes,"
 	.byte NewLine
-.text	"but Azelle is still my only brother."
+.text	"Mas Azelle ainda é meu único irmão."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I'd prefer if he remained by my side,"
+.text	"Eu preferiria que ele ficasse comigo,"
 	.byte NewLine
-.text	"but perhaps this is how it must be..."
+.text	"mas talvez é assim que tem que ser..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I'll entrust Azelle to you, Sigurd."
+.text	"Eu confio Azelle a você, Sigurd."
 	.byte NewLine
-.text	"Be sure that he learns from this experience."
+.text	"Certifique-se que ele aprenda com a experiência."
 	
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"You can leave it to me, Lord Arvis."
+.text	"Pode deixar comigo, Lorde Arvis."
 	.byte NewLine
-.text	"Once we're done here, I'll do what I can"
+.text	"Quando terminarmos aqui, eu vou tentar"
 	.byte NewLine
-.text	"to convince him to go home."
+.text	"convencê-lo a ir para casa."
 	.byte WaitForA
 	
 	.byte LeftSlot			;Arvis
 	.word ScrollBoth
-.text	"Good to hear it."
+.text	"Fico feliz em ouvir isso."
 	.byte NewLine
-.text	"Now, I must return to His Majesty's side"
+.text	"Agora, eu devo retornar à Vossa Majestade"
 	.byte NewLine
-.text	"in the capital."
+.text	"na capital."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I'm entrusting this crisis to you, Sigurd."
+.text	"Eu confio esta crise a você, Sigurd."
 	.byte WaitForA
 	.byte EndText
 
@@ -135,79 +137,83 @@ dialogueTalkSigurdArvis_AzelleDead
 
 	.byte LeftSlot
 	.byte StartText 
-.text	"It has been too long, Master Sigurd."
+.text	"Olá, Mestre Sigurd, bom te ver."
 	
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Lord Arvis?!"
+.text	"Lorde Arvis?!"
 	.byte NewLine
-.text	"Why are you-"
+.text	"Porque você-"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Arvis
 	.word ScrollBoth
-.text	"His Majesty is concerned with the crisis here,"
+.text	"Vossa Majestade está"
 	.byte NewLine
-.text	"and he bade me to come and observe."
+.text	"preocupado com a crise por aqui, e"
+	.byte NewLine
+.text	"ele me mandou vir aqui observar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He also entrusted me with this - "
+.text	"Ele também me pediu para lhe dar isto-"
 	.byte NewLine
-.text	"a gift for you."
+.text	"um presente dele para você."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"This is... a silver sword!"
+.text	"Isso é... uma espada de prata!"
 	.byte NewLine
-.text	"A gift from His Majesty?"
+.text	"E é um presente de Vossa Majestade?"
 	.byte NewLine
-.text	"Oh, what an honor!"
+.text	"É uma honra para mim ganhar algo assim!"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Lord Arvis, be sure to pass my deepest gratitude"
+.text	"Lorde Arvis, por favor, diga ao rei"
 	.byte NewLine
-.text	"for this onto the king!"
+.text	"que sou muito grato por isso!"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot			;Arvis
-.text	"Very well. Incidentally, Sigurd, rumor has it"
+.text	"Claro. Além disso, Sigurd, dizem os rumores"
 	.byte NewLine
-.text	"that my brother, Azelle, is among your forces."
+.text	"que meu irmão, Azelle, está entre suas forças."
 	.byte NewLine
-.text	"I presume this is true?"
+.text	"Presumo que isso é verdade?"
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Oh, gods..."
+.text	"Ah, deuses..."
 	.byte NewLine
 .text	"Azelle..."
 	.byte NewLine
-.text	"He..."
+.text	"Ele..."
 	.byte WaitForA
 	
 	.byte LeftSlot			;Arvis
 	.word ScrollBoth
-.text	"He's dead, isn't he?"
+.text	"Ele morreu?"
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"I'm so sorry, Arvis..."
+.text	"Me perdoe, Lorde Arvis..."
 	.byte NewLine
-.text	"I couldn't do a thing to save him..."
+.text	"Eu não consegui salvá-lo..."
 	.byte WaitForA
 	
 	.byte LeftSlot			;Arvis
 	.word ScrollBoth
-.text	"Oh, Azelle..."
+.text	"Ah, Azelle..."
 	.byte NewLine
-.text	"You careless fool..."
+.text	"Idiota..."
+	.byte NewLine
+.text	"Eu tinha te mandado ficar..."
 	.byte WaitForA
 	.byte EndText
 
@@ -225,95 +231,97 @@ dialogueTalkAzelleSigurd
 
 	.byte LeftSlot
 	.byte StartText 
-.text	"Lord Sigurd!"
+.text	"Lorde Sigurd!"
 	.byte NewLine
-.text	"I'm so relieved to see you're unharmed."
+.text	"Estou feliz em te ver bem."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
 .text	"Azelle?"
 	.byte NewLine
-.text	"Azelle of Velthomer?"
+.text	"Azelle de Velthomer?"
 	.byte NewLine
-.text	"What are you doing here?"
+.text	"O que está fazendo aqui?"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Azelle
 	.word ScrollBoth
-.text	"I'm here with Lex."
+.text	"Estou aqui com Lex."
 	.byte NewLine
-.text	"We want to do whatever we can to fight"
+.text	"Queremos te ajudar a enfrentar"
 	.byte NewLine
-.text	"the Verdanite invasion."
+.text	"essa invasão verdanita."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Please, allow us to fight by your side."
+.text	"Por favor, permita-nos lutar contigo."
 	.byte NewLine
-.text	"We won't let you down!"
+.text	"Não desapontaremos!"
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Of course! I couldn't ask for better help."
+.text	"Claro! Sua ajuda é muito bem vinda."
 	.byte NewLine
-.text	"But what of your brother, Lord Arvis?"
+.text	"Mas e quanto a seu irmão, Lorde Arvis?"
 	.byte NewLine
-.text	"Is he alright with you helping out?"
+.text	"Ele está de acordo com isso?"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Azelle
 	.word ScrollBoth
-.text	"No... He's been tasked with command of"
+.text	"Não... no momento ele está comandando a"
 	.byte NewLine
-.text	"the Royal Guard."
+.text	"Guarda Real."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He made it clear that I wasn't supposed"
+.text	"Ele deixou bem claro que eu não"
 	.byte NewLine
-.text	"to leave Belhalla at all."
+.text	"deveria sair de Belhalla."
+	.byte NewLine
+.text	"Então eu vim escondido."
 	
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Did he, now? I can only imagine the scolding"
+.text	"É mesmo? só posso imaginar a bronca"
 	.byte NewLine
-.text	"that you'll be in for later!"
+.text	"que vai levar depois!"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Azelle
 	.word ScrollBoth
-.text	"I know this is a dreadful thing to say,"
+.text	"Eu sei que é terrível dizer isso,"
 	.byte NewLine
-.text	"but to be honest, I'm terrified of Arvis..."
+.text	"mas sendo sincero, eu tenho medo dele..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sometimes, when I'm around him, I..."
+.text	"As vezes, quando estou com ele, eu..."
 	.byte NewLine
-.text	"I feel as if I'm only a nuisance to him."
+.text	"Eu sinto que sou só um incômodo pra ele."
 	
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Is that right..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"Well, whatever your reasons,"
+.text	"Bem, quaisquer que sejam as razões,"
 	.byte NewLine
-.text	"I'm just glad that you're here, Azelle."
+.text	"estou feliz que você está aqui."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"You're more than welcome to stay for"
+.text	"Você pode ficar por quanto"
 	.byte NewLine
-.text	"as long as you want."
+.text	"tempo quiser."
 	.byte WaitForA
 	
 	.byte LeftSlot			;Azelle
 	.word ScrollBoth
-.text	"Thank you, sir!"
+.text	"Obrigado, senhor!"
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -324,9 +332,9 @@ dialogueTalkAzelleSigurd
 	.byte LeftSlot			;Azelle
 	.word PauseText
 	.byte $40
-.text	"Wow, he's just like all the rumors say!"
+.text	"Uau, ele é como os rumores dizem!"
 	.byte NewLine
-.text	"He's nothing like Arvis..."
+.text	"Nada parecido com o meu irmão..."
 	.byte WaitForA
 	.byte EndText
 
@@ -344,77 +352,77 @@ dialogueTalkLexSigurd
 
 	.byte LeftSlot
 	.byte StartText 
-.text	"It's been a while, huh, Lord Sigurd?"
+.text	"Faz tempo, né, Lorde Sigurd?"
 	
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
 .text	"Lex!"
 	.byte NewLine
-.text	"I take it you're here to help as well?"
+.text	"Imagino que você veio me ajudar?"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Lex
 	.word ScrollBoth
-.text	"Yeah, Azelle dragged me into it."
+.text	"É, Azelle me pediu pra vir com ele."
 	.byte NewLine
-.text	"I swear, I can't say no to that twerp!"
+.text	"E bem, não dá pra dizer não pra ele!"
 	
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
 .text	"Hahaha..."
 	.byte NewLine
-.text	"You haven't changed a bit, have you, Lex?"
+.text	"Vejo que não mudou nem um pouco Lex!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But what about your father, Lord Lombard?"
+.text	"Mas e quanto a seu pai, Lorde Lombard?"
 	.byte NewLine
-.text	"Does he know you've come here?"
+.text	"Ele sabe que você veio para cá?"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Lex
 	.word ScrollBoth
-.text	"Oh, hell no!"
+.text	"Óbvio que não!"
 	.byte NewLine
-.text	"You know as well as I how much my father"
+.text	"Você sabe tão bem quanto eu"
 	.byte NewLine
-.text	"loathes yours."
+.text	"que meu pai odeia o seu pai."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"There's no way he'd ever let me help"
+.text	"Ele nunca me deixaria ajudar Chalphy,"
 	.byte NewLine
-.text	"House Chalphy, even if his life depended on it."
+.text	"nem se a vida dele dependesse disso."
 	.byte NewLine
-.text	"I had to slip out behind his back."
+.text	"Eu tive que sair escondido."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Just so we're clear, Sigurd, I'm not here for you."
+.text	"Mas olha, Sigurd, eu não estou aqui por você."
 	.byte NewLine
-.text	"Azelle's my best friend, and he really wanted"
+.text	"Estou aqui por Azelle, ele queria vir pra cá"
 	.byte NewLine
-.text	"to help. That's all."
+.text	"e eu vim junto. Só isso."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Heh."
+.text	"Heh. Um pouco duro ouvir isso,"
 	.byte NewLine
-.text	"A bit harsh, but thanks for coming all the same."
+.text	"mas agradeço de qualquer jeito."
 	.byte NewLine
-.text	"Any help is greatly appreciated."
+.text	"Eu preciso de ajuda mesmo."
 	.byte WaitForA
 	
 	.byte LeftSlot			;Lex
 	.word ScrollBoth
-.text	"Well, I'll do what I can."
+.text	"Bem, eu farei o que puder."
 	.byte NewLine
-.text	"Those Verdane dogs have had their run"
+.text	"Já passou da hora de expulsarmos"
 	.byte NewLine
-.text	"of our land for long enough!"
+.text	"esses cachorros de Verdane!"
 	.byte WaitForA
 	.byte EndText
 
@@ -434,63 +442,66 @@ dialogueTalkQuanSigurd
 	.byte StartText 
 .text	"Sigurd!"
 	.byte NewLine
-.text	"Glad to see you in one piece."
+.text	"Feliz em te ver bem."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
 .text	"Quan?"
 	.byte NewLine
-.text	"What are you-"
+.text	"O que você-"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Quan
 	.word ScrollBoth
-.text	"We heard about the Verdane attack"
+.text	"Ouvimos do ataque de Verdane,"
 	.byte NewLine
-.text	"and couldn't just leave you be."
+.text	"e não podíamos te deixar lutar sozinho."
 	.byte NewLine
-.text	"We're here to do what we can."
+.text	"Estamos aqui para fazer"
+	.byte WaitForA
+	.byte NewLine
+.text	"o possível pra te ajudar."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"But what about Leonster?"
+.text	"Mas e quanto a Leonster?"
 	.byte NewLine
-.text	"Aren't your hands full there, keeping an eye"
+.text	"Não tem que ficar de olho nas coisas por lá,"
 	.byte NewLine
-.text	"on Thracia?"
+.text	"no caso da Trácia atacar de novo?"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Quan
 	.word ScrollBoth
-.text	"Indeed."
+.text	"Sim, a príncipio."
 	.byte NewLine
-.text	"That's why Finn is the only knight here with me."
+.text	"É por isso que eu trouxe só Finn comigo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The Lanceritter are all back at home,"
+.text	"O resto da Lanzenritter está lá em Leonster,"
 	.byte NewLine
-.text	"under Father's command."
+.text	"sobre comando do meu pai."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10				;deleted StartText. Unnecessary 
-.text	"Is that so..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"Quan, I'm sorry for pulling you into this mess,"
+.text	"Quan, perdão por te arrastar pra esse"
 	.byte NewLine
-.text	"too. I know you're-"
+.text	"conflito. Eu sei que você-"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Quan
 	.word ScrollBoth
-.text	"Sorry?"
+.text	'"Perdão?"'
 	.byte NewLine
-.text	"Surely you jest, Sigurd!"
+.text	"Só pode estar brincando, Sigurd!"
 	.byte NewLine
-.text	"Don't you recall our old pledge?"
+.text	"Lembra do nosso velho juramento?"
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
@@ -500,53 +511,56 @@ dialogueTalkQuanSigurd
 	
 	.byte LeftSlot			;Quan
 	.word ScrollBoth
-.text	"Come now!"
+.text	"Fala sério!"
 	.byte NewLine
-.text	"How could you forget?"
+.text	"Como você esqueceu?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"All those years ago, when we were students"
+.text	"Muitos anos atrás, quando estudávamos"
 	.byte NewLine
-.text	"at the Belhalla academy?"
+.text	"na academia de Belhalla?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You, me, and Eldigan."
+.text	"Você, eu, e Eldigan. Grandes amigos e"
 	.byte NewLine
-.text	"Dear friends and fierce rivals in equal measure?"
+.text	"ferozes rivais na mesma medida?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Surely you recall that night, talking late"
+.text	"Você deve lembrar daquela noite,"
 	.byte NewLine
-.text	"about our hopes and dreams, and pledging"
+.text	"quando conversávamos sobre nosso sonhos"
 	.byte NewLine
-.text	"our aid to one another in times of need?"
+.text	"e esperanças, e no fim juramos"
+	.byte WaitForA
+	.byte NewLine
+.text	"ajudar um quando o outro precisasse?"
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Ah, of course!"
+.text	"Ah, claro!"
 	.byte NewLine
-.text	"I remember it well."
+.text	"Agora você me lembrou."
 	.byte WaitForA
 	
 	.byte LeftSlot			;Quan
 	.word ScrollBoth
-.text	"Excellent. Now, shall we?"
+.text	"Excelente. Então, vamos nós?"
 	.byte NewLine
-.text	"With both of us here, what hope could those"
+.text	"Com nós dois aqui, que chance"
 	.byte NewLine
-.text	"Verdanite savages possibly have?"
+.text	"esses selvagens verdanitas tem?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Never forget, Sigurd."
+.text	"Nunca esqueça, Sigurd."
 	.byte NewLine
-.text	"I'm here for you, now and forever."
+.text	"Estou aqui por você, agora e sempre."
 	.byte NewLine
-.text	"I'll not let you lose to these lowlives!"
+.text	"Não deixarei você perder para esses bárbaros!"
 	.byte WaitForA
 	.byte EndText
 
@@ -566,120 +580,122 @@ dialogueTalkEthlynSigurd
 	.byte StartText 
 .text	"Sigurd!"
 	.byte NewLine
-.text	"Oh, you're unharmed!"
+.text	"Ah, que bom te ver ileso, irmão!"
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"It's great to see you, too, Ethlyn."
+.text	"É bom te ver também, Ethlyn."
 	.byte NewLine
-.text	"Thanks so much for coming."
+.text	"Muito obrigado por vir me ajudar."
 	.byte WaitForA
 	
 	.byte LeftSlot			;Ethlyn
 	.word ScrollBoth
-.text	"I just couldn't stay away when I heard"
+.text	"Quando eu ouvi dos ataques de Verdane,"
 	.byte NewLine
-.text	"of Verdane's attacks..."
+.text	"não tinha como eu ficar em Leonster..."
 	.byte NewLine
-.text	"It's such a relief to know you're okay."
+.text	"É um grande alívio saber que está bem."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Oh, come now."
+.text	"Ah, fala sério."
 	.byte NewLine
-.text	"Did you really think I was about to lose"
+.text	"Você realmente achou que eu"
 	.byte NewLine
-.text	"to Verdane?"
+.text	"morreria para alguns bárbaros?"
 	.byte WaitForA
 	
 	.byte LeftSlot			;Ethlyn
 	.word ScrollBoth
-.text	"I'd heard that Chalphy barely has any soldiers"
+.text	"Eu tinha ouvido que Chalphy mal tinha"
 	.byte NewLine
-.text	"left behind, given that most of the army"
+.text	"soldados em casa, visto que quase todos"
 	.byte NewLine
-.text	"is away in Isaach."
+.text	"estão em Isaach."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And let's face it, I can't remember the last"
+.text	"E também, não consigo lembrar a última vez"
 	.byte NewLine
-.text	"time you didn't just leap straight into a crisis"
+.text	"que você NÃO pulou numa crise desse tipo"
 	.byte NewLine
-.text	"without thinking."
+.text	"sem nem pensar."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"With Father away at war... I knew I had to"
+.text	"Com nosso pai na guerra... eu sabia que tinha"
 	.byte NewLine
-.text	"come. Someone has to save you from yourself,"
+.text	"que vir. Alguém tem que te impedir de"
 	.byte NewLine
-.text	"after all."
+.text	"fazer algo errado, afinal."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
 .text	"Heh heh."
 	.byte NewLine
-.text	"Wow, it feels as if I was getting this very"
+.text	"Lembro dessa bronca como"
 	.byte NewLine
-.text	"lecture only yesterday!"
+.text	"se tivesse levado ela ontem!"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I swear, after Mother passed away, it was you"
+.text	"Eu juro, depois que a mamãe morreu, era você"
 	.byte NewLine
-.text	"who single-handedly kept us in check."
+.text	"que nos mantinha sob controle."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Once you went off to marry Quan,"
+.text	"Depois que você foi casar com Quan,"
 	.byte NewLine
-.text	"we could've sworn that Father finally had a"
+.text	"podíamos jurar que você finalmente"
 	.byte NewLine
-.text	"proper little lady for a daughter..."
+.text	"tinha virado uma verdadeira dama..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But no, nothing's changed at all!"
+.text	"Mas não, nada mudou!"
 	.byte NewLine
-.text	"I feel so sorry for Quan..."
+.text	"Eu tenho pena do Quan..."
 	.byte NewLine
-.text	"Ahahaha!"
+.text	"Hahaha!"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot			;Ethlyn
-.text	"Sigurd, I'm only what you and Father made me!"
+.text	"Sigurd, eu sou o que você"
 	.byte NewLine
-.text	"If I'm a fusspot, then it's squarely your fault!"
+.text	"e papai me fizeram!"
+	.byte NewLine
+.text	"Se sou chata assim, é por culpa de vocês!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Perhaps if the two of you hadn't been so"
+.text	"Quem sabe se vocês não fossem"
 	.byte NewLine
-.text	"unkempt..."
+.text	"tão descuidados..."
 
 	.byte RightSlot			;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Heh, perhaps you're right."
+.text	"Heh, talvez você esteja certa."
 	.byte NewLine
-.text	"Listen, Ethlyn..."
+.text	"Escute, Ethlyn..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"We might not act like it, but everything"
+.text	"Talvez não pareça, mas tudo que você"
 	.byte NewLine
-.text	"you've done means the world to us."
+.text	"fez significa muito para nós."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I'm so sorry for all the trouble I've always"
+.text	"Me desculpe pelos problemas que lhe causei..."
 	.byte NewLine
-.text	"caused you... And thank you so much for coming."
+.text	"E muito obrigado por ter vindo."
 	.byte WaitForA
 	.byte ScrollText
 	

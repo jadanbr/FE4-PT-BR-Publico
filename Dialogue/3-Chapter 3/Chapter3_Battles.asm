@@ -9,7 +9,7 @@ dialogueCh3BattleJacobi
 	.byte StartText
 .text	"Keh..."
 	.byte NewLine
-.text	"Taste my levin sword!"
+.text	"Sinta o trovão da minha espada!"
 	.byte WaitForA
 
 	.byte EndText
@@ -22,17 +22,17 @@ dialogueCh3BattleEldigan
 	.word LoadPortrait
 	.word portrait_Eldigan1
 	.byte StartText
-.text	"Those of you who wish not"
+.text	"Aqueles que não querem morrer"
 	.byte NewLine
-.text	"to fall prey to Mystletainn..."
+.text	"no fio da Mystletainn..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Stay clear of me,"
+.text	"Fiquem longe,"
 	.byte NewLine
-.text	"lest your life end on"
+.text	"se não, morrerão perante a"
 	.byte NewLine
-.text	"the demon blade!"
+.text	"espada demoníaca!"
 	.byte WaitForA
 
 	.byte EndText
@@ -54,22 +54,22 @@ dialogueCh3BattleEldigan_Sigurd
 	.byte StartText
 .text	"Sigurd..."
 	.byte NewLine
-.text	"Never did I suspect our"
+.text	"Eu nunca suspeitei que esse"
 	.byte NewLine
-.text	"blades would someday cross."
+.text	"momento chegaria."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"...Yet, we are knights."
+.text	"...Mas, somos cavaleiros."
 	.byte NewLine
-.text	"This was always our fate."
+.text	"Nosso destino sempre foi a batalha."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
 .text	"E-Eldigan!"
 	.byte NewLine
-.text	"Wait!!"
+.text	"Espera!!"
 	.byte WaitForA
 
 	.byte EndText
@@ -82,9 +82,9 @@ dialogueCh3BattleEldigan_Lachesis
 	.word LoadPortrait
 	.word portrait_Eldigan1
 	.byte StartText
-.text	"Lachesis, stop!"
+.text	"Lachesis, pare!"
 	.byte NewLine
-.text	"I will not fight you!"
+.text	"Eu não irei lutar com você!"
 	.byte WaitForA
 
 	.byte EndText
@@ -97,11 +97,11 @@ dialogueCh3BattlePapilio
 	.word LoadPortrait
 	.word portrait_Papilio
 	.byte StartText
-.text	"Heh..."
+.text	"Heh... permita-me"
 	.byte NewLine
-.text	"Allow me to teach you the terror"
+.text	"lhe mostrar porque temem"
 	.byte NewLine
-.text	"of the Thracian wyvern knights!"
+.text	"nós, os dragões da Trácia!"
 	.byte WaitForA
 
 	.byte EndText
@@ -114,19 +114,19 @@ dialogueCh3BattleChagall
 	.word LoadPortrait
 	.word portrait_Chagall2
 	.byte StartText
-.text	"H-how dare you! I am the"
+.text	"C-como ousa! Eu sou o"
 	.byte NewLine
-.text	"King of Agustria! You dare"
+.text	"Rei de Agustria! Como ousa"
 	.byte NewLine
-.text	"show me such disrespect?!"
+.text	"me desrespeitar dessa forma?!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Damn it all..."
+.text	"Malditos..."
 	.byte NewLine
-.text	"I'll show you the penalty"
+.text	"Eu vou lhes dar a sentença"
 	.byte NewLine
-.text	"for such offense: death!"
+.text	"por tal crime: MORTE!"
 	.byte WaitForA
 
 	.byte EndText
@@ -148,17 +148,28 @@ dialogueCh3BattleChagall_Lachesis
 	.byte StartText
 .text	"Hmhmhm..."
 	.byte NewLine
-.text	"You're far too late, girl."
+.text	"Tarde demais, garota."
 	.byte NewLine
-.text	"Eldigan is already long dead."
+.text	"Eldigan já está morto."
 
 	.byte RightSlot		;Lachesis
 	.word PauseText
 	.byte $10
-.text	"You... You pig! You butchered my brother!"
+.text	"Seu... DESGRAÇADO! Você matou meu irmão!"
 	.byte NewLine
-.text	"You will not get away with this!"
+.text	"Eu vou te matar, e eu duvido que"
+	.byte NewLine
+.text	"você vá pro mesmo lugar que ele!"
 	.byte WaitForA
+	.word ScrollBoth
+	
+	.byte LeftSlot
+	.byte StartText ;Chagall
+.text	"Garota insolente! Ele mereceu a sentença dele!"
+	.byte NewLine
+.text	"E agora será você que"
+	.byte NewLine
+.text	"receberá a paga dos traidores!"
 
 	.byte EndText
 
@@ -179,31 +190,31 @@ dialogueCh3BattleChagall_Sigurd
 	.byte StartText
 .text	"Sigurd!"
 	.byte NewLine
-.text	"Feel the full force of your months"
+.text	"Vou fazer você pagar por ter"
 	.byte NewLine
-.text	"of humiliation of me!"
+.text	"me humilhado!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"King Chagall, you've done naught"
+.text	"Rei Chagall, tudo que você fez"
 	.byte NewLine
-.text	"but murder countless innocents."
+.text	"foi matar incontáveis inocentes."
 	.byte NewLine
-.text	"...And Eldigan..."
+.text	"...E Eldigan..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"You're as foul as they come!"
+.text	"Não há perdão para você!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Silence, you fool!"
+.text	"Silêncio, seu tolo!"
 	.byte NewLine
-.text	"You understand nothing of me!"
+.text	"Você não tem que se meter em nada aqui!"
 	.byte NewLine
-.text	"You die, Sigurd, here and now!"
+.text	"Você morrerá, Sigurd, aqui e agora!"
 	.byte WaitForA
 
 	.byte EndText
@@ -216,11 +227,11 @@ dialogueCh3BattlePisear
 	.word LoadPortrait
 	.word portrait_Pisear
 	.byte StartText
-.text	"Them Grannvale guys, huh?"
+.text	"Os grannvalianos, é?"
 	.byte NewLine
-.text	"Hold still an' let me teach ya"
+.text	"Eu vou te mostrar que tem que"
 	.byte NewLine
-.text	"t'fear the pirates o' Orgahil!"
+.text	"temer nós piratas de Orgahil!"
 	.byte WaitForA
 
 	.byte EndText
@@ -233,11 +244,11 @@ dialogueCh3BattleDobar
 	.word LoadPortrait
 	.word portrait_Dobar
 	.byte StartText
-.text	"Ugh, me men're jus' as useless"
+.text	"Ugh, meus homens continuam sendo"
 	.byte NewLine
-.text	"as always!"
+.text	"uns inúteis como sempre!"
 	.byte NewLine
-.text	"Damn all y'all!"
+.text	"Eu vou acabar com vocês sozinho!"
 	.byte WaitForA
 
 	.byte EndText
@@ -259,16 +270,16 @@ dialogueCh3BattleDobar_Brigid
 	.byte StartText
 .text	"Geh!"
 	.byte NewLine
-.text	"Yer still clingin' t'life, wench?!"
+.text	"Ainda tá viva, meretriz?!"
 	.byte NewLine
-.text	"Damn yer stubbornness!"
+.text	"Mulher teimosa..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
 .text	"Dobar!"
 	.byte NewLine
-.text	"You'll pay through the nose for your treachery!"
+.text	"Vai ver o que eu faço com traidores!"
 	.byte WaitForA
 
 	.byte EndText

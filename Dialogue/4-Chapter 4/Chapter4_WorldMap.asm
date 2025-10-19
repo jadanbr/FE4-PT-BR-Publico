@@ -3,7 +3,7 @@
 dialogueCh4WM1
 
 	.byte StartText
-.text	"The unthinkable has come to pass."
+.text	"O impensável aconteceu."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -15,16 +15,16 @@ dialogueCh4WM1
 	.byte $24
 	.byte $06
 
-.text	"Sigurd is denounced as an enemy"
+.text	"Sigurd é acusado de traidor por sua"
 	.byte NewLine
-.text	"by his beloved fatherland,"
+.text	"amada pátria. Pior ainda,"
 	.byte WaitForA
 	.byte NewLine
-.text	"charged with the highest form of treason."
+.text	"acusado de lesa-majestade."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Despairing and with his options dwindling,"
+.text	"Desesperado e sem outras opções,"
 	.byte NewLine
 	.byte WaitForA
 	.word LoadMapSymbol
@@ -32,9 +32,9 @@ dialogueCh4WM1
 	.byte $4C
 	.byte High
 	.byte OrgahilToSeiren
-.text	"he finds refuge in the northern"
+.text	"ele aceita se refugiar no"
 	.byte NewLine
-.text	"independent Kingdom of Silesse."
+.text	"Reino de Silesse."
 	.byte WaitForA
 
 	.word ClearPortraitWM
@@ -51,35 +51,35 @@ dialogueCh4WM1
 dialogueCh4WM2
 
 	.byte StartText
-.text	"Founded by Ced, the Wind Crusader,"
+.text	"Fundado por Ced, o Cruzado dos Ventos,"
 
 	.word HighlightCountry
 	.byte Silesse
 
 	.byte NewLine
-.text	"Silesse has long been under the watchful eye"
+.text	"Silesse está sob a proteção de sua leal"
 	.byte WaitForA
 	.byte NewLine
-.text	"of its order of steadfast Pegasus Knights"
+.text	"ordem de Cavaleiros de Pégaso e de seus"
 	.byte NewLine
-.text	"and equally spirited Wind Mages."
+.text	"intrépidos Magos de Vento."
 	.byte WaitForA
 	.byte ScrollText
-.text	"Even over a century removed from its founding,"
+.text	"Mesmo após 100 anos de sua fundação,"
 	.byte NewLine
-.text	"the kingdom has managed"
+.text	"o reino conseguiu evitar"
 	.byte WaitForA
 	.byte NewLine
-.text	"to evade foreign aggression"
+.text	"ataques estrangeiros e também manter"
 	.byte NewLine
-.text	"and maintain a perfect record of neutrality."
+.text	"total neutralidade."
 	.byte WaitForA
 	.byte ScrollText
 	.word ClearHighlight
 
-.text	"However, following the death of the King a few"
+.text	"Porém, desde a morte de seu rei a alguns"
 	.byte NewLine
-.text	"years ago,"
+.text	"anos atrás,"
 	.byte WaitForA
 
 	.word LoadMapSymbol
@@ -88,14 +88,14 @@ dialogueCh4WM2
 	.byte High
 	.byte SilesseCastles
 
-.text	" the matter of succession has been"
+.text	" a sucessão ao trono tem sido causa"
 	.byte NewLine
-.text	"a source of discord amongst the royal family."
+.text	"de discórdia dentro da família real."
 	.byte WaitForA
 	.byte ScrollText
-.text	"And so, even such a peaceful land"
+.text	"E assim, até mesmo um lugar pacífico como esse"
 	.byte NewLine
-.text	"is suddenly visited by omens of war."
+.text	"é acometido pela possibilidade de guerra."
 
 	.word ClearMapSymbol
 	.byte High
@@ -108,9 +108,12 @@ dialogueCh4WM2
 	.byte High
 	.byte SilesseTown
 	
-.text	"The late king’s union with Queen Lahna saw"
+.text	"O casamento do falecido"
 	.byte NewLine
-.text	"the birth of only one heir,"
+.text	"rei com sua rainha, Lahna"
+	.byte WaitForA
+	.byte NewLine
+.text	"só lhes trouxe um herdeiro,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -120,14 +123,14 @@ dialogueCh4WM2
 	.byte $28
 	.byte $60
 
-.text	" a prince named Lewyn."
+.text	" Príncipe Lewyn."
 
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Erupting with an ambition able to fill the seas,"
+.text	"Com grandes ambições em mente,"
 	.byte NewLine
 	
 	.word LoadPortraitWM1
@@ -138,12 +141,12 @@ dialogueCh4WM2
 	.byte $C0
 	.byte $50
 
-.text	"the king’s younger brother, Prince Decair,"
+.text	"o irmão mais novo do rei, Príncipe Decair,"
 	.byte WaitForA
 	.byte NewLine
-.text	"adamantly protested Lewyn’s right"
+.text	"logo se declara contra a sucessão de"
 	.byte NewLine
-.text	"to the throne,"
+.text	"Lewyn ao trono,"
 	.byte WaitForA
 
 	.word LoadMapSymbol
@@ -152,16 +155,19 @@ dialogueCh4WM2
 	.byte High
 	.byte Zaxon1
 
-.text	" before hiding away"
+.text	" antes de recuar para"
+	.byte WaitForA
 	.byte NewLine
-.text	"in Castle Zaxon to plot his next move."
+.text	"o Castelo de Zaxon,"
+	.byte NewLine
+.text	"planejando seu próximo passo."
 
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"As if their goals were aligned,"
+.text	"Como se quisesse a mesma coisa,"
 	.byte NewLine
 	
 	.word LoadMapSymbol
@@ -181,41 +187,41 @@ dialogueCh4WM2
 	.byte $88
 	.byte $08
 
-.text	"the king’s youngest brother, Prince Myos,"
+.text	"o irmão mais novo do rei, Príncipe Myos,"
 	.byte WaitForA
 	.byte NewLine
-.text	"took the initiative as well and began"
+.text	"também tomou a iniciativa e começou a"
 	.byte NewLine
-.text	"assembling an army at Castle Tófa.."
+.text	"levantar um exército no castelo de Tófa.."
 
 	.word ClearMapSymbol
 	.byte High
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"It was under these circumstances"
+.text	"Foi por esses motivos que o"
 	.byte NewLine
 	.byte WaitForA
-.text	"that Prince Lewyn reluctantly took his leave"
+.text	"príncipe Lewyn resolveu deixar Silesse"
 	.byte NewLine
-.text	"of Silesse in favor of traveling the world."
+.text	"para viajar o mundo."
 
 	.word ClearPortraitWM
 	.byte 2
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Years later, the princes will soon show"
+.text	"Anos depois, os príncipes mostram que"
 	.byte NewLine
-.text	"their avarice truly knows no bounds."
+.text	"sua avareza não tem limites."
 	.byte WaitForA
 	.byte ScrollText
-.text	"The beautiful and vast lands of Silesse"
+.text	"As lindas terras de Silesse estão"
 	.byte WaitForA
 	.byte NewLine
-.text	"are now on the precipice of incineration"
+.text	"prestes a serem precipitadas no"
 	.byte NewLine
-.text	"by war’s inferno…"
+.text	"inferno da guerra…"
 	.word PauseText
 	.byte $20
 

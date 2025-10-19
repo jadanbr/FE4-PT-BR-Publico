@@ -7,29 +7,29 @@ dialogueCh1VillageNorthOfGenoa
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"This village is part of the holdings"
+.text	"Essa vila é parte dos domínios"
 	.byte NewLine
-.text	"of Prince Cimbaeth, lord of Genoa."
+.text	"de Príncipe Cimbaeth, lorde de Genoa."
 	.byte NewLine
-.text	"He's as dreadful as they come!"
+.text	"Ele é tão ruim quanto você imagina!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Barely a month goes by without him settin'"
+.text	"Mal passa um mês sem ele trazer seu"
 	.byte NewLine
-.text	"his army on us. It's terrifyin'!"
+.text	"exército para nos extorquir. É assustador!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"King Batu, his father, used to do such a"
+.text	"Rei Batu, seu pai, costumava"
 	.byte NewLine
-.text	"fine job of keepin' him in check."
+.text	"impedi-lo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I can hardly imagine what's goin' on..."
+.text	"Mal posso imaginar o que está acontecendo..."
 	.byte NewLine
-.text	"Anyway, glad you stopped by!"
+.text	"De qualquer forma, obrigado por vir!"
 	.byte WaitForA
 
 	.byte EndText
@@ -42,34 +42,34 @@ dialogueCh1VillageEastOfMarpha
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"King Batu is as gentle as they come."
+.text	"Rei Batu é um homem muito gentil."
 	.byte NewLine
-.text	"Normally, at least, leading a war like this is"
+.text	"Ninguém pensou que um dia ele declararia"
 	.byte NewLine
-.text	"the last thing he'd ever do."
+.text	"uma guerra assim."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Mark my words: this is all the doing of Sandima,"
+.text	"Me escute, isso é culpa de Sandima."
 	.byte NewLine
-.text	"his sorcerous advisor. I can just feel it."
+.text	"Aquele homem é muito suspeito."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Eking out a living here's grown tougher and"
+.text	"Viver aqui tem sido cada vez mais difícil"
 	.byte NewLine
-.text	"tougher since the day that man arrived,"
+.text	"desde que aquele homem chegou na corte,"
 	.byte WaitForA	
 	.byte NewLine
-.text	"and save for the youngest son, Jamke,"
+.text	"e exceto por Jamke, o filho mais novo do rei,"
 	.byte NewLine
-.text	"both king and country are at his every whim."
+.text	"o país inteiro está em suas mãos."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Please, I beg you... Save our country!"
+.text	"Por favor, lhe imploro... salve Verdane!"
 	.byte NewLine
-.text	"Bring back the Verdane that once was!"
+.text	"Tire aquele homem de lá!"
 	.byte WaitForA
 
 	.byte EndText
@@ -82,79 +82,79 @@ dialogueCh1VillageSouthOfVerdane
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Just t'the north a here is this mighty woodland."
+.text	"Ao norte daqui tem uma grande floresta."
 	.byte NewLine
-.text	"S'called the spirit forest."
+.text	'Nós a chamamos de "Floresta Mística."'
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Once upon a time, I lived there too,"
+.text	"Era uma vez, eu vivia lá também,"
 	.byte NewLine
-.text	"in this li'l hamlet deep within."
+.text	"numa aldeia bem escondida."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Th' village is home to the last kin o'"
+.text	"Nessa vila, moram os últimos com o"
 	.byte NewLine
-.text	"the dark one of old, Loptous."
+.text	"sangue do deus das trevas Loptous."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They say it all started with Saint Maera,"
+.text	"Dizem que aquele povoado foi fundado"
 	.byte NewLine
-.text	"exiled by the empire for darin' to sympathize"
+.text	"por São Maera, após seu exílio, por ele"
 	.byte NewLine
-.text	"with mortal men."
+.text	"ter mostrado simpatia pelos mortais."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"In my day, there was this gorgeous girl livin'"
+.text	"Muitos anos atrás, tinha linda mulher"
 	.byte NewLine
-.text	"there called Sigyn: the last heir o' Loptous's"
+.text	"chamada Sigyn: a última herdeira da"
 	.byte NewLine
-.text	"bloodline, she was."
+.text	"linhagem de Loptous."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"She lived 'er life under close guard, the villagers"
+.text	"Ela viveu a vida sobre guarda, pois eles"
 	.byte NewLine
-.text	"wary o' lettin' the blood o' Loptous loose into"
+.text	"tinham medo de deixar o sangue de Loptous"
 	.byte NewLine
-.text	"th' world."
+.text	"solto no mundo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Alas, Sigyn grew weary o' the tedious forest life"
+.text	"Porém, Sigyn se entediou da vida"
 	.byte NewLine
-.text	"an' she left it all behind, breakin' ancient"
+.text	"na floresta e fugiu da vila,"
 	.byte NewLine
-.text	"commandments."
+.text	"quebrando os antigos mandamentos."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"A couple o' years later, she came back,"
+.text	"Uns anos depois, ela voltou,"
 	.byte NewLine
-.text	"'cept now she was pregnant."
+.text	"agora grávida."
 	.byte NewLine
-.text	"Never said who the father was, mind."
+.text	"Ela nunca disse quem era o pai."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Before long Sigyn died, even as she gave birth"
+.text	"Não muito antes dela morrer, ela"
 	.byte NewLine
-.text	"t' her daughter."
+.text	"deu a luz uma filha."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"From what I 'eard, the hamlet's old prophet"
+.text	"Pelo que eu ouvi, a profeta da aldeia a"
 	.byte NewLine
-.text	"took 'er in and raised the girl as 'er own."
+.text	"adotou, e criou a garota como uma filha."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If the little girl's still alive, she'd 'ave to be"
+.text	"Se a garotinha ainda estiver viva, ela"
 	.byte NewLine
-.text	"'bout seventeen or eighteen by now..."
+.text	"deve ter dezessete, ou dezoito anos..."
 	.byte WaitForA
 
 	.byte EndText

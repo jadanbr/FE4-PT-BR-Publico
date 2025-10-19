@@ -3,27 +3,28 @@
 dialogueCh7WM1
 
 	.byte StartText
-.text	"Prince Seliph spearheads the liberation army’s"
+.text	"Príncipe Seliph lidera a primeira vitória"
 	.byte NewLine
-.text	"first victory;"
-	.byte WaitForA
-.text	" word of it sparks courage in"
-	.byte NewLine
-.text	"the people suffering beneath the empire’s heel,"
+.text	"dos libertadores; notícias de sua rebelião"
 	.byte WaitForA
 	.byte NewLine
-.text	"leading to several uprisings across Jugdral."
+.text	"incentivam o povo de outras províncias a lutar"
+	.byte NewLine
+.text	"contra a tirania do Império, incitando"
+	.byte WaitForA
+	.byte NewLine
+.text	"diversas revoltas ao redor de Jugdral."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Nevertheless, with none to unite them,"
+.text	"Porém, sem ninguém para uni-las,"
 	.byte NewLine
-.text	"nearly all are swiftly stamped out,"
+.text	"quase todas são rapidamente eliminadas,"
 	.byte WaitForA
 	.byte NewLine
-.text	"allowing countless more lives"
+.text	"fazendo com que mais várias vítimas"
 	.byte NewLine
-.text	"to be claimed by the imperial army."
+.text	"sejam acrescentadas aos números do Império."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -33,9 +34,9 @@ dialogueCh7WM1
 	.byte Low
 	.byte Leonster1
 
-.text	"Located on the Thracian Peninsula"
+.text	"Na península da Trácia, está"
 	.byte NewLine
-.text	"is the Kingdom of Leonster,"
+.text	"o reino de Leonster, onde"
 	.byte WaitForA
 	.byte NewLine
 	
@@ -47,7 +48,7 @@ dialogueCh7WM1
 	.byte $8C
 	.byte $14
 
-.text	"in which the son of Quan, Prince Leif, raised an"
+.text	"o filho de Quan, Príncipe Leif, levantou um"
 	.byte NewLine
 
 	.word LoadPortraitWM1
@@ -58,17 +59,17 @@ dialogueCh7WM1
 	.byte $58
 	.byte $50
 
-.text	"army alongside Finn to stand against the Empire."
+.text	"exército junto a Finn para resistir ao Império."
 	.byte WaitForA
 	.byte ScrollText
-.text	"However, the vast number of King Bloom’s"
+.text	"Porém, a grande quantidade das tropas"
 	.byte NewLine
-.text	"forces prove to be too much, thus,"
+.text	"do Rei Blume são demais para eles, e depois"
 	.byte WaitForA
 	.byte NewLine
-.text	"following a crushing defeat, Leif finds himself"
+.text	"de uma custosa derrota, Leif se vê cercado"
 	.byte NewLine
-.text	"trapped within enemy lines on his lonesome."
+.text	"dentro do território inimigo."
 	.byte WaitForA
 
 	.word ClearMapSymbol
@@ -85,12 +86,12 @@ dialogueCh7WM1
 	.byte Low
 	.byte AedShrine
 
-.text	"The road from Isaach to Leonster"
+.text	"A estrada de Isaach até Leonster"
 	.byte NewLine
-.text	"crosses into the Aed Desert,"
+.text	"passa pelo deserto de Aed,"
 	.byte WaitForA
 	.byte NewLine
-.text	"a territory dominated by"
+.text	"um território governado por"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -100,9 +101,9 @@ dialogueCh7WM1
 	.byte $64
 	.byte $07
 
-.text	" Kutuzov of the"
+.text	" Kutuzov, um bispo da"
 	.byte NewLine
-.text	"Loptr Church, who resides at the Temple of Aed."
+.text	"Igreja de Loptr, que reside no templo de Aed."
 	.word ClearMapSymbol
 	.byte Low
 	.byte WaitForA
@@ -114,12 +115,12 @@ dialogueCh7WM1
 	.byte Low
 	.byte Dahna
 
-.text	"On the desert’s outer edge"
+.text	"Na beirada do deserto está a cidade"
 	.byte NewLine
-.text	"is the municipal oasis of Dahna,"
+.text	"oásis de Dahna, sobre o governo de"
 	.byte WaitForA
 	.byte NewLine
-.text	"under the watch of a former merchant, Bramsel,"
+.text	"um ex-mercador chamado Bramsel"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -130,7 +131,7 @@ dialogueCh7WM1
 	.byte $44
 	
 	.byte NewLine
-.text	"as well as a mercenary captain,"
+.text	"e também de um capitão mercenário,"
 
 	.word LoadPortraitWM1
 	.byte 6
@@ -169,7 +170,7 @@ dialogueCh7WM2
 	.byte $02
 
 	.byte StartText
-.text	"And at Fort Mergen,"
+.text	"E no forte de Mergen,"
 	.byte WaitForA
 	.byte NewLine
 
@@ -181,9 +182,9 @@ dialogueCh7WM2
 	.byte $18
 	.byte $3B
 
-.text	"Prince Ishtore himself stands guard alongside"
+.text	"Está o Príncipe Ishtore de Friege,"
 	.byte NewLine
-.text	"the highly skilled commandress,"
+.text	"junto à sua comandante de campo,"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -199,7 +200,7 @@ dialogueCh7WM2
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Beyond its defenses lies the royal capital"
+.text	"Além desta fortaleza, está a capital real,"
 	.byte NewLine
 	
 	.word LoadMapSymbol
@@ -208,7 +209,7 @@ dialogueCh7WM2
 	.byte Low
 	.byte Ulster1
 	
-.text	"of Ulster where King Bloom, "
+.text	"Úlster, onde o Rei Bloom,"
 	
 	.word LoadPortraitWM1
 	.byte 6
@@ -220,26 +221,26 @@ dialogueCh7WM2
 	.byte WaitForA
 	.byte NewLine
 
-.text	"the son of House Friege’s late Duke Reptor,"
+.text	"filho do falecido Duque Reptor de Friege,"
 	.byte NewLine
 	.word RunASM
 	.long $91AFA4
 	.word RunASM
 	.long $8DFEB2
-.text	"as well as his niece,"
+.text	"e também sua sobrinha,"
 
 	.word LoadPortraitWM2
 	.byte 8
 	.byte $A3
 	.byte $52
 
-.text	" the mage "
+.text	" a maga "
 
 	.word ClearMapSymbol
 	.byte Low
 
 	.word PrintStoredNameA
-.text	", await."
+.text	", esperam."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -266,7 +267,7 @@ dialogueCh7WM3
 	.byte Ribaut2
 
 	.byte StartText
-.text	"And thus, Seliph"
+.text	"Então, Seliph"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -276,27 +277,36 @@ dialogueCh7WM3
 	.byte $64
 	.byte $30
 
-.text	" prepares to set out from Ribaut"
+.text	" se prepara para deixar Ribaut,"
 	.byte NewLine
-.text	"with the warriors of Isaach’s Liberation Army,"
+.text	"junto com os guerreiros do"
+	.byte WaitForA
+	.byte NewLine
+.text	"do Exército de Libertação,"
 
 	.word ClearMapSymbol
 	.byte Low
 	
 	.byte WaitForA
 	.byte NewLine
-.text	"charting a course for Leonster,"
+.text	"marcando um caminho para"
 	.byte NewLine
-.text	"hoping to lend some aid to their distant allies."
+.text	"Leonster, na esperança"
+	.byte WaitForA
+	.byte NewLine
+.text	"de conseguir apoiar seus aliados distantes."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Determination lies in each of their hearts;"
+.text	"Eles todos estão determinados; uma nova"
 	.byte WaitForA
 	.byte NewLine
-.text	"a new battle unfolds for Seliph and"
+.text	"batalha se desenrola na frente de Seliph e"
 	.byte NewLine
-.text	"his companions as they march into the sands…"
+.text	"seus companheiros quando eles"
+	.byte WaitForA
+	.byte NewLine
+.text	"marcham na direção do deserto…"
 	.byte WaitForA
 	.byte ScrollText
 	

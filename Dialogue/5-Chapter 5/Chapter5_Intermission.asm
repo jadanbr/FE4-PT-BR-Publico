@@ -3,18 +3,18 @@
 dialogueCh5IntermissionMain
 
 	.byte StartText
-.text	"And thus comes the end of an era."
+.text	"E assim acaba uma era."
 	.byte NewLine
 	.byte NewLine
-.text	"The path of Grannvale's great unrest,"
+.text	"O distúrbio em Grannvale,"
 	.byte NewLine
-.text	"arising from the conflict with Isaach,"
+.text	"surgida do conflito com Isaach,"
 	.byte NewLine
-.text	"has led one young man to his grim fate."
+.text	"levou um jovem à seu fim trágico."
 	.byte NewLine
-.text	"His sorrowful tale, and those of countless"
+.text	"Sua triste história, e a de incontáveis"
 	.byte NewLine
-.text	"other valiants, are now lost to the world."
+.text	"outros heróis, está perdida para o mundo."
 	.byte NewLine
 	.word MusicFadeOut
 	.byte $E7
@@ -22,10 +22,12 @@ dialogueCh5IntermissionMain
 	.byte NewLine
 	.word ChangeMusic
 	.byte $0B
-.text	"Many heroes lost their lives on this path..."
+.text	"Muitos heróis perderam suas vidas"
+  .byte NewLine
+.text "nesse caminho..." 
 	.byte NewLine
 	.byte NewLine
-.text	"Quan, the prince of Leonster..."
+.text	"Quan, o príncipe de Leonster..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -34,7 +36,7 @@ dialogueCh5IntermissionMain
 	.byte NewLine
 	.word ClearPortraitWM
 	.byte 2
-.text	"Ethlyn, his wife..."
+.text	"Ethlyn, sua esposa..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -86,7 +88,7 @@ dialogueCh5IntermissionMain
 	.long $88E9BE
 
 	.byte NewLine
-.text	"And Sigurd, the young heir of Chalphy..."
+.text	"E Sigurd, o jovem herdeiro de Chalphy..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -143,21 +145,23 @@ dialogueCh5IntermissionMain
 	.byte NewLine
 	.byte StartText
 	
-.text	"These brave youths fought to change"
+.text	"Esses jovens lutaram para mudar o"
 	.byte NewLine
-.text	"the world for the better, yet now their"
+.text	"mundo pra melhor, e agora seus sonhos"
 	.byte NewLine
-.text	"unfulfilled dreams lie dead with them"
+.text	"morreram com eles no campo"
 	.byte NewLine
-.text	"on the battlefield..."
-	.byte NewLine
-	.byte NewLine
-.text	"Was their sacrifice in vain?"
-	.byte NewLine
-.text	"What were they fighting for all along?"
+.text	"de batalha..."
 	.byte NewLine
 	.byte NewLine
-.text	"And what of the light...?"
+.text	"Seu sacrifício foi em vão?"
+	.byte NewLine
+.text	"Pelo que estavam lutando"
+  .byte NewLine
+.text "esse tempo todo?" 
+	.byte NewLine
+	.byte NewLine
+.text	"E quanto a luz...?"
 	.byte NewLine
 	.byte NewLine
 	.byte NewLine
@@ -171,13 +175,13 @@ dialogueCh5IntermissionMain
 dialogueCh5IntermissionSurvivors
 
 	.byte StartText
-.text	"And the names of those heroes"
+.text	"E os nomes desses heróis que"
 	.byte NewLine
-.text	"who fought alongside Sigurd"
+.text	"lutaram com Sigurd até seu"
 	.byte NewLine
-.text	"to the bitter end at Belhalla,"
+.text	"triste fim em Belhalla,"
 	.byte NewLine
-.text	"whose fates remain unknown..."
+.text	"cujos destinos ninguém sabe..."
 	.byte NewLine
 	.byte NewLine
 
@@ -187,7 +191,7 @@ dialogueCh5IntermissionSurvivors
 dialogueCh5IntermissionNaoise
 
 	.byte StartText
-.text	"Naoise, a knight of Chalphy..."
+.text	"Naoise, um cavaleiro de Chalphy..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -203,7 +207,7 @@ dialogueCh5IntermissionNaoise
 dialogueCh5IntermissionAlec
 
 	.byte StartText
-.text	"Alec, a knight of Chalphy..."
+.text	"Alec, um cavaleiro de Chalphy..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -219,7 +223,7 @@ dialogueCh5IntermissionAlec
 dialogueCh5IntermissionArden
 
 	.byte StartText
-.text	"Arden, a knight of Chalphy..."
+.text	"Arden, um cavaleiro de Chalphy..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -235,7 +239,7 @@ dialogueCh5IntermissionArden
 dialogueCh5IntermissionLex
 
 	.byte StartText
-.text	"Lex, a nobleman of Dozel..."
+.text	"Lex, um nobre de Dozel..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -251,7 +255,7 @@ dialogueCh5IntermissionLex
 dialogueCh5IntermissionAzelle
 
 	.byte StartText
-.text	"Azelle, a nobleman of Velthomer..."
+.text	"Azelle, um nobre de Velthomer..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -266,7 +270,7 @@ dialogueCh5IntermissionAzelle
 dialogueCh5IntermissionAyra
 
 	.byte StartText
-.text	"Ayra, the princess of Isaach..."
+.text	"Ayra, a princesa de Isaach..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -282,7 +286,7 @@ dialogueCh5IntermissionAyra
 dialogueCh5IntermissionEdain
 
 	.byte StartText
-.text	"Edain, a noblewoman of Yngvi..."
+.text	"Edain, uma Princesa de Yngvi..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -298,7 +302,7 @@ dialogueCh5IntermissionEdain
 dialogueCh5IntermissionMidir
 
 	.byte StartText
-.text	"Midir, a knight of Yngvi..."
+.text	"Midir, um cavaleiro de Yngvi..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -314,7 +318,7 @@ dialogueCh5IntermissionMidir
 dialogueCh5IntermissionJamke
 
 	.byte StartText
-.text	"Jamke, the prince of Verdane..."
+.text	"Jamke, o príncipe de Verdane..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -330,7 +334,7 @@ dialogueCh5IntermissionJamke
 dialogueCh5IntermissionLachesis
 
 	.byte StartText
-.text	"Lachesis, a noblewoman of Nordion..."
+.text	"Lachesis, a Princesa de Nordion..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -346,7 +350,7 @@ dialogueCh5IntermissionLachesis
 dialogueCh5IntermissionBeowolf
 
 	.byte StartText
-.text	"Beowolf, a free-roaming knight..."
+.text	"Beowolf, um cavaleiro livre..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -362,7 +366,7 @@ dialogueCh5IntermissionBeowolf
 dialogueCh5IntermissionChulainn
 
 	.byte StartText
-.text	"Chulainn, a gladiator..."
+.text	"Chulainn, um gladiador..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -378,7 +382,7 @@ dialogueCh5IntermissionChulainn
 dialogueCh5IntermissionDew
 
 	.byte StartText
-.text	"Dew, a thief..."
+.text	"Dew, um ladrão..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -394,7 +398,7 @@ dialogueCh5IntermissionDew
 dialogueCh5IntermissionLewyn
 
 	.byte StartText
-.text	"Lewyn, the prince of Silesse..."
+.text	"Lewyn, o príncipe de Silesse..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -410,7 +414,7 @@ dialogueCh5IntermissionLewyn
 dialogueCh5IntermissionErinys
 
 	.byte StartText
-.text	"Erinys, a pegasus knight of Silesse..."
+.text	"Erinys, uma pégaso de Silesse..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -426,7 +430,7 @@ dialogueCh5IntermissionErinys
 dialogueCh5IntermissionSilvia
 
 	.byte StartText
-.text	"Silvia, a wandering dancer..."
+.text	"Silvia, uma dançarina viajante..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -442,7 +446,7 @@ dialogueCh5IntermissionSilvia
 dialogueCh5IntermissionClaud
 
 	.byte StartText
-.text	"Claud, a priest of Edda..."
+.text	"Claud, o duque de Edda..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -458,7 +462,7 @@ dialogueCh5IntermissionClaud
 dialogueCh5IntermissionTailtiu
 
 	.byte StartText
-.text	"Tailtiu, a noblewoman of Friege..."
+.text	"Tailtiu, uma nobre de Friege..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2
@@ -474,7 +478,7 @@ dialogueCh5IntermissionTailtiu
 dialogueCh5IntermissionBrigid
 
 	.byte StartText
-.text	"Brigid, a noblewoman of Yngvi..."
+.text	"Brigid, a herdeira de Yngvi..."
 	.byte NewLine
 	.word LoadPortraitWM1
 	.byte 2

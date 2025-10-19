@@ -3,9 +3,9 @@
 dialogueCh2WM1
 
 	.byte StartText
-.text	"After gaining complete control"
+.text	"Depois de tomar o controle"
 	.byte NewLine
-.text	"of the Kingdom of Verdane,"
+.text	"do Reino de Verdane,"
 	.byte WaitForA	
 	.byte NewLine
 	
@@ -16,21 +16,32 @@ dialogueCh2WM1
 	.byte 2
 	.byte $A0	
 	.byte $20	
-.text	"Sigurd receives orders from Belhalla Palace."
+.text	"Sigurd recebe novas ordens vindas de Belhalla."
 	.byte WaitForA
 	.byte ScrollText
-.text	"He is to remain stationed at Castle Evans,"
+.text	"Ele deverá ficar no castelo de Evans,"
 	.byte NewLine
-.text	"and in so doing, govern the land from its border."
+.text	"e de lá, governar o território."
 	.byte WaitForA
 	.byte ScrollText
-.text	"At Sigurd's side through all of this is Deirdre,"
+.text	"Junto a ele, está"
+	.byte WaitForA
+	.word LoadPortraitWM1
+	.byte 6
+	.word portrait_Deirdre ;Fiz a cara da Deirdre aparecer
+	.word LoadPortraitWM2
+	.byte 6
+	.byte $75	
+	.byte $60	
 	.byte NewLine
-.text	"whose hand he has taken in marriage."
+.text	"Deirdre, sua esposa."
 	.byte WaitForA
 	
 	.word ClearPortraitWM
 	.byte 2
+	
+	.word ClearPortraitWM
+	.byte 6
 	
 	.byte ScrollText
 
@@ -40,22 +51,22 @@ dialogueCh2WM1
 dialogueCh2WM2
 
 	.byte StartText
-.text	"Meanwhile, to the north,"
+.text	"Enquanto isso, ao norte, a ocupação de"
 	.byte WaitForA
 	.byte NewLine
-.text	"Grannvale’s subjugation of Verdane"
+.text	"Verdane por parte de Grannvale"
 	.byte NewLine
 
 	.word HighlightCountry
 	.byte 1
 
-.text	"is the catalyst of great chaos within Agustria."
+.text	"se torna motivo de revolta em Agustria."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The coalition’s rulers are quick"
+.text	"Os líderes dentro da coalizão"
 	.byte NewLine
-.text	"to voice a flurry of anti-Grannvale rhetoric."
+.text	"logo denunciam a ocupação."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -65,18 +76,18 @@ dialogueCh2WM2
 dialogueCh2WM3
 
 	.byte StartText
-.text	"These attitudes are emboldened with the sudden"
+.text	"Essa oposição se fortalece após o"
 	.byte NewLine
-.text	"assassination of Agustria’s renowned King Imka"
+.text	"assassinato do Rei Imka por um agente"
 	.byte WaitForA
 	.byte NewLine
-.text	"by an unknown hand, sending any lingering desire"
+.text	"desconhecido, levando qualquer possibilidade"
 	.byte NewLine
-.text	"for peace to the grave with him."
+.text	"de paz pro túmulo com ele."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"This leaves Imka’s firstborn son, Prince Chagall,"
+.text	"Seu filho primogênito, Príncipe Chagall,"
 
 	.word LoadPortraitWM1
 	.byte 4
@@ -87,13 +98,13 @@ dialogueCh2WM3
 	.byte $24
 
 	.byte NewLine
-.text	"to succeed his father as the realm’s new king."
+.text	"é quem o sucede ao trono."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"As of yet, Grannvale’s elite"
+.text	"Nesse momento, a elite do exército de"
 	.byte NewLine
-.text	"are still far out to the east, in Isaach."
+.text	"Grannvale ainda está em Isaach."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -103,9 +114,9 @@ dialogueCh2WM3
 dialogueCh2WM4
 
 	.byte StartText
-.text	"Capitalizing on the opportunity, Chagall calls upon"
+.text	"Aproveitando a chance, Chagall convoca"
 	.byte NewLine
-.text	"each of Agustria's lords to battle,"
+.text	"os lordes dos territórios para uma guerra,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -153,18 +164,20 @@ dialogueCh2WM4
 
 	.byte WaitForA
 	.byte NewLine
-.text	"ordering an immediate invasion of Verdane."
+.text	"ordenando um ataque imediato às"
+	.byte NewLine
+.text	"posições de Grannvale em Evans."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"On guard at Castle Evans as the defenders"
+.text	"Sendo protetores de Evans, e portanto"
 	.byte NewLine
-.text	"of Grannvale’s western front,"
+.text	"fronteira ocidental de Grannvale,"
 	.byte WaitForA
 	.byte NewLine
-.text	"Sigurd and his allies are once again ensnared"
+.text	"Sigurd e seus aliados são novamente"
 	.byte NewLine
-.text	"within the flames of battle..."
+.text	"lançados às chamas da batalha..."
 	.byte WaitForA
 
 	.word ClearPortraitWM

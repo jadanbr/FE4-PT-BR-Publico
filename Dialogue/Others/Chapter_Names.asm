@@ -4,7 +4,7 @@
 .logical $506000
 
 .byte StartText
-.text "Prologue:§1_"	; Space is at a premium here with the (XXX) turn count, so using a small space at the end.
+.text "Prólogo: "	; Space is at a premium here with the (XXX) turn count, so using a small space at the end.
 .byte EndText
 
 .here
@@ -13,7 +13,7 @@
 .logical $506010
 
 .byte StartText
-.text "Birth of a Holy Knight"
+.text "Nasce o Cav. Sagrado"
 .byte EndText
 
 .here
@@ -22,7 +22,7 @@
 .logical $506030
 
 .byte StartText
-.text "Ch. 0: "
+.text "Ca. 0: "
 .byte EndText
 
 .here
@@ -30,7 +30,7 @@
 * = $506040
 .logical $506040
 .byte StartText
-.text "Lady of the Forest"
+.text "A Dama da Floresta Mística"
 .byte EndText
 
 .here
@@ -39,7 +39,7 @@
 .logical $506060
 
 .byte StartText
-.text "Disturbance in Agustria"
+.text "Crise em Agustria"
 .byte EndText
 
 .here
@@ -48,7 +48,7 @@
 .logical $506080
 
 .byte StartText
-.text "Eldigan, the Lionheart"
+.text "Eldigan, Coração de Leão"
 .byte EndText
 
 .here
@@ -57,7 +57,7 @@
 .logical $5060A0
 
 .byte StartText
-.text "Dance in the Skies"
+.text "Dança nos Céus"
 .byte EndText
 
 .here
@@ -66,7 +66,7 @@
 .logical $5060C0
 
 .byte StartText
-.text "Doorway to Destiny"
+.text "A Porta do Destino"
 .byte EndText
 
 .here
@@ -75,7 +75,7 @@
 .logical $506100
 
 .byte StartText
-.text "Inheritors of Light"
+.text "Filhos da Luz"
 .byte EndText
 
 .here
@@ -84,7 +84,7 @@
 .logical $506120
 
 .byte StartText
-.text "Beyond the Desert"
+.text "Além do deserto"
 .byte EndText
 
 .here
@@ -93,7 +93,7 @@
 .logical $506140
 
 .byte StartText
-.text "Wyvern Knights of Thracia"
+.text "Os Dragões da Trácia"
 .byte EndText
 
 .here
@@ -102,7 +102,7 @@
 .logical $506160
 
 .byte StartText
-.text "For Whose Sake"
+.text "Pelo bem de quem?"
 .byte EndText
 
 .here
@@ -111,7 +111,7 @@
 .logical $506180
 
 .byte StartText
-.text "Ch. 10: "
+.text "Cap. 10: "
 .byte EndText
 
 .here
@@ -120,7 +120,7 @@
 .logical $506190
 
 .byte StartText
-.text "Light and Dark"
+.text "Luz e Trevas"
 .byte EndText
 
 .here
@@ -129,7 +129,7 @@
 .logical $5061B0
 
 .byte StartText
-.text "Endg{am}e:§1_"	; Space is at a premium here with the (XXX) turn count, so a few width-saving tricks were used.
+.text "Final: "	; Space is at a premium here with the (XXX) turn count, so a few width-saving tricks were used.
 .byte EndText
 
 .here
@@ -138,7 +138,7 @@
 .logical $5061C0
 
 .byte StartText
-.text "End of the Holy War"
+.text "O Fim da Guerra Santa"
 .byte EndText
 
 .here

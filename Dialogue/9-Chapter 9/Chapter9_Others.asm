@@ -14,84 +14,85 @@ dialogueCh9KillAltena1
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Father, I've received grave news!"
+.text	"Pai, eu recebi péssimas notícias!"
 	.byte NewLine
-.text	"It's Altena..."
+.text	"Altena, ela..."
 	.byte NewLine
-.text	"She has fallen in battle."
+.text	"Ela morreu em batalha."
 	
 	.byte RightSlot		;Travant
 	.word PauseText
 	.byte $10
-.text	"I see..."
+.text	"Entendi..."
 	.byte NewLine
-.text	"Very well, then."
+.text	"Muito bem."
 	.byte NewLine
-.text	"I suppose there's little choice now..."
+.text	"Eu não tenho mais escolha agora..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I'm going to join the fray, Arion."
+.text	"Eu vou me juntar à batalha, Arion."
 	.byte NewLine
-.text	"You're in charge of defending the castle."
+.text	"Você fica aqui para defender o castelo."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Arion
-.text	"Understood, Father."
+.text	"Entendido, pai."
 	
 	.byte RightSlot		;Travant
 	.word PauseText
 	.byte $10
-.text	"I'll entrust this spear to you..."
+.text	"E também, quero dar-te isto..."
 	.byte NewLine
-.text	"And with it, the future of Thracia."
+.text	"Eu te entrego Gungnir, e com ela,"
+	.byte NewLine
+.text	"também te dou o futuro do nosso país."
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Arion
-.text	"Hold on a moment, Father..."
+.text	"Pai!"
 	.byte NewLine
-.text	"This is Gungnir!"
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"What is the meaning of this?"
+.text	"O que você pretende fazer?"
 	.byte NewLine
-.text	"How do you intend to fight without it?"
+.text	"Como você quer lutar sem ela?"
 	.byte NewLine
-.text	"Unless... Father, you can't be-"
+.text	"A não ser que... não, pai, não faça-"
 	
 	.byte RightSlot		;Travant
 	.word PauseText
 	.byte $10
-.text	"I am. Frankly, Arion, I've had enough."
+.text	"Eu farei. Francamente Arion, eu cansei."
 	.byte NewLine
-.text	"Thracia is yours to do with as you see fit."
+.text	"Faça o que quiser com a Trácia. Mas eu"
 	.byte NewLine
-.text	"But we don't need to be hated by their kind..."
+.text	"sugiro que tente ser... mais amigável."
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Arion
-.text	"Are you seriously suggesting I should seek a"
+.text	"Você está sugerindo que eu busque uma"
 	.byte NewLine
-.text	"truce, Father? No! Never! To comply with the"
+.text	"trégua, pai? Não! Jamais! Negociar com"
 	.byte NewLine
-.text	"rebels now would be unthinkable!"
+.text	"os rebeldes agora seria impensável!"
 	
 	.byte RightSlot		;Travant
 	.word PauseText
 	.byte $10
-.text	"As I said, Thracia is yours. Do as you see fit."
+.text	"Eu já disse, Trácia agora é sua,"
 	.byte NewLine
-.text	"All I ask is for you to find a way to liberate"
+.text	"você faz o que quiser com ela."
 	.byte NewLine
-.text	"Thracia's people from their suffering..."
+.text	"Mas por favor, ache um jeito de libertar"
+	.byte WaitForA
+	.byte NewLine
+.text	"nosso povo desse sofrimento..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Farewell, Arion."
+.text	"Adeus, Arion."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -101,7 +102,7 @@ dialogueCh9KillAltena1
 	.byte $10
 	
 	.byte LeftSlot		;Arion
-.text	"Father..."
+.text	"Pai..."
 	.byte WaitForA
 
 	.byte EndText
@@ -114,17 +115,17 @@ dialogueCh9KillAltena2
 	.word LoadPortrait
 	.word portrait_Hannibal
 	.byte StartText
-.text	"King Travant has joined the battle, has he?"
+.text	"Meu Rei está vindo lutar pessoalmente?"
 	.byte NewLine
-.text	"Hrm... I suppose I've no choice."
+.text	"Hrm... agora eu não tenho escolha."
 	.byte NewLine
-.text	"My duty as a warrior demands it..."
+.text	"Meu dever como guerreiro me obriga..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Move in on the invaders!"
+.text	"Ataquem os invasores!"
 	.byte NewLine
-.text	"We'll let them proceed no further!"
+.text	"Não deixe que eles prossigam!"
 	.byte WaitForA
 
 	.byte EndText
@@ -146,124 +147,130 @@ dialogueCh9KillTravant_AltenaRetreated
 	.byte StartText
 .text	"Altena!"
 	.byte NewLine
-.text	"Are you alright?"
+.text	"Você está bem?"
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
 .text	"Nngh?"
 	.byte NewLine
-.text	"...Oh... Arion..."
+.text	"...Ah... Arion..."
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Arion
-.text	"My apologies, Altena."
+.text	"Me perdoe, Altena."
 	.byte NewLine
-.text	"I had to give Father a convincing show, that"
+.text	"Eu só dei um golpe tão forte em ti porque"
 	.byte NewLine
-.text	"I might ensure your survival."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"I had no choice but to deal such a powerful blow."
-	
-	.byte RightSlot		;Altena
-	.word PauseText
-	.byte $10
-.text	"Don't worry, Arion."
-	.byte NewLine
-.text	"I understand."
-	.byte NewLine
-.text	"But where is Fath... er, King Travant now?"
-	.byte WaitForA
-	.word ScrollBoth
-	
-	.byte LeftSlot		;Arion
-.text	"You won't see him again..."
-	.byte NewLine
-.text	"Father has died in battle."
-	
-	.byte RightSlot		;Altena
-	.word PauseText
-	.byte $10
-.text	"He has?"
-	.byte NewLine
-.text	"...How did it happen?"
-	.byte WaitForA
-	.word ScrollBoth
-	
-	.byte LeftSlot		;Arion
-.text	"You'd be better off not knowing."
-	.byte NewLine
-.text	"Father's heart was an enigma at the best"
-	.byte NewLine
-.text	"of times..."
-	
-	.byte RightSlot		;Altena
-	.word PauseText
-	.byte $10
-.text	"...Listen, Arion."
-	.byte NewLine
-.text	"What do you think I should do now?"
-	.byte WaitForA
-	.word ScrollBoth
-	
-	.byte LeftSlot		;Arion
-.text	"Join Prince Leif, your true brother."
-	.byte NewLine
-.text	"I'm certain he is still waiting for you."
-	
-	.byte RightSlot		;Altena
-	.word PauseText
-	.byte $10
-.text	"Then what will you-"
-	.byte WaitForA
-	.word ScrollBoth
-	
-	.byte LeftSlot		;Arion
-.text	"Altena..."
-	.byte NewLine
-.text	"This is my fate."
-	.byte NewLine
-.text	"There's no helping it."
-	
-	.byte RightSlot		;Altena
-	.word PauseText
-	.byte $10
-.text	"No! You can call for a truce, Arion!"
-	.byte NewLine
-.text	"Now that Travant's dead, there's nothing at all"
-	.byte NewLine
-.text	"to stop you from seeking peace!"
-	.byte WaitForA
-	.word ScrollBoth
-
-.text	"And I..."
-	.byte NewLine
-.text	"I could never fight you!"
+.text	"precisava ser convincente para meu pai."
 	.byte WaitForA
 	.byte ScrollText
 	
-	.byte LeftSlot		;Arion
-.text	"I wish I could, and I would were it not for"
+.text	"Caso contrário, talvez ele"
 	.byte NewLine
-.text	"Father's final words to me..."
-	.byte NewLine
-.text	"Please, Altena... Go!"
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"However, be prepared."
-	.byte NewLine
-.text	"Our next meeting shall be on the battlefield,"
-	.byte NewLine
-.text	"and I will not stay my hand!"
+.text	"próprio teria te matado."
 	
 	.byte RightSlot		;Altena
 	.word PauseText
 	.byte $10
-.text	"Oh... Arion..."
+.text	"Não se preocupe, Arion."
+	.byte NewLine
+.text	"Eu entendi."
+	.byte NewLine
+.text	"Mas onde está nosso pa... digo, o Rei Travant?"
+	.byte WaitForA
+	.word ScrollBoth
+	
+	.byte LeftSlot		;Arion
+.text	"Você nunca mais vai vê-lo de novo..."
+	.byte NewLine
+.text	"Depois que você voltou, ele saiu para"
+	.byte NewLine
+.text	"lutar, e morreu..."
+	
+	.byte RightSlot		;Altena
+	.word PauseText
+	.byte $10
+.text	"Sério?"
+	.byte NewLine
+.text	"...Como que aconteceu?"
+	.byte WaitForA
+	.word ScrollBoth
+	
+	.byte LeftSlot		;Arion
+.text	"É melhor você não saber."
+	.byte NewLine
+.text	"O coração do meu pai sempre foi"
+	.byte NewLine
+.text	"um mistério..."
+	
+	.byte RightSlot		;Altena
+	.word PauseText
+	.byte $10
+.text	"...Irmão... Arion, me ajude."
+	.byte NewLine
+.text	"O que eu faço agora?"
+	.byte WaitForA
+	.word ScrollBoth
+	
+	.byte LeftSlot		;Arion
+.text	"Vá ficar com seu verdadeiro irmão,"
+	.byte NewLine
+.text	"Príncipe Leif, tenho certeza"
+	.byte NewLine
+.text	"que ele ainda está te procurando."
+	
+	.byte RightSlot		;Altena
+	.word PauseText
+	.byte $10
+.text	"E você? O que vai-"
+	.byte WaitForA
+	.word ScrollBoth
+	
+	.byte LeftSlot		;Arion
+.text	"Altena... eu vou ficar."
+	.byte NewLine
+.text	"Esse é o meu destino."
+	.byte NewLine
+.text	"Não posso evitá-lo."
+	
+	.byte RightSlot		;Altena
+	.word PauseText
+	.byte $10
+.text	"Não, irmão! Você pode pedir uma trégua!"
+	.byte NewLine
+.text	"Com Travant morto, não tem nada te impedindo"
+	.byte NewLine
+.text	"de fazer isso!"
+	.byte WaitForA
+	.word ScrollBoth
+
+.text	"Eu..."
+	.byte NewLine
+.text	"Eu não quero te enfrentar!"
+	.byte WaitForA
+	.byte ScrollText
+	
+	.byte LeftSlot		;Arion
+.text	"Altena... eu pediria uma trégua, não"
+	.byte NewLine
+.text	"fosse o que meu pai disse para mim..."
+	.byte NewLine
+.text	"Por favor... vá embora!"
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"Mas, prepare-se. Vamos nos"
+	.byte NewLine
+.text	"encontrar de novo, dessa vez em batalha,"
+	.byte NewLine
+.text	"e eu não vou tirar a mão na próxima vez!"
+	
+	.byte RightSlot		;Altena
+	.word PauseText
+	.byte $10
+.text	"Ah... Arion..."
 	.byte WaitForA
 
 	.byte EndText
@@ -276,11 +283,11 @@ dialogueCh9KillArion
 	.word LoadPortrait
 	.word portrait_Julius3
 	.byte StartText
-.text	"Arion. This place will not be your grave."
+.text	"Arion. Você não vai morrer aqui."
 	.byte NewLine
-.text	"I forbid it."
+.text	"Eu proíbo."
 	.byte NewLine
-.text	"Heh heh... Join me."
+.text	"Heh heh... vem comigo."
 	.byte WaitForA
 
 	.byte EndText
@@ -293,17 +300,17 @@ dialogueCh9ApproachThracia
 	.word LoadPortrait
 	.word portrait_Arion3
 	.byte StartText
-.text	"They've come at last... Move out!"
+.text	"Eles chegaram... ao ataque!"
 	.byte NewLine
-.text	"Whether we win or die,"
+.text	"Seja na vitória ou na derrota,"
 	.byte NewLine
-.text	"we'll have fought in our fatherland's name!"
+.text	"terá sido pela nossa pátria!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Wyvern knights!"
+.text	"Dragões!"
 	.byte NewLine
-.text	"Descend upon the enemy!"
+.text	"Ataquem o inimigo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -333,43 +340,47 @@ dialogueCh9VisitLutetiaWithHawk
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Man
-.text	"Would ya believe it?"
+.text	"Tem como acreditar?"
 	.byte NewLine
-.text	"I was sittin' around the town square and"
+.text	"Eu estava aqui de boa na praça, aí uma"
 	.byte NewLine
-.text	"this girl confessed her love to me..."
+.text	"garota me disse que me ama..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"It feels so, SO great!"
+.text	"É uma sensação incrível!"
 	.byte NewLine
-.text	"Wish I could share my happiness with ya!"
+.text	"Eu queria poder compartilhar"
+	.byte NewLine
+.text	"essa felicidade com alguém!"
 	
 	.byte RightSlot		;Hawk
 	.word PauseText
 	.byte $10
-.text	"Er..."
+.text	"Er... (o que diabos eu tenho a ver com isso?)"
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Man
-.text	"Hang on! You're with the liberators, right?"
+.text	"Pera aí? Você está com os libertadores, né?"
 	.byte NewLine
-.text	"Here, take the town's famous tonic and"
+.text	"Aqui, pegue um tônico e um livro secreto!"
 	.byte NewLine
-.text	"secret book!"
+.text	"Especial da nossa cidade!"
 	
 	.byte RightSlot		;Hawk
 	.word PauseText
 	.byte $10
-.text	"T-thank you..."
+.text	"O-obrigado..."
 	.byte WaitForA
 	.word ScrollBoth
 	
 	.byte LeftSlot		;Man
-.text	"Love's such a wondrous thing..."
+.text	"O amor é tão bom..."
 	.byte NewLine
-.text	"You oughta find someone to love, too!"
+.text	"Você tem que encontrar"
+	.byte NewLine
+.text	"alguém para amar também!"
 	.byte WaitForA
 
 	.byte EndText

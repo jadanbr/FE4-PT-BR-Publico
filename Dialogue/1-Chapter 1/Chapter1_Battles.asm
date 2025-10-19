@@ -8,11 +8,11 @@ dialogueCh1BattleCimbaeth
 	.word portrait_Cimbaeth1
 
 	.byte StartText
-.text	"Pointing your little stick at me?"
+.text	"Apontando seu graveto para mim?"
 	.byte NewLine
-.text	"That's precious, that is!"
+.text	"Acho bem fofo isso aí!"
 	.byte NewLine
-.text	"I'll cave your head right in!"
+.text	"Vou enfiar isso aqui na sua cabeça!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -25,15 +25,15 @@ dialogueCh1BattleEliot
 	.word LoadPortrait
 	.word portrait_Eliot2
 	.byte StartText
-.text	"Damn you, Eldigan,"
+.text	"Maldito seja você Eldigan, e essa"
 	.byte NewLine
-.text	"and your little good-guy act!"
+.text	"sua fachada de bonzinho!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Your grudge against me ends,"
+.text	"Eu irei acabar com você,"
 	.byte NewLine
-.text	"here and now!"
+.text	"aqui e agora!"
 	.byte WaitForA
 
 	.byte EndText
@@ -46,15 +46,14 @@ dialogueCh1BattleMunnir
 	.word LoadPortrait
 	.word portrait_Munnir1
 	.byte StartText
-.text	"Oh, come on!"
+.text	"Ah, fala sério!"
 	.byte NewLine
-.text	"First my woman flees,"
+.text	"Primeiro minha mulher foge,"
 	.byte NewLine
-.text	"and now this?!"
+.text	"e agora tão batendo na minha porta?!"
 	.byte WaitForA
-	.byte ScrollText
-
-.text	"Damn my rotten luck!"
+	.byte NewLine
+.text	"Esse dia tá uma porcaria mesmo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -74,18 +73,18 @@ dialogueCh1BattleMunnir_Midir
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You're that knight from earlier?!"
+.text	"Você é aquele cavaleiro de antes?!"
 	.byte NewLine
-.text	"Ugh, I don't believe this..."
+.text	"Ugh, não acredito nisso..."
 	.byte NewLine
-.text	"What are you doing still alive?"
+.text	"Como você ainda está vivo?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Prepare yourself, Munnir!"
+.text	"Se prepare, Munnir!"
 	.byte NewLine
-.text	"I'll never forgive you!"
+.text	"Eu não irei te perdoar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -105,17 +104,17 @@ dialogueCh1BattleMunnir_Azelle
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And what are you supposed to be?"
+.text	"Quem diabos é você?"
 	.byte NewLine
-.text	"You've got nerve, brat!"
+.text	"Você tem coragem garoto!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
 	.byte StartText
-.text	"So you're Munnir..."
+.text	"Então você é o tal do Munnir..."
 	.byte NewLine
-.text	"How dare you harm Edain!"
+.text	"Como ousa machucar Edain!"
 	.byte WaitForA
 
 	.byte EndText
@@ -128,11 +127,11 @@ dialogueCh1BattleAyra
 	.word LoadPortrait
 	.word portrait_Ayra
 	.byte StartText
-.text	"You stand between me"
+.text	"Você está entre mim e"
 	.byte NewLine
-.text	"and Shannan's future..."
+.text	"o futuro de Shannan..."
 	.byte NewLine
-.text	"Farewell!"
+.text	"Adeus!"
 	.byte WaitForA
 
 	.byte EndText
@@ -145,9 +144,9 @@ dialogueCh1BattleJamke
 	.word LoadPortrait
 	.word portrait_Jamke
 	.byte StartText
-.text	"I don't want to hurt you!"
+.text	"Eu não quero lhe machucar!"
 	.byte NewLine
-.text	"Begone from this land at once!"
+.text	"Saia dessa terra agora!"
 	.byte WaitForA
 
 	.byte EndText
@@ -162,7 +161,7 @@ dialogueCh1BattleSandima
 	.byte StartText
 .text	"Kehehehehe..."
 	.byte NewLine
-.text	"Learn to fear my dark magic."
+.text	"Aprenda a temer minha magia negra."
 	.byte WaitForA
 
 	.byte EndText
@@ -182,16 +181,16 @@ dialogueCh1BattleSandima_Jamke
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You are too late, Jamke."
+.text	"Tarde demais, Jamke."
 	.byte NewLine
-.text	"Your father has already passed on."
+.text	"Seu pai já morreu."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"What?!"
+.text	"O que?!"
 	.byte NewLine
-.text	"Sandima! You... You're MINE!!"
+.text	"Sandima! Você... VOCÊ É MEU!!"
 	.byte WaitForA
 
 	.byte EndText
@@ -204,17 +203,17 @@ dialogueCh1BattleSandima_Deirdre
 	.word LoadPortrait
 	.word portrait_Sandima1
 	.byte StartText
-.text	"What's this?"
+.text	"O que é isso?"
 	.byte NewLine
-.text	"A priestess, are you?"
+.text	"Uma sacerdotisa, é?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Could it be..."
+.text	"Será..."
 	.byte NewLine
-.text	"Might you be Deirdre..."
+.text	"Será que és Deirdre?"
 	.byte NewLine
-.text	"The cursed maiden..."
+.text	"A donzela amaldiçoada..."
 	.byte WaitForA
 	
 	.byte EndText

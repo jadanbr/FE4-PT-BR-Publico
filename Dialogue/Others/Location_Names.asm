@@ -262,7 +262,7 @@
 .logical $504BB0
 
 .byte StartText
-.text "§5_Ulster"
+.text "§5_Úlster"
 .byte EndText
 
 .here
@@ -343,7 +343,7 @@
 .logical $504C40
 
 .byte StartText
-.text "§8_Plutarch"
+.text "§8_Plutarco"
 .byte EndText
 
 .here
@@ -379,7 +379,7 @@
 .logical $504C80
 
 .byte StartText
-.text "§8_§1_Cappadocia"
+.text "§8_Capadócia"
 .byte EndText
 
 .here
@@ -388,7 +388,7 @@
 .logical $504C90
 
 .byte StartText
-.text "§7_Lutetia"
+.text "§7_Lutécia"
 .byte EndText
 
 .here
@@ -397,7 +397,7 @@
 .logical $504CA0
 
 .byte StartText
-.text "§5_Thracia"
+.text "§8_§1_Trácia"
 .byte EndText
 
 .here
@@ -406,7 +406,7 @@
 .logical $504CB0
 
 .byte StartText
-.text "§7_Galatia"
+.text "§6_Galácia"
 .byte EndText
 
 .here

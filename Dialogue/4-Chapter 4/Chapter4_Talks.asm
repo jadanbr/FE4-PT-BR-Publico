@@ -14,93 +14,95 @@ dialogueCh4TalkSilviaErinys
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey! Hey, Erinys!"
+.text	"Ei! Ei, Erinys!"
 	.byte NewLine
-.text	"You totally like Lewyn, don't ya?"
+.text	"Você gosta do Lewyn, não é?"
 	.byte NewLine
-.text	"Like, do ya really like him?"
+.text	"Tipo, gosta muito dele, né?"
 
 	.byte RightSlot		;Erinys
 	.word PauseText
 	.byte $10
-.text	"Huh?! I... that's... Er, no."
+.text	"Hã?! Eu... é... hã, não."
 	.byte NewLine
-.text	"Prince Lewyn is beloved and respected by all"
+.text	"O Príncipe Lewyn é amado e respeitado por"
 	.byte NewLine
-.text	"the people of Silesse, myself included."
+.text	"todos de Silesse, eu inclusa."
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"Oh? Okay, then."
+.text	"Oh? Tá bom, então."
 	.byte NewLine
-.text	"Then I guess you'd be okay with"
+.text	"Quer dizer que você não se importaria"
 	.byte NewLine
-.text	"me and Lewyn getting together, right?"
+.text	"se eu ficasse com ele, né?"
 
 	.byte RightSlot		;Erinys
 	.word PauseText
 	.byte $10
-.text	"Er... Yes."
+.text	"É... claro..."
 	.byte NewLine
-.text	"I wouldn't really mind..."
+.text	"Eu não me importaria..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"Reeeeally?"
+.text	"Sériooooooo?"
 	.byte NewLine
-.text	"That wouldn't bug ya at all?"
+.text	"Nadinha?"
 
 	.byte RightSlot		;Erinys
 	.word PauseText
 	.byte $10
-.text	"No, I'm sure I'd have no issue."
+.text	"Não, eu não teria nenhum problema com isso."
 	.byte NewLine
-.text	"Why do you ask?"
+.text	"Porquê a pergunta?"
 	.byte NewLine
-.text	"Am I supposed to object?"
+.text	"Era pra eu não gostar disso?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"I dunno! But if it's all fine by ya,"
+.text	"Sei lá! Mas se não se importa,"
 	.byte NewLine
-.text	"then I guess it's time for me to go work"
+.text	"então eu vou lá fazer minha"
 	.byte NewLine
-.text	"my magic on Lewyn..."
+.text	"mágica no Lewyn..."
 
 	.byte RightSlot		;Erinys
 	.word PauseText
 	.byte $10
-.text	"Er... The thing is, a prospective queen of Silesse"
+.text	"Er... porém, uma futura rainha de Silesse"
 	.byte NewLine
-.text	"ought to possess the same grace and dignity"
+.text	"tem que ter a mesma graça e dignidade de"
 	.byte NewLine
-.text	"as our Queen Lahna."
+.text	"nossa Rainha Lahna."
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"Oh, so you're sayin' I'm not cut out for it?"
+.text	"Ah, então tá me dizendo"
 	.byte NewLine
-.text	"How rude!"
+.text	"que eu não sirvo pra isso?"
+	.byte NewLine
+.text	"Muito rude de sua parte!"
 
 	.byte RightSlot		;Erinys
 	.word PauseText
 	.byte $10
-.text	"Er, no..."
+.text	"Er, não..."
 	.byte NewLine
-.text	"That isn't-"
+.text	"Isso não é-"
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
 .text	"Hmph."
 	.byte NewLine
-.text	"Fine, then!"
+.text	"Tá bom, então!"
 	.byte NewLine
-.text	"I'll show you!"
+.text	"Você vai ver!"
 	.word PauseText
 	.byte $20
 	.byte ScrollText
@@ -129,76 +131,79 @@ dialogueCh4TalkSigurdClaud
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I'm so sorry I dragged you into this mess as well,"
+.text	"Me perdoe te arrastar pra essa bagunça também,"
 	.byte NewLine
-.text	"Father Claud."
+.text	"Padre Claud."
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"It's fine."
+.text	"Está tudo bem."
 	.byte NewLine
-.text	"If anything, I'm sorry that my efforts to aid you"
+.text	"Na verdade, eu quero me desculpar pelos"
 	.byte NewLine
-.text	"simply weren't enough."
+.text	"meus esforços não terem sido suficientes."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"I did return to Grannvale, and I was about to"
+.text	"Eu retornei à Grannvale, e estava prestes"
 	.byte NewLine
-.text	"relate the truth to His Majesty."
+.text	"a contar a verdade à Vossa Majestade."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"But Reptor interfered before I could do anything,"
+.text	"Mas Reptor interferiu antes"
 	.byte NewLine
-.text	"and now I, too, am branded a traitor"
+.text	"que eu pudesse fazer algo,"
 	.byte NewLine
-.text	"to the motherland."
+.text	"e agora eu também fui declarado"
+	.byte WaitForA
+	.byte NewLine
+.text	"traidor de nossa pátria."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Sigurd
 .text	"Ugh."
 	.byte NewLine
-.text	"I've had enough of just sitting here and"
+.text	"Eu cansei de ficar aqui só olhandp"
 	.byte NewLine
-.text	"letting Reptor have his sorry way!"
+.text	"Reptor conseguir o que quer!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I swear, I've half a mind to storm straight"
+.text	"Eu juro, falta muito pouco pra eu sair daqui"
 	.byte NewLine
-.text	"into Grannvale and end this once and for all!"
+.text	"direto pra Grannvale pra acabar isso logo!"
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"No. You know better than to rely on brute force"
+.text	"Não. Você sabe que usar de força"
 	.byte NewLine
-.text	"or to risk the common folk's safety."
+.text	"bruta vai machucar gente inocente."
 	.byte NewLine
-.text	"For now, Lord Sigurd, we must endure."
+.text	"Por enquanto, Lorde Sigurd, aguentemos."
 	.byte WaitForA
 
 	.byte LeftSlot		;Sigurd
 	.word ScrollBoth
-.text	"But, Father Claud-"
+.text	"Mas, Padre Claud-"
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"Make no mistake."
+.text	"Não confunda minhas palavras."
 	.byte NewLine
-.text	"I feel your pain, too,"
+.text	"Eu também sinto sua dor, mas o fim dessa"
 	.byte NewLine
-.text	"but this crisis's end now lies in fate's hands."
+.text	"crise agora está nas mãos do destino."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"There is nothing any of us can do"
+.text	"Não tem nada mais que possamos fazer"
 	.byte NewLine
-.text	"to save ourselves anymore."
+.text	"para nos salvar agora."
 	.byte WaitForA
 
 	.byte EndText
@@ -218,139 +223,141 @@ dialogueCh4TalkTailtiuAzelle
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey, Azelle?"
+.text	"Ei, Azelle?"
 	.byte NewLine
-.text	"Wait up a sec."
+.text	"Espere um segundo aí."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
 .text	"Tailtiu?"
 	.byte NewLine
-.text	"Is something wrong?"
+.text	"Algo de errado?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Tailtiu
 	.word ScrollBoth
-.text	"I need to ask you something quick."
+.text	"Eu preciso te perguntar uma coisa."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
 .text	"Hm?"
 	.byte NewLine
-.text	"Me?"
+.text	"Pra mim?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Tailtiu
 	.word ScrollBoth
-.text	"Yeah."
+.text	"É."
 	.byte NewLine
-.text	"That okay?"
+.text	"Pode ser?"
 	.byte NewLine
-.text	"I mean, we've been friends for years."
+.text	"Sabe, somos amigos há muitos anos."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"And I don't think there's anyone else who"
+.text	"E eu não acho que tenha mais alguém"
 	.byte NewLine
-.text	"I can ask about this."
+.text	"para quem eu possa perguntar sobre."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
-.text	"Huh. You look downright grim and serious..."
+.text	"Hã. Você parece estar bem séria..."
 	.byte NewLine
-.text	"If you really think I can help, then sure."
+.text	"Se você acha que posso ajudar, então claro."
 	.byte NewLine
-.text	"What seems to be the problem?"
+.text	"Qual é o problema?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Tailtiu
 	.word ScrollBoth
-.text	"Well..."
+.text	"Bem..."
 	.byte NewLine
-.text	"I, er..."
+.text	"Eu, hã..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I'm only with you lot because I was just"
+.text	"Eu só estou com vocês porque eu estava"
 	.byte NewLine
-.text	"following Claud around, but I'm starting to think"
+.text	"seguindo o Claud, mas agora eu tô"
 	.byte NewLine
-.text	"I shouldn't have done that..."
+.text	"achando que não deveria ter feito isso..."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
-.text	"What makes you think so?"
+.text	"O que faz você pensar isso?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Tailtiu
 	.word ScrollBoth
-.text	"It's because people are acting kinda like"
+.text	"É porque acho que as pessoas estão..."
 	.byte NewLine
-.text	"they're treading carefully 'round me."
+.text	"agindo diferente enquanto eu estou perto."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"And when I'm around, people stop talking"
+.text	"E quando eu estou perto, elas também"
 	.byte NewLine
-.text	"about my father..."
+.text	"param de falar do meu pai..."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
 .text	"Ah..."
 	.byte NewLine
-.text	"That certainly doesn't sound fun."
+.text	"Isso certamente não é nada bom."
 	.byte NewLine
-.text	"But I'd say people really do like you."
+.text	"Mas, eu diria quue as pessoas gostam de você."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"It's more that they honestly aren't sure how"
+.text	"Eles fazem isso porque não sabem como"
 	.byte NewLine
-.text	"they should treat you, and that they're worried"
+.text	"devem falar contigo, e se preocupam que"
 	.byte NewLine
-.text	"they'll cause you grief."
+.text	"o que eles falam possa te machucar."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Don't worry too much."
+.text	"Não se preocupe."
 	.byte NewLine
-.text	"It'll all be fine once they get to know you better."
+.text	"Tudo ficará bem quando"
+	.byte NewLine
+.text	"eles te conhecerem melhor."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Tailtiu
-.text	"Yeah... Guess you're right."
+.text	"É... você tá certo."
 	.byte NewLine
-.text	"Thanks, Azelle."
+.text	"Obrigado, Azelle."
 	.byte NewLine
-.text	"Think I might be feeling a bit better 'bout this now."
+.text	"Acho que me sinto um pouco melhor agora."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
-.text	"Hah!"
+.text	"Ótimo!"
 	.byte NewLine
-.text	"Glad you're back to normal, Tailtiu."
+.text	"Fico feliz em lhe ajudar, Tailtiu."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"If you're ever feeling like this again,"
+.text	"Se alguma hora se sentir desse jeito de novo,"
 	.byte NewLine
-.text	"I'll always be here to help you through it,"
+.text	"pode confiar em mim para lhe ajudar,"
 	.byte NewLine
-.text	"no matter what happens."
+.text	"não importa qual for a situação."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Tailtiu
 .text	"Okay."
 	.byte NewLine
-.text	"Thanks!"
+.text	"Obrigado!"
 	.byte WaitForA
 
 	.byte EndText
@@ -370,45 +377,45 @@ dialogueCh4TalkEdainJamke
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Jamke, I'd like you to have this bow."
+.text	"Jamke, eu quero te dar esse arco."
 
 	.byte RightSlot		;Jamke
 	.word PauseText
 	.byte $10
-.text	"This is a brave bow, isn't it..."
+.text	"Esse é um arco altivo, não é..."
 	.byte NewLine
-.text	"You sure it's okay for me to take it?"
+.text	"Tem certeza que quer me dar isso?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Edain
 	.word ScrollBoth
-.text	"Yes."
+.text	"Tenho."
 	.byte NewLine
-.text	"Please, accept it."
+.text	"Por favor, aceite-o."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"As formidable as the Silessian pegasus knights"
+.text	"Não importa o quão formidáveis sejam as"
 	.byte NewLine
-.text	"are, so long as you have this bow,"
+.text	"pégasos de Silesse, enquanto tiver este arco,"
 	.byte NewLine
-.text	"I know you'll have the upper hand."
+.text	"Eu sei que terá a vantagem."
 
 	.byte RightSlot		;Jamke
 	.word PauseText
 	.byte $10
-.text	"Thanks, Edain. I know I'll be able"
+.text	"Obrigado, Edain. Eu sei que vou poder te"
 	.byte NewLine
-.text	"to keep you safe with a bow like this."
+.text	"proteger com um arco desses."
 	.byte NewLine
-.text	"I guess I'll see you later, once this is all over."
+.text	"Te verei depois, quando isso aqui acabar."
 	.byte WaitForA
 
 	.byte LeftSlot		;Edain
 	.word ScrollBoth
 .text	"Jamke..."
 	.byte NewLine
-.text	"I'll be praying for your safety."
+.text	"Estarei orando por sua segurança."
 	.byte WaitForA
 
 	.byte EndText
@@ -428,61 +435,63 @@ dialogueCh4TalkEdainMidir
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Midir, please accept this bow."
+.text	"Midir, por favor aceite esse arco."
 
 	.byte RightSlot		;Midir
 	.word PauseText
 	.byte $10
-.text	"Isn't this a brave bow?"
+.text	"Esse não é um arco altivo?"
 	.byte NewLine
-.text	"Are you sure you want to give away"
+.text	"Tem certeza que quer me dar"
 	.byte NewLine
-.text	"something so rare?"
+.text	"algo tão raro?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Edain
 	.word ScrollBoth
-.text	"I am. I bought it for you, after all."
+.text	"Tenho. Eu comprei pra você afinal."
 	.byte NewLine
-.text	"Silesse's pegasus knights"
+.text	"As pégasos de Silesse são oponentes"
 	.byte NewLine
-.text	"are a formidable foe to face."
+.text	"formidáveis."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"With a bow of this caliber in hand,"
+.text	"Com um arco dessa potência em suas mãos,"
 	.byte NewLine
-.text	"i know you'll be better prepared to fight them."
+.text	"eu sei que estará bem preparado contra elas."
 
 	.byte RightSlot		;Midir
 	.word PauseText
 	.byte $10
-.text	"Milady..."
+.text	"Madame..."
 	.byte NewLine
-.text	"I still can't believe this isn't a dream!"
+.text	"Nem posso acreditar"
+	.byte NewLine
+.text	"que isso não é um sonho!"
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"I can't believe we're actually married..."
+.text	"Mal posso acreditar que estamos casados..."
 	.byte NewLine
-.text	"I've dreamed of this for so long."
+.text	"Eu sonhei com isso por tanto tempo."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Edain
-.text	"I've long dreamt of the same myself."
+.text	"A muito tempo eu também sonhava com isso."
 	.byte NewLine
-.text	"I had wanted to act upon it for so many years,"
+.text	"Eu queria ter o realizado antes, mas não"
 	.byte NewLine
-.text	"but I couldn't, even at my loneliest..."
+.text	"conseguia, nem em meu momento mais solitário..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"But... I think by now you can just call me Edain."
+.text	"Mas... agora você pode me chamar só de Edain."
 	.byte NewLine
-.text	"I'll always look out for you, Midir."
+.text	"Eu sempre estarei com você, Midir."
 	.byte NewLine
-.text	"I'll always pray for your safety."
+.text	"Sempre irei orar por sua segurança."
 	.byte WaitForA
 
 	.byte EndText
@@ -502,115 +511,115 @@ dialogueCh4TalkEdainAzelle
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Take care of yourself out here, Azelle."
+.text	"Se cuide lá fora, Azelle."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
-.text	"Right."
+.text	"Claro."
 	.byte NewLine
-.text	"And you as well, Edain."
+.text	"E você também, Edain."
 	.byte WaitForA
 
 	.byte LeftSlot		;Edain
 	.word ScrollBoth
-.text	"This still feels so odd..."
+.text	"Ainda me sinto tão estranha..."
 	.byte NewLine
-.text	"Not once did I ever think that one day"
+.text	"Eu nunca pensei que um dia estaríamos"
 	.byte NewLine
-.text	"we would be together like this."
+.text	"juntos como agora."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
-.text	"It's because I'm younger than you, right?"
+.text	"É porque eu sou mais novo que você, certo?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Edain
 	.word ScrollBoth
-.text	"Oh, no."
+.text	"Oh, não é isso."
 	.byte NewLine
-.text	"I'm still not sure why..."
+.text	"Eu ainda não consigo apontar um porque..."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
-.text	"I still can't quite believe it, either!"
+.text	"Eu também não consigo acreditar!"
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"That you're now my wife..."
+.text	"Que você agora é minha esposa..."
 	.byte NewLine
-.text	"It all still feels like I'm living"
+.text	"Ainda parece que estou vivendo algum"
 	.byte NewLine
-.text	"in some kind of dream!"
+.text	"tipo de sonho!"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Edain
 .text	"Hm?"
 	.byte NewLine
-.text	"How so?"
+.text	"Como assim?"
 	.byte NewLine
-.text	"Don't you believe our marriage feels right?"
+.text	"Acha que nosso casamento parece errado?"
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
-.text	"It's not that."
+.text	"Não é isso."
 	.byte NewLine
-.text	"It's because, er..."
+.text	"É porque, sabe..."
 	.byte NewLine
-.text	"Well, you're so beautiful..."
+.text	"Você é tão linda..."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"Even though I was still very young,"
+.text	"Eu era novo na época, mas mesmo assim,"
 	.byte NewLine
-.text	"when I saw you for the first time years ago,"
+.text	"quando eu te vi pela primeira vez anos atrás,"
 	.byte NewLine
-.text	"my heart just wouldn't stop pounding!"
+.text	"eu sentia meu coração bater forte!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Ever since that day, you were the only one"
+.text	"Desde aquele dia, você foi a única por quem"
 	.byte NewLine
-.text	"for whom I've ever felt this way."
+.text	"eu senti algo do tipo."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Edain
-.text	"Oh, Azelle..."
+.text	"Ah, Azelle..."
 
 	.byte RightSlot		;Azelle
 	.word PauseText
 	.byte $10
-.text	"It's still pretty embarassing to admit..."
+.text	"Ainda é um tanto embaraçoso admitir..."
 	.byte NewLine
-.text	"Oh, I almost forgot!"
+.text	"Oh, eu quase esqueci!"
 	.byte NewLine
-.text	"This is for you."
+.text	"Isso é para você."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"This is a Rescue staff."
+.text	"É um cajado de Resgate."
 	.byte NewLine
-.text	"You can use it to bring people far away"
+.text	"Você pode usar para trazer pessoas"
 	.byte NewLine
-.text	"back to your side instantly."
+.text	"distantes para seu lado instantaneamente."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I know you'll put it to good use."
+.text	"Eu sei que irá fazer bom uso dele."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Edain
-.text	"I'm so happy to be with you, Azelle."
+.text	"Estou tão feliz de estar com você, Azelle."
 	.byte NewLine
-.text	"I'll always treasure having such a kind"
+.text	"Eu sempre ficarei feliz em estar com alguém"
 	.byte NewLine
-.text	"and gentle soul as you by my side..."
+.text	"de bom coração como você..."
 	.byte WaitForA
 
 	.byte EndText
@@ -630,203 +639,203 @@ dialogueCh4TalkSilviaClaud
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hello there, mister Father!"
+.text	"Olá, senhor Padre!"
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
 .text	"Hm?"
 	.byte NewLine
-.text	"And who are you?"
+.text	"E quem é você?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"I'm Silviiiiiiiia!"
+.text	"Eu sou Silviiiiiiiia!"
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"Well then, Miss Silvia, how can I help?"
+.text	"Então, Senhorita Silvia, como posso ajudar?"
 	.byte NewLine
-.text	"Have you, perchance, recently run afoul"
+.text	"Por acaso, você fugiu recentemente de"
 	.byte NewLine
-.text	"of bandits?"
+.text	"bandidos?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"What's that?"
+.text	"Como assim?"
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"Well, er..."
+.text	"Bem, é..."
 	.byte NewLine
-.text	"I'm not sure how to put this..."
+.text	"Não sei bem como dizer..."
 	.byte NewLine
-.text	"You're wearing nothing but smallclothes."
+.text	"Você está vestindo somente roupas curtas."
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"Eh?!"
+.text	"Que?!"
 	.byte NewLine
-.text	"Watch your mouth, mister Father!"
+.text	"Olha a boca, senhor Padre!"
 	.byte NewLine
-.text	"Haven't you seen dancers like me before?"
+.text	"Nunca viu uma dançarina antes?"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"This is just a dancer's clothes."
+.text	"Essas são as roupas de uma dançarina."
 	.byte NewLine
-.text	"It's just like you wearin' your churchy cloak!"
+.text	"Assim como suas roupas são roupas de igreja."
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"Is that so... Hm."
+.text	"É mesmo... Hm."
 	.byte NewLine
-.text	"Surely you're chilled to the bone, wearing"
+.text	"Mas, não está sentindo frio, vestindo"
 	.byte NewLine
-.text	"as little as you are, though?"
+.text	"tão pouco assim?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"Oh, no!"
+.text	"Ah, não!"
 	.byte NewLine
-.text	"Even 'round here I'm never cold,"
+.text	"Mesmo aqui eu nunca estou com frio,"
 	.byte NewLine
-.text	"'cause my heart's ablaze!"
+.text	"porque meu coração está sempre em chamas!"
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"Is dancing truly so fun for you?"
+.text	"Você se diverte tanto assim com dança?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"Yeah!"
+.text	"Sim!"
 	.byte NewLine
-.text	"I just love it!"
+.text	"Eu amo dançar!"
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
 	.word MusicFadeOut
 	.byte $E2
-.text	"Is that so..."
+.text	"É mesmo..."
 	.byte NewLine
-.text	"What of your parents?"
+.text	"E quanto a seus pais?"
 	.byte NewLine
-.text	"Do they agree with this career of yours?"
+.text	"Eles aceitam a sua escolha?"
 	.byte WaitForA
 	.word ChangeMusic
 	.byte $5B
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"Actually, I'm an orphan."
+.text	"Na verdade, eu sou uma orfã."
 	.byte NewLine
-.text	"When I was really little, my master took me in"
+.text	"Quando eu era bem pequena, meu mestre me"
 	.byte NewLine
-.text	"and helped me become a dancer."
+.text	"adotou e me treinou na dança."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"But he... he was an awful, awful man."
+.text	"Mas ele... era um homem muito, muito ruim."
 	.byte NewLine
-.text	"He'd always beat me outta nowhere."
+.text	"Ele me espancava por qualquer motivo."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"'Bout a year ago I couldn't stand any more"
+.text	"A mais ou menos um ano eu não tava"
 	.byte NewLine
-.text	"of it all, so I ran away."
+.text	"aguentando mais, então eu fugi dele."
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"I see..."
+.text	"Entendo..."
 	.byte NewLine
-.text	"What a horrible tale."
+.text	"É uma história terrível."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"I believe I know your pain."
+.text	"Eu creio que sei como é sua dor."
 	.byte NewLine
-.text	"I once had a sister, who would likely"
+.text	"Eu tinha uma irmã, que teria mais ou menos"
 	.byte NewLine
-.text	"be around your age if she's still alive."
+.text	"sua idade se estivesse viva."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Silvia
-.text	"A sister?"
+.text	"Uma irmã?"
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"Yes."
+.text	"Sim."
 	.byte NewLine
-.text	"Alas, she was abducted while she was"
+.text	"Infelizmente, ela foi raptada quando"
 	.byte NewLine
-.text	"still an infant."
+.text	"era bem pequena."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"I've searched for her ever since,"
+.text	"Eu a procurei por anos, mas até hoje, eu"
 	.byte NewLine
-.text	"but to this day I've yet to find any sign of her."
+.text	"não tive nem sinal dela."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Silvia
-.text	"Ohh... I bet she's just like a princess!"
+.text	"Ohh... aposto que ela deve ser uma princesinha!"
 	.byte NewLine
-.text	"She's gotta be all pretty and classy..."
+.text	"Bonitinha e cheia de classe..."
 	.byte NewLine
-.text	"And nothin' like me..."
+.text	"Nada como eu, com certeza..."
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"I disagree. I assure you, I do find you"
+.text	"Eu discordo. Lhe asseguro, eu acho que"
 	.byte NewLine
-.text	"to be utterly charming. In your own way,"
+.text	"é bastante charmosa. Do seu jeito, você"
 	.byte NewLine
-.text	"you possess a unique grace and beauty."
+.text	"possui uma graça e beleza únicas."
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"Oh... mister Father... really?"
+.text	"Ah... senhor Padre... é sério?"
 
 	.byte RightSlot		;Claud
 	.word PauseText
 	.byte $10
-.text	"Of course."
+.text	"Claro."
 	.byte NewLine
-.text	"I could never lie."
+.text	"Eu nunca mentiria."
 	.byte WaitForA
 
 	.byte LeftSlot		;Silvia
 	.word ScrollBoth
-.text	"Th-thank you..."
+.text	"O-obrigado..."
 	.byte NewLine
-.text	"Nobody's ever told me somethin' like that..."
+.text	"Ninguém nunca me disse algo assim..."
 	.byte NewLine
-.text	"This feels kinda funny somehow..."
+.text	"Eu me sinto até estranha agora..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Oh..."
+.text	"Ah..."
 	.byte NewLine
-.text	"Oh, g-great, now I'm cryin'..."
+.text	"Ah, ó-ótimo, agora tô chorando..."
 	.byte NewLine
-.text	"What is this...?"
+.text	"O que é isso...?"
 	.byte WaitForA
 
 	.byte EndText
@@ -846,76 +855,81 @@ dialogueCh4TalkLewynSigurd
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey, Sigurd?"
+.text	"Ei, Sigurd?"
 	.byte NewLine
-.text	"Could I have a word?"
+.text	"Posso ter uma palavrinha contigo?"
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
 .text	"Ah, Lewyn."
 	.byte NewLine
-.text	"I'm so sorry about what happened to Annand."
+.text	"Sinto muito pelo que aconteceu com Annand."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"I had no idea Yngvi's bow knights"
+.text	"Eu não tinha ideia que os cavaleiros"
 	.byte NewLine
-.text	"would get involved in this mess."
+.text	"de Yngvi se envolveriam nessa situação."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Lewyn
-.text	"No, it's not your fault."
+.text	"Não, não é sua culpa."
 	.byte NewLine
-.text	"Just mine..."
+.text	"Isso foi culpa minha..."
 	.byte NewLine
-.text	"I just haven't been thinking right lately."
+.text	"Eu só não consigo pensar direito agora."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I should've been here all along,"
+.text	"Eu deveria ter ficado aqui, cuidando de"
 	.byte NewLine
-.text	"looking after Mother and the country."
+.text	"minha mãe e meu país."
 	.byte NewLine
-.text	"But nope, I just ran away!"
+.text	"Mas não, eu só corri!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"That's why Annand died..."
+.text	"É por isso que Annand morreu..."
 	.byte NewLine
-.text	"She just took my place in all this."
+.text	"Ela tomou o meu lugar nisso tudo."
+	.byte NewLine
+.text	"Lugar que nunca deveria ter abandonado..."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"There's no need to blame yourself."
+.text	"Não se culpe por isso, Lewyn."
 	.byte NewLine
-.text	"The best you can do now is care for the queen,"
+.text	"O melhor que pode fazer agora é cuidar"
 	.byte NewLine
-.text	"and ensure that Annand didn't die in vain."
+.text	"de sua mãe, a Rainha, e se certificar que"
+	.byte WaitForA
+	.byte NewLine
+.text	"Annand não tenha morrido em vão."
 	.byte WaitForA
 
 	.byte LeftSlot		;Lewyn
 	.word ScrollBoth
-.text	"Yeah, I know."
+.text	"É, eu sei."
 	.byte NewLine
-.text	"No use pointing out the obvious, huh?"
+.text	"Não precisa falar o óbvio né?"
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Very well."
+.text	"Muito bem."
 	.byte NewLine
-.text	"Oh, Lewyn, before I forget..."
+.text	"Ah, Lewyn, antes que eu esqueça..."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"Don't forget to go see your mother"
+.text	"Não esqueça de ir ver sua mãe na capital"
 	.byte NewLine
-.text	"at the capital as soon as possible."
+.text	"o mais cedo possível."
 	.byte NewLine
-.text	"She said it's of the utmost importance!"
+.text	"Ela disse que é muito importante!"
 	.byte WaitForA
 
 	.byte EndText
@@ -935,62 +949,65 @@ dialogueCh4TalkErinysLewyn
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Lord Lewyn..."
+.text	"Lorde Lewyn..."
 
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"...Oh, Erinys."
+.text	"...Ah, Erinys."
 	.byte NewLine
-.text	"I'm so sorry."
+.text	"Me desculpa."
 	.byte NewLine
-.text	"Forgive me. Please..."
+.text	"Me perdoe. Por favor..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Erinys
 	.word ScrollBoth
-.text	"Oh, you mean about Annand..."
+.text	"Ah, está falando de Annand..."
 
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"...Yeah."
+.text	"...É."
 	.byte WaitForA
 
 	.byte LeftSlot		;Erinys
 	.word ScrollBoth
-.text	"Oh, so she... you really did..."
+.text	"Oh, então ela..."
 	.byte NewLine
-.text	"I'm so sorry."
+.text	"você realmente... a amava..."
 	.byte NewLine
-.text	"I had no idea."
+.text	"Me desculpe."
+	.byte WaitForA
+	.byte NewLine
+.text	"Eu não tinha ideia."
 
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"Whoa, Erinys! You've got it all wrong."
+.text	"Não, Erinys! Você entendeu tudo errado."
 	.byte NewLine
-.text	"I guess when I was younger,"
+.text	"Tá, quando eu era mais jovem, eu realmente"
 	.byte NewLine
-.text	"I did sorta have a thing for Annand..."
+.text	"sentia alguma coisa por Annand..."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"But that was then."
+.text	"Mas aquilo foi o antes."
 	.byte NewLine
-.text	"This is now, and the now is you."
+.text	"Estamos no agora, e o agora é você."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Erinys
-.text	"C-come again?!"
+.text	"C-como?!"
 
 	.byte RightSlot		;Lewyn
 	.word PauseText
 	.byte $10
-.text	"Erinys, I..."
+.text	"Erinys, eu..."
 	.byte NewLine
-.text	"I love you..."
+.text	"Eu te amo..."
 	.byte WaitForA
 
 	.byte EndText

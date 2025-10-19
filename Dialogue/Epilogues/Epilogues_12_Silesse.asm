@@ -15,53 +15,51 @@ dialogueEpiloguesSilesse_CedHawk_NoThrone_Single
 	.word LoadPortrait
 	.word portrait_Ced
 	.byte StartText
-.text	"This is it, sire."
+.text	"Enfim, acabou, senhor."
 	.byte NewLine
-.text	"I'll be taking my leave now."
+.text	"Eu vou embora agora."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Destined for Silesse, then, "
+.text	"Vai para Silesse, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am."
+.text	"Vou."
 	.byte NewLine
-.text	"I've left the Silessian people waiting long enough."
+.text	"Eu deixei meu povo esperando tempo demais."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll be joining them in the effort to restore Silesse"
+.text	"Eu vou me juntar a eles no trabalho"
 	.byte NewLine
-.text	"once I get home."
+.text	"para reconstruir nosso país. Eu vou dar tudo"
 	.byte NewLine
-.text	"I'll give it nothing less than all I have!"
+.text	"de mim para restaurar Silesse."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I see. Well, if you're lending your power"
+.text	"Entendi. Bem, se é você que vai ajudá-los,"
 	.byte NewLine
-.text	"to the cause, then I know Silesse is in"
-	.byte NewLine
-.text	"most capable hands."
+.text	"então Silesse está em ótimas mãos."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Take care, "
+.text	"Se cuide, "
 	.word PrintStoredNameB
-.text	" the Brave."
+.text	" o Valente."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You too, sire!"
+.text	"Você também, senhor!"
 	.word PauseText
 	.byte $60
 
@@ -83,53 +81,51 @@ dialogueEpiloguesSilesse_CedHawk_NoThrone_Married
 	.word LoadPortrait
 	.word portrait_Ced
 	.byte StartText
-.text	"This is it, sire."
+.text	"Enfim, acabou, senhor."
 	.byte NewLine
-.text	"I'll be taking my leave now."
+.text	"Eu vou embora agora."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Destined for Silesse, then, "
+.text	"Vai para Silesse, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I am."
+.text	"Vou."
 	.byte NewLine
-.text	"I've left the Silessian people waiting long enough."
+.text	"Eu deixei meu povo esperando tempo demais."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll be joining them in the effort to restore Silesse"
+.text	"Eu vou me juntar a eles no trabalho"
 	.byte NewLine
-.text	"once I get home."
+.text	"para reconstruir nosso país. Eu vou dar tudo"
 	.byte NewLine
-.text	"I'll give it nothing less than all I have!"
+.text	"de mim para restaurar Silesse."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I see. Well, if you're lending your power"
+.text	"Entendi. Bem, se é você que vai ajudá-los,"
 	.byte NewLine
-.text	"to the cause, then I know Silesse is in"
-	.byte NewLine
-.text	"most capable hands."
+.text	"então Silesse está em ótimas mãos."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Take care, "
+.text	"Se cuide, "
 	.word PrintStoredNameB
-.text	" the Brave."
+.text	" o Valente."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You too, sire!"
+.text	"Você também, senhor!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -153,7 +149,7 @@ dialogueEpiloguesSilesse_CedHawk_LoverQuipPeppy
 	.byte StartText
 .text	"Hm?"
 	.byte NewLine
-.text	"I take it you're going to Silesse as well, then, "
+.text	"Então você também vai para Silesse, "
 	.byte NewLine
 	.word PrintStoredNameA
 .text	"?"
@@ -161,7 +157,7 @@ dialogueEpiloguesSilesse_CedHawk_LoverQuipPeppy
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, I'm going with "
+.text	"Sim, eu vou com o "
 	.word PrintStoredNameB
 .text	"..."
 	.word PauseText
@@ -169,16 +165,13 @@ dialogueEpiloguesSilesse_CedHawk_LoverQuipPeppy
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Well, congratulations."
+.text	"Parabéns, então. Eu espero que vocês tenham"
 	.byte NewLine
-.text	"I pray you two will have many happy years"
-	.byte NewLine
-.text	"together."
-
+.text	"uma vida longa e feliz juntos."
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thanks, sir!"
+.text	"Obrigado, senhor!"
 	.word PauseText
 	.byte $60
 
@@ -200,7 +193,7 @@ dialogueEpiloguesSilesse_CedHawk_LoverQuipNoble
 	.byte StartText
 .text	"Hm?"
 	.byte NewLine
-.text	"I take it you're going to Silesse as well, then,"
+.text	"Então você também vai pra Silesse,"
 	.byte NewLine
 	.word PrintStoredNameA
 .text	"?"
@@ -210,7 +203,7 @@ dialogueEpiloguesSilesse_CedHawk_LoverQuipNoble
 	.byte $20
 .text	"Mm."
 	.byte NewLine
-.text	"I'll be accompanying "
+.text	"Eu irei acompanhar meu querido "
 	.word PrintStoredNameB
 .text	"..."
 	.word PauseText
@@ -218,16 +211,14 @@ dialogueEpiloguesSilesse_CedHawk_LoverQuipNoble
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Well, congratulations."
+.text	"Parabéns, então. Eu espero que vocês tenham"
 	.byte NewLine
-.text	"I pray you two will have many happy years"
-	.byte NewLine
-.text	"together."
+.text	"uma vida longa e feliz juntos."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Thank you, sir."
+.text	"Obrigado, senhor."
 	.word PauseText
 	.byte $60
 
@@ -267,57 +258,55 @@ dialogueEpiloguesSilesse_FeeHermina_NoThrone_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You're headed for Silesse, then, "
+.text	"Então você vai para Silesse, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yep!"
+.text	"Sim!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Is Annand the pegasus in good health?"
+.text	"E o seu pégaso, está bom pra viagem?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Only the best!"
+.text	"Está!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"And the lady herself, "
-	.word PrintStoredNameB
-.text	"?"
+.text	"E a viajante, boa também?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Of course!"
+.text	"Claro!"
 	.byte NewLine
-.text	"Raring to go!"
+.text	"Estou ansiosa pra ir!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Heh, that's our "
+.text	"Heh, essa é a nossa "
 	.word PrintStoredNameB
 .text	"."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Hang on, so if I weren't so cheery,"
+.text	"Pera aí, então se eu não tivesse animada,"
 	.byte NewLine
-.text	"then I wouldn't even be me anymore?"
+.text	"não seria eu? É isso que você quer dizer,"
 	.byte NewLine
-.text	"Is that what you were trying to say, sir?"
+.text	"senhor?"
 	.word PauseText
 	.byte $60
 
@@ -325,16 +314,16 @@ dialogueEpiloguesSilesse_FeeHermina_NoThrone_Single
 	.word ScrollBoth
 .text	"Er..."
 	.byte NewLine
-.text	"How did you guess?"
+.text	"Como advinhou?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Hmph, that's not very nice!"
+.text	"Hmph, meio rude da sua parte!"
 	.byte NewLine
-.text	"Anyway... Bye, Lord Seliph!"
+.text	"Bem... tchau, Lorde Seliph!"
 	.byte NewLine
-.text	"Take care of yourself!"
+.text	"Se cuide!"
 	.word PauseText
 	.byte $60
 
@@ -358,72 +347,70 @@ dialogueEpiloguesSilesse_FeeHermina_NoThrone_LoverDead
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You're headed for Silesse, then, "
+.text	"Então você vai para Silesse, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yep!"
+.text	"Sim!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Is Annand the pegasus in good health?"
+.text	"E o seu pégaso, está bom pra viagem?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Only the best!"
+.text	"Está!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"And the lady herself, "
-	.word PrintStoredNameB
-.text	"?"
+.text	"E a viajante, boa também?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No..."
+.text	"Não..."
 	.byte NewLine
-.text	"Not so okay..."
+.text	"Não tanto..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"It's "
+.text	"Está de luto pelo "
 	.word PrintStoredNameA
-.text	", yes?"
+.text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah..."
+.text	"Estou..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"My apologies, "
+.text	"Me perdoe, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I shouldn't have-"
+.text	"Eu não deveria-"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"No, sir... It's not your fault."
+.text	"Não, senhor... não é sua culpa."
 	.byte NewLine
-.text	"Don't worry about it..."
+.text	"Não se preocupe... desculpa, mas eu..."
 	.byte NewLine
-.text	"Sorry, but I... I have to get going..."
+.text	"Eu tenho que ir..."
 	.word PauseText
 	.byte $60
 
@@ -457,7 +444,7 @@ dialogueEpiloguesSilesse_FeeHermina_NoThrone_LoverDead
 
 ;	Lewyn's son
 
-dialogueEpiloguesSilesse_LewynsSon_SisterDead_Single
+dialogueEpiloguesSilesse_LewynsSon_SisterDead_Single ;maluco abandonou o país 3 vezes que mané orgulho
 
 	.word TextSpeed
 	.byte 3
@@ -471,30 +458,32 @@ dialogueEpiloguesSilesse_LewynsSon_SisterDead_Single
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"Well, Lord Seliph, thanks for everything."
+.text	"Bem, Lorde Seliph, obrigado por tudo."
 	.byte NewLine
-.text	"I'll be going back to Silesse with Father now."
+.text	"Eu vou voltar pra Silesse com meu pai agora."
+	.byte NewLine
+.text	"Ou pelo menos, eu espero que ele venha."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I must admit, "
+.text	"Tenho que admitir, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'm almost envious you have a father like Lewyn"
+.text	"Eu tenho um pouco de inveja de você."
 	.byte NewLine
-.text	"by your side. How nice that must be!"
+.text	"Imagina ter o grande Lewyn como pai!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"It is. I'm so proud to be his son, sir."
+.text	"Não sei se concordo contigo, senhor..."
 	.byte NewLine
-.text	"And someday, hopefully,"
+.text	"Ele nos abandonou... eu espero que"
 	.byte NewLine
-.text	"I'll be every bit the great man he is now..."
+.text	"ele fique conosco agora..."
 	.word PauseText
 	.byte $60
 
@@ -509,82 +498,82 @@ dialogueEpiloguesSilesse_LewynsSon_SisterDead_Single
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
-.text	"Silesse is yours to rule now, "
+.text	"Silesse é seu reino agora, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'm not going back."
+.text	"Eu não vou voltar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh? What are you talking about, Father?!"
+.text	"Como? Porquê, pai?!"
 	.byte NewLine
-.text	"The war is over!"
+.text	"A guerra acabou!"
 	.byte NewLine
-.text	"Please... Please, you've got to come home!"
+.text	"Por favor... volte pra casa!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"No."
+.text	"Não."
 	.byte NewLine
-.text	"My work there is done."
+.text	"Meu trabalho já acabou."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I don't belong on the throne."
+.text	"Esse trono não é para mim."
 	.byte NewLine
-.text	"Silesse needs a fresh start with its leadership,"
+.text	"Silesse precisa de uma nova liderança,"
 	.byte NewLine
-.text	"just like everywhere else."
+.text	"assim como os outros países."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"What Silesse needs is you."
+.text	"Silesse precisa de você. Precisa ser guiada"
 	.byte NewLine
-.text	"It needs to be guided by your youthful hand."
+.text	"por sua jovem mão."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I don't understand..."
+.text	"Eu não entendo, pai..."
 	.byte NewLine
-.text	"Silesse needs you, too..."
+.text	"Silesse precisa de você..."
 	.byte NewLine
-.text	"And I need you."
+.text	"Eu também preciso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Please, Father..."
+.text	"Por favor, pai..."
 	.byte NewLine
-.text	"Please."
+.text	"Por favor."
 	.byte NewLine
-.text	"Come home with me!"
+.text	"Volte comigo!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Settle down, "
+.text	"Calma, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"You're embarrassing me here."
+.text	"Você está me constrangendo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You already know exactly why I'm doing this..."
+.text	"E também, você já sabe porque eu faço isso..."
 	.byte NewLine
-.text	"Don't you, "
+.text	"Não é, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"...Father..."
+.text	"...Pai..."
 	.word PauseText
 	.byte $60
 
@@ -605,30 +594,32 @@ dialogueEpiloguesSilesse_LewynsSon_SisterDead_Married
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"Well, Lord Seliph, thanks for everything."
+.text	"Bem, Lorde Seliph, obrigado por tudo."
 	.byte NewLine
-.text	"I'll be going back to Silesse with Father now."
+.text	"Eu vou voltar pra Silesse com meu pai agora."
+	.byte NewLine
+.text	"Ou pelo menos, eu espero que ele venha."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I must admit, "
+.text	"Tenho que admitir, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'm almost envious you have a father like Lewyn"
+.text	"Eu tenho um pouco de inveja de você."
 	.byte NewLine
-.text	"by your side. How nice that must be!"
+.text	"Imagina ter o grande Lewyn como pai!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"It is. I'm so proud to be his son, sir."
+.text	"Não sei se concordo contigo, senhor..."
 	.byte NewLine
-.text	"And someday, hopefully,"
+.text	"Ele nos abandonou... eu espero que"
 	.byte NewLine
-.text	"I'll be every bit the great man he is now..."
+.text	"ele fique conosco agora..."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
@@ -648,15 +639,12 @@ dialogueEpiloguesSilesse_LewynsSon_SisterDead_Married
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
-.text	"Look after "
-	.word PrintStoredNameB
-.text	", okay, "
 	.word PrintStoredNameA
-.text	"?"
+.text	", cuide do meu filho, tá bom?"
 	.byte NewLine
-.text	"Silesse is both of yours to rule now."
+.text	"Silesse é de vocês agora."
 	.byte NewLine
-.text	"I'm not going back."
+.text	"Eu não vou voltar."
 	.word PauseText
 	.byte $20
 
@@ -665,73 +653,73 @@ dialogueEpiloguesSilesse_LewynsSon_SisterDead_Married
 	.word ClearPortrait
 	.word OpenBox
 	.word LoadStoredPortraitC
-.text	"Huh? What are you talking about, Father?!"
+.text	"Como? Porquê, pai?!"
 	.byte NewLine
-.text	"The war is over!"
+.text	"A guerra acabou!"
 	.byte NewLine
-.text	"Please... Please, you've got to come home!"
+.text	"Por favor... volte pra casa!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"No."
+.text	"Não."
 	.byte NewLine
-.text	"My work there is done."
+.text	"Meu trabalho já acabou."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I don't belong on the throne."
+.text	"Esse trono não é para mim."
 	.byte NewLine
-.text	"Silesse needs a fresh start with its leadership,"
+.text	"Silesse precisa de uma nova liderança,"
 	.byte NewLine
-.text	"just like everywhere else."
+.text	"assim como os outros países."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"What Silesse needs is you."
+.text	"Silesse precisa de você. Precisa ser guiada"
 	.byte NewLine
-.text	"It needs to be guided by your youthful hand."
+.text	"por sua jovem mão."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I don't understand..."
+.text	"Eu não entendo, pai..."
 	.byte NewLine
-.text	"Silesse needs you, too..."
+.text	"Silesse precisa de você..."
 	.byte NewLine
-.text	"And I need you."
+.text	"Eu também preciso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Please, Father..."
+.text	"Por favor, pai..."
 	.byte NewLine
-.text	"Please."
+.text	"Por favor."
 	.byte NewLine
-.text	"Come home with me!"
+.text	"Volte comigo!"
 	.word PauseText
 	.byte $60
+	.byte ScrollText
 
 	.byte LeftSlot
-	.word ScrollBoth
-.text	"Settle down, "
+.text	"Calma, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"You're embarrassing me here."
+.text	"Você está me constrangendo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You already know exactly why I'm doing this..."
+.text	"E também, você já sabe porque eu faço isso..."
 	.byte NewLine
-.text	"Don't you, "
+.text	"Não é, "
 	.word PrintStoredNameB
 .text	"?"
-	.word PauseText
-	.byte $20
 
 	.byte RightSlot
-.text	"...Father..."
+	.word PauseText
+	.byte $20
+.text	"...Pai..."
 	.word PauseText
 	.byte $60
 
@@ -752,30 +740,32 @@ dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Single
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"Well, Lord Seliph, thanks for everything."
+.text	"Bem, Lorde Seliph, obrigado por tudo."
 	.byte NewLine
-.text	"I'll be going back to Silesse with Father now."
+.text	"Eu vou voltar pra Silesse com meu pai agora."
+	.byte NewLine
+.text	"Ou pelo menos, eu espero que ele venha."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I must admit, "
+.text	"Tenho que admitir, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'm almost envious you have a father like Lewyn"
+.text	"Eu tenho um pouco de inveja de você."
 	.byte NewLine
-.text	"by your side. How nice that must be!"
+.text	"Imagina ter o grande Lewyn como pai!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"It is. I'm so proud to be his son, sir."
+.text	"Não sei se concordo contigo, senhor..."
 	.byte NewLine
-.text	"And someday, hopefully,"
+.text	"Ele nos abandonou... eu espero que"
 	.byte NewLine
-.text	"I'll be every bit the great man he is now..."
+.text	"ele fique conosco agora..."
 	.word PauseText
 	.byte $60
 
@@ -790,92 +780,92 @@ dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Single
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
-.text	"Silesse is yours to rule now, "
+.text	"Silesse é seu reino agora, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'm not going back."
+.text	"Eu não vou voltar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh? What are you talking about, Father?!"
+.text	"Como? Porquê, pai?!"
 	.byte NewLine
-.text	"The war is over!"
+.text	"A guerra acabou!"
 	.byte NewLine
-.text	"Please... Please, you've got to come home!"
+.text	"Por favor... volte pra casa!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"No."
+.text	"Não."
 	.byte NewLine
-.text	"My work there is done."
+.text	"Meu trabalho já acabou."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I don't belong on the throne."
+.text	"Esse trono não é para mim."
 	.byte NewLine
-.text	"Silesse needs a fresh start with its leadership,"
+.text	"Silesse precisa de uma nova liderança,"
 	.byte NewLine
-.text	"just like everywhere else."
+.text	"assim como os outros países."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"What Silesse needs is you."
+.text	"Silesse precisa de você. Precisa ser guiada"
 	.byte NewLine
-.text	"It needs to be guided by your youthful hand."
+.text	"por sua jovem mão."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I don't understand..."
+.text	"Eu não entendo, pai..."
 	.byte NewLine
-.text	"Silesse needs you, too..."
+.text	"Silesse precisa de você..."
 	.byte NewLine
-.text	"And I need you."
+.text	"Eu também preciso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Please, Father..."
+.text	"Por favor, pai..."
 	.byte NewLine
-.text	"Please."
+.text	"Por favor."
 	.byte NewLine
-.text	"Come home with me!"
+.text	"Volte comigo!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Settle down, "
+.text	"Calma, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"You're embarrassing me here."
+.text	"Você está me constrangendo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You already know exactly why I'm doing this..."
+.text	"E também, você já sabe porque eu faço isso..."
 	.byte NewLine
-.text	"Don't you, "
+.text	"Não é, "
 	.word PrintStoredNameB
 .text	"?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"...Father..."
+.text	"...Pai..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"...That's enough."
+.text	"...Basta."
 	.byte NewLine
-.text	"There's nothing left to say."
+.text	"Não temos mais o que conversar."
 	.byte NewLine
-.text	"Go! I leave Silesse's fate to you..."
+.text	"Vai! Eu deixo Silesse com você..."
 	.word PauseText
 	.byte $60
 
@@ -896,30 +886,32 @@ dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Married
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"Well, Lord Seliph, thanks for everything."
+.text	"Bem, Lorde Seliph, obrigado por tudo."
 	.byte NewLine
-.text	"I'll be going back to Silesse with Father now."
+.text	"Eu vou voltar pra Silesse com meu pai agora."
+	.byte NewLine
+.text	"Ou pelo menos, eu espero que ele venha."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I must admit, "
+.text	"Tenho que admitir, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'm almost envious you have a father like Lewyn"
+.text	"Eu tenho um pouco de inveja de você."
 	.byte NewLine
-.text	"by your side. How nice that must be!"
+.text	"Imagina ter o grande Lewyn como pai!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"It is. I'm so proud to be his son, sir."
+.text	"Não sei se concordo contigo, senhor..."
 	.byte NewLine
-.text	"And someday, hopefully,"
+.text	"Ele nos abandonou... eu espero que"
 	.byte NewLine
-.text	"I'll be every bit the great man he is now..."
+.text	"ele fique conosco agora..."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
@@ -939,15 +931,12 @@ dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Married
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
-.text	"Look after "
-	.word PrintStoredNameB
-.text	", okay, "
 	.word PrintStoredNameA
-.text	"?"
+.text	", cuide do meu filho, tá bom?"
 	.byte NewLine
-.text	"Silesse is both of yours to rule now."
+.text	"Silesse é de vocês agora."
 	.byte NewLine
-.text	"I'm not going back."
+.text	"Eu não vou voltar."
 	.word PauseText
 	.byte $20
 
@@ -956,83 +945,83 @@ dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Married
 	.word ClearPortrait
 	.word OpenBox
 	.word LoadStoredPortraitC
-.text	"Huh? What are you talking about, Father?!"
+.text	"Como? Porquê, pai?!"
 	.byte NewLine
-.text	"The war is over!"
+.text	"A guerra acabou!"
 	.byte NewLine
-.text	"Please... Please, you've got to come home!"
+.text	"Por favor... volte pra casa!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"No."
+.text	"Não."
 	.byte NewLine
-.text	"My work there is done."
+.text	"Meu trabalho já acabou."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I don't belong on the throne."
+.text	"Esse trono não é para mim."
 	.byte NewLine
-.text	"Silesse needs a fresh start with its leadership,"
+.text	"Silesse precisa de uma nova liderança,"
 	.byte NewLine
-.text	"just like everywhere else."
+.text	"assim como os outros países."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"What Silesse needs is you."
+.text	"Silesse precisa de você. Precisa ser guiada"
 	.byte NewLine
-.text	"It needs to be guided by your youthful hand."
+.text	"por sua jovem mão."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I don't understand..."
+.text	"Eu não entendo, pai..."
 	.byte NewLine
-.text	"Silesse needs you, too..."
+.text	"Silesse precisa de você..."
 	.byte NewLine
-.text	"And I need you."
+.text	"Eu também preciso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Please, Father..."
+.text	"Por favor, pai..."
 	.byte NewLine
-.text	"Please."
+.text	"Por favor."
 	.byte NewLine
-.text	"Come home with me!"
+.text	"Volte comigo!"
 	.word PauseText
 	.byte $60
+	.byte ScrollText
 
 	.byte LeftSlot
-	.word ScrollBoth
-.text	"Settle down, "
+.text	"Calma, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"You're embarrassing me here."
+.text	"Você está me constrangendo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"You already know exactly why I'm doing this..."
+.text	"E também, você já sabe porque eu faço isso..."
 	.byte NewLine
-.text	"Don't you, "
+.text	"Não é, "
 	.word PrintStoredNameB
 .text	"?"
-	.word PauseText
-	.byte $20
 
 	.byte RightSlot
-.text	"...Father..."
+	.word PauseText
+	.byte $20
+.text	"...Pai..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"...That's enough."
+.text	"...Basta."
 	.byte NewLine
-.text	"There's nothing left to say."
+.text	"Não temos mais o que conversar."
 	.byte NewLine
-.text	"Go! I leave Silesse's fate to you..."
+.text	"Vai! Eu deixo Silesse com você..."
 	.word PauseText
 	.byte $60
 
@@ -1042,9 +1031,9 @@ dialogueEpiloguesSilesse_LewynsSon_SisterAlive_Married
 dialogueEpiloguesSilesse_LewynsSon_LoverQuipPeppy
 
 	.byte StartText
-.text	"Lord Seliph!"
+.text	"Lorde Seliph!"
 	.byte NewLine
-.text	"I'll be going to Silesse with "
+.text	"Eu vou pra Silesse com "
 	.word PrintStoredNameB
 .text	"."
 	.word PauseText
@@ -1052,26 +1041,26 @@ dialogueEpiloguesSilesse_LewynsSon_LoverQuipPeppy
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You will as well, "
+.text	"Vai mesmo, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"That's very reassuring."
+.text	"Isso é ótimo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I pray you and "
-	.word PrintStoredNameB
-.text	" will pool your might"
+.text	"Peço que você consiga dar todo o apoio"
 	.byte NewLine
-.text	"to aid Silesse's people."
+.text	"ao "
+	.word PrintStoredNameB
+.text	" na reconstrução de Silesse."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Got it!"
+.text	"Entendido!"
 	.byte NewLine
-.text	"I'll do my best!"
+.text	"Vou dar tudo de mim!"
 	.word PauseText
 	.byte $60
 
@@ -1081,34 +1070,34 @@ dialogueEpiloguesSilesse_LewynsSon_LoverQuipPeppy
 dialogueEpiloguesSilesse_LewynsSon_LoverQuipNoble
 
 	.byte StartText
-.text	"I'll be accompanying "
+.text	"Eu irei para Silesse junto com "
 	.word PrintStoredNameB
-.text	" back to Silesse,"
+.text	","
 	.byte NewLine
-.text	"Lord Seliph."
+.text	"Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"You will as well, "
+.text	"Vai mesmo, "
 	.word PrintStoredNameA
 .text	"?"
 	.byte NewLine
-.text	"That's very reassuring."
+.text	"Isso é ótimo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I pray you and "
-	.word PrintStoredNameB
-.text	" will pool your might"
+.text	"Peço que você consiga dar todo o apoio"
 	.byte NewLine
-.text	"to aid Silesse's people."
+.text	"ao "
+	.word PrintStoredNameB
+.text	" na reconstrução de Silesse."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, Lord Seliph!"
+.text	"Sim, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -1129,47 +1118,43 @@ dialogueEpiloguesSilesse_LewynsDaughter_BrotherAlive
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"Hold it right there, Father!"
+.text	"Parado aí, pai!"
 	.byte NewLine
-.text	"What kind of sorry excuse is that?!"
+.text	"Sério isso?!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Are you seriously saying you're just going to up"
+.text	"Sério que você vai nos abandonar"
 	.byte NewLine
-.text	"and abandon us AGAIN?"
+.text	"DE NOVO?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"No, I don't think so!"
-	.byte NewLine
-.text	"Why exactly do you need to do this?"
+.text	"Só por cima do meu cadáver!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.word PrintStoredNameB
-.text	"... Please..."
+.text	"... Por favor..."
 	.byte NewLine
-.text	"This is hard enough already without you"
-	.byte NewLine
-.text	"carrying on..."
+.text	"Não insista, filha..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"...Father..."
+.text	"...Pai..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"...That's enough."
+.text	"...Basta."
 	.byte NewLine
-.text	"There's nothing left to say."
+.text	"Não temos mais o que conversar."
 	.byte NewLine
-.text	"Go! I leave Silesse's fate to you..."
+.text	"Vá! Eu deixo Silesse com vocês..."
 	.word PauseText
 	.byte $60
 
@@ -1190,11 +1175,11 @@ dialogueEpiloguesSilesse_LewynsDaughter_BrotherDead
 	.word OpenBox
 	.word LoadStoredPortraitC
 	.byte StartText
-.text	"Well, Lord Seliph,"
+.text	"Bem, Lorde Seliph,"
 	.byte NewLine
-.text	"I'll be going back to Silesse with Father."
+.text	"Eu vou voltar para Silesse com meu pai."
 	.byte NewLine
-.text	"Thank you for everything."
+.text	"Obrigado por tudo."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -1207,87 +1192,85 @@ dialogueEpiloguesSilesse_LewynsDaughter_BrotherDead
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
-.text	"No."
+.text	"Não."
 	.byte NewLine
-.text	"Silesse is yours to rule now, "
+.text	"Silesse é sua agora, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"I'm not going back."
+.text	"Eu não vou voltar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh? Why?!"
+.text	"Quê? Por que?!"
 	.byte NewLine
-.text	"The war's over!"
+.text	"A guerra acabou, pai!"
 	.byte NewLine
-.text	"Please... Please, you've got to come home!"
+.text	"Não me abandone de novo!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"No."
+.text	"Filha..."
 	.byte NewLine
-.text	"My work there is done."
+.text	"Meu trabalho aqui acabou."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I don't belong on the throne."
+.text	"Esse trono não é mais meu."
 	.byte NewLine
-.text	"Silesse needs a fresh start with its leadership,"
+.text	"Silesse precisa de uma nova liderança,"
 	.byte NewLine
-.text	"just like everywhere else."
+.text	"igual os outros lugares."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"What Silesse needs is you."
+.text	"Silesse precisa de você. Precisa de"
 	.byte NewLine
-.text	"It needs to be guided by your youthful hand."
+.text	"uma mão nova para os guiar."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I don't understand..."
+.text	"Eu não entendo, pai..."
 	.byte NewLine
-.text	"Silesse needs you, Father..."
+.text	"Silesse precisa de você..."
 	.byte NewLine
-.text	"I need you."
+.text	"Eu também preciso."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Please, Father..."
+.text	"Por favor, pai..."
 	.byte NewLine
-.text	"Please."
+.text	"Por favor."
 	.byte NewLine
-.text	"Come home with me!"
+.text	"Volte comigo!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.word PrintStoredNameB
-.text	"... Please..."
+.text	"... Por favor..."
 	.byte NewLine
-.text	"This is hard enough already"
-	.byte NewLine
-.text	"without you carrying on..."
+.text	"Não insista, filha..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"...Father..."
+.text	"...Pai..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"...That's enough."
+.text	"...Basta."
 	.byte NewLine
-.text	"There's nothing left to say."
+.text	"Não temos mais o que conversar."
 	.byte NewLine
-.text	"Go! I leave Silesse's fate to you..."
+.text	"Vá! Eu deixo Silesse com você..."
 	.word PauseText
 	.byte $60
 

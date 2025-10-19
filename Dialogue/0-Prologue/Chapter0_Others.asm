@@ -15,14 +15,16 @@ dialogueVisitChalphyWithSigurd
 
 	.byte LeftSlot
 	.byte StartText 
-.text	"Sire, might I recommend stopping by"
+.text	"Senhor, eu lhe recomendo que passe"
 	.byte NewLine
-.text	"the castle town once you're rested?"
+.text	"pela cidade do castelo"
 	.byte WaitForA
 	.byte ScrollText
-
-.text	"To see you unharmed should help"
+.text	"quando terminar seu descanso."
+	.byte WaitForA
+	.byte ScrollText
+.text	"Te ver bem com certeza irá acalmar"
 	.byte NewLine
-.text	"to calm and reassure your citizens."
+.text	"os cidadãos."
 	.byte WaitForA
 	.byte EndText

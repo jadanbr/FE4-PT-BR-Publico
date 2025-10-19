@@ -7,7 +7,7 @@ statuses_tilemap
 ; The long is the graphics address.
 
 ; Healthy
-.byte 5
+.byte 4
 .long $546000
 .fill $0C, 0
 
@@ -31,17 +31,17 @@ statuses_tilemap
 .fill $0C, 0
 
 ; Silence
-.byte 4
+.byte 6
 .long $546800
 .fill $0C, 0
 
 ; Sleep
-.byte 3
+.byte 6
 .long $546A00
 .fill $0C, 0
 
 ; Berserk
-.byte 5
+.byte 7
 .long $546C00
 .fill $0C, 0
 

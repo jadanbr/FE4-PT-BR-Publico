@@ -15,98 +15,102 @@ dialogueEpiloguesBelhalla_Seliph_JuliaAlive_Single
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Congratulations, Seliph!"
+.text	"Parábens, Seliph!"
 	.byte NewLine
-.text	"You've endured so much so well to make it"
+.text	"Depois de tudo que você passou,"
 	.byte NewLine
-.text	"this far."
+.text	"você merece."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Thank you, Lewyn, but our victory means"
+.text	"Obrigado, Lewyn, mas a vitória só"
 	.byte NewLine
-.text	"precious little while our world still lies in ruins."
-	.byte NewLine
-.text	"Where do we begin from here?"
+.text	"vai vir de verdade quando terminarmos"
+  .byte NewLine
+.text "de reconstruir o continente."
+  .word PauseText
+  .byte $60
+	.byte ScrollText
+.text	"Por onde nós começamos?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"There's only one way to rebuild all the scarred"
+.text	"Comece juntando forças. Todos terão"
 	.byte NewLine
-.text	"lands. Everyone needs to come together and"
-	.byte NewLine
-.text	"share the work among you."
+.text	"que fazer suas partes."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"And for that, you'll need a good leader."
+.text	"E para coordenar esse esforço, vamos precisar"
 	.byte NewLine
-.text	"The crusaders' heirs will be returning home"
+.text	"de um bom líder, já que cada cruzado irá"
 	.byte NewLine
-.text	"to assume their rightful thrones."
+.text	"para seu país assumir seu trono."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And with the proper leadership, they can pool"
+.text	"Com esse líder à frente, as nações poderão"
 	.byte NewLine
-.text	"their strengths again to build a new world,"
+.text	"juntar forças para fazer um mundo novo, onde"
 	.byte NewLine
-.text	"one where all can live in happiness."
+.text	"todos poderão viver felizes."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"A new world, you say..."
+.text	"Um novo mundo..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, Seliph..."
+.text	"É, Seliph..."
 	.byte NewLine
-.text	"A new world."
+.text	"Um novo mundo."
 	.byte NewLine
-.text	"And your role is the most crucial of all."
+.text	"E você tem uma posição crucial nele."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"You'll remain here in Belhalla,"
+.text	"Você ficará em Belhalla, e guiará a"
 	.byte NewLine
-.text	"and you'll guide the rise of this new world"
+.text	"construção desse novo mundo como"
 	.byte NewLine
-.text	"as the King of Grannvale."
+.text	"o Rei de Grannvale."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Hold on."
+.text	"Pera aí."
 	.byte NewLine
-.text	"I'M to be the king?!"
+.text	"EU vou ser o rei?!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Mm-hmm."
 	.byte NewLine
-.text	"After all that's happened, you and Julia are the"
+.text	"Depois desses anos todos, você e Júlia foram"
 	.byte NewLine
-.text	"last living heirs of the blood of Grannvale's kings."
+.text	"os últimos que sobraram da linhagem real."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"The two of you have inherited the last will"
+.text	"Vocês dois herdaram a missão daqueles que"
 	.byte NewLine
-.text	"of all who lost their lives on this path."
+.text	"perderam a vida pela causa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"These souls watch over you, even now."
+.text	"As almas deles ainda rogam por vocês."
 	.byte NewLine
-.text	"You mustn't forget the light for which they strove."
+.text	"Não esqueçam o caminho pelo"
+	.byte NewLine
+.text	"qual eles andavam."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -114,14 +118,14 @@ dialogueEpiloguesBelhalla_Seliph_JuliaAlive_Single
 	.byte LeftSlot
 .text	"Mm..."
 	.byte NewLine
-.text	"I understand, Lewyn."
+.text	"Entendi, Lewyn."
 	.byte NewLine
-.text	"So long as I have the power, I'll do all I can."
+.text	"Enquanto eu for capaz, darei meu melhor."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Now, Julia."
+.text	"Agora, Júlia."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
@@ -136,23 +140,23 @@ dialogueEpiloguesBelhalla_Seliph_JuliaAlive_Single
 	.word portrait_Julia_Hand
 
 	.byte RightSlot
-.text	"What do you say?"
+.text	"O que acha?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I agree, of course."
+.text	"Concordo plenamente com você."
 	.byte NewLine
-.text	"I wish to aid Lord Seliph..."
+.text	"Eu quero ajudar Lorde Seliph..."
 	.byte NewLine
-.text	"No, my lord brother, every step of the way."
+.text	"Digo, meu irmão, até o fim."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I know this path will be a gruelling one,"
+.text	"Eu sei que vai ser difícil, mas é por isso"
 	.byte NewLine
-.text	"but that's all the more reason to give it my all..."
+.text	"que eu vou dar tudo de mim..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -184,98 +188,102 @@ dialogueEpiloguesBelhalla_Seliph_JuliaAlive_Married
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Congratulations, Seliph!"
+.text	"Parábens, Seliph!"
 	.byte NewLine
-.text	"You've endured so much so well to make it"
+.text	"Depois de tudo que você passou,"
 	.byte NewLine
-.text	"this far."
+.text	"você merece."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Thank you, Lewyn, but our victory means"
+.text	"Obrigado, Lewyn, mas a vitória só"
 	.byte NewLine
-.text	"precious little while our world still lies in ruins."
-	.byte NewLine
-.text	"Where do we begin from here?"
+.text	"vai vir de verdade quando terminarmos"
+  .byte NewLine
+.text "de reconstruir o continente."
+  .word PauseText
+  .byte $60
+	.byte ScrollText
+.text	"Por onde nós começamos?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"There's only one way to rebuild all the scarred"
+.text	"Comece juntando forças. Todos terão"
 	.byte NewLine
-.text	"lands. Everyone needs to come together and"
-	.byte NewLine
-.text	"share the work among you."
+.text	"que fazer suas partes."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"And for that, you'll need a good leader."
+.text	"E para coordenar esse esforço, vamos precisar"
 	.byte NewLine
-.text	"The crusaders' heirs will be returning home"
+.text	"de um bom líder, já que cada cruzado vai ir"
 	.byte NewLine
-.text	"to assume their rightful thrones."
+.text	"assumir seu trono."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And with the proper leadership, they can pool"
+.text	"Com esse líder à frente, as nações poderão"
 	.byte NewLine
-.text	"their strengths again to build a new world,"
+.text	"juntar forças para fazer um mundo novo, onde"
 	.byte NewLine
-.text	"one where all can live in happiness."
+.text	"todos poderão viver felizes."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"A new world, you say..."
+.text	"Um novo mundo..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, Seliph..."
+.text	"É, Seliph..."
 	.byte NewLine
-.text	"A new world."
+.text	"Um novo mundo."
 	.byte NewLine
-.text	"And your role is the most crucial of all."
+.text	"E você tem uma posição crucial nele."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"You'll remain here in Belhalla,"
+.text	"Você ficará em Belhalla, e guiará a"
 	.byte NewLine
-.text	"and you'll guide the rise of this new world"
+.text	"construção desse novo mundo como"
 	.byte NewLine
-.text	"as the King of Grannvale."
+.text	"o Rei de Grannvale."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Hold on."
+.text	"Pera aí."
 	.byte NewLine
-.text	"I'M to be the king?!"
+.text	"EU vou ser o rei?!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Mm-hmm."
 	.byte NewLine
-.text	"After all that's happened, you and Julia are the"
+.text	"Depois desses anos todos, você e Júlia são"
 	.byte NewLine
-.text	"last living heirs of the blood of Grannvale's kings."
+.text	"os últimos que sobraram da linhagem real."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"The two of you have inherited the last will"
+.text	"Vocês dois herdaram a missão daqueles que"
 	.byte NewLine
-.text	"of all who lost their lives on this path."
+.text	"perderam a vida pela causa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"These souls watch over you, even now."
+.text	"As almas deles ainda rogam por vocês."
 	.byte NewLine
-.text	"You mustn't forget the light for which they strove."
+.text	"Não esqueçam o caminho pelo"
+	.byte NewLine
+.text	"qual eles andavam."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -283,14 +291,14 @@ dialogueEpiloguesBelhalla_Seliph_JuliaAlive_Married
 	.byte LeftSlot
 .text	"Mm..."
 	.byte NewLine
-.text	"I understand, Lewyn."
+.text	"Entendi, Lewyn."
 	.byte NewLine
-.text	"So long as I have the power, I'll do all I can."
+.text	"Enquanto eu for capaz, darei meu melhor."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Now, Julia."
+.text	"Agora, Júlia."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
@@ -305,23 +313,23 @@ dialogueEpiloguesBelhalla_Seliph_JuliaAlive_Married
 	.word portrait_Julia_Hand
 
 	.byte RightSlot
-.text	"What do you say?"
+.text	"O que acha?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I agree, of course."
+.text	"Concordo plenamente com você."
 	.byte NewLine
-.text	"I wish to aid Lord Seliph..."
+.text	"Eu quero ajudar Lorde Seliph..."
 	.byte NewLine
-.text	"No, my lord brother, every step of the way."
+.text	"Digo, meu irmão, até o fim."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I know this path will be a gruelling one,"
+.text	"Eu sei que vai ser difícil, mas é por isso"
 	.byte NewLine
-.text	"but that's all the more reason to give it my all..."
+.text	"que eu vou dar tudo de mim..."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -342,32 +350,35 @@ dialogueEpiloguesBelhalla_Seliph_JuliaAlive_LoverQuipAll
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Lady "
+.text	"Madame "
 	.word PrintStoredNameA
-.text	", you'll do all you can"
+.text	", você fará o possível para ajudar"
 	.byte NewLine
-.text	"to aid my brother as well, won't you?"
+.text	"meu irmão também, certo?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, and gladly so!"
+.text	"Sim, claro!"
 	.byte NewLine
-.text	"But, er..."
+.text	"Mas, hã..."
 	.byte NewLine
-.text	"Lady Julia, what about..."
+.text	"Madame Júlia, e quanto a ti?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I... I must atone for the fate of Lord Sigurd..."
+.text	"Eu... de certa forma, tenho que pagar"
+  .byte NewLine
+.text "pelo que Lorde Sigurd passou..." 
 	.word PauseText
 	.byte $60
+	.byte ScrollText
+	
+.text	"Certamente, é isso que minha mãe iria"
 	.byte NewLine
-.text	"I know that's what my mother, Lady Deirdre,"
-	.byte NewLine
-.text	"would wish of me..."
+.text	"querer que eu fizesse..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -408,77 +419,79 @@ dialogueEpiloguesBelhalla_Seliph_JuliaDead_Single
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Congratulations, Seliph!"
+.text	"Parabéns, Seliph!"
 	.byte NewLine
-.text	"You've endured so much so well to make it"
+.text	"Depois de tudo que você passou,"
 	.byte NewLine
-.text	"this far."
+.text	"você merece."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Thank you, Lewyn, but our victory means"
+.text	"Obrigado, Lewyn, mas a vitória só"
 	.byte NewLine
-.text	"precious little while our world still lies in ruins."
-	.byte NewLine
-.text	"Where do we begin from here?"
+.text	"vai vir de verdade quando terminarmos"
+  .byte NewLine
+.text "de reconstruir o continente."
+  .word PauseText
+  .byte $60
+	.byte ScrollText
+.text	"Por onde nós começamos?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"There's only one way to rebuild all the scarred"
+.text	"Comece juntando forças. Todos terão"
 	.byte NewLine
-.text	"lands. Everyone needs to come together and"
-	.byte NewLine
-.text	"share the work among you."
+.text	"que fazer suas partes."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"And for that, you'll need a good leader."
+.text	"E para coordenar esse esforço, vamos precisar"
 	.byte NewLine
-.text	"The crusaders' heirs will be returning home"
+.text	"de um bom líder, já que cada cruzado vai ir"
 	.byte NewLine
-.text	"to assume their rightful thrones."
+.text	"assumir seu trono."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And with the proper leadership, they can pool"
+.text	"Com esse líder à frente, as nações poderão"
 	.byte NewLine
-.text	"their strengths again to build a new world,"
+.text	"juntar forças para fazer um mundo novo, onde"
 	.byte NewLine
-.text	"one where all can live in happiness."
+.text	"todos poderão viver felizes."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"A new world, you say..."
+.text	"Um novo mundo..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, Seliph..."
+.text	"É, Seliph..."
 	.byte NewLine
-.text	"A new world."
+.text	"Um novo mundo."
 	.byte NewLine
-.text	"And your role is the most crucial of all."
+.text	"E você tem uma posição crucial nele."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"You'll remain here in Belhalla,"
+.text	"Você ficará em Belhalla, e guiará a"
 	.byte NewLine
-.text	"and you'll guide the rise of this new world"
+.text	"construção desse novo mundo como"
 	.byte NewLine
-.text	"as the King of Grannvale."
+.text	"o Rei de Grannvale."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Hold on."
+.text	"Pera aí."
 	.byte NewLine
-.text	"I'M to be the king?!"
+.text	"EU vou ser o rei?!"
 
 	.byte RightSlot
 	.word PauseText
@@ -486,74 +499,74 @@ dialogueEpiloguesBelhalla_Seliph_JuliaDead_Single
 	.byte StartText
 .text	"Mm-hmm..."
 	.byte NewLine
-.text	"You and Julia were the last two surviving heirs to"
+.text	"Você e Júlia eram os últimos herdeiros"
 	.byte NewLine
-.text	"the blood of Grannvale's kings."
+.text	"da linhagem real de Grannvale."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"But we lost Julia in today's battle..."
+.text	"Mas infelizmente, ela morreu hoje..."
+  .byte NewLine
+.text "Só sobrou você." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Julia... I swore I would always protect her..."
+.text	"Júlia... eu jurei protegê-la..."
 	.byte NewLine
-.text	"And I failed."
+.text	"E eu não consegui."
 	.byte NewLine
-.text	"Her death is my fault..."
+.text	"A morte dela é minha culpa..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Whatever you do, you can't let Julia's death"
+.text	"Seliph, só não deixe a morte dela"
 	.byte NewLine
-.text	"be in vain, Seliph."
+.text	"ser em vão."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"She bore the weight of her awful fate"
+.text	"Ela sofreu com o peso do destino dela,"
 	.byte NewLine
-.text	"on her shoulders, but still she never gave up."
+.text	"mas ela não desistiu."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I guess she got that from her mother in a way."
+.text	"Nisso ela puxou a mãe. Deirdre também"
 	.byte NewLine
-.text	"Deirdre, too, was always haunted by her"
-	.byte NewLine
-.text	"mistakes and failures."
+.text	"sofreu demais com os erros e falhas dela."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'm sure you understand, Seliph,"
+.text	"Eu imagino que você sabe, Seliph, que"
 	.byte NewLine
-.text	"that you've inherited the last will of all"
+.text	"você herdou a missão daqueles que morreram"
 	.byte NewLine
-.text	"who lost their lives on this path."
+.text	"em nome dessa causa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"These souls watch over you, even now."
+.text	"As almas deles rogam por você, mesmo agora."
 	.byte NewLine
-.text	"You mustn't forget the light for which they strove."
+.text	"Não desvie da luz que eles procuravam."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Of course..."
+.text	"Sim..."
 	.byte NewLine
-.text	"I understand, Lewyn."
+.text	"Eu entendo, Lewyn."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'll guide this world with all I have, so long as"
+.text	"Eu vou guiar este mundo o melhor que"
 	.byte NewLine
-.text	"I draw breath."
+.text	"posso, enquanto eu estiver vivo."
 	.byte NewLine
-.text	"In Julia's name..."
+.text	"Pra honrar a Júlia..."
 	.word PauseText
 	.byte $60
 
@@ -575,77 +588,79 @@ dialogueEpiloguesBelhalla_Seliph_JuliaDead_Married
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Congratulations, Seliph!"
+.text	"Parabéns, Seliph!"
 	.byte NewLine
-.text	"You've endured so much so well to make it"
+.text	"Depois de tudo que você passou,"
 	.byte NewLine
-.text	"this far."
+.text	"você merece."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Thank you, Lewyn, but our victory means"
+.text	"Obrigado, Lewyn, mas a vitória só"
 	.byte NewLine
-.text	"precious little while our world still lies in ruins."
-	.byte NewLine
-.text	"Where do we begin from here?"
+.text	"vai vir de verdade quando terminarmos"
+  .byte NewLine
+.text "de reconstruir o continente."
+  .word PauseText
+  .byte $60
+	.byte ScrollText
+.text	"Por onde nós começamos?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"There's only one way to rebuild all the scarred"
+.text	"Comece juntando forças. Todos terão"
 	.byte NewLine
-.text	"lands. Everyone needs to come together and"
-	.byte NewLine
-.text	"share the work among you."
+.text	"que fazer suas partes."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"And for that, you'll need a good leader."
+.text	"E para coordenar esse esforço, vamos precisar"
 	.byte NewLine
-.text	"The crusaders' heirs will be returning home"
+.text	"de um bom líder, já que cada cruzado vai ir"
 	.byte NewLine
-.text	"to assume their rightful thrones."
+.text	"assumir seu trono."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And with the proper leadership, they can pool"
+.text	"Com esse líder à frente, as nações poderão"
 	.byte NewLine
-.text	"their strengths again to build a new world,"
+.text	"juntar forças para fazer um mundo novo, onde"
 	.byte NewLine
-.text	"one where all can live in happiness."
+.text	"todos poderão viver felizes."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"A new world, you say..."
+.text	"Um novo mundo..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yeah, Seliph..."
+.text	"É, Seliph..."
 	.byte NewLine
-.text	"A new world."
+.text	"Um novo mundo."
 	.byte NewLine
-.text	"And your role is the most crucial of all."
+.text	"E você tem uma posição crucial nele."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"You'll remain here in Belhalla,"
+.text	"Você ficará em Belhalla, e guiará a"
 	.byte NewLine
-.text	"and you'll guide the rise of this new world"
+.text	"construção desse novo mundo como"
 	.byte NewLine
-.text	"as the King of Grannvale."
+.text	"o Rei de Grannvale."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Hold on."
+.text	"Pera aí."
 	.byte NewLine
-.text	"I'M to be the king?!"
+.text	"EU vou ser o rei?!"
 
 	.byte RightSlot
 	.word PauseText
@@ -653,74 +668,74 @@ dialogueEpiloguesBelhalla_Seliph_JuliaDead_Married
 	.byte StartText
 .text	"Mm-hmm..."
 	.byte NewLine
-.text	"You and Julia were the last two surviving heirs to"
+.text	"Você e Júlia eram os últimos herdeiros"
 	.byte NewLine
-.text	"the blood of Grannvale's kings."
+.text	"da linhagem real de Grannvale."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"But we lost Julia in today's battle..."
+.text	"Mas infelizmente, ela morreu hoje..."
+  .byte NewLine
+.text "Só sobrou você." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Julia... I swore I would always protect her..."
+.text	"Júlia... eu jurei protegê-la..."
 	.byte NewLine
-.text	"And I failed."
+.text	"E eu não consegui."
 	.byte NewLine
-.text	"Her death is my fault..."
+.text	"A morte dela é minha culpa..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Whatever you do, you can't let Julia's death"
+.text	"Seliph, só não deixe a morte dela"
 	.byte NewLine
-.text	"be in vain, Seliph."
+.text	"ser em vão."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"She bore the weight of her awful fate"
+.text	"Ela sofreu com o peso do destino dela,"
 	.byte NewLine
-.text	"on her shoulders, but still she never gave up."
+.text	"mas ela não desistiu."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I guess she got that from her mother, in a way."
+.text	"Nisso ela puxou a mãe. Deirdre também"
 	.byte NewLine
-.text	"Deirdre, too, was always haunted by her"
-	.byte NewLine
-.text	"mistakes and failures."
+.text	"sofreu demais com os erros e falhas dela."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'm sure you understand, Seliph,"
+.text	"Eu imagino que você sabe, Seliph, que"
 	.byte NewLine
-.text	"that you've inherited the last will of all"
+.text	"você herdou a missão daqueles que morreram"
 	.byte NewLine
-.text	"who lost their lives on this path."
+.text	"em nome dessa causa."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"These souls watch over you, even now."
+.text	"As almas deles rogam por você, mesmo agora."
 	.byte NewLine
-.text	"You mustn't forget the light for which they strove."
+.text	"Não desvie da luz que eles procuravam."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Of course..."
+.text	"Sim..."
 	.byte NewLine
-.text	"I understand, Lewyn."
+.text	"Eu entendo, Lewyn."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"I'll guide this world with all I have, so long as"
+.text	"Eu vou guiar este mundo o melhor que"
 	.byte NewLine
-.text	"I draw breath."
+.text	"posso, enquanto eu estiver vivo."
 	.byte NewLine
-.text	"In Julia's name..."
+.text	"Em honra a Júlia..."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -739,26 +754,28 @@ dialogueEpiloguesBelhalla_Seliph_JuliaDead_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"And you'll never have to do it alone, Seliph."
+.text	"E você não vai estar sozinho, Seliph."
 	.byte NewLine
-.text	"No matter what happens, I'll be with you."
+.text	"Durante esse processo, eu estarei com você."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Any power I can offer is yours."
+.text	"Eu darei o meu máximo pra te ajudar."
 	.byte NewLine
-.text	"I swear, I'll do for you what Julia no longer can."
+.text	"Eu juro, vou tentar preencher a lacuna"
+  .byte NewLine
+.text "que a Júlia deixou." 
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Thank you, "
+.text	"Obrigado, "
 	.word PrintStoredNameA
-.text	"."
+.text	". Sua ajuda vai fazer"
 	.byte NewLine
-.text	"Your support means a world of difference for me."
+.text	"toda a diferença para mim."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -785,28 +802,26 @@ dialogueEpiloguesBelhalla_Seliph_JuliaDead_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"You won't have to do it alone, either."
+.text	"E você não vai ficar sozinho nessa."
 	.byte NewLine
-.text	"I'll be helping you every step of the way."
+.text	"Eu vou te ajdar em tudo que você precisar."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"My might is yours."
+.text	"Eu vou trabalhar dobrado pra"
 	.byte NewLine
-.text	"I'll work twice as hard"
-	.byte NewLine
-.text	"to do what Julia can't anymore!"
+.text	"cobrir pela Júlia!"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Thank you, "
+.text	"Obrigado, "
 	.word PrintStoredNameA
-.text	"."
+.text	". Sua ajuda vai fazer uma"
 	.byte NewLine
-.text	"Your support means a world of difference for me."
+.text	"enorme diferença."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -832,17 +847,15 @@ dialogueEpiloguesBelhalla_End
 	.word PauseText
 	.byte $20
 	.byte StartText
-.text	"Well, then!"
+.text	"Olha lá, Seliph!"
 	.byte NewLine
-.text	"Looks like everyone's making their way here"
-	.byte NewLine
-.text	"from the front lines."
+.text	"Estão todos vindo para cá."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Seliph, this'll be your first task as king."
+.text	"Seliph, tenha uma palavrinha com eles."
 	.byte NewLine
-.text	"I'm sure they'd all love some words of thanks."
+.text	"Tem que agradecê-los pelo apoio."
 	.word PauseText
 	.byte $60
 

@@ -5,7 +5,7 @@
 
 * = $0BC668
 .logical $0BC668
-		#VRAM2TILEMAP $3000, $00A8, 4, $0002
+		#VRAM2TILEMAP $3000, $000A, 4, $0002
 .here
 
 
@@ -13,7 +13,7 @@
 
 * = $0BC67F
 .logical $0BC67F
-		#VRAM2TILEMAP $3000, $00A4, 4, $0002
+		#VRAM2TILEMAP $3000, $0005, 5, $0000
 .here
 
 
@@ -21,8 +21,8 @@
 
 * = $0BC696
 .logical $0BC696
-		#VRAM2TILEMAP $3000, $00CD, 1, $0004
-		#VRAM2TILEMAP $3000, $00CE, 1, $0006
+		#VRAM2TILEMAP $3000, $000E, 1, $0004
+		#VRAM2TILEMAP $3000, $000F, 1, $0006
 .here
 
 
@@ -30,8 +30,8 @@
 
 * = $0BC6C3
 .logical $0BC6C3
-		#VRAM2TILEMAP $3000, $00AC, 2, $0002
-		#VRAM2TILEMAP $3000, $00AE, 2, $0006
+		#VRAM2TILEMAP $3000, $0020, 1, $0002
+		#VRAM2TILEMAP $3000, $0021, 3, $0004
 .here
 
 
@@ -39,8 +39,8 @@
 
 * = $0BC6F0
 .logical $0BC6F0
-		#VRAM2TILEMAP $3000, $000A, 1, $0004
-		#VRAM2TILEMAP $3000, $000B, 1, $0006
+		#VRAM2TILEMAP $3000, $002A, 1, $0004
+		#VRAM2TILEMAP $3000, $002B, 1, $0006
 .here
 
 
@@ -48,7 +48,7 @@
 
 * = $0BC71D
 .logical $0BC71D
-		#VRAM2TILEMAP $3000, $002A, 3, $0002
+		#VRAM2TILEMAP $3000, $0027, 3, $0002
 .here
 
 
@@ -56,7 +56,7 @@
 
 * = $0BC734
 .logical $0BC734
-		#VRAM2TILEMAP $3000, $00A0, 4, $0002
+		#VRAM2TILEMAP $3000, $002C, 4, $0002
 .here
 
 
@@ -64,47 +64,47 @@
 
 * = $0BC761
 .logical $0BC761
-		#VRAM2TILEMAP $3000, $002D, 3, $0004
+		#VRAM2TILEMAP $3000, $0040, 3, $0004
 .here
 
 
-;	Grabbing the "Hit" sort option
+;	Grabbing the "Hit" sort option	-
 
 * = $0BC78E
 .logical $0BC78E
-		#VRAM2TILEMAP $3000, $004A, 2, $0004
+		#VRAM2TILEMAP $3000, $0043, 3, $0002
 .here
 
 
-;	Grabbing the "Avoid" sort option
+;	Grabbing the "Avoid" sort option	-
 
 * = $0BC7BB
 .logical $0BC7BB
-		#VRAM2TILEMAP $3000, $00C0, 4, $0002
+		#VRAM2TILEMAP $3000, $0046, 3, $0002
 .here
 
 
-;	Grabbing the "Str" sort option
+;	Grabbing the "Str" sort option	-
 
 * = $0BC7E8
 .logical $0BC7E8
-		#VRAM2TILEMAP $3000, $004C, 2, $0004
+		#VRAM2TILEMAP $3000, $0049, 3, $0002
 .here
 
 
-;	Grabbing the "Mag" sort option
+;	Grabbing the "Mag" sort option	-
 
 * = $0BC7FF
 .logical $0BC7FF
-		#VRAM2TILEMAP $3000, $0068, 3, $0002
+		#VRAM2TILEMAP $3000, $0060, 3, $0002
 .here
 
 
-;	Grabbing the "Skl" sort option
+;	Grabbing the "Skl" sort option	-
 
 * = $0BC82C
 .logical $0BC82C
-		#VRAM2TILEMAP $3000, $004E, 2, $0004
+		#VRAM2TILEMAP $3000, $0063, 3, $0002
 .here
 
 
@@ -112,7 +112,7 @@
 
 * = $0BC859
 .logical $0BC859
-		#VRAM2TILEMAP $3000, $006B, 3, $0002
+		#VRAM2TILEMAP $3000, $004C, 2, $0004
 .here
 
 
@@ -120,7 +120,7 @@
 
 * = $0BC886
 .logical $0BC886
-		#VRAM2TILEMAP $3000, $006E, 2, $0004
+		#VRAM2TILEMAP $3000, $0066, 3, $0004
 .here
 
 
@@ -128,7 +128,7 @@
 
 * = $0BC8B3
 .logical $0BC8B3
-		#VRAM2TILEMAP $3000, $0087, 2, $0004
+		#VRAM2TILEMAP $3000, $004E, 2, $0004
 .here
 
 
@@ -136,7 +136,7 @@
 
 * = $0BC8E0
 .logical $0BC8E0
-		#VRAM2TILEMAP $3000, $0089, 3, $0004
+		#VRAM2TILEMAP $3000, $0069, 3, $0002
 .here
 
 
@@ -144,7 +144,7 @@
 
 * = $0BC924
 .logical $0BC924
-		#VRAM2TILEMAP $3000, $008C, 4, $0002
+		#VRAM2TILEMAP $3000, $0080, 3, $0002
 .here
 
 
@@ -152,7 +152,7 @@
 
 * = $0BC90D
 .logical $0BC90D
-		#VRAM2TILEMAP $3000, $00E5, 5, $0000
+		#VRAM2TILEMAP $3000, $006C, 4, $0002
 .here
 
 
@@ -160,7 +160,7 @@
 
 * = $0BC972
 .logical $0BC972
-		#VRAM2TILEMAP $3000, $00E0, 5, $0000
+		#VRAM2TILEMAP $3000, $0000, 5, $0000
 .here
 
 
@@ -168,13 +168,13 @@
 
 * = $0BC989
 .logical $0BC989
-		#VRAM2TILEMAP $3000, $00C4, 4, $0002
+		#VRAM2TILEMAP $3000, $0083, 4, $0002
 .here
 
 
-;	Grabbing the "Skill" sort option
+;	Grabbing the "Skill" sort option	-
 
 * = $0BC952
 .logical $0BC952
-		#VRAM2TILEMAP $3000, $0006, 4, $0002
+		#VRAM2TILEMAP $3000, $0087, 3, $0002
 .here

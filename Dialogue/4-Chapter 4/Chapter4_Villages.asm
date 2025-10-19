@@ -7,23 +7,23 @@ dialogueCh4VillageSouthernmost
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Magic is governed by a hierarchy of power,"
+.text	"A magia também tem seus triângulos,"
 	.byte NewLine
-.text	"just like weapons."
+.text	"assim como as armas físicas."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Fire magic bests wind, wind bests thunder,"
+.text	"Fogo vence vento, vento vence trovão,"
 	.byte NewLine
-.text	"and thunder bests fire."
+.text	"e trovão vence fogo."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"However, dark and light magic have"
+.text	"Porém, magias escuras e de luz tem a"
 	.byte NewLine
-.text	"an advantage over all of the others."
+.text	"vantagem sobre todas as outras."
 	.byte NewLine
-.text	"Think your strategies through with care."
+.text	"Use isso bem em suas estratégias."
 	.byte WaitForA
 
 	.byte EndText
@@ -36,29 +36,29 @@ dialogueCh4VillageWesternmost
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Only a direct descendant can inherit"
+.text	"Somente um descendente direto herda todo"
 	.byte NewLine
-.text	"the full breadth of the power of the gods."
+.text	"o poder do sangue dos deuses."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"And only they'll be able to wield"
+.text	"E somente eles podem usar as heranças"
 	.byte NewLine
-.text	"their family's divine heirlooms."
+.text	"divinas de suas famílias."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"However, if kin intersect, their offspring'll reap"
+.text	"Porém, em uma relação co-sanguínea, os filhos"
 	.byte NewLine
-.text	"almighty powers, and may even be able to wield"
+.text	"podem herdar o poder divino, e talvez até a"
 	.byte NewLine
-.text	"a divine weapon themselves!"
+.text	"habilidade de usar as armas divinas!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Needless to say, mind, doin' that"
+.text	"Porém, você sabe muito bem, que incesto"
 	.byte NewLine
-.text	"is condemned and forbidden..."
+.text	"é condenado e proibido..."
 	.byte WaitForA
 
 	.byte EndText
@@ -71,23 +71,26 @@ dialogueCh4VillageLowerMiddle
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Bein' of holy ancestry can bestow"
+.text	"Ter o sangue divino pode te dar"
 	.byte NewLine
-.text	"a number of powers onto ya."
+.text	"algumas vantagens."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Divine heirs can wield even the"
+.text	"Herdeiros divinos podem usar armas"
 	.byte NewLine
-.text	"most advanced weapons with ease,"
+.text	"avançadas com mais facilidade,"
 	.byte NewLine
-.text	"and'll have an easier time growin' stronger."
+.text	"e terão mais facilidade"
+	.byte WaitForA
+	.byte NewLine
+.text	"em se tornarem fortes guerreiros."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"'Course, it's not every day you meet someone"
+.text	"Claro, não é todo mundo que é abençoado"
 	.byte NewLine
-.text	"blessed with that sorta power."
+.text	"por esse tipo de poder."
 	.byte WaitForA
 
 	.byte EndText
@@ -100,21 +103,30 @@ dialogueCh4VillageUpperMiddleRight
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"The Silesse royal family wields the power of wind,"
+.text	"A família real de Silesse"
 	.byte NewLine
-.text	"as bestowed by the wind god, Forseti."
+.text	"possui o poder do vento,"
+	.byte NewLine
+.text	"que eles receberam"
+	.byte WaitForA
+	.byte NewLine
+.text	"do deus do vento, Forseti."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"House Velthomer wields the power of fire,"
+.text	"A casa de Fjalar possui o poder do fogo,"
 	.byte NewLine
-.text	"as bestowed by the fire goddess, Fjalar."
+.text	"que vem da linhagem "
+	.byte NewLine
+.text	"da deusa do fogo, Fjalar."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"And House Friege wields thunder powers,"
+.text	"A casa de Friege tem o poder do trovão,"
 	.byte NewLine
-.text	"as bestowed by the thunder god, Thrud."
+.text	"que vem da linhagem"
+	.byte NewLine
+.text	"do deus do trovão, Thrud."
 	.byte WaitForA
 
 	.byte EndText
@@ -127,17 +139,17 @@ dialogueCh4VillageUpperMiddleLeft
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"The sinister powers of the dark god Loptous"
+.text	"Os poderes sinistros do deus das trevas Loptous"
 	.byte NewLine
-.text	"can be fought only with the glorious powers"
+.text	"só podem ser enfrentados com os poderes"
 	.byte NewLine
-.text	"of Naga, our great god."
+.text	"de Naga, nosso grande deus."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Only Grannvale's House Belhalla,"
+.text	"Somente a casa de Belhalla,"
 	.byte NewLine
-.text	"the heirs to Saint Heim, inherit Naga's power."
+.text	"os herdeiros de São Heim, herdam esse poder."
 	.byte WaitForA
 
 	.byte EndText
@@ -150,31 +162,31 @@ dialogueCh4VillageWestOfTofa_BridgeDown
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"Y'know how there's a drawbridge over the"
+.text	"Sabe a ponte que tem no Rio Tófa?"
 	.byte NewLine
-.text	"Tófa River? Yeah, that's under the control"
-	.byte NewLine
-.text	"of Duke Myos, too."
+.text	"É, o Duque Myos tem controle dela também."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"If it's still drawn and you don't have the key,"
+.text	"Se ainda estiver levantada"
 	.byte NewLine
-.text	"you're not getting across."
+.text	"e você não tiver a chave,"
+	.byte NewLine
+.text	"você não irá passar."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Mind you, if you have a thief's sticky fingers"
+.text	"Mas, se você tiver um ladrão à seu serviço,"
 	.byte NewLine
-.text	"at your service, that might not be a problem..."
+.text	"talvez isso não seja um problema..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"What's that?"
+.text	"Como é?"
 	.byte NewLine
-.text	"You got the drawbridge lowered?"
+.text	"Já desceu a ponte?"
 	.byte NewLine
-.text	"How'd ya know to do that?"
+.text	"Como você já sabia como fazer ela descer?"
 	.byte WaitForA
 
 	.byte EndText
@@ -187,23 +199,23 @@ dialogueCh4VillageWestOfTofa_BridgeUp
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"Y'know how there's a drawbridge over the"
+.text	"Sabia a ponte que tem no Rio Tófa?"
 	.byte NewLine
-.text	"Tófa River? Yeah, that's under the control"
-	.byte NewLine
-.text	"of Duke Myos, too."
+.text	"É, o Duque Myos tem controle dela também."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"If it's still drawn and you don't have the key,"
+.text	"Se ainda estiver levantada"
 	.byte NewLine
-.text	"you're not getting across."
+.text	"e você não tiver a chave,"
+	.byte NewLine
+.text	"você não irá passar."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Mind you, if you have a thief's sticky fingers"
+.text	"Mas, se você tiver um ladrão à seu serviço,"
 	.byte NewLine
-.text	"at your service, that might not be a problem..."
+.text	"talvez isso não seja um problema..."
 	.byte WaitForA
 
 	.byte EndText
@@ -216,23 +228,23 @@ dialogueCh4VillageSecondWestOfTofa
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Legend has it that all direct heirs to"
+.text	"Reza a lenda que todos os herdeiros diretos"
 	.byte NewLine
-.text	"the Crusaders bear exalted brands on their bodies,"
+.text	"dos cruzados tem marcas específicas no corpo,"
 	.byte NewLine
-.text	"which appear on them in their infancy."
+.text	"que aparecem durante na infância."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Prince Kurth's daughter has her Naga brand"
+.text	"A filha de príncipe Kurth tem a marca"
 	.byte NewLine
-.text	"on her forehead."
+.text	"na testa."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Actually, that was how they recognized her"
+.text	"Na verdade, foi assim que eles descobriram"
 	.byte NewLine
-.text	"as a direct heiress to Saint Heim."
+.text	"que ela era herdeira do São Heim."
 	.byte WaitForA
 
 	.byte EndText
@@ -252,36 +264,36 @@ dialogueCh4VillageSecondWestOfTofa_Silvia1
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Oh! Lord Sigurd's army is here to save us all!"
+.text	"Oh! O exército de Lorde Sigurd veio nos salvar!"
 	.byte NewLine
-.text	"Hang on..."
+.text	"Pera aí..."
 	.byte NewLine
-.text	"Aren't you a dancer, miss?"
+.text	"Você não é uma dançarina, senhorita?"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"If you don't mind, perhaps you could"
+.text	"Se não se importar, pode dançar"
 	.byte NewLine
-.text	"do a little dance for us?"
+.text	"para nós?"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"It's been so long since we've had time"
+.text	"Faz tanto tempo desde que a gente pôde"
 	.byte NewLine
-.text	"for respite or fun..."
+.text	"ter um tempo pra se divertir..."
 
 	.byte RightSlot		;Silvia
 	.word PauseText
 	.byte $10
-.text	"Yep, not a problem!"
+.text	"Claro, sem problema!"
 	.byte NewLine
-.text	"If you think it'll help everyone cheer up a bit,"
+.text	"Se acha que vai ajudar vocês,"
 	.byte NewLine
-.text	"then I'm gonna dance my feet off!"
+.text	"então eu vou dançar pra valer!"
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"...Okay! Heeeere we go!"
+.text	"...Okay! Vamos lá!"
 	.byte WaitForA
 
 	.byte EndText
@@ -311,7 +323,7 @@ dialogueCh4VillageSecondWestOfTofa_Silvia3
 	.word portrait_Silvia
 	.byte RightSlot
 	.byte StartText
-.text	"Yeah!"
+.text	"É!"
 	.word PauseText
 	.byte $64
 	
@@ -346,28 +358,28 @@ dialogueCh4VillageSecondWestOfTofa_Silvia5
 	.word portrait_Silvia
 	.byte RightSlot
 	.byte StartText
-.text	"Whew..."
+.text	"Ufa..."
 	.byte NewLine
-.text	"Well, how 'bout that?"
+.text	"Então, gostou?"
 	.byte NewLine
-.text	"Everyone feelin' a little better?"
+.text	"Se sentindo melhor agora?"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot
-.text	"Oh! What fantastic dancin'!"
+.text	"Oh! Que dança fantástica!"
 	.byte NewLine
-.text	"I dunno how, but now I feel like"
+.text	"Não sei como, mas agora eu tô pronto"
 	.byte NewLine
-.text	"I'm ready to give life my all!"
+.text	"pra dar tudo de mim na vida!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I can't thank you enough, miss."
+.text	"Mal posso te agradecer, moça."
 	.byte NewLine
-.text	"Here, perhaps this magic sword'll help ya out."
+.text	"Aqui, talvez essa espada mágica te ajude."
 	.byte NewLine
-.text	"It oughta do a fine job of keeping ya safe."
+.text	"Vai te ajudar a ficar segura."
 	.byte WaitForA
 
 	.byte EndText
@@ -380,17 +392,17 @@ dialogueCh4VillageFarNorthWestOfZaxon
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Should Prince Kurth's daughter bear a son,"
+.text	"Se a filha do princípe Kurth tiver um filho,"
 	.byte NewLine
-.text	"that son would be heir to Grannvale's throne."
+.text	"esse filho será o príncipe real de Grannvale."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I daresay this makes Lord Arvis,"
+.text	"Eu diria que isso faz de Arvis,"
 	.byte NewLine
-.text	"husband to the princess,"
+.text	"o marido da princesa,"
 	.byte NewLine
-.text	"quite the influential figure."
+.text	"uma figura bem influente."
 	.byte WaitForA
 
 	.byte EndText

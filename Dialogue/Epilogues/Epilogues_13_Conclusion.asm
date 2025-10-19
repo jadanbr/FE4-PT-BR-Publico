@@ -18,68 +18,68 @@ dialogueEpilogues_LewynLeaves
 	.word LoadPortrait
 	.word portrait_Old_Lewyn
 	.byte StartText
-.text	"Well, Seliph, I guess this is farewell for me as well."
+.text	"Bem, Seliph, chegou minha vez de dar tchau."
 	.byte NewLine
-.text	"I've got a journey of my own to begin..."
+.text	"Eu tenho uma jornada própria pra começar..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Thank you, Lewyn... Thank you so much..."
+.text	"Obrigado, Lewyn... muito obrigado mesmo..."
 	.byte NewLine
-.text	"You've done so much for us, the young generation."
+.text	"Você fez muito para ajudar nós, os jovens."
 	.byte NewLine
-.text	"You've always guided us..."
+.text	"Você foi um verdadeiro guia..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"From the bottom of our hearts, thank you."
+.text	"Do fundo dos nossos corações, obrigado."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I did only my duty, Seliph."
+.text	"Só cumpri meu dever, Seliph."
 	.byte NewLine
-.text	"I am the wind, a wind fated to guide"
+.text	"Eu sou o vento, o vento destinado"
 	.byte NewLine
-.text	"the beating light of life."
+.text	"a soprar a luz da vida pro lado certo."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"And this very light shines on within the hearts"
+.text	"Essa luz está dentro dos corações"
 	.byte NewLine
-.text	"of every last one of you."
+.text	"de todos vocês."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I understand now... All my life, I've heard tales"
+.text	"Eu entendo agora... toda minha vida, eu ouvi"
 	.byte NewLine
-.text	"of how the dragonkin feared becoming entangled"
+.text	"histórias de que os dragões temiam se envolver"
 	.byte NewLine
-.text	"in the sorry affairs of mankind."
+.text	"nos problemas humanos, e se prenderem a eles."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"But you were different..."
+.text	"Mas você é diferente..."
 	.byte NewLine
-.text	"You guided us where your kin never would."
+.text	"Você fez o que nenhum de sua espécie fez."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"So long as our world lives on,"
+.text	"Enquanto este mundo continuar,"
 	.byte NewLine
-.text	"humanity will never forget your kindness..."
+.text	"a humanidade jamais esquecerá sua bondade..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"Lewyn... No..."
+.text	"Lewyn... não..."
 	.byte NewLine
-.text	"A hero of a distant land..."
+.text	"Um herói de uma terra distante..."
 	.byte NewLine
-.text	"Forseti of the Wind..."
+.text	"Forseti dos ventos..."
 
 	.word PauseText
 	.byte $C0

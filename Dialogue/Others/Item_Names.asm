@@ -162,83 +162,83 @@
 ;	Swords
 
 _IronSword_name
-.text "Iron Sword"
+.text "Espada de Ferro"
 .byte EndText
 
 _SteelSword_name
-.text "Steel Sword"
+.text "Espada de Aço"
 .byte EndText
 
 _SilverSword_name
-.text "Silver Sword"
+.text "Espada de Prata"
 .byte EndText
 
 _IronBlade_name
-.text "Iron Blade"
+.text "Lâmina de Ferro"
 .byte EndText
 
 _SteelBlade_name
-.text "Steel Blade"
+.text "Lâmina de Aço"
 .byte EndText
 
 _SilverBlade_name
-.text "Silver Blade"
+.text "Lâmina de Prata"
 .byte EndText	
 
 _PrayerSword_name
-.text "Prayer Sword"
+.text "Espada Milagrosa"
 .byte EndText
 
 _ThiefSword_name
-.text "Thief Sword"
+.text "Espada dos Ladrões"
 .byte EndText
 
 _BarrierBlade_name
-.text "Barrier Blade"
+.text "Espada Barreira"
 .byte EndText
 
 _BerserkEdge_name
-.text "Berserk Edge"
+.text "Espada Louca"
 .byte EndText
 
 _BraveSword_name
-.text "Brave Sword"
+.text "Espada Heróica"
 .byte EndText
 
 _SilenceEdge_name
-.text "Silence Edge"
+.text "Espada Anuladora"
 .byte EndText
 
 _SleepEdge_name
-.text "Sleep Edge"
+.text "Espada do Sono"
 .byte EndText
 
 _SlimSword_name
-.text "Slim Sword"
+.text "Espada Esguia"
 .byte EndText
 
 _Safeguard_name
-.text "Safeguard"
+.text "Espada Protetora"
 .byte EndText
 
 _FlameBrand_name
-.text "Flame Brand"
+.text "Espada de Fogo"
 .byte EndText
 
 _LandsSword_name
-.text "Lands Sword"
+.text "Espada da Terra"
 .byte EndText
 
 _LevinSword_name
-.text "Levin Sword"
+.text "Espada do Trovão"
 .byte EndText
 
 _WindSword_name
-.text "Wind Sword"
+.text "Espada de Vento"
 .byte EndText
 
 _LightBrand_name
-.text "Light Brand"
+.text "Espada da Luz"
 .byte EndText
 
 _Mystletainn_name
@@ -254,45 +254,45 @@ _Balmung_name
 .byte EndText
 
 _IronbaneSword_name
-.text "Ironbane Sword"
+.text "Corta-Aço"
 .byte EndText
 
 _WingClipper_name
-.text "Wing Clipper"
+.text "Corta-Asa"
 .byte EndText
 
 _BrokenSword_name
-.text "Broken Sword"
+.text "Espada Quebrada"
 .byte EndText
 
 ;	Lances
 
 _IronLance_name
-.text "Iron Lance"
+.text "Lança de Ferro"
 .byte EndText
 
 _SteelLance_name
-.text "Steel Lance"
+.text "Lança de Aço"
 .byte EndText
 
 _SilverLance_name
-.text "Silver Lance"
+.text "Lança de Prata"
 .byte EndText
 
 _Javelin_name
-.text "Javelin"
+.text "Azagaia"
 .byte EndText
 
 _Ridersbane_name
-.text "Ridersbane"
+.text "Mata-Cavalos"
 .byte EndText
 
 _BraveLance_name
-.text "Brave Lance"
+.text "Lança Heróica"
 .byte EndText
 
 _SlimLance_name
-.text "Slim Lance"
+.text "Lança Esguia"
 .byte EndText
 
 _Gungnir_name
@@ -304,25 +304,25 @@ _GaeBolg_name
 .byte EndText
 
 _BrokenLance_name
-.text "Broken Lance"
+.text "Lança Quebrada"
 .byte EndText
 
 ;	Axes
 
 _IronAxe_name
-.text "Iron Axe"
+.text "Machado de Ferro"
 .byte EndText
 
 _SteelAxe_name
-.text "Steel Axe"
+.text "Machado de Aço"
 .byte EndText
 
 _SilverAxe_name
-.text "Silver Axe"
+.text "Machado de Prata"
 .byte EndText
 
 _BraveAxe_name
-.text "Brave Axe"
+.text "Machado Heróico"
 .byte EndText
 
 _Helswath_name
@@ -330,33 +330,33 @@ _Helswath_name
 .byte EndText
 
 _HandAxe_name
-.text "Hand Axe"
+.text "Machadinha"
 .byte EndText
 
 _BrokenAxe_name
-.text "Broken Axe"
+.text "Machado Quebrado"
 .byte EndText
 
 ;	Bows
 
 _IronBow_name
-.text "Iron Bow"
+.text "Arco de Ferro"
 .byte EndText
 
 _SteelBow_name
-.text "Steel Bow"
+.text "Arco de Aço"
 .byte EndText
 
 _SilverBow_name
-.text "Silver Bow"
+.text "Arco de Prata"
 .byte EndText
 
 _BraveBow_name
-.text "Brave Bow"
+.text "Arco Heróico"
 .byte EndText
 
 _KillerBow_name
-.text "Killer Bow"
+.text "Arco Matador"
 .byte EndText
 
 _Yewfelle_name
@@ -364,39 +364,39 @@ _Yewfelle_name
 .byte EndText
 
 _BrokenBow_name
-.text "Broken Bow"
+.text "Arco Quebrado"
 .byte EndText
 
 ;	Ballistae
 
 _Ballista_name
-.text "Ballista"
+.text "Balista"
 .byte EndText
 
 _IronBallista_name
-.text "Iron Ballista"
+.text "Balista de Ferro"
 .byte EndText
 
 _KillerBallista_name
-.text "Killer Ballista"
+.text "Balista Matadora"
 .byte EndText
 
 _GreatBallista_name
-.text "Great Ballista"
+.text "Grande Balista"
 .byte EndText
 
 ;	Tomes
 
 _Fire_name
-.text "Fire"
+.text "Fogo"
 .byte EndText
 
 _Elfire_name
-.text "Elfire"
+.text "Incêndio"
 .byte EndText
 
 _Bolganone_name
-.text "Bolganone"
+.text "Vulcão"
 .byte EndText
 
 _Valflame_name
@@ -404,15 +404,15 @@ _Valflame_name
 .byte EndText
 
 _Meteor_name
-.text "Meteor"
+.text "Meteoro"
 .byte EndText
 
 _Thunder_name
-.text "Thunder"
+.text "Trovão"
 .byte EndText
 
 _Elthunder_name
-.text "Elthunder"
+.text "Trovoada"
 .byte EndText
 
 _Thoron_name
@@ -424,15 +424,15 @@ _Mjolnir_name
 .byte EndText
 
 _Bolting_name
-.text "Bolting"
+.text "Relâmpago"
 .byte EndText
 
 _Wind_name
-.text "Wind"
+.text "Vento"
 .byte EndText
 
 _Elwind_name
-.text "Elwind"
+.text "Ventania"
 .byte EndText
 
 _Tornado_name
@@ -444,11 +444,11 @@ _Forseti_name
 .byte EndText
 
 _Blizzard_name
-.text "Blizzard"
+.text "Nevasca"
 .byte EndText
 
 _Lightning_name
-.text "Lightning"
+.text "Luz"
 .byte EndText
 
 _Nosferatu_name
@@ -483,41 +483,41 @@ _DrainedFireTome_name
 _DrainedThunderTome_name
 _DrainedWindTome_name
 _DrainedLightTome_name
-.text "Drained Tome"
+.text "Tomo Drenado"
 .byte EndText
 
 ;	Staves
 
 _HealStaff_name
-.text "Heal Staff"
+.text "Cura"
 .byte EndText
 
 _MendStaff_name
-.text "Mend Staff"
+.text "Remendo"
 .byte EndText
 
 _RecoverStaff_name
-.text "Recover Staff"
+.text "Recuperar"
 .byte EndText
 
 _PhysicStaff_name
-.text "Physic Staff"
+.text "Cura Distante"
 .byte EndText
 
 _FortifyStaff_name
-.text "Fortify Staff"
+.text "Fortificar"
 .byte EndText
 
 _ReturnStaff_name
-.text "Return Staff"
+.text "Retorno"
 .byte EndText
 
 _WarpStaff_name
-.text "Warp Staff"
+.text "Teleporte"
 .byte EndText
 
 _RescueStaff_name
-.text "Rescue Staff"
+.text "Resgate"
 .byte EndText
 
 _CharmStaff_name
@@ -525,23 +525,23 @@ _CharmStaff_name
 .byte EndText
 
 _RestoreStaff_name
-.text "Restore Staff"
+.text "Restaurar"
 .byte EndText
 
 _ValkyrieStaff_name
-.text "Valkyrie Staff"
+.text "Valquíria"
 .byte EndText
 
 _SilenceStaff_name
-.text "Silence Staff"
+.text "Silenciar"
 .byte EndText
 
 _SleepStaff_name
-.text "Sleep Staff"
+.text "Adormecer"
 .byte EndText
 
 _BerserkStaff_name
-.text "Berserk Staff"
+.text "Enlouquecer"
 .byte EndText
 
 _ThiefStaff_name
@@ -549,73 +549,73 @@ _ThiefStaff_name
 .byte EndText
 
 _BrokenStaff_name
-.text "Broken Staff"
+.text "Caj. Quebrado"
 .byte EndText
 
 ;	Items
 
 _HealBracelet_name
-.text "Heal Bracelet"
+.text "Anel de Cura"
 .byte EndText
 
 _ParagonRing_name
-.text "Paragon Ring"
+.text "Anel de Elite"
 .byte EndText
 
 _ThiefBracelet_name
-.text "Thief Bracelet"
+.text "Anel dos Ladrões"
 .byte EndText
 
 _MiracleBracelet_name
-.text "Miracle Bracelet"
+.text "Bracelete Milagroso"
 .byte EndText
 
 _FollowUpRing_name
-.text "Follow-Up Ring"
+.text "Bracelete Ataque Duplo"
 .byte EndText
 
 _RecoverRing_name
-.text "Recover Ring"
+.text "Bracelete Recuperação"
 .byte EndText
 
 _BargainBracelet_name
-.text "Bargain Bracelet"
+.text "Bracelete da Barganha"
 .byte EndText
 
 _KnightRing_name
-.text "Knight Ring"
+.text "Anel Cavaleiro"
 .byte EndText
 
 _ReturnRing_name
-.text "Return Ring"
+.text "Anel do Retorno"
 .byte EndText
 
 _SpeedRing_name
-.text "Speed Ring"
+.text "Anel de Velocidade"
 .byte EndText
 
 _MagicRing_name
-.text "Magic Ring"
+.text "Anel de Magia"
 .byte EndText
 
 _PowerRing_name
-.text "Power Ring"
+.text "Anel do Poder"
 .byte EndText
 
 _ShieldRing_name
-.text "Shield Ring"
+.text "Anel Protetor"
 .byte EndText
 
 _BarrierRing_name
-.text "Barrier Ring"
+.text "Anel de Barreira"
 .byte EndText
 
 _LegRing_name
-.text "Leg Ring"
+.text "Anel da Agilidade"
 .byte EndText
 
 _SkillRing_name
-.text "Skill Ring"
+.text "Anel da Destreza"
 .byte EndText
 
 .here

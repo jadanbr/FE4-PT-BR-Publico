@@ -15,7 +15,7 @@ dialogueEpiloguesYngvi_Febail_NoOtherThrone_Single
 	.word LoadPortrait
 	.word portrait_Febail
 	.byte StartText
-.text	"Well, Lord Seliph, I'm off to Yngvi."
+.text	"Bem, Lorde Seliph, agora eu vou para Yngvi."
 	.byte NewLine
 	.word PauseText
 	.byte $60
@@ -24,30 +24,32 @@ dialogueEpiloguesYngvi_Febail_NoOtherThrone_Single
 	.byte LeftSlot
 .text	"Mm."
 	.byte NewLine
-.text	"Knowing Yngvi is in your most capable hands"
+.text	"Saber que Yngvi está em suas mãos"
 	.byte NewLine
-.text	"will put my mind at ease."
+.text	"me deixa despreocupado."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"...I admit, sir, I couldn't have seen all this coming"
+.text	"...Eu admito, senhor, eu nunca imaginaria"
 	.byte NewLine
-.text	"in a thousand years."
+.text	"que algo do tipo fosse acontecer."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"But finding out that my mom was Yngvi's"
+.text	"Mas descobrir que minha mãe é a Madame Brigid"
 	.byte NewLine
-.text	"Lady Brigid helped me find myself a purpose in"
+.text	"de Yngvi me ajudou a encontrar um propósito"
 	.byte NewLine
-.text	"life, and I know now what needs to be done."
+.text	"na vida, agora eu sei o que quero fazer."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"On this blessed bow of mine, Lord Seliph,"
+.text	"Com o meu arco sagrado como garantia,"
 	.byte NewLine
-.text	"I swear I'll be with you every step of the way!"
+.text	"Lorde Seliph, eu juro ficar a seu lado a"
+	.byte NewLine
+.text	"cada dia do seu reinado!"
 	.word PauseText
 	.byte $60
 
@@ -69,7 +71,7 @@ dialogueEpiloguesYngvi_Febail_NoOtherThrone_Married
 	.word LoadPortrait
 	.word portrait_Febail
 	.byte StartText
-.text	"Well, Lord Seliph, I'm off to Yngvi."
+.text	"Bem, Lorde Seliph, agora eu vou para Yngvi."
 	.byte NewLine
 	.word PauseText
 	.byte $60
@@ -78,30 +80,32 @@ dialogueEpiloguesYngvi_Febail_NoOtherThrone_Married
 	.byte LeftSlot
 .text	"Mm."
 	.byte NewLine
-.text	"Knowing Yngvi is in your most capable hands"
+.text	"Saber que Yngvi vai ficar em suas mãos"
 	.byte NewLine
-.text	"will put my mind at ease."
+.text	"me deixa despreocupado."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"...I admit, sir, I couldn't have seen all this coming"
+.text	"...Eu admito, senhor, eu nunca imaginaria"
 	.byte NewLine
-.text	"in a thousand years."
+.text	"que algo do tipo fosse acontecer."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"But finding out that my mom was Yngvi's"
+.text	"Mas descobrir que minha mãe é a Madame Brigid"
 	.byte NewLine
-.text	"Lady Brigid helped me find myself a purpose in"
+.text	"de Yngvi me ajudou a encontrar um propósito"
 	.byte NewLine
-.text	"life, and I know now what needs to be done."
+.text	"na vida, agora eu sei o que quero fazer."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"On this blessed bow of mine, Lord Seliph,"
+.text	"Com o meu arco sagrado como garantia,"
 	.byte NewLine
-.text	"I swear I'll be with you every step of the way!"
+.text	"Lorde Seliph, eu juro ficar a seu lado a"
+	.byte NewLine
+.text	"cada dia do seu reinado!"
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -119,37 +123,37 @@ dialogueEpiloguesYngvi_Febail_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Don't forget what you swore to me!"
+.text	"Não esqueça do que você jurou para mim!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"What did I promise you again?"
+.text	"Foi o que mesmo?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Oh, come on..."
+.text	"Ah, meu deus..."
 	.byte NewLine
-.text	"You ALREADY forgot?!"
+.text	"Você já esqueceu?!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Kidding, kidding!"
+.text	"Calma, calma!"
 	.byte NewLine
-.text	"It was a joke! Sorry..."
+.text	"Eu tava só brincando! Desculpa..."
 	.byte NewLine
-.text	"Wow, that's a terrifying look you're giving me."
+.text	"Ei, essa sua cara aí tá me dando medo."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"How was I supposed to know you were joking?!"
+.text	"E você acha que eu tenho bola de cristal?!"
 	.word PauseText
 	.byte $60
 
@@ -165,37 +169,39 @@ dialogueEpiloguesYngvi_Febail_LoverQuipLarcei
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"So what about what you swore to me?"
+.text	"E quanto ao juramento que nós fizemos?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"What did I promise you again?"
+.text	"O que que era mesmo?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You're kidding..."
+.text	"Só pode ser brincadeira..."
 	.byte NewLine
-.text	"You forgot ALREADY?"
+.text	"Você já esqueceu?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Kidding, kidding!"
+.text	"Calma, calma!"
 	.byte NewLine
-.text	"It was a joke! Sorry..."
+.text	"Eu tava só brincando! Desculpa..."
 	.byte NewLine
-.text	"Wow, that's a terrifying look you're giving me."
+.text	"Ei, essa sua cara aí tá me dando medo."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Can you blame me for not being sure?"
+.text	"E você acha que eu consigo"
+	.byte NewLine
+.text	"advinhar quando você tá ou não brincando?"
 	.word PauseText
 	.byte $60
 
@@ -211,39 +217,39 @@ dialogueEpiloguesYngvi_Febail_LoverQuipLana
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"And what about what you swore to me?"
+.text	"E quanto ao que você me jurou?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"What did I promise you again?"
+.text	"O que que era mesmo?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You can't be serious..."
+.text	"Como assim..."
 	.byte NewLine
-.text	"You've already forgotten?"
+.text	"Você já esqueceu?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Kidding, kidding!"
+.text	"Calma, calma!"
 	.byte NewLine
-.text	"It was a joke! Sorry..."
+.text	"Eu tava só brincando! Desculpa..."
 	.byte NewLine
-.text	"Wow, that's a terrifying look you're giving me."
+.text	"Ei, essa sua cara aí tá me dando medo."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I didn't think you were joking."
+.text	"Eu não sabia, querido."
 	.byte NewLine
-.text	"What else was I supposed to do?"
+.text	"De que forma eu deveria ter reagido?"
 	.word PauseText
 	.byte $60
 
@@ -259,37 +265,37 @@ dialogueEpiloguesYngvi_Febail_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"And what about what you swore to me?"
+.text	"Esqueceu do que juramos, querido?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"What did I promise you again?"
+.text	"O que que era mesmo?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You can't be serious..."
+.text	"Não pode estar falando sério..."
 	.byte NewLine
-.text	"You've already forgotten?"
+.text	"Você já esqueceu?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Kidding, kidding!"
+.text	"Calma, calma!"
 	.byte NewLine
-.text	"It was a joke! Sorry..."
+.text	"Eu tava só brincando! Desculpa..."
 	.byte NewLine
-.text	"Wow, that's a terrifying look you're giving me."
+.text	"Ei, essa sua cara aí tá me dando medo."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"There's a good reason I wasn't sure!"
+.text	"E como que eu ia saber!"
 	.word PauseText
 	.byte $60
 
@@ -315,52 +321,52 @@ dialogueEpiloguesYngvi_Patty_FebailAlive_Single
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And you as well, Patty?"
+.text	"Você também, Patty?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yep. No offense, but I can't say I want to"
+.text	"É. Sem querer ofender, mas eu não"
 	.byte NewLine
-.text	"sit around here twiddling my thumbs."
+.text	"quero ficar aqui atoa não."
 	.byte NewLine
-.text	"Besides, my brother'll need my help!"
+.text	"Além disso, meu irmão vai precisar de ajuda!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Once you've settled in, there'll surely be"
+.text	"Bem, tenho certeza que lá vai ter bastante"
 	.byte NewLine
-.text	"no shortage of tasks to keep you busy."
+.text	"coisa pra você fazer."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"But I assure you, none of it will involve theft."
+.text	"Mas eu já vou te avisar,"
 	.byte NewLine
-.text	"A noble has no place robbing others."
+.text	"nada que envolva roubo. Um nobre não"
+	.byte NewLine
+.text	"deveria roubar dos outros."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Oh!"
+.text	"Ah! Como pode dizer isso, senhor?!"
 	.byte NewLine
-.text	"How could you SAY that, sir?!"
-	.byte NewLine
-.text	"I gave the thief thing up ages ago!"
+.text	"Eu parei de roubar faz tempo!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Heh, my apologies."
+.text	"Heh, desculpa."
 	.byte NewLine
-.text	"Well, Patty, take care."
+.text	"Bem, Patty, se cuide."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"You too, sir..."
+.text	"Você também, senhor..."
 	.word PauseText
 	.byte $60
 
@@ -386,62 +392,69 @@ dialogueEpiloguesYngvi_Patty_FebailAlive_LoverDead
 	.word PrintStoredNameB
 .text	"?"
 	.byte NewLine
-.text	"Are... Are those tears?"
+.text	"Você... está chorando?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 .text	"Sniff..."
 	.byte NewLine
-.text	"Yeah, they are..."
+.text	"Sim, estou..."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"You truly did love "
+.text	"Você amava o "
 	.word PrintStoredNameA
-.text	", didn't you..."
+.text	" de verdade, não é..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I did! I really did..."
+.text	"Eu amava ele..."
 	.byte NewLine
-.text	"So, so much..."
+.text	"Eu amava ele muito, demais..."
 	.byte NewLine
-.text	"What do I do now, Lord Seliph?"
+.text	"O que eu faço agora, Lorde Seliph?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I cannot say for sure, "
+.text	"Eu não tenho muito o que dizer, "
 	.word PrintStoredNameB
 .text	"."
 	.byte NewLine
-.text	"But I do know this: You need to live on."
+.text	"Somente uma coisa: Tem que seguir em frente."
 	.byte NewLine
-.text	"Be strong."
+.text	"Seja forte."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"No matter the tragedies which befall you,"
+.text	"Não importa o que acontecer, você"
 	.byte NewLine
-.text	"you mustn't give in completely."
+.text	"não pode desistir."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Y-yeah... I'll try..."
+.text	"É-é... eu vou tentar..."
 	.byte NewLine
-.text	"But can I ask for something first?"
+.text	"Mas eu posso te pedir uma coisa primeiro?"
 	.word PauseText
 	.byte $60
+
+	.byte LeftSlot
 	.word ScrollBoth
-.text	"Can you just... hold me for a while?"
+.text	"Pode, Daisy."
+
+	.byte RightSlot
+	.word PauseText
+	.byte $20
+.text	"Pode me... segurar um tempinho?"
 	.byte NewLine
-.text	"Is that okay?"
+.text	"Tem como?"
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -470,53 +483,53 @@ dialogueEpiloguesYngvi_Patty_InheritsThrone
 	.word LoadPortrait
 	.word portrait_Patty
 	.byte StartText
-.text	"I'm off to Yngvi now, Lord Seliph."
+.text	"Eu vou para Yngvi agora, Lorde Seliph."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Ah, of course."
+.text	"Ah, sim."
 	.byte NewLine
-.text	"You're the heir to Yngvi."
+.text	"Você é a próxima na linha pra Yngvi."
 	.byte NewLine
-.text	"...Will you be okay?"
+.text	"...Você vai ficar bem?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Huh?"
+.text	"Hm? Porque eu não ficaria, "
 	.byte NewLine
-.text	"Why, Lord Seliph, you're not saying you think"
+.text	"Lorde Seliph? Você acha que estou"
 	.byte NewLine
-.text	"I'm nervous about this, are you?"
+.text	"nervosa, é?"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Er, no."
+.text	"Errr, não."
 	.byte NewLine
-.text	"That isn't what I meant!"
+.text	"Não é o que eu quis dizer!"
 	.byte NewLine
-.text	"I just-"
+.text	"Eu só-"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I'll be just fine, sir."
+.text	"Eu vou ficar bem, senhor."
 	.byte NewLine
-.text	"I'm the daughter of the great Lady Brigid,"
+.text	"Eu sou a filha da grande Madame Brigid,"
 	.byte NewLine
-.text	"after all!"
+.text	"afinal!"
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"Sure, I don't look the part,"
+.text	"Claro, eu não pareço ser, mas o que eu"
 	.byte NewLine
-.text	"but when the going needs doing, I'll go and do it!"
+.text	"precisar fazer, vou fazer direitinho!"
 	.byte NewLine
-.text	"Just watch me go, sir!"
+.text	"Só precisa assistir, senhor!"
 	.word PauseText
 	.byte $60
 
@@ -540,36 +553,36 @@ dialogueEpiloguesYngvi_Lester_InheritsThrone_Single
 	.word LoadPortrait
 	.word portrait_Lester
 	.byte StartText
-.text	"Well, Lord Seliph, I'm off to Yngvi."
+.text	"Bem, Lorde Seliph, agora eu vou pra Yngvi."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Mm. Knowing Yngvi is in your most capable hands"
+.text	"Mm. Saber que Yngvi vai ficar em suas mãos"
 	.byte NewLine
-.text	"will put my mind at ease."
+.text	"vai me deixar despreocupado."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yngvi should've gone to Lady Brigid's kids,"
+.text	"Yngvi deveria ir para os filhos da Brigid,"
 	.byte NewLine
-.text	"but there's not much choice now."
+.text	"mas isso não é mais possível."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll do everything I can to help restore Yngvi,"
+.text	"Eu irei colocar Yngvi de volta no"
 	.byte NewLine
-.text	"where my mother, Edain, couldn't."
+.text	"caminho certo. Certamente é o que minha mãe,"
+	.byte NewLine
+.text	"Edain, quer."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And of course, Lord Seliph, I promise that you,"
+.text	"E claro, Lorde Seliph, sendo você meu rei,"
 	.byte NewLine
-.text	"Grannvale's new king, will always have my"
-	.byte NewLine
-.text	"loyalty."
+.text	"eu serei leal até a morte."
 	.word PauseText
 	.byte $60
 
@@ -591,36 +604,36 @@ dialogueEpiloguesYngvi_Lester_InheritsThrone_Married
 	.word LoadPortrait
 	.word portrait_Lester
 	.byte StartText
-.text	"Well, Lord Seliph, I'm off to Yngvi."
+.text	"Bem, Lorde Seliph, agora eu vou pra Yngvi."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Mm. Knowing Yngvi is in your most capable hands"
+.text	"Mm. Saber que Yngvi vai ficar em suas mãos"
 	.byte NewLine
-.text	"will put my mind at ease."
+.text	"vai me deixar despreocupado."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yngvi should've gone to Lady Brigid's kids,"
+.text	"Yngvi deveria ir para os filhos da Brigid,"
 	.byte NewLine
-.text	"but there's not much choice now."
+.text	"mas isso não é mais possível."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'll do everything I can to help restore Yngvi,"
+.text	"Eu irei colocar Yngvi de volta no"
 	.byte NewLine
-.text	"where my mother, Edain, couldn't."
+.text	"caminho certo. Certamente é o que minha mãe,"
+	.byte NewLine
+.text	"Edain, quer."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
-.text	"And of course, Lord Seliph, I promise that you,"
+.text	"E claro, Lorde Seliph, sendo você meu rei,"
 	.byte NewLine
-.text	"Grannvale's new king, will always have my"
-	.byte NewLine
-.text	"loyalty."
+.text	"eu serei leal até a morte."
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -638,34 +651,34 @@ dialogueEpiloguesYngvi_Lester_InheritsThrone_LoverQuipPeppy
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"Don't forget your promise to me!"
+.text	"Não esqueça do que você me prometeu!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I haven't, of course!"
+.text	"Eu não esqueci!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Just checking!"
+.text	"Tô só dando uma olhadinha!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 	.word PrintStoredNameA
-.text	", you're kinda scaring me here."
+.text	", você está me assustando."
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Oh, that's just mean!"
+.text	"Ah, agora você tá de maldade!"
 	.byte NewLine
-.text	"And if you say much more of it,"
+.text	"Se você falar algo assim de novo, quem sabe"
 	.byte NewLine
-.text	"I don't know WHAT I'll do! Heh heh heh..."
+.text	"o que eu posso acabar fazendo? Heh heh..."
 	.word PauseText
 	.byte $60
 
@@ -681,26 +694,26 @@ dialogueEpiloguesYngvi_Lester_InheritsThrone_LoverQuipNoble
 	.word OpenBox
 	.word LoadStoredPortraitB
 	.byte StartText
-.text	"And what of your promise to me?"
+.text	"E quanto ao que você me prometeu?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I haven't forgotten, of course!"
+.text	"Eu não esqueci, claro!"
 	.word PauseText
 	.byte $60
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Good."
+.text	"Bom."
 	.byte NewLine
-.text	"I thought you wouldn't, Lester."
+.text	"Imaginei que não iria."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 	.word PrintStoredNameA
-.text	", you're kinda scaring me here."
+.text	", você está me assustando."
 	.word PauseText
 	.byte $60
 
@@ -708,7 +721,7 @@ dialogueEpiloguesYngvi_Lester_InheritsThrone_LoverQuipNoble
 	.word ScrollBoth
 .text	"Heh heh..."
 	.byte NewLine
-.text	"Am I now?"
+.text	"Estou?"
 	.word PauseText
 	.byte $60
 
@@ -730,7 +743,7 @@ dialogueEpiloguesYngvi_Lester_NoThrone_Single
 	.word LoadPortrait
 	.word portrait_Lester
 	.byte StartText
-.text	"I'm going back to Yngvi as well, sir."
+.text	"Eu vou para Yngvi também, senhor."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -738,18 +751,18 @@ dialogueEpiloguesYngvi_Lester_NoThrone_Single
 	.byte LeftSlot
 .text	"Mm."
 	.byte NewLine
-.text	"I know Yngvi will need your might in the years"
+.text	"Sei que Yngvi vai precisar de você,"
 	.byte NewLine
-.text	"to come, as will I."
+.text	"assim como eu também vou."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir. I want to help my cousin,"
+.text	"Sim, senhor. Eu quero ajudar meu primo,"
 	.byte NewLine
-.text	"just as my mother once helped my aunt,"
+.text	"assim como minha mãe ajudou minha tia, e"
 	.byte NewLine
-.text	"and I hope I can for the rest of my life."
+.text	"assim seguir o resto da minha vida."
 	.word PauseText
 	.byte $60
 
@@ -771,7 +784,7 @@ dialogueEpiloguesYngvi_Lester_NoThrone_Married
 	.word LoadPortrait
 	.word portrait_Lester
 	.byte StartText
-.text	"I'm going back to Yngvi as well, sir."
+.text	"Eu vou para Yngvi também, senhor."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -779,18 +792,19 @@ dialogueEpiloguesYngvi_Lester_NoThrone_Married
 	.byte LeftSlot
 .text	"Mm."
 	.byte NewLine
-.text	"I know Yngvi will need your might in the years"
+.text	"Sei que Yngvi vai precisar de você,"
 	.byte NewLine
-.text	"to come, as will I."
+.text	"assim como eu também vou."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yes, sir. I want to help my cousin,"
+.text	"Sim, senhor. Eu quero ajudar meu primo,"
 	.byte NewLine
-.text	"just as my mother once helped my aunt,"
+.text	"assim como minha mãe ajudou minha tia, e"
 	.byte NewLine
-.text	"and I hope I can for the rest of my life."
+.text	"assim seguir o resto da minha vida."
+	.word PauseText
 	.word PauseText
 	.byte $60
 	.word RunASM
@@ -809,20 +823,18 @@ dialogueEpiloguesYngvi_Lester_NoThrone_LoverQuipPeppy
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And you as well, "
+.text	"E você vai com ele, "
 	.word PrintStoredNameA
-.text	"..."
+.text	", certo?"
 	.byte NewLine
-.text	"You're as close to him as they come, aren't you?"
+.text	"Vá, eu sei que você o ama."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"Yep!"
+.text	"Sim, senhor! De vez em quando eu te faço"
 	.byte NewLine
-.text	"I guess this means we'll be around to visit you"
-	.byte NewLine
-.text	"quite a bit, sir!"
+.text	"uma visita, Lorde Seliph!"
 	.word PauseText
 	.byte $60
 
@@ -839,20 +851,20 @@ dialogueEpiloguesYngvi_Lester_NoThrone_LoverQuipNoble
 
 	.byte LeftSlot
 	.byte StartText
-.text	"And you as well, "
+.text	"E você vai com ele, "
 	.word PrintStoredNameA
-.text	"..."
+.text	", certo?"
 	.byte NewLine
-.text	"You're as close to him as they come, aren't you?"
+.text	"Vá, eu sei que você o ama."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"So I am, Lord Seliph."
+.text	"Sim, Lorde Seliph."
 	.byte NewLine
-.text	"I'm glad we'll get the chance"
+.text	"Eu fico muito feliz de poder continuar"
 	.byte NewLine
-.text	"to keep working with you."
+.text	"te servindo."
 	.word PauseText
 	.byte $60
 
@@ -880,7 +892,7 @@ dialogueEpiloguesYngvi_Lana_LesterAlive_Single
 	.byte StartText
 .text	"Lana..."
 	.byte NewLine
-.text	"My apologies..."
+.text	"Me perdoe..."
 
 	.byte RightSlot
 	.word PauseText
@@ -891,26 +903,26 @@ dialogueEpiloguesYngvi_Lana_LesterAlive_Single
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I know you're mad at me, Lana."
+.text	"Eu sei que está brava comigo, Lana."
 	.byte NewLine
-.text	"Lester told me as much."
+.text	"Lester me disse."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 	.byte StartText
-.text	"That's because you've..."
+.text	"Isso é porque você..."
 	.byte NewLine
-.text	"No, it's fine."
+.text	"Não, esquece."
 	.byte NewLine
-.text	"I'll be fine."
+.text	"Eu vou ficar bem."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'm going home to Yngvi now."
+.text	"Eu vou para Yngvi agora."
 	.byte NewLine
-.text	"Farewell, Lord Seliph..."
+.text	"Adeus, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -942,7 +954,7 @@ dialogueEpiloguesYngvi_Lana_LesterDead_Single
 	.byte StartText
 .text	"Lana..."
 	.byte NewLine
-.text	"My apologies..."
+.text	"Me perdoe..."
 
 	.byte RightSlot
 	.word PauseText
@@ -953,24 +965,24 @@ dialogueEpiloguesYngvi_Lana_LesterDead_Single
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"I know you're mad at me, Lana."
+.text	"Eu sei que você está brava comigo, Lana."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
 	.byte StartText
-.text	"That's because you've..."
+.text	"Isso é porque você..."
 	.byte NewLine
-.text	"No, it's fine."
+.text	"Não, não se preocupe."
 	.byte NewLine
-.text	"I'll be fine."
+.text	"Eu vou ficar bem."
 	.byte NewLine
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"I'm going home to Yngvi now."
+.text	"Eu vou para Yngvi agora."
 	.byte NewLine
-.text	"Farewell, Lord Seliph..."
+.text	"Adeus, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
@@ -1000,39 +1012,41 @@ dialogueEpiloguesYngvi_Lana_LoverDead
 
 	.byte LeftSlot
 	.byte StartText
-.text	"I never thought this would happen, Lana..."
+.text	"Eu nunca imaginei que isso iria"
+	.byte NewLine
+.text	"acontecer, Lana..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I'm sorry..."
+.text	"Me desculpa..."
 	.byte NewLine
-.text	"I... I loved "
+.text	"Eu... eu amava o "
 	.word PrintStoredNameA
 .text	"..."
 	.byte NewLine
-.text	"So, so much..."
+.text	"Muito, muito mesmo..."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"And I can't stop thinking about him..."
+.text	"Agora não consigo parar de pensar nele..."
 	.byte NewLine
-.text	"How I couldn't save him..."
+.text	"Pensar em como eu não pude salvá-lo..."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"I know..."
+.text	"Entendo..."
 	.byte NewLine
-.text	"You'll be going to Yngvi, then?"
+.text	"Então você irá para Yngvi?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I will..."
+.text	"Eu irei..."
 	.byte NewLine
-.text	"Farewell, Lord Seliph..."
+.text	"Adeus, Lorde Seliph..."
 	.word PauseText
 	.byte $60
 
@@ -1058,37 +1072,33 @@ dialogueEpiloguesYngvi_Lana_InheritsThrone
 	.byte StartText
 .text	"Lana..."
 	.byte NewLine
-.text	"You'll be inheriting the Yngvi throne, will you not?"
+.text	"Você vai herdar o ducado de Yngvi, certo?"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"I will..."
+.text	"Eu vou... eu admito que eu nunca pensei"
 	.byte NewLine
-.text	"I admit I never even thought Yngvi's rule"
-	.byte NewLine
-.text	"would be left to me."
+.text	"que o governo de Yngvi ficaria comigo."
 	.word PauseText
 	.byte $60
 	.word ScrollBoth
-.text	"But..."
+.text	"Mas... agora eu posso te ajudar..."
 	.byte NewLine
-.text	"I'll get to stay by your side and help you..."
-	.byte NewLine
-.text	"And I'm so glad I can."
+.text	"E eu fico muito feliz em poder te ajudar."
 	.word PauseText
 	.byte $60
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"We've always been together, haven't we, Lana?"
+.text	"Nós sempre acabamos juntos, não é, Lana?"
 	.byte NewLine
-.text	"...Fate is an odd thing, I suppose."
+.text	"...A mão do destino é misteriosa."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $20
-.text	"It truly is..."
+.text	"Realmente..."
 	.word PauseText
 	.byte $60
 

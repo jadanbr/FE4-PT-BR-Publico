@@ -14,23 +14,23 @@ dialogueCh3ApproachEldigan
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Eldigan, please!"
+.text	"Eldigan, por favor!"
 	.word PauseText
 	.byte $08
 	.byte NewLine
-.text	"Lay down your sword!"
+.text	"Abaixe sua espada!"
 	.word PauseText
 	.byte $08
 	.byte NewLine
-.text	"I don't want to fight you!"
+.text	"Eu não quero lutar com você!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I still have every intention of returning"
+.text	"Eu ainda tenho a intenção de devolver"
 	.byte NewLine
-.text	"Agusti to Chagall!"
+.text	"Agusti para Chagall!"
 	.byte NewLine
-.text	"All I need is a little more time, I swear!"
+.text	"Tudo que eu preciso é de mais tempo, eu juro!"
 	.word PauseText
 	.byte $10
 
@@ -39,21 +39,21 @@ dialogueCh3ApproachEldigan
 	.word PauseText
 	.byte $08
 	.byte NewLine
-.text	"I'm sorry, but I grow weary of these excuses."
+.text	"Me perdoe, mas eu cansei de suas desculpas."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"We stand now as two knights on the battlefield,"
+.text	"Agora somos dois cavaleiros em campo,"
 	.byte NewLine
-.text	"sworn to an honorable duel."
+.text	"destinados à um duelo final."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Draw, Sigurd!"
+.text	"Prepare-se, Sigurd!"
 	.byte NewLine
-.text	"So long as I wield the demon blade, Mystletainn,"
+.text	"Mas enquanto eu tiver a lendária Mystletainn,"
 	.byte NewLine
-.text	"I won't be the one to fall this day!"
+.text	"Não vai ser eu que vou perder!"
 	.byte WaitForA
 
 	.byte EndText
@@ -73,30 +73,32 @@ dialogueCh3KillEldigan1
 
 	.byte LeftSlot
 	.byte StartText
-.text	"W... Why... Why did this happen?"
+.text	"Por... porquê... porquê isso aconteceu?"
 	.word PauseText
 	.byte $08
 	.byte NewLine
-.text	"Why couldn't we save Eldigan?!"
+.text	"Porquê não podíamos salvar Eldigan?!"
 	.word PauseText
 	.byte $08
 	.byte NewLine
-.text	"Has this damned war been in vain all along..."
+.text	"Será que toda essa guerra foi em vão..."
 
 	.byte RightSlot		;Oifey
 	.word PauseText
 	.byte $10
-.text	"I'm sorry, sire, but there was nothing you could"
+.text	"Me perdoe dizer isso senhor, mas não havia"
 	.byte NewLine
-.text	"have done. I know it hurts, but..."
+.text	"nada que pudesse fazer."
+	.byte NewLine
+.text	"Eu sei que machuca, mas..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"For now, the best we can do is work to realize"
+.text	"Agora, o melhor que podemos fazer é atender"
 	.byte NewLine
-.text	"Eldigan's wishes, and give the Agustrian people"
+.text	"ao desejo de Eldigan, e dar paz ao povo"
 	.byte NewLine
-.text	"the peace they deserve."
+.text	"de Agustria."
 	.byte WaitForA
 
 	.byte EndText
@@ -118,27 +120,27 @@ dialogueCh3KillEldigan2
 	.byte StartText
 .text	"Travant!"
 	.byte NewLine
-.text	"I trust your wyvern unit is ready?"
+.text	"Imagino que seus dragões estão prontos?"
 
 	.byte RightSlot		;Travant
 	.word PauseText
 	.byte $08
-.text	"You can rest assured, Chagall."
+.text	"Pode ficar tranquilo, Chagall."
 	.byte NewLine
-.text	"We'll deliver on your expectations."
+.text	"Nós não desapontaremos."
 	.byte WaitForA
 
 	.byte LeftSlot		;Chagall
 	.word ScrollBoth
-.text	"Hmph. I suppose even these common sellswords"
+.text	"Hmph. Eu suponho que até esses mercenários"
 	.byte NewLine
-.text	"ought to do a better job for me than all of my"
+.text	"devem fazer um trabalho melhor que meus"
 	.byte NewLine
-.text	"worthless servants..."
+.text	"servos inúteis..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Don't you dare let me down!"
+.text	"Não ouse me desapontar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -151,23 +153,23 @@ dialogueCh3KillEldigan3
 	.word LoadPortrait
 	.word portrait_Papilio
 	.byte StartText
-.text	"Pick up the pace!"
+.text	"Apressem o passo!"
 	.word PauseText
 	.byte $08
 	.byte NewLine
-.text	"Agustria's right ahead!"
+.text	"Agustria está logo a frente!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Our targets are the knights of Grannvale."
+.text	"Nossos alvos são os cavaleiros de Grannvale."
 	.byte NewLine
-.text	"Take your fill of battle!"
+.text	"Cada um deve fazer sua parte!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sear the name of Thracia into the memories"
+.text	"Ponha o nome de Trácia nas memórias"
 	.byte NewLine
-.text	"of this land!"
+.text	"desta terra!"
 	.byte WaitForA
 
 	.byte EndText
@@ -183,19 +185,19 @@ dialogueCh3KillPapilio_Or_SeizeSylvale
 .text	"Ugh..."
 	.word PauseText
 	.byte $08
-.text	" Papilio failed, did he? That does it."
+.text	"Papilio morreu, é? Chegou a hora."
 	.byte NewLine
-.text	"It's time to withdraw. I refuse to fall with"
+.text	"Hora de ir embora. Eu não vou morrer"
 	.byte NewLine
-.text	"this flaming wreck of a country."
+.text	"junto com esse país arruinado."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Heh, farewell, King Chagall..."
+.text	"Adeus, Rei Chagall..."
 	.word PauseText
 	.byte $08
 	.byte NewLine
-.text	"You fool."
+.text	"Idiota."
 	.byte WaitForA
 
 	.byte EndText
@@ -208,11 +210,11 @@ dialogueCh3WindSword1
 	.word LoadPortrait
 	.word portrait_Dew
 	.byte StartText
-.text	"Oh, whoa! This is that Tower of Bragi place,"
+.text	"Oh, olha só! Essa é a tal Torre de Bragi,"
 	.byte NewLine
-.text	"isn't it? Hee hee! Got a good thiefy feeling"
+.text	"não é? Hee hee! Acho que aqui tem coisa boa!"
 	.byte NewLine
-.text	"about this one! Let's see what it's got..."
+.text	"Vamos entrar e ver..."
 	.byte WaitForA
 
 	.byte EndText
@@ -225,52 +227,52 @@ dialogueCh3WindSword2
 	.byte StartText
 .text	"Mmm?"
 	.byte NewLine
-.text	"Nope, nothin' over here."
+.text	"Não, nada aqui."
 	.byte NewLine
-.text	"Over there, maybe?"
+.text	"Aqui, será?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"...Aww, man!"
+.text	"...Aww, droga!"
 	.byte NewLine
-.text	"What a borin' little dump."
+.text	"Só um lugar vazio mesmo."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
 	.word OpenBox
-.text	"...Who... Who are you..."
+.text	"...Quem... quem é você..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Dew
 	.word ScrollBoth
-.text	"Huh?!"
+.text	"Hã?!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"...State your business..."
+.text	"...Diga a o que veio..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Dew
 	.word ScrollBoth
-.text	"Heh, maybe if I pretend I can't hear 'em..."
+.text	"Talvez se eu ficar parado, ele não me veja..."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"How dare you... defile this sacred ground..."
+.text	"Como ousa... profanar este lugar sagrado..."
 	.byte NewLine
-.text	"...BEGONE!"
+.text	"...SAIA!"
 	.byte WaitForA
 
 	.byte LeftSlot		;Dew
 	.word ScrollBoth
-.text	"Kyaaa!"
+.text	"Aaaaa!"
 	.byte NewLine
-.text	"S-sorry!"
+.text	"D-desculpa!"
 	.byte NewLine
-.text	"Please don't hurt me!"
+.text	"Por favor não me machuque!"
 	.byte WaitForA
 
 	.byte EndText
@@ -283,17 +285,17 @@ dialogueCh3WindSword3
 	.word LoadPortrait
 	.word portrait_Dew
 	.byte StartText
-.text	"Hah... hah... What just happened?!"
+.text	"Hah... hah... O que aconteceu?!"
 	.byte NewLine
-.text	"...Hang on. A sword?"
+.text	"...Pera aí. Uma espada?"
 	.byte NewLine
-.text	"What's it doin' sitting around a place like this?"
+.text	"Será que isso já tava aqui?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Eh, who cares?"
+.text	"Eh, quem liga?"
 	.byte NewLine
-.text	"Guess I'm gettin' something outta this after all!"
+.text	"Não vou sair de mãos vazias pelo menos!"
 	.byte WaitForA
 
 	.byte EndText

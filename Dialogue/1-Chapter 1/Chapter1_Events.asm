@@ -14,14 +14,14 @@ dialogueCh1Intro1
 
 	.byte LeftSlot
 	.byte StartText
-.text	"You're doing a fine job, soldier."
+.text	"Continue o bom trabalho, soldado."
 	.byte NewLine
-.text	"I leave the border's defenses to you."
+.text	"Eu deixo a fronteira em suas mãos."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Yes, milord!"
+.text	"Sim, milorde!"
 	.byte WaitForA
 
 	.byte EndText
@@ -41,75 +41,78 @@ dialogueCh1Intro2
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Sigurd! It's been a long time."
+.text	"Sigurd! Quanto tempo eu não te vejo!"
 	.byte NewLine
-.text	"Pray tell, why do I find you suddenly occupying"
+.text	"Diga-me, porquê de repente"
 	.byte NewLine
-.text	"Evans?"
+.text	"te encontro aqui em Evans?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You couldn't possibly be declaring war"
+.text	"Por acaso quer uma guerra"
 	.byte NewLine
-.text	"on Verdane, could you?"
+.text	"com Verdane?"
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Eldigan! Am I glad to see you."
+.text	"Eldigan! Que bom te ver de novo!"
 	.byte NewLine
-.text	"Listen. The Verdanites have abducted"
+.text	"Deixe me explicar. Os verdanitas raptaram"
 	.byte NewLine
-.text	"Lady Edain of Yngvi."
+.text	"Madame Edain de Yngvi."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"They've made it amply clear that they"
+.text	"Eles já deixaram bem claro que não"
 	.byte NewLine
-.text	"don't plan on releasing her."
+.text	"vão soltá-la."
 	.byte NewLine
-.text	"Taking her back by force is our only option."
+.text	"Resgatá-la à força é a nossa única opção."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Eldigan
-.text	"Ah, I see. That makes sense."
+.text	"Ah, entendi. Isso faz sentido."
 	.byte NewLine
-.text	"Well, whatever you do,"
+.text	"Bem, qualquer que seja seu plano,"
 	.byte NewLine
-.text	"you cannot afford to leave Evans unattended."
+.text	"melhor não deixar Evans desprotegida."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"My fellow Agustrian lords have been of a"
+.text	"Meus compatriotas de Agustria tem estado"
 	.byte NewLine
-.text	"rancorous sort of late... Ah, I know."
+.text	"um tanto... hostis... Ah, já sei."
 	.byte NewLine
-.text	"I'll ensure they don't threaten you from behind."
+.text	"Se algo acontecer, eu e meus soldados"
+	.byte WaitForA
+	.byte NewLine
+.text	"protegeremos sua retaguarda."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"I'm sorry to involve you in this as well."
+.text	"Me desculpa te envolver nisso também."
 	.byte NewLine
-.text	"Say, Eldigan, once I'm done here,"
+.text	"Então, Eldigan, depois de eu acabar, aqui,"
 	.byte NewLine
-.text	"what do you say to a catch up?"
+.text	"que tal a gente tirar um tempo pra conversar?"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"You, me, a fine bottle of wine..."
+.text	"Você, eu, e uma garrafa de vinho..."
 	.byte NewLine
-.text	"Just like old times."
+.text	"Como nos velhos tempos."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Eldigan
-.text	"Mm. I'm looking forward to it."
+.text	"Mm. Seria esplêndido, amigo."
 	.byte NewLine
-.text	"I trust I'll see you later, then."
+.text	"Espero te ver depois, então."
 	.byte NewLine
-.text	"May luck be with you this day, Sigurd!"
+.text	"Que a sorte esteja contigo hoje, Sigurd!"
 	.byte WaitForA
 
 	.byte EndText
@@ -129,17 +132,17 @@ dialogueCh1Intro3
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Listen up, Ayra! You know the deal."
+.text	"Ei, Ayra! Você já sabe o acordo."
 	.byte NewLine
-.text	"While I'm out, you guard the palace,"
+.text	"Enquanto eu estiver fora, proteja o castelo,"
 	.byte NewLine
-.text	"right up to your very last breath."
+.text	"até seu último suspiro."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Remember, first sign of funny business,"
+.text	"E lembre-se, se tentar aprontar alguma coisa,"
 	.byte NewLine
-.text	"and it's the brat's head."
+.text	"nós mandamos o garoto pro céu."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -150,11 +153,11 @@ dialogueCh1Intro3
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Young_Shannan
-.text	"Ayra! Ayra, I'll be alright!"			
+.text	"Tia! Tia Ayra, eu vou ficar bem!"			
 	.byte NewLine
-.text	"Don't give in to these thugs!"
+.text	"Não escute esses bandidos!"
 	.byte NewLine
-.text	"Don't let 'em boss you around!"
+.text	"Não deixe eles mandarem em você!"
 
 	.byte RightSlot		;Ayra
 	.word PauseText
@@ -173,60 +176,66 @@ dialogueCh1Intro3
 	.word portrait_Cimbaeth1
 
 	.byte RightSlot		
-.text	"Look, Cimbaeth, you have my word."
+.text	"Certo, Cimbaeth, tem minha palavra."
 	.byte NewLine
-.text	"So long as you leave Shannan alone,"
+.text	"Enquanto Shannan continuar ileso,"
 	.byte NewLine
-.text	"you'll have no trouble."
+.text	"não terá nenhum problema."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But I do wonder if, once this battle is over,"
+.text	"Mas eu me pergunto se, quando isso acabar,"
 	.byte NewLine
-.text	"you actually plan to return him to me."
+.text	"você vai realmente devolvê-lo."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Cimbaeth
 .text	"Ahahahaha!"
 	.byte NewLine
-.text	"You got nothing to worry about."
+.text	"Não se preocupe. Se retomar-mos Evans,"
 	.byte NewLine
-.text	"If we get Evans back, you get him back."
+.text	"você o terá de volta."
 
 	.byte RightSlot		;Ayra
 	.word PauseText
 	.byte $10
-.text	"I understand."
+.text	"Eu entendo."
 	.byte NewLine
-.text	"But be warned, Cimbaeth: if you break your"
+.text	"Mas esteja avisado, Cimbaeth:"
 	.byte NewLine
-.text	"promise, you'll deeply regret it."
+.text	"Se você quebrar sua promessa,"
+	.byte WaitForA
+	.byte NewLine
+.text	"irá se arrepender terrivelmente."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Cross me, and I will pursue you to the very"
+.text	"Se não cumprir com sua parte,"
 	.byte NewLine
-.text	"depths of the inferno itself, till I take your head."
+.text	"eu irei atrás de você,"
 	.byte NewLine
-.text	"Remember this well!"
+.text	"e não irei parar, até que você morra."
+	.byte WaitForA
+	.byte NewLine
+.text	"Lembre-se disso!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Cimbaeth
-.text	"Wh-whoa, settle down there!"
+.text	"Ca-caramba, calma, mulher!"
 	.byte NewLine
-.text	"I don't believe it... Such a cute face,"
+.text	"Que coisa feia de se dizer,"
 	.byte NewLine
-.text	"but you only use it to spew bile like that!"
+.text	"para alguém bonita como você!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I'm not about to make an enemy outta someone"
+.text	"Não se preocupe, eu não vou me arriscar"
 	.byte NewLine
-.text	"with a sword arm as fine as yours."
+.text	"a contrariar alguém como você. Pelo menos,"
 	.byte NewLine
-.text	"I can promise you that."
+.text	"te garanto que quero continuar vivo!"
 	.byte WaitForA
 	.byte ScrollText
 
@@ -239,16 +248,16 @@ dialogueCh1Intro3
 	.word portrait_Young_Shannan
 
 	.byte RightSlot		;Ayra
-.text	"Shannan, sit tight."
+.text	"Shannan, fique quietinho aí."
 	.byte NewLine
-.text	"Be patient for just a bit longer."
+.text	"Espere só mais um tempinho."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Shannan
-.text	"Ayra, no!"
+.text	"Ayra, não!"
 	.byte NewLine
-.text	"Don't do it! Don't go!"
+.text	"Não vá embora! Por favor!"
 
 	.byte RightSlot
 	.word ClearPortrait		;clears Ayra
@@ -257,7 +266,8 @@ dialogueCh1Intro3
 	.byte $0C
 
 	.byte LeftSlot
-.text	" AYRA!!"
+	.byte NewLine
+.text	"TIA AYRA!!"
 	.byte WaitForA
 
 	.byte EndText
@@ -270,9 +280,9 @@ dialogueCh1Intro4
 	.word LoadPortrait
 	.word portrait_Cimbaeth1
 	.byte StartText
-.text	"Feh... Right, boys, we're moving out!"
+.text	"Ufa... Certo, garotos, vambora!"
 	.byte NewLine
-.text	"We're taking back Evans!"
+.text	"Vamos retomar Evans!"
 	.byte WaitForA
 
 	.byte EndText
@@ -293,52 +303,52 @@ dialogueCh1Turn2SigurdPhase1
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Come on, Edain!"
+.text	"Vem logo, Edain!"
 	.byte NewLine
-.text	"Take the brat and get out of here, and quickly!"
+.text	"Pega o garoto e sai de uma vez!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You need to get as far away as you can"
+.text	"Fuja para o mais longe que puder,"
 	.byte NewLine
-.text	"before Munnir finds out!"
+.text	"antes que o meu irmão perceba!"
 	
 	.byte RightSlot		;Edain
 	.word PauseText
 	.byte $10
-.text	"Pardon me, Prince Jamke,"
+.text	"Perdoe-me a pergunta, Princípe Jamke,"
 	.byte NewLine
-.text	"but are you not joining us?"
+.text	"mas você não virá conosco?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Jamke
 	.word ScrollBoth
-.text	"No. I won't stand for my brothers' vile ways"
+.text	"Não. Eu não compactuo com o que meus irmãos"
 	.byte NewLine
-.text	"but I just won't betray my father, either."
+.text	"fazem, mas também não posso trair meu pai."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I'm going back to the capital."
+.text	"Eu vou voltar para a capital."
 	.byte NewLine
-.text	"I'm going to try, one more time,"
+.text	"Vou tentar, mais uma vez,"
 	.byte NewLine
-.text	"to convince my father."
+.text	"convencer meu pai."
 	
 	.byte RightSlot		;Edain
 	.word PauseText
 	.byte $10
-.text	"You're right... We must do all we can to"
+.text	"Você está certo... temos todos que fazer"
 	.byte NewLine
-.text	"to end this war as soon as possible."
+.text	"o possível para acabar com essa guerra."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Prince Jamke, I would sooner not burden you"
+.text	"Princípe Jamke, Eu não queria que fizesse"
 	.byte NewLine
-.text	"alone, but you are our only hope to persuade"
+.text	"isso sozinho, mas você é o único que pode"
 	.byte NewLine
-.text	"King Batu to end this."
+.text	"convencer o Rei Batu a acabar com isso."
 	.byte WaitForA
 
 	.byte LeftSlot		
@@ -350,15 +360,18 @@ dialogueCh1Turn2SigurdPhase1
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Dew
-.text	"Edaaaiiiin! C'mon, hurry up!"
+.text	"Edaaaiiiin! Vem, tenha pressa!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"We're still in serious danger here."
+.text	"Ainda estamos em perigo."
 	.byte NewLine
-.text	"If they catch me this time, then Munnir'll rip"
+.text	"Se Munnir me pegar de novo,"
 	.byte NewLine
-.text	"my tongue out for sure!"
+.text	"com certeza vai cortar minha língua, ou minha"
+	.byte WaitForA
+	.byte NewLine
+.text	"mão... sei lá! Vão me cortar alguma coisa!"
 
 	.byte RightSlot
 	.word ClearPortrait		;clears Edain
@@ -368,33 +381,35 @@ dialogueCh1Turn2SigurdPhase1
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Jamke
-.text	"Dew, you're a thief. You got caught in the act."
+.text	"Dew, você é um ladrão."
 	.byte NewLine
-.text	"Any tongue rippings you get are your own fault."
+.text	"Te pegaram em flagrante."
+	.byte NewLine
+.text	"Você foi punido pelo seu crime."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"If Edain hadn't insisted on letting you go too,"
+.text	"Se Edain não tivesse insistido em te ajudar,"
 	.byte NewLine
-.text	"you'd still be sitting in chains."
+.text	"você ainda estaria acorrentado."
 	.byte NewLine
-.text	"Now, what did you promise to do?"
+.text	"Além disso, lembra o que você prometeu fazer?"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Dew
-.text	"I know, I know. I promised Edain, too."
+.text	"Eu sei, Eu sei. Prometi pra ela, também."
 	.byte NewLine
-.text	"I'm washin' my hands of thievin' from now on."
+.text	"Daqui em diante, não roubo mais nada."
 	.byte NewLine
-.text	"Can I go now?"
+.text	"Posso ir agora?"
 
 	.byte RightSlot		;Jamke
 	.word PauseText
 	.byte $10
-.text	"I'll take your word for it."
+.text	"Confio em você."
 	.byte NewLine
-.text	"Now, go already!"
+.text	"Agora, vão embora!"
 	.byte WaitForA
 
 	.byte EndText
@@ -410,7 +425,7 @@ dialogueCh1Turn2SigurdPhase2
 	.byte StartText
 .text	"Edain..."
 	.byte NewLine
-.text	"May we meet again."
+.text	"Tenho certeza que vamos nos ver de novo."
 	.byte WaitForA
 
 	.byte EndText
@@ -423,22 +438,25 @@ dialogueCh1Turn2SigurdPhase3
 	.word portrait_Munnir1
 
 	.byte StartText
-.text	"What?!"
+.text	"O quê?!"
 	.byte NewLine
-.text	"Jamke let the broad go"
+.text	"Jamke deixou minha mulher ir embora"
 	.byte NewLine
-.text	"and went scurrying back to the capital?"
+.text	"e foi correndo de volta pra capital?"
 	.byte WaitForA
 	.byte NewLine
-.text	"Gah! Damn my rat of a brother!"
+.text	"Gah! Eu lido com ele depois!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Boys!"
+.text	"Garotos!"
 	.byte NewLine
-.text	"We're taking the wench and the brat back!"
+.text	"Peguem minha mulher e aquele pivete de volta!"
 	.byte NewLine
-.text	"If they put up a fight, kill 'em if you have to!"
+.text	"Se eles resistirem, matem-os!"
+	.byte WaitForA
+	.byte NewLine
+.text	"O que não falta é mulher por aí!"
 	.byte WaitForA
 
 	.byte EndText
@@ -457,7 +475,9 @@ dialogueCh1SeizeGenoa1_AyraAlive
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Sire, we've found this young boy in the dungeon."
+.text	"Senhor, encontramos esse garoto na"
+	.byte NewLine
+.text	"masmorra."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -473,79 +493,79 @@ dialogueCh1SeizeGenoa1_AyraAlive
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"What's the matter? Why are you silent?"
+.text	"O que houve? Porque está tão quieto?"
 	.byte NewLine
-.text	"I want to know why you were held here."
+.text	"Quero que me diga porque está preso aqui."
 	.byte WaitForA
 
 	.byte LeftSlot		;Shannan
 	.word ScrollBoth
-.text	"You're not one of Cimbaeth's lot... Are you?"
+.text	"Você não é um dos homens do Cimbaeth, é?"
 	
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"We've dealt with Cimbaeth."
+.text	"Nós derrotamos Príncipe Cimbaeth."
 	.byte NewLine
-.text	"There's nothing to be afraid of anymore."
+.text	"Não tem do que ter medo agora."
 	.byte WaitForA
 
 	.byte LeftSlot		;Shannan
 	.word ScrollBoth
-.text	"Oh! So Ayra doesn't have to keep fighting!"
+.text	"Sério! Então minha tia não precisa mais lutar!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"My Auntie Ayra was forced to fight"
+.text	"Minha tia Ayra foi forçada a lutar"
 	.byte NewLine
-.text	"'cause Cimbaeth had me!"
+.text	"porque eu estava de refém dele!"
 	.byte NewLine
-.text	"Please! You've got to help her!"
+.text	"Por favor! Não a mate!"
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"That swordswoman?"
+.text	"Aquela espadachim?"
 	.byte NewLine
-.text	"Huh. I thought there was something amiss"
+.text	"Realmente, ela estava agindo de um"
 	.byte NewLine
-.text	"about her..."
+.text	"jeito meio estranho..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Very well!"
+.text	"Muito bem!"
 	.byte NewLine
-.text	"I'll let her know that you're safe."
+.text	"Vou falar pra ela que você está bem."
 	.byte NewLine
-.text	"Now, what's your name?"
+.text	"Agora, qual o seu nome?"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Shannan
 .text	"Shannan."
 	.byte NewLine
-.text	"...I'm Shannan, the prince of Isaach..."
+.text	"...Sou Shannan, o príncipe de Isaach..."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Isaach's prince, you say..."
+.text	"Príncipe de Isaach, é..."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I can barely begin to imagine what you've"
+.text	"Mal posso imaginar o que você deve ter"
 	.byte NewLine
-.text	"been through, Shannan. For now, though,"
+.text	"passado, Shannan. Mas, por enquanto,"
 	.byte NewLine
-.text	"you're welcome to stay with our army."
+.text	"É bem vindo para ficar conosco."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Don't worry."
+.text	"Não se preocupe."
 	.byte NewLine
-.text	"One day, you'll make it home."
+.text	"Um dia, você vai voltar pra casa."
 	.byte NewLine
-.text	"I'll do all I can to ensure that."
+.text	"Farei o possível para que isso aconteça."
 	.byte WaitForA
 
 	.byte LeftSlot		
@@ -557,33 +577,35 @@ dialogueCh1SeizeGenoa1_AyraAlive
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Young_Oifey
-.text	"Pardon me, sire,"
+.text	"Perdoe a interferência, senhor,"
 	.byte NewLine
-.text	"but we're currently at war with Isaach."
+.text	"mas estamos em guerra com Isaach."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If we're going to harbor its prince,"
+.text	"Se vamos levar o príncipe conosco,"
 	.byte NewLine
-.text	"shouldn't we inform the king?"
+.text	"não deveríamos informar o rei?"
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"He's a child, Oifey."
+.text	"Ele é uma criança, Oifey."
 	.byte NewLine
-.text	"That war has nothing to do with him."
+.text	"Essa guerra não tem nada a ver com ele."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I'll find a way to get him home safely,"
+.text	"Vou achar um jeito de levá-lo para casa,"
 	.byte NewLine
-.text	"but for now, we need to look after him."
+.text	"em segurança, mas por enquanto,"
+	.byte NewLine
+.text	"eu tenho que protegê-lo."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Oifey
-.text	"Understood, sire."
+.text	"Entendido, senhor."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -592,9 +614,11 @@ dialogueCh1SeizeGenoa1_AyraAlive
 	.word CloseBox
 
 	.byte LeftSlot
-.text	"Just as I thought..."
+.text	"Meu Lorde fez exatamente o que achei"
 	.byte NewLine
-.text	"Lord Sigurd really is such a kind man..."
+.text	"que faria."
+	.byte NewLine
+.text	"Ele é, de verdade, uma boa pessoa."
 	.byte WaitForA
 
 	.byte EndText
@@ -614,7 +638,9 @@ dialogueCh1SeizeGenoa1_AyraDead
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Sire, we've found this young boy in the dungeon."
+.text	"Senhor, encontramos este menino na"
+	.byte NewLine
+.text	"masmorra."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -627,75 +653,75 @@ dialogueCh1SeizeGenoa1_AyraDead
 	.word portrait_Young_Shannan
 
 	.byte RightSlot		;Sigurd
-.text	"Who are you?"
+.text	"Quem é você?"
 	.byte NewLine
-.text	"What's your name?"
+.text	"Qual o seu nome?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Shannan
 	.word ScrollBoth
-.text	"I-I'm Shannan..."
+.text	"E-eu sou Shannan..."
 	.byte NewLine
-.text	"Prince Shannan of Isaach..."
+.text	"Príncipe Shannan de Isaach..."
 	.byte NewLine
-.text	"You're not one of Cimbaeth's lot... Are you?"
+.text	"Você não está com o Cimbaeth, está?"
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Isaach's prince?!"
+.text	"Príncipe de Isaach?!"
 	.byte NewLine
-.text	"...Er, forgive me."
+.text	"...Er, perdoe-me."
 	.byte NewLine
-.text	"I am Sigurd, a paladin of Grannvale."
+.text	"Eu sou Sigurd, um paladino de Grannvale."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"We've defeated Prince Cimbaeth."
+.text	"Nós derrotamos Príncipe Cimbaeth."
 	.byte NewLine
-.text	"You're safe now."
+.text	"Você está seguro agora."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Shannan
-.text	"Really?!"
+.text	"Sério?!"
 	.byte NewLine
-.text	"Then Ayra doesn't have to fight anymore!"
+.text	"Então minha tia não precisa mais lutar!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"My Aunt Ayra was forced to fight"
+.text	"Minha tia Ayra foi forçada a lutar"
 	.byte NewLine
-.text	"'cause Cimbaeth had me!"
+.text	"porque eu estava refém do Cimbaeth!"
 	.byte NewLine
-.text	"Come on, we've gotta tell her!"
+.text	"Venha, temos que contar para ela!"
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
 .text	"Ayra?"
 	.byte NewLine
-.text	"That swordswoman out there?"
+.text	"Aquela espadachim lá fora?"
 	.byte NewLine
-.text	"...Oh. Oh no..."
+.text	"...Ah. Ah, não..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Shannan
 	.word ScrollBoth
-.text	"It... It can't be..."
+.text	"Não... não pode ser..."
 	.byte NewLine
-.text	"She's dead?"
+.text	"Ela está morta?"
 	.byte NewLine
-.text	"...You killed Aunt Ayra?!"
+.text	"...Você matou a tia Ayra?!"
 	
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"I'm so sorry, Shannan..."
+.text	"Me perdoe, Shannan..."
 	.byte NewLine
-.text	"If I had known, I would've done all I could"
+.text	"Se eu soubesse, eu teria feito"
 	.byte NewLine
-.text	"to help her..."
+.text	"o possível para ajudá-la..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Shannan
@@ -713,40 +739,48 @@ dialogueCh1SeizeGenoa1_AyraDead
 	.word portrait_Young_Oifey
 	
 	.byte RightSlot		;Sigurd
-.text	"Oifey, could you take care of Shannan for a while?"
+.text	"Oifey, você pode tomar conta do Shannan?"
 	.byte NewLine
-.text	"Try to help him calm down a bit."
+.text	"Tente acalmá-lo, por favor."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot
-.text	"Pardon me, sire,"
+.text	"Perdoe a interferência, senhor,"
 	.byte NewLine
-.text	"but we're currently at war with Isaach."
+.text	"mas estamos em guerra com Isaach."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"If we're going to harbor its prince,"
+.text	"Se vamos levar o príncipe conosco,"
 	.byte NewLine
-.text	"shouldn't we inform the king?"
+.text	"não deveríamos informar o rei?"
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"He's a child, Oifey."
+.text	"Ele é uma criança, Oifey."
 	.byte NewLine
-.text	"That war has nothing to do with him."
+.text	"Essa guerra não tem nada a ver com ele."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I'll find a way to get him home safely,"
+.text	"Vou achar um jeito de levá-lo para casa,"
 	.byte NewLine
-.text	"but for now, we need to look after him."
+.text	"em segurança, mas por enquanto,"
+	.byte NewLine
+.text	"eu tenho que protegê-lo."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Depois do que aconteceu, é o mínimo que"
+	.byte NewLine
+.text	"eu posso fazer pra pagar meu erro."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Oifey
-.text	"Understood, sire."
+.text	"Entendido, senhor."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -755,9 +789,11 @@ dialogueCh1SeizeGenoa1_AyraDead
 	.word CloseBox
 
 	.byte LeftSlot
-.text	"Just as I thought..."
+.text	"Meu Lorde fez exatamente o que achei"
 	.byte NewLine
-.text	"Lord Sigurd really is such a kind man..."
+.text	"que faria."
+	.byte NewLine
+.text	"Ele é, de verdade, uma boa pessoa."
 	.byte WaitForA
 
 	.byte EndText
@@ -770,11 +806,11 @@ dialogueCh1SeizeGenoa2
 	.word LoadPortrait
 	.word portrait_Ayra
 	.byte StartText
-.text	"Genoa has fallen to Grannvale?!"
+.text	"Os grannvalianos chegaram em Genoa?!"
 	.byte NewLine
-.text	"No!"
+.text	"Não! Eu... eu não posso deixar"
 	.byte NewLine
-.text	"I... I must get to Shannan!"
+.text	"Shannan cair nas mãos deles!"
 	.byte WaitForA
 
 	.byte EndText
@@ -787,19 +823,19 @@ dialogueCh1SeizeGenoa3
 	.word LoadPortrait
 	.word portrait_Eliot2
 	.byte StartText
-.text	"Tch. Does Grannvale really think it can just"
+.text	"Tch. Sério que Grannvale acha que pode"
 	.byte NewLine
-.text	"waltz into Verdane with such a tiny force?"
+.text	"invadir Verdane com um exército pequeno"
 	.byte NewLine
-.text	"How adorable."
+.text	"assim? Adorável."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Men, here's our chance."
+.text	"Homens, essa é nossa chance."
 	.byte NewLine
-.text	"Evans is ripe for the plucking,"
+.text	"Capturaremos Evans, e de lá é direto"
 	.byte NewLine
-.text	"then it's straight for the Grannvale border!"
+.text	"para Grannvale!"
 	.byte WaitForA
 
 	.byte EndText
@@ -813,11 +849,11 @@ dialogueCh1SeizeGenoa4
 	.word portrait_Soldier1
 
 	.byte StartText
-.text	"Is that... No!"
+.text	"Quem são esses...? Droga!"
 	.byte NewLine
-.text	"That's the Hochrhein army!"
+.text	"É o exército de Hochrhein!"
 	.byte NewLine
-.text	"Lord Eldigan won't like this..."
+.text	"Melhor eu avisar para o Senhor..."
 	.byte WaitForA
 
 	.byte EndText
@@ -830,15 +866,15 @@ dialogueCh1SeizeGenoa5
 	.word LoadPortrait
 	.word portrait_Eldigan1
 	.byte StartText
-.text	"What's this?"
+.text	"O que é isso? O exército de Hochrhein"
 	.byte NewLine
-.text	"Hochrhein's army is marching on Evans?!"
+.text	"está invadindo Evans?!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Ugh... I should've known Eliot just couldn't keep"
+.text	"Ugh... Eu deveria ter imaginado que Eliot"
 	.byte NewLine
-.text	"his nose out of this. Take care of the castle,"
+.text	"se meteria nisso. Tome conta do castelo,"
 	.byte NewLine
 .text	"Lachesis."
 
@@ -851,29 +887,29 @@ dialogueCh1SeizeGenoa5
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sigurd is in dire need of my help."
+.text	"Sigurd precisa muito de minha ajuda."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Lachesis
-.text	"Of course, brother."
+.text	"Claro, irmão."
 	.byte NewLine
-.text	"Please, do all you can to help Sir Sigurd."
+.text	"Por favor, faça o possível para ajudá-lo."
 
 	.byte RightSlot		;Eldigan
 	.word PauseText
 	.byte $10
-.text	"Right!"
+.text	"Certo!"
 	.byte NewLine
-.text	"Cross Knights, move out!"
+.text	"Cavaleiros da Cruz, ao combate!"
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Our foe is the Hochrhein army."
+.text	"Nosso oponente é o exército de Hochrhein."
 	.byte NewLine
-.text	"I don't expect a challenge, but stay alert"
+.text	"Eu não espero nada muito difícil,"
 	.byte NewLine
-.text	"nonetheless!"
+.text	"mas mantenham se alertas!"
 	.byte WaitForA
 
 	.byte EndText
@@ -895,94 +931,110 @@ dialogueCh1SeizeGenoa6
 	.byte StartText
 .text	"Eliot!"
 	.byte NewLine
-.text	"Ambushing them like a common thief, are you?"
+.text	"Emboscando os como um ladrão qualquer?"
 	.byte NewLine
-.text	"A cowardly act, ill befitting the honor of a knight!"
+.text	"Um ato covarde,"
+	.byte WaitForA
+	.byte NewLine
+.text	"que não faz jus a honra de um cavaleiro!"
 	.byte WaitForA
 	.byte ScrollText
-
-.text	"Withdraw immediately, or I will take action."
+	
+.text	"Recue imediatamente,"
 	.byte NewLine
-.text	"We both know you're no match for me."
+.text	"ou eu terei que te obrigar a fazer isso."
+	.byte NewLine
+.text	"Ambos sabemos que"
+	.byte WaitForA
+	.byte NewLine
+.text	"você não tem chance contra mim."
 
 	.byte RightSlot		;Eliot
 	.word PauseText
 	.byte $10
-.text	"What's this? Eldigan?!"
+.text	"Como é que é Eldigan?!"
 	.byte NewLine
-.text	"I should've known you would side with Grannvale!"
+.text	"Vai ajudar Grannvale?!"
 	.byte WaitForA
 
 	.byte LeftSlot		;Eldigan
 	.word ScrollBoth
-.text	"In doing this you are crossing not just Grannvale,"
+.text	"Atacando eles,"
 	.byte NewLine
-.text	"nor me, but your very liege!"
+.text	"não só está desafiando Grannvale,"
+	.byte NewLine
+.text	"como desobedecendo a seu próprio Rei!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"We bow to the reverent King Imka,"
+.text	"Nos curvamos ao grande Rei Imka, que quer"
 	.byte NewLine
-.text	"who desires only peace with Grannvale."
+.text	"apenas paz com Grannvale."
 	.byte NewLine
-.text	"Would you truly cross His Majesty?"
+.text	"Você desobedeceria Vossa Majestade?"
 
 	.byte RightSlot		;Eliot
 	.word PauseText
 	.byte $10
-.text	"You fool!"
+.text	"Seu idiota!"
 	.byte NewLine
-.text	"Only you would still seriously heed that senile"
-	.byte NewLine
-.text	"old fool's word."
+.text	"Só você ainda houve aquele velho senil."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"The lords of Agustria are united against"
+.text	"Os nobres de Agustria estão unidos contra"
 	.byte NewLine
-.text	"both Grannvale and any peace with them!"
+.text	"Grannvale e contra qualquer paz com eles!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Eldigan
-.text	"Wrong, for I will not stand with you!"
+.text	"Errado, pois eu não estou com vocês!"
 	.byte NewLine
-.text	"Agustria cannot afford the crippling tolls of war,"
+.text	"Agustria não pode lutar uma guerra dessas,"
 	.byte NewLine
-.text	"and nor can Grannvale."
+.text	"nem Grannvale."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Our past stands as a testament to this."
+.text	"Nosso passado é prova disso."
 	.byte NewLine
-.text	"Learn well, Eliot: we, the nobility, know not"
+.text	"Escute, Eliot: nós, a nobreza, não"
 	.byte NewLine
-.text	"the suffering brought by war."
+.text	"sofremos as dores da guerra."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"War cripples only the powerless, our subjects."
+.text	"A guerra só afeta os fracos,"
 	.byte NewLine
-.text	"I will not abide your lust for glory"
+.text	"nossos súditos."
 	.byte NewLine
-.text	"at the expense of our people!"
+.text	"Eu não compactuarei com sua busca por glória"
+	.byte WaitForA
+	.byte NewLine
+.text	"às custas de nosso povo!"
 
 	.byte RightSlot		;Eliot
 	.word PauseText
 	.byte $10
-.text	"A pretty little speech, but that won't save"
+.text	"Um discurso lindo, mas não me convence."
 	.byte NewLine
-.text	"you now. I knew all along: you and I"
+.text	"Eu sempre soube: você e eu"
 	.byte NewLine
-.text	"were always fated to clash, Eldigan!"
+.text	"sempre fomos destinados"
 	.byte WaitForA
+	.byte NewLine
+.text	"a lutar um com o outro, Eldigan!"
 	.word ScrollBoth
 
-.text	"Today, we settle this, once and for all!"
+.text	"Hoje, nós resolvemos isso,"
 	.byte NewLine
-.text	"Men, the enemy is now House Nordion!"
+.text	"de uma vez por todas!"
 	.byte NewLine
-.text	"I want Eldigan's head on a platter!"
+.text	"Homens, o inimigo agora é Nordion!"
+	.byte WaitForA
+	.byte NewLine
+.text	"Eu quero a cabeça de Eldigan num prato!"
 	.byte WaitForA
 
 	.byte EndText
@@ -1002,26 +1054,26 @@ dialogueCh1SeizeMarpha1
 
 	.byte LeftSlot
 	.byte StartText
-.text	"N-no!"
+.text	"N-não!"
 	.byte NewLine
-.text	"Please, let go of me!"
+.text	"Por favor, me solte!"
 
 	.byte RightSlot
-.text	"Heh heh... What's the matter?"
+.text	"Heh heh... Qual o problema?"
 	.byte NewLine
-.text	"C'mon, I'm just askin' for a little date."
+.text	"Vamos, quero só um tempinho com você."
 	.byte WaitForA
 	.byte LeftSlot
 	.word ScrollBoth
 
-.text	"I need to go home, sir."		;Deirdre
+.text	"Eu preciso ir pra casa, senhor."		;Deirdre
 	.byte NewLine
-.text	"I ask of you, please, pay me no mind!"
+.text	"Eu lhe peço, por favor, deixe me-ir!"
 
 	.byte RightSlot		;Resurrected DiMaggio, clearly
-.text	"Shaddup!"
+.text	"Cala a boca!"
 	.byte NewLine
-.text	"Keep up your yappin' and you'll regret it!"
+.text	"E se gritar, vai se arrepender!"
 	.byte WaitForA
 
 	.byte LeftSlot
@@ -1033,46 +1085,44 @@ dialogueCh1SeizeMarpha1
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Sigurd
-.text	"What's going on here?"
+.text	"O que está acontecendo aqui?"
 	.byte NewLine
-.text	"Let the girl go."
+.text	"Deixe a garota ir."
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"What's your problem!? This one's-"
+.text	"Qual o seu problema!? Essa é-"
 	.byte NewLine
-.text	"...Urgh! You're not that Grannvale paladin,"
-	.byte NewLine
-.text	"are you?"
+.text	"...Quê?! Você não é aquele paladino, é?"
 	.byte WaitForA
 
 	.byte LeftSlot		;Sigurd
 	.word ScrollBoth
-.text	"You understand the situation?" 
+.text	"Entendeu a situação, né?" 
 	.byte NewLine
-.text	"Then be on your way."
+.text	"Então siga seu caminho. Não tem nenhum"
 	.byte NewLine
-.text	"There are none I loathe more than your kind."
+.text	"tipo que eu odeie mais que o seu."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The girl has given you her answer."
+.text	"A garota já deu a resposta dela."
 	.byte NewLine
-.text	"Now, leave her be and get out of my sight!"
+.text	"agora, saia da minha frente e da dela!"
 
 	.byte RightSlot
 	.word PauseText
 	.byte $10
-.text	"Yeah... Yeah, got it..."
+.text	"É... é, entendi..."
 	.byte NewLine
-.text	"My bad, missy."
+.text	"Desculpe, garota."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"I was just teasin', is all."
+.text	"Tava só brincando, é isso."
 	.byte NewLine
-.text	"Sorry. I'll be off now..."
+.text	"Desculpa. Eu vou embora..."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -1085,75 +1135,79 @@ dialogueCh1SeizeMarpha1
 	.word portrait_Deirdre
 
 	.byte LeftSlot		;Sigurd
-.text	"Are you alright?"
+.text	"Você está bem?"
 	
 	.byte RightSlot		;Deirdre
 	.word PauseText
 	.byte $10
-.text	"Y-yes..."
+.text	"S-sim..."
 	.byte NewLine
-.text	"Thank you, Sir Sigurd."
+.text	"Obrigado, senhor Sigurd."
 	.byte WaitForA
 
 	.byte LeftSlot		;Sigurd
 	.word ScrollBoth
-.text	"Hm? You know of me?"
+.text	"Hm? Você me conhece?"
 
 	.byte RightSlot		;Deirdre
 	.word PauseText
 	.byte $10
-.text	"Yes."
+.text	"Sim."
 	.byte NewLine
-.text	"I met a woman named Edain not long ago"
+.text	"Não muito tempo atrás, eu conheci uma"
 	.byte NewLine
-.text	"in this castle, and..."
+.text	"mulher chamad Edain nesse castelo, e..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Sigurd
 	.word ScrollBoth
-.text	"She spoke of me."
+.text	"Ela falou de mim?"
 
 	.byte RightSlot		;Deirdre
 	.word PauseText
 	.byte $10
-.text	"She did."
+.text	"Sim."
 	.byte NewLine
-.text	"I knew from the moment I laid eyes on you:"
+.text	"Eu soube no momento que te vi:"
 	.byte NewLine
-.text	"You are in every way the man I had imagined..."
+.text	"Você é exatamente o homem que eu imaginei..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Sigurd
 	.word ScrollBoth
-.text	"May I... ask for your name?"
+.text	"Posso... te perguntar seu nome?"
 	
 	.byte RightSlot		;Deirdre
 	.word PauseText
 	.byte $10
-.text	"...I'm sorry, but..."
+.text	"...Me desculpe, mas..."
 	.byte NewLine
-.text	"...I... I must go."
+.text	"...Eu... eu devo ir."
 	.byte WaitForA
 
 	.byte LeftSlot		;Sigurd
 	.word ScrollBoth
-.text	"Wait!"
+.text	"Espera!"
 	.byte NewLine
-.text	"Please, I just want to talk for a little longer--"
+.text	"Por favor, eu só"
+	.byte NewLine
+.text	"quero conversar mais um pouco--"
 
 	.byte RightSlot		;Deirdre
 	.word PauseText
 	.byte $10
-.text	"...I am truly sorry."
+.text	"...Me desculpa mesmo."
 	.byte NewLine
-.text	"I am glad we could meet, even once..."
+.text	"Estou feliz que pude te ver,"
+	.byte NewLine
+.text	"mesmo que só uma vez..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Sigurd
 	.word ScrollBoth
-.text	"What? What do you mean?" 
+.text	"O que? Como assim só uma vez?" 
 	.byte NewLine
-.text	"Please, wait!"
+.text	"Por favor, espere!"
 	.byte NewLine
 
 	.byte RightSlot
@@ -1181,88 +1235,95 @@ dialogueCh1SeizeMarpha2
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Lord Sigurd, is it?"
+.text	"Lorde Sigurd, é?"
 	.byte NewLine
-.text	"What's the matter?"
+.text	"Qual o problema?"
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Oh... You must be the town elder!"
+.text	"Ah... você deve ser o ancião da cidade!"
 	.byte NewLine
-.text	"That woman who ran off just now..."
+.text	"Aquela mulher que correu..."
 	.byte NewLine
-.text	"Do you know who she is?"
+.text	"Você sabe quem ela é?"
 	.byte WaitForA
 
 	.byte LeftSlot		;old man
 	.word ScrollBoth
-.text	"Ahh, of course."
+.text	"Ahh, claro."
 	.byte NewLine
-.text	"That woman is called Deirdre."
+.text	"Ela se chama Deirdre."
 	.byte NewLine
-.text	"She is a priestess of the spirit forest."
+.text	"Ela é a sacerdotisa da floresta mística."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
 .text	"Deirdre..."
 	.byte NewLine
-.text	"She's beautiful..."
+.text	"Ela é linda..."
 	.byte WaitForA
 
 	.byte LeftSlot		;old man
 	.word ScrollBoth
-.text	"Ohoho, even a refined man like you"
+.text	"Ohoho, até um homem do seu nível"
 	.byte NewLine
-.text	"can't resist being charmed by her ilk!"
+.text	"não consegue resistir a ela!"
 	.byte NewLine
-.text	"Could it be love at first sight? Hoho..."
+.text	"Seria amor a primeira vista? Hoho..."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"Sir, please. Don't tease me."
+.text	"Senhor, por favor. Não fale assim de mim."
 	.byte NewLine
-.text	"And yet... I've never seen anybody so beautiful"
+.text	"Ainda assim... eu nunca vi uma mulher tão"
 	.byte NewLine
-.text	"before. I... I need to see her again."
+.text	"linda na minha vida."
+	.byte WaitForA
+	.byte NewLine
+.text	"Eu... eu tenho que vê-la de novo."
 	.byte WaitForA
 
 	.byte LeftSlot		;old man
 	.word ScrollBoth
-.text	"Alas, sir, for it cannot be so."
+.text	"Infelizmente, senhor, não será possível."
 	.byte NewLine
-.text	"The folk of the spirit forest staunchly refuse to"
+.text	"O povo da floresta mística se recusa a"
 	.byte NewLine
-.text	"partake in the world beyond their woods."
+.text	"interagir com o resto do mundo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Furthermore, that girl and members of her clan"
+.text	"Além disso, aquela garota e outras de"
 	.byte NewLine
-.text	"are forbidden from ever liasing with men."
+.text	"seu clã são proibidas de se relacionar"
+	.byte NewLine
+.text	"com homens."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Village lore dictates that should this ever happen,"
+.text	"As histórias da vila dizem que,"
 	.byte NewLine
-.text	"calamity would befall the world."
+.text	"se isso acontecer,"
+	.byte NewLine
+.text	"uma calamidade recairá sobre o mundo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You have no choice, sir."
+.text	"Você não tem escolha, senhor."
 	.byte NewLine
-.text	"Resign yourself of that girl."
+.text	"Esqueça a garota."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"What superstitious nonsense!"
+.text	"Que baboseira supersticiosa!"
 	.byte NewLine
-.text	"That poor girl..."
+.text	"Aquela pobre garota..."
 	.byte NewLine
-.text	"Deirdre... we must meet again."
+.text	"Deirdre... nos veremos de novo."
 	.byte WaitForA
 
 	.byte EndText
@@ -1282,51 +1343,51 @@ dialogueCh1SeizeMarpha3
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Father, this is absurd!"
+.text	"Pai, isso é absurdo!"
 	.byte NewLine
-.text	"Why do you still refuse to listen to me?"
+.text	"Porque você não me escuta?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"My brothers already have fallen,"
+.text	"Meus irmãos já morreram, e é questão"
 	.byte NewLine
-.text	"and it's only a matter of time before"
+.text	"de tempo até que eles venham à"
 	.byte NewLine
-.text	"they come for the capital as well."
+.text	"capital também."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The Grannvale commander, Sir Sigurd,"
+.text	"O comandante de Grannvale,"
 	.byte NewLine
-.text	"is a good man."
+.text	"senhor Sigurd, é um bom homem."
 	.byte NewLine
-.text	"Please, end the war while you still can!"
+.text	"Por favor, acabe essa guerra enquanto pode!"
 
 	.byte RightSlot		;Batu
 	.word PauseText
 	.byte $10
-.text	"I... allowed Munnir's raid only because"
+.text	"Eu... permiti a invasão de Munnir somente"
 	.byte NewLine
-.text	"I'd been told that Grannvale would surely come"
+.text	"porque me disseram que era certo que"
 	.byte NewLine
-.text	"to invade us first."
+.text	"Grannvale invadiria primeiro."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Never did I intend for a war like this."
+.text	"Eu nunca pedi por uma guerra assim."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Jamke
-.text	"It was that sorcerer, Sandima, who told you"
+.text	"Foi esse mago, Sandima, quem te disse"
 	.byte NewLine
-.text	"that, wasn't it?"
+.text	"isso, não foi?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You, Cimbaeth, and Munnir trusted him too"
+.text	"Você, Cimbaeth, e Munnir confiaram nele"
 	.byte NewLine
-.text	"readily. You've all been deceived!"
+.text	"fácil demais. Vocês foram enganados!"
 	.byte WaitForA
 	.byte ScrollText
 
@@ -1338,22 +1399,22 @@ dialogueCh1SeizeMarpha3
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Sandima1
-.text	"Now, now, Prince Jamke."
+.text	"Ora, ora, Príncipe Jamke."
 	.byte NewLine
-.text	"That's enough of that."
+.text	"Já deu por hoje."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Your duty as prince is to lead your men"
+.text	"Seu dever como príncipe é liderar seus homens"
 	.byte NewLine
-.text	"into the fray. Dawdling in a place like this"
+.text	"em campo. Ficar por aqui tempo demais seria"
 	.byte NewLine
-.text	"would be deeply troublesome of you."
+.text	"um tanto... incômodo de sua parte."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Jamke
-.text	"Argh! Damn you, Sandima!"
+.text	"Argh! Maldito seja, Sandima!"
 
 	.byte RightSlot
 	.word ClearPortrait		;clears Sandima
@@ -1362,26 +1423,26 @@ dialogueCh1SeizeMarpha3
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Batu1
-.text	"That's enough, Jamke. Listen to Sandima."
+.text	"Já deu, Jamke. Faça o que ele diz."
 	.byte NewLine
-.text	"Go. Lead your men into the fray."
+.text	"Vá. Lidere seus soldados à batalha."
 	.byte WaitForA
 
 	.byte LeftSlot
 	.word ScrollBoth
-.text	"Father! ...Very well."
+.text	"Pai! ...Tudo bem."
 	.byte NewLine
-.text	"If you won't change your mind, even now,"
+.text	"Se você não irá mudar de ideia, nem agora,"
 	.byte NewLine
-.text	"then... I'll see this through as well."
+.text	"então... eu lutarei também."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"But be warned."
+.text	"Mas esteja avisado."
 	.byte NewLine
-.text	"Should I return victorious, Sandima,"
+.text	"Quando eu voltar, Sandima,"
 	.byte NewLine
-.text	"I'll allow you to live no longer!"
+.text	"eu irei te matar!"
 	.byte WaitForA
 
 	.byte EndText
@@ -1403,32 +1464,45 @@ dialogueCh1SeizeMarpha4
 	.byte StartText
 .text	"Sandima..."
 	.byte NewLine
-.text	"Perhaps, for all this time, you may not have"
+.text	"Talvez, durante todo esse tempo,"
 	.byte NewLine
-.text	"been entirely forthright with me."
+.text	"você não tenha sido inteiramente"
+	.byte WaitForA
+	.byte NewLine
+.text	"honesto comigo."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You did assure me that Grannvale hungers to"
+.text	"Você me garantiu que Grannvale queria"
 	.byte NewLine
-.text	"claim our land, and yet..."
+.text	"nos conquistar, e ainda assim..."
 
 	.byte RightSlot		;Sandima
 	.word PauseText
 	.byte $10
-.text	"Feh... And just what are you saying now?"
+.text	"Heh..."
 	.byte NewLine
-.text	"To think, I believed that you Verdanites would be"
+.text	"Olha o que você está dizendo agora!"
 	.byte NewLine
-.text	"of use... You truly are naught but savages."
+.text	"E imaginar que eu"
+	.byte WaitForA
+	.byte NewLine
+.text	"acreditei que vocês verdanitas"
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"seriam úteis..."
+	.byte NewLine
+.text	"Vocês realmente não passam de selvagens."
+
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"You are worthless."
+.text	"Você é inútil. Completamente inútil!"
 	.byte NewLine
-.text	"Completely and utterly worthless!"
+.text	"E de agora em diante,"
 	.byte NewLine
-.text	"And from now on, your army is mine to command!"
+.text	"seu exército é meu!"
 	.byte WaitForA
 
 	.word PlaySFX
@@ -1438,7 +1512,7 @@ dialogueCh1SeizeMarpha4
 	.byte ScrollText
 
 	.byte LeftSlot		;Batu
-.text	"What?! No, stay back!"
+.text	"O quê?! Não, fique longe!"
 
 	.word PlaySFX
 	.byte $69
@@ -1446,7 +1520,7 @@ dialogueCh1SeizeMarpha4
 	.byte $3C
 	.byte NewLine
 
-.text	"Back, I- -"
+.text	"Fique longe, eu- -"
 
 	.word PlaySFX
 	.byte $91
@@ -1466,7 +1540,7 @@ dialogueCh1SeizeMarpha4
 	.byte $20
 
 	.byte RightSlot		;Sandima
-.text	"Feh... Feeble-minded old fool."
+.text	"Feh... Velho fraco."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -1484,150 +1558,166 @@ dialogueCh1SeizeMarpha4
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Manfroy2
-.text	"So, you've put an end to the king, Sandima..."
+.text	"Então você matou o rei, Sandima..."
 	.byte NewLine
-.text	"Do you expect that the Verdanite army will still"
+.text	"Você espera que o exército verdanita"
 	.byte NewLine
-.text	"obey your command?"
+.text	"ainda irá lhe obedecer?"
 
 	.byte RightSlot		;Sandima
 	.word PauseText
 	.byte $10
-.text	"Oh, Archbishop Manfroy!"
+.text	"Ah, Arcebispo Manfroy!"
 	.byte NewLine
-.text	"How long have you been here, Your Eminence?"
+.text	"A quanto tempo está aqui,"
 	.byte NewLine
-.text	"The army is of no concern at all."
+.text	"Vossa Eminência?"
+	.byte WaitForA
+	.byte NewLine
+.text	"O exército não me preocupa."
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"They need only know that the king has fallen ill."
+.text	"Só preciso dizer que o rei está doente."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Manfroy
-.text	"Hrm, I see..."
+.text	"Hrm, entendi..."
 	.byte NewLine
-.text	"And what of the situation here?"
+.text	"E quanto a situação aqui?"
 	.byte NewLine
-.text	"Does the plan progress?"
+.text	"O plano está progredindo?"
 
 	.byte RightSlot		;Sandima
 	.word PauseText
 	.byte $10
-.text	"My sincerest apologies, Your Excellency."
+.text	"Minhas mais sinceras desculpas,"
+	.byte NewLine
+.text	"Vossa Eminência."
 	.byte NewLine
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"That Grannvalian... Sigurd, or something, has"
+.text	"Aquele grannvaliano... Sigurd,"
 	.byte NewLine
-.text	"proven to be an unexpected obstacle to the"
+.text	"tem sido um obstáculo inesperado"
 	.byte NewLine
-.text	"invasion."
+.text	"à invasão."
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Manfroy
 	.byte ScrollText
-.text	"Hm... And what of the search for the Loptrian"
+.text	"Hm... E quanto à procura"
 	.byte NewLine
-.text	"scion? Have you found Sigyn's daughter?"
+.text	"da menina de sangue loptiriano?"
+	.byte NewLine
+.text	"Você encontrou a filha de Sigyn?"
 
 	.byte RightSlot		;Sandima
 	.word PauseText
 	.byte $10
-.text	"Er... No, not yet..."
-	.byte WaitForA
-
-	.byte LeftSlot		;Manfroy
-	.word ScrollBoth
-.text	"Imbecile!"
-	.byte NewLine
-.text	"After all of the pains I have gone to,"
-	.byte NewLine
-.text	"to locate the boy..."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"The son of Sigyn is still in Belhalla,"
-	.byte NewLine
-.text	"but he's worthless without the female."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"Listen well. Sigyn was an heir of Prince Maera,"
-	.byte NewLine
-.text	"brother of an emperor of the old Loptrian Empire."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"Sigyn alone in this era inherited the sacred blood"
-	.byte NewLine
-.text	"of the dark lord."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"That woman broke the commandment that Maera"
-	.byte NewLine
-.text	"placed upon his heirs and bore two children."
-	.byte NewLine
-.text	"Do you know what this means?"
-
-	.byte RightSlot		;Sandima
-	.word PauseText
-	.byte $10
-.text	"Yes, Your Eminence."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"When the blood of the two heirs intersects, the"
-	.byte NewLine
-.text	"second coming of the dark lord, Loptous,"
-	.byte NewLine
-.text	"will be upon us."
+.text	"Er... Não, ainda não..."
 	.byte WaitForA
 
 	.byte LeftSlot		;Manfroy
 	.word ScrollBoth
-.text	"Precisely, and so too shall we, descendants of"
+.text	"Imbecil!"
 	.byte NewLine
-.text	"the Loptrian Empire, return to this world."
+.text	"Depois de tudo que passei"
+	.byte NewLine
+.text	"para encontrar o garoto..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You know as well as I, Sandima,"
+.text	"O filho de Sigyn ainda está em Belhalla,"
 	.byte NewLine
-.text	"how heavily our fates depend upon"
-	.byte NewLine
-.text	"the resurrection of the dark lord."
+.text	"Mas é inútil sem a filha dela."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You know well our order's centuries of exile,"
+.text	"Ouça. Sigyn é da linhagem"
 	.byte NewLine
-.text	"hidden deep within the Aed Desert."
+.text	"do príncipe Maera,"
+	.byte NewLine
+.text	"irmão de um dos imperadores loptirianos."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"You know well the abuses... The famines..."
+.text	"Nessa era, somente Sigyn herdou o"
 	.byte NewLine
-.text	"How we were sustained only by dreaming of"
-	.byte NewLine
-.text	"the day when the Empire will rise again."
+.text	"sangue do deus das trevas, nosso senhor."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And at long last, that day is upon us."
+.text	"Aquela mulher quebrou o mandamento"
+	.byte NewLine
+.text	"que Maera impôs à seus filhos e teve"
+	.byte NewLine
+.text	"duas crianças."
+	.byte WaitForA
+	.byte NewLine
+.text	"Sabe o que isso significa?"
+
+	.byte RightSlot		;Sandima
+	.word PauseText
+	.byte $10
+.text	"Sim, Vossa Eminência."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"Quando o sangue de dois herdeiros se"
+	.byte NewLine
+.text	"encontrarem, o retorno do"
+	.byte NewLine
+.text	"senhor das trevas, Loptous, acontecerá."
+	.byte WaitForA
+
+	.byte LeftSlot		;Manfroy
+	.word ScrollBoth
+.text	"Precisamente, e então nós também,"
+	.byte NewLine
+.text	"descendentes do Império Loptiriano,"
+	.byte NewLine
+.text	"saíremos das sombras."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"Você sabe tão bem quanto eu, Sandima,"
+	.byte NewLine
+.text	"O quanto nosso destino depende da"
+	.byte NewLine
+.text	"resurreição do senhor das trevas."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"Você sabe da nossa história, nossas"
+	.byte NewLine
+.text	"décadas de exílio, escondidos nas"
+	.byte NewLine
+.text	"profundezas do deserto de Aed."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"Você conhece os abusos... As fomes..."
+	.byte NewLine
+.text	"Como nos sustentamos somente sonhando com"
+	.byte NewLine
+.text	"o dia que o Império ressurgirá."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"E até que enfim, este dia está próximo."
 	
 	.byte RightSlot		;Sandima
 	.word PauseText
 	.byte $10
-.text	"Understood, Your Eminence."
+.text	"Entendido, Vossa Eminência."
 	.byte NewLine
-.text	"If I must surrender my life to ensure that"
+.text	"Se eu tiver que morrer em nome do nosso"
 	.byte NewLine
-.text	"the plan is realized, I will do it gladly!"
+.text	"plano, morrerei feliz!"
 	.byte WaitForA
 
 	.byte EndText
@@ -1647,15 +1737,15 @@ dialogueCh1SeizeVerdane
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Sire, we've found a casualty in the palace."
+.text	"Senhor, encontramos uma vítima no castelo."
 	.byte NewLine
-.text	"It's... it's King Batu himself."
+.text	"É... o próprio Rei Batu."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He's severely wounded."
+.text	"Ele está gravemente ferido."
 	.byte NewLine
-.text	"By the look of it, he's well beyond help."
+.text	"Não acho que podemos salvá-lo."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -1671,86 +1761,92 @@ dialogueCh1SeizeVerdane
 	.word portrait_Batu1
 
 	.byte RightSlot		;Sigurd
-.text	"King Batu!"
+.text	"Rei Batu!"
 	.byte NewLine
-.text	"Are you alright?"
+.text	"Você está bem?"
 	.byte NewLine
-.text	"Please, come on... you can make it!"
+.text	"Por favor, resista..."
+	.byte WaitForA
+	.byte NewLine
+.text	"Nós vamos te ajudar!"
 	.byte WaitForA
 	.byte ScrollText
 
 	.byte LeftSlot		;Batu
-.text	"Hnnh... Lord... Sigurd?"
+.text	"Hnnh... Lorde... Sigurd?"
 	.byte NewLine
-.text	"I am so sorry for doing all this to you..."
+.text	"Me perdoe pelo que fiz a você..."
 	.byte NewLine
-.text	"I let Sandima... lead me astray..."
+.text	"Eu deixei Sandima... me enganar..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"He... he abused my trust..."
+.text	"Ele... abusou da minha confiança..."
 	.byte NewLine
-.text	"and won over my sons..."
+.text	"e a dos meus filhos..."
 	.byte NewLine
-.text	"all to seize control of Verdane for himself..."
+.text	"tudo para pegar Verdane para si..."
 
 	.byte RightSlot		;Sigurd
 	.word PauseText
 	.byte $10
-.text	"I understand, Your Highness,"
+.text	"Eu entendo, Vossa Majestade,"
 	.byte NewLine
-.text	"but you need to rest now."
+.text	"agora por favor, descanse,"
 	.byte NewLine
-.text	"Please, you mustn't stress yourself further."
+.text	"eu irei chamar um médico."
 	.byte WaitForA
 
 	.byte LeftSlot		;Batu
 	.word ScrollBoth
-.text	"No... It's too late for me..."
+.text	"Não... É tarde demais para mim..."
 	.byte NewLine
-.text	"Heed my word, Sigurd,"
+.text	"Me escute, Sigurd, porque tem "
 	.byte NewLine
-.text	"for there is one final thing I must tell you..."
+.text	"mais uma coisa que preciso lhe contar..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The misery here..."
+.text	"A miséria que vê aqui..."
 	.byte NewLine
-.text	"the grief spreading across Jugdral..."
+.text	"o sofrimento que se espalha por Jugdral..."
 	.byte NewLine
-.text	"it is all the will of the dark priesthood..."
+.text	"é culpa da seita das trevas..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"They blight our world from the shadows, all..."
+.text	"Eles contaminam nosso mundo das sombras,"
 	.byte NewLine
-.text	"all in the name of the revival of their dark god,"
+.text	"tudo para reviver seu deus maligno,"
 	.byte NewLine
 .text	"Loptous..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Sandima... was one of them..."
+.text	"Sandima... era um deles..."
 	.byte NewLine
-.text	"He twisted us to war with Grannvale..."
+.text	"Ele nos levou a guerrear com Grannvale..."
 	.byte NewLine
-.text	"for the sake of the cult's madness."
+.text	"em nome da loucura de sua seita."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The... the dark priests..."
+.text	"Os... sacerdotes das trevas..."
 	.byte NewLine
-.text	"they infect every corner of our world..."
+.text	"Eles... estão por toda parte..."
 	.byte NewLine
-.text	"Sigurd... Stay vigilant, lest you be tricked too!"
+.text	"Sigurd... fique vigilante,"
+	.byte WaitForA
+	.byte NewLine
+.text	"ou será enganado também!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"I... I failed the people of Verdane..."
+.text	"Eu... eu falhei em proteger meu povo..."
 	.byte NewLine
-.text	"Sigurd, I beg you..."
+.text	"Sigurd, eu lhe imploro..."
 	.byte NewLine
-.text	"Make this right... Protect... my... people..."
+.text	"Conserte isso... proteja... meu... povo..."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -1758,13 +1854,13 @@ dialogueCh1SeizeVerdane
 	.word ClearPortrait		;clears Batu
 
 	.byte RightSlot		;Sigurd
-.text	"Oh... Your Highness..."
+.text	"Ah... Vossa Majestade..."
 	.word PauseText
 	.byte $30
 	.byte NewLine
-.text	"The dark priesthood?"
+.text	"A seita das trevas?"
 	.byte NewLine
-.text	"What in the blazes is happening...?"
+.text	"O que está acontecendo...?"
 	.byte WaitForA
 
 	.byte EndText

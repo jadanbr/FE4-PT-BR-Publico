@@ -3,9 +3,9 @@
 dialogueCh8WM1
 
 	.byte StartText
-.text	"The Thracian Peninsula bears two faces"
+.text	"A península da Trácia tem duas faces que são"
 	.byte NewLine
-.text	"that are polar opposites in nearly every regard."
+.text	"opostas em quase tudo."
 	.byte WaitForA
 	
 	.word HighlightCountry
@@ -13,9 +13,9 @@ dialogueCh8WM1
 
 	.byte ScrollText
 
-.text	"The north is a land divided into several smaller"
+.text	"O norte é composto por uma série de pequenos"
 	.byte NewLine
-.text	"kingdoms flourishing from abundant pastures."
+.text	"reinos que floresceram em terras férteis."
 	.word ClearHighlight
 	.byte WaitForA
 	.byte ScrollText
@@ -29,25 +29,25 @@ dialogueCh8WM2
 	
 	.word HighlightCountry
 	.byte SouthThracia
-.text	"The south, home to its infamous"
+.text	"O sul, casa dos infames cavaleiros"
 	.byte NewLine
-.text	"wyvern knights,"
+.text	"de dragão,"
 	.byte WaitForA
-.text	" is a land of"
+.text	" é preenchida por"
 	.byte NewLine
-.text	"rugged mountain ranges and infertile soil."
+.text	"terreno montanhoso e solo infértil."
 	.byte WaitForA
 	.byte ScrollText
-.text	"It has but a single monarch,"
+.text	"Porém, é um território unido, e por isso"
 	.byte NewLine
-.text	"and is thus known as the Kingdom of Thracia."
+.text	"se chama de Reino da Trácia."
 	.byte WaitForA
 	.byte ScrollText
 
 	.word ClearHighlight
-.text	"The Kingdom has come to be recognized for"
+.text	"O Reino é reconhecido por"
 	.byte NewLine
-.text	"its brazen tenacity,"
+.text	"sua grande tenacidade,"
 	.byte WaitForA
 
 	.word LoadMapSymbol
@@ -56,9 +56,9 @@ dialogueCh8WM2
 	.byte High
 	.byte ThraciaToUp
 
-.text	" attempting countless times"
+.text	" tentando várias vezes"
 	.byte NewLine
-.text	"to invade the north and seize its rich lands."
+.text	"invadir o norte para tomar suas terras férteis."
 	.byte WaitForA
 	.word ClearMapSymbol
 	.byte High
@@ -75,26 +75,29 @@ dialogueCh8WM3
 	.byte Low
 	.byte Leonster2
 	.byte StartText
-.text	"However, Leonster’s royal family was always"
+.text	"Porém, o exército da família real de Leonster"
 	.byte NewLine
-.text	"there to thwart each and every invasion."
+.text	"sempre era capaz de repelir"
+	.byte WaitForA
+	.byte NewLine
+.text	"cada uma dessas invasões."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Following the annihilation of Leonster’s military"
+.text	"Em seguida à aniquilação do exército de Leonster"
 	.byte NewLine
 	.word ClearMapSymbol
 	.byte Low
-.text	"in the Aed Desert,"
+.text	"no deserto de Aed,"
 	.byte WaitForA
-.text	" it seemed as if"
+.text	" pareceu que as"
 	.byte NewLine
-.text	"Thracia’s ambitions would at last be realized."
+.text	"ambições da Trácia finalmente se realizariam."
 	.byte WaitForA
 	.byte ScrollText
-.text	"And yet, despite victory being ever close in their"
+.text	"Ainda assim, com sua vitória logo a frente,"
 	.byte NewLine
-.text	"sight, it was instead House Friege’s Lord Bloom,"
+.text	"foi Lorde Bloom de Friege,"
 
 	.word LoadPortraitWM1
 	.byte 2
@@ -106,49 +109,42 @@ dialogueCh8WM3
 	
 	.byte WaitForA
 	.byte NewLine
-.text	"with a great military force in tow,"
+.text	"liderando um grande exército, que"
 	.byte NewLine
-.text	"who conquered the region as his own."
+.text	"conquistou a região."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"From then on, the singular"
+.text	"Após isso, o Império estabeleceu um estado"
 	.byte NewLine
-.text	"Kingdom of North Thracia was born"
+.text	"vassalo: o Reino da Trácia do Norte,"
 	.byte WaitForA
 	.byte NewLine
-.text	"under the dominion of the Empire."
+.text	"com Bloom sendo seu Rei."
 	.word ClearPortraitWM
 	.byte 2
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Since then, over a decade has come and gone."
+.text	"Desde então, se passou uma década."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"In the face of the Empire’s expansive military"
+.text	"Contra o poderoso Império de Grannvale,"
 	.byte NewLine
-.text	"might,"
-	.byte WaitForA
-.text	" not even Thracia’s ambitious King Travant"
-	.byte NewLine
-.text	"dares to interfere with their operations,"
+.text	"nem o ambicioso Rei Travant ousa lutar."
 	.byte WaitForA
 	.byte NewLine
-.text	"allowing a strange form of peace"
-	.byte NewLine
-.text	"to persist in the region."
+.text	"Assim, uma estranha paz reina na região."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Or so it did, until the Liberation Army’s capture"
+.text	"Ou melhor, reinava, até que a captura de"
 	.byte NewLine
-.text	"of the northern capital, Ulster,"
+.text	"Úlster por forças rebeldes causa um choque"
 	.byte WaitForA
-.text	" sends a shift"
 	.byte NewLine
-.text	"that tips the balance of this delicate harmony."
+.text	"no balanço de poder da região."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -162,7 +158,7 @@ dialogueCh8WM3
 
 	.word PauseText
 	.byte $04
-.text	"With both"
+.text	"Com ambas"
 
 	.word LoadMapSymbol
 	.byte $6C
@@ -170,7 +166,7 @@ dialogueCh8WM3
 	.byte Low
 	.byte Ulster2
 
-.text	" Ulster and "
+.text	" Úlster e "
 
 	.word LoadMapSymbol
 	.byte $84
@@ -178,9 +174,9 @@ dialogueCh8WM3
 	.byte High
 	.byte Leonster2
 	
-.text	"Leonster under"
+.text	"Leonster sobre"
 	.byte NewLine
-.text	"the control of Seliph’s Liberation Army,"
+.text	"o controle do Exército de Libertação,"
 	.word PauseText
 	.byte $04
 	
@@ -202,7 +198,7 @@ dialogueCh8WM3
 	.byte $C0
 	.byte $18
 	
-.text	"Bloom is left with no choice but to flee"
+.text	"Bloom se vê sem escolha senão fugir"
 
 	.word LoadMapSymbol
 	.byte $BC
@@ -211,11 +207,12 @@ dialogueCh8WM3
 	.byte Connacht
 	
 	.byte NewLine
-.text	"towards Castle Connacht"
-	.byte WaitForA
-.text	" where he desperately"
+.text	"para o Castelo de Connacht,"
 	.byte NewLine
-.text	"assembles his troops for another offensive."
+.text	"onde ele desesperadamente"
+	.byte WaitForA
+	.byte NewLine
+.text	"junta tropas para uma contra-ofensiva."
 
 	.word ClearMapSymbol
 	.byte Low
@@ -223,7 +220,7 @@ dialogueCh8WM3
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Meanwhile,"
+.text	"Enquanto isso,"
 	
 	.word LoadPortraitWM1
 	.byte 6
@@ -233,11 +230,12 @@ dialogueCh8WM3
 	.byte $80
 	.byte $28
 	
-.text	" Princess Ishtar, known as the"
+.text	" Princesa Ishtar, conhecida"
 	.byte NewLine
-.text	"Goddess of Thunder,"
+.text	"como a Deusa do Trovão,"
 	.byte WaitForA
-.text	" is currently stationed at"
+	.byte NewLine
+.text	"está no momento em posição"
 	.byte NewLine
 	
 	.word LoadMapSymbol
@@ -248,14 +246,16 @@ dialogueCh8WM3
 	.word PauseText
 	.byte $02	
 	
-.text	"Castle Munster where she fortifies its defenses"
+.text	"no Castelo de Munster, onde ela prepara a"
 
 	.word ClearMapSymbol
 	.byte Low
 	
 	.byte WaitForA
 	.byte NewLine
-.text	"against a potential Thracian invasion."	
+.text	"defesa contra uma potencial "
+	.byte NewLine
+.text	"invasão vinda da Trácia."
 	.byte WaitForA
 	.byte ScrollText
 
@@ -266,9 +266,9 @@ dialogueCh8WM3
 	.byte Meath
 	.word PauseText
 	.byte $02
-.text	"Across the border, in the Thracian territory"
+.text	"No outro lado da fronteira, no território"
 	.byte NewLine
-.text	"of Meath,"	
+.text	"trácio de Meath,"	
 	.byte WaitForA
 
 	.word LoadPortraitWM1
@@ -279,31 +279,31 @@ dialogueCh8WM3
 	.byte $B8
 	.byte $60
 	
-.text	" King Travant and his commander"
+.text	" Rei Travant e o comandante"
 
 	.word ClearMapSymbol
 	.byte Low
 
 	.byte NewLine
-.text	"of the Thracian front, General Maykov,"
+.text	"da fronteira, General Maykov,"
 	.byte WaitForA
 	.byte NewLine
-.text	"watch on while keeping an eerie silence."
-	.byte WaitForA
-	.byte ScrollText
-
-.text	"The wishes of the people unite into one:"
-	.byte WaitForA
-	.byte NewLine
-.text	"that the northern region is once again returned"
-	.byte NewLine
-.text	"to the rule of Leonster’s royal family."
+.text	"assistem à guerra com bastante atenção."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And so, the curtain rises"
+.text	"No norte, o desejo do povo é apenas um:"
+	.byte WaitForA
 	.byte NewLine
-.text	"for the Thracian conflict's next act…"
+.text	"que a região seja devolvida à família"
+	.byte NewLine
+.text	"real de Leonster."
+	.byte WaitForA
+	.byte ScrollText
+
+.text	"E assim, sobe a cortina para o próximo"
+	.byte NewLine
+.text	"ato do conflito na Trácia…"
 	.byte WaitForA
 	
 	.word ClearPortraitWM

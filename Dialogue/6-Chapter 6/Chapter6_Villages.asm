@@ -7,38 +7,38 @@ dialogueCh6VillageNortheastGanesha
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"King Danann's got three sons."
+.text	"O Rei Danann tem três filhos."
 	.byte NewLine
-.text	"The oldest, Brian, lives at the old family home"
+.text	"O mais velho, Brian, vive no castelo de"
 	.byte NewLine
-.text	"in Grannvale."
+.text	"Dozel em Grannvale."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"The younger two serve him here in Isaach."
+.text	"Os dois mais novos governam Isaach com ele."
 	.byte NewLine
-.text	"Iuchar controls Isaach Castle,"
+.text	"Iuchar controla o castelo de Isaach,"
 	.byte NewLine
-.text	"while Iucharba controls Sofala Castle."
+.text	"enquanto Iucharba controla Sofala."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"They're both kind of an odd sort, and they've"
+.text	"Eles dois são uns caras meio estranhos,"
 	.byte NewLine
-.text	"both got this obsession with someone"
+.text	"e parece que ambos são obcecados com uma"
 	.byte NewLine
-.text	"in your army called "
+.text	"mulher no teu grupo chamada "
 	.word PrintBranchingName
 	.word name_LarceiCreidne
 .text	"."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Always squabbling, they are... I dunno, though."
+.text	"Sempre estão brigando, eles... Mas,"
 	.byte NewLine
-.text	"Neither of them are all that bad, really."
+.text	"nenhum dos dois são caras tão ruins."
 	.byte NewLine
-.text	"Heck, I bet they'd want to join forces with you!"
+.text	"Quem sabe eles não se juntem a vocês!"
 	.byte WaitForA
 
 	.byte EndText
@@ -51,17 +51,19 @@ dialogueCh6VillageNorthwestOfIsaach
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"Ooh, aren't ya from that liberator's army?"
+.text	"Ooh, vocês não são aquele"
 	.byte NewLine
-.text	"Glad ta see yer makin' a stand now!"
+.text	"exército de libertação?"
+	.byte NewLine
+.text	"Que bom ver vocês se mexerem finalmente!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"This is great news! With y'all round, we've finally"
+.text	"Isso é ótimo! Agora finalmente teremos a"
 	.byte NewLine
-.text	"got a shot at makin' them imperial cowards run"
+.text	"chance de fazer aqueles malditos imperiais"
 	.byte NewLine
-.text	"outta here with their tails between their legs!"
+.text	"vazarem daqui de uma vez!"
 	.byte WaitForA
 
 	.byte EndText
@@ -74,17 +76,17 @@ dialogueCh6VillageSoutheastOfSofala
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"Every last citizen of Isaach believes in"
+.text	"Todos os cidadões de Isaach confiam"
 	.byte NewLine
-.text	"and trusts Lord Seliph!"
+.text	"e acreditam no Lorde Seliph!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"We owe his family dearly for how his father,"
+.text	"Nós devemos muito a seu pai, que,"
 	.byte NewLine
-.text	"long ago, rescued and helped raise"
+.text	"muito tempo atrás, resgatou e ajudou"
 	.byte NewLine
-.text	"our Prince Shannan!"
+.text	"nosso querido Príncipe Shannan!"
 	.byte WaitForA
 
 	.byte EndText
@@ -97,19 +99,19 @@ dialogueCh6VillageNortheastOfSofala
 	.word LoadPortrait
 	.word portrait_Civilian_YoungMan
 	.byte StartText
-.text	"Prince Shannan is our beacon of hope for"
+.text	"Príncipe Shannan é a nossa esperança pro"
 	.byte NewLine
-.text	"Isaach's future. Once he returns with his"
+.text	"futuro. Quando ele voltar com sua sagrada"
 	.byte NewLine
-.text	"divine blade, Balmung, in hand..."
+.text	"espada, Balmung, em mãos..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Well, those imperial sods won't stand a chance"
+.text	"Eu duvido que os imperiais tenham chance"
 	.byte NewLine
-.text	"at all! Every last one of them will be run right out"
+.text	"quando isso acontecer! Cada um deles vai"
 	.byte NewLine
-.text	"of our great land!"
+.text	"sair correndo de nossa terra!"
 	.byte WaitForA
 
 	.byte EndText
@@ -122,23 +124,28 @@ dialogueCh6VillageNorthOfIsaach
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"Y'know the liberation army's leader, Seliph?"
+.text	"Sabe o líder do exército"
 	.byte NewLine
-.text	"They say he's the rightful heir to Grannvale."
+.text	"de libertação, Seliph?"
+	.byte NewLine
+.text	"Dizem que ele é o herdeiro"
+	.byte WaitForA
+	.byte NewLine
+.text	"legítimo de Grannvale."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I bet we'd all have a much better time"
+.text	"Aposto que a vida seria bem mais fácil se"
 	.byte NewLine
-.text	"with him on the throne if that were true, huh!"
+.text	"fosse ele no trono, não é?"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Here, take this here skill ring."
+.text	"Aqui, pegue esse anel de destreza."
 	.byte NewLine
-.text	"Go on, do your best!"
+.text	"Vai lá, dê o seu melhor!"
 	.byte NewLine
-.text	"We're all behind you!"
+.text	"Estamos todos com vocês!"
 	.byte WaitForA
 
 	.byte EndText
@@ -151,29 +158,29 @@ dialogueCh6VillageNorthwestOfRibaut
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"I've been hearing a lot about how the Empire's"
+.text	"Eu tenho ouvido falar de como o Império tem"
 	.byte NewLine
-.text	"been hunting kids in all those other countries..."
+.text	"sequestrado crianças em todos os lugares..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Thanks to you lot, Isaach's free from the Empire"
+.text	"Graças a vocês, Isaach se libertará"
 	.byte NewLine
-.text	"at last, but the rest of the world's still in a"
+.text	"do jugo imperial, mas o resto do mundo"
 	.byte NewLine
-.text	"really dark place..."
+.text	"ainda está em uma situação tenebrosa..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"All across Jugdral, they're all waiting for"
+.text	"Por toda parte em Jugdral, o povo espera"
 	.byte NewLine
-.text	"Lord Seliph to rise up and defeat the Empire!"
+.text	"que Lorde Seliph derrote o Império!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Please, I'm begging you..."
+.text	"Por favor, eu lhes imploro..."
 	.byte NewLine
-.text	"You've gotta make it to Grannvale soon!"
+.text	"Cheguem até Grannvale o quanto antes!"
 	.byte WaitForA
 
 	.byte EndText
@@ -193,25 +200,28 @@ dialogueCh6VillageNorthwestOfRibaut_Seliph
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Ohhh!"
+.text	"Ahhh!"
 	.byte NewLine
-.text	"If it isn't Lord Seliph himself!"
+.text	"Se não é o próprio Lorde Seliph!"
 	.byte NewLine
-.text	"We can't thank you enough for all your help!"
+.text	"Mal podemos te agradecer pelo que fez por nós!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Here, allow me to give you my"
+.text	"Aqui, permita-me lhe oferecer a mão"
 	.byte NewLine
-.text	"granddaughter's hand in marriage."
+.text	"de minha neta em casamento."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"We raised her as well as well can be,"
+.text	"Nós a criamos do melhor jeito possível,"
 	.byte NewLine
-.text	"and she's the kindest, sweetest little thing!"
+.text	"e ela é a menina mais doce,"
 	.byte NewLine
-.text	"Oh, I remember that even as a kid she-"
+.text	"mais gentil que você vai conhecer!"
+	.byte WaitForA
+	.byte NewLine
+.text	"Ah, eu lembro que quando criança ela-"
 	
 	.byte RightSlot
 	.word CloseBox
@@ -221,9 +231,9 @@ dialogueCh6VillageNorthwestOfRibaut_Seliph
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
-.text	"Grandpa, knock it off!"
+.text	"Vovô, para com isso!"
 	.byte NewLine
-.text	"Ugh, this is so embarrassing!"
+.text	"Ah, isso é muito embaraçoso!"
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -239,29 +249,32 @@ dialogueCh6VillageNorthwestOfRibaut_Seliph
 	.word portrait_Seliph
 	
 	.byte RightSlot
-.text	"...I'm sorry, Lord Seliph. I wouldn't wish"
+.text	"...Me perdoe, Lorde Seliph. Eu não desejaria"
 	.byte NewLine
-.text	"seeing that sorry display upon anyone!"
+.text	"essa vergonha para ninguém!"
 	.byte NewLine
-.text	"But, er... if you do like me, milord..."
+.text	"Mas, hã..."
+	.byte WaitForA
+	.byte NewLine
+.text	"se você realmente gosta de mim, milorde..."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Seliph
 .text	"Er..."
 	.byte NewLine
-.text	"Wait a moment..."
+.text	"Espera um pouco..."
 	.byte NewLine
-.text	"That isn't why I'm here..."
+.text	"Não é por isso que eu vim aqui..."
 	
 	.byte RightSlot		;Gorl
 	.word PauseText
 	.byte $10
-.text	"Ahahahaha! C'mon, Lord Seliph!"
+.text	"Ahahahaha! Fala sério, Lorde Seliph!"
 	.byte NewLine
-.text	"It's just a joke! A j-o-k-e!"
+.text	"Foi só uma brincadeira! Uma broma!"
 	.byte NewLine
-.text	"Look, you've gone bright red! How adorable!"
+.text	"Olha só, você até ficou vermelho! Que fofo!"
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -280,14 +293,14 @@ dialogueCh6VillageNorthwestOfRibaut_Seliph
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
-.text	"I'm completely serious, though."
+.text	"Mas, eu estou falando sério."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Seliph
-.text	"Oh."
+.text	"Ah."
 	.byte NewLine
-.text	"Oh, dear..."
+.text	"Ah, meu deus..."
 	.byte WaitForA
 	
 	.byte EndText

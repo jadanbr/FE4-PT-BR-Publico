@@ -14,18 +14,18 @@ dialogueCh6IucharbaWaitsNextToCreidne
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey, knock it off! I don't want you hovering"
+.text	"Ei, sai fora! Eu não quero ver você"
 	.byte NewLine
-.text	"around me like a lost pup!"
+.text	"me rodeando igual um cachorrinho perdido!"
 	.byte NewLine
-.text	"It's irritating!"
+.text	"É irritante!"
 	
 	.byte RightSlot		;Iucharba
 	.word PauseText
 	.byte $10
-.text	"Oh, uh..."
+.text	"Ah, hã..."
 	.byte NewLine
-.text	"I just thought I should protect you..."
+.text	"Eu só queria te proteger..."
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -50,29 +50,29 @@ dialogueCh6IucharWaitsNextToCreidne
 
 	.byte LeftSlot
 	.byte StartText
-.text	"Hey, knock it off! I don't want you hovering"
+.text	"Ei, sai fora! Eu não quero ver você"
 	.byte NewLine
-.text	"around me like a lost pup!"
+.text	"me rodeando igual um cachorrinho perdido!"
 	.byte NewLine
-.text	"It's irritating!"
+.text	"É irritante!"
 	
 	.byte RightSlot		;Iuchar
 	.word PauseText
 	.byte $10
-.text	"Oh, what heartless barbs escape your lips!"
+.text	"Ah, que palavras terríveis saem de sua boca!"
 	.byte NewLine
-.text	"Must you truly so callously reject this,"
+.text	"Tem realmente que rejeitar isso,"
 	.byte NewLine
-.text	"the purest form of my deepest love?"
+.text	"a forma mais pura de meu amor?"
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"I am yours, "
+.text	"Eu sou teu, "
 	.word PrintBranchingName
 	.word name_LarceiCreidne
-.text	", body and soul!"
+.text	", de corpo e alma!"
 	.byte NewLine
-.text	"Never shall my vigilant guard abandon your side!"
+.text	"Eu nunca lhe abandonarei!"
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -90,13 +90,13 @@ dialogueCh6VisitIsaachWithDeimne
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"Hm? Aren't you Deimne?"
+.text	"Hm? Você não é o Deimne?"
 	.byte NewLine
 	.word PauseText
 	.byte $19
-.text	"...You are!"
+.text	"...Você é!"
 	.byte NewLine
-.text	"Deimne, it is you!"
+.text	"Deimne, é você!"
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -104,82 +104,82 @@ dialogueCh6VisitIsaachWithDeimne
 	.word OpenBox
 	.word LoadPortrait
 	.word portrait_Deimne
-.text	"What?"
+.text	"O quê?"
 	.byte NewLine
 .text	"Cruithne!"
 	.byte NewLine
-.text	"Been a while, hasn't it?"
+.text	"Faz tempo, não é?"
 	
 	.byte RightSlot		;Cruithne
 	.word PauseText
 	.byte $10
-.text	"A really long while, huh!"
+.text	"Muito tempo, né!"
 	.byte NewLine
-.text	"I've lost count of how many years it's been since"
+.text	"Eu até perdi a conta de quantos anos faz"
 	.byte NewLine
-.text	"you and Muirne said farewell to the city..."
+.text	"desde que você e Muirne saíram daqui..."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"It's great to see you're looking so good!"
+.text	"É bom ver vocês ainda bem!"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Deimne
-.text	"Yeah. You've heard of Lord Seliph's work to"
+.text	"Obrigado. Você ouviu que Seliph está"
 	.byte NewLine
-.text	"rebel against the empire's tyranny, right?"
+.text	"se rebelando contra o Império, certo?"
 	.byte NewLine
-.text	"Well, I've actually been fighting in his army."
+.text	"Bem, eu estou no exército dele."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Even if I'm hardly of much help to them..."
+.text	"Mesmo que eu não ajude muito..."
 	
 	.byte RightSlot		;Cruithne
 	.word PauseText
 	.byte $10
-.text	"Heh... That's amazing, though!"
+.text	"Heh... isso é incrível, porém!"
 	.byte NewLine
-.text	"Who knew that the little crybaby would"
+.text	"Quem soube que o bebê chorão um dia ia"
 	.byte NewLine
-.text	"someday become a revolutionary hero..."
-	.byte WaitForA
-	.word ScrollBoth
-
-	.byte LeftSlot		;Deimne
-.text	"Heh heh. But would you mind keeping the"
-	.byte NewLine
-.text	"crybaby part quiet?"
-	.byte NewLine
-.text	"...I've still a long way to go to become strong."
-	.byte WaitForA
-	.byte ScrollText
-	
-.text	"Strong enough that you and the entire world"
-	.byte NewLine
-.text	"can finally live in peace!"
-	
-	.byte RightSlot		;Cruithne
-	.word PauseText
-	.byte $10
-.text	"Right..."
-	.byte NewLine
-.text	"I hope you can..."
+.text	"ser herói revolucionário..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Deimne
-.text	"Something wrong?"
+.text	"Heh heh. Mas tem como deixar baixo essa"
+	.byte NewLine
+.text	"parte de bebê chorão?"
+	.byte NewLine
+.text	"...Ainda falta muito para eu ser forte."
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"Forte o suficiente para que você e todos"
+	.byte NewLine
+.text	"possam viver em paz!"
 	
 	.byte RightSlot		;Cruithne
 	.word PauseText
 	.byte $10
-.text	"Oh, er, it's nothing..."
+.text	"Certo..."
 	.byte NewLine
-.text	"Here, I want you to have this."
+.text	"Eu espero que..."
+	.byte WaitForA
+	.word ScrollBoth
+
+	.byte LeftSlot		;Deimne
+.text	"Algo de errado?"
+	
+	.byte RightSlot		;Cruithne
+	.word PauseText
+	.byte $10
+.text	"Ah, não, nada..."
 	.byte NewLine
-.text	"I'm sure it'll help you."
+.text	"Aqui, eu quero te dar isso."
+	.byte NewLine
+.text	"Estou certa de que vai te ajudar."
 	.byte WaitForA
 	.word ScrollBoth
 
@@ -189,55 +189,55 @@ dialogueCh6VisitIsaachWithDeimne
 	.byte RightSlot		;Cruithne
 	.word PauseText
 	.byte $10
-.text	"This necklace is all I've got left of Mom."
+.text	"Esse colar é uma lembrança da minha mãe."
 	.byte NewLine
-.text	"It makes you stronger when you wear it."
+.text	"Ele te deixa mais forte quando você o usa."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Deimne
-.text	"I can't take something like that from you!"
+.text	"Eu não posso pegar algo assim de você!"
 	
 	.byte RightSlot		;Cruithne
 	.word PauseText
 	.byte $10
-.text	"No, take it! I'm sure it'd make Mom happy"
+.text	"Não, pegue! Estou certa de que agradaria"
 	.byte NewLine
-.text	"for someone like you to finally put its"
+.text	"minha mãe se alguém finalmente usasse o"
 	.byte NewLine
-.text	"power to good use."
+.text	"poder dele para alguma coisa."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"...Please, Deimne."
+.text	"...Por favor, Deimne."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Deimne
-.text	"...Okay. Thanks, Cruithne. Don't worry."
+.text	"...Tá bom. Obrigado, Cruithne. Não se preocupe."
 	.byte NewLine
-.text	"I'll make sure you get it back as soon"
+.text	"Eu vou te entregar o colar de volta"
 	.byte NewLine
-.text	"as this war ends. I promise."
+.text	"quando a guerra acabar. Eu prometo."
 	
 	.byte RightSlot		;Cruithne
 	.word PauseText
 	.byte $10
-.text	"Heh, good ol' Deimne."
+.text	"Heh, Deimne."
 	.byte NewLine
-.text	"That's just like you..."
+.text	"Não mudou nada né..."
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Deimne
-.text	"Well, I guess I've gotta get back out there."
+.text	"Bem, é melhor eu voltar lá para fora."
 	.byte NewLine
-.text	"Take care, Cruithne!"
+.text	"Se cuide, Cruithne!"
 	
 	.byte RightSlot		;Cruithne
 	.word PauseText
 	.byte $10
-.text	"You too, Deimne!"
+.text	"Você também, Deimne!"
 	.byte WaitForA
 	.word ScrollBoth
 

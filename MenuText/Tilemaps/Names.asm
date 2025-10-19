@@ -182,7 +182,7 @@ names_tilemap
 .fill $0C, 0
 
 ; Hannibal
-.byte 5
+.byte 4
 .long $524600
 .fill $0C, 0
 
@@ -322,7 +322,7 @@ names_tilemap
 .fill $0C, 0
 
 ; Gerald
-.byte 4
+.byte 5
 .long $527E00
 .fill $0C, 0
 
@@ -391,7 +391,7 @@ names_tilemap
 .long $528800
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -426,7 +426,7 @@ names_tilemap
 .long $528400
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -436,8 +436,8 @@ names_tilemap
 .long $528400
 .fill $0C, 0
 
-; Ruffian
-.byte 5
+; Rufião
+.byte 4
 .long $529200
 .fill $0C, 0
 
@@ -456,12 +456,12 @@ names_tilemap
 .long $52A400
 .fill $0C, 0
 
-; Cross Knight
+; Cav. da Cruz
 .byte 7
 .long $529400
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -531,7 +531,7 @@ names_tilemap
 .long $52A200
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -541,8 +541,8 @@ names_tilemap
 .long $52AA00
 .fill $0C, 0
 
-; Ruffian
-.byte 5
+; Rufião
+.byte 4
 .long $529200
 .fill $0C, 0
 
@@ -581,13 +581,13 @@ names_tilemap
 .long $52B200
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
 ; Clement
-.byte 5
+.byte 6
 .long $52B400
 .fill $0C, 0
 
@@ -606,7 +606,7 @@ names_tilemap
 .long $52AC00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -631,7 +631,7 @@ names_tilemap
 .long $52B800
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -641,7 +641,7 @@ names_tilemap
 .long $52B800
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -651,7 +651,7 @@ names_tilemap
 .long $52B800
 .fill $0C, 0
 
-; Erinys' Unit
+; Esq. de Erinys
 .byte 7
 .long $52BA00
 .fill $0C, 0
@@ -721,7 +721,7 @@ names_tilemap
 .long $52C400
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -731,7 +731,7 @@ names_tilemap
 .long $52C400
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -741,7 +741,7 @@ names_tilemap
 .long $52C400
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -751,7 +751,7 @@ names_tilemap
 .long $52C400
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -761,7 +761,7 @@ names_tilemap
 .long $52C400
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -771,7 +771,7 @@ names_tilemap
 .long $52C400
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -781,12 +781,12 @@ names_tilemap
 .long $52C400
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -801,7 +801,7 @@ names_tilemap
 .long $52A400
 .fill $0C, 0
 
-; Cross Knight
+; Cav. da Cruz
 .byte 7
 .long $529400
 .fill $0C, 0
@@ -826,27 +826,27 @@ names_tilemap
 .long $52C800
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
@@ -856,7 +856,7 @@ names_tilemap
 .long $52CC00
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
@@ -866,22 +866,22 @@ names_tilemap
 .long $529E00
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
@@ -936,7 +936,7 @@ names_tilemap
 .long $52DA00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -947,7 +947,7 @@ names_tilemap
 .fill $0C, 0
 
 ; Kabeiri
-.byte 4
+.byte 5
 .long $52DC00
 .fill $0C, 0
 
@@ -956,7 +956,7 @@ names_tilemap
 .long $52DA00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -976,12 +976,12 @@ names_tilemap
 .long $52DE00
 .fill $0C, 0
 
-; Díthorba's Unit
+; Esq. de Díthorba
 .byte 7
 .long $52F000
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
@@ -1001,7 +1001,7 @@ names_tilemap
 .long $52D400
 .fill $0C, 0
 
-; Annand's Unit
+; Esq. de Annand
 .byte 7
 .long $52F400
 .fill $0C, 0
@@ -1011,7 +1011,7 @@ names_tilemap
 .long $52F600
 .fill $0C, 0
 
-; Pamela's Unit
+; Esq. de Pamela
 .byte 7
 .long $52F800
 .fill $0C, 0
@@ -1026,13 +1026,13 @@ names_tilemap
 .long $52E400
 .fill $0C, 0
 
-; Citizen
-.byte 4
+; Cidadão
+.byte 5
 .long $52FC00
 .fill $0C, 0
 
-; Citizen
-.byte 4
+; Cidadão
+.byte 5
 .long $52FC00
 .fill $0C, 0
 
@@ -1071,28 +1071,28 @@ names_tilemap
 .long $530200
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
@@ -1101,8 +1101,8 @@ names_tilemap
 .long $52D000
 .fill $0C, 0
 
-; Child
-.byte 3
+; Criança
+.byte 5
 .long $530400
 .fill $0C, 0
 
@@ -1121,7 +1121,7 @@ names_tilemap
 .long $530600
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1136,12 +1136,12 @@ names_tilemap
 .long $530600
 .fill $0C, 0
 
-; Ruffian
-.byte 5
+; Rufião
+.byte 4
 .long $529200
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1186,8 +1186,8 @@ names_tilemap
 .long $530E00
 .fill $0C, 0
 
-; Priest
-.byte 4
+; Sacerdote
+.byte 6
 .long $534800
 .fill $0C, 0
 
@@ -1206,8 +1206,8 @@ names_tilemap
 .long $531200
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
@@ -1271,7 +1271,7 @@ names_tilemap
 .long $531800
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1281,7 +1281,7 @@ names_tilemap
 .long $52E600
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1291,7 +1291,7 @@ names_tilemap
 .long $52E600
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1306,7 +1306,7 @@ names_tilemap
 .long $52CE00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1317,7 +1317,7 @@ names_tilemap
 .fill $0C, 0
 
 ; Harold
-.byte 4
+.byte 5
 .long $531A00
 .fill $0C, 0
 
@@ -1331,8 +1331,8 @@ names_tilemap
 .long $531C00
 .fill $0C, 0
 
-; Ruffian
-.byte 5
+; Rufião
+.byte 4
 .long $529200
 .fill $0C, 0
 
@@ -1396,8 +1396,8 @@ names_tilemap
 .long $532A00
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
@@ -1406,7 +1406,7 @@ names_tilemap
 .long $532A00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1421,8 +1421,8 @@ names_tilemap
 .long $532C00
 .fill $0C, 0
 
-; Ruffian
-.byte 5
+; Rufião
+.byte 4
 .long $529200
 .fill $0C, 0
 
@@ -1491,13 +1491,13 @@ names_tilemap
 .long $533800
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
@@ -1511,7 +1511,7 @@ names_tilemap
 .long $533000
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1541,23 +1541,23 @@ names_tilemap
 .long $534000
 .fill $0C, 0
 
-; High Mage
+; Alto mago
 .byte 6
 .long $534200
 .fill $0C, 0
 
-; High Mage
+; Alto mago
 .byte 6
 .long $534200
 .fill $0C, 0
 
-; High Mage
+; Alto mago
 .byte 6
 .long $534200
 .fill $0C, 0
 
 ; Muhammad
-.byte 7
+.byte 5
 .long $534400
 .fill $0C, 0
 
@@ -1576,12 +1576,12 @@ names_tilemap
 .long $534600
 .fill $0C, 0
 
-; Priest
-.byte 4
+; Sacerdote
+.byte 6
 .long $534800
 .fill $0C, 0
 
-; Ovo
+; Ovo ;é o que me deixa forte pra enfrentar qualquer bandido
 .byte 3
 .long $534A00
 .fill $0C, 0
@@ -1596,12 +1596,12 @@ names_tilemap
 .long $534600
 .fill $0C, 0
 
-; Ruffian
-.byte 5
+; Rufião
+.byte 4
 .long $529200
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1616,7 +1616,7 @@ names_tilemap
 .long $534C00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -1641,18 +1641,18 @@ names_tilemap
 .long $52FC00
 .fill $0C, 0
 
-; Citizen
-.byte 4
+; Cidadão
+.byte 5
 .long $52FC00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
@@ -1661,28 +1661,28 @@ names_tilemap
 .long $534E00
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
@@ -1706,38 +1706,38 @@ names_tilemap
 .long $534000
 .fill $0C, 0
 
-; Cappadocia
-.byte 7
+; Capádocia
+.byte 6
 .long $535200
 .fill $0C, 0
 
-; Cappadocia
-.byte 7
+; Capádocia
+.byte 6
 .long $535200
 .fill $0C, 0
 
-; Cappadocia
-.byte 7
+; Capádocia
+.byte 6
 .long $535200
 .fill $0C, 0
 
-; Cappadocia
-.byte 7
+; Capádocia
+.byte 6
 .long $535200
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
-; Ruffian
-.byte 5
+; Rufião
+.byte 4
 .long $529200
 .fill $0C, 0
 
@@ -1751,18 +1751,18 @@ names_tilemap
 .long $535600
 .fill $0C, 0
 
-; Galatia
-.byte 4
+; Galácia
+.byte 5
 .long $535800
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
@@ -1771,8 +1771,8 @@ names_tilemap
 .long $531000
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
@@ -1781,13 +1781,13 @@ names_tilemap
 .long $535A00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
 
-; Galatia
-.byte 4
+; Galácia
+.byte 5
 .long $535800
 .fill $0C, 0
 
@@ -1796,43 +1796,43 @@ names_tilemap
 .long $535C00
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
@@ -1866,27 +1866,27 @@ names_tilemap
 .long $536200
 .fill $0C, 0
 
-; Riedel's Unit
+; Esq. de Riedel
 .byte 7
 .long $536400
 .fill $0C, 0
 
-; Riedel's Unit
+; Esq. de Riedel
 .byte 7
 .long $536400
 .fill $0C, 0
 
-; Riedel's Unit
+; Esq. de Riedel
 .byte 7
 .long $536400
 .fill $0C, 0
 
-; Riedel's Unit
+; Esq. de Riedel
 .byte 7
 .long $536400
 .fill $0C, 0
 
-; Riedel's Unit
+; Esq. de Riedel
 .byte 7
 .long $536400
 .fill $0C, 0
@@ -1896,12 +1896,12 @@ names_tilemap
 .long $536600
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
-; Pirate
+; Pirata
 .byte 4
 .long $529800
 .fill $0C, 0
@@ -1911,38 +1911,38 @@ names_tilemap
 .long $536A00
 .fill $0C, 0
 
-; Loptr Bishop
+; Bispo loptriano
 .byte 7
 .long $536C00
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Child
-.byte 3
+; Criança
+.byte 5
 .long $530400
 .fill $0C, 0
 
-; Child
-.byte 3
+; Criança
+.byte 5
 .long $530400
 .fill $0C, 0
 
@@ -1951,43 +1951,43 @@ names_tilemap
 .long $536E00
 .fill $0C, 0
 
-; Loptrian
-.byte 5
-.long $536800
-.fill $0C, 0
-
-; Loptrian
-.byte 5
-.long $536800
-.fill $0C, 0
-
-; Loptrian
-.byte 5
-.long $536800
-.fill $0C, 0
-
-; Loptrian
-.byte 5
-.long $536800
-.fill $0C, 0
-
-; Loptrian
-.byte 5
-.long $536800
-.fill $0C, 0
-
-; Mercenary
+; Loptriano
 .byte 6
+.long $536800
+.fill $0C, 0
+
+; Loptriano
+.byte 6
+.long $536800
+.fill $0C, 0
+
+; Loptriano
+.byte 6
+.long $536800
+.fill $0C, 0
+
+; Loptriano
+.byte 6
+.long $536800
+.fill $0C, 0
+
+; Loptriano
+.byte 6
+.long $536800
+.fill $0C, 0
+
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
@@ -2021,8 +2021,8 @@ names_tilemap
 .long $52E600
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
@@ -2031,17 +2031,17 @@ names_tilemap
 .long $537200
 .fill $0C, 0
 
-; Child
-.byte 3
+; Criança
+.byte 5
 .long $530400
 .fill $0C, 0
 
-; Child
-.byte 3
+; Criança
+.byte 5
 .long $530400
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -2056,7 +2056,7 @@ names_tilemap
 .long $52E600
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -2071,7 +2071,7 @@ names_tilemap
 .long $52E600
 .fill $0C, 0
 
-; Commander
+; Comandante
 .byte 7
 .long $529000
 .fill $0C, 0
@@ -2091,13 +2091,13 @@ names_tilemap
 .long $52E600
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
@@ -2106,28 +2106,28 @@ names_tilemap
 .long $537400
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
@@ -2136,13 +2136,13 @@ names_tilemap
 .long $537600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
-; Mercenary
-.byte 6
+; Mercenário
+.byte 7
 .long $529600
 .fill $0C, 0
 
@@ -2176,13 +2176,13 @@ names_tilemap
 .long $537C00
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
@@ -2251,13 +2251,13 @@ names_tilemap
 .long $52E200
 .fill $0C, 0
 
-; Loptr Bishop
+; Bispo loptriano
 .byte 7
 .long $536C00
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
@@ -2266,8 +2266,8 @@ names_tilemap
 .long $538800
 .fill $0C, 0
 
-; Loptrian
-.byte 5
+; Loptriano
+.byte 6
 .long $536800
 .fill $0C, 0
 
@@ -2341,8 +2341,8 @@ names_tilemap
 .long $535C00
 .fill $0C, 0
 
-; Thracia
-.byte 5
+; Trácia
+.byte 4
 .long $52CA00
 .fill $0C, 0
 
@@ -2396,8 +2396,8 @@ names_tilemap
 .long $532800
 .fill $0C, 0
 
-; Ruffian
-.byte 5
+; Rufião
+.byte 4
 .long $529200
 .fill $0C, 0
 
@@ -2407,7 +2407,7 @@ names_tilemap
 .fill $0C, 0
 
 ; Clotho
-.byte 4
+.byte 3
 .long $53AE00
 .fill $0C, 0
 
@@ -2612,7 +2612,7 @@ names_tilemap
 .fill $0C, 0
 
 ; Hawkes
-.byte 5
+.byte 4
 .long $540000
 .fill $0C, 0
 
@@ -2697,7 +2697,7 @@ names_tilemap
 .fill $0C, 0
 
 ; Sigismond
-.byte 6
+.byte 7
 .long $542200
 .fill $0C, 0
 

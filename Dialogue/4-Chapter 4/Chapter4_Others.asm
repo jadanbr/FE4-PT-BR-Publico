@@ -7,19 +7,19 @@ dialogueCh4ApproachTofa
 	.word LoadPortrait
 	.word portrait_Myos2
 	.byte StartText
-.text	"Hm? I'd say those traitors are drawing perhaps"
+.text	"Hm... acho que eles estão um pouco"
 	.byte NewLine
-.text	"a bit too close for comfort."
+.text	"perto demais..."
 	.byte NewLine
-.text	"You there! Raise the Tófa River drawbridge!"
+.text	"Ei, você aí! Levante a ponte no rio Tófa!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Without this key, there's no way they'll ever"
+.text	"Sem essa chave aqui, eles nunca chegarão"
 	.byte NewLine
-.text	"get over here. Heh heh..."
+.text	"do outro lado. Heh heh..."
 	.byte NewLine
-.text	"I almost wish I could see the looks on their faces!"
+.text	"Queria muito ver a cara deles agora!"
 	.byte WaitForA
 
 	.byte EndText
@@ -32,9 +32,9 @@ dialogueCh4LowerBridge
 	.word LoadPortrait
 	.word portrait_Dew
 	.byte StartText
-.text	"What, just one of these locks?"
+.text	"O que, só uma tranca simples dessas?"
 	.byte NewLine
-.text	"C'mon, at least gimme a challenge..."
+.text	"Podia me dar algo mais difícil..."
 	.byte NewLine
 	.word MusicFadeOut
 	.byte $E0
@@ -44,7 +44,7 @@ dialogueCh4LowerBridge
 	.byte $0A
 	.word PauseText
 	.byte $5A
-.text	"Ta-da!"
+.text	"Abre-te sésamo!"
 	.word ChangeMusic
 	.byte $14
 	.byte WaitForA
@@ -66,56 +66,64 @@ dialogueCh4ApproachPamela
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"It's been a while, Pamela..."
+.text	"Já faz muito tempo que não te vejo, Pamela..."
 	.byte NewLine
-.text	"I've known you for years, ever since"
+.text	"Eu te conheço à anos, desde que nós treinamos"
 	.byte NewLine
-.text	"we trained side by side to become knights."
+.text	"juntas para nos tornarmos cavaleiras."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"But not once did I ever suspect we would"
+.text	"Mas nunca eu suspeitei que um dia"
 	.byte NewLine
-.text	"someday find ourselves as enemies."
+.text	"nós seríamos inimigas."
 
 	.byte RightSlot		;Pamela
 	.word PauseText
 	.byte $10
-.text	"Annand... Only you would be so foolish"
+.text	"Annand... Só você ia ser tão idiota ao"
 	.byte NewLine
-.text	"as to insist on following your queen"
+.text	"ponto de querer ir junto com sua rainha"
 	.byte NewLine
-.text	"to her inevitable grave!"
+.text	"para o túmulo!"
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"Why should I complain, though?"
+.text	"Mas porquê reclamar, né?"
 	.byte NewLine
-.text	"After all, once you're out of the way,"
+.text	"Afinal, quando você morrer, eu serei a"
 	.byte NewLine
-.text	"that leaves me as the greatest knight of Silesse!"
+.text	"melhor cavaleira de Silesse!"
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Annand
-.text	"The only fool here is you, Pamela!"
+.text	"A idiota aqui é você, Pamela!"
 	.byte NewLine
-.text	"No... It's too late to change your mind."
+.text	"Não... não há mais tempo para conversa."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"You're so set on your fate... Very well."
+.text	"Você está presa à seu caminho... muito bem."
 	.byte NewLine
-.text	"All I can do for you now is give you a last"
+.text	"Tudo que posso lhe fazer é lhe dar um duelo"
+	.byte WaitForA
+	.byte ScrollText
+	
+.text	"honroso, assim como faria com"
 	.byte NewLine
-.text	"honorable duel befitting a Silessian knight."
+.text	"qualquer outra cavaleira."
+	.byte NewLine
+.text	"En garde!"
 
 	.byte RightSlot		;Pamela
 	.word PauseText
 	.byte $10
 .text	"Heh..."
 	.byte NewLine
-.text	"Saccharine as ever, aren't you?"
+.text	"Sentimental como sempre, não é?"
+	.byte NewLine
+.text	"En garde!"
 	.byte WaitForA
 
 	.byte EndText
@@ -128,11 +136,11 @@ dialogueCh4KillAnnand1
 	.word LoadPortrait
 	.word portrait_Lahna
 	.byte StartText
-.text	"Annand has been killed?!"
+.text	"Annand morreu?!"
 	.byte NewLine
-.text	"Ahh... How could this happen..."
+.text	"Ahh... como isso pôde acontecer..."
 	.byte NewLine
-.text	"I'm so sorry, Annand... Forgive me..."
+.text	"Me perdoe, Annand... me perdoe..."
 	.byte WaitForA
 
 	.byte EndText
@@ -145,11 +153,14 @@ dialogueCh4KillAnnand2_LewynAlive
 	.word LoadPortrait
 	.word portrait_Lewyn
 	.byte StartText
-.text	"What?"
+.text	"O quê?"
 	.byte NewLine
-.text	"Annand's dead?!"
+.text	"Annand morreu?!"
 	.byte NewLine
-.text	"...Y-you're joking!!"
+.text	"...Isso deve ser um engano!!"
+	.byte WaitForA
+	.byte NewLine
+.text	"Essa notícia deve estar errada!"
 	.byte WaitForA
 
 	.byte EndText
@@ -162,17 +173,19 @@ dialogueCh4KillAnnand3_ErinysAlive
 	.word LoadPortrait
 	.word portrait_Erinys
 	.byte StartText
-.text	"Huh?"
+.text	"Hã?"
 	.byte NewLine
-.text	"Annand was..."
+.text	"Annand foi..."
 	.byte NewLine
-.text	"No! Th... this can't be happening!"
+.text	"Não! Isso... isso não pode estar acontecendo!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"How... how could anyone have killed her?"
+.text	"Como... como conseguiram matá-la?"
 	.byte NewLine
-.text	"This can't be..."
+.text	"Não pode ser..."
+	.byte NewLine
+.text	"minha irmã era a melhor de toda Silesse!"
 	.byte WaitForA
 
 	.byte EndText
@@ -194,28 +207,28 @@ dialogueCh4KillAnnandSquad
 	.byte StartText
 .text	"Heh..."
 	.byte NewLine
-.text	"I expected so much more from"
+.text	"Eu esperava muito mais dos famosos"
 	.byte NewLine
-.text	"Silesse's famous pegasus knights..."
+.text	"pégasos de Silesse..."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"No matter."
+.text	"Sem problema."
 	.byte NewLine
-.text	"I suppose we might as well"
+.text	"Já que estamos aqui, vamos capturar a"
 	.byte NewLine
-.text	"bring down the capital while we're here."
+.text	"capital também."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Pamela, your unit will cross the mountains."
+.text	"Pamela, sua unidade vai cruzar as montanhas."
 	.byte NewLine
-.text	"Beseige and capture Tófa immediately."
+.text	"Capture Tófa imediatamente."
 
 	.byte RightSlot		;Pamela
 	.word PauseText
 	.byte $10
-.text	"Very well."
+.text	"Muito bem."
 	.byte WaitForA
 
 	.byte EndText
@@ -230,9 +243,9 @@ dialogueCh4RescueMan
 	.byte StartText
 .text	"Oh!"
 	.byte NewLine
-.text	"You're here to save me?"
+.text	"Está aqui para me salvar?"
 	.byte NewLine
-.text	"Thank you so, so much!"
+.text	"Muito obrigado, muito obrigado mesmo!"
 	.byte WaitForA
 
 	.byte EndText
@@ -247,9 +260,9 @@ dialogueCh4RescueWoman
 	.byte StartText
 .text	"Ah!"
 	.byte NewLine
-.text	"Are you here to help me?"
+.text	"Veio nos ajudar?"
 	.byte NewLine
-.text	"I couldn't possibly thank you enough!"
+.text	"Não há como agradecer!"
 	.byte WaitForA
 
 	.byte EndText
@@ -269,199 +282,211 @@ dialogueCh4Forseti
 	
 	.byte LeftSlot
 	.byte StartText
-.text	"Mother! You're not hurt, are you?"
+.text	"Mãe! Você não está machucada, está?"
 	.byte NewLine
-.text	"When I heard that Silesse had fallen, I..."
+.text	"Quando eu ouvi que Silesse tinha caído, eu..."
 	.byte NewLine
-.text	"I was pretty worried there."
+.text	"Eu tinha ficado muito preocupado."
 
 	.byte RightSlot		;Lahna
 	.word PauseText
 	.byte $10
-.text	"Thank you so much for coming, Lewyn."
+.text	"Muito obrigado por vir, Lewyn."
 	.byte NewLine
-.text	"Perhaps at last, you've matured into a young man"
+.text	"Talvez enfim, você tenha amadurecido, e"
 	.byte NewLine
-.text	"who honors his promises."
+.text	"virado um homem que honra suas promessas."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"Perhaps Lord Sigurd has had quite the"
+.text	"Talvez Lorde Sigurd tenha sido uma"
 	.byte NewLine
-.text	"positive influence on you after all."
+.text	"influência positiva para você."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Lewyn
-.text	"Oh, come on, Mother!"
+.text	"Ah, fala sério, Mãe!"
 	.byte NewLine
-.text	"You don't need to act like I'm still a child."
+.text	"Não precisa agir como se fosse uma criança."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Besides, Sigurd is hardly all that much older"
+.text	"Além disso, Sigurd nem é tão mais"
 	.byte NewLine
-.text	"than I am."
+.text	"velho que eu."
 
 	.byte RightSlot		;Lahna
 	.word PauseText
 	.byte $10
-.text	"Dear, compared to the likes of Lord Sigurd,"
+.text	"Querido, comparado a alguém como Lorde Sigurd,"
 	.byte NewLine
-.text	"you may as well still be a screaming infant."
+.text	"você é só um bebê chorão."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"You've still much to learn from him, and quickly."
+.text	"Você tem muito a aprender com ele, e rápido."
 	.byte NewLine
-.text	"Nothing would be more reassuring than"
+.text	"Nada seria melhor do que ter um filho tão"
 	.byte NewLine
-.text	"having a son as fine as he by my side."
+.text	"bom quanto ele à meu lado."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Especially now that Annand is..."
+.text	"Ainda mais agora que Annand..."
 	.byte NewLine
-.text	"Oh..."
+.text	"Ah..."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Lewyn
-.text	"Annand... I should've been the one to die out there."
+.text	"Annand..."
 	.byte NewLine
-.text	"Not her."
+.text	"Era eu quee tinha que ter morrido lá fora."
 	.byte NewLine
-.text	"If only I'd gotten here sooner!"
+.text	"Não ela."
+	.byte WaitForA
+	.byte NewLine
+.text	"Se apenas eu tivesse voltado mais cedo!"
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Mother, I'll be here to protect you from now on."
+.text	"Mãe, eu estarei aqui"
 	.byte NewLine
-.text	"I won't let Annand's death go to waste."
+.text	"pra te proteger daqui em diante."
+	.byte NewLine
+.text	"Eu não deixarei a morte de Annand ser em vão."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"I swear, I will never, ever leave you again."
+.text	"Eu juro, nunca, nunca mais te deixar de novo."
 
 	.byte RightSlot		;Lahna
 	.word PauseText
 	.byte $10
-.text	"Oh, Lewyn..."
+.text	"Ah, Lewyn..."
 	.byte NewLine
-.text	"I never thought you were capable"
+.text	"Nunca achei que você poderia dizer"
 	.byte NewLine
-.text	"of saying anything so kind."
+.text	"algo tão lindo assim."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"But your word is more than enough."
+.text	"Mesmo assim, sua palavra"
 	.byte NewLine
-.text	"For now, at least, I believe you should"
+.text	"é o suficiente pra mim."
 	.byte NewLine
-.text	"remain at Lord Sigurd's side."
+.text	"Pelo menos por enquanto, quero que"
+	.byte WaitForA
+	.byte NewLine
+.text	"você fique junto à Lorde Sigurd."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"He has a greater need of your strength."
+.text	"Ele precisa mais do que eu de sua força."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Lewyn
-.text	"But if I do that, what about you...?"
+.text	"Mas se eu for com ele, e quanto a você...?"
 
 	.byte RightSlot		;Lahna
 	.word PauseText
 	.byte $10
-.text	"There's nothing to worry about, Lewyn."
+.text	"Não tem nada com que se preocupar, Lewyn."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"You are the heir of the wind crusader."
+.text	"Você é o herdeiro do cruzado do vento."
 	.byte NewLine
-.text	"Your place is with the rest of the world,"
+.text	"Seu lugar é com o resto do mundo, guiando"
 	.byte NewLine
-.text	"to lead and guide it on its true path."
+.text	"e liderando-o para o caminho certo."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"The time has come for me"
+.text	"Chegou a hora de eu lhe dar sua herança..."
 	.byte NewLine
-.text	"to confer upon you your true birthright..."
-	.byte NewLine
-.text	"The exalted wind tome, Forseti."
+.text	"O sagrado tomo dos ventos, Forseti."
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"Here, Lewyn."
+.text	"Aqui, Lewyn."
 	.byte NewLine
-.text	"It's yours."
+.text	"É seu."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Lewyn
-.text	"This... So this is the royal family's"
+.text	"Isso... então esse é o tomo ancestral"
 	.byte NewLine
-.text	"ancestral tome... The Book of Forseti..."
+.text	"de nossa família... o Livro de Forseti..."
 	.byte NewLine
-.text	"Oh! This power... What's this... warmth?"
+.text	"Ah! Esse poder... o que é esse... calor?"
 
 	.byte RightSlot		;Lahna
 	.word PauseText
 	.byte $10
-.text	"Lewyn, never forget:"
+.text	"Lewyn, nunca se esqueça:"
 	.byte NewLine
-.text	"the Wind Crusader flows as the gentlest breeze."
+.text	"o Cruzado do Vento passa"
+	.byte NewLine
+.text	"como uma gentil brisa."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"His way is to guide all the peoples of the world"
+.text	"Ele guia os povos do mundo"
 	.byte NewLine
-.text	"on the path of peace."
+.text	"à um caminho de paz."
 	.byte NewLine
-.text	"Hate and violence is never his answer."
+.text	"O ódio e a violência nunca são sua resposta."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Lewyn
-.text	"Yes, of course."
+.text	"Sim, claro."
 	.byte NewLine
-.text	"I don't think I could live my life any other way."
+.text	"Acho que eu não iria querer viver de"
+	.byte NewLine
+.text	"nenhuma outra forma."
 
 	.byte RightSlot		;Lahna
 	.word PauseText
 	.byte $10
-.text	"Indeed."
+.text	"Certamente."
 	.byte NewLine
-.text	"Perhaps you truly are a child of the wind..."
+.text	"Talvez você realmente"
+	.byte NewLine
+.text	"seja um filho do vento..."
 	.byte WaitForA
 	.word ScrollBoth
 	
-.text	"Lewyn... It's time for you to go."
+.text	"Lewyn... é hora de você ir."
 	.byte NewLine
-.text	"Take care out there, and..."
+.text	"Se cuide lá fora, e..."
 	.byte NewLine
-.text	"And don't do anything too rash."
+.text	"Não faça nada imprudente."
 	.byte WaitForA
 	.byte ScrollText
 	
 	.byte LeftSlot		;Lewyn
-.text	"Mother..."
+.text	"Mãe..."
 
 	.byte RightSlot		;Lahna
 	.word PauseText
 	.byte $10
-.text	"Go on!"
+.text	"Vá!"
 	.byte NewLine
-.text	"...For heaven's sake, go..."
+.text	"...Pelo amor dos céus, vá..."
 	.byte WaitForA
 	
 	.byte LeftSlot		;Lewyn
 	.word ScrollBoth
-.text	"Okay..."
+.text	"Ok..."
 	.byte NewLine
-.text	"Mother, please..."
+.text	"Mãe, por favor..."
 	.byte NewLine
-.text	"Take care of yourself."
+.text	"Se cuide."
 	.word PauseText
 	.byte $20
 	.byte ScrollText
@@ -472,7 +497,7 @@ dialogueCh4Forseti
 	.byte RightSlot		;Lahna
 	.word PauseText
 	.byte $40
-.text	"Oh..."
+.text	"Ah..."
 	.byte NewLine
 .text	"Lewyn..."
 	.byte WaitForA

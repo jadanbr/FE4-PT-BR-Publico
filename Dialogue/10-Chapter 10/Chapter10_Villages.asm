@@ -7,17 +7,17 @@ dialogueCh10VillageSoutheastOfKronos
 	.word LoadPortrait
 	.word portrait_Civilian_Woman
 	.byte StartText
-.text	"Ohh!"
+.text	"Ah!"
 	.byte NewLine
-.text	"Oh, noble crusader!"
+.text	"Ah, nobre cruzado!"
 	.byte NewLine
-.text	"We beg of you, save our children!"
+.text	"Lhe imploramos, salve nossas crianças!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"The children... the dark priests want to sacrifice"
+.text	"Os sacerdotes de Loptr querem sacrificar"
 	.byte NewLine
-.text	"them to their god!"
+.text	"elas para o seu deus!"
 	.byte WaitForA
 
 	.byte EndText
@@ -30,25 +30,25 @@ dialogueCh10VillageNortheastOfKronos
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"Few folk livin' today are as vile as that"
+.text	"Tem pouca gente tão má nesse mundo"
 	.byte NewLine
-.text	"Queen Hilda of Kronos."
+.text	"quanto a Rainha Hilda de Kronos."
 	.byte NewLine
-.text	"She's real cozy with them dark cultists."
+.text	"Ela é fechada com esses cultistas doidos."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"She goes 'round stealin' kids, then if they"
+.text	"Ela manda os homens dela raptar crianças"
 	.byte NewLine
-.text	"so much as cry, she kills the mams so calm-"
+.text	"por aí, e se as crianças chorarem, eles matam"
 	.byte NewLine
-.text	"like, you'd think she was just swattin' flies!"
+.text	"as mães, como se tivessem matando moscas!"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"There's no way that woman's human!"
+.text	"Não tem como aquela mulher ser humana!"
 	.byte NewLine
-.text	"It's a fiend that's rulin' us now..."
+.text	"É um demônio que está no trono agora..."
 	.byte WaitForA
 
 	.byte EndText
@@ -61,29 +61,31 @@ dialogueCh10VillageBetweenKronosAndRhodos
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"Long ago, the Twelve Crusaders waged holy war"
+.text	"Muito tempo atrás, os Doze Cruzados travaram"
 	.byte NewLine
-.text	"against the Loptrian Empire for fifteen years."
+.text	"uma guerra santa de 15 anos contra"
+	.byte NewLine
+.text	"o Império Loptiriano."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Nary a single corner of the land of Jugdral"
+.text	"A guerra se espalhou por todos os"
 	.byte NewLine
-.text	"escaped the war's clutches."
+.text	"cantos de Jugdral."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"It was Saint Heim who smote the dark god's"
+.text	"No final, foi São Heim, o avatar de Naga,"
 	.byte NewLine
-.text	"avatar, Emperor Gair XVII, restoring light"
+.text	"aquele que matou o avatar de Loptous,"
 	.byte NewLine
-.text	"to this land at long last."
+.text	"Imperador Gair XVII, e salvou nossa terra."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"And yet... the dark god is upon us once more."
+.text	"Mas... o deus das trevas está voltando..."
 	.byte NewLine
-.text	"Oh, great crusaders, protect us all!"
+.text	"Oh, grandes cruzados, salvem-nos!"
 	.byte WaitForA
 
 	.byte EndText
@@ -96,25 +98,28 @@ dialogueCh10VillageNorthOfRhodos
 	.word LoadPortrait
 	.word portrait_Civilian_BigNose2
 	.byte StartText
-.text	"'Tis only been lately that we've had t'deal"
+.text	"Esses rituais de sacríficio só começaram"
 	.byte NewLine
-.text	"with these rites of sacrifice."
+.text	"a acontecer nos últimos anos."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Not so long ago, from what I hear,"
+.text	"Não muito tempo atrás, o Imperador tinha"
 	.byte NewLine
-.text	"Emperor Arvis himself forbade 'em entirely."
+.text	"proibido esses rituais. O que diabos"
 	.byte NewLine
-.text	"What the devil could've changed his mind?"
+.text	"aconteceu que ele mudou de ideia?"
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Please, I'm beggin' you!"
+.text	"Por favor, eu te imploro!"
 	.byte NewLine
-.text	"You've gotta save our children!"
+.text	"Salve nossas crianças!"
+	.byte WaitForA
+	.byte ScrollText
+.text	"Leve este anel de magia,"
 	.byte NewLine
-.text	"Here, this magic ring oughta help you out."
+.text	"é o jeito que podemos ajudar nessa guerra!"	
 	.byte WaitForA
 
 	.byte EndText
@@ -127,21 +132,24 @@ dialogueCh10VillageNorthLeft
 	.word LoadPortrait
 	.word portrait_Civilian_YoungWoman
 	.byte StartText
-.text	"A terrifying man, that Prince Julius is..."
+.text	"Que homem assustador, aquele Príncipe Julius..."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Just a single glance into those eyes of his"
+.text	"Só uma olhada nos olhos dele e parece que"
 	.byte NewLine
-.text	"and you're gone... You lose yourself."
+.text	"você fica sei lá... hipnotizado."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"So many of my friends and others my age've"
+.text	"Muitos dos meus amigos e outras pessoas da"
 	.byte NewLine
-.text	"all left for Belhalla to serve him."
+.text	"minha idade foram para Belhalla serví-lo."
 	.byte NewLine
-.text	"I've heard nothing from any of 'em since..."
+.text	"E desde então,"
+	.byte WaitForA
+	.byte NewLine
+.text	"eu nunca mais ouvi falar deles..."
 	.byte WaitForA
 
 	.byte EndText
@@ -154,15 +162,15 @@ dialogueCh10VillageNorthRight
 	.word LoadPortrait
 	.word portrait_Civilian_OldMan
 	.byte StartText
-.text	"None of yeh come even close t'being strong"
+.text	"Desculpa falar isso meninos, mas vocês"
 	.byte NewLine
-.text	"enough to t'fight Prince Julius."
+.text	"num tem chance contra o Príncipe Julius."
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Hate t'say it, but sometimes, yeh need t'make"
+.text	"Talvez ocês tenham que sacrificar alguém"
 	.byte NewLine
-.text	"sacrifices if yeh wanna keep goin'..."
+.text	"pra poder seguir em frente..."
 	.byte WaitForA
 
 	.byte EndText

@@ -48,7 +48,7 @@ NewGame
 
 CopyData
 .byte StartText
-.text "Copiar save"
+.text "Copiar arquivo"
 .byte EndText
 
 .here
@@ -58,7 +58,7 @@ CopyData
 
 EraseData
 .byte StartText
-.text "§8_Apagar Save§8_§8_"
+.text "§4_Apagar arquivo§8_"
 .byte EndText
 
 .here
@@ -68,7 +68,7 @@ EraseData
 
 Save
 .byte StartText
-.text "Save§8_"
+.text "Salvar"
 .byte EndText
 
 .here
@@ -77,7 +77,7 @@ Save
 .logical $5058E0
 
 Erase
-.byte StartText
+.byte SlimText
 .text "Apagar"
 .byte EndText
 
@@ -88,7 +88,7 @@ Erase
 
 Quit
 .byte StartText
-.text "Sair§8_"
+.text "Não§8_"
 .byte EndText
 
 .here

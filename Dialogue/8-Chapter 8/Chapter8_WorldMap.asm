@@ -117,7 +117,7 @@ dialogueCh8WM3
 
 .text	"Após isso, o Império estabeleceu um estado"
 	.byte NewLine
-.text	"vassalo: o Reino da Trácia do Norte,"
+.text	"vassalo: o Reino da Trácia Setentrional,"
 	.byte WaitForA
 	.byte NewLine
 .text	"com Bloom sendo seu Rei."

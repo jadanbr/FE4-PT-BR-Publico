@@ -1436,7 +1436,7 @@ dialogueCh3SeizeOrgahil2
 	.byte WaitForA
 	.byte ScrollText
 
-.text	"Capturem esses compamnheiros do vil Byron,"
+.text	"Capturem esses companheiros do vil Byron,"
 	.byte NewLine
 .text	"cúmplices em seu assassinato de Kurth"
 	.byte NewLine

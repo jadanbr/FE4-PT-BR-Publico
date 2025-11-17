@@ -1339,7 +1339,7 @@ dialogueCh6Talk_Scathach_Larcei
 	.byte NewLine
 .text	"Acho que você é igual a nossa mãe,"
 	.byte NewLine
-.text	"se o que Príncipe Shannan for verdade."
+.text	"se o que Príncipe Shannan disse for verdade."
 	
 	.byte RightSlot		;Larcei
 	.word PauseText

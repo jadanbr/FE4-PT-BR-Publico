@@ -1776,7 +1776,7 @@ dialogueCh7SeizeDahna1
 	.byte $10
 .text	"Heh..."
 	.byte NewLine
-.text	"Não se preoucpe, Seliph."
+.text	"Não se preocupe, Seliph."
 	.byte NewLine
 .text	"Você entenderá daqui a pouco..."
 	.byte WaitForA

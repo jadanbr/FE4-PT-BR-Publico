@@ -195,7 +195,7 @@ dialogueCh10Intro1
 
 .text	"Além do que já disse,"
 	.byte NewLine
-.text	"eles também nos roubaram a Trácia do Norte!"
+.text	"eles também nos roubaram a Trácia Setentrional!"
 	.byte WaitForA
 	.byte ScrollText
 	

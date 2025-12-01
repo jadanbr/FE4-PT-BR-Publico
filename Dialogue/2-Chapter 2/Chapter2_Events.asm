@@ -41,7 +41,7 @@ dialogueCh2Intro1
 	.byte ScrollText
 
 	.byte LeftSlot		;Eldigan
-.text	"Irmã, por favor, não diga esse tipo"
+.text	"Irmã, por favor, não fale esse tipo"
 	.byte NewLine
 .text	"de coisa sobre o seu rei."
 	.byte WaitForA

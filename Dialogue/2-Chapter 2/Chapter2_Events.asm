@@ -41,8 +41,11 @@ dialogueCh2Intro1
 	.byte ScrollText
 
 	.byte LeftSlot		;Eldigan
-.text	"Não fale esse tipo de coisa sobre seu rei!"
+.text	"Irmã, por favor, não diga esse tipo"
 	.byte NewLine
+.text	"de coisa sobre o seu rei."
+	.byte WaitForA
+	.byte ScrollText
 .text	"Eu também ouvi rumores de seu envolvimento."
 	.byte NewLine
 .text	"Mas são apenas isso: rumores."

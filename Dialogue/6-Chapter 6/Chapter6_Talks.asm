@@ -403,19 +403,21 @@ dialogueCh6Talk_Oifey_Seliph
 	.byte NewLine
 .text	"Que bom te ver de novo."
 	.byte NewLine
-.text	"Ouviu alguma notícia de fora?"
+.text	"Trouxe boas novas de fora?"
 	.byte WaitForA
 	.word ScrollBoth
 
 	.byte LeftSlot		;Oifey
-.text	"A mão do Império está apertando, como se"
+.text	"Infelizmente não, senhor."
 	.byte NewLine
-.text	"quisesse sufocar a vida do povo."
+.text	"A mão do Império segue apertando,"
 	.byte NewLine
-.text	"Isso causa várias pequenas revoltas,"
+.text	"e as condições do povo, piorando."
 	.byte WaitForA
+	.byte ScrollText
+.text	"De vez em quando, ocorrem revoltas,"
 	.byte NewLine
-.text	"mas nenhuma delas tem chance de vitória."
+.text	"mas nenhuma é promissora."
 	
 	.byte RightSlot		;Seliph
 	.word PauseText

@@ -30,9 +30,9 @@ dialogueIntro1
 	.byte WaitForA
 	.word ScrollBoth
 
-.text	"Garanta que o maior número"
+.text	"Tente fugir com quem restou,"
 	.byte NewLine
-.text	"possível de cavaleiros fujam vivos."
+.text	"por favor."
 	.byte WaitForA
 	.byte ScrollText
 	
@@ -101,7 +101,7 @@ dialogueIntro2
 	.byte NewLine
 .text	"Não posso arriscar suas vidas"
 	.byte WaitForA
-	.byte ScrollText
+	.byte NewLine
 .text	"mandando-os contra eles."
 	
 	.byte RightSlot			;Naoise
